@@ -1,0 +1,56 @@
+{
+  "id": "comp_italy_league",
+  "name": "Lega Italiana",
+  "name_en": "Italian League",
+  "type": "league",
+  "region_id": "italy",
+  "country_ids": [
+    "ita"
+  ],
+  "level": 2,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_roma_ruggenti",
+    "club_milano_mangiafuoco",
+    "club_napoli_nottole",
+    "club_benevento_befane",
+    "club_torino_tori",
+    "club_venezia_viverne",
+    "club_firenze_falchi",
+    "club_messina_morgane"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.sibillini_mountains",
+    "venue.sila_plateau",
+    "venue.brenta_dolomites",
+    "venue.maremma",
+    "venue.aosta_valley"
+  ],
+  "prizes": {
+    "galleons_champion": 3500,
+    "galleons_per_position_step": 175,
+    "awards": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] League added for the game: the books do not name it."
+}

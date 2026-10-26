@@ -1,0 +1,50 @@
+{
+  "id": "club_fitchburg_finches",
+  "name": "Fitchburg Finches",
+  "short_name": "Finches",
+  "city": "Fitchburg, Massachusetts, EE. UU.",
+  "country_id": "usa",
+  "region_id": "usa",
+  "founded": 1898,
+  "colors": {
+    "primary": "#F9A825",
+    "secondary": "#263238"
+  },
+  "emblem_key": "finch",
+  "identity": {
+    "style_tags": [
+      "dominant"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_sweetwater_all_stars"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_usa_league",
+  "level": 1,
+  "reputation": 8500,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 4,
+    "broom_workshop": 3
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 7,
+    "european_cups": 0,
+    "notes_keys": [
+      "club.fitchburg.brankovitch"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "7 US league titles; their Seeker Maximus Brankovitch III captained the USA at two World Cups [QTTA c8]. Color hex, level, reputation, finances and facilities [inferred/filler]. Founding year 1898 [FILLER]: not given in the books (respects the limits deduced from canon). Rivalry with Sweetwater All-Stars [FILLER]: invented for the game (inferred from their 1926 US league Grand Final [FB])."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "club_la_paz_llamas",
+  "name": "La Paz Llamas",
+  "short_name": "Llamas",
+  "city": "La Paz, Bolivia",
+  "country_id": "bol",
+  "region_id": "andes",
+  "founded": 1911,
+  "colors": {
+    "primary": "#C62828",
+    "secondary": "#FBC02D"
+  },
+  "emblem_key": "meteor",
+  "emblem_desc": "a llama wreathed in flames",
+  "identity": {
+    "style_tags": [
+      "fierce"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_andes_league",
+  "level": 2,
+  "reputation": 4680,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 4,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

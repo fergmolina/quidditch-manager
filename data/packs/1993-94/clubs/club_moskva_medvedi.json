@@ -1,0 +1,49 @@
+{
+  "id": "club_moskva_medvedi",
+  "name": "Moskva Medvedi",
+  "short_name": "Medvedi",
+  "city": "Moscú, Rusia",
+  "country_id": "rus",
+  "region_id": "eastern_europe",
+  "founded": 1868,
+  "colors": {
+    "primary": "#B71C1C",
+    "secondary": "#FFD54F"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a brown bear rearing with a broomstick",
+  "identity": {
+    "style_tags": [
+      "aggressive"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_sankt_peterburg_sirini"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_eastern_europe_league",
+  "level": 1,
+  "reputation": 7420,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 6,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Sankt-Peterburg Sirini [FILLER]: invented for the game (the Russian derby, the two old capitals)."
+}

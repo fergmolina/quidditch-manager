@@ -1,0 +1,49 @@
+{
+  "id": "club_bogota_brujas",
+  "name": "Bogotá Brujas",
+  "short_name": "Brujas",
+  "city": "Bogotá, Colombia",
+  "country_id": "col",
+  "region_id": "andes",
+  "founded": 1903,
+  "colors": {
+    "primary": "#4A148C",
+    "secondary": "#9CCC65"
+  },
+  "emblem_key": "charm",
+  "emblem_desc": "a witch on a broom against the moon",
+  "identity": {
+    "style_tags": [
+      "aggressive"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_medellin_mariposas"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_andes_league",
+  "level": 1,
+  "reputation": 7300,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 5,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Medellín Mariposas [FILLER]: invented for the game (the Colombian derby)."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "comp_france_league",
+  "name": "Liga de Francia",
+  "name_en": "French League",
+  "type": "league",
+  "region_id": "france",
+  "country_ids": [
+    "fra"
+  ],
+  "level": 2,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_quiberon_quafflepunchers",
+    "club_paris_phenix",
+    "club_marseille_mistrals",
+    "club_lyon_lutins",
+    "club_bordeaux_busards",
+    "club_toulouse_tarasques",
+    "club_lille_licornes",
+    "club_nantes_narvals",
+    "club_strasbourg_sylphes"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.lanvaux_moors",
+    "venue.causse_du_larzac",
+    "venue.vercors",
+    "venue.marais_poitevin",
+    "venue.broceliande_forest"
+  ],
+  "prizes": {
+    "galleons_champion": 3500,
+    "galleons_per_position_step": 175,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "Canon 'French league' [QTTA c8]; France finalist in 2006 [PM-WC]. Format copied from the British league [FILLER]; venues [FILLER]; prizes [filler]."
+}

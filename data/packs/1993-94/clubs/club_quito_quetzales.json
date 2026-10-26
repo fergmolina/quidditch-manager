@@ -1,0 +1,49 @@
+{
+  "id": "club_quito_quetzales",
+  "name": "Quito Quetzales",
+  "short_name": "Quetzales",
+  "city": "Quito, Ecuador",
+  "country_id": "ecu",
+  "region_id": "andes",
+  "founded": 1922,
+  "colors": {
+    "primary": "#2E7D32",
+    "secondary": "#E53935"
+  },
+  "emblem_key": "macaw",
+  "emblem_desc": "a resplendent quetzal",
+  "identity": {
+    "style_tags": [
+      "attacking"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_guayaquil_guacamayos"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_andes_league",
+  "level": 2,
+  "reputation": 4440,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Guayaquil Guacamayos [FILLER]: invented for the game (the Ecuadorian derby: the highland capital against the coast)."
+}

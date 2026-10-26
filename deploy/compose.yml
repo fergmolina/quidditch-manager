@@ -1,0 +1,192 @@
+name: qm
+
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "5"
+
+x-hardening: &hardening
+  security_opt: ["no-new-privileges:true"]
+  cap_drop: ["ALL"]
+
+services:
+  cloudflared:
+    image: cloudflare/cloudflared:2026.10.3
+    profiles: ["edge"]
+    restart: unless-stopped
+    command: ["tunnel", "--no-autoupdate", "run"]
+    environment:
+      TUNNEL_TOKEN: ${CLOUDFLARE_TUNNEL_TOKEN:-}
+    depends_on:
+      - caddy
+    networks: [front]
+    read_only: true
+    <<: *hardening
+    mem_limit: 128m
+    pids_limit: 64
+    logging: *logging
+
+  caddy:
+    image: caddy:2.11.7-alpine
+    restart: unless-stopped
+    # The deploy directory is mounted (not the single Caddyfile): `git pull` replaces files by rename, and a
+    # single-file bind mount would keep showing the old inode.
+    command: ["caddy", "run", "--config", "/etc/qm-deploy/Caddyfile", "--adapter", "caddyfile"]
+    environment:
+      XDG_CONFIG_HOME: /config
+      XDG_DATA_HOME: /data
+    volumes:
+      - ./:/etc/qm-deploy:ro
+      - ${QM_DATA_DIR:-/srv/quidditch-manager-data}/web:/srv/web:ro
+    tmpfs:
+      - /config:size=4m,mode=1777
+      - /data:size=4m,mode=1777
+    ports:
+      - "127.0.0.1:${QM_HTTP_PORT:-8080}:8080"
+    networks: [front, back]
+    user: "65534:65534"
+    read_only: true
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+    # The caddy binary in the official image carries the file capability cap_net_bind_service=ep. The kernel
+    # refuses to exec such a binary when that capability is outside the bounding set ("operation not permitted"),
+    # even for a non-root user on port 8080. Keeping only this one capability is the smallest working set.
+    cap_add: ["NET_BIND_SERVICE"]
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:2019/config/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    mem_limit: 128m
+    pids_limit: 128
+    logging: *logging
+
+  api:
+    image: qm-api:current
+    pull_policy: never
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NODE_ENV: ${NODE_ENV:-production}
+      SITE_URL: ${SITE_URL:-}
+      DATABASE_URL: ${DATABASE_URL:-postgres://${DB_API_USER:-qm_api}:${DB_API_PASSWORD:?set DB_API_PASSWORD in .env}@db:5432/${POSTGRES_DB:-qm}}
+      DB_POOL_MAX: ${DB_POOL_MAX:-5}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+      RESEND_API_KEY: ${RESEND_API_KEY:-}
+      MAIL_FROM: ${MAIL_FROM:-}
+      LOGIN_EMAIL: ${LOGIN_EMAIL:-on}
+      MAIL_DAILY_CAP: ${MAIL_DAILY_CAP:-90}
+      AUTH_SECRET: ${AUTH_SECRET:-}
+      TERMS_VERSION: ${TERMS_VERSION:-}
+      LEGAL_CONTROLLER: ${LEGAL_CONTROLLER:-}
+      LEGAL_CONTACT_EMAIL: ${LEGAL_CONTACT_EMAIL:-}
+      SESSION_RATE_PER_MINUTE: ${SESSION_RATE_PER_MINUTE:-60}
+      DOWNLOADS_URL: ${DOWNLOADS_URL:-}
+      FEEDBACK_TO: ${FEEDBACK_TO:-}
+      # Promised on the account deletion page; keep it at or above the backup service's keep window (7 daily + 4 weekly).
+      BACKUP_RETENTION_DAYS: ${BACKUP_RETENTION_DAYS:-45}
+      TZ: UTC
+    networks: [back, data]
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m
+    <<: *hardening
+    mem_limit: 256m
+    pids_limit: 128
+    stop_grace_period: 15s
+    logging: *logging
+
+  db:
+    build: ./postgres
+    image: qm-db:local
+    restart: unless-stopped
+    # The official entrypoint switches to `postgres` with gosu, which needs CHOWN/SETUID. Running as that user from
+    # the start lets the container drop every capability (the named volume is created owned by postgres).
+    user: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-qm}
+      POSTGRES_INITDB_ARGS: "--data-checksums --locale=C.UTF-8 --encoding=UTF8"
+      QM_INIT_SCHEMA: ${QM_INIT_SCHEMA:-1}
+      DB_API_PASSWORD: ${DB_API_PASSWORD:?set DB_API_PASSWORD in .env}
+      TZ: UTC
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ../server/migrations:/opt/qm/migrations:ro
+      - ./lib:/srv/deploy/lib:ro
+    tmpfs:
+      - /var/run/postgresql:size=1m,mode=1777
+      - /tmp:size=64m,mode=1777
+    networks: [data]
+    read_only: true
+    <<: *hardening
+    shm_size: 128mb
+    stop_grace_period: 60s
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d ${POSTGRES_DB:-qm} -q"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+    mem_limit: 512m
+    pids_limit: 200
+    logging: *logging
+
+  backup:
+    build: ./backup
+    image: qm-backup:local
+    profiles: ["ops"]
+    user: "${QM_UID:-1000}:${QM_GID:-1000}"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      PGHOST: db
+      PGPORT: "5432"
+      PGUSER: postgres
+      PGPASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      PGDATABASE: ${POSTGRES_DB:-qm}
+      DB_API_USER: ${DB_API_USER:-qm_api}
+      DB_API_PASSWORD: ${DB_API_PASSWORD:?set DB_API_PASSWORD in .env}
+      MIGRATIONS_DIR: /srv/migrations
+      B2_KEY_ID: ${B2_KEY_ID:-}
+      B2_APP_KEY: ${B2_APP_KEY:-}
+      B2_BUCKET: ${B2_BUCKET:-}
+      B2_PATH: ${B2_PATH:-qm}
+      BACKUP_CRYPT_PASSWORD: ${BACKUP_CRYPT_PASSWORD:-}
+      BACKUP_KEEP_DAILY: ${BACKUP_KEEP_DAILY:-7}
+      BACKUP_KEEP_WEEKLY: ${BACKUP_KEEP_WEEKLY:-4}
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:-}
+      TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID:-}
+      HOME: /tmp
+      TZ: UTC
+    volumes:
+      - ${QM_DATA_DIR:-/srv/quidditch-manager-data}/backups:/backups
+      - ./db:/srv/deploy/db:ro
+      - ./lib:/srv/deploy/lib:ro
+      - ../server/migrations:/srv/migrations:ro
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    networks: [data, ops]
+    read_only: true
+    <<: *hardening
+    cpu_shares: 256
+    mem_limit: 256m
+    pids_limit: 64
+    logging: *logging
+
+networks:
+  front: {}
+  back: {}
+  data:
+    internal: true
+  ops: {}
+
+volumes:
+  pgdata: {}

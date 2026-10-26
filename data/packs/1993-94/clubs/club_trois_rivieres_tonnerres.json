@@ -1,0 +1,49 @@
+{
+  "id": "club_trois_rivieres_tonnerres",
+  "name": "Trois-Rivières Tonnerres",
+  "short_name": "Tonnerres",
+  "city": "Trois-Rivières, Canadá",
+  "country_id": "can",
+  "region_id": "canada",
+  "founded": 1890,
+  "colors": {
+    "primary": "#283593",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "thunder",
+  "emblem_desc": "a thunderbird over a river",
+  "identity": {
+    "style_tags": [
+      "attacking"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_haileybury_hammers"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_canada_league",
+  "level": 2,
+  "reputation": 4680,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 4,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Haileybury Hammers [FILLER]: invented for the game (Ontario against Quebec; both clubs were founded in 1890)."
+}

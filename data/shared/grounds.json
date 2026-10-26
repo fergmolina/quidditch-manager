@@ -1,0 +1,30 @@
+{
+ "notes": "[game/FILLER] Clubs' own grounds. In the books professional Quidditch is played on remote moors (QTTA c7: Bodmin Moor, Ilkley Moor...) and the only stadium described is the 1994 World Cup one (100,000 people, Dartmoor). Here each club has a named ground (landscape type of its region + its city) and stands with a capacity based on its level; this is a game invention so that there are small and large stadiums.",
+ "capacity_by_level": {"1": [18000, 32000], "2": [7000, 15000], "3": [2500, 6000]},
+ "neutral": {"wc_knockout": 100000, "wc_groups": 40000, "cup": 60000, "cont_knockout": 45000, "cont_groups": 30000, "national_cup": 25000, "default": 20000},
+ "kinds_by_region": {
+  "british_isles": ["moor", "heath", "downs", "fells"],
+  "france": ["heath", "clearing", "plateau"],
+  "germany": ["clearing", "heath", "highland"],
+  "iberia_lux": ["plateau", "sierra", "meadow"],
+  "italy": ["hills", "plateau", "meadow"],
+  "low_countries": ["fields", "heath", "dunes"],
+  "central_europe": ["highland", "clearing", "valley"],
+  "eastern_europe": ["steppe", "plain", "highland"],
+  "nordic": ["tundra", "fells", "meadow"],
+  "usa": ["prairie", "canyon", "fields"],
+  "canada": ["tundra", "clearing", "prairie"],
+  "mexico_caribbean": ["island", "plateau", "highland"],
+  "brazil": ["savannah", "highland", "island"],
+  "andes": ["altiplano", "salt_flat", "valley"],
+  "argentina": ["pampa", "plateau", "valley"],
+  "africa": ["savannah", "plateau", "hills"],
+  "maghreb": ["dunes", "plateau"],
+  "indian_ocean": ["island", "highland"],
+  "middle_east": ["steppe", "dunes", "plateau"],
+  "south_asia": ["plateau", "hills", "plain"],
+  "east_asia": ["plain", "hills", "valley"],
+  "japan": ["plateau", "valley", "island"],
+  "oceania": ["plain", "island", "highland"]
+ }
+}

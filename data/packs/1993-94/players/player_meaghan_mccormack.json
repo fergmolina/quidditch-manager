@@ -1,0 +1,91 @@
+{
+  "id": "player_meaghan_mccormack",
+  "first_name": "Meaghan",
+  "last_name": "McCormack",
+  "gender": "f",
+  "nationality_ids": [
+    "sco"
+  ],
+  "birth_date": "1969-07-01",
+  "birth_date_estimated": true,
+  "main_position": "K",
+  "positions": {
+    "K": 20,
+    "C": 6,
+    "B": 5,
+    "S": 4
+  },
+  "attributes": {
+    "flying": {
+      "speed": 10,
+      "acceleration": 10,
+      "agility": 12,
+      "broom_control": 10,
+      "balance": 10,
+      "altitude": 13,
+      "dive": 10
+    },
+    "technical": {
+      "passing": 11,
+      "catching": 11,
+      "shooting": 6,
+      "dodging": 6,
+      "stealing": 6,
+      "interception": 10,
+      "keeping": 14,
+      "beating": 6,
+      "beat_accuracy": 6,
+      "snitch_catching": 6
+    },
+    "mental": {
+      "aggression": 10,
+      "anticipation": 13,
+      "bravery": 13,
+      "composure": 10,
+      "concentration": 13,
+      "creativity": 10,
+      "decisions": 10,
+      "determination": 14,
+      "flair": 10,
+      "influence": 13,
+      "off_ball": 10,
+      "positioning": 14,
+      "teamwork": 10,
+      "work_rate": 10
+    },
+    "physical": {
+      "stamina": 11,
+      "strength": 12,
+      "natural_fitness": 11,
+      "reflexes": 14,
+      "eyesight": 11
+    }
+  },
+  "hidden": {
+    "consistency": 13,
+    "big_matches": 10,
+    "injury_proneness": 10,
+    "dirtiness": 10,
+    "versatility": 10,
+    "adaptability": 10,
+    "ambition": 10,
+    "controversy": 10,
+    "loyalty": 16,
+    "pressure": 13,
+    "professionalism": 15,
+    "sportsmanship": 10,
+    "temperament": 10
+  },
+  "ca": 124,
+  "pa": 132,
+  "club_id": "club_pride_of_portree",
+  "squad": "first",
+  "is_captain": false,
+  "broom": {
+    "model_id": "broom_cleansweep_seven",
+    "condition": 100
+  },
+  "traits_text_keys": [],
+  "source": "canon_qtta",
+  "notes": "Portree Keeper, daughter of Catriona McCormack (captain in the 60s) [QTTA c7]. Estimated birth date. Attributes, CA/PA and broom [inferred]."
+}

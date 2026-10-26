@@ -1,0 +1,91 @@
+{
+  "id": "player_joey_jenkins",
+  "first_name": "Joey",
+  "last_name": "Jenkins",
+  "gender": "m",
+  "nationality_ids": [
+    "eng"
+  ],
+  "birth_date": "1965-05-01",
+  "birth_date_estimated": true,
+  "main_position": "B",
+  "positions": {
+    "K": 4,
+    "C": 6,
+    "B": 20,
+    "S": 4
+  },
+  "attributes": {
+    "flying": {
+      "speed": 10,
+      "acceleration": 10,
+      "agility": 10,
+      "broom_control": 11,
+      "balance": 12,
+      "altitude": 10,
+      "dive": 10
+    },
+    "technical": {
+      "passing": 6,
+      "catching": 7,
+      "shooting": 6,
+      "dodging": 6,
+      "stealing": 6,
+      "interception": 6,
+      "keeping": 6,
+      "beating": 13,
+      "beat_accuracy": 11,
+      "snitch_catching": 6
+    },
+    "mental": {
+      "aggression": 11,
+      "anticipation": 10,
+      "bravery": 14,
+      "composure": 10,
+      "concentration": 10,
+      "creativity": 10,
+      "decisions": 8,
+      "determination": 15,
+      "flair": 10,
+      "influence": 13,
+      "off_ball": 10,
+      "positioning": 10,
+      "teamwork": 10,
+      "work_rate": 10
+    },
+    "physical": {
+      "stamina": 11,
+      "strength": 13,
+      "natural_fitness": 11,
+      "reflexes": 11,
+      "eyesight": 11
+    }
+  },
+  "hidden": {
+    "consistency": 11,
+    "big_matches": 10,
+    "injury_proneness": 10,
+    "dirtiness": 10,
+    "versatility": 10,
+    "adaptability": 10,
+    "ambition": 10,
+    "controversy": 10,
+    "loyalty": 17,
+    "pressure": 10,
+    "professionalism": 13,
+    "sportsmanship": 10,
+    "temperament": 10
+  },
+  "ca": 111,
+  "pa": 113,
+  "club_id": "club_chudley_cannons",
+  "squad": "first",
+  "is_captain": true,
+  "broom": {
+    "model_id": "broom_cleansweep_five",
+    "condition": 100
+  },
+  "traits_text_keys": [],
+  "source": "canon_book",
+  "notes": "Cannons Beater mentioned in GoF (Ron's poster) [GoF]. Age ~28. Estimated birth date. Attributes, CA/PA and broom [inferred]."
+}

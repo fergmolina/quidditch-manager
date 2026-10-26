@@ -1,0 +1,47 @@
+{
+ "brooms_1": [
+  "broom_oakshaft_79",
+  "broom_moontrimmer",
+  "broom_silver_arrow"
+ ],
+ "brooms_2": [
+  "broom_cleansweep_one",
+  "broom_cleansweep_two",
+  "broom_cleansweep_three"
+ ],
+ "brooms_3": [
+  "broom_comet_140",
+  "broom_comet_180",
+  "broom_comet_220"
+ ],
+ "brooms_4": [
+  "broom_tinderblast",
+  "broom_swiftstick",
+  "broom_shooting_star"
+ ],
+ "brooms_5": [
+  "broom_nimbus_1000",
+  "broom_nimbus_1001",
+  "broom_nimbus_1500"
+ ],
+ "brooms_6": [
+  "broom_cleansweep_five",
+  "broom_cleansweep_six",
+  "broom_cleansweep_seven"
+ ],
+ "brooms_7": [
+  "broom_comet_260",
+  "broom_comet_290",
+  "broom_nimbus_1700"
+ ],
+ "brooms_8": [
+  "broom_twigger_90",
+  "broom_bluebottle",
+  "broom_cleansweep_eleven"
+ ],
+ "brooms_9": [
+  "broom_nimbus_2000",
+  "broom_nimbus_2001",
+  "broom_firebolt"
+ ]
+}

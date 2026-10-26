@@ -1,0 +1,48 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/icon="res://assets/icon.png"
+boot_splash/bg_color=Color(0.16862746, 0.11372549, 0.078431375, 1)
+boot_splash/image="res://assets/art/logo.png"
+boot_splash/fullsize=false
+boot_splash/use_filter=true
+
+config/name="Quidditch Manager"
+config/version="0.12.0"
+config/repository_url="https://github.com/fergmolina/quidditch-manager"
+config/site_url=""
+config/features=PackedStringArray("4.7")
+run/main_scene="res://src/ui/main.tscn"
+
+[autoload]
+
+Game="*res://src/game/game_session.gd"
+
+[display]
+
+window/size/viewport_width=1366
+window/size/viewport_height=900
+window/size/window_width_override=1366
+window/size/window_height_override=820
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://locale/strings.es.translation", "res://locale/strings.en.translation", "res://locale/strings.de.translation", "res://locale/strings.fr.translation", "res://locale/strings.it.translation", "res://locale/strings.pt_BR.translation", "res://locale/strings.nl.translation", "res://locale/strings.ru.translation", "res://locale/strings.ja.translation", "res://locale/strings.zh_CN.translation")
+locale/fallback="es"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=2
+textures/vram_compression/import_etc2_astc=true
+
+renderer/rendering_method="gl_compatibility"
+
+[importer_defaults]
+
+texture={
+"mipmaps/generate": true
+}

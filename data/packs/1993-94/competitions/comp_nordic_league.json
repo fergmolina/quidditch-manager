@@ -1,0 +1,61 @@
+{
+  "id": "comp_nordic_league",
+  "name": "Liga Nórdica",
+  "name_en": "Nordic League",
+  "type": "league",
+  "region_id": "nordic",
+  "country_ids": [
+    "nor",
+    "swe",
+    "dnk",
+    "fin",
+    "isl"
+  ],
+  "level": 2,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_karasjok_kites",
+    "club_oslo_ormer",
+    "club_bergen_bjrner",
+    "club_stockholm_stormar",
+    "club_goteborg_gripar",
+    "club_kbenhavn_krager",
+    "club_helsinki_haukat",
+    "club_tampere_tontut",
+    "club_reykjavik_risar"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.finnmarksvidda_plateau",
+    "venue.norrland_forests",
+    "venue.jutland_heath",
+    "venue.inari_lapland",
+    "venue.reykjanes_lava_fields"
+  ],
+  "prizes": {
+    "galleons_champion": 3500,
+    "galleons_per_position_step": 175,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "Norway co-favourite in 2014 [PM-2014]; Swedish Kopparberg-Arjeplog broom race [QTTA c2]. Format copied from the British league [FILLER]; venues [FILLER]; prizes [filler]."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "club_sumbawanga_sunrays",
+  "name": "Sumbawanga Sunrays",
+  "short_name": "Sunrays",
+  "city": "Sumbawanga, Tanzania",
+  "country_id": "tza",
+  "region_id": "africa",
+  "founded": 1930,
+  "colors": {
+    "primary": "#FF8F00",
+    "secondary": "#1E88E5"
+  },
+  "emblem_key": "sunray",
+  "identity": {
+    "style_tags": [
+      "formation_looping",
+      "popular"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_africa_league",
+  "level": 2,
+  "reputation": 6000,
+  "finances": {
+    "balance": 7000,
+    "wage_budget_weekly": 260,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "canon_qtta",
+  "notes": "Very popular for their formation looping [QTTA c8]. Color hex, level, reputation, finances and facilities [inferred/filler]. Founding year 1930 [FILLER]: not given in the books (respects the limits deduced from canon)."
+}

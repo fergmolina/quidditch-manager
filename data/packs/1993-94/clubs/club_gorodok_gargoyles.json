@@ -1,0 +1,45 @@
+{
+  "id": "club_gorodok_gargoyles",
+  "name": "Gorodok Gargoyles",
+  "short_name": "Gargoyles",
+  "city": "Gorodok, Lituania",
+  "country_id": "ltu",
+  "region_id": "eastern_europe",
+  "founded": 1846,
+  "colors": {
+    "primary": "#5C6670",
+    "secondary": "#F2C200"
+  },
+  "emblem_key": "gargoyle",
+  "identity": {
+    "style_tags": [
+      "solid"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_eastern_europe_league",
+  "level": 2,
+  "reputation": 6000,
+  "finances": {
+    "balance": 7000,
+    "wage_budget_weekly": 260,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "canon_qtta",
+  "notes": "Narrowly beat the Toyohashi Tengu in 1994 [QTTA c8]. Color hex, level, reputation, finances and facilities [inferred/filler]. Founding year 1846 [FILLER]: not given in the books (respects the limits deduced from canon)."
+}

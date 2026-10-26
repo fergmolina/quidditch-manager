@@ -1,0 +1,49 @@
+{
+  "id": "club_los_angeles_luminaries",
+  "name": "Los Angeles Luminaries",
+  "short_name": "Luminaries",
+  "city": "Los Ángeles, Estados Unidos",
+  "country_id": "usa",
+  "region_id": "usa",
+  "founded": 1912,
+  "colors": {
+    "primary": "#4A148C",
+    "secondary": "#FFC107"
+  },
+  "emblem_key": "star",
+  "emblem_desc": "a shining star over palm trees",
+  "identity": {
+    "style_tags": [
+      "showmanship"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_san_francisco_sea_serpents"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_usa_league",
+  "level": 2,
+  "reputation": 4800,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 5,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with San Francisco Sea-Serpents [FILLER]: invented for the game (the Californian derby)."
+}

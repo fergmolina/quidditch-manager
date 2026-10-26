@@ -1,0 +1,29 @@
+{
+ "notes": "[game/FILLER] Climate by region, used to draw the weather for each match: hemisphere (N/S/T tropical), chance of rain (rain) and of snow in midwinter (snow). The books only show rain and storms (PoA 9, Gryffindor–Hufflepuff match) and fog; snow in Quidditch appears in the films and is a game choice.",
+ "default": {"hemisphere": "N", "rain": 0.12, "snow": 0.05},
+ "regions": {
+  "british_isles": {"hemisphere": "N", "rain": 0.22, "snow": 0.06},
+  "france": {"hemisphere": "N", "rain": 0.14, "snow": 0.05},
+  "germany": {"hemisphere": "N", "rain": 0.14, "snow": 0.16},
+  "iberia_lux": {"hemisphere": "N", "rain": 0.09, "snow": 0.02},
+  "italy": {"hemisphere": "N", "rain": 0.1, "snow": 0.04},
+  "low_countries": {"hemisphere": "N", "rain": 0.18, "snow": 0.07},
+  "central_europe": {"hemisphere": "N", "rain": 0.12, "snow": 0.22},
+  "eastern_europe": {"hemisphere": "N", "rain": 0.11, "snow": 0.3},
+  "nordic": {"hemisphere": "N", "rain": 0.13, "snow": 0.38},
+  "usa": {"hemisphere": "N", "rain": 0.1, "snow": 0.12},
+  "canada": {"hemisphere": "N", "rain": 0.1, "snow": 0.38},
+  "mexico_caribbean": {"hemisphere": "T", "rain": 0.14, "snow": 0.0},
+  "brazil": {"hemisphere": "T", "rain": 0.18, "snow": 0.0},
+  "andes": {"hemisphere": "S", "rain": 0.12, "snow": 0.1},
+  "argentina": {"hemisphere": "S", "rain": 0.11, "snow": 0.015},
+  "africa": {"hemisphere": "T", "rain": 0.14, "snow": 0.0},
+  "maghreb": {"hemisphere": "N", "rain": 0.05, "snow": 0.01},
+  "indian_ocean": {"hemisphere": "T", "rain": 0.18, "snow": 0.0},
+  "middle_east": {"hemisphere": "N", "rain": 0.05, "snow": 0.03},
+  "south_asia": {"hemisphere": "T", "rain": 0.2, "snow": 0.0},
+  "east_asia": {"hemisphere": "N", "rain": 0.12, "snow": 0.1},
+  "japan": {"hemisphere": "N", "rain": 0.14, "snow": 0.12},
+  "oceania": {"hemisphere": "S", "rain": 0.12, "snow": 0.02}
+ }
+}

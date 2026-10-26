@@ -1,0 +1,49 @@
+{
+  "id": "club_san_francisco_sea_serpents",
+  "name": "San Francisco Sea-Serpents",
+  "short_name": "Sea-Serpents",
+  "city": "San Francisco, Estados Unidos",
+  "country_id": "usa",
+  "region_id": "usa",
+  "founded": 1890,
+  "colors": {
+    "primary": "#C62828",
+    "secondary": "#FFD54F"
+  },
+  "emblem_key": "charm",
+  "emblem_desc": "a sea serpent coiled around the red tower of a suspension bridge in the fog",
+  "identity": {
+    "style_tags": [
+      "flair"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_los_angeles_luminaries"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_usa_league",
+  "level": 3,
+  "reputation": 2680,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 4,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Los Angeles Luminaries [FILLER]: invented for the game (the Californian derby)."
+}

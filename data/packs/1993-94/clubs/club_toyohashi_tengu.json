@@ -1,0 +1,49 @@
+{
+  "id": "club_toyohashi_tengu",
+  "name": "Toyohashi Tengu",
+  "short_name": "Tengu",
+  "city": "Toyohashi, Aichi, Japón",
+  "country_id": "jpn",
+  "region_id": "japan",
+  "founded": 1879,
+  "colors": {
+    "primary": "#B71C1C",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "tengu",
+  "identity": {
+    "style_tags": [
+      "burn_brooms",
+      "storm_training"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_nagoya_namazu"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_japan_league",
+  "level": 1,
+  "reputation": 8500,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 4,
+    "broom_workshop": 3
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "canon_qtta",
+  "notes": "The most successful Japanese club; they burn their brooms when they lose; train over the sea near Mahoutokoro [QTTA c8], [PM-Mahoutokoro]. Color hex, level, reputation, finances and facilities [inferred/filler]. Founding year 1879 [FILLER]: not given in the books (respects the limits deduced from canon). Rivalry with Nagoya Namazu [FILLER]: invented for the game (the Aichi derby)."
+}

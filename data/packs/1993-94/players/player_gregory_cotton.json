@@ -1,0 +1,91 @@
+{
+  "id": "player_gregory_cotton",
+  "first_name": "Gregory",
+  "last_name": "Cotton",
+  "gender": "m",
+  "nationality_ids": [
+    "eng"
+  ],
+  "birth_date": "1971-04-01",
+  "birth_date_estimated": true,
+  "main_position": "S",
+  "positions": {
+    "K": 4,
+    "C": 6,
+    "B": 5,
+    "S": 20
+  },
+  "attributes": {
+    "flying": {
+      "speed": 14,
+      "acceleration": 14,
+      "agility": 14,
+      "broom_control": 10,
+      "balance": 11,
+      "altitude": 10,
+      "dive": 13
+    },
+    "technical": {
+      "passing": 6,
+      "catching": 6,
+      "shooting": 6,
+      "dodging": 6,
+      "stealing": 6,
+      "interception": 6,
+      "keeping": 6,
+      "beating": 6,
+      "beat_accuracy": 6,
+      "snitch_catching": 13
+    },
+    "mental": {
+      "aggression": 13,
+      "anticipation": 10,
+      "bravery": 13,
+      "composure": 12,
+      "concentration": 13,
+      "creativity": 10,
+      "decisions": 11,
+      "determination": 10,
+      "flair": 10,
+      "influence": 10,
+      "off_ball": 10,
+      "positioning": 10,
+      "teamwork": 10,
+      "work_rate": 10
+    },
+    "physical": {
+      "stamina": 11,
+      "strength": 8,
+      "natural_fitness": 11,
+      "reflexes": 11,
+      "eyesight": 14
+    }
+  },
+  "hidden": {
+    "consistency": 10,
+    "big_matches": 10,
+    "injury_proneness": 10,
+    "dirtiness": 13,
+    "versatility": 10,
+    "adaptability": 10,
+    "ambition": 10,
+    "controversy": 12,
+    "loyalty": 10,
+    "pressure": 10,
+    "professionalism": 10,
+    "sportsmanship": 10,
+    "temperament": 14
+  },
+  "ca": 122,
+  "pa": 136,
+  "club_id": "club_appleby_arrows",
+  "squad": "first",
+  "is_captain": false,
+  "broom": {
+    "model_id": "broom_nimbus_1001",
+    "condition": 100
+  },
+  "traits_text_keys": [],
+  "source": "canon_dp",
+  "notes": "Arrows Seeker; collision and illegal hexes with McBride, who turned his head into a cabbage [DP3]. Estimated birth date. Attributes, CA/PA and broom [inferred]."
+}

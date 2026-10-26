@@ -1,0 +1,47 @@
+{
+ "_comment": "Durmstrang: invented houses [FILLER] (regional folklore); filler students.",
+ "school_id": "school_durmstrang",
+ "source": "filler",
+ "house_colors": {
+  "Lindworm": {
+   "primary": "#B71C1C",
+   "secondary": "#BDBDBD"
+  },
+  "Huldra": {
+   "primary": "#33691E",
+   "secondary": "#D4AF37"
+  },
+  "Jotunn": {
+   "primary": "#455A64",
+   "secondary": "#B3E5FC"
+  },
+  "Sleipnir": {
+   "primary": "#212121",
+   "secondary": "#C62828"
+  }
+ },
+ "house_info": {
+  "Lindworm": {
+   "emblem_desc": "a wingless serpent dragon with two clawed forelegs",
+   "inspiration": "Lindwurm/lindorm: wingless serpent dragon of Germanic and Scandinavian folklore.",
+   "source": "filler"
+  },
+  "Huldra": {
+   "emblem_desc": "a forest spirit woman with a cow's tail among pine trees",
+   "inspiration": "Huldra: Norwegian forest spirit with a cow's tail.",
+   "source": "filler"
+  },
+  "Jotunn": {
+   "emblem_desc": "a frost giant's head with an icy beard",
+   "inspiration": "Jötunn: frost giants of Norse mythology.",
+   "source": "filler"
+  },
+  "Sleipnir": {
+   "emblem_desc": "an eight-legged horse galloping",
+   "inspiration": "Sleipnir: Odin's eight-legged horse.",
+   "source": "filler"
+  }
+ },
+ "venue": "Campo de Quidditch de Durmstrang",
+ "students": []
+}

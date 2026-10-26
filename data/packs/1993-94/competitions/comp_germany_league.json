@@ -1,0 +1,60 @@
+{
+  "id": "comp_germany_league",
+  "name": "Liga de Alemania y los Alpes",
+  "name_en": "German and Alpine League",
+  "type": "league",
+  "region_id": "germany",
+  "country_ids": [
+    "deu",
+    "aut",
+    "che",
+    "lie"
+  ],
+  "level": 2,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_heidelberg_harriers",
+    "club_berlin_blitze",
+    "club_munchen_mondkalber",
+    "club_hamburg_hippogreife",
+    "club_koln_kobolde",
+    "club_wien_windhunde",
+    "club_salzburg_salamander",
+    "club_zurich_zentauren",
+    "club_vaduz_vipern"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.luneburg_heath",
+    "venue.black_forest",
+    "venue.rhon_high_moor",
+    "venue.allgau_alps",
+    "venue.ruggell_riet"
+  ],
+  "prizes": {
+    "galleons_champion": 3500,
+    "galleons_per_position_step": 175,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "Germany in the round of 16 in 2014; Liechtenstein the 2014 surprise [PM-2014]. Format copied from the British league [FILLER]; venues [FILLER]; prizes [filler]."
+}

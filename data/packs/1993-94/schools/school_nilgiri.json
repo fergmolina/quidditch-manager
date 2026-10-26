@@ -1,0 +1,47 @@
+{
+ "_comment": "Nilgiri: invented houses [FILLER] (regional folklore); filler students.",
+ "school_id": "school_nilgiri",
+ "source": "filler",
+ "house_colors": {
+  "Yali": {
+   "primary": "#FF8F00",
+   "secondary": "#1A237E"
+  },
+  "Makara": {
+   "primary": "#0277BD",
+   "secondary": "#FFD54F"
+  },
+  "Airavata": {
+   "primary": "#ECEFF1",
+   "secondary": "#6A1B9A"
+  },
+  "Naga": {
+   "primary": "#1B5E20",
+   "secondary": "#D4AF37"
+  }
+ },
+ "house_info": {
+  "Yali": {
+   "emblem_desc": "a yali, a lion-bodied beast with an elephant's trunk",
+   "inspiration": "Yali: beast of the temples of southern India.",
+   "source": "filler"
+  },
+  "Makara": {
+   "emblem_desc": "a makara, a crocodile-like sea creature with a curling tail",
+   "inspiration": "Makara: sea creature of Indian iconography.",
+   "source": "filler"
+  },
+  "Airavata": {
+   "emblem_desc": "a white elephant with several tusks",
+   "inspiration": "Airavata: the white elephant with many tusks.",
+   "source": "filler"
+  },
+  "Naga": {
+   "emblem_desc": "a cobra with many hoods",
+   "inspiration": "Naga: many-headed serpent of South Asian folklore.",
+   "source": "filler"
+  }
+ },
+ "venue": "Campo de Quidditch de Nilgiri",
+ "students": []
+}

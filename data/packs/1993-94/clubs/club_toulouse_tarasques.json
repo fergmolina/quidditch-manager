@@ -1,0 +1,49 @@
+{
+  "id": "club_toulouse_tarasques",
+  "name": "Toulouse Tarasques",
+  "short_name": "Tarasques",
+  "city": "Toulouse, Francia",
+  "country_id": "fra",
+  "region_id": "france",
+  "founded": 1904,
+  "colors": {
+    "primary": "#2E7D32",
+    "secondary": "#FFC107"
+  },
+  "emblem_key": "giant",
+  "emblem_desc": "the Tarasque, a turtle-shelled dragon",
+  "identity": {
+    "style_tags": [
+      "physical"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_bordeaux_busards"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_france_league",
+  "level": 3,
+  "reputation": 2440,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Bordeaux Busards [FILLER]: invented for the game (the Garonne derby)."
+}

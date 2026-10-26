@@ -1,0 +1,50 @@
+{
+  "id": "club_gimbi_giant_slayers",
+  "name": "Gimbi Giant-Slayers",
+  "short_name": "Gimbi",
+  "city": "Gimbi, Oromia, Etiopía",
+  "country_id": "eth",
+  "region_id": "africa",
+  "founded": 1923,
+  "colors": {
+    "primary": "#078930",
+    "secondary": "#DA121A"
+  },
+  "emblem_key": "giant",
+  "identity": {
+    "style_tags": [
+      "cup_winners"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_cairo_crocodiles"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_africa_league",
+  "level": 1,
+  "reputation": 8500,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 4,
+    "broom_workshop": 3
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": [
+      "club.gimbi.all_africa"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "Two-time All-Africa Cup champions (counted as titles of the game's African league) [QTTA c8]. Color hex, level, reputation, finances and facilities [inferred/filler]. Founding year 1923 [FILLER]: not given in the books (respects the limits deduced from canon). Rivalry with Cairo Crocodiles [FILLER]: invented for the game (the Nile derby: the league's most-titled club against the two-time All-Africa Cup winners from the Blue Nile highlands)."
+}

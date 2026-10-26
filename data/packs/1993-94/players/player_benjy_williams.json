@@ -1,0 +1,91 @@
+{
+  "id": "player_benjy_williams",
+  "first_name": "Benjy",
+  "last_name": "Williams",
+  "gender": "m",
+  "nationality_ids": [
+    "eng"
+  ],
+  "birth_date": "1967-08-01",
+  "birth_date_estimated": true,
+  "main_position": "S",
+  "positions": {
+    "K": 4,
+    "C": 6,
+    "B": 5,
+    "S": 20
+  },
+  "attributes": {
+    "flying": {
+      "speed": 16,
+      "acceleration": 15,
+      "agility": 15,
+      "broom_control": 10,
+      "balance": 14,
+      "altitude": 10,
+      "dive": 16
+    },
+    "technical": {
+      "passing": 6,
+      "catching": 6,
+      "shooting": 6,
+      "dodging": 6,
+      "stealing": 6,
+      "interception": 6,
+      "keeping": 6,
+      "beating": 6,
+      "beat_accuracy": 6,
+      "snitch_catching": 16
+    },
+    "mental": {
+      "aggression": 10,
+      "anticipation": 10,
+      "bravery": 15,
+      "composure": 15,
+      "concentration": 15,
+      "creativity": 10,
+      "decisions": 14,
+      "determination": 10,
+      "flair": 10,
+      "influence": 10,
+      "off_ball": 10,
+      "positioning": 10,
+      "teamwork": 10,
+      "work_rate": 10
+    },
+    "physical": {
+      "stamina": 11,
+      "strength": 8,
+      "natural_fitness": 11,
+      "reflexes": 11,
+      "eyesight": 16
+    }
+  },
+  "hidden": {
+    "consistency": 14,
+    "big_matches": 14,
+    "injury_proneness": 10,
+    "dirtiness": 10,
+    "versatility": 10,
+    "adaptability": 10,
+    "ambition": 10,
+    "controversy": 10,
+    "loyalty": 10,
+    "pressure": 15,
+    "professionalism": 14,
+    "sportsmanship": 10,
+    "temperament": 10
+  },
+  "ca": 140,
+  "pa": 146,
+  "club_id": "club_puddlemere_united",
+  "squad": "first",
+  "is_captain": false,
+  "broom": {
+    "model_id": "broom_nimbus_2000",
+    "condition": 100
+  },
+  "traits_text_keys": [],
+  "source": "canon_dp",
+  "notes": "Puddlemere Seeker; catches the snitch during the Ilkley Moor riot [DP]. Estimated birth date. Attributes, CA/PA and broom [inferred]."
+}

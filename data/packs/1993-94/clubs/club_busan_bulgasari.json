@@ -1,0 +1,49 @@
+{
+  "id": "club_busan_bulgasari",
+  "name": "Busan Bulgasari",
+  "short_name": "Bulgasari",
+  "city": "Busan, Corea del Sur",
+  "country_id": "kor",
+  "region_id": "east_asia",
+  "founded": 1916,
+  "colors": {
+    "primary": "#455A64",
+    "secondary": "#FF8F00"
+  },
+  "emblem_key": "giant",
+  "emblem_desc": "the bulgasari, an iron-eating monster",
+  "identity": {
+    "style_tags": [
+      "resilient"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_seoul_samjogo"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_east_asia_league",
+  "level": 3,
+  "reputation": 2560,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 3,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Seoul Samjogo [FILLER]: invented for the game (the Korean derby)."
+}

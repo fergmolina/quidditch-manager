@@ -1,0 +1,93 @@
+{
+  "id": "player_alasdair_maddock",
+  "first_name": "Alasdair",
+  "last_name": "Maddock",
+  "gender": "m",
+  "nationality_ids": [
+    "sco"
+  ],
+  "birth_date": "1968-01-01",
+  "birth_date_estimated": true,
+  "main_position": "C",
+  "positions": {
+    "K": 4,
+    "C": 20,
+    "B": 5,
+    "S": 4
+  },
+  "attributes": {
+    "flying": {
+      "speed": 16,
+      "acceleration": 15,
+      "agility": 15,
+      "broom_control": 10,
+      "balance": 10,
+      "altitude": 10,
+      "dive": 10
+    },
+    "technical": {
+      "passing": 14,
+      "catching": 14,
+      "shooting": 14,
+      "dodging": 15,
+      "stealing": 14,
+      "interception": 10,
+      "keeping": 6,
+      "beating": 6,
+      "beat_accuracy": 6,
+      "snitch_catching": 6
+    },
+    "mental": {
+      "aggression": 10,
+      "anticipation": 10,
+      "bravery": 10,
+      "composure": 10,
+      "concentration": 10,
+      "creativity": 14,
+      "decisions": 9,
+      "determination": 10,
+      "flair": 16,
+      "influence": 10,
+      "off_ball": 16,
+      "positioning": 10,
+      "teamwork": 8,
+      "work_rate": 10
+    },
+    "physical": {
+      "stamina": 12,
+      "strength": 11,
+      "natural_fitness": 11,
+      "reflexes": 11,
+      "eyesight": 11
+    }
+  },
+  "hidden": {
+    "consistency": 9,
+    "big_matches": 10,
+    "injury_proneness": 10,
+    "dirtiness": 10,
+    "versatility": 10,
+    "adaptability": 10,
+    "ambition": 11,
+    "controversy": 15,
+    "loyalty": 10,
+    "pressure": 10,
+    "professionalism": 6,
+    "sportsmanship": 10,
+    "temperament": 12
+  },
+  "ca": 130,
+  "pa": 134,
+  "club_id": "club_montrose_magpies",
+  "squad": "first",
+  "is_captain": false,
+  "broom": {
+    "model_id": "broom_nimbus_1700",
+    "condition": 100
+  },
+  "traits_text_keys": [
+    "trait.muggle_football_fan"
+  ],
+  "source": "canon_dp",
+  "notes": "Magpies Chaser and fan of Muggle football (kicked the quaffle, cost them a match); sacked by McLeod for playing golf [DP2-DP3]. Estimated birth date. Attributes, CA/PA and broom [inferred]."
+}

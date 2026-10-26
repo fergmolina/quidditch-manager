@@ -1,0 +1,45 @@
+{
+  "id": "club_karasjok_kites",
+  "name": "Karasjok Kites",
+  "short_name": "Kites",
+  "city": "Karasjok, Finnmark, Noruega",
+  "country_id": "nor",
+  "region_id": "nordic",
+  "founded": 1902,
+  "colors": {
+    "primary": "#0D47A1",
+    "secondary": "#E53935"
+  },
+  "emblem_key": "kite_bird",
+  "identity": {
+    "style_tags": [
+      "solid"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_nordic_league",
+  "level": 1,
+  "reputation": 8500,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 4,
+    "broom_workshop": 3
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "canon_qtta",
+  "notes": "European Cup finalists in 1956 against Caerphilly [QTTA c7]. Color hex, level, reputation, finances and facilities [inferred/filler]. Founding year 1902 [FILLER]: not given in the books (respects the limits deduced from canon)."
+}

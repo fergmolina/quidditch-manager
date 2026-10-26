@@ -1,0 +1,46 @@
+{
+  "id": "club_patonga_proudsticks",
+  "name": "Patonga Proudsticks",
+  "short_name": "Patonga",
+  "city": "Patonga, Uganda",
+  "country_id": "uga",
+  "region_id": "africa",
+  "founded": 1934,
+  "colors": {
+    "primary": "#000000",
+    "secondary": "#FFD600"
+  },
+  "emblem_key": "stick",
+  "identity": {
+    "style_tags": [
+      "solid",
+      "national_core"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_africa_league",
+  "level": 1,
+  "reputation": 8500,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 4,
+    "broom_workshop": 3
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "canon_qtta",
+  "notes": "Drew with the Montrose Magpies in 1986; six players in the Ugandan national team (a record) [QTTA c8]. Color hex, level, reputation, finances and facilities [inferred/filler]. Founding year 1934 [FILLER]: not given in the books (respects the limits deduced from canon)."
+}

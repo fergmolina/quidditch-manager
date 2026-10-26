@@ -1,0 +1,46 @@
+{
+  "id": "club_cap_haitien_caimans",
+  "name": "Cap-Haïtien Caïmans",
+  "short_name": "Caïmans",
+  "city": "Cabo Haitiano, Haití",
+  "country_id": "hti",
+  "region_id": "mexico_caribbean",
+  "founded": 1929,
+  "colors": {
+    "primary": "#C62828",
+    "secondary": "#1565C0"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a caiman",
+  "identity": {
+    "style_tags": [
+      "physical"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_mexico_caribbean_league",
+  "level": 3,
+  "reputation": 2320,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 1,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

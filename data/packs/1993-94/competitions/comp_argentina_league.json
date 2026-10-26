@@ -1,0 +1,57 @@
+{
+  "id": "comp_argentina_league",
+  "name": "Liga Argentina",
+  "name_en": "Argentine League",
+  "type": "league",
+  "region_id": "argentina",
+  "country_ids": [
+    "arg"
+  ],
+  "level": 2,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_buenos_aires_buhos",
+    "club_rosario_relampagos",
+    "club_cordoba_cometas",
+    "club_mendoza_montaneses",
+    "club_la_plata_lobizones",
+    "club_bahia_blanca_ballenas",
+    "club_tucuman_tucanes",
+    "club_mar_del_plata_mareas",
+    "club_posadas_pomberos"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.patagonian_plateau",
+    "venue.ibera_wetlands",
+    "venue.humid_pampas",
+    "venue.puna_de_atacama",
+    "venue.calchaqui_valleys"
+  ],
+  "prizes": {
+    "galleons_champion": 3500,
+    "galleons_per_position_step": 175,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "Its own league [game]; all clubs [FILLER]. Argentina quarter-finalist [QTTA c8], 2014 host [PM-2014]. Format copied from the British league [FILLER]; venues [FILLER]; prizes [filler]."
+}

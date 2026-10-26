@@ -1,0 +1,49 @@
+{
+  "id": "club_bratislava_bludicky",
+  "name": "Bratislava Bludičky",
+  "short_name": "Bludičky",
+  "city": "Bratislava, Eslovaquia",
+  "country_id": "svk",
+  "region_id": "central_europe",
+  "founded": 1897,
+  "colors": {
+    "primary": "#0D47A1",
+    "secondary": "#B3E5FC"
+  },
+  "emblem_key": "star",
+  "emblem_desc": "will-o'-the-wisp lights dancing over a marsh",
+  "identity": {
+    "style_tags": [
+      "clever"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_kosice_kuvici"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_central_europe_league",
+  "level": 3,
+  "reputation": 2680,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 4,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Košice Kuvici [FILLER]: invented for the game (the Slovak derby)."
+}

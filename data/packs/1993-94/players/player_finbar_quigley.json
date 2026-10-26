@@ -1,0 +1,91 @@
+{
+  "id": "player_finbar_quigley",
+  "first_name": "Finbar",
+  "last_name": "Quigley",
+  "gender": "m",
+  "nationality_ids": [
+    "nir"
+  ],
+  "birth_date": "1966-04-01",
+  "birth_date_estimated": true,
+  "main_position": "B",
+  "positions": {
+    "K": 4,
+    "C": 6,
+    "B": 20,
+    "S": 4
+  },
+  "attributes": {
+    "flying": {
+      "speed": 10,
+      "acceleration": 10,
+      "agility": 10,
+      "broom_control": 16,
+      "balance": 17,
+      "altitude": 10,
+      "dive": 10
+    },
+    "technical": {
+      "passing": 6,
+      "catching": 7,
+      "shooting": 6,
+      "dodging": 6,
+      "stealing": 6,
+      "interception": 6,
+      "keeping": 6,
+      "beating": 16,
+      "beat_accuracy": 16,
+      "snitch_catching": 6
+    },
+    "mental": {
+      "aggression": 16,
+      "anticipation": 15,
+      "bravery": 14,
+      "composure": 10,
+      "concentration": 10,
+      "creativity": 10,
+      "decisions": 13,
+      "determination": 10,
+      "flair": 10,
+      "influence": 10,
+      "off_ball": 10,
+      "positioning": 15,
+      "teamwork": 10,
+      "work_rate": 10
+    },
+    "physical": {
+      "stamina": 11,
+      "strength": 15,
+      "natural_fitness": 11,
+      "reflexes": 11,
+      "eyesight": 11
+    }
+  },
+  "hidden": {
+    "consistency": 14,
+    "big_matches": 13,
+    "injury_proneness": 10,
+    "dirtiness": 10,
+    "versatility": 10,
+    "adaptability": 10,
+    "ambition": 10,
+    "controversy": 10,
+    "loyalty": 10,
+    "pressure": 10,
+    "professionalism": 14,
+    "sportsmanship": 10,
+    "temperament": 10
+  },
+  "ca": 140,
+  "pa": 144,
+  "club_id": "club_ballycastle_bats",
+  "squad": "first",
+  "is_captain": false,
+  "broom": {
+    "model_id": "broom_nimbus_1700",
+    "condition": 100
+  },
+  "traits_text_keys": [],
+  "source": "canon_dp",
+  "notes": "Bats player mentioned in DP2 without a position; made a Beater because of the surname shared with Quigley of Ireland 1994 (Beater) [inferred]. Estimated birth date. Attributes, CA/PA and broom [inferred]."
+}

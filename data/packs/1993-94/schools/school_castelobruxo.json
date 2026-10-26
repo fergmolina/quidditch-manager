@@ -1,0 +1,47 @@
+{
+ "_comment": "Castelobruxo: invented houses [FILLER] (regional folklore); filler students.",
+ "school_id": "school_castelobruxo",
+ "source": "filler",
+ "house_colors": {
+  "Caipora": {
+   "primary": "#2E7D32",
+   "secondary": "#FFC107"
+  },
+  "Iara": {
+   "primary": "#0277BD",
+   "secondary": "#F5F5F5"
+  },
+  "Uirapuru": {
+   "primary": "#C62828",
+   "secondary": "#FFD54F"
+  },
+  "Boto": {
+   "primary": "#E91E63",
+   "secondary": "#1A237E"
+  }
+ },
+ "house_info": {
+  "Caipora": {
+   "emblem_desc": "a small furry forest guardian riding a wild boar",
+   "inspiration": "Caiporas: the spirits that guard Castelobruxo [PM-Wizarding Schools] — canon nod.",
+   "source": "filler"
+  },
+  "Iara": {
+   "emblem_desc": "a river mermaid with long dark hair",
+   "inspiration": "Iara: mermaid of the Amazonian rivers.",
+   "source": "filler"
+  },
+  "Uirapuru": {
+   "emblem_desc": "a small songbird singing with a swirl of magic around it",
+   "inspiration": "Uirapuru: Amazonian bird with a magical song.",
+   "source": "filler"
+  },
+  "Boto": {
+   "emblem_desc": "a pink river dolphin leaping",
+   "inspiration": "Boto cor-de-rosa: river dolphin that turns into a man, Amazonian legend.",
+   "source": "filler"
+  }
+ },
+ "venue": "Campo de Quidditch de Castelobruxo",
+ "students": []
+}

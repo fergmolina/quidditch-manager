@@ -1,0 +1,46 @@
+{
+  "id": "club_incheon_imugi",
+  "name": "Incheon Imugi",
+  "short_name": "Imugi",
+  "city": "Incheon, Corea del Sur",
+  "country_id": "kor",
+  "region_id": "east_asia",
+  "founded": 1928,
+  "colors": {
+    "primary": "#1565C0",
+    "secondary": "#B3E5FC"
+  },
+  "emblem_key": "charm",
+  "emblem_desc": "an imugi, a great serpent holding a pearl",
+  "identity": {
+    "style_tags": [
+      "clever"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_east_asia_league",
+  "level": 3,
+  "reputation": 2320,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 1,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

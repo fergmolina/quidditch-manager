@@ -1,0 +1,46 @@
+{
+  "id": "club_lyon_lutins",
+  "name": "Lyon Lutins",
+  "short_name": "Lutins",
+  "city": "Lyon, Francia",
+  "country_id": "fra",
+  "region_id": "france",
+  "founded": 1890,
+  "colors": {
+    "primary": "#C62828",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "goblin",
+  "emblem_desc": "a grinning lutin imp",
+  "identity": {
+    "style_tags": [
+      "clever"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_france_league",
+  "level": 3,
+  "reputation": 2680,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 4,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

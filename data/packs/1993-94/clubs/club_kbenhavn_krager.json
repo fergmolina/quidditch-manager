@@ -1,0 +1,46 @@
+{
+  "id": "club_kbenhavn_krager",
+  "name": "København Krager",
+  "short_name": "Krager",
+  "city": "Copenhague, Dinamarca",
+  "country_id": "dnk",
+  "region_id": "nordic",
+  "founded": 1888,
+  "colors": {
+    "primary": "#212121",
+    "secondary": "#E53935"
+  },
+  "emblem_key": "vulture",
+  "emblem_desc": "a hooded crow",
+  "identity": {
+    "style_tags": [
+      "clever"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_nordic_league",
+  "level": 2,
+  "reputation": 4920,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 6,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

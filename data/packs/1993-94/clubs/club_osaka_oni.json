@@ -1,0 +1,49 @@
+{
+  "id": "club_osaka_oni",
+  "name": "Osaka Oni",
+  "short_name": "Oni",
+  "city": "Osaka, Japón",
+  "country_id": "jpn",
+  "region_id": "japan",
+  "founded": 1890,
+  "colors": {
+    "primary": "#212121",
+    "secondary": "#E53935"
+  },
+  "emblem_key": "goblin",
+  "emblem_desc": "a horned oni mask",
+  "identity": {
+    "style_tags": [
+      "fierce"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_tokio_tatsu"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_japan_league",
+  "level": 2,
+  "reputation": 4920,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 6,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Tokyo Tatsu [FILLER]: invented for the game (east against west, the two great cities)."
+}

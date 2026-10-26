@@ -1,0 +1,107 @@
+{
+  "_comment": "Simulator calibration parameters (docs/design/03 §4). Tuned with tools/sim_batch.gd.",
+  "condition": {
+    "drain_per_tick_base": 0.011,
+    "stamina_relief": 0.55,
+    "effect_floor": 0.55,
+    "timeout_recovery": 6.0,
+    "night_pause_recovery": 35.0,
+    "long_match_drain_multiplier": 0.6
+  },
+  "consistency": {
+    "match_noise_sd_at_1": 0.14,
+    "match_noise_sd_at_20": 0.02
+  },
+  "quaffle": {
+    "action_chance_per_tick": 0.32,
+    "pass_preference_base": 0.45,
+    "advance_success_base": 0.56,
+    "pass_success_base": 0.72,
+    "shot_success_base": 0.27,
+    "long_shot_penalty": 0.55,
+    "miss_rebound_to_defence": 0.5,
+    "steal_contact_chance": 0.7,
+    "haversacking_chance": 0.004,
+    "stooging_chance_hawkshead": 0.02,
+    "stooging_chance_other": 0.004,
+    "contest_sharpness": 0.4,
+    "comfort_lead": 40,
+    "comfort_span": 160,
+    "comfort_min": 0.2,
+    "_comfort": "[game] Match already decided: with a lead of more than comfort_lead points (snitch aside, these are goals), the leading team attacks less and shoots less sharply, decreasing linearly down to comfort_min at comfort_lead + comfort_span. Curbs blowouts without touching close matches."
+  },
+  "bludgers": {
+    "event_chance_per_tick": 0.15,
+    "control_contest_sharpness": 1.4,
+    "hit_chance_base": 0.38,
+    "hit_damage": 7.0,
+    "hit_drops_quaffle": 0.85,
+    "hit_breaks_chase": 0.9,
+    "injury_chance_base": 0.0045,
+    "injury_long_share": 0.25,
+    "keeper_attack_foul_chance": 0.08,
+    "uncontrolled_any_target": true
+  },
+  "fouls": {
+    "base_chance_on_contact": 0.022,
+    "aggression_weight": 0.6,
+    "dirtiness_weight": 0.5,
+    "hard_play_weight": 0.5,
+    "referee_sees_base": 0.75,
+    "penalty_success_base": 0.55,
+    "send_off_on_repeat_blatching": 3,
+    "blatching_send_off_chance": 0.12
+  },
+  "snitch": {
+    "sight_base_per_tick": 0.0001,
+    "sight_ramp_per_hour": 1.5,
+    "sight_eyesight_weight": 0.5,
+    "sight_concentration_weight": 0.25,
+    "catch_base_per_tick": 0.05,
+    "catch_skill_weight": 0.3,
+    "evasiveness": 1.0,
+    "lose_base_per_tick": 0.04,
+    "rival_join_chance_per_tick": 0.3,
+    "rival_interference": 0.6,
+    "feint_attempt_chance": 0.02,
+    "feint_success_base": 0.5,
+    "feint_crash_damage": 25.0,
+    "feint_crash_injury_chance": 0.25,
+    "stall_lose_multiplier": 1.3,
+    "min_sighting_minutes": 20,
+    "sight_ramp_power": 2.0,
+    "match_evasiveness_sd": 0.55,
+    "wild_snitch_chance": 0.015
+  },
+  "timeouts": {
+    "ai_conceded_streak": 4,
+    "ai_cooldown_minutes": 40,
+    "ai_switch_seeker_to_always_when_behind_by": 150
+  },
+  "mutual_end": {
+    "min_hours": 12,
+    "avg_condition_below": 15.0,
+    "lead_beyond_snitch_margin": 150,
+    "no_seekers_end_minutes": 20
+  },
+  "school": {
+    "_comment": "[game] School calibration: applies only when both sides are houses (SimTeam.is_school, ids 'hs_'). Students would otherwise play professional-length, professional-tempo matches (playtest: 270-350, 370-110, a Keeper with 72 saves). quaffle_tempo_mult scales the Quaffle action chance per tick (fewer attacks per hour); snitch_sight_mult scales the Snitch sighting chance (earlier catch; with sight_ramp_power 2 the length scales roughly as mult^(-1/3)). Target, from the canon table below: winner ~230-260, loser ~20-80, about 10-20 goals in all, Keepers in the teens for saves. Professional, national-team and World Cup matches are untouched (both factors are 1.0). The Hogwarts results written in data/packs/*/events.json (fixture_result) bypass the simulator; this tunes every other school match (the other ten schools, Hogwarts seasons without a written result, the House World Cup).",
+    "_canon_scores": [
+      "Match | score | goals (snitch side minus 150) | source",
+      "Gryffindor-Slytherin 1991 | 170-60 | 2+6 = 8 | PS 11",
+      "Gryffindor-Hufflepuff 1992 | caught in under five minutes, a Hogwarts record in living memory | ~0 | PS 13",
+      "Gryffindor-Slytherin 1992 | Slytherin lead 60-0, the last score given before Harry's catch; final score not printed [check: not in docs/research] | 0+6 = at least 6 | CoS 10",
+      "Gryffindor-Ravenclaw 1994 | 230-30 | 8+3 = 11 | PoA 13",
+      "Gryffindor-Slytherin 1994 (final) | 230-20 | 8+2 = 10 | PoA 15",
+      "Gryffindor-Slytherin 1995 | 160-40 | 1+4 = 5 | OotP 19",
+      "Hufflepuff-Gryffindor 1996 | 240-230 (Gryffindor catches and loses) | 24+8 = 32 | OotP 26",
+      "Gryffindor-Slytherin 1996 | 250-0 | 10+0 = 10 | HBP 14",
+      "Hufflepuff-Gryffindor 1997 | 320-60 | 17+6 = 23 (deduced, per docs/research/02-quidditch.md 3.10) | HBP 19",
+      "Gryffindor-Ravenclaw 1997 | 450-140 | 30+14 = 44 | HBP 24",
+      "The eight full scores (as listed in docs/research/02-quidditch.md 3.10; data/packs/1993-94/events.json marks the PoA 13, OotP 19 and OotP 26 scores [inferred] from the score before the catch): mean 256-72, 17.9 goals (median 10.5); the books never give a school match length (events.json durations are [inferred])."
+    ],
+    "quaffle_tempo_mult": 0.6,
+    "snitch_sight_mult": 2.5
+  },
+  "hard_cap_hours": 48
+}

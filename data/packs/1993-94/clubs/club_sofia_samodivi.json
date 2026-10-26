@@ -1,0 +1,46 @@
+{
+  "id": "club_sofia_samodivi",
+  "name": "Sofia Samodivi",
+  "short_name": "Samodivi",
+  "city": "Sofía, Bulgaria",
+  "country_id": "bul",
+  "region_id": "eastern_europe",
+  "founded": 1887,
+  "colors": {
+    "primary": "#2E7D32",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "charm",
+  "emblem_desc": "a dancing samodiva with flowing hair",
+  "identity": {
+    "style_tags": [
+      "flair"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_eastern_europe_league",
+  "level": 1,
+  "reputation": 7660,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 8,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

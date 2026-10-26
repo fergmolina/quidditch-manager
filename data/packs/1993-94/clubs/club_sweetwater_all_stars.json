@@ -1,0 +1,49 @@
+{
+  "id": "club_sweetwater_all_stars",
+  "name": "Sweetwater All-Stars",
+  "short_name": "Sweetwater",
+  "city": "Sweetwater, Texas, EE. UU.",
+  "country_id": "usa",
+  "region_id": "usa",
+  "founded": 1902,
+  "colors": {
+    "primary": "#1565C0",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "star",
+  "identity": {
+    "style_tags": [
+      "stamina",
+      "marathon"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_fitchburg_finches"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_usa_league",
+  "level": 1,
+  "reputation": 8500,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 4,
+    "broom_workshop": 3
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "canon_qtta",
+  "notes": "Beat Quiberon in 1993 after 5 days; 1926 US league final against Fitchburg [QTTA c8], [FB]. Color hex, level, reputation, finances and facilities [inferred/filler]. Founding year 1902 [FILLER]: not given in the books (respects the limits deduced from canon). Rivalry with Fitchburg Finches [FILLER]: invented for the game (inferred from their 1926 US league Grand Final [FB])."
+}

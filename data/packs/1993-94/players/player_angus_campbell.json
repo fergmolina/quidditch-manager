@@ -1,0 +1,91 @@
+{
+  "id": "player_angus_campbell",
+  "first_name": "Angus",
+  "last_name": "Campbell",
+  "gender": "m",
+  "nationality_ids": [
+    "sco"
+  ],
+  "birth_date": "1966-11-01",
+  "birth_date_estimated": true,
+  "main_position": "C",
+  "positions": {
+    "K": 4,
+    "C": 20,
+    "B": 5,
+    "S": 4
+  },
+  "attributes": {
+    "flying": {
+      "speed": 14,
+      "acceleration": 13,
+      "agility": 13,
+      "broom_control": 10,
+      "balance": 10,
+      "altitude": 10,
+      "dive": 10
+    },
+    "technical": {
+      "passing": 14,
+      "catching": 14,
+      "shooting": 13,
+      "dodging": 13,
+      "stealing": 12,
+      "interception": 10,
+      "keeping": 6,
+      "beating": 6,
+      "beat_accuracy": 6,
+      "snitch_catching": 6
+    },
+    "mental": {
+      "aggression": 10,
+      "anticipation": 10,
+      "bravery": 10,
+      "composure": 10,
+      "concentration": 10,
+      "creativity": 12,
+      "decisions": 13,
+      "determination": 10,
+      "flair": 10,
+      "influence": 10,
+      "off_ball": 14,
+      "positioning": 10,
+      "teamwork": 14,
+      "work_rate": 14
+    },
+    "physical": {
+      "stamina": 12,
+      "strength": 11,
+      "natural_fitness": 11,
+      "reflexes": 11,
+      "eyesight": 11
+    }
+  },
+  "hidden": {
+    "consistency": 13,
+    "big_matches": 10,
+    "injury_proneness": 10,
+    "dirtiness": 10,
+    "versatility": 10,
+    "adaptability": 14,
+    "ambition": 10,
+    "controversy": 10,
+    "loyalty": 9,
+    "pressure": 10,
+    "professionalism": 14,
+    "sportsmanship": 10,
+    "temperament": 10
+  },
+  "ca": 126,
+  "pa": 129,
+  "club_id": "club_caerphilly_catapults",
+  "squad": "first",
+  "is_captain": false,
+  "broom": {
+    "model_id": "broom_cleansweep_seven",
+    "condition": 100
+  },
+  "traits_text_keys": [],
+  "source": "canon_dp",
+  "notes": "Catapults Chaser who in the bulletins moves to the Magpies to replace Maddock [DP]. In 1993-94 he is still at Caerphilly. Estimated birth date. Attributes, CA/PA and broom [inferred]."
+}

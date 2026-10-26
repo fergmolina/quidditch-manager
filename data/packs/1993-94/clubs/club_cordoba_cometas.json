@@ -1,0 +1,49 @@
+{
+  "id": "club_cordoba_cometas",
+  "name": "Córdoba Cometas",
+  "short_name": "Cometas",
+  "city": "Córdoba, Argentina",
+  "country_id": "arg",
+  "region_id": "argentina",
+  "founded": 1901,
+  "colors": {
+    "primary": "#283593",
+    "secondary": "#FFD54F"
+  },
+  "emblem_key": "meteor",
+  "emblem_desc": "a comet with a long tail",
+  "identity": {
+    "style_tags": [
+      "speed"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_mendoza_montaneses"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_argentina_league",
+  "level": 3,
+  "reputation": 2800,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 5,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Mendoza Montañeses [FILLER]: invented for the game (the derby of the interior, plains against mountains)."
+}

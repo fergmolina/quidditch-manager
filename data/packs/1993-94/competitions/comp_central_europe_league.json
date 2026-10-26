@@ -1,0 +1,59 @@
+{
+  "id": "comp_central_europe_league",
+  "name": "Liga de Europa Central",
+  "name_en": "Central European League",
+  "type": "league",
+  "region_id": "central_europe",
+  "country_ids": [
+    "cze",
+    "svk",
+    "hun"
+  ],
+  "level": 2,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_praha_golemove",
+    "club_brno_draci",
+    "club_plzen_plivnici",
+    "club_olomouc_orli",
+    "club_bratislava_bludicky",
+    "club_kosice_kuvici",
+    "club_budapest_boszorkanyok",
+    "club_debrecen_delibabok",
+    "club_szeged_sarkanyok"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.bohemian_forest",
+    "venue.high_tatras",
+    "venue.hortobagy_puszta",
+    "venue.giant_mountains",
+    "venue.lake_balaton_shores"
+  ],
+  "prizes": {
+    "galleons_champion": 3500,
+    "galleons_per_position_step": 175,
+    "awards": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] League added for the game: the books do not name it."
+}

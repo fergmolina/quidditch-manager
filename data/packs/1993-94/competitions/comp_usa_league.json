@@ -1,0 +1,62 @@
+{
+  "id": "comp_usa_league",
+  "name": "USA Quidditch League",
+  "name_en": "USA Quidditch League",
+  "type": "league",
+  "region_id": "usa",
+  "country_ids": [
+    "usa"
+  ],
+  "level": 2,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_fitchburg_finches",
+    "club_sweetwater_all_stars",
+    "club_boston_banshees",
+    "club_chicago_cyclones",
+    "club_new_orleans_nightshades",
+    "club_salem_seekers",
+    "club_denver_dustdevils",
+    "club_seattle_sasquatches",
+    "club_philadelphia_phantoms",
+    "club_savannah_swamp_skimmers",
+    "club_new_york_nifflers",
+    "club_los_angeles_luminaries",
+    "club_san_francisco_sea_serpents",
+    "club_miami_manatees"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.berkshires",
+    "venue.llano_estacado",
+    "venue.everglades",
+    "venue.dakota_badlands",
+    "venue.mojave_desert"
+  ],
+  "prizes": {
+    "galleons_champion": 3500,
+    "galleons_per_position_step": 175,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "Canon league with a 'Grand Final' [QTTA c8], [FB]. 'Quodpot stunted its development': level 2 [inferred]. Format copied from the British league [FILLER]; venues [FILLER]; prizes [filler]."
+}

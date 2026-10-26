@@ -1,0 +1,45 @@
+{
+  "id": "club_grodzisk_goblins",
+  "name": "Grodzisk Goblins",
+  "short_name": "Goblins",
+  "city": "Grodzisk, Polonia",
+  "country_id": "pol",
+  "region_id": "eastern_europe",
+  "founded": 1878,
+  "colors": {
+    "primary": "#2E7D32",
+    "secondary": "#F5F5F5"
+  },
+  "emblem_key": "goblin",
+  "identity": {
+    "style_tags": [
+      "innovative_seekers"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_eastern_europe_league",
+  "level": 1,
+  "reputation": 8500,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 4,
+    "broom_workshop": 3
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "canon_qtta",
+  "notes": "Club of Josef Wronski, 'the most innovative Seeker in the world' [QTTA c8, c10]. Color hex, level, reputation, finances and facilities [inferred/filler]. Founding year 1878 [FILLER]: not given in the books (respects the limits deduced from canon)."
+}

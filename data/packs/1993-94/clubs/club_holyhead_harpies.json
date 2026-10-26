@@ -1,0 +1,56 @@
+{
+  "id": "club_holyhead_harpies",
+  "name": "Holyhead Harpies",
+  "short_name": "Harpies",
+  "city": "Holyhead, Anglesey, Gales",
+  "country_id": "wal",
+  "region_id": "british_isles",
+  "founded": 1203,
+  "colors": {
+    "primary": "#1F4D2B",
+    "secondary": "#D4A017"
+  },
+  "emblem_key": "golden_talon",
+  "identity": {
+    "style_tags": [
+      "aggressive",
+      "women_only"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_puddlemere_united"
+    ],
+    "rivalries_source": "canon",
+    "fan_traits": [
+      "riotous"
+    ],
+    "mascot": ""
+  },
+  "league_id": "comp_british_irish_league",
+  "level": 2,
+  "reputation": 7000,
+  "finances": {
+    "balance": 7000,
+    "wage_budget_weekly": 260,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {
+    "women_only": true
+  },
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": [
+      "club.harpies.only_witches",
+      "club.harpies.heidelberg_1953"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "League titles: none known in canon (0 = unknown, not a confirmed zero) [inferred]. Hex [inferred]. Manager to be generated (a woman, per the club's rule). Finances [filler]. Rivalry with Puddlemere United: attested in the Daily Prophet newsletters (the Ilkley Moor match, with wands confiscated at the entrance and a riot, and Wilda Griffiths's move to Puddlemere) [DP]; the game takes the feud as already alive in 1993-94 [inferred], while Griffiths is still a Harpy that season."
+}

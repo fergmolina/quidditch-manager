@@ -1,0 +1,68 @@
+{
+  "id": "comp_eastern_europe_league",
+  "name": "Liga de Europa del Este",
+  "name_en": "Eastern European League",
+  "type": "league",
+  "region_id": "eastern_europe",
+  "country_ids": [
+    "bul",
+    "pol",
+    "ltu",
+    "rou",
+    "mda",
+    "tra",
+    "rus"
+  ],
+  "level": 1,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_vratsa_vultures",
+    "club_grodzisk_goblins",
+    "club_gorodok_gargoyles",
+    "club_sofia_samodivi",
+    "club_krakow_kruki",
+    "club_wrocaw_wilki",
+    "club_vilnius_vytis",
+    "club_kaunas_kometos",
+    "club_brasov_balauri",
+    "club_bucuresti_bufnite",
+    "club_chisinau_cocostarci",
+    "club_moskva_medvedi",
+    "club_sankt_peterburg_sirini",
+    "club_barnaul_baby_yagi"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.balkan_mountains",
+    "venue.biebrza_marshes",
+    "venue.samogitian_hills",
+    "venue.hoia_forest",
+    "venue.budjak_steppe"
+  ],
+  "prizes": {
+    "galleons_champion": 5000,
+    "galleons_per_position_step": 250,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "Level 1: Bulgaria 12 Eastern championships in a row [Film Wizardry], 1994 finalist; Transylvania 390-10 against England [GoF 5]. Format copied from the British league [FILLER]; venues [FILLER]; prizes [filler]."
+}

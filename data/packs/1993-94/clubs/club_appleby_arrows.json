@@ -1,0 +1,52 @@
+{
+  "id": "club_appleby_arrows",
+  "name": "Appleby Arrows",
+  "short_name": "Arrows",
+  "city": "Appleby-in-Westmorland, Cumbria, Inglaterra",
+  "country_id": "eng",
+  "region_id": "british_isles",
+  "founded": 1612,
+  "colors": {
+    "primary": "#8FB3D9",
+    "secondary": "#BFC5CB"
+  },
+  "emblem_key": "silver_arrow",
+  "identity": {
+    "style_tags": [
+      "resilient"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_wimbourne_wasps"
+    ],
+    "rivalries_source": "canon",
+    "fan_traits": [
+      "arrow_sparks_banned_1894"
+    ],
+    "mascot": ""
+  },
+  "league_id": "comp_british_irish_league",
+  "level": 2,
+  "reputation": 6900,
+  "finances": {
+    "balance": 7000,
+    "wage_budget_weekly": 260,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": [
+      "club.arrows.vratsa_1932"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "Titles unknown (0 = unknown) [inferred]. Hex [inferred]. Manager to be generated. Finances [filler]. Rivalry with Wimbourne Wasps: traditional and fierce; the Wasps' emblem dates from a match in which a Wimbourne Beater batted a wasps' nest at the Appleby Seeker [QTTA c7]."
+}

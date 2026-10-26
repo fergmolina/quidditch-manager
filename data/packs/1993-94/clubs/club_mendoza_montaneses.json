@@ -1,0 +1,49 @@
+{
+  "id": "club_mendoza_montaneses",
+  "name": "Mendoza Montañeses",
+  "short_name": "Montañeses",
+  "city": "Mendoza, Argentina",
+  "country_id": "arg",
+  "region_id": "argentina",
+  "founded": 1913,
+  "colors": {
+    "primary": "#6D4C41",
+    "secondary": "#BDBDBD"
+  },
+  "emblem_key": "giant",
+  "emblem_desc": "a snow-capped Andean peak",
+  "identity": {
+    "style_tags": [
+      "stamina"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_cordoba_cometas"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_argentina_league",
+  "level": 3,
+  "reputation": 2440,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Córdoba Cometas [FILLER]: invented for the game (the derby of the interior, plains against mountains)."
+}

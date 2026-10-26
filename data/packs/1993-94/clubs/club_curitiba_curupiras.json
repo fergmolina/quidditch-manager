@@ -1,0 +1,49 @@
+{
+  "id": "club_curitiba_curupiras",
+  "name": "Curitiba Curupiras",
+  "short_name": "Curupiras",
+  "city": "Curitiba, Brasil",
+  "country_id": "bra",
+  "region_id": "brazil",
+  "founded": 1921,
+  "colors": {
+    "primary": "#33691E",
+    "secondary": "#FF5722"
+  },
+  "emblem_key": "tree",
+  "emblem_desc": "a Curupira with backward feet beside an araucaria pine",
+  "identity": {
+    "style_tags": [
+      "balanced"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_porto_alegre_pampeiros"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_brazil_league",
+  "level": 2,
+  "reputation": 4440,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Porto Alegre Pampeiros [FILLER]: invented for the game (the southern derby)."
+}

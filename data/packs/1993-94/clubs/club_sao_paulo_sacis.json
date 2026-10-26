@@ -1,0 +1,49 @@
+{
+  "id": "club_sao_paulo_sacis",
+  "name": "São Paulo Sacis",
+  "short_name": "Sacis",
+  "city": "São Paulo, Brasil",
+  "country_id": "bra",
+  "region_id": "brazil",
+  "founded": 1874,
+  "colors": {
+    "primary": "#B71C1C",
+    "secondary": "#212121"
+  },
+  "emblem_key": "warrior",
+  "emblem_desc": "a one-legged Saci with a red cap riding a whirlwind",
+  "identity": {
+    "style_tags": [
+      "showmanship"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_rio_redemoinhos"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_brazil_league",
+  "level": 1,
+  "reputation": 8020,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 11,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Rio Redemoinhos [FILLER]: invented for the game (the league's two most successful clubs)."
+}

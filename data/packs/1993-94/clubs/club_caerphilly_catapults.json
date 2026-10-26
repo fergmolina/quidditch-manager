@@ -1,0 +1,48 @@
+{
+  "id": "club_caerphilly_catapults",
+  "name": "Caerphilly Catapults",
+  "short_name": "Catapults",
+  "city": "Caerphilly, Gales",
+  "country_id": "wal",
+  "region_id": "british_isles",
+  "founded": 1402,
+  "colors": {
+    "primary": "#7CC36B",
+    "secondary": "#C8102E"
+  },
+  "emblem_key": "vertical_stripes_catapult",
+  "identity": {
+    "style_tags": [
+      "daring"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_british_irish_league",
+  "level": 2,
+  "reputation": 7200,
+  "finances": {
+    "balance": 7000,
+    "wage_budget_weekly": 260,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 18,
+    "european_cups": 1,
+    "notes_keys": [
+      "club.catapults.dangerous_dai",
+      "club.catapults.european_cup_1956"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "Hex [inferred]. Manager to be generated. Finances [filler]."
+}

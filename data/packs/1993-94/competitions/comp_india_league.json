@@ -1,0 +1,56 @@
+{
+  "id": "comp_india_league",
+  "name": "Liga de la India",
+  "name_en": "Indian League",
+  "type": "league",
+  "region_id": "south_asia",
+  "country_ids": [
+    "ind"
+  ],
+  "level": 2,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_bombay_bulbuls",
+    "club_delhi_dholes",
+    "club_calcutta_cobras",
+    "club_madras_mongooses",
+    "club_bangalore_banyans",
+    "club_hyderabad_hornbills",
+    "club_jaipur_jugnus",
+    "club_pune_peacocks"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.gangetic_plain",
+    "venue.thar_desert",
+    "venue.western_ghats",
+    "venue.kashmir_valley",
+    "venue.kerala_coast"
+  ],
+  "prizes": {
+    "galleons_champion": 3500,
+    "galleons_per_position_step": 175,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "[FILLER] India appears on the 422nd World Cup poster (film props); the books do not name any Indian clubs."
+}

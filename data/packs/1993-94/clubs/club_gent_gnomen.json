@@ -1,0 +1,49 @@
+{
+  "id": "club_gent_gnomen",
+  "name": "Gent Gnomen",
+  "short_name": "Gnomen",
+  "city": "Gante, Flandes",
+  "country_id": "fla",
+  "region_id": "low_countries",
+  "founded": 1897,
+  "colors": {
+    "primary": "#283593",
+    "secondary": "#FFEB3B"
+  },
+  "emblem_key": "goblin",
+  "emblem_desc": "a garden gnome with a pointed hat",
+  "identity": {
+    "style_tags": [
+      "flair"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_brugge_beren"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_low_countries_league",
+  "level": 3,
+  "reputation": 2560,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 3,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Brugge Beren [FILLER]: invented for the game (the Flemish derby)."
+}

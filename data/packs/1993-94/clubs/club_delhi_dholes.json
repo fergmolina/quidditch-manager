@@ -1,0 +1,49 @@
+{
+  "id": "club_delhi_dholes",
+  "name": "Delhi Dholes",
+  "short_name": "Dholes",
+  "city": "Delhi, India",
+  "country_id": "ind",
+  "region_id": "south_asia",
+  "founded": 1901,
+  "colors": {
+    "primary": "#C62828",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a dhole wild dog",
+  "identity": {
+    "style_tags": [
+      "aggressive"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_bombay_bulbuls"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_india_league",
+  "level": 2,
+  "reputation": 4920,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 6,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Bombay Bulbuls [FILLER]: invented for the game (the league's two most successful clubs)."
+}

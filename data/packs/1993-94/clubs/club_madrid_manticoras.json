@@ -1,0 +1,49 @@
+{
+  "id": "club_madrid_manticoras",
+  "name": "Madrid Mantícoras",
+  "short_name": "Mantícoras",
+  "city": "Madrid, España",
+  "country_id": "esp",
+  "region_id": "iberia_lux",
+  "founded": 1869,
+  "colors": {
+    "primary": "#FFFFFF",
+    "secondary": "#283593"
+  },
+  "emblem_key": "giant",
+  "emblem_desc": "a manticore",
+  "identity": {
+    "style_tags": [
+      "dominant"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_barcelona_basiliscos"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_iberia_lux_league",
+  "level": 2,
+  "reputation": 5760,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 13,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Barcelona Basiliscos [FILLER]: invented for the game (the league's two most successful clubs)."
+}

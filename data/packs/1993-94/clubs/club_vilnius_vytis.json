@@ -1,0 +1,49 @@
+{
+  "id": "club_vilnius_vytis",
+  "name": "Vilnius Vytis",
+  "short_name": "Vytis",
+  "city": "Vilna, Lituania",
+  "country_id": "ltu",
+  "region_id": "eastern_europe",
+  "founded": 1893,
+  "colors": {
+    "primary": "#B71C1C",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "warrior",
+  "emblem_desc": "a knight on horseback with a raised sword",
+  "identity": {
+    "style_tags": [
+      "experienced"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_kaunas_kometos"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_eastern_europe_league",
+  "level": 2,
+  "reputation": 4800,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 5,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Kaunas Kometos [FILLER]: invented for the game (the Lithuanian derby)."
+}

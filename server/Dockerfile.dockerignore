@@ -1,0 +1,17 @@
+# Ignore file of server/Dockerfile (BuildKit reads <Dockerfile>.dockerignore next to the Dockerfile). The build
+# context is the repository root, so everything is excluded and only what the Dockerfile COPYs is let back in.
+*
+!locale/strings.csv
+!data/shared/career_rules.json
+!data/shared/season_report.schema.json
+!data/shared/map.json
+!server/package.json
+!server/package-lock.json
+!server/tsconfig.json
+!server/tsconfig.build.json
+!server/src
+!server/scripts/gen-i18n.ts
+!server/static
+!server/legal
+!server/migrations
+!server/data

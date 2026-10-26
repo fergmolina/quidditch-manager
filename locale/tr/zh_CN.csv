@@ -1,0 +1,3059 @@
+keys,zh_CN
+ui.app_title,魁地奇经理
+ui.app_subtitle,一款忠于原著的魁地奇经理游戏
+ui.continue,继续 ▶
+ui.go_to_match,前往比赛 ▶
+ui.answer_messages,回复消息
+ui.save,保存
+ui.saved,游戏已保存。
+ui.save_failed,无法保存。
+ui.back,返回
+ui.next_match,下一场：对阵 %s · %s · %s
+ui.months,"一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月"
+ui.weekdays,"周日,周一,周二,周三,周四,周五,周六"
+ui.week,周
+ui.month,月
+ui.until,至
+ui.founded,成立于
+ui.league_titles,联赛冠军
+ui.european_cups,欧洲杯冠军
+ui.level,级别
+ui.manager,经理
+ui.rivalries,宿敌
+ui.women_only,霍利黑德哈比队只招收女巫。
+ui.free_agent,自由球员
+ui.captain,队长
+ui.age_word,岁
+ui.no_catch,未抓到飞贼
+ui.menu.inbox,收件箱
+ui.menu.squad,阵容
+ui.menu.lineup,首发与战术
+ui.menu.training,训练
+ui.menu.table,积分榜
+ui.menu.calendar,赛程
+ui.menu.market,转会
+ui.menu.finances,财务
+ui.menu.board,董事会
+ui.menu.news,预言家日报
+ui.menu.club,俱乐部
+ui.menu.history,历史
+ui.menu.saves,保存 / 读取
+ui.new_game.title,新游戏
+ui.new_game.choose_club,选择你的俱乐部或学院（1993-94）
+ui.new_game.manager,你的资料
+ui.new_game.name,经理姓名
+ui.new_game.seed,种子（比赛、转会市场和青训球员）
+ui.new_game.start,签下合同
+ui.new_game.load,读取游戏
+ui.new_game.load_btn,读取
+ui.new_game.no_canon,没有知名球员：阵容将在开始后揭晓。
+ui.inbox.date,日期
+ui.inbox.from,发件人
+ui.inbox.subject,主题
+ui.inbox.empty,没有猫头鹰来信。
+ui.inbox.go_to,前往%s ▸
+ui.squad.count,%d 名球员
+ui.squad.view,视图
+ui.squad.filter,筛选
+ui.squad.auto_lineup,让助理挑选阵容
+ui.squad.first,一线队
+ui.squad.reserve,预备队
+ui.squad.youth,青年队
+ui.squad.free,自由
+ui.filter.all,全部
+ui.filter.first,一线队
+ui.filter.reserve,预备队
+ui.filter.youth,青年队
+ui.view.general,综合
+ui.attr_group.flying,飞行
+ui.attr_group.technical,技术
+ui.attr_group.mental,精神
+ui.attr_group.physical,身体
+ui.col.name,姓名
+ui.col.pos,位置
+ui.col.age,年龄
+ui.col.squad,阵容
+ui.col.cond,体能
+ui.col.morale,士气
+ui.col.form,状态
+ui.col.broom,扫帚
+ui.col.wage,周薪
+ui.col.value,身价
+ui.col.club,俱乐部
+ui.col.points,积分
+ui.col.against,失分
+ui.col.catches,飞贼
+ui.col.date,日期
+ui.col.round,轮次
+ui.col.home,主队
+ui.col.away,客队
+ui.col.result,比分
+ui.col.venue,场地
+ui.col.duration,时长
+ui.col.snitch,抓到飞贼
+ui.morale.superb,极佳
+ui.morale.good,良好
+ui.morale.ok,一般
+ui.morale.low,低落
+ui.morale.poor,很差
+ui.morale.awful,极差
+ui.status,状态
+ui.sharpness,比赛感觉
+ui.injured_days,受伤：%d 天
+ui.suspended,停赛：%d 场
+ui.contract,合同
+ui.contract_until,到期
+ui.season_stats,本赛季
+ui.stats_line,出场 %d · 进球 %d · 抓到飞贼 %d · 扑救 %d · 评分 %.1f
+ui.ca_stars,能力
+ui.pa_stars,潜力
+ui.broom_condition,扫帚状况
+ui.action.transfer_list_on,挂牌出售
+ui.action.transfer_list_off,撤下挂牌
+ui.action.renew,续约
+ui.action.make_captain,任命为队长
+ui.action.release,解约球员
+ui.action.sign_free,签下自由球员（%d G/周）
+ui.asking_price,要价：%s
+ui.action.offer,出价 %s
+ui.action.offer_low,出价 %s（还价）
+ui.action.sign,签约
+ui.action.withdraw,撤回
+ui.action.accept_sale,接受出售
+ui.action.reject,拒绝
+ui.asking,要价
+personality.model_professional,职业典范
+personality.controversial,争议人物
+personality.temperamental,脾气火爆
+personality.ambitious,雄心勃勃
+personality.loyal,忠诚
+personality.casual,随性
+personality.balanced,沉稳
+ui.lineup.starters,首发七人
+ui.lineup.valid,阵容有效
+ui.lineup.invalid,阵容不完整或有无法出场的球员：修正之前无法比赛。
+ui.tactics.team,球队指令
+ui.assistant,助理
+ui.assistant.formation,阵型 %s：全队对它的熟练度为 %d/20。
+ui.assistant.seeker_always,找球手会尽快抓住金色飞贼，即使我们落后超过150分。
+ui.assistant.seeker_if_wins,找球手只有在能赢下比赛时才会抓飞贼；在此之前他会拖延时间。
+ui.assistant.seeker_ahead,按照你的命令，找球手会等到我们至少领先 +%d 分。
+ui.assistant.hard_play,粗野打法：犯规更多、对方罚球更多、对手会受伤。
+ui.assistant.tiring,高位逼抢加快节奏：球队会在第二个小时前体力不支。
+tactic.mentality,心态
+tactic.mentality.low,防守
+tactic.mentality.high,进攻
+tactic.tempo,节奏
+tactic.tempo.low,慢
+tactic.tempo.high,快
+tactic.pass_style,传球
+tactic.pass_style.low,短传
+tactic.pass_style.high,长传
+tactic.long_shots,射门
+tactic.long_shots.low,仅近射
+tactic.long_shots.high,远射
+tactic.pressing,逼抢
+tactic.pressing.low,很少
+tactic.pressing.high,经常
+tactic.hard_play,粗野打法
+tactic.hard_play.low,温和
+tactic.hard_play.high,强硬
+tactic.time_wasting,拖延时间
+tactic.time_wasting.low,低
+tactic.time_wasting.high,高
+tactic.chaser_formation,进攻
+tactic.beater_instruction,击球手
+tactic.seeker_catch,找球手：抓飞贼
+tactic.seeker_ahead_by,最低领先分差
+tactic.seeker_search,找球手：搜寻
+tactic.seeker_feint,朗斯基假动作
+tactic.keeper_position,守门员
+formation.free,自由
+beaters.nearest,最近的对手
+beaters.hunt_seeker,追击对方找球手
+beaters.protect_seeker,保护我方找球手
+beaters.protect_chasers,保护追球手
+beaters.punish_carrier,打击持球者
+beaters.mark_beaters,盯防击球手（布拉加）
+seeker.always,总是抓飞贼
+seeker.if_wins,仅在抓到能获胜时
+seeker.ahead_by,仅在达到最低分差时
+seeker.search_free,自由搜寻
+seeker.search_mark,盯防对方找球手
+feint.never,从不
+feint.if_chance,有机会就用
+feint.seek,主动寻找机会
+keeper.stay,留守得分区
+keeper.rush,出击
+pos.K,守门员
+pos.C,追球手
+pos.B,击球手
+pos.S,找球手
+attr.speed,速度
+attr.short.speed,速
+attr.acceleration,加速
+attr.short.acceleration,加
+attr.agility,敏捷
+attr.short.agility,敏
+attr.broom_control,扫帚控制
+attr.short.broom_control,控
+attr.balance,平衡
+attr.short.balance,衡
+attr.altitude,高空
+attr.short.altitude,高
+attr.dive,俯冲
+attr.short.dive,冲
+attr.passing,传球
+attr.short.passing,传
+attr.catching,接球
+attr.short.catching,接
+attr.shooting,射门
+attr.short.shooting,射
+attr.dodging,躲闪
+attr.short.dodging,闪
+attr.stealing,抢断
+attr.short.stealing,抢
+attr.interception,拦截
+attr.short.interception,截
+attr.keeping,守门
+attr.short.keeping,守
+attr.beating,击球
+attr.short.beating,击
+attr.beat_accuracy,击球准度
+attr.short.beat_accuracy,准
+attr.snitch_catching,抓飞贼
+attr.short.snitch_catching,抓
+attr.aggression,侵略性
+attr.short.aggression,侵
+attr.anticipation,预判
+attr.short.anticipation,预
+attr.bravery,勇敢
+attr.short.bravery,勇
+attr.composure,镇定
+attr.short.composure,定
+attr.concentration,专注
+attr.short.concentration,注
+attr.creativity,创造力
+attr.short.creativity,创
+attr.decisions,决断
+attr.short.decisions,断
+attr.determination,意志
+attr.short.determination,志
+attr.flair,天赋
+attr.short.flair,赋
+attr.influence,影响力
+attr.short.influence,影
+attr.off_ball,无球跑动
+attr.short.off_ball,跑
+attr.positioning,站位
+attr.short.positioning,位
+attr.teamwork,团队合作
+attr.short.teamwork,团
+attr.work_rate,投入度
+attr.short.work_rate,投
+attr.stamina,耐力
+attr.short.stamina,耐
+attr.strength,力量
+attr.short.strength,力
+attr.natural_fitness,天生体质
+attr.short.natural_fitness,质
+attr.reflexes,反应
+attr.short.reflexes,反
+attr.eyesight,视力
+attr.short.eyesight,视
+broom.speed,速度
+broom.acceleration,加速
+broom.turning,转向
+broom.braking,制动
+broom.altitude,升限
+broom.stability,稳定性
+facility.training,训练场
+facility.medical,医疗翼
+facility.broom_workshop,扫帚工坊
+nat.eng,英格兰
+nat.sco,苏格兰
+nat.wal,威尔士
+nat.irl,爱尔兰
+nat.nir,北爱尔兰
+nat.bul,保加利亚
+objective.title,赢得联赛冠军
+objective.top_half,排名上半区
+objective.avoid_last,避免垫底
+objective.mid_table,排名中游
+training.physical,体能
+training.flying,飞行
+training.quaffle,鬼飞球
+training.beating,击球
+training.keeper,守门
+training.seeking,找球
+training.tactics,战术
+ui.match.none,没有待进行的比赛。
+ui.match.snitch_free,金色飞贼：未发现
+ui.match.snitch_sighted,金色飞贼：已发现
+ui.match.snitch_chase,发现金色飞贼！%s 正在追逐
+ui.match.play,开始
+ui.match.pause,暂停
+ui.match.next_event,下一个时刻
+ui.match.speed,速度
+ui.match.detail,详细程度
+ui.match.step,逐步
+ui.match.slow,慢
+ui.match.normal,正常
+ui.match.fast,快
+ui.match.instant,直接到结束
+ui.match.detail_key,关键时刻
+ui.match.detail_extended,扩展
+ui.match.detail_full,全部
+ui.match.timeout,叫暂停
+ui.match.finish,结束并返回办公室
+ui.match.my_team,我的球队（体能）
+ui.match.live_tactics,实时战术
+ui.match.tactics_note,调整将在下一次比赛中断时生效（进球、犯规、受伤或暂停）。
+ui.match.queued,战术调整已排队：%s
+ui.match.over,比赛结束：%s %d – %d %s
+ui.match.stats,数据（我方 / 对方）
+ui.stat.shots,射门
+ui.stat.saves,扑救
+ui.stat.bludger_hits,游走球击中
+ui.stat.fouls,犯规
+ui.stat.sightings,发现飞贼
+ui.table.note,联赛按[b]累计得分[/b]排名，与《预言家日报》的积分表一样：即使输球，每个进球也都算数。同分时：失分少者优先，其次是抓到飞贼次数多者。
+ui.training.delegate,交给助理负责
+ui.training.focus,每周重点
+ui.training.load,训练量
+ui.training.light,轻
+ui.training.medium,中
+ui.training.intense,高强度
+ui.training.note,守门员、击球手和找球手会在专项训练与球队重点之间交替进行。高强度训练 = 更多伤病。
+ui.training.recent,近期变化（自上次月度评估以来）
+ui.training.improved,提升
+ui.training.declined,下降
+ui.market.free_agents,自由球员
+ui.market.listed,挂牌球员
+ui.market.all_players,所有球员
+ui.market.pending_offers,待处理报价
+ui.market.no_offers,无。
+ui.market.no_funds,加隆不足。
+ui.market.harpies_only_witches,霍利黑德哈比队只招收女巫。
+ui.market.offer_sent,报价已由猫头鹰送出；对方俱乐部将在几天内答复。
+ui.market.not_free,不是自由球员。
+ui.market.player_refuses,球员拒绝了合同。
+ui.market.signed,已签约。
+ui.market.wants_more,他想要更多加隆。
+ui.market.renewed,合同已续签。
+ui.finances.summary,概览
+ui.finances.balance,余额
+ui.finances.wages,工资
+ui.finances.budget,预算
+ui.finances.transfer_budget,转会预算
+ui.finances.sponsor,赞助商
+ui.finances.gate_note,主场门票收入取决于观众：球场容量、球迷情绪和对手。
+ui.finances.facilities,设施
+ui.finances.upgrade,升级（%s）
+ui.finances.brooms,购买扫帚
+ui.finances.brooms_note,购买扫帚时可选择给哪名球员。
+ui.board.objective,赛季目标
+ui.board.current_pos,当前排名
+ui.board.confidence,董事会信任度
+ui.board.manager,经理：%s · 声望 %d
+ui.board.requests,请求
+ui.board.ask_budget,申请增加转会预算
+ui.news.none,尚无报纸。
+ui.news.price,5 纳特
+ui.history.champions,冠军
+ui.history.none,尚无已结束的赛季。
+ui.history.canon,俱乐部荣誉
+ui.history.transfers,最新转会
+ui.saves.name,存档名称
+ui.saves.existing,已保存的游戏
+ui.saves.main_menu,主菜单
+from.board,董事会
+from.club_secretary,俱乐部秘书
+from.mediwizard,俱乐部治疗师
+from.player,一名球员
+msg.welcome.subject,欢迎来到 {club}
+msg.welcome.body,"亲爱的 {manager}：董事会欢迎你的到来。本赛季的目标是：{objective}。账户余额为 {balance}。选好首发阵容，检查训练安排，我们期待在荒原赛场上见到你。
+
+[i]秘书提示：“继续”按钮（或空格键）可推进日程；顶栏上的 ⓘ 按钮（或 F1）会讲解每个界面。[/i]"
+msg.recovered.subject,{player} 已康复
+msg.recovered.body,{player} 已经可以重新飞行了。
+msg.injury.subject,伤病：{player}
+msg.injury.body,{player} 在比赛中受伤，将缺阵 {days} 天。根据1750年的第五条规则，不允许换人。
+msg.training_injury.subject,训练受伤：{player}
+msg.training_injury.body,{player} 在训练中受伤。将缺阵 {days} 天。
+msg.board_monthly.subject,月度评估
+msg.board_monthly.body,董事会信任度：{confidence}/100。余额：{balance}。联赛排名：{position}。
+msg.contract_expired.subject,合同到期：{player}
+msg.new_captain.subject,新队长
+msg.new_captain.body,前任队长离队后，更衣室推选 {player} 为新队长。你可以在球员页面上更改。
+from.head_of_house,学院院长
+objective.house_cup,赢得学校魁地奇杯
+msg.house_welcome.subject,欢迎执掌{house}球队
+msg.house_welcome.body,{manager}：{house}魁地奇球队交到你手上了。七名首发、几名替补、一年三场比赛，还有全院都想摆上架子的那座奖杯。选好阵容，好好训练，别忘了他们到18岁就会离校。
+msg.house_term.subject,{season} 学年开始
+msg.house_term.body,{season} 学年开始：一年级新生入学、球队选拔，魁地奇杯将从十一月开赛。
+msg.house_no_cup.subject,今年没有魁地奇杯
+msg.house_no_cup.body,校长宣布，{season} 魁地奇杯取消。球队继续训练：明年我们必须做好准备。
+msg.house_season_end.subject,学年总结
+msg.house_season_end.body.met,奖杯是我们的！{house}夺冠了。全院都在庆祝，连职业俱乐部都在打听你。
+msg.house_season_end.body.ok,我们排名第 {position}；奖杯归了 {champion}。还算体面，但学院想要更多。
+msg.house_season_end.body.missed,我们排名第 {position}，奖杯归了 {champion}。院长期待更好的一年。
+msg.house_roster.subject,球队人员进出
+msg.house_roster.body,"离队：{gone}。
+选拔后加入：{fresh}。"
+from.matron,学校护士长
+msg.new_year_house.subject,学年结束
+msg.new_year_house.body,学年结束了。七年级生毕业离校，空出的位置将在九月的选拔中补上。球队夏天休息，九月见。
+msg.new_season.body_none,{season} 赛季开始。
+ui.post.house_up,院长对球队很满意。
+ui.post.house_flat,院长原本期望更多。
+ui.post.house_down,院长很不高兴。
+ui.settings.tutorial,开始游戏时在收件箱中提供新手提示
+msg.tutorial.lineup.subject,提示 {n}：首发阵容
+msg.tutorial.lineup.body,第一场比赛前请进入“首发与战术”：选出七名球员（一名守门员、三名追球手、两名击球手和一名找球手），可以在场地上拖动他们的位置，并设置心态和找球手指令。如果你什么都不动，助理会派出最佳可用阵容。比赛中你可以实时调整战术并叫暂停。
+msg.tutorial.squad.subject,提示 {n}：阵容
+msg.tutorial.squad.body,在“阵容”中可以看到所有人的属性（1-20；◆ 标记该位置的关键属性）、体能、士气和状态。点击任何人即可打开其页面：合同、成长、操作（续约、出售、租借、谈话）以及助理的报告。绿色和红色箭头显示谁在进步、谁在退步。
+msg.tutorial.training.subject,提示 {n}：训练
+msg.tutorial.training.body,在“训练”中你可以选择球队重点和每周训练量，还可以为年轻球员设置个人重点和导师。如果你想放手，助理会负责（就在同一界面的“交给助理负责”选项）。年轻球员会随出场时间和良好设施而成长；老将从31岁开始下滑。
+msg.tutorial.calendar.subject,提示 {n}：赛季
+msg.tutorial.calendar.body,“赛程”显示所有比赛；“积分榜”显示排名（联赛按得分排名）。右上角的按钮会推进到下一场比赛或下一封猫头鹰信。每周都有《预言家日报》和助理报告；每个月董事会都会对照赛季目标评估你的工作。
+msg.tutorial.market.subject,提示 {n}：转会市场
+msg.tutorial.market.body,在“转会”中你可以搜索球员（自由球员、挂牌球员、可租借球员或你的关注名单）并报价；在“球探”中你可以派球探去了解其他地区，因为对于远方的球员，你只能看到球探所掌握的信息。注意余额：“财务”里有工资、职员和设施开支。祝你好运，经理！
+msg.tutorial.schools.subject,提示 {n}：学校
+msg.tutorial.schools.body,在“学校”中你可以看到四个学院、它们的学生以及学院杯积分榜。你的球队会自行更替：每年的选拔会带来新学生，他们到18岁就会离校；最优秀的会进入各俱乐部的青训营。没有签约也没有工资：一切都取决于阵容、训练和一年中的三场比赛。赢得奖杯会让职业俱乐部注意到你。
+msg.tutorial.squad.school.body,在“阵容”中可以看到本学院学生的属性（1-20；◆ 标记该位置的关键属性）、年级、体能、士气和状态。点击任何人即可打开其页面：成长、履历和助理的报告；在“操作”中你可以与他们谈话或任命为队长。
+msg.tutorial.calendar.school.body,“赛程”显示魁地奇杯的比赛（秋季一场，春季两场），“积分榜”显示排名：得分最多的学院夺冠。右上角的按钮会推进到下一场比赛或下一封猫头鹰信。学年结束时，院长会总结本赛季。
+msg.emergency_signing.subject,紧急签约
+msg.emergency_signing.body,由于合同到期，我们凑不齐一支球队，所以我以普通待遇签下了 {players}。请检查一下阵容。
+msg.contract_expired.body,{player} 的合同已于6月30日到期；他现在是自由球员。
+msg.retirement.subject,{player} 退役
+msg.retirement.body,{player} 在 {age} 岁时挂起了扫帚。
+msg.new_season.subject,新赛季 {season}
+msg.new_season.body,{season} 赛季开始。退役球员：{retired}。
+msg.offer_accepted.subject,{club} 接受了对 {player} 的报价
+msg.offer_accepted.body,{club} 接受以 {fee} 出售 {player}，球员愿意以每周 {wage} 签约三个赛季。我们签下他吗？
+msg.offer_rejected.subject,{club} 拒绝了对 {player} 的报价
+msg.offer_rejected.body,{club} 拒绝了 {fee} 购买 {player} 的报价。他们想要大约 {ask}。
+msg.player_refuses.subject,{player} 不愿加盟
+msg.player_refuses.body,{club} 已经同意，但 {player} 拒绝了合同。
+msg.incoming_offer.subject,{club} 对 {player} 的报价
+msg.incoming_offer.body,{club} 出价 {fee} 购买 {player}。我们接受吗？
+msg.signed.subject,签约：{player}
+msg.signed.body,{player} 以每周 {wage} 签约 {years} 个赛季。
+msg.no_funds.subject,资金不足：{player}
+msg.no_funds.body,没有足够的加隆支付 {player} 的转会费。
+msg.broom_bought.subject,新扫帚
+msg.broom_bought.body,为 {player} 购买了一把{broom}。
+msg.budget_granted.subject,预算增加
+msg.budget_granted.body,董事会为转会预算追加了 {amount}。
+msg.budget_denied.subject,请求被拒绝
+msg.budget_denied.body,董事会目前不批准追加预算。
+msg.season_end.subject,赛季结束
+msg.season_end.body.met,我们以 {pts} 分排名第 {position}。冠军：{champion}。董事会很满意：目标已完成（{objective}）。
+msg.season_end.body.missed,我们以 {pts} 分排名第 {position}。冠军：{champion}。未能完成目标（{objective}）；董事会期望更多。
+msg.season_end.body.sacked,我们以 {pts} 分排名第 {position}。冠军：{champion}。董事会认为距离目标（{objective}）相差太远。你的帅位岌岌可危。
+news.match.result,"{home} {sh} – {sa} {away}
+在{venue}，经过 {duration} 的比赛，{catcher}（{snitch_club}）抓住了金色飞贼。"
+news.match.lightning,"{venue}闪电战！{home} {sh} – {sa} {away}
+金色飞贼在 {duration} 内就被抓住：{catcher} 几乎没让观众来得及坐下。"
+news.match.marathon,"{venue}马拉松大战：{home} {sh} – {sa} {away}
+{duration} 之后，球员们筋疲力尽，{catcher} 终结了比赛。"
+news.match.mutual_end,"双方队长同意结束比赛：{home} {sh} – {sa} {away}
+在{venue}鏖战 {duration} 仍无人抓到飞贼，两位队长共同结束了比赛（第7条规则）。"
+news.match.caught_and_lost,"抓到飞贼却输了比赛：{home} {sh} – {sa} {away}
+{catcher} 在{venue}像1994年的克鲁姆一样终结了比赛：抓到了飞贼，却没能赢球。"
+news.injury,"{club} 出现伤病
+{player} 将有 {days} 天无法飞行。"
+news.table,"第 {round} 轮后的{league}积分榜
+榜首：{top}。垫底：{last}。"
+news.transfer,"签约：{player} 加盟 {to}
+{to} 以 {fee} 签下 {player}。"
+news.quibbler.1,《唱唱反调》：龙卷风队的扫帚用弯角鼾兽的毛做尾枝
+news.quibbler.2,《唱唱反调》：有人目击1884年博德明荒原那只金色飞贼，至今仍逍遥在外
+news.quibbler.3,《女巫周刊》：两位敌对找球手之间的恋情？
+news.quibbler.4,《唱唱反调》：一位阿普尔比队球迷发誓游走球已经成立了工会
+news.quibbler.5,《飞天扫帚精选》：火弩箭仍未标价：“价格面议”
+match.kickoff,哨声响起：{team} 率先控制鬼飞球。
+match.pass,{player} 传给 {other}。
+match.advance,{player} 带着鬼飞球向前推进。
+match.advance_blocked,{other} 拦住了 {player}。
+match.turnover.steal,{player} 抢下了鬼飞球！
+match.turnover.interception,{player} 截下了这记传球。
+match.turnover.quaffle_dropped,鬼飞球脱手了！{team} 拿回球权。
+match.turnover.carrier_injured,持球者受伤倒下；鬼飞球归 {team}。
+match.turnover.no_chasers,已经没有追球手了：鬼飞球归 {team}。
+match.goal.shot,{player} 进球！{score}
+match.goal.long_shot,{player} 远射破门！{score}
+match.save,{player} 扑出了 {other} 的射门！
+match.miss,{player} 射偏了。
+match.goal_annulled,{player} 的进球无效。
+match.foul.stooging,夹杀犯规！得分区内超过一名追球手：进球无效。
+match.foul.haversacking,握球入环犯规！鬼飞球穿过球环时手还没松开：进球无效。
+match.penalty_goal,{player} 罚球命中！{score}
+match.penalty_saved,{player} 扑出了 {other} 的罚球。
+match.foul.blagging,{player} 拽住 {other} 的扫帚尾：罚球。
+match.foul.blatching,{player} 故意冲撞 {other}：罚球。
+match.foul.cobbing,肘击犯规：{player} 用肘部撞击 {other}。罚球。
+match.foul.grabbing,{player} 抓住了 {other}：罚球。
+match.foul.blurting,{player} 锁住对方扫帚柄：罚球。
+match.foul.keeper_attack,{player} 在鬼飞球不在附近时把游走球打向守门员！罚球。
+match.foul.unseen.blagging,{player} 拽住 {other} 的扫帚，裁判没看到。
+match.foul.unseen.blatching,{player} 冲撞 {other}；裁判没看到。
+match.foul.unseen.cobbing,{player} 一记肘击未被判罚。
+match.foul.unseen.grabbing,{player} 抓住 {other}，未被判罚。
+match.foul.unseen.blurting,{player} 锁柄犯规未被判罚。
+match.send_off,{player} 被罚下场！球队只能少一人作战。
+match.bludger_hit,游走球击中了 {player}！
+match.bludger_dodge,{player} 躲过了一个游走球。
+match.bludger_deflect,{player} 挡开了一个游走球。
+match.injury.bludger,{player} 被游走球击伤倒下（{severity}）。不能换人。
+match.injury.feint,{player} 在朗斯基假动作后撞地（{severity}）。
+match.snitch_sighted,{player} 发现了金色飞贼！
+match.snitch_chase_contest,{player} 加入了追逐。
+match.snitch_lost.escaped,金色飞贼溜走了。
+match.snitch_lost.hit,游走球打断了追逐。
+match.snitch_lost.injury,追逐以受伤告终。
+match.snitch_lost.send_off,有人被罚下：追逐结束。
+match.snitch_lost.night,夜幕降临，金色飞贼不见了。
+match.snitch_lost.feint,假动作让 {player} 丢掉了金色飞贼。
+match.feint.success,{player} 使出朗斯基假动作！{other} 一头栽了下去。
+match.feint.failed,{player} 尝试朗斯基假动作，但 {other} 没有上当。
+match.snitch_caught,{player} 抓住了金色飞贼！！{score}
+match.timeout,{team} 叫了暂停。
+match.tactics_change,{team} 调整了战术。
+match.night_pause,夜间暂停：球员们去睡觉了。
+match.long_match_regime,已经比赛了十二个小时：比赛进入长时制。
+match.end.snitch,比赛结束。
+match.end.mutual_end,双方队长同意结束比赛。
+match.end.time_cap,到达时间上限：按进球决定胜负。
+match.end.hard_cap,比赛被中止。
+match.match_end,比赛结束。
+ui.language,语言
+ui.new_game.start_note,你将从1993年8月1日开始，这是伍德在霍格沃茨的最后一个赛季，也是火弩箭问世的一年。
+severity.match,本场无法继续
+severity.long,长期伤病
+match.foul_unseen,{player} 犯规，裁判没看到。
+match.foul.unseen.keeper_attack,{player} 在鬼飞球不在附近时攻击守门员，裁判没看到。
+ui.menu.competitions,赛事
+ui.menu.scouting,球探
+ui.menu.schools,学校
+ui.unemployed,待业
+ui.unemployed_note,正在等待工作邀约。请查看收件箱。
+ui.new_game.unemployed,无俱乐部开局（生涯模式）
+ui.new_game.unemployed_note,你将以待业身份开始，就像 Promanager 那样：小俱乐部会用猫头鹰向你发出邀约。完成目标，更好的俱乐部就会找上门来。
+ui.action.accept_job,接受这份工作
+ui.col.team,球队
+ui.wc.group,小组
+ui.wc.groups_note,16个四队小组，历时两年；每场4小时上限；胜一场得2分，净胜超过50/100/150分再加1/3/5分；同分按抓到飞贼次数决定。
+ui.wc.recent,最新赛果
+ui.cup.champion,冠军
+ui.cup.third,季军
+stage.r16,十六强
+stage.qf,四分之一决赛
+stage.sf,半决赛
+stage.third,三四名决赛
+stage.final,决赛
+stage.r8,四分之一决赛
+stage.r4,半决赛
+ui.scout.knowledge,各地区了解程度
+ui.scout.staff,球探
+ui.scout.quality,水平
+ui.scout.dismiss,解雇
+ui.scout.hire,雇用球探
+ui.scout.note,每名球探每月都会增加对所在地区的了解。低于40时看不到该地区球员的属性；40到80之间可看到范围；高于80则能看到准确数值。
+ui.scout.unknown_region,考察较少的地区：数据不确定。
+ui.filter.all_regions,所有地区
+ui.school.houses,学院
+ui.school.note,17至19岁的学生在本地区俱乐部训练。他们会在赛季结束时进入转会市场。
+msg.call_up.subject,入选国家队：{player}
+msg.call_up.body,{player} 代表 {team} 参加了 {competition}，旅途归来有些疲惫。
+msg.world_cup_over.subject,{year} 年世界杯：{team} 夺冠
+msg.world_cup_over.body,{team} 捧起了 {year} 年世界杯。
+msg.european_cup_won.subject,欧洲冠军！
+msg.european_cup_won.body,俱乐部赢得了 {year} 年欧洲杯。董事会欣喜若狂。
+msg.european_cup_qualified.subject,获得 {year} 年欧洲杯参赛资格
+msg.european_cup_qualified.body,凭借联赛排名，俱乐部将参加 {year} 年欧洲杯（2月至5月进行的单场淘汰赛）。
+msg.sacked.subject,被 {club} 解雇
+msg.sacked.body,{club} 董事会决定不再需要你的服务。你现在处于待业状态；其他俱乐部可能会向你提供工作。
+msg.job_offer.subject,工作邀约：{club}
+msg.job_offer.body,{club}（{league}）邀请你担任主教练。目标：{objective}。余额：{balance}。你接受吗？
+msg.start_unemployed.subject,欢迎你，{manager}
+msg.start_unemployed.body,你的职业生涯从无俱乐部开始。邀约会由猫头鹰送来。
+news.world_cup_champion,"{team} 赢得 {year} 年世界杯！
+魁地奇世界杯冠军归属 {team}。"
+news.european_cup_champion,"{team} 赢得 {year} 年欧洲杯
+欧洲大陆的奖杯飞向了 {team}。"
+news.european_cup_draw,"{year} 年欧洲杯抽签
+参赛队伍：{teams}。"
+news.world_cup_draw,"{year} 年世界杯决赛阶段在{venue}举行
+十六个小组头名：{teams}。"
+news.match.time_cap,"{home} {sh} – {sa} {away}（4小时上限）
+{venue}无人抓到飞贼：按小组赛规则以进球决定胜负。"
+ui.menu.group.office,办公室
+ui.menu.group.team,球队
+ui.menu.group.competition,赛事
+ui.menu.group.market,市场
+ui.menu.group.club,俱乐部
+ui.continue_hint,空格：继续 · Ctrl+S：保存 · Alt+←/→：后退/前进
+ui.next_match_label,下一场比赛
+ui.match_in_progress,比赛进行中
+ui.no_match,没有安排比赛
+ui.answer_messages_n,回复 %d 封猫头鹰信
+ui.continue_to_match,对阵 %s ▸
+ui.match.finish_short,结束比赛
+ui.squad.injured_n,%d 人受伤
+ui.squad.preview,预览
+ui.key_attributes,关键属性
+ui.view_profile,查看资料
+ui.col.cond_tip,身体状况（0-100）
+ui.lineup.on_pitch,场上
+ui.match.diff,分差
+ui.match.log_all,全部
+ui.match.log_key,关键
+ui.match.stats_us,我方
+ui.match.stats_them,对方
+ui.new_game.load_tab,读取游戏
+ui.new_game.new_tab,新游戏
+ui.new_game.advanced,高级选项
+ui.new_game.sign_with,签约 %s
+ui.new_game.start_unemployed,以待业身份开始
+ui.new_game.expectation,期望
+ui.new_game.known_players,俱乐部名人
+ui.new_game.balance,余额
+ui.new_game.school,学校
+ui.new_game.school_note,你将执教学院魁地奇球队：为七名学生安排阵容、战术和训练。一年三场比赛，目标是学校魁地奇杯，最优秀的学生会在18岁时进入各俱乐部的青训营。没有转会市场也没有工资：阵容通过每年的选拔自动补充。赢得奖杯将为你打开通往职业俱乐部的大门。
+ui.attr.key_marker,◆ 该位置的关键属性
+ui.profile.tabs,"资料,成长,履历,合同,报告"
+ui.actions,操作
+ui.profile.progress_note,自上次月度评估以来的变化（▲ 上升，▼ 下降）。
+ui.profile.no_history,没有往季记录。
+ui.stat.goals,进球
+ui.stat.rating,评分
+ui.col.season,赛季
+ui.contract_role,角色
+ui.confirm_release,确定与 %s 解约吗？他将离开俱乐部，并且需要支付解约金。
+role.key,核心球员
+role.first,主力
+role.rotation,轮换
+role.backup,替补
+role.youth,青年球员
+report.consistent,每场比赛表现都很稳定
+report.inconsistent,时而表现神勇，时而表现糟糕
+report.big_matches,大场面先生
+report.injury_prone,容易受伤
+report.dirty,倾向于打脏球
+report.versatile,能胜任多个位置
+ui.market.no_results,没有符合筛选条件的球员。试试“所有球员”，或者等到赛季结束合同到期时再看。
+ui.finances.max_level,已达最高级
+ui.news.editions,各期报纸
+ui.help.title,帮助 · %s
+ui.help.button,本界面帮助
+ui.help.generic,使用左侧菜单进行导航。“继续”（或空格键）会把日程推进到下一个事件：一场比赛、一封需要回复的猫头鹰信或本周结束。Ctrl+S（Mac 上为 Cmd+S）快速保存；Alt+← 和 Alt+→ 用于后退和前进。
+ui.help.inbox,猫头鹰会把信送到这里：董事会、你的球探、对你球员的报价、合同提议和工作邀约。带按钮的信需要你回复，在你回复之前日程不会推进。
+ui.help.squad,你的阵容及其属性（1-20），和《足球经理》一样：深绿 16-20，浅绿 11-15，红色 1-5。切换视图可查看飞行、技术、精神或身体属性。点击表头排序；双击球员打开其资料。首发球员以粗体显示；★ 为队长。
+ui.help.player,◆ 标记该位置的关键属性。箭头表示自上次月度评估以来属性是上升还是下降。来自其他地区的球员会以数值范围显示，直到你的球探了解他们。在“操作”中你可以续约、挂牌出售、任命队长、报价或签约。
+ui.help.lineup,你要选出七人：一名守门员、三名追球手、两名击球手和一名找球手。比赛中不能换人（和原著一样）：如果有人受伤或被罚下，你就只能六人作战。球队指令和找球手的命令（何时抓金色飞贼）是你最重要的手段。
+ui.help.match,比赛会逐个事件进行解说。视图：“解说”（文字）、“2D + 解说”（显示场地和球员，时钟走得更慢）或“仅比分”（直接到结束）。你可以观看、暂停、跳到下一个时刻或改变速度。实时战术会在下一次中断时生效；“叫暂停”会停止比赛并允许再次讲话。当找球手抓住金色飞贼（150分）时比赛结束。
+ui.help.table,联赛按累计得分排名，与《预言家日报》的积分表一样：即使输球，每个进球也都算数。同分时：失分少者优先，其次是抓到飞贼次数多者。双击可打开俱乐部。
+ui.help.calendar,你本赛季的所有比赛，包括日期、场地和比分。杯赛和世界杯的赛程会在抽签后显示。
+ui.help.training,训练每两周会让属性一点点变化。球队重点（战术、飞行、体能等）会侧重相应属性；高强度训练提升更快，但受伤也更多。刚开始时交给助理负责是个不错的选择。
+ui.help.market,自由球员、挂牌球员以及全世界的球员。报价会在几天内由猫头鹰送来答复。来自你的球探不了解的地区的球员会以属性范围显示。
+ui.help.finances,余额、工资与预算对比、赞助和门票收入（魔法部会分配荒原比赛的收入）。你可以升级设施和购买扫帚；新扫帚会分给扫帚最差的首发球员。
+ui.help.board,赛季目标和董事会信任度。如果最终成绩远离目标且信任度很低，你会在赛季结束时被解雇。
+ui.help.scouting,你的每名球探负责一个地区，提升俱乐部对该地区的了解。你对一个地区越了解，该地区球员在市场上的数据就越准确。
+ui.help.competitions,世界各地的联赛、欧洲杯（每三年一届）和世界杯（每四年一届）：小组、对阵图和赛果。
+ui.help.schools,学校不由你管理。设有学院的学校（霍格沃茨、伊法魔尼）每个赛季都用同一个引擎进行魁地奇杯比赛；学生18岁毕业后进入本地区某俱乐部的青训梯队。开启“原著事件”后，原著中的霍格沃茨比赛结果将与原著一致。
+ui.help.saves,随时都可以保存；每个游戏都有自己的文件夹。Ctrl+S 会以当前名称快速保存。
+ui.ok,知道了
+ui.market.not_loanable,该球员无法租借。
+ui.market.squad_full,阵容已满（17人）。
+ui.market.loan_refused,对方俱乐部不肯外租：该球员是他们的主力。
+ui.market.loan_done,租借已谈妥，至6月30日。
+ui.market.on_loan_no_action,租借中：在他返回前无法续约或出售。
+ui.market.loans,可租借
+ui.action.loan_request,申请租借
+ui.action.loan_list_on,挂牌外租
+ui.action.loan_list_off,撤回外租
+ui.action.loan_end,返回原俱乐部
+ui.on_loan_from,租借自 %s
+ui.on_loan_at,租借至 %s
+ui.loan_badge,租借
+ui.market.loan_listed,挂牌外租
+msg.loan_in.subject,{player} 租借加盟
+msg.loan_in.body,{club} 同意将 {player} 租借给我们至6月30日。他在队期间由我们支付工资（每周 {wage}）。
+msg.loan_out.subject,{player} 外租
+msg.loan_out.body,{club} 租借 {player} 至6月30日。工资由对方支付；他将在赛季结束时归队。
+msg.loan_ended.subject,{player} 的租借已结束
+msg.loan_ended.body,{player} 已返回 {club}：他的租借随赛季结束而终止。
+msg.loan_returned.subject,{player} 租借归来
+msg.loan_returned.body,{player} 已回到俱乐部，可供教练调遣。
+news.loan,{to} 从 {from} 租借 {player}
+ui.saves.none,没有已保存的游戏。
+ui.menu.settings,设置
+ui.settings.display,显示
+ui.settings.text_size,文字大小
+ui.settings.density,密度
+ui.settings.density_compact,紧凑（更多行）
+ui.settings.density_comfortable,舒适（更宽松）
+ui.settings.note,文字大小和密度相互独立：你可以放大文字而不减少行数，反之亦然。窗口内容也会随窗口大小缩放。
+ui.settings.shortcuts,快捷键
+ui.settings.about,关于
+ui.settings.about_text,非商业粉丝项目，忠于原著。《哈利·波特》与魁地奇归 J. K. 罗琳 / 华纳兄弟所有。许可信息见 ATTRIBUTION.md。
+ui.help.settings,语言、文字大小和表格密度。这些设置会保留到下次。
+ui.talk.title_pre,赛前讲话
+ui.talk.title_timeout,暂停讲话
+ui.talk.note,每名球员会根据自己的性格做出反应。比赛没有中场休息：之后只能在暂停时讲话。
+ui.talk.skip,不讲话
+ui.talk.reaction,更衣室反应
+ui.talk.good,反应良好：%s。
+ui.talk.bad,心不在焉：%s。
+talk.tone.calm,放轻松
+talk.tone.calm.tip,减轻压力。对感到紧张的人有帮助。
+talk.tone.encourage,我对你们有信心
+talk.tone.encourage.tip,鼓励。在落后或士气低落时效果最好。
+talk.tone.demand,我期望更多
+talk.tone.demand.tip,严格要求。对职业球员有效；会让脾气火爆的人消沉。
+talk.tone.angry,这是不可接受的
+talk.tone.angry.tip,发火。只有在落后时才有意义；否则会适得其反。
+talk.result.great,更衣室斗志昂扬地出场了。
+talk.result.good,大多数人有所回应。
+talk.result.mixed,反应不一。
+talk.result.bad,时机不对：好几个人心不在焉。
+msg.reserves.subject,预备队：{home} {sh}–{sa} {away}
+msg.reserves.body,预备队进行了每周一次的友谊赛，对手是 {away} 的预备队：{home} {sh} – {sa} {away}。{best} 表现突出。替补球员保持了比赛感觉。
+from.assistant,助理
+ui.match.view,视图
+ui.match.view_text,解说
+ui.match.view_2d,2D + 解说
+ui.match.view_score,仅比分
+ui.match.replay,回放
+ui.match.replay_skip,跳过
+ui.match.replay_tip,再次显示最近一个进球或抓到金色飞贼的瞬间（2D 视图）。
+match.caption.replay_catch,回放 · %s 抓住飞贼
+match.caption.goal,%s 进球！
+match.caption.save,%s 扑救
+match.caption.bludger,游走球击中 %s！
+match.caption.sighted,%s 发现了金色飞贼
+match.caption.caught,%s 抓住了金色飞贼！
+match.caption.foul,%s 犯规
+match.caption.injury,%s 受伤
+match.caption.send_off,%s 被罚下
+match.caption.timeout,暂停：%s
+match.caption.feint,%s 使出朗斯基假动作！
+match.caption.end,比赛结束
+ui.menu.encyclopedia,百科全书
+ui.enc.tabs,"规则,犯规,扫帚,俱乐部,世界杯"
+ui.enc.rules_intro,规则来自原著以及《神奇的魁地奇球》。
+ui.enc.rules_text,"• 每队七人：一名守门员、三名追球手、两名击球手和一名找球手。
+• 鬼飞球穿过三个球环中的任意一个即为进球：10分。抓住金色飞贼：150分，比赛结束。
+• 不能换人：受伤或被罚下的球员不能被替换，球队以六人（或更少）继续比赛。
+• 比赛一直持续到金色飞贼被抓住为止：可能几分钟，也可能好几天。
+• 持续多天的比赛有夜间暂停和轮流睡觉；如果无人抓到金色飞贼，双方队长可以协议结束比赛。
+• 暂停：由队长申请；比赛超过12小时后每次最长2小时；普通比赛为5分钟。
+• 进球后，由失球一方的守门员重新开球。
+• 只有找球手可以触碰金色飞贼（碰飞贼犯规）：违者判负。观众对球员施恶咒，则该队判负。
+• 得分区内只能有一名追球手（夹杀，1884年）：如有多人进入，进球无效。
+• 联赛按累计得分排名，就像霍格沃茨的学院杯。杯赛平局需重赛。世界杯小组赛有4小时上限。"
+foul.blagging,拉扯
+foul.blagging.desc,抓住对手的扫帚尾以减慢其速度或阻碍对方。判罚球。
+foul.blatching,冲撞
+foul.blatching.desc,故意飞行撞人。判罚球；情节严重者罚下。
+foul.blurting,急刹扫帚
+foul.blurting.desc,将自己的扫帚柄与对手的扫帚柄锁在一起，使其偏离航线。判罚球（处罚为推断）。
+foul.bumphing,击球出场
+foul.bumphing.desc,把游走球打向观众，迫使比赛中断。比赛暂停并判罚球。
+foul.cobbing,肘击
+foul.cobbing.desc,对对手过度使用肘部。判罚球。
+foul.flacking,环后击球
+foul.flacking.desc,守门员将身体的一部分探出球环，把鬼飞球打出去。进球有效。
+foul.haversacking,握球入环
+foul.haversacking.desc,鬼飞球穿过球环时，追球手的手仍未离开球（必须投掷）。进球无效。
+foul.quaffle_pocking,破坏鬼飞球
+foul.quaffle_pocking.desc,对鬼飞球做手脚（例如把它扎破）。判罚球。
+foul.snitchnip,触摸飞贼
+foul.snitchnip.desc,找球手以外的任何球员触碰金色飞贼。该队被判负。
+foul.stooging,夹杀
+foul.stooging.desc,超过一名追球手进入得分区。进球无效并判罚球（1884年规则）。
+foul.grabbing,抓人
+foul.grabbing.desc,抓住对手（第4条规则：不得抓住其他球员）。1994年蒙太对凯蒂·贝尔。判罚球。
+foul.bat_strike,球棒击人
+foul.bat_strike.desc,用球棒击打对手。1994年博尔对艾丽娅·斯平内特。故意为之则判罚球。
+foul.keeper_attack,攻击守门员
+foul.keeper_attack.desc,击球手在鬼飞球不在附近时冲撞守门员。判罚球。
+foul.blocking_seeker,阻挡找球手
+foul.blocking_seeker.desc,故意阻挡对方找球手。1991年弗林特对哈利·波特。判罚球。
+ui.enc.foul_who.any,任何人
+ui.enc.foul_who.beater,击球手
+ui.enc.foul_who.keeper,守门员
+ui.enc.foul_who.chaser,追球手
+ui.enc.foul_who.non_seeker,非找球手
+ui.enc.brooms_note,1993-94年可用的扫帚，及其性能（1-20）和价格。
+ui.enc.col.manufacturer,制造商
+ui.enc.col.year,年份
+ui.enc.clubs_note,世界各俱乐部的历史与特色。
+club.puddlemere.oldest,成立于1163年，是联赛中历史最悠久的俱乐部。藏青色队袍上有两根交叉的金色香蒲。22次联赛冠军和2次欧洲杯冠军。
+club.puddlemere.anthem,队歌《打回那些游走球，小伙子们，把鬼飞球扔过来》由塞蒂娜·沃贝克录制，所得收入捐给圣芒戈医院。
+club.puddlemere.reserve_team,格兰芬多队长奥利弗·伍德1994年离开霍格沃茨后，签约加盟了该队的预备队。
+club.bats.butterbeer_ads,来自北爱尔兰；黑色队袍上有一只猩红色的蝙蝠。27次联赛冠军。吉祥物果蝠巴尼是黄油啤酒广告的明星。
+club.cannons.ron_weasley_fan,橙色队袍上有一颗黑色炮弹和两个C。21次联赛冠军，最近一次是在1892年。罗恩·韦斯莱是他们最有名的球迷。
+club.catapults.dangerous_dai,成立于1402年；队袍为绿色与猩红色竖条纹。18次联赛冠军。“危险的”戴·卢埃林在米科诺斯岛度假时被客迈拉吃掉，每年颁给最鲁莽球员的奖牌便以他命名。
+club.falcons.broadmoor_brothers,深灰色与白色队袍上有一个猎鹰头像。传统上打法强硬：凯文和卡尔·布罗德莫兄弟（1958-1969）曾被禁赛十四次。队训：“让我们赢球，如果赢不了，就打破几个脑袋。”
+club.falcons.comet_founders,猎鹰队球员伦道夫·基奇和巴兹尔·霍顿于1929年创办了彗星贸易公司。
+club.harpies.only_witches,来自威尔士，成立于1203年；墨绿色队袍上有一只金色利爪。只招收女巫。1953年，格温多林·摩根用她的横扫五星把鲁道夫·勃兰特打晕了。
+club.kestrels.darren_ohare,来自爱尔兰，成立于1291年；翠绿色队袍上有两个黄色的K。以小矮妖为吉祥物，球迷会弹奏竖琴助威。爱尔兰队守门员兼队长达伦·奥黑尔发明了鹰头进攻阵型。
+club.kestrels.seamus_finnigan,他们在霍格沃茨也有球迷：哈利在格兰芬多的同学西莫·斐尼甘。
+club.magpies.most_successful,来自苏格兰；黑白队袍。联赛中最成功的俱乐部：32次冠军和两次欧洲杯冠军。尤妮斯·默里（1942年）曾请求换一个更快的金色飞贼，因为“这太容易了”；1957-1968年的队长哈米什·麦克法兰后来执掌了魔法体育运动司。
+club.magpies.mcgonagall_fan,米勒娃·麦格是公开承认的喜鹊队支持者。
+club.portree.catriona_mccormack,来自斯凯岛，成立于1292年；深紫色队袍上有一颗金色星星。卡特里奥娜·麦科马克在20世纪60年代率队两夺联赛冠军，并为苏格兰出战36次；她的女儿梅根是守门员，儿子柯利在古怪姐妹乐队演奏。
+club.tornados.five_in_a_row,来自格洛斯特郡；天蓝色队袍上有两个T。20世纪初创下了联赛五连冠的纪录。
+club.tornados.plumpton,找球手罗德里克·普朗普顿在1921年对阵卡菲利投石机队时仅用3.5秒就抓住了金色飞贼：这是联赛纪录（“普朗普顿传球”）。
+club.wanderers.parkin_family,来自苏格兰，1422年由屠夫沃尔特·帕金的七个孩子创立。血红色队袍上有一把银色剁肉刀。帕金钳形攻势的发明者。
+club.wanderers.whisp_fan,《神奇的魁地奇球》的作者肯尼沃思·惠斯普是该队的支持者。
+club.wasps.wasp_nest_origin,来自多塞特郡，成立于1312年；黄黑条纹队袍上有一只黄蜂。队名源于17世纪的一场比赛：一名击球手把黄蜂窝打向了飞箭队的找球手。球迷会发出嗡嗡声来威慑对手。
+club.wasps.bagman_three_titles,18次联赛冠军，两次打入欧洲杯半决赛。后来出任魔法体育运动司司长的卢多·巴格曼在20世纪80年代是他们的击球手。
+club.vratsa.long_goal,七次欧洲杯冠军；以远射进球闻名。
+club.quiberon.pink_robes,艳粉色队袍；来自布列塔尼，打法华丽张扬。
+club.gimbi.all_africa,来自埃塞俄比亚；两次夺得全非杯冠军。
+club.fitchburg.brankovitch,七次美国联赛冠军。找球手马克西姆斯·布兰科维奇三世在最近两届世界杯上担任美国队队长。
+ui.help.encyclopedia,规则、犯规、当时的扫帚，以及各俱乐部和历届世界杯的历史。
+ui.finances.price,价格
+club.arrows.vratsa_1932,成立于1612年；淡蓝色队袍上有一支银色的箭。1932年，他们在浓雾中鏖战十六天，击败了当时的欧洲冠军弗拉察秃鹫队。直到1894年，球迷每逢进球都会用魔杖射出箭来。
+club.catapults.european_cup_1956,1956年对阵挪威卡拉绍克风筝队赢得的欧洲杯是他们最伟大的冠军。
+club.cannons.motto_1972,自1972年起，队训变成了“让我们都交叉手指，祈求好运吧”。
+club.harpies.heidelberg_1953,1953年对阵海德堡猎犬队的那场持续七天的比赛，以哈比队获胜告终。
+club.vratsa.appleby_1932,1932年，身为当时欧洲冠军的他们在雾中鏖战十六天后，输给了阿普尔比飞箭队。
+club.generic.style.balanced,一支没有鲜明特色的均衡之师：靠秩序和经验取胜。
+club.generic.style.attacking,进攻打法：追球手拉开阵型，每场比赛射门众多。
+club.generic.style.defensive,防守传统：盯人严密，击球手紧贴对方追球手。
+club.generic.style.hard,打法强硬、身体对抗激烈；其击球手在整个联赛中都赫赫有名。
+club.generic.style.showmanship,一家华丽张扬的俱乐部，擅长假动作和冒险打法，总能点燃观众。
+club.generic.titles,队史共获 {n} 次联赛冠军。
+club.generic.no_titles,仍在追逐首个联赛冠军。
+club.generic.one_title,队史获得过一次联赛冠军。
+ui.enc.sources_line,来源：《神奇的魁地奇球》（第6章）、《哈利·波特与魔法石》（第10-11章）、《哈利·波特与阿兹卡班囚徒》（第15章）、《哈利·波特与火焰杯》（第8章）、Pottermore 2014。
+ui.enc.src.books,原著
+ui.enc.col.who,谁？
+msg.graduate.subject,{school} 毕业生：{player}
+msg.graduate.body,{player}（{pos}）已从 {school} 毕业，加入了我们的青训梯队。球探建议在预备队比赛中观察他。
+ui.squad.school,学生
+ui.school.cup,魁地奇杯
+ui.school.fixtures,比赛
+ui.school.roster,学院球队
+ui.school.graduates,本年度毕业生
+ui.school.cups,奖杯
+ui.school.no_cup,本赛季没有学校魁地奇杯。
+ui.school.students_of,球队中的学生
+ui.school.alumni,青训输送：效力于各俱乐部的毕业生（21岁以下）
+ui.school.house,学院
+ui.school.year,%d 年级
+ui.school.student,学生
+ui.school.graduates_at,17-18岁离校
+award.wronski,约瑟夫·朗斯基优秀场上技巧奖
+award.top_scorer,最佳射手
+award.top_catcher,抓到飞贼最多
+award.best_keeper,赛季最佳守门员
+award.dangerous_dai,“危险的”戴纪念奖章
+award.team_of_season,赛季最佳阵容
+news.award,{award}，{league}：{player}（{club}）
+msg.award.subject,{player} 获得{award}
+msg.award.body,联赛授予 {player} {award}。更衣室一片欢腾。
+ui.history.awards,奖项
+ui.profile.awards,奖项
+ui.market.offer_pending,已经有一份针对该球员的报价正在处理中。
+from.agent,球员经纪人
+msg.offer_countered.subject,{club} 就 {player} 提出还价
+msg.offer_countered.body,{club} 不接受以 {fee} 出售 {player}，但愿意以 {counter} 出售。我们可以接受、各让一步，或者放弃。
+ui.action.accept_counter,按对方要价支付
+ui.action.counter_again,各让一步
+msg.agent_terms.subject,{player} 的经纪人提出条件
+msg.agent_terms.body,{club} 接受 {fee}。{player} 的经纪人要求每周 {wage}、为期三个赛季，以及 {bonus} 的签字费（他的佣金）。我们可以签约、还价（工资的85 %、签字费减半；对方可能退出）或撤回。
+ui.action.contract_counter,还价
+msg.agent_walks.subject,{player} 退出谈判
+msg.agent_walks.body,{player} 的经纪人拒绝了我们的条件，结束了谈判。
+ui.action.counter_incoming,要求加价 25 %
+msg.incoming_counter_ok.body,{club} 同意支付 {fee} 购买 {player}。我们完成这笔出售吗？
+msg.incoming_counter_no.subject,{club} 放弃 {player}
+msg.incoming_counter_no.body,{club} 不愿为 {player} 出到 {fee}，已放弃。
+ui.action.swap,提出交换
+ui.swap.title,用球员交换 %s
+ui.swap.player,我们提供的球员
+ui.swap.cash,额外现金（G）
+ui.swap.send,发送提议
+ui.help.market_negotiation,报价会分轮谈判：对方俱乐部可能还价，球员经纪人会提出工资和签字费。
+ui.menu.national,国家队
+from.federation,魁地奇协会
+msg.nt_offer.subject,{team} 邀请你执教国家队
+msg.nt_offer.body,协会希望你在整个世界杯周期内执教 {team}，同时兼任俱乐部职务。你将从该国籍的球员中挑选七人并制定战术；国家队比赛由你亲自指挥。
+ui.action.accept_nt,接受这份工作
+msg.nt_welcome.subject,欢迎执掌 {team}
+msg.nt_welcome.body,你现在是 {team} 的主教练。“国家队”界面包含七人阵容和战术；比赛会出现在世界杯赛程中。
+msg.nt_champion.subject,{team}，{year} 年世界冠军！
+msg.nt_champion.body,协会再次表达了对你的信任，你的声望大幅飙升。
+msg.nt_kept.subject,协会决定留任你
+msg.nt_kept.body,{team} 打进了 {year} 年世界杯决赛阶段。你将继续执教下一个周期。
+msg.nt_sacked.subject,协会与你分道扬镳
+msg.nt_sacked.body,{team} 未能从 {year} 年世界杯小组赛中出线。你的国家队主教练生涯到此结束。
+ui.help.national,你从该国籍的所有球员（包括在非模拟联赛中效力的球员）中挑选七人并制定战术。国家队比赛的进行方式与俱乐部比赛相同。
+match.caption.replay,回放 · %s 进球
+from.press,预言家日报（记者）
+press.subject,新闻发布会
+press.q.win,“经理，{score} 战胜 {rival}。您怎么看这场比赛？”
+press.q.big_win,“{score} 大胜 {rival}。这支球队是冠军争夺者吗？”
+press.q.loss,“{score} 输给 {rival}。问题出在哪里？”
+press.q.draw,“{score} 战平 {rival}。是否感觉丢了两分？”
+press.q.caught_lost,“您的找球手抓住了金色飞贼，你们却仍以 {score} 落败。那是您的决定吗？”
+press.q.long,“一场持续好几个小时的比赛，{score}。您是如何应对疲劳的？”
+press.a.win.humble,功劳属于球员们；我们会一场一场地踢。
+press.a.win.confident,我们是一支非常强大的球队，我们会继续证明这一点。
+press.a.win.critical,我们赢了，但表现很差。我期望更多。
+press.a.big_win.humble,美好的一天；但这改变不了什么。
+press.a.big_win.confident,是的，我们要争夺联赛冠军。
+press.a.big_win.critical,即使是今天，也有我无法接受的失误。
+press.a.loss.humble,他们更出色；我们会吸取教训。
+press.a.loss.confident,这只是一次失误；球队状态很好。
+press.a.loss.critical,有些球员表现不够格。
+press.a.draw.humble,一个公平的结果。
+press.a.draw.confident,我们本该赢下比赛。
+press.a.draw.critical,我们缺乏进取心。
+press.a.caught_lost.humble,找球手做得没错；问题出在比分上。
+press.a.caught_lost.confident,是我的决定：我们及时止损了。
+press.a.caught_lost.critical,不是，我会找他谈谈。
+press.a.long.humble,球员们的表现堪称英勇。
+press.a.long.confident,我们在训练中为此做好了准备。
+press.a.long.critical,我们本该更早结束比赛。
+press.effect.humble,更衣室很认可这番话。
+press.effect.confident,球员们感受到了；董事会也注意到了。
+press.effect.critical,好几名球员被刺痛了；董事会欣赏你的严格要求。
+ui.action.talk,与球员谈话
+ui.talk.player_title,与 %s 谈话
+ui.close,关闭
+talk.player.praise,称赞其状态
+talk.player.praise.tip,提升士气；如果他已经得意忘形，就会显得空洞。
+talk.player.demand,要求更多
+talk.player.demand.tip,职业球员会有所回应；脾气火爆的会闹情绪。
+talk.player.promise,承诺首发位置
+talk.player.promise.tip,60天内首发三场，否则他会闹情绪（还可能要求离队）。
+talk.player.praise_ok,他笑了：士气提升。
+talk.player.praise_empty,他已经得意忘形了；这话显得空洞。
+talk.player.demand_ok,他点了点头：他会更加努力。
+talk.player.demand_bad,他很不高兴。
+talk.player.promise_ok,已做出承诺：60天内首发三场。
+talk.player.promise_exists,已经有一个尚未兑现的承诺。
+msg.promise_kept.subject,{player} 感谢你的信任
+msg.promise_kept.body,你兑现了给 {player} 首发位置的承诺：士气提升。
+msg.promise_broken.subject,{player} 很受伤
+msg.promise_broken.body,你没有兑现给 {player} 首发位置的承诺。他很生气，如果他雄心勃勃，还会要求离队。
+ui.help.press,每场比赛后，《预言家日报》都会提一个问题：谦虚（安抚人心）、自信（赢球时提升士气）或批评（刺痛球员，让董事会满意）。
+ui.settings.game,游戏
+ui.settings.press,每场比赛后举行新闻发布会
+ui.settings.replays,在2D视图中自动回放进球和抓飞贼
+ui.settings.book_events,原著事件（霍格沃茨、1994年世界杯……）
+match.goal.shot.v2,{player} 把球精准送进球环！{score}
+match.goal.shot.v3,进球！{player} 骗过了守门员。{score}
+match.goal.shot.v4,一次漂亮的配合后，{player} 破门得分！{score}
+match.goal.long_shot.v2,{player} 从中场一记重炮命中！{score}
+match.save.v2,{player} 奋力伸展，挡出了 {other} 的射门。
+match.save.v3,{player} 反应真快！{other} 简直不敢相信。
+match.save.v4,{player} 封住球环，挡下了 {other}。
+match.bludger_hit.v2,{player} 后背挨了一记游走球！
+match.bludger_hit.v3,游走球击中了 {player}，他一时失去了控制。
+match.bludger_hit.v4,{player} 被游走球狠狠击中！
+match.pass.v2,{player} 一记长传找到了 {other}。
+match.pass.v3,{player} 短传给 {other}。
+match.advance.v2,{player} 把鬼飞球夹在腋下向上爬升。
+match.advance.v3,{player} 低空飞行，突破了防线。
+match.advance_blocked.v2,{other} 封死了 {player} 的去路。
+match.advance_blocked.v3,{player} 找不到空隙：{other} 拦住了他。
+match.snitch_caught.v2,抓住了！！{player} 一把攥住了金色飞贼！{score}
+match.snitch_caught.v3,{player} 俯冲而下，抓住了金色飞贼！{score}
+news.match.result.v2,"{home} {sh} – {sa} {away}
+在{venue}，比赛进行了 {duration}。{catcher} 为 {snitch_club} 抓住了金色飞贼。"
+news.match.result.v3,"{home} {sh} – {sa} {away}
+{venue}的一场 {duration} 的比赛；金色飞贼落入 {catcher}（{snitch_club}）之手。"
+news.injury.v2,"{club} 出现伤病
+治疗师估计 {player} 需要 {days} 天。"
+match.miss.v2,{player} 的射门擦着球环飞了出去。
+match.miss.v3,{player} 瞄准最高的球环，可惜没进。
+match.snitch_sighted.v2,金光一闪！{player} 最先发现了它。
+match.snitch_sighted.v3,{player} 突然急转：是金色飞贼！
+ui.settings.audio,声音
+ui.settings.sfx,音效与观众
+ui.settings.music,音乐
+ui.settings.audio_note,所有声音均由游戏自身合成（哨声、进球、游走球、金色飞贼、观众以及一首原创主题曲）：不含任何第三方素材。
+ui.squad.abroad,效力于非模拟联赛
+ui.post.title,赛后报告
+ui.post.won,胜
+ui.post.lost,负
+ui.post.drew,平
+ui.post.no_snitch,未抓到飞贼
+ui.post.ratings,我方球员评分
+ui.post.best,全场最佳：%s（%.1f）
+ui.post.key_moments,关键时刻
+ui.stat.possessions,控球次数
+ui.post.board_up,董事会对结果很满意。
+ui.post.board_flat,董事会原本期望更多。
+ui.post.board_down,董事会很不高兴。
+ui.post.continue,返回办公室
+ui.help.post_match,比分、关键时刻、球员评分（双击打开资料）、数据统计和董事会的态度。
+msg.friendlies.subject,季前赛：两场友谊赛
+msg.friendlies.body,我安排了两场八月的友谊赛：对阵 {a}（主场，12日）和 {b}（客场，22日）。它们不计成绩；可以用来测试阵容、积累比赛感觉。
+ui.col.competition,赛事
+ui.col.year,年份
+ui.col.played,赛
+ui.col.ability,能力
+ui.table.no_competition,今年没有比赛：魁地奇杯暂停举办。球队继续训练。
+ui.col.won,胜
+ui.col.drawn,平
+ui.col.lost,负
+ui.col.champion,冠军
+ui.history.school_cup,%s魁地奇杯
+ui.history.world_cup,魁地奇世界杯
+ui.history.european_cup,欧洲杯
+ui.nt.pool,可入选球员
+ui.menu.next_match,下一场比赛
+msg.assistant.subject,助理每周报告
+msg.assistant.body,{lines}
+msg.assistant.expiring,• 四个月内到期的合同：%s。
+msg.assistant.unhappy,• 士气跌入谷底：%s。值得找他们谈谈。
+msg.assistant.injured,• 长期伤病（天数）：%s。
+msg.assistant.hot,• 状态火热：%s。
+msg.assistant.cold,• 近期状态低迷：%s。
+ui.stats.leaders,赛季数据榜
+ui.stats.records,联赛纪录
+ui.stats.longest,最长比赛：%s — %d小时%02d分
+ui.stats.most_points,单场最高得分：%s — %d
+ui.stats.biggest,最大分差：%s — %d 分
+ui.staff.title,职员
+ui.staff.note,每个等级提升对应领域。为各职位寻找人选：最好的人才想去有声望的俱乐部。
+ui.staff.upgrade,聘请更好的人选（%s）
+ui.staff.max,你已经拥有全国最好的人选。
+ui.staff.hired,已聘请。
+staff.assistant,助理教练
+staff.assistant.tip,负责训练：进步更快。
+staff.mediwizard,治疗师
+staff.mediwizard.tip,伤愈更快。
+staff.head_scout,首席球探
+staff.head_scout.tip,对各地区的了解增长更快。
+staff.broom_master,扫帚师傅
+staff.broom_master.tip,扫帚磨损更慢。
+ui.training.focus_ind,个人重点
+ui.training.focus_team,球队重点
+ui.training.mentor,导师
+ui.training.focus_tip,在表格中选择一名球员，即可在个人计划中为其设置个人训练重点（仅在未交给助理时）。
+ui.training.mentor_tip,一名职业素养高的老将（28岁以上）指导年轻球员（23岁以下）：提升士气和精神属性。
+ui.training.prof,职业
+msg.board_request.subject,董事会的要求
+msg.board_request.facility,董事会希望在三个月内升级“{facility}”设施。
+msg.board_request.sell,董事会认为你在{pos}位置上球员太多：请在三个月内出售或解约一人。
+msg.board_request.wages,工资总额（{wages}）超出了预算（{budget}）。董事会希望在三个月内削减。
+msg.board_request_done.subject,董事会向你致谢
+msg.board_request_done.body,你完成了董事会的要求。他们对你的信任度提升了。
+msg.board_request_failed.subject,董事会很不满
+msg.board_request_failed.body,董事会的要求到期仍未完成。他们对你的信任度下降了。
+ui.board.pending,待完成的要求
+ui.board.req.facility,升级：%s
+ui.board.req.sell_surplus,出售一名多余的%s
+ui.board.req.wages,将工资总额削减至 %s G
+ui.board.negotiate,商议赛季目标
+ui.board.propose,提议
+ui.board.negotiate_note,目标越高 = 转会预算越多、压力越大；目标越低 = 预算越少、压力越小。仅限八月。
+msg.objective_up.subject,更具雄心的目标
+msg.objective_up.body,董事会接受“{objective}”，并为转会预算追加 {amount}。
+msg.objective_down.subject,更保守的目标
+msg.objective_down.body,董事会接受“{objective}”，但削减了转会预算。
+ui.board.hall,名人堂
+ui.board.last_title,上一次夺冠
+ui.board.legends,传奇与奖项
+ui.board.top_scorer_hist,%s — 为俱乐部打进 %d 球
+ui.board.seasons,赛季
+from.scout,首席球探
+msg.scout_recs.subject,球探推荐
+msg.scout_recs.body,我们在{pos}位置上人手不足。预算范围内有三个人选：\n• {picks}
+msg.shortlist.subject,关注名单动态
+msg.shortlist.listed,{player}（{club}）已挂牌出售。
+msg.shortlist.expiring,{player}（{club}）的合同将在四个月内到期。
+news.rumours,转会传闻\n据《预言家日报》了解，以下球员愿意听取报价：{names}。
+ui.action.shortlist_on,加入关注名单
+ui.action.shortlist_off,移出关注名单
+ui.market.shortlist,我的关注名单
+weather.clear,晴空
+weather.cloudy,阴天
+weather.wind,大风
+weather.rain,下雨
+weather.storm,暴风雨
+weather.fog,大雾
+match.weather.cloudy,荒原上空阴云密布。
+match.weather.wind,狂风大作：长传会受到影响。
+match.weather.rain,大雨倾盆；金色飞贼很难发现，鬼飞球也很滑。
+match.weather.storm,球场上空暴风雨来袭！雷声、狂风，几乎什么都看不见。
+match.weather.fog,浓雾笼罩着荒原：找球手们只能盲飞。
+match.goal.shot.v5,{player} 起手一射，鬼飞球飞进了低处的球环。{score}
+match.save.v5,{player} 在球环之间飞来飞去，挡住了 {other} 的射门！
+match.snitch_sighted.v4,观众们站了起来：{player} 看到了一道金光！
+match.advance.v4,{player} 在对方击球手之间穿梭。
+match.ai_defence.pincer,{team} 改用帕金钳形攻势夹击持球者。
+match.ai_defence.mark,{team} 改为人盯人，切断传球线路。
+defence.zone,区域防守
+defence.pincer,帕金钳形攻势
+defence.mark,人盯人
+ui.tactic.chaser_defence,追球手防守
+ui.assistant.counter,对手用%s进攻：%s可以克制。
+ui.assistant.counter_ok,很好：%s是对付%s的正确防守。
+ui.assistant.defence_rule,帕金钳形攻势能遏制带球突破（鹰头阵型、迂回），但怕传球；人盯人能切断传球（波斯科夫计策、反传、绕环），但怕带球突破。
+ui.assistant.attack_vs_pincer,%s 用帕金钳形攻势防守：用传球进攻（波斯科夫计策、反传、绕环）能撕开他们。
+ui.assistant.attack_vs_mark,%s 采用人盯人：带球突破（鹰头阵型、迂回）能把他们打散。
+ui.enc.wc_note,历届魁地奇世界杯的冠军和决赛。
+ui.enc.champion,冠军
+ui.enc.runner_up,亚军
+msg.european_cup_draw.subject,{year} 年欧洲杯抽签
+msg.european_cup_draw.body,{year} 年欧洲杯已完成抽签，共 {n} 家俱乐部参赛。我们不在其中：联赛排名要更靠前才行。
+venue.neutral_moor,中立荒原
+venue.desert,撒哈拉沙漠
+venue.desert_island,荒岛
+venue.steppe,草原
+venue.remote_coast,偏远海岸
+venue.bodmin,博德明荒原
+venue.vratsa,弗拉察荒原
+venue.quiberon,基伯龙荒地
+venue.heidelberg,海德堡林间空地
+venue.braga,布拉加高原
+venue.karasjok,卡拉绍克苔原
+venue.dartmoor,达特穆尔
+venue.patagonia,巴塔哥尼亚沙漠
+venue.kazakh,哈萨克荒原
+venue.mongolia,蒙古草原
+venue.pacific,太平洋上的荒岛
+venue.tanzania,坦桑尼亚稀树草原
+venue.altiplano,安第斯高原
+news.quibbler.signature,——《唱唱反调》
+commentary.lee_jordan.kickoff,霍琦夫人放出了鬼飞球！我是李·乔丹，保证今天会保持公正……大概吧。{team} 拿到了鬼飞球。
+commentary.lee_jordan.kickoff.v2,欢迎来到比赛现场！李·乔丹为您解说，比赛开始：{team} 控制鬼飞球。
+commentary.lee_jordan.goal,{player} 得分！{score}。打得不错，这点我得承认。
+commentary.lee_jordan.goal.v2,进了！{player} 把比分改写为 {score}。
+commentary.lee_jordan.goal.v3,又得十分！{player} 进球，{score}。
+commentary.lee_jordan.goal.gry,太棒啦！{player} 为格兰芬多得分！{score}。多棒的球员！多漂亮的进球！
+commentary.lee_jordan.goal.gry.v2,格兰芬多得分！{player}，{score}。飞得太漂亮了！
+commentary.lee_jordan.goal.gry.v3,{player} 把球送进了左边的球环！格兰芬多得十分！{score}。
+commentary.lee_jordan.goal.sly,斯莱特林得分。{player}。{score}。接着说。
+commentary.lee_jordan.goal.sly.v2,好吧，{player} 为斯莱特林得分，{score}，我就不说我是怎么想的了，因为教授就坐在我旁边。
+commentary.lee_jordan.penalty_goal,{player} 罚球命中！{score}。正义得到了伸张。
+commentary.lee_jordan.save,{player} 这个扑救太精彩了！{other} 简直不敢相信。
+commentary.lee_jordan.save.v2,{player} 从这头飞到那头，把球扑了出去！{other} 一无所获。
+commentary.lee_jordan.miss,{player} 射门……偏了！哎呀，就差一点。
+commentary.lee_jordan.miss.v2,{player} 的射门偏出。得多练练瞄准了，是吧。
+commentary.lee_jordan.foul,犯规了，真是可耻！
+commentary.lee_jordan.foul.v2,拜托，裁判！在天文塔上都看得见！
+commentary.lee_jordan.foul.sly,斯莱特林的老一套！卑鄙、作弊的……！
+commentary.lee_jordan.foul.sly.v2,斯莱特林又来了！不能这样打球！
+commentary.lee_jordan.snitch_sighted,等一下，等一下！{player} 看到什么了！是金色飞贼吗？就是金色飞贼！
+commentary.lee_jordan.snitch_sighted.v2,{player} 开始俯冲！一定是看到金色飞贼了！
+commentary.lee_jordan.snitch_caught,{player} 抓住了金色飞贼！！比赛结束！{score}。
+commentary.lee_jordan.snitch_caught.gry,{player} 抓住了金色飞贼！！格兰芬多赢了！格兰芬多赢了！{score}。
+commentary.lee_jordan.snitch_caught.sly,{player} 为斯莱特林抓住了金色飞贼。{score}。今天天色真阴沉，是不是？连天空都在哀悼。
+commentary.lee_jordan.wronski_feint,朗斯基假动作！你们看到了吗？太危险了！
+commentary.lee_jordan.bludger_hit,哎哟！我在上面都感觉到疼了。
+commentary.lee_jordan.bludger_hit.gry,格兰芬多击球手这一记游走球打得漂亮！就该这么打。
+commentary.lee_jordan.injury,但愿庞弗雷女士手边备着生骨灵。
+commentary.lee_jordan.match_end,比赛结束！我是李·乔丹。下次再见！
+commentary.lee_jordan.mcgonagall,"“乔丹！”
+“对不起，教授。我接着说。”"
+commentary.lee_jordan.mcgonagall.v2,"“乔丹，你能不能不带偏见地解说？”
+“我在努力，教授，我在努力。”"
+commentary.lee_jordan.mcgonagall.v3,"“乔丹！如果你不好好解说……”
+“好吧，好吧，教授。”"
+commentary.bagman.kickoff,女士们，先生们，欢迎光临！我是卢多·巴格曼，今天这场比赛一定精彩纷呈！{team} 拿到了鬼飞球！
+commentary.bagman.kickoff.v2,声音洪亮！欢迎各位！比赛开始了，{team} 已经拿到了鬼飞球！
+commentary.bagman.goal,{player} 得分！{score}！多么漂亮的配合，女士们，先生们！
+commentary.bagman.goal.v2,进了！{player}！{score}！难以置信！
+commentary.bagman.goal.v3,进球！{player} 让守门员呆立原地！{score}！
+commentary.bagman.goal.v4,十分！{player}，又是 {player}！{score}！
+commentary.bagman.penalty_goal,{player} 罚球命中！{score}！
+commentary.bagman.save,{player} 一个不可思议的扑救！{other} 简直不敢相信！
+commentary.bagman.save.v2,{player} 说不！多棒的守门员！
+commentary.bagman.miss,{player} 射门……只偏了一根凤凰羽毛的距离！
+commentary.bagman.miss.v2,哦！{player} 的射门偏了！
+commentary.bagman.foul,哎呀，哎呀！裁判可一点都不会喜欢这个！
+commentary.bagman.foul.v2,肮脏的打法，女士们，先生们！肮脏的打法！
+commentary.bagman.snitch_sighted,注意！{player} 开始俯冲！是发现金色飞贼了吗？
+commentary.bagman.snitch_sighted.v2,{player} 看到金色飞贼了！全场观众都站起来了！
+commentary.bagman.snitch_caught,{player} 抓住了金色飞贼！！比赛结束了，女士们，先生们！{score}！
+commentary.bagman.snitch_caught.v2,金色飞贼！！{player} 抓住了！多么精彩的收尾！{score}！
+commentary.bagman.wronski_feint,朗斯基假动作！非常危险的找球技术！
+commentary.bagman.bludger_hit,哎哟！那一定很疼！
+commentary.bagman.bludger_hit.v2,好一记游走球！看台上都听得见！
+commentary.bagman.injury,快叫治疗师！快叫治疗师！
+commentary.bagman.match_end,比赛结束！卢多·巴格曼向您道别。多么精彩的一场比赛！
+commentary.name.lee_jordan,李·乔丹
+commentary.name.bagman,卢多·巴格曼
+ui.match.commentator,解说：%s
+ui.match.stakes,比赛形势
+ui.match.stakes_now,目前：积分榜%s（%s）。
+ui.match.stakes_catch,如果现在抓住金色飞贼：%s（%s）。
+ui.match.stakes_need,要登顶，我们需要在抓住金色飞贼之前再得 %d 分。
+ui.match.stakes_catch_top,现在抓住飞贼就能登顶！
+ui.match.stakes_leader,榜首
+ui.match.stakes_gap,落后榜首 %d 分
+ui.match.stakes_margin,当前分差 %s：小组积分 %d。
+ui.match.stakes_margin_catch,现在抓住金色飞贼，分差 %s：小组积分 %d。
+ui.match.stakes_bonus_rule,小组赛：胜一场得2分，净胜超过50/100/150分再加1/3/5分。
+commentary.lee_jordan.bludger_hit.v2,天哪！那个游走球是来真的。
+commentary.lee_jordan.bludger_hit.v3,一个游走球正中肋骨。明天肯定要疼了。
+commentary.lee_jordan.bludger_hit.gry.v2,韦斯莱双胞胎可不手软！好吧，是格兰芬多的击球手们，不管现在上场的是谁。
+commentary.bagman.bludger_hit.v3,正中腹部！多棒的击球手，女士们，先生们！
+commentary.lee_jordan.foul.v3,那个呢？那还不算犯规？那就是犯规！
+commentary.bagman.foul.v3,哨声响了！判得完全正确！
+commentary.bagman.save.v3,{player} 一记大力挡球！鬼飞球飞走了！
+commentary.bagman.save.v4,{player} 像猫一样伸展身体，把球挡了出去！好快的反应！
+commentary.bagman.save.v5,有 {player} 在，什么都别想穿过那个球环！
+commentary.bagman.miss.v3,{player} 瞄准……鬼飞球飞上了看台！第二十排的观众得到了一件纪念品！
+commentary.bagman.goal.v5,{player} 完美的终结！{score}！看台沸腾了！
+commentary.bagman.goal.v6,{player} 连过三名防守球员……进球了！{score}！
+commentary.lee_jordan.save.v3,{player} 一个神级扑救！你们看到了吗？{other} 还在找球呢！
+commentary.lee_jordan.save.v4,{player} 用扫帚尖把球挡了下来。真有型。
+commentary.lee_jordan.miss.v3,{player} 打中了球环框。好响的一声！
+commentary.lee_jordan.goal.v4,{player} 骗过守门员，得分！{score}。
+tactic.chaser_defence,防守
+ui.owls_waiting,收件箱里有 %d 封猫头鹰信等待回复
+ui.title.new,新游戏
+ui.title.load,读取游戏
+ui.title.about,关于
+ui.title.footer,非商业粉丝项目 · 《哈利·波特》与魁地奇归 J. K. 罗琳和华纳兄弟所有。
+match.caption.big_goal,进球！
+match.caption.big_catch,金色飞贼！
+ui.menu.explorer,浏览器
+ui.explorer.leagues,联赛
+ui.explorer.players,球员
+ui.explorer.national,国家队
+ui.explorer.search,按姓名搜索…
+ui.explorer.search_btn,搜索
+ui.explorer.all_positions,所有位置
+ui.explorer.all_regions,所有地区
+ui.explorer.found,%d 名球员（显示最好的200名）
+ui.explorer.wc_titles,世界杯
+ui.col.potential,潜力
+ui.help.explorer,看看世界其他地方：每个联赛的积分榜、覆盖所有国家的球员搜索以及国家队排名。对于远方的球员，你只能看到球探所掌握的信息。
+ui.settings.music_track,音乐主题
+music.despacho,办公室（舒缓华尔兹）
+music.partido,比赛日（进行曲）
+music.sala_comun,公共休息室（民谣吉格舞曲）
+music.clasico,经典（原创主题曲）
+ui.match.locked,比赛正在进行：结束前无法离开。
+ui.match.in_progress,比赛进行中
+region.british_isles,不列颠群岛
+country.eng,英格兰
+country.sco,苏格兰
+country.wal,威尔士
+country.nir,北爱尔兰
+country.irl,爱尔兰
+region.eastern_europe,东欧
+country.bul,保加利亚
+country.pol,波兰
+country.ltu,立陶宛
+country.rou,罗马尼亚
+country.mda,摩尔多瓦
+country.tra,特兰西瓦尼亚
+country.rus,俄罗斯
+region.france,法国
+country.fra,法国
+region.germany,德国与阿尔卑斯地区
+country.deu,德国
+country.aut,奥地利
+country.che,瑞士
+country.lie,列支敦士登
+region.iberia_lux,伊比利亚与卢森堡
+country.prt,葡萄牙
+country.esp,西班牙
+country.lux,卢森堡
+region.nordic,北欧国家
+country.nor,挪威
+country.swe,瑞典
+country.dnk,丹麦
+country.fin,芬兰
+country.isl,冰岛
+region.usa,美国
+country.usa,美国
+region.canada,加拿大
+country.can,加拿大
+region.argentina,阿根廷与拉普拉塔河地区
+country.arg,阿根廷
+country.ury,乌拉圭
+country.pry,巴拉圭
+region.brazil,巴西
+country.bra,巴西
+region.andes,安第斯地区
+country.per,秘鲁
+country.chl,智利
+country.bol,玻利维亚
+country.ecu,厄瓜多尔
+country.col,哥伦比亚
+region.mexico_caribbean,墨西哥与加勒比地区
+country.mex,墨西哥
+country.hti,海地
+country.jam,牙买加
+country.cub,古巴
+region.africa,非洲
+country.uga,乌干达
+country.tgo,多哥
+country.eth,埃塞俄比亚
+country.tza,坦桑尼亚
+country.nga,尼日利亚
+country.mwi,马拉维
+country.sen,塞内加尔
+country.egy,埃及
+country.bfa,布基纳法索
+country.civ,科特迪瓦
+country.tcd,乍得
+region.japan,日本
+country.jpn,日本
+region.oceania,大洋洲
+country.aus,澳大利亚
+country.nzl,新西兰
+country.fji,斐济
+region.middle_east,中东
+country.syr,叙利亚
+country.tur,土耳其
+region.south_asia,南亚
+country.ind,印度
+region.east_asia,东亚
+country.chn,中国
+country.kor,韩国
+region.italy,意大利
+country.ita,意大利
+region.low_countries,低地国家
+country.fla,佛兰德
+country.nld,荷兰
+region.maghreb,马格里布
+country.mar,摩洛哥
+region.indian_ocean,印度洋
+country.mdg,马达加斯加
+comp.comp_africa_league,全非联赛
+comp.comp_andes_league,安第斯联赛
+comp.comp_argentina_league,阿根廷联赛
+comp.comp_brazil_league,巴西联赛
+comp.comp_british_irish_league,英国和爱尔兰魁地奇联盟
+comp.comp_canada_league,加拿大联赛
+comp.comp_east_asia_league,东亚及东南亚联赛
+comp.comp_eastern_europe_league,东欧联赛
+comp.comp_france_league,法国联赛
+comp.comp_germany_league,德国与阿尔卑斯联赛
+comp.comp_iberia_lux_league,伊比利亚与卢森堡联赛
+comp.comp_india_league,印度联赛
+comp.comp_italy_league,意大利联赛
+comp.comp_japan_league,日本联赛
+comp.comp_low_countries_league,低地国家联赛
+comp.comp_mexico_caribbean_league,墨西哥与加勒比联赛
+comp.comp_nordic_league,北欧联赛
+comp.comp_oceania_league,大洋洲联赛
+comp.comp_usa_league,美国魁地奇联赛
+comp.european_cup,{year} 年欧洲杯
+comp.world_cup_groups,{year} 年魁地奇世界杯 — 小组赛
+comp.world_cup_final,{year} 年魁地奇世界杯 — 决赛阶段
+comp.friendlies,季前友谊赛
+comp.school_cup,{school}魁地奇杯
+house.Gryffindor,格兰芬多
+house.Hufflepuff,赫奇帕奇
+house.Ravenclaw,拉文克劳
+house.Slytherin,斯莱特林
+house.Horned Serpent,长角水蛇
+house.Wampus,猫豹
+house.Thunderbird,雷鸟
+house.Pukwudgie,普克奇
+ui.date_format,{y}年{m}月{d}日 {wd}
+ui.date_month_year,{y}年{m}月
+comp.national_cup,{league}杯
+ui.national_cups,国内杯赛冠军
+news.national_cup_champion,{team}夺得{cup}
+msg.national_cup_won.subject,杯赛冠军！
+msg.national_cup_won.body,俱乐部夺得了{cup}。董事会和球迷都在庆祝。
+msg.national_cup_draw.subject,杯赛抽签
+msg.national_cup_draw.body,{cup}抽签结果出炉：单场淘汰制（平局重赛），10月至次年4月每周四进行。种子球队可能首轮轮空。
+ui.calendar.list,列表
+ui.calendar.month,月历
+ui.calendar.today,今天
+ui.calendar.home_short,(主)
+ui.calendar.away_short,(客)
+comp.cont.bowman_wright,{year} 鲍曼·赖特杯
+comp.cont.castelobruxo,{year} 卡斯特罗布舍杯
+comp.cont.thunderbird,{year} 雷鸟杯
+comp.cont.mahoutokoro,{year} 魔法所杯
+comp.stage.groups,{cup} 小组赛
+comp.stage.final,{cup} 淘汰赛
+ui.continental_cups,洲际杯冠军
+ui.cont.groups_note,四队一组，主客场双循环；与联赛相同，按总得分排名。各组前两名晋级淘汰赛（3月开始）。
+news.continental_champion,{team}夺得{cup}
+msg.continental_qualified.subject,进军洲际杯
+msg.continental_qualified.body,俱乐部将参加{cup}。比赛在周三进行；董事会期待小组出线。
+msg.continental_ko.body,俱乐部在{cup}小组出线：接下来是淘汰赛。
+msg.continental_won.subject,洲际冠军！
+msg.continental_won.body,俱乐部夺得了{cup}。董事会和球迷欣喜若狂。
+country.cze,捷克
+country.svk,斯洛伐克
+country.hun,匈牙利
+country.tha,泰国
+region.central_europe,中欧
+comp.comp_central_europe_league,中欧联赛
+ui.match.sim_to_end,模拟至终场
+ui.match.sim_to_end_tip,一次性完成剩余比赛（无动画）并显示最终结果。
+ui.new_game.map,地图
+ui.new_game.list,列表
+ui.new_game.map_hint,在地图上选择联赛
+ui.career.title,你的执教生涯
+ui.career.reputation,声望
+ui.career.rank,等级
+ui.career.seasons,赛季
+ui.career.titles,冠军
+ui.career.rank0,无名之辈
+ui.career.rank1,后起之秀
+ui.career.rank2,备受尊敬
+ui.career.rank3,声名显赫
+ui.career.rank4,传奇
+ui.career.note,俱乐部根据你的声望提供执教邀约：俱乐部越有名望，要求越高。国家队要求很高的声望和至少两三个赛季的经验。成绩超出球队预期、赢得冠军和完成目标都会提升声望。
+ui.career.next,距离“{rank}”还差{n}点。
+msg.career.subject,你的声望
+msg.career.body,球队获得第{pos}名（按名望预期为第{expected}名）。你的声望变化{delta}，现为{rep}：{rank}。
+ui.loading.advancing,推进中…
+ui.loading.new_game,正在准备世界…
+ui.loading.load,正在载入存档…
+ui.loading.finishing,正在结束本轮…
+ui.continue_days,继续 · %d天 ▶
+ui.fix_lineup,检查阵容 ▸
+ui.lineup_blocked_toast,阵容中有伤员或空缺：请在比赛前调整。
+ui.action.fix_lineup,前往阵容
+msg.lineup_blocked.subject,阵容尚未就绪
+msg.lineup_blocked.body,今天对阵{rival}，但阵容里有伤员、停赛球员或空缺。这样的七人我没法派上场：请你自己选择替补。
+ui.lineup.squad,球员名单
+ui.lineup.col_slot,位置
+ui.lineup.hint,点击球员，再点击场上位置 · 双击：上场或下场 · 拖动棋子互换
+ui.lineup.hint_player,现在点击场上位置
+ui.lineup.hint_slot,现在从列表中选择球员
+ui.press.go,新闻发布会 ▸
+ui.press.from,预言家日报
+ui.press.question_n,问题 %d / %d
+ui.press.reporter,《预言家日报》的记者在等你回答。
+ui.press.done_title,新闻发布会结束
+ui.press.done_body,记者们收起羽毛笔。你的话会传到更衣室和董事会：留意士气和信任度。
+press.tone.humble,谦逊：更衣室领情，董事会几乎不在意。
+press.tone.confident,自信：获胜后提升士气；失利后像是借口，董事会会记在心里。
+press.tone.critical,批评：董事会欣赏严格要求，但更衣室（和被点名者）会冷却。
+press.tone.evasive,回避：没有影响，但媒体会记住。
+press.effect.evasive,记者们面面相觑：什么也没问出来。俱乐部里没人在意。
+press.effect.humble_player,球员明天会读到，训练中看得出来；更衣室领情。
+press.effect.confident_player,球员因公开表扬而振奋；董事会记下了这种语气。
+press.effect.critical_player,球员从报纸上得知，很不高兴；董事会欣赏严格要求。
+press.a.win.evasive,我不想在情绪激动时分析。
+press.a.big_win.evasive,只是一场比赛。下一个问题。
+press.a.loss.evasive,我们会在更衣室里复盘，不在这里。
+press.a.draw.evasive,一个结果而已。换个话题。
+press.a.caught_lost.evasive,指令是内部的事。
+press.a.long.evasive,我太累了，回答不了这个问题。
+press.q.big_loss,“被{rival}以{score}痛击。这是危机吗？”
+press.a.big_loss.humble,糟糕的一天，我向球迷道歉。
+press.a.big_loss.confident,没有危机：下一场我们就会赢回来。
+press.a.big_loss.critical,有些球员没有拼搏。会有后果的。
+press.a.big_loss.evasive,我不会替你们写标题。
+press.q.player_star,“{player}是全场最佳。有什么是其他人没有的？”
+press.a.player_star.humble,比谁都努力；实至名归。
+press.a.player_star.confident,全联赛该位置最佳，而且他心里有数。
+press.a.player_star.critical,今天是。其他时候却不见踪影；希望能再来一次。
+press.a.player_star.evasive,我不谈论个别球员。
+press.q.player_scorer,“{player}打进{goals}球。已经是球队核心了吗？”
+press.a.player_scorer.humble,进球属于全队；没有传球就没有进球。
+press.a.player_scorer.confident,是的。还会进更多。
+press.a.player_scorer.critical,核心也得防守，今天他没做到。
+press.a.player_scorer.evasive,去问他本人吧。
+press.q.player_injured,“{player}受伤离场。要缺席多久？”
+press.a.player_injured.humble,治疗师说大约{days}天。重要的是好好恢复。
+press.a.player_injured.confident,会比预计更早回归；他是铁打的。
+press.a.player_injured.critical,是他自己鲁莽受的伤。希望他吸取教训。
+press.a.player_injured.evasive,医疗报告由俱乐部发布。
+press.q.player_poor,“{player}打了一场想忘掉的比赛。还会首发吗？”
+press.a.player_poor.humble,谁都有糟糕的日子；我完全信任他。
+press.a.player_poor.confident,下周他会是全场最佳，等着瞧。
+press.a.player_poor.critical,不。那种水平不配在这家俱乐部踢球。
+press.a.player_poor.evasive,阵容比赛日才会公布。
+press.q.streak_win,“{n}连胜。这支球队能走多远？”
+press.a.streak_win.humble,到下一场。我们不看得更远。
+press.a.streak_win.confident,直到冠军。这支队伍没有上限。
+press.a.streak_win.critical,赢是赢了，但踢得不好。不改进的话连胜就会终结。
+press.a.streak_win.evasive,我不数连胜。
+press.q.streak_loss,“{n}连败。担心自己的帅位吗？”
+press.a.streak_loss.humble,我担心的是球队，不是自己。我们会一起走出来。
+press.a.streak_loss.confident,完全不。下一场就终结连败。
+press.a.streak_loss.critical,该担心的是那些状态不佳的球员。
+press.a.streak_loss.evasive,这个问题去问董事会。
+press.q.board_pressure,“传闻董事会已在物色替代者。你还有他们的支持吗？”
+press.a.board_pressure.humble,我每周都和他们沟通；成绩会替我说话。
+press.a.board_pressure.confident,完全支持。说不是的人都在撒谎。
+press.a.board_pressure.critical,让他们找吧。我在找肯拼的球员。
+press.a.board_pressure.evasive,我不评论传闻。
+press.q.table_top,“联赛领头羊。今年是夺冠之年吗？”
+press.a.table_top.humble,联赛还长。脚踏实地。
+press.a.table_top.confident,是的。没人能把我们拉下来。
+press.a.table_top.critical,再这么踢的话，不是。差得还远。
+press.a.table_top.evasive,我六月再看积分榜。
+press.q.table_bottom,“积分榜第{pos}。有理由保持冷静吗？”
+press.a.table_bottom.humble,不是冷静，是努力。我们清楚自己的处境。
+press.a.table_bottom.confident,积分榜在撒谎。这支球队的价值远不止于此。
+press.a.table_bottom.critical,没有。有些球员高估了自己。
+press.a.table_bottom.evasive,下一个问题。
+press.q.cup_tie,“单场淘汰制。怎么备战杯赛？”
+press.a.cup_tie.humble,怀着敬意：杯赛里谁都能赢你。
+press.a.cup_tie.confident,一如既往：为了赢。我们要拿下杯赛。
+press.a.cup_tie.critical,要比今天某些人更认真。
+press.a.cup_tie.evasive,和其他比赛一样。
+press.q.next_rival,“接下来对阵{next}。你对那场比赛有什么期待？”
+press.a.next_rival.humble,一场艰难的比赛，和所有比赛一样。我们尊重对手。
+press.a.next_rival.confident,赢。我看不到其他可能。
+press.a.next_rival.critical,希望某些人终于能醒过来。
+press.a.next_rival.evasive,明天再想。
+ui.lineup.show_tactics,指令 ▸
+ui.lineup.hide_tactics,◂ 隐藏指令
+ui.action.mutual,协议解约
+ui.confirm_release_paid,与 %s 解约？球员将离队，须支付剩余合同工资：%s。
+ui.mutual.offer,%s 同意以 %s 协议离队（剩余合同 %s）。签署解约吗？
+ui.mutual.refused,%s 不想离开：他是主力，在俱乐部很开心。
+ui.mutual.no_money,资金不足，无法支付 %s。
+ui.past_managers,历任主教练
+news.manager_sacked,{club}解雇主教练\n{club}董事会因战绩不佳解雇了{old}，由{new}接手球队。
+ui.cancel,取消
+role.star,球星
+role.first_team,主力
+role.reserve,替补
+ui.contract.title,合同：%s
+ui.contract.demand,要求周薪 %s、%d 年、角色「%s」、签字费 %s。
+ui.contract.fee_line,已与俱乐部谈妥转会费：%s。
+ui.contract.wage,周薪
+ui.contract.years,年限
+ui.contract.role,角色
+ui.contract.signing_fee,签字费
+ui.contract.bonus_goal,进球奖金
+ui.contract.bonus_catch,飞贼奖金
+ui.contract.bonus_title,冠军奖金
+ui.contract.yearly_rise,年度加薪 %
+ui.contract.release_clause,解约金条款
+ui.contract.clause_hint,0 = 无解约金。低解约金能让有野心的球员降低薪水要求，但任何付得起的俱乐部都能直接带走他。奖金按进球、抓住飞贼和夺冠支付。
+ui.contract.propose,提出
+ui.contract.counter,还价：周薪 %s、角色「%s」即可接受。还剩 %d 次提议。
+ui.contract.accepted,接受了！
+ui.contract.walked,%s 离开了谈判桌：一个月内不再谈。
+ui.contract.blocked,暂时不想谈：上次谈判刚刚破裂。
+ui.contract.pre_not_allowed,不行：预签合同只在一月到六月，且对象须为合同将到期的球员。
+ui.contract.pre_signed,预签合同已签：下赛季免费加盟
+ui.action.negotiate,谈判合同
+ui.action.pre_contract,提出预签合同
+msg.pre_contract.subject,预签合同已签
+msg.pre_contract.body,{player} 已与我们签约：{season} 赛季免费加盟。
+msg.pre_contract_lost.subject,一名球员与别队签约
+msg.pre_contract_lost.body,{player} 与 {club} 预签了合同：6 月 30 日合同到期后免费离队。及时续约本可避免。
+msg.pre_contract_gone.subject,依预签合同离队
+msg.pre_contract_gone.body,{player} 免费转投 {club}：合同于6月30日到期，此前已与对方签下预签合同。
+msg.pre_contract_arrived.subject,新援到队
+msg.pre_contract_arrived.body,{player} 依预签合同免费加盟。
+msg.release_clause.subject,解约金已支付
+msg.release_clause.body,{club} 支付了 {player} 的解约金（{fee}）并带走了他，没有谈判余地。
+msg.complaint.subject,一名球员想谈谈
+msg.complaint.body.minutes,{player} 来到办公室：合同写的是主力，却几乎没上场。他要么要出场时间，要么要走。
+msg.complaint.body.contract,{player} 很担心：合同只剩几个月，却没人谈续约。否则他会听取报价。
+msg.complaint.body.listed,{player} 不明白为什么被挂牌：他没要求过，觉得俱乐部不要他了。
+ui.action.complaint_promise,承诺出场时间
+ui.action.complaint_renew,谈续约
+ui.action.complaint_list,挂牌出售
+ui.action.complaint_ignore,不理会
+ui.complaint.listed,{player} 已按要求挂牌。
+ui.complaint.ignored,{player} 气呼呼地离开了办公室。
+ui.complaint.wants_out,{player} 提出了转会申请：已挂牌，《预言家日报》也知道了。
+ui.happiness.content,很满意。
+ui.happiness.worried,不满：%s。
+ui.happiness.minutes,出场时间
+ui.happiness.contract,合同
+ui.happiness.listed,被挂牌
+news.wants_out,{player} 想离开 {club}\n《预言家日报》获悉，{player} 抱怨自己在 {club} 的处境后提出了转会申请。
+ui.tactics.saved,战术
+ui.tactics.set.main,主战术
+ui.tactics.set.attack,进攻
+ui.tactics.set.defend,防守
+ui.tactics.familiarity,阵型熟练度：%d %%
+ui.tactics.familiarity_tip,球队对这一追球手阵型的演练程度。每周使用都会提升（战术训练时翻倍），不用则下降。低于 100 时，追球手的传球和决策会略差（最多 8%）。
+ui.finances.ledger,账簿
+ui.finances.ledger_empty,暂无记录。
+ui.finances.concept,项目
+ui.finances.net,当月收支
+ledger.gate,门票
+ledger.sponsor,赞助
+ledger.merch,周边商品
+ledger.prizes,奖金
+ledger.transfers_in,出售
+ledger.wages,工资
+ledger.staff,教练组
+ledger.scouts,球探
+ledger.transfers_out,购入
+ledger.signing_fees,签字费
+ledger.bonuses,球员奖金
+ledger.severance,解约补偿
+ledger.facilities,设施
+ledger.brooms,飞天扫帚
+ui.fans.title,球迷
+ui.fans.euphoric,狂热
+ui.fans.happy,满意
+ui.fans.calm,平静
+ui.fans.restless,不安
+ui.fans.angry,愤怒
+msg.sponsor_offers.subject,赞助报价
+msg.sponsor_offers.body,{club} 的赞助合同已到期。这些公司想把名字印在队袍上，请选一家。签约前没有赞助收入。
+ui.action.accept_sponsor,{name}：每月 {monthly}，至 {until}
+ui.board.area.results,战绩
+ui.board.area.finances,财务
+ui.board.area.fans,球迷
+ui.board.ultimatum_active,最后通牒：董事会要求接下来 5 场联赛赢 3 场。
+ui.board.ask_wages,申请更多工资预算
+ui.board.ask_facility,申请资助设施
+msg.ultimatum.subject,董事会最后通牒
+msg.ultimatum.body,{club} 董事会已失去耐心：接下来 5 场联赛赢不下 3 场，你就得另谋高就。
+msg.ultimatum_met.subject,董事会松了口气
+msg.ultimatum_met.body,你完成了最后通牒，董事会暂时重新信任你。
+msg.wages_granted.subject,工资预算上调
+msg.wages_granted.body,董事会将工资预算每周提高 {amount}。
+msg.facility_granted.subject,董事会出资改造
+msg.facility_granted.body,董事会批准并支付了 {facility} 的升级。
+news.takeover,{club} 易主\n一位投资人收购了 {club} 并还清债务，注资 {amount}，誓言争夺前列。
+msg.takeover.subject,俱乐部易主
+msg.takeover.body,一位投资人收购了 {club}：注资 {amount}，部分用于转会，他期待成绩。
+ui.col.month,月份
+ui.stats.monthly_awards,月度奖项
+award.player_month,月度最佳球员
+award.young_month,月度最佳新秀
+award.manager_month,月度最佳主教练
+news.monthly_award,{award}：{player}\n{player}（{club}）以平均评分 {value} 当选 {league} {award}。
+msg.monthly_award.subject,月度奖项
+msg.monthly_award.body,{player} 荣获{award}，非常高兴。
+msg.manager_month.subject,月度最佳主教练
+msg.manager_month.body,你当选 {league} 月度最佳主教练，声望上升。
+ui.menu.manager,我的生涯
+ui.career.unemployed,待业
+ui.manager.current,执教 %s
+ui.manager.history,执教履历
+ui.manager.from,起
+ui.manager.to,止
+ui.manager.reason,离任
+ui.manager.reason.current,在任
+ui.manager.reason.left,转投他队
+ui.manager.reason.sacked,被解雇
+ui.manager.reason.resigned,辞职
+ui.manager.best_pos,最佳排名
+ui.manager.vacancies,空缺职位
+ui.manager.no_vacancies,近两个月没有俱乐部解雇主教练。
+ui.manager.requires,所需声望
+ui.manager.apply,申请
+ui.manager.applied,已申请
+ui.manager.resign,辞职
+ui.manager.resign_confirm,从 %s 辞职？声望下降 5%%，并将待业。
+msg.resigned.subject,辞职获准
+msg.resigned.body,{club} 董事会接受了你的辞职，祝好运。
+msg.application_rejected.subject,申请被拒
+msg.application_rejected.body,{club} 感谢你的关注，但选择了其他人选。
+ui.stat.apps,出场
+ui.explorer.more_filters,更多筛选 ▾
+ui.explorer.less_filters,收起筛选 ▴
+ui.explorer.age_min,最小年龄
+ui.explorer.age_max,最大年龄
+ui.explorer.value_max,最高身价（0=不限）
+ui.explorer.wage_max,最高周薪（0=不限）
+ui.explorer.contract_until,合同到期（年份，0=不限）
+ui.explorer.stars_min,最少星级
+ui.explorer.nationality,国籍
+ui.explorer.status,状态
+ui.explorer.attr,属性
+ui.explorer.attr_min,最低值
+ui.explorer.any,不限
+ui.explorer.reset,清除筛选
+ui.explorer.adv_note,星级和属性只筛选你的球探了解的球员。
+ui.explorer.show_more,显示更多（剩余 %d）
+ui.market.listed_short,挂牌
+ui.market.loan_short,可租借
+ui.action.compare_mark,标记以对比
+ui.action.compare_marked,已标记 %s：打开另一名球员并选择「与…对比」。
+ui.action.compare_with,与 %s 对比
+ui.compare.title,球员对比
+ui.compare.missing,缺少一名球员。
+ui.compare.note,± = 第二人减第一人。「?」= 你的球探尚不了解。
+ui.match.rival_team,对手
+ui.post.talk,赛后训话
+ui.post.talk_hint,为更衣室选一种语气：会根据比赛结果和每个人的性格影响士气。
+facility.academy,青训学院
+youth.verdict.star,有望成为球星
+youth.verdict.good,有潜力：有出场时间能成主力
+youth.verdict.squad,轮换球员
+youth.verdict.weak,难以成材
+msg.youth_intake.subject,青训新人报到
+msg.youth_intake.body,本赛季加入青训的年轻人：\n{players}
+from.head_scout,首席球探
+ui.action.scout_report,请球探出报告
+ui.scout.no_scouts,你没有球探。
+ui.scout.already,已在为该球员出报告。
+ui.scout.requested,已请求报告：几天后送达。
+ui.scout.verdict.sign,建议签下
+ui.scout.verdict.watch,持续关注
+ui.scout.verdict.skip,不值得
+ui.scout.verdict,结论
+ui.scout.report_title,球探报告（%s）
+ui.scout.value,估值 %s
+ui.scout.pending,报告已请求：预计 %s 送达。
+ui.scout.assignments,任务
+ui.scout.opponent_toggle,每场联赛前提交下个对手报告
+ui.scout.pending_list,进行中的报告：%s
+ui.scout.assign_note,要请求报告，打开球员资料并选择「请球探出报告」。球探越好，越快越准。
+msg.scout_report.subject,球探报告
+msg.scout_report.body,{player}（{club}）。能力 {ca}，潜力 {pa}。结论：{verdict}。估值：{value}。
+msg.opponent_report.subject,下个对手报告
+msg.opponent_report.body,{club}（第 {pos} 名）。预计首发：{lineup}。核心球员：{star}。防守方式：{style}。
+ui.staff.vacant,空缺
+ui.staff.search,寻找人选
+ui.staff.close_search,关闭搜索
+ui.staff.fire,解雇（%s）
+ui.staff.level,等级
+ui.staff.hire_fee,签约费 %s
+ui.staff.hire_hint,双击人选即可聘请：支付 10 周工资的签约费，前任获得剩余合同工资。
+ui.staff.refuses,拒绝：想去声望更高的俱乐部。
+ui.staff.fired,已解雇。
+ui.settings.autosave,每月 1 日及每场己方比赛后自动存档
+ui.profile.injuries,伤病史
+ui.profile.days_out,缺阵 %d 天
+injury.match,比赛中
+injury.training,训练中
+ui.contract.pre_with,已与 %s 预签合同
+ui.inbox.all,全部
+ui.inbox.unread,未读
+ui.inbox.pending,待处理
+ui.inbox.mark_read,全部标为已读
+ui.inbox.delete_read,删除已读
+ui.records.title,纪录
+ui.records.record,纪录
+ui.records.value,数值
+ui.records.holder,保持者
+ui.records.fastest_catch,最快抓住飞贼
+ui.records.longest_match,最长比赛
+ui.records.highest_score,单队最高得分
+ui.records.biggest_margin,最大分差
+ui.records.season_goals,单季进球
+ui.records.days,%d 天
+from.prophet,预言家日报
+msg.pre_press.subject,赛前发布会
+msg.pre_press.body,明天对阵 {rival}。《预言家日报》想在赛前听你说几句。
+ui.press.go_pre,前往发布会
+press.q.pre_favourite,“对阵 {rival} 你们是热门，有压力吗？”
+press.q.pre_underdog,“没人看好你们对阵 {rival}，你怎么回应？”
+press.q.pre_even,“预计对阵 {rival} 将是一场势均力敌的比赛，你怎么看？”
+press.q.pre_rival_star,“你们打算怎么限制 {player}？”
+press.a.pre_favourite.humble,没有轻松的比赛，{rival} 值得尊重。
+press.a.pre_favourite.confident,我们更强，会证明这一点。
+press.a.pre_favourite.critical,{rival} 靠粗野打法，希望裁判看紧点。
+press.a.pre_favourite.evasive,我们一场一场来。
+press.a.pre_underdog.humble,他们更强，但我们会全力以赴。
+press.a.pre_underdog.confident,让他们继续小看我们吧，我们会赢。
+press.a.pre_underdog.critical,{rival} 花了那么多钱，输了丢脸的是他们，不是我们。
+press.a.pre_underdog.evasive,关键看空中发生什么。
+press.a.pre_even.humble,会很艰难，我们很尊重他们。
+press.a.pre_even.confident,我们状态更好，比赛会证明。
+press.a.pre_even.critical,{rival} 踢得很保守，我们要去赢。
+press.a.pre_even.evasive,比赛开始就见分晓。
+press.a.pre_rival_star.humble,{player} 是个天才，我们得非常小心。
+press.a.pre_rival_star.confident,我们有对付 {player} 的办法，他碰不到鬼飞球。
+press.a.pre_rival_star.critical,{player}？被高估了，都是报纸吹出来的。
+press.a.pre_rival_star.evasive,我们更关心自己的比赛。
+press.effect.pre_humble,全队很平静，对手也没反应。
+press.effect.pre_confident,你的球员士气高涨，对手也收到了信号。
+press.effect.pre_critical,对方球星看了很恼火；董事会希望少些争议。
+press.effect.pre_evasive,明天的头条没料了。
+ui.holiday.title,休假
+ui.holiday.note,你不在时由助理执教：排阵并指挥比赛。如有急事会提前回来。
+ui.holiday.week,一周
+ui.holiday.two_weeks,两周
+ui.holiday.month,一个月
+ui.holiday.season,直到赛季结束
+ui.holiday.away,休假中…
+ui.holiday.back,休假归来：%d 胜 %d 平 %d 负。
+ui.holiday.back_early,你被提前叫回：收件箱里有急事。
+ui.view.contracts,合同
+ui.col.mood,情绪
+ui.training.plan,分类训练计划
+ui.training.none,无
+ui.training.shares,每周分配：%s。
+ui.action.offer_installments,分 3 期报价 %s
+msg.installment.subject,转会分期付款
+msg.installment.body,已为 {player} 的转会支付一期 {amount}，剩余 {left} 期。
+ui.post.other_results,同轮其他赛果
+ui.action.accept_sale_sell_on,以 {fee} 出售（保留 20% 二次转会分成）
+msg.sell_on_paid.subject,收到二次转会分成
+msg.sell_on_paid.body,{player} 被卖到 {club}，二次转会条款为我们带来 {amount}。
+ui.market.option_too_low,对方不接受低于要价的买断条款。
+ui.action.loan_request_option,租借并附带买断选项（%s）
+ui.action.loan_list_option,外租并附带买断选项（%s）
+ui.market.loan_listed_option,已挂出外租并附带买断选项。
+msg.loan_option.subject,买断选项
+msg.loan_option.body,{player} 的租期在 6 月 30 日结束。可按约定以 {fee} 从 {club} 买断。
+ui.action.exercise_option,行使买断
+ui.action.decline_option,退回
+ui.market.option_done,已行使买断：他现在属于俱乐部。
+msg.option_exercised.subject,对方行使了买断
+msg.option_exercised.body,{club} 行使了 {player} 的买断：向我们支付 {fee} 并留下他。
+msg.nt_friendlies.subject,国际友谊赛
+msg.nt_friendlies.body,本赛季没有世界杯赛程，协会为 {team} 安排了友谊赛，对手：{rivals}。
+weather.snow,雪
+match.weather.snow,下雪了：球场一片白，鬼飞球很滑，金色飞贼消失在雪花之间。
+ground.kind.moor,%s荒原
+ground.kind.heath,%s石楠荒地
+ground.kind.downs,%s丘陵
+ground.kind.fells,%s高地
+ground.kind.clearing,%s林间空地
+ground.kind.plateau,%s高原
+ground.kind.highland,%s高地
+ground.kind.meadow,%s草甸
+ground.kind.hills,%s山丘
+ground.kind.fields,%s田野
+ground.kind.steppe,%s草原
+ground.kind.plain,%s平原
+ground.kind.tundra,%s苔原
+ground.kind.prairie,%s大草原
+ground.kind.canyon,%s峡谷
+ground.kind.island,%s岛
+ground.kind.savannah,%s稀树草原
+ground.kind.dunes,%s沙丘
+ground.kind.altiplano,%s高原
+ground.kind.salt_flat,%s盐沼
+ground.kind.valley,%s山谷
+ground.kind.pampa,%s潘帕斯
+ground.kind.sierra,%s山脉
+ui.ground,主场
+ui.capacity,容量 %s
+ui.attendance,观众：%s
+ui.action.negotiate_menu,谈判…
+ui.negotiate.head,%s（%s）。对方要价 %s。你想怎么引进他？
+ui.match.next_event_tip,跳到下一个关键时刻
+ui.settings.match_detail,比赛解说详细程度
+ui.finances.pick_player,%s（%s）给谁？从列表中选一名球员。
+ui.finances.buy_for,为 %s 购买
+ui.finances.suggested,推荐
+ui.finances.broom_state,状况
+ui.finances.broom_target_note,新扫帚速度：%s。主力加粗显示；助理推荐扫帚最差的主力。
+house.Abraxan,神符马
+house.Vouivre,沃伊弗尔
+house.Melusine,美露莘
+house.Tarasque,塔拉斯克
+house.Lindworm,林德虫
+house.Huldra,胡尔德拉
+house.Jotunn,约顿
+house.Sleipnir,斯莱布尼尔
+house.Zhar Ptitsa,火鸟
+house.Leshy,列希
+house.Rusalka,鲁萨尔卡
+house.Zmey,兹梅伊
+house.Kirin,麒麟
+house.Tengu,天狗
+house.Kitsune,狐仙
+house.Ryu,龙
+house.Caipora,凯波拉
+house.Iara,伊阿拉
+house.Uirapuru,维拉普鲁
+house.Boto,博托
+house.Impundulu,因蓬杜卢
+house.Ninki Nanka,宁基南卡
+house.Anansi,阿南西
+house.Kongamato,孔加马托
+house.Yowie,约维
+house.Min Min,明明光
+house.Thylacine,袋狼
+house.Lyrebird,琴鸟
+house.Zumruduanka,祖姆鲁杜安卡
+house.Sahmeran,沙赫梅兰
+house.Tepegoz,泰佩格兹
+house.Ejder,埃杰德尔
+house.Yali,雅利
+house.Makara,摩羯
+house.Airavata,爱罗婆多
+house.Naga,那伽
+comp.house_world,{year} 世界学院杯
+ui.school.world_cups,世界
+news.house_world_draw,"{school}主办 {year} 世界学院杯
+各校冠军：{teams}。"
+news.house_world_champion,"{school}的{team}夺得 {year} 世界学院杯
+校际冠军奖杯前往{school}。"
+msg.house_world_qualified.subject,进军世界学院杯！
+msg.house_world_qualified.body,作为校内冠军，我们将参加在{school}举行的 {year} 世界学院杯：与其他学校的冠军进行淘汰赛。暂时谁也别去度假。
+msg.house_world_won.subject,世界冠军！
+msg.house_world_won.body,{team}夺得了世界学院杯。{school}上下都在谈论这件事；球队的画像将挂进公共休息室。
+msg.house_world_over.subject,世界学院杯落幕
+msg.house_world_over.body,冠军是{team}（{school}）。出局令人难过，但能走到这一步已是学院的骄傲。
+venue.school,{school}魁地奇球场
+ui.new_game.default_name,无名主教练
+formation.hawkshead,鹰头进攻阵型
+formation.porskoff,波斯科夫计策
+formation.shimmy,伍隆贡迂回
+formation.reverse_pass,反传
+formation.looping,绕环阵型
+broom.notes.broom_oakshaft_79,粗橡木柄；抗风性强，但转弯迟缓，用于魁地奇太重。如今已是古董。
+broom.notes.broom_moontrimmer,飞得比任何扫帚都高，但手工生产始终供不应求。
+broom.notes.broom_silver_arrow,顺风时速可达70英里；竞速扫帚的先驱。
+broom.notes.broom_cleansweep_one,第一款批量生产的竞速扫帚；转弯性能无与伦比。
+broom.notes.broom_comet_140,首款配备霍顿-基奇制动咒的扫帚。
+broom.notes.broom_tinderblast,非常结实，但比横扫和彗星系列慢。
+broom.notes.broom_cleansweep_five,格温多林·摩根以及弗雷德和乔治·韦斯莱都骑过。
+broom.notes.broom_swiftstick,比火绒疾风快，但爬升时动力不足；从未被职业球员使用。
+broom.notes.broom_shooting_star,同时代最便宜的扫帚；越旧越慢、飞得越低。工厂已于1978年关闭，但二手货随处可见。
+broom.notes.broom_nimbus_1000,时速可达100英里，可原地360°转身；欧洲职业球员的首选。
+broom.notes.broom_cleansweep_six,《唱唱反调》中曾提及。
+broom.notes.broom_comet_260,外观亮眼，但比不上光轮2000。德拉科·马尔福和秋·张都骑过。
+broom.notes.broom_cleansweep_seven,1993—94年间拉文克劳队大多数队员使用的扫帚。
+broom.notes.broom_twigger_90,高速时会变形；配有警报哨和自动矫直尾帚。“适合金加隆比脑子多的巫师。”
+broom.notes.broom_nimbus_2000,1991年最快的扫帚；桃花心木制，带防篡改保护。
+broom.notes.broom_nimbus_2001,比2000型更快；全世界大多数球队的选择。
+broom.notes.broom_firebolt,10秒内从0加速到每小时150英里；白蜡木柄、妖精打造的配件和牢不可破的制动咒。产量受妖精罢工所限。
+broom.notes.broom_cleansweep_eleven,10秒内从0加速到每小时70英里；西班牙橡木、防恶咒清漆和减震控制。1995年起发售。
+broom.notes.broom_comet_290,顺风良好时可从0加速到每小时60英里。
+broom.notes.broom_bluebottle,安全可靠的家庭扫帚，内置防盗警报；曾在1994年世界杯上做广告。不适合职业球员。
+venue.mountains_of_the_moon,月亮山脉
+venue.serengeti_savanna,塞伦盖蒂草原
+venue.jos_plateau,乔斯高原
+venue.western_desert,西部沙漠
+venue.niger_delta,尼日尔三角洲
+venue.titicaca_altiplano,的的喀喀高原
+venue.atacama_desert,阿塔卡马沙漠
+venue.sumapaz_paramo,苏马帕斯高原
+venue.salar_de_uyuni,乌尤尼盐沼
+venue.cajas_paramo,卡哈斯高原
+venue.patagonian_plateau,巴塔哥尼亚高原
+venue.ibera_wetlands,伊贝拉湿地
+venue.humid_pampas,湿润潘帕斯
+venue.puna_de_atacama,阿塔卡马高原
+venue.calchaqui_valleys,卡尔查基河谷
+venue.pantanal,潘塔纳尔湿地
+venue.chapada_diamantina,钻石高原
+venue.lencois_maranhenses,拉克依斯马拉年塞斯
+venue.serra_da_mantiqueira,曼蒂凯拉山脉
+venue.goias_cerrado,戈亚斯塞拉多
+venue.bodmin_moor,博德明荒原
+venue.exmoor,埃克斯穆尔
+venue.ilkley_moor,伊尔克利荒原
+venue.yorkshire_moors,约克郡荒原
+venue.ellis_moor,埃利斯荒原
+venue.saskatchewan_prairies,萨斯喀彻温草原
+venue.canadian_shield,加拿大地盾
+venue.hudson_bay_lowlands,哈得孙湾泥炭地
+venue.laurentian_mountains,劳伦琴山脉
+venue.alberta_grasslands,艾伯塔草原
+venue.bohemian_forest,波希米亚森林（舒马瓦）
+venue.high_tatras,高塔特拉山脉
+venue.hortobagy_puszta,霍尔托巴吉草原
+venue.giant_mountains,巨人山脉（克尔科诺谢）
+venue.lake_balaton_shores,巴拉顿湖畔
+venue.yellow_mountains,黄山
+venue.gobi_desert,戈壁沙漠
+venue.kunlun_mountains,昆仑山脉
+venue.mount_seorak,雪岳山
+venue.jeju_island,济州岛
+venue.doi_inthanon,因他暖山
+venue.balkan_mountains,巴尔干山脉
+venue.biebrza_marshes,別布扎沼泽
+venue.samogitian_hills,萨莫吉希亚丘陵
+venue.hoia_forest,霍亚森林
+venue.budjak_steppe,布贾克草原
+venue.lanvaux_moors,朗沃荒原
+venue.causse_du_larzac,拉尔扎克高原
+venue.vercors,韦科尔
+venue.marais_poitevin,普瓦图沼泽
+venue.broceliande_forest,布劳赛良德森林
+venue.luneburg_heath,吕讷堡石楠草原
+venue.black_forest,黑森林
+venue.rhon_high_moor,伦山高位沼泽
+venue.allgau_alps,阿尔高阿尔卑斯山
+venue.ruggell_riet,鲁格尔沼泽
+venue.serra_da_estrela,埃斯特雷拉山脉
+venue.extremadura_dehesa,埃斯特雷马杜拉牧林
+venue.monegros,莫内格罗斯
+venue.bardenas_reales,巴德纳斯雷亚莱斯
+venue.oesling_forests,厄斯林森林
+venue.gangetic_plain,恒河平原
+venue.thar_desert,塔尔沙漠
+venue.western_ghats,西高止山脉
+venue.kashmir_valley,克什米尔谷地
+venue.kerala_coast,喀拉拉海岸
+venue.sibillini_mountains,西比利尼山脉
+venue.sila_plateau,锡拉高原
+venue.brenta_dolomites,布伦塔多洛米蒂山
+venue.maremma,马雷马
+venue.aosta_valley,奥斯塔山谷
+venue.mikawa_coast,三河海岸
+venue.shiga_highlands,志贺高原
+venue.kushiro_marshes,钏路湿原
+venue.mount_aso,阿苏山
+venue.yakushima_forests,屋久岛森林
+venue.veluwe,费吕韦
+venue.wadden,瓦登海
+venue.drenthe_heaths,德伦特石楠荒原
+venue.sonian_forest,索尼安森林
+venue.high_fens,高沼地
+venue.sonoran_desert,索诺兰沙漠
+venue.sierra_tarahumara,塔拉乌马拉山脉
+venue.massif_de_la_selle,塞勒山
+venue.cockpit_country,科克皮特地区
+venue.zapata_swamp,萨帕塔沼泽
+venue.finnmarksvidda_plateau,芬马克高原
+venue.norrland_forests,诺尔兰森林
+venue.jutland_heath,日德兰荒原
+venue.inari_lapland,伊纳里拉普兰
+venue.reykjanes_lava_fields,雷克雅内斯熔岩原
+venue.pilbara_outback,皮尔巴拉内陆
+venue.nullarbor,纳拉伯平原
+venue.moutohora_island,莫托霍拉岛
+venue.fiordland_fjords,峡湾地区峡湾
+venue.viti_levu_highlands,维提岛高地
+venue.berkshires,伯克希尔山
+venue.llano_estacado,斯塔克特平原
+venue.everglades,大沼泽地
+venue.dakota_badlands,达科他恶地
+venue.mojave_desert,莫哈韦沙漠
+broom.notes.broom_cleansweep_two,奥勒敦兄弟公司的第二款型号（1934年），正值与彗星公司争夺最快扫帚之际。
+broom.notes.broom_cleansweep_three,1937年推出，为在与彗星公司的竞争中不落下风。
+broom.notes.broom_comet_180,1938年推出：彗星公司对横扫新型号的回应。
+broom.notes.broom_comet_220,彗星180与260之间的后期型号：可靠，但已落后于光轮系列。
+broom.notes.broom_nimbus_1001,光轮1000的第一代继任者；让光轮继续稳居职业魁地奇之巅。
+broom.notes.broom_nimbus_1500,光轮系列的下一步，介于1001与1700之间。
+broom.notes.broom_nimbus_1700,1991年光轮2000问世前的最后一款光轮。
+ui.saves.export,导出为文件
+ui.saves.import,导入文件
+ui.saves.imported,已导入游戏：%s
+ui.saves.import_failed,该文件不是有效的存档。
+ui.saves.web_note,在浏览器中，存档只保存在本浏览器里。请将游戏导出为文件，以免丢失。
+ui.new_game.name_required,请输入主教练的名字以开始。
+ui.saves.autosave_slot,自动存档 %d
+msg.contracts_due.subject,6月30日到期的合同
+msg.contracts_due.body,这些球员的合同将于6月30日到期，若不续约将自由离队（括号内为周薪）：{players}。打开球员资料以提出续约。
+msg.contracts_auto.subject,续约（6月30日到期的合同）
+msg.contracts_auto.body,你在休假期间，我处理了6月30日到期的合同。已续约：{renewed}。自由离队：{leaving}。
+ui.action.review_contracts,前往阵容名单
+ui.contract.has_pre_contract,已与其他俱乐部签订预签合同，赛季结束后离队。
+msg.book_event.subject,学校消息
+news.book.nimbus_smashed,"打人柳把{player}的光轮2000打得粉碎
+星期六的比赛结束后，{player}的扫帚落进了打人柳的枝条间，被打成了碎片。目前只能先用学校的扫帚。"
+news.book.firebolt,"{player}换上了火弩箭
+这把作为匿名圣诞礼物的扫帚经过彻底检查，赶在{house}下一场比赛前还给了{player}。"
+news.book.umbridge_ban,"乌姆里奇禁止{player}打魁地奇
+高级调查官在赛后斗殴后下达了终身禁赛令。{house}只得举行选拔来填补空缺。"
+news.book.weasleys_leave,"{player}风光离开霍格沃茨
+这对双胞胎飞越便携式沼泽，离校去开他们的笑话商店。{house}失去了击球手。"
+news.book.harry_ron_leave,"{player}没有返回霍格沃茨
+9月1日的霍格沃茨特快列车上不见{player}的身影。{house}只能重建球队。"
+news.book.captain,"{player}出任{house}新队长
+学院院长为本赛季颁发了队长徽章。"
+news.book.cedric,"{player}在三强争霸赛结束时遇难
+全校沉浸在哀悼之中。{house}失去了队长兼找球手。"
+ui.news.masthead,预言家日报
+ui.press.missed,这场新闻发布会已经结束：比赛已经进行，或你已回答过问题。
+trait.brilliant_but_dangerous,才华横溢但很危险
+trait.quaffle_drops_record,单赛季掉鬼飞球纪录
+trait.snitch_bounced_off_nose,金色飞贼两次从他鼻子上弹开
+trait.muggle_football_fan,麻瓜足球迷
+trait.narcolepsy,嗜睡症：比赛中会睡着
+ui.answer_messages_n.one,回复 %d 封猫头鹰信
+ui.owls_waiting.one,收件箱里有 %d 封猫头鹰信等待回复
+ui.market.over_budget,报价超出了董事会给你的转会预算。
+msg.in_debt.subject,俱乐部已出现赤字
+msg.in_debt.body,余额已降至 {balance}。董事会要求削减工资、引援和设施开支。赤字期间没有转会预算。
+ui.finances.upgrade_confirm,升级%s，花费 %s？
+web.nav.play,开始游戏
+web.nav.account,我的账户
+web.nav.sign_in,登录
+web.nav.sign_out,退出登录
+web.lang.switch,语言
+web.footer.privacy,隐私
+web.footer.terms,条款
+web.footer.fan_project,免费的非商业粉丝项目。《哈利·波特》与魁地奇归 J. K. 罗琳 / 华纳兄弟所有，本项目未获其认可，也与其无关联。
+web.landing.pitch,在原著的世界里执掌一支魁地奇俱乐部：签下球员、制定战术、训练阵容，一个赛季接一个赛季地争夺联赛和杯赛冠军。免费，直接在浏览器中游玩。
+web.landing.play,在浏览器中游玩
+web.landing.account_note,在线游玩需要一个免费账户：我们只要求用户名和国家，其他都不是必填项。你的存档保存在你的浏览器中。
+web.landing.desktop,想离线游玩？下载 Windows 或 macOS 版游戏。
+web.login.title,登录
+web.login.intro,登录即可在浏览器中游玩，无需密码。
+web.login.google,使用 Google 继续
+web.login.or,或
+web.login.email_label,电子邮箱地址
+web.login.email_submit,给我发送登录链接
+web.login.email_note,我们仅使用你的邮箱让你登录，不会向任何人显示。
+web.login.signed_in_as,你已以 {name} 的身份登录。
+web.login.signed_in_no_profile,你已登录。完善个人资料即可开始游戏。
+web.login.continue,继续
+web.login.error.link,该登录链接无效、已过期或已被使用。请重新获取一个。
+web.login.error.blocked,该账户已被封禁。
+web.login.error.google_unverified,你的 Google 账户邮箱尚未验证。请改用邮件链接登录。
+web.login.error.google_failed,Google 登录失败，请重试。
+web.login.error.rate_limited,请求登录链接的次数过多。请等几分钟后再试。
+web.login.error.mail_failed,无法发送邮件，请稍后再试。
+web.login.error.mail_cap,今天发送的邮件过多。请使用 Google 登录，或明天再试。
+web.login.error.email_invalid,请输入有效的电子邮箱地址。
+web.login.error.session,你的会话已过期，请重新登录。
+web.login.error.origin,出于安全原因，请求已被拒绝。请刷新页面后重试。
+web.check.title,请查收邮件
+web.check.body,我们已向 {email} 发送了登录链接。该链接只能使用一次，{minutes} 分钟后失效。
+web.check.spam,没收到？请检查垃圾邮件文件夹，或返回重试。
+web.check.back,返回登录
+web.magic.title,完成登录
+web.magic.body,点击按钮，在此设备上登录魁地奇经理。
+web.magic.button,登录
+web.mail.magic_subject,你的{app}登录链接
+web.mail.magic_body_text,请使用此链接登录魁地奇经理（{minutes} 分钟后失效，且只能使用一次）：
+web.mail.magic_body_html_intro,点击按钮即可使用此邮箱登录，无需密码。
+web.mail.magic_button,登录魁地奇经理
+web.mail.expires,该链接 {minutes} 分钟后失效，且只能使用一次。
+web.mail.ignore_if_not_you,如果你没有请求此邮件，请忽略它：没有此链接，任何人都无法登录你的账户。
+web.error.title,出错了
+web.error.generic,我们这边出了问题，请稍后再试。
+web.error.429,请求过多，请稍等片刻后再试。
+web.error.404,页面未找到
+web.error.home,返回首页
+ledger.investment,投资
+ui.market.deal_off,交易告吹：该球员已不在接受报价的俱乐部。
+msg.deal_off.subject,{player} 的交易告吹
+msg.deal_off.body,{player} 的交易已无法完成：在等待答复期间他已转会、被解约或被外租，或对方俱乐部已无力支付。
+msg.over_budget.subject,超出预算：{player}
+msg.over_budget.body,董事会不批准为 {player} 支付 {fee}：剩余转会预算为 {budget}。
+talk.player.too_soon,你本周已经和他谈过了；再谈一次也没有分量。
+ui.market.loan_ended,租借已经结束：买断选项无法再行使。
+msg.house_no_cup.body.triwizard,校长宣布，由于举办三强争霸赛，{season} 魁地奇杯取消。球队继续训练：明年我们必须做好准备。
+ui.web.other_tab,Quidditch Manager 已在另一个标签页中打开。请只在一个标签页中游戏：关闭此标签页，或关闭另一个后重新加载此页面。
+ui.pts_n,%d分
+beaters.dopplebeater,双击球手防守
+beaters.backbeat,游走球反手击
+keeper.starfish,海星持帚
+keeper.double_eight,双八字环绕
+ui.lineup.hint_dnd,把球员拖到场上位置或列表中的首发球员上（或先点击球员，再点击位置） · 双击：上场或下场 · 拖动棋子互换
+ui.swap.none,没有可用于交换的球员。
+ui.profile.transfers,转会记录
+ui.nt.finals,世界杯决赛
+ui.nt.record,世界杯战绩
+ui.nt.no_finals,尚未打进过世界杯决赛。
+ui.nt.tier,档次
+ui.nt.tier.elite,世界强队
+ui.nt.tier.strong,强队
+ui.nt.tier.mid,中游
+ui.nt.tier.weak,弱旅
+ui.months_standalone,"一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月"
+ui.round_short,第{n}轮
+ui.news.edition_n,第{n}期
+ui.duration_hm,{h}小时{m}分钟
+ui.duration_m,{m}分钟
+ui.staff.fire_confirm,解雇 {name}（{role}）？遣散费 {cost} 将立即支付。
+ui.complaint.stale,{name} 已不在俱乐部：这份抱怨已无意义。
+ui.scout.fee_note,雇用球探需预付三个月薪水；解雇则需支付一个月薪水。
+ui.new_game.nationality,国籍
+ui.history.col.award,奖项
+ui.history.col.from,转出
+ui.history.col.to,转入
+ui.history.col.fee,转会费
+ui.quit.title,退出游戏？
+ui.quit.body,自上次保存以来有未保存的更改。如果不保存就退出，这些更改将会丢失。
+ui.quit.body_match,比赛正在进行：比赛结束前无法保存。如果现在退出，自上次保存以来的进度将全部丢失。
+ui.quit.save_quit,保存并退出
+ui.quit.discard,不保存退出
+web.legal.version,{date} 版本
+web.legal.read_original,阅读英文原文
+web.legal.fallback,此页面尚未翻译成你的语言，因此以英文显示。
+web.profile.username_label,用户名
+web.profile.username_help,3–20 个英文字母（A–Z）、数字或下划线，须以字母开头。其他玩家可以看到它。
+web.profile.username_available,该用户名可用。
+web.profile.names_legend,你的姓名（选填）
+web.profile.names_help,不会向其他玩家显示，只有你能在此页面看到。
+web.profile.first_name_label,名
+web.profile.last_name_label,姓
+web.profile.location_legend,你来自哪里
+web.profile.country_label,国家或地区
+web.profile.country_choose,请选择国家或地区
+web.profile.country_help,必填。将来会显示在排行榜中你的用户名旁边。
+web.profile.region_label,省、州或地区（选填）
+web.profile.region_none,— 不填写 —
+web.profile.city_label,城市（选填）
+web.profile.city_none,— 不填写 —
+web.profile.city_other,其他 / 不在列表中
+web.profile.city_pick_region,城市太多：请先选择地区，然后点击“更新列表”。
+web.profile.refresh_lists,更新列表
+web.profile.city_search_placeholder,输入以搜索
+web.profile.city_no_results,没有匹配结果。如果你的城市不在列表中，请选择“其他 / 不在列表中”。
+web.profile.location_help,地区和城市为选填项。将来可能用于玩家分布地图；我们绝不会询问你的地址。
+web.profile.geo_credit,地名：{source}
+web.profile.terms_check,我已年满 {age} 岁，并接受{terms}和{privacy}。
+web.profile.terms_link,使用条款
+web.profile.privacy_link,隐私政策
+web.profile.errors_intro,有些字段需要修改，请查看下方提示。
+web.profile.error.username_required,请输入用户名。
+web.profile.error.username_format,请使用 3–20 个英文字母（A–Z）、数字或下划线，并以字母开头。
+web.profile.error.username_reserved,该用户名已被保留，请换一个。
+web.profile.error.username_blocked,该用户名不被允许，请换一个。
+web.profile.error.username_taken,该用户名已被占用，请换一个。
+web.profile.error.username_same,请选择与当前不同的用户名。
+web.profile.error.username_cooldown,用户名每 30 天只能修改一次。
+web.profile.error.name_invalid,只能使用字母、空格、连字符、撇号和句点。
+web.profile.error.name_too_long,最多 50 个字符。
+web.profile.error.country_required,请选择国家或地区。
+web.profile.error.country_invalid,请从列表中选择国家或地区。
+web.profile.error.region_invalid,请从该国家或地区的列表中选择地区。
+web.profile.error.city_invalid,请从该国家或地区的列表中选择城市。
+web.profile.error.terms_required,如需继续，请确认你的年龄并接受条款。
+web.profile.error.confirm_mismatch,输入不匹配，未删除任何内容。
+web.profile.error.conflict,你的账号在此期间已发生变化，请重试。
+web.register.title,创建个人资料
+web.register.intro,开始游戏前的最后一步。只有用户名和国家或地区是公开的，其他信息均不公开。
+web.register.submit,保存并开始游戏
+web.register.signed_in_email,当前登录：{email}。
+web.register.delete_link,删除此账号
+web.register.rename_title,请选择新的用户名
+web.register.rename_body,你的用户名 {name} 需要更改。请选择新的用户名以继续游戏，你的存档不受影响。
+web.register.rename_submit,保存新用户名
+web.register.terms_title,我们更新了条款
+web.register.terms_body,如需继续游戏，请阅读并接受新版使用条款和隐私政策。
+web.register.terms_submit,接受并继续
+web.account.title,我的账号
+web.account.saved.profile,个人资料已保存。
+web.account.saved.username,用户名已更改。
+web.account.saved.session,该会话已退出登录。
+web.account.email_line,登录邮箱：{email}（不会向任何人显示）
+web.account.member_since,注册于 {date}
+web.account.username_title,用户名
+web.account.username_current,你的用户名是 {name}。
+web.account.username_new,新用户名
+web.account.username_help,每 {days} 天可修改一次。旧用户名会立即开放给其他玩家使用。
+web.account.username_cooldown,你可以在 {date} 再次修改用户名。
+web.account.username_submit,修改用户名
+web.account.profile_title,个人资料
+web.account.profile_submit,保存更改
+web.account.sessions_title,登录位置
+web.account.sessions_intro,你登录过的每个浏览器或设备。请退出任何你不认识的会话。
+web.account.session_unknown_device,未知浏览器
+web.account.session_current,此浏览器
+web.account.session_dates,登录于 {created} · 最近活动于 {seen}
+web.account.session_revoke,退出登录
+web.account.logout_all,在所有设备上退出登录
+web.account.data_title,你的数据
+web.account.data_intro,下载我们保存的关于你的全部信息，或删除你的账号。你的存档保存在浏览器中，而不在我们的服务器上。
+web.account.export,下载我的数据（JSON）
+web.account.delete,删除我的账号
+web.account.delete_title,删除你的账号
+web.account.delete_body,这会立即删除你的账号、个人资料和所有会话，且无法撤销。此浏览器中的存档不受影响。备份中的副本会在 {days} 天内消失。
+web.account.delete_confirm_label,请输入你的用户名以确认：{name}
+web.account.delete_confirm_check,我明白此操作无法撤销。
+web.account.delete_submit,永久删除我的账号
+web.account.cancel,取消
+web.account.deleted_title,账号已删除
+web.account.deleted_body,你的账号及其数据已删除。感谢游玩！你可以随时创建新账号。
+comp.nt_friendlies,{season} 国际友谊赛
+ui.account.title,账户
+ui.account.checking,正在检查账户…
+ui.account.signed_in,正在以 %s 的身份游戏。存档保存在此浏览器中，账户只保存你的个人资料。
+ui.account.manage,管理账户
+ui.account.offline,无法连接账户服务。
+ui.action.graduate_offer,提供毕业后合同
+ui.contract.graduate_signed,已签约：毕业后加盟
+ui.contract.graduate_not_allowed,仅限最后一年的学生，1月至6月，且未被其他俱乐部签下。
+msg.graduate_signed.subject,毕业后合同：{player}
+msg.graduate_signed.body,{player}接受了我们的报价：7月1日毕业后，将按约定条件加盟俱乐部。
+ui.save_after_match,比赛结束后才能保存。
+news.transfer_free,"签约：{player} 加盟 {to}
+{to} 以自由身签下 {player}。"
+msg.award.body.wronski,联赛授予 {player} {award}，本赛季平均评分 {value}。更衣室一片欢腾。
+msg.award.body.top_scorer,联赛授予 {player} {award}：本赛季打进 {value} 球。更衣室一片欢腾。
+msg.award.body.top_catcher,联赛授予 {player} {award}：本赛季抓住飞贼 {value} 次。更衣室一片欢腾。
+msg.award.body.best_keeper,联赛授予 {player} {award}，本赛季平均评分 {value}。更衣室一片欢腾。
+msg.contract_expired.body_loan,{player} 于6月30日租借结束归队，当天合同也到期，现已成为自由球员。
+msg.contracts_spring.subject,合同即将到期：最后提醒
+msg.contracts_spring.body,距离6月30日还有四个月，以下球员仍未续约（括号内为周薪）：{players}。如果我们不提出报价，他们将自由离队，而其他俱乐部现在就可以与他们签预签合同。打开阵容名单，为想留下的球员续约。
+ui.action.let_them_go,放他们走
+msg.contracts.outcome_let_go,你决定不与他们续约：他们将于6月30日自由离队。
+msg.contracts.outcome_settled,已处理：名单上已没有需要续约的球员。
+msg.contracts_auto.body_budget,你在休假期间，我处理了6月30日到期的合同。除非某个位置会因此缺人，否则都控制在董事会的工资预算之内。已续约（新周薪）：{renewed}。自由离队：{leaving}。工资总额：每周 {bill}，预算为 {budget}。
+msg.assistant.lab.expiring,• 四个月内到期的合同：
+msg.assistant.lab.unhappy,• 士气跌入谷底（值得找他们谈谈）：
+msg.assistant.lab.injured,• 长期伤病（天数）：
+msg.assistant.lab.hot,• 状态火热：
+msg.assistant.lab.cold,• 近期状态低迷：
+msg.assistant.body.1,{lab1}{names1}。
+msg.assistant.body.2,"{lab1}{names1}。
+{lab2}{names2}。"
+msg.assistant.body.3,"{lab1}{names1}。
+{lab2}{names2}。
+{lab3}{names3}。"
+msg.assistant.body.4,"{lab1}{names1}。
+{lab2}{names2}。
+{lab3}{names3}。
+{lab4}{names4}。"
+msg.assistant.body.5,"{lab1}{names1}。
+{lab2}{names2}。
+{lab3}{names3}。
+{lab4}{names4}。
+{lab5}{names5}。"
+msg.scout_recs.body.1,"我们在{pos}位置上人手不足。预算范围内有一个人选（俱乐部、年龄、价格）：
+• {n1} ({c1}、{a1}、{g1})"
+msg.scout_recs.body.2,"我们在{pos}位置上人手不足。预算范围内有两个人选（俱乐部、年龄、价格）：
+• {n1} ({c1}、{a1}、{g1})
+• {n2} ({c2}、{a2}、{g2})"
+msg.scout_recs.body.3,"我们在{pos}位置上人手不足。预算范围内有三个人选（俱乐部、年龄、价格）：
+• {n1} ({c1}、{a1}、{g1})
+• {n2} ({c2}、{a2}、{g2})
+• {n3} ({c3}、{a3}、{g3})"
+msg.youth_intake.body.1,"本赛季加入青训的年轻人：
+{n1}（{p1}）：{v1}"
+msg.youth_intake.body.2,"本赛季加入青训的年轻人：
+{n1}（{p1}）：{v1}
+{n2}（{p2}）：{v2}"
+msg.youth_intake.body.3,"本赛季加入青训的年轻人：
+{n1}（{p1}）：{v1}
+{n2}（{p2}）：{v2}
+{n3}（{p3}）：{v3}"
+msg.house_roster.body_split,"离队并加盟俱乐部：{gone}。
+离队（暂无俱乐部）：{gone_free}。
+选拔后加入：{fresh}。"
+msg.debt_warning.subject,董事会对债务深感忧虑
+msg.debt_warning.body,{club} 的余额为 {balance}：赤字已超过 {weeks} 周的工资（上限为 {limit}）。董事会要求出售球员、削减工资，或两者兼施。若两个月内没有改善，将实施转会禁令。
+msg.debt_embargo.subject,因债务实施转会禁令
+msg.debt_embargo.body,{club} 的债务没有减少（{balance}）。在余额回到 {limit} 以上之前，董事会不会批准任何引援或租借加盟。出售球员仍然允许，这也正是他们所期望的。
+msg.debt_ultimatum.subject,债务最后通牒
+msg.debt_ultimatum.body,{club} 董事会对债务（{balance}）已失去耐心。如果在首次警告一年后余额仍低于 {limit}，你就得另谋出路了。
+msg.debt_sacked.subject,因债务被解雇
+msg.debt_sacked.body,首次警告已过去一年，{club} 的余额仍为 {balance}，低于 {limit}。董事会兑现了最后通牒。
+msg.debt_cleared.subject,债务已得到控制
+msg.debt_cleared.body,{club} 的余额已恢复到可接受的水平。董事会撤销了警告，以及可能存在的转会限制。
+msg.trophy.subject,夺冠：{cup}！
+msg.trophy.body,{team} 赢得了 {cup}（{season}）。恭喜！奖杯已放进陈列柜，也记入了你的执教履历。
+msg.job_offer.outcome_accepted,你接受了这份工作。
+msg.job_offer.outcome_rejected,你拒绝了这份邀约。这家俱乐部一年内不会再联系你。
+msg.job_offer.outcome_closed,邀约已关闭：你已签约 {club}。
+news.league_champion,"{team} 夺得 {league} {season} 冠军！
+{team} 以 {pts} 分高居榜首，{runner} 屈居亚军。看台上的球迷正在欢庆。"
+news.masthead.quibbler,《唱唱反调》
+news.masthead.witch_weekly,《女巫周刊》
+news.masthead.which_broomstick,《飞天扫帚精选》
+msg.season_review.subject,{season} 赛季总结
+msg.season_review.body,"{club} 的 {season} 赛季：我们在 {league} 中排名第 {position}。
+董事会目标（{objective}）：{verdict}
+冠军头衔：{t1}{ts2}{t2}{ts3}{t3}{ts4}{t4}
+个人奖项：{awards}
+离队：{departures}
+加盟：{arrivals}
+{next_season} 赛季董事会的要求：{next_objective}，工资预算为每周 {budget}。"
+msg.season_review.body_left,"{club} 的 {season} 赛季：我们在 {league} 中排名第 {position}。
+董事会目标（{objective}）：{verdict}
+冠军头衔：{t1}{ts2}{t2}{ts3}{t3}{ts4}{t4}
+个人奖项：{awards}
+董事会决定不再需要你的服务。"
+msg.season_review.body_new,"{club} 的 {season} 赛季。
+冠军头衔：{t1}{ts2}{t2}{ts3}{t3}{ts4}{t4}
+个人奖项：{awards}
+离队：{departures}
+加盟：{arrivals}
+{next_season} 赛季董事会的要求：{next_objective}，工资预算为每周 {budget}。"
+msg.season_review.verdict.met,已达成。
+msg.season_review.verdict.missed,未达成。
+msg.season_review.verdict.sacked,相差甚远；董事会解雇了你。
+ui.market.embargo,转会禁令：在俱乐部财务恢复之前，董事会冻结了所有报价、交换和租借。
+ui.market.budgets,转会预算：%s · 工资：每周 %s / %s
+ui.contract.budgets,剩余转会预算：%s · 按此报价的工资：每周 %s / %s
+ui.school.after_school,毕业后
+ui.school.after_school_tip,最后一年的学生：毕业后加盟的俱乐部（已签合同，或依照原著）。
+msg.graduate_void.subject,毕业后合同作废：{player}
+msg.graduate_void.body,{player}已毕业，但没有加盟我们，而是去了{club}。我们签下的毕业后合同作废，签字费未支付。
+ui.saving,正在保存…
+ui.save_unconfirmed,浏览器还没有写完存档。请不要关闭标签页，几秒钟后再保存一次。
+ui.saves.ago_now,刚刚保存
+ui.saves.ago_min,%d 分钟前保存
+ui.saves.ago_hours,%d 小时前保存
+ui.saves.ago_days,%d 天前保存
+ui.saves.ago_days.one,%d 天前保存
+ui.saves.load_failed,无法读取游戏。
+ui.saves.main_menu_ask,返回主菜单？
+ui.title.continue,继续游戏
+ui.holiday.urgent_first,出发前，请先回复这封紧急猫头鹰信。
+ui.holiday.next_match,直到下一场比赛的前一天（%s）
+ui.holiday.note_unemployed,你休息几天。如果有紧急的事，比如工作邀约，你会提前回来。
+ui.inbox.outcome.lineup_ready,阵容已经就绪：比赛可以进行了。
+ui.inbox.outcome,你的答复：{answer}
+ui.inbox.confirm_job,接受{club}的执教邀请吗？
+ui.inbox.confirm_job_leave,你将离开{club}。
+ui.manager.out_of_reach,你的声望远低于这家俱乐部的要求。
+ui.comp_group.domestic,国内赛事
+ui.comp_group.continental,洲际赛事
+ui.comp_group.international,国际赛事
+ui.club.honours,荣誉
+pos.short.K,守
+pos.short.C,追
+pos.short.B,击
+pos.short.S,找
+ui.match.autopause,发现金色飞贼时暂停
+ui.match.autopause_tip,有找球手发现金色飞贼时比赛暂停：此时决定你的找球手是否可以抓住它（见“比赛形势”）。
+ui.match.autopaused,比赛已暂停：金色飞贼出现了。调整你的找球手指令，然后点击“开始”。
+ui.match.snitch_caught_by,金色飞贼：被 %s 抓住
+ui.match.snitch_not_caught,金色飞贼：未被抓住
+ui.match.bludgers_more,（自上次以来又有 %d 次游走球击中）
+match.end.mutual_end.depleted,{team} 已无追球手和找球手可以上场，队长认输：双方队长同意结束比赛。
+ui.training.individual,个人计划
+ui.training.pick_hint,在下方表格中选择一名球员，为其设置个人训练重点或导师。
+ui.training.clear,清除重点和导师
+ui.training.more,等另外 %d 项
+ui.training.at_potential,已达潜力上限：个人训练重点无法再让其提升。
+ui.training.delegated,训练交给助理期间，个人训练重点不会生效（导师仍然有效）。取消勾选“交给助理负责”即可使用。
+news.filler.prophet.1,七百种犯规仍被锁在柜里\n魔法体育运动司再次拒绝公布完整的犯规清单——这些犯规全都发生在1473年的世界杯决赛上：该司担心巫师们会“受到启发”。
+news.filler.prophet.2,特兰西瓦尼亚式冲撞依然合法\n这种冲着鼻子虚晃一拳的动作首见于1473年世界杯，只要没碰到对方就不算犯规。裁判们报告说，被吓一跳的球员越来越多了。
+news.filler.prophet.3,普朗普顿的3.5秒至今无人打破\n1921年罗德里克·普朗普顿对阵卡尔菲利飞弩队时的那次抓球，至今英国没有找球手能够超越。批评者仍坚称金色飞贼只是自己飞进了他的袖子。
+news.filler.prophet.4,圣芒戈：“请在更高的地方练习朗斯基假动作”\n治疗师们呼吁业余找球手别再在自家后院模仿约瑟夫·朗斯基的俯冲：光是这个月，他们就接好了十一根锁骨。
+news.filler.prophet.5,球门圈纪念日\n1883年2月，尺寸固定的球门圈取代了旧式篮筐——起因是巴恩顿的一支球队给对手配上小得可怜的篮子，自己却留着“柳条大洞”。在一些酒吧里，至今还能听到“还我们篮筐！”的喊声。
+news.filler.prophet.6,自1884年起禁止夹杀\n1884年6月22日，魔法体育运动司规定一次只能有一名追球手进入得分区。一些老球迷至今仍怀念守门员被撞扁的场面。
+news.filler.prophet.7,裁判考试更严格了\n候选人要通过飞行测试、规则笔试，还要证明自己在压力下不会给球员施恶咒。魔法体育运动司表示，今年的通过率“还算体面”。
+news.filler.prophet.8,裁判们缅怀西普里安·尤德尔\n这位唯一在比赛中丧生的裁判（1357年）在魔法体育运动司一年一度的裁判晚宴上受到追思。看台上的凶手始终没有找到。
+news.filler.prophet.9,失踪裁判在撒哈拉现身\n魔法体育运动司提醒球迷：把裁判的扫帚变成门钥匙是严重违规。这位裁判几个月后才重新露面，晒得黝黑。
+news.filler.prophet.10,阿普尔比：请勿射箭\n飞箭队提醒球迷，自1894年起禁止在每次进球后用魔杖射箭——那一年，一支箭射穿了裁判纽金特·波茨的鼻子。
+news.filler.prophet.11,每场比赛前都要检查扫帚\n魔法体育运动司提醒各俱乐部遵守严格的安全规定：扫帚尾枝上不得施未登记的魔咒，扫帚柄上不得施恶咒。上次检查中有三把扫帚被没收。
+news.filler.prophet.12,远离麻瓜的视线\n魔法体育运动司提醒业余俱乐部遵守1419年的法令：不得在“任何有一丝可能被麻瓜看到的地方附近”打魁地奇。德文郡一支村队已经被罚款了。
+news.filler.prophet.13,比赛场地待定\n一群在埃利斯荒原露营的麻瓜又迫使一场比赛改换场地。魔法体育运动司承诺“等帐篷一撤走”就公布新场地。
+news.filler.prophet.14,世界杯：驱逐麻瓜咒已布置完毕\n魔法体育运动司已为决赛场地周边施了咒语，并请观众在营地里穿得像麻瓜一样。该司补充说，碎花睡袍不算。
+news.filler.prophet.15,巴格曼：“多年来组织得最好的一届世界杯”\n魔法体育运动司司长卢多·巴格曼承诺，1994年在英国举行的决赛将令人难忘。至于他是否已经押注比赛结果，他不愿透露。
+news.filler.prophet.16,魔法体育运动司寻找新司长\n自三强争霸赛结束以来，卢多·巴格曼就再没在办公桌前露过面。好几个妖精也在打听他的下落。
+news.filler.prophet.17,爱尔兰队订购七把火弩箭\n爱尔兰国家队已为世界杯订购了七把火弩箭。保加利亚方面拒绝置评。
+news.filler.prophet.18,霍格沃茨今年没有魁地奇杯\n学校取消了1994-95学年的学院魁地奇杯，因为要改为举办“一项活动”。校方不愿透露更多。
+news.filler.prophet.19,国际魁地奇委员会否决吉祥物动议\n将世界杯吉祥物限定为“食草、比奶牛小、不会喷火”的提案遭到否决。好几个代表团代表他们的媚娃提出了反对。
+news.filler.prophet.20,火炮队依旧交叉手指\n查德里火炮队仍坚持1972年定下的队训：“让我们都交叉手指，祈求好运吧”。他们的球迷俱乐部说，这句话“一直很管用”。
+news.filler.prophet.21,黄蜂队的嗡嗡声遭投诉\n一名追球手向魔法体育运动司投诉，称温布恩的“蜇人队”球迷在罚球前发出嗡嗡声干扰球员。该司回应说，严格来讲，嗡嗡声不算魔咒。
+news.filler.prophet.22,雾中十六天\n1932年，阿普尔比飞箭队在浓雾中鏖战十六天，击败了当时的欧洲冠军弗拉察秃鹫队。魔法体育运动司提醒裁判：比赛超过十二小时后，暂停最多两小时，一分钟也不能多。
+news.filler.prophet.23,提醒猎鹰队\n魔法体育运动司提醒法尔茅斯猎鹰队，他们的队训（“让我们赢球，如果赢不了，就打破几个脑袋”）不是战术。布罗德莫兄弟的十四次禁赛（1958-1969）至今无人忘记。
+news.filler.prophet.24,谁将获得“危险的”戴纪念奖章？\n魔法体育运动司将把这枚奖章颁给本赛季冒险最刺激、最鲁莽的联赛球员。圣芒戈医院则盼着今年能清静些。
+news.filler.prophet.25,魔法部部长将颁发联赛杯\n康奈利·福吉预计将出席本赛季最后一轮比赛并颁发奖杯。他的办公室表示，部长“非常喜欢”魁地奇。
+news.filler.prophet.26,联赛照常进行\n在魔法部宣布那个连名字都不能提的人回来之后，魔法体育运动司确认本赛季将按计划进行，并加强各处荒原赛场的安保。
+news.filler.prophet.27,荒原赛场加强检查\n应新任部长鲁弗斯·斯克林杰的要求，魔法体育运动司要求各俱乐部在入口处检查每一位观众。请球迷不要携带黑魔法物品入场。
+news.filler.prophet.28,球迷须遵守新规定\n魔法体育运动司宣布，每位观众在每场比赛时都必须出示证件。魔法部坚称这“只是走个形式”。
+news.filler.prophet.29,提醒：金色飞贼只归找球手\n其他任何球员抓住它都会判负——魔法体育运动司强调这是“最古老的规则之一”，起因是一名击球手“只是想凑近看看”。
+news.filler.quibbler.1,瑞典发现弯角鼾兽踪迹\n本刊主编已经在为一次探险收拾行李了。魔法部照例矢口否认。
+news.filler.quibbler.2,世界杯上出现了鼾兽？\n一位女读者发誓，她在决赛时看见一头弯角鼾兽溜进了体育场。魔法部却把这事推到小矮妖头上。
+news.filler.quibbler.3,泡泡鼻涕怪在球门圈里筑巢\n北部一处荒原赛场的场地管理员在球门圈里发现了一只泡泡鼻涕怪。这就能解释为什么射门老是不中了。
+news.filler.quibbler.4,腐牙阴谋渗透魁地奇\n据本刊消息来源透露，某些裁判是腐牙阴谋的成员——这是一个利用黑魔法和牙龈病从内部搞垮魔法部的计划。请仔细看看你们裁判的牙齿。
+news.filler.quibbler.5,福吉为夺取古灵阁会走多远？\n据可靠消息，部长曾下令把妖精做成馅饼。古灵阁拒绝置评。
+news.filler.quibbler.6,福吉的秘密军队\n部长是不是养着一支由黑利奥帕组成的军队？那是一种火精灵，奔过大地，烧毁沿途的一切。请读者发现任何焦痕后向本刊报告。
+news.filler.quibbler.7,小天狼星布莱克：真像传说中那么黑吗？\n一位来自小诺顿的女读者声称，那名越狱犯其实是妖怪乐队的主唱斯塔比·博德曼——他在一次演出中耳朵被萝卜砸中后就退出了乐坛。她说那天晚上他们正在一起吃晚饭。
+news.filler.quibbler.8,当心槲寄生\n槲寄生里常常会有蝻钩。本刊主编推荐佩戴一串黄油啤酒瓶塞做的项链。
+news.filler.quibbler.9,抓不住飞贼都怪骚扰虻\n看不见的骚扰虻会从耳朵飘进去，让脑子变得糊里糊涂。正因为这个，而不是飞贼本身，才有那么多找球手让它溜走。
+news.filler.quibbler.10,本期附赠：防妖眼镜\n剪下来戴上，就能看到在你脑袋周围成群乱飞的骚扰虻。
+news.filler.quibbler.11,1884年的金色飞贼仍在博德明荒原\n一位徒步者在石楠丛中听到了嗡嗡声。据本刊消息来源，那正是1884年连续六个月没被抓住、从此一去不返的那只金色飞贼。
+news.filler.quibbler.12,骑着横扫六星飞上月球\n一位巫师讲述了他如何飞到月球，还带回一袋月亮青蛙作为证据。
+news.filler.quibbler.13,古代如尼文大揭秘\n把这一页倒过来，就能找到把敌人的耳朵变成金橘的咒语。
+news.filler.quibbler.14,联赛腐败：龙卷风队是如何夺取控制权的\n本刊对塔特希尔龙卷风队的调查指向酷刑、敲诈和非法改装扫帚。俱乐部称这些指控“纯属胡说八道”。
+news.filler.quibbler.15,游走球会思考吗？\n一位退役击球手坚称，游走球记得每一个打过它们的球员。“而且它们很记仇。”他补充道。
+news.filler.quibbler.16,给守门员挂上飞艇李\n本刊主编说，在每个球门圈上挂一颗飞艇李，可以“增强接受非凡事物的能力”。效果因人而异。
+news.filler.quibbler.17,被地精咬一口，就有击球手的胳膊？\n一位被花园地精咬过的读者发现自己挥棒的本事突飞猛进。正如本刊主编多年来所说，Gernumbli gardensi的唾液大有益处。
+news.filler.quibbler.18,我们要加印了！\n三月号已经卖光：读者似乎对它比对弯角鼾兽还感兴趣。第二次印刷正在进行中。
+news.filler.quibbler.19,帮助哈利·波特\n本刊主编在每一期的头版上都这样说：任何反对神秘人的巫师，都应该把帮助哈利·波特当作头等大事。本期一头鼾兽也没有。
+news.filler.quibbler.20,新部长有狮子血统？\n鲁弗斯·斯克林杰那黄褐色的鬃毛、泛黄的眼睛和大步流星的步态，都没能逃过读者的眼睛。魔法部不肯透露他会不会吼叫。
+news.filler.quibbler.21,第四个球\n一位匿名人士发誓，魔法部的地下室里藏着第四个球——自1473年起，它就因为太危险而被禁用了。
+news.filler.quibbler.22,为什么从没有人抓到过鼾兽\n本刊主编解释说，它们极其害羞，连一百码外有人打网结的声音都听得见。
+news.filler.quibbler.23,还我们篮筐！\n那个致力于用1883年起被禁用的篮筐取代球门圈的协会，本月再次召开会议。两名会员全部出席。
+news.filler.quibbler.24,金色飞贼也有感情\n一位女读者请求找球手们别把它们攥得那么紧。好几只金色飞贼也来信表示支持。
+news.filler.quibbler.25,我们回来了\n经过艰难的一年，本刊主编重新回到了办公桌前，弯角鼾兽也重新登上了头版。
+news.filler.witch_weekly.1,最迷人微笑奖：五度获奖的吉德罗·洛哈特缺席，魁地奇球员们纷纷对着镜子练习微笑
+news.filler.witch_weekly.2,读者投票：击球手“因牙齿原因”被取消最迷人微笑评选资格
+news.filler.witch_weekly.3,丽塔·斯基特专栏：找球手们不敢告诉妈妈的事
+news.filler.witch_weekly.4,丽塔·斯基特独家：枕头底下压着扫帚睡觉的联赛队长
+news.filler.witch_weekly.5,丽塔·斯基特谈贵宾包厢：世界杯决赛上谁挨着谁坐
+news.filler.witch_weekly.6,丽塔·斯基特：保加利亚找球手在霍格沃茨丢了心——可不是丢给了争霸赛
+news.filler.witch_weekly.7,读者投票：威克多尔·克鲁姆是世界上最迷人的找球手——只要他别下扫帚
+news.filler.witch_weekly.8,读者评选本赛季最帅找球手；守门员们要求重新计票
+news.filler.witch_weekly.9,塞蒂娜·沃贝克将在一场联赛前献唱：门票一小时内售罄
+news.filler.witch_weekly.10,古怪姐妹乐队刚在霍格沃茨圣诞舞会上演出完毕，表示下一站想去魁地奇决赛献艺
+news.filler.witch_weekly.11,古怪姐妹乐队的风笛手承认，他至今分不清游走球和鬼飞球
+news.filler.witch_weekly.12,吉德罗·洛哈特在圣芒戈医院仍给所有求签名的人签照片——也给没求的人签
+news.filler.witch_weekly.13,今年没有洛哈特的新书：书店用魁地奇回忆录填满了他的书架
+news.filler.witch_weekly.14,七款经得起每小时150英里俯冲的发型
+news.filler.witch_weekly.15,测试：哪个魁地奇位置适合你的性格？（B选得最多：你天生就是打东西的料）
+news.filler.witch_weekly.16,胜利糖浆馅饼：一位哈比队追球手力荐的食谱
+news.filler.witch_weekly.17,哈比队队长格韦诺格·琼斯拒绝美容版拍摄：“赛季中免谈”
+news.filler.witch_weekly.18,追球手丈夫永远不会告诉你的十件事
+news.filler.witch_weekly.19,魁地奇婚礼：宾客坐在看台上，新娘骑扫帚入场——逆风，迟到了三分钟
+news.filler.witch_weekly.20,穿球队配色的礼服长袍：读者说可以，查德利火炮队的橙色除外
+news.filler.witch_weekly.21,某联赛球队更衣室禁用迷情剂：一名守门员爱上了自家的球门环
+news.filler.witch_weekly.22,治疗师的美容建议：如何在赛后合影前用魔法消掉游走球留下的淤青
+news.filler.witch_weekly.23,本刊记者直击世界杯：巴塔哥尼亚沙漠中穿得最体面的球迷
+news.filler.witch_weekly.24,最迷人微笑奖：今年的决选名单中有三名魁地奇球员
+news.filler.witch_weekly.25,给艾丹·林奇送上慰问花束——他在世界杯决赛上和地面来了次亲密接触
+news.filler.witch_weekly.26,读者提问：找球手可以留胡子吗？我们的调查结论是：看风向
+news.filler.which_broomstick.1,火弩箭实测：10秒内从0加速到每小时150英里，配备牢不可破的制动咒。价格面议
+news.filler.which_broomstick.2,爱尔兰国家队订购了七把火弩箭——他们是世界杯夺冠热门
+news.filler.which_broomstick.3,每把火弩箭的白蜡木柄上都有手工刻印的编号：我们的测试员核对了两遍
+news.filler.which_broomstick.4,妖精罢工导致火弩箭供不应求，全世界大多数球队仍在骑光轮2001
+news.filler.which_broomstick.5,二手光轮2000：现在人人都想要火弩箭，它成了划算之选
+news.filler.which_broomstick.6,横扫十一星实测：西班牙橡木柄、防恶咒清漆、内置减震控制
+news.filler.which_broomstick.7,彗星290：从0加速到每小时60英里——前提是顺风够给力
+news.filler.which_broomstick.8,彗星260：外观亮眼，但跟光轮不是一个档次
+news.filler.which_broomstick.9,经典回顾：银箭，顺风时速70英里——霍琦夫人就是骑它学会飞行的
+news.filler.which_broomstick.10,蓝瓶，全家人的扫帚：防盗警报真的管用——我们试过了
+news.filler.which_broomstick.11,Tinderblast：埃勒比和斯帕德莫尔造它是为了耐用，而不是为了赢球
+news.filler.which_broomstick.12,Swiftstick：平飞迅捷，一爬升就上气不接下气
+news.filler.which_broomstick.13,橡木箭79：1935年乔昆达·赛克斯骑它飞越了大西洋。用来打魁地奇，它至今还是太重
+news.filler.which_broomstick.14,收藏家专栏：一把格拉迪斯·布思比手工制作的Moontrimmer在拍卖会上卖出了一小笔财富
+news.filler.which_broomstick.15,二手流星：便宜自有道理——越旧越慢，飞得越低
+news.filler.which_broomstick.16,Twigger 90：最可靠的部件是那只警报哨
+news.filler.which_broomstick.17,保养指南：擦亮扫帚柄，修剪尾枝，长途飞行前检查一下罗盘
+news.filler.which_broomstick.18,存放提示：千万别把扫帚放在会还手的树够得着的地方
+news.filler.which_broomstick.19,你的扫帚柄扛得住游走球吗？我们测试了几款廉价型号。游走球赢了
+news.filler.which_broomstick.20,横扫对彗星：这场竞争为我们带来了霍顿-基奇制动咒
+news.filler.which_broomstick.21,横扫七星：校队的明智之选
+news.filler.which_broomstick.22,世界杯扫帚大比拼：至尊火弩箭对阵Thunderbolt VII、Varápidos和Starsweeper XXI
+news.filler.which_broomstick.23,Thunderbolt VII：世界杯上一只游走球打掉了它的尾巴，调查仍在进行
+news.filler.which_broomstick.24,实测：Yajirushi，随日本队在世界杯上首次亮相的扫帚
+news.filler.which_broomstick.25,火弩箭仍是世界上最快的扫帚吗？我们的秒表说：是
+news.filler.which_broomstick.26,光轮五十年：从能原地转身的1000型到2001型
+news.filler.which_broomstick.27,读者来信：“我爷爷的横扫五星还能飞——就是慢，而且只会往左偏”
+press.q.narrow_win,“以{score}险胜{rival}。您觉得煎熬吗？”
+press.a.narrow_win.humble,是的，很煎熬。{rival}也很强。
+press.a.narrow_win.confident,完全没有：我们从头到尾都掌控着局面。
+press.a.narrow_win.critical,太煎熬了。我们本该早早锁定胜局。
+press.a.narrow_win.evasive,我们赢了，这才是最重要的。
+press.q.narrow_loss,“以{score}惜败{rival}，只差几个进球。缺了什么？”
+press.a.narrow_loss.humble,差一点运气，这次运气在{rival}那边。
+press.a.narrow_loss.confident,我们打得更好，只是比分没体现出来。
+press.a.narrow_loss.critical,在球门环前缺少冷静。
+press.a.narrow_loss.evasive,细节留在更衣室里说。
+press.q.win_away,“客场以{score}战胜{rival}。您喜欢打客场吗？”
+press.a.win_away.humble,他们的球迷很能造势，所以这场胜利加倍珍贵。
+press.a.win_away.confident,这支球队在哪个球场都能赢。
+press.a.win_away.critical,我们赢了，但送给对手的机会太多了。
+press.a.win_away.evasive,球场就是球场。
+press.q.loss_home,“主场以{score}负于{rival}，当着自家球迷的面。您想对他们说什么？”
+press.a.loss_home.humble,我很抱歉，我们一定会扭转局面。
+press.a.loss_home.confident,下一个主场我们一定赢，我保证。
+press.a.loss_home.critical,他们不该看到这样的比赛，有些人得给个说法。
+press.a.loss_home.evasive,希望他们继续来看球。
+press.q.derby_win,“以{score}赢下与{rival}的德比。这对球迷意味着什么？”
+press.a.derby_win.humble,这场胜利属于他们，没人比他们更投入。
+press.a.derby_win.confident,在这场宿敌对决中，说了算的是我们。
+press.a.derby_win.critical,德比就是要赢，但今天我们打得很差。我要求更多。
+press.a.derby_win.evasive,它和其他比赛一样算数。
+press.q.derby_loss,“德比以{score}负于{rival}。您怎么向球迷解释？”
+press.a.derby_loss.humble,我向他们道歉，我们知道这场比赛意味着什么。
+press.a.derby_loss.confident,会有复仇之战，我们一定会赢。
+press.a.derby_loss.critical,有些球员没明白这场比赛意味着什么。
+press.a.derby_loss.evasive,现在头脑发热，没什么可解释的。
+press.q.former_club,“再次面对老东家{rival}，比分{score}。这是一场特别的比赛吗？”
+press.a.former_club.humble,我对那家俱乐部有美好的回忆；但今天我只想着自己的球队。
+press.a.former_club.confident,我对那家俱乐部了如指掌，这在战术安排上体现出来了。
+press.a.former_club.critical,我的一些球员打得像是在打友谊赛。
+press.a.former_club.evasive,我的过去不上场。下一个问题。
+press.q.former_player,“曾效力于贵队的{player}今天大放异彩。您后悔当初放人吗？”
+press.a.former_player.humble,祝{player}一切顺利，今天的表现实至名归。
+press.a.former_player.confident,完全不。球队现在这样更好。
+press.a.former_player.critical,恭喜{player}：在我们这儿可从没打得这么好。
+press.a.former_player.evasive,我只谈留下的人，不谈离开的人。
+press.q.snitch_catch,“{player}抓住金色飞贼，以{score}锁定胜局。您想到会是这样的结局吗？”
+press.a.snitch_catch.humble,这是全队的功劳，大家把比分咬得很紧。
+press.a.snitch_catch.confident,联赛里没人比{player}更懂金色飞贼。
+press.a.snitch_catch.critical,金色飞贼早就有机会抓住了；我们得更快结束比赛。
+press.a.snitch_catch.evasive,精彩的一刻。下一个问题。
+press.q.cup_through,“淘汰{rival}，晋级下一轮（{competition}）。您想走多远？”
+press.a.cup_through.humble,一轮一轮来，杯赛不给犯错的机会。
+press.a.cup_through.confident,一直打进决赛，然后夺冠。
+press.a.cup_through.critical,我们晋级了，但这样打过不了下一轮。
+press.a.cup_through.evasive,看看下一轮遇到谁吧。
+press.q.cup_out,“以{score}被{rival}淘汰（{competition}）。心痛吗？”
+press.a.cup_out.humble,很痛。这是大家的梦想。
+press.a.cup_out.confident,现在全部精力都投入联赛。
+press.a.cup_out.critical,有人不认真对待，杯赛就会这样输掉。
+press.a.cup_out.evasive,我们往前看吧。
+press.q.top_clash,“与{rival}的榜首大战，比分{score}。这对争冠意味着什么？”
+press.a.top_clash.humble,还早着呢，两队都会争到最后。
+press.a.top_clash.confident,冠军要从我们手里过。
+press.a.top_clash.critical,这样是拿不到冠军的。
+press.a.top_clash.evasive,赛季结束再算账。
+press.q.first_weeks,“执教之初，对阵{rival}打出{score}。您的印记已经显现了吗？”
+press.a.first_weeks.humble,功劳属于球员，我才刚来。
+press.a.first_weeks.confident,已经显现了，以后会更明显。
+press.a.first_weeks.critical,还差得远。我发现了不少需要纠正的坏习惯。
+press.a.first_weeks.evasive,给我几个月时间再评判吧。
+press.q.weather,“整场比赛的天气：{weather}。天气对结果影响有多大？”
+press.a.weather.humble,天气对两队都一样。
+press.a.weather.confident,我们准备了一切，连护目镜都施了防水防湿咒。
+press.a.weather.critical,有人拿天气当借口。
+press.a.weather.evasive,天气的事去问预报员吧。
+press.q.pre_derby,“与{rival}的德比即将打响。这只是一场普通比赛吗？”
+press.a.pre_derby.humble,对球迷来说不是；我们会全力以赴。
+press.a.pre_derby.confident,{rival}知道这场宿敌对决里谁说了算。
+press.a.pre_derby.critical,{rival}在看台上的动静比在空中大。
+press.a.pre_derby.evasive,和其他比赛没什么两样。
+press.q.pre_former_club,“即将面对老东家{rival}。您有什么感受？”
+press.a.pre_former_club.humble,我对他们很有感情，但这场比赛我为这身队服而战。
+press.a.pre_former_club.confident,我知道他们所有的底细，这对我们有利。
+press.a.pre_former_club.critical,在那儿他们不让我好好干。这回他们就知道了。
+press.a.pre_former_club.evasive,这场比赛上场的不是我的过去。
+press.q.pre_top_clash,“榜首大战：你们和{rival}都在积分榜前列。这场比赛会决定什么吗？”
+press.a.pre_top_clash.humble,一场比赛决定不了什么，联赛还长着呢。
+press.a.pre_top_clash.confident,这场比赛就能看出谁才是真正的争冠者。
+press.a.pre_top_clash.critical,{rival}排名靠前，全靠赛程太轻松。
+press.a.pre_top_clash.evasive,我们只想自己，不看积分榜。
+press.q.pre_cup_tie,“杯赛对阵{rival}（{competition}），联赛也在进行。您会轮换球员吗？”
+press.a.pre_cup_tie.humble,我们尊重杯赛：派出最强阵容。
+press.a.pre_cup_tie.confident,凭这套阵容，两线作战没问题。
+press.a.pre_cup_tie.critical,{rival}把整个赛季都押在这场比赛上，我们可不是。
+press.a.pre_cup_tie.evasive,首发名单赛前就知道了。
+press.q.pre_injured_star,“{player}仍因伤缺阵。没有头号球星，您打算怎么对付{rival}？”
+press.a.pre_injured_star.humble,没人能替代{player}，我们要靠全队来弥补。
+press.a.pre_injured_star.confident,我们阵容够厚，{player}回来时球队会是赢家。
+press.a.pre_injured_star.critical,{player}受伤是因为自己不小心，希望能吸取教训。
+press.a.pre_injured_star.evasive,伤情由俱乐部公布。
+press.q.pre_former_player,“曾效力贵队的{player}如今代表{rival}与你们交手。您担心吗？”
+press.a.pre_former_player.humble,祝{player}一切都好……除了这场比赛。
+press.a.pre_former_player.confident,{player}的每一招我们都清楚。
+press.a.pre_former_player.critical,{player}是灰溜溜走的，这场比赛就会尝到滋味。
+press.a.pre_former_player.evasive,我们关心的是自己的打法，而不是某一个球员。
+press.q.pre_streak_win,“已经{n}连胜。{rival}能终结这波连胜吗？”
+press.a.pre_streak_win.humble,当然能，所以我们把它当决赛来准备。
+press.a.pre_streak_win.confident,不能。这场比赛连胜继续。
+press.a.pre_streak_win.critical,{rival}只求不输，这样可终结不了连胜。
+press.a.pre_streak_win.evasive,连胜是报纸关心的事。
+press.q.pre_streak_loss,“{n}连败之后迎战{rival}。这是生死之战吗？”
+press.a.pre_streak_loss.humble,这是场重要的比赛，我们会谦虚应对。
+press.a.pre_streak_loss.confident,颓势这场比赛就会结束。
+press.a.pre_streak_loss.critical,{rival}在鬼飞球抛出前就开始庆祝了，这对我们更好。
+press.a.pre_streak_loss.evasive,每场比赛都不一样。
+press.q.pre_heavy_defeat,“上一场以{score}惨败给{last}。球队如何从中振作起来？”
+press.a.pre_heavy_defeat.humble,埋头苦干。我们已经道过歉，继续前进。
+press.a.pre_heavy_defeat.confident,那是个意外。你们会看到的。
+press.a.pre_heavy_defeat.critical,{rival}以为我们完了；他们会大吃一惊的。
+press.a.pre_heavy_defeat.evasive,都过去了，我们只想着{rival}。
+press.q.pre_board_pressure,“有传言说这场比赛关乎您的帅位。您也这么觉得吗？”
+press.a.pre_board_pressure.humble,我每周争取的都一样：更衣室的尊重。
+press.a.pre_board_pressure.confident,我的位置比任何时候都稳固。
+press.a.pre_board_pressure.critical,这些传言正中{rival}下怀；偏偏今天冒出来，真巧。
+press.a.pre_board_pressure.evasive,这个我不谈。
+press.q.pre_new_manager,“您刚刚上任。对阵{rival}时会有什么不同？”
+press.a.pre_new_manager.humble,老样子：拼搏。我才刚开始了解这支队伍。
+press.a.pre_new_manager.confident,一支无论在哪里比赛都为胜利而战的球队。
+press.a.pre_new_manager.critical,我已经摸清{rival}的打法了：雷声大雨点小。
+press.a.pre_new_manager.evasive,到场上你们就知道了。
+press.q.pre_rival_new_manager,“{rival}刚换了新主教练{manager}。这对你们有影响吗？”
+press.a.pre_rival_new_manager.humble,新主教练总能唤醒更衣室，我们得非常警惕。
+press.a.pre_rival_new_manager.confident,对我们更有利：他们还在磨合。
+press.a.pre_rival_new_manager.critical,{rival}换主教练跟换扫帚一样勤，这样什么也建不起来。
+press.a.pre_rival_new_manager.evasive,我们专注于自己。
+press.q.pre_world_cup,“今年是世界杯年（{year}年）。您担心有人为了入选国家队而保存体力吗？”
+press.a.pre_world_cup.humble,他们梦想世界杯很正常；现在我只想着{rival}。
+press.a.pre_world_cup.confident,这里没人保存体力：想去世界杯，这场比赛就拿表现说话。
+press.a.pre_world_cup.critical,希望{rival}的心思在比赛上，而不是在世界杯上。
+press.a.pre_world_cup.evasive,世界杯还早着呢。
+press.q.pre_weather,“比赛日天气预报：{weather}。计划会有变化吗？”
+press.a.pre_weather.humble,对两队都一样，得去适应。
+press.a.pre_weather.confident,我们在什么天气下都训练过，这对我们有利。
+press.a.pre_weather.critical,希望{rival}赛后别拿这个当借口。
+press.a.pre_weather.evasive,天气不归我管。
+press.q.pre_table_bottom,“以积分榜第{pos}的身份迎战{rival}。这是一场输不起的比赛吗？”
+press.a.pre_table_bottom.humble,每场比赛对我们来说都是决赛，我们清楚。
+press.a.pre_table_bottom.confident,从这场比赛起我们开始往上爬。
+press.a.pre_table_bottom.critical,{rival}将面对一支饥渴的球队；他们太安逸了。
+press.a.pre_table_bottom.evasive,积分榜我六月再看。
+press.effect.pre_humble_own,你的球星在养伤时读到了这番话，心存感激；全队心态平稳。
+press.effect.pre_confident_own,你的球星感到被力挺；你的球员士气高涨，对手也收到了信号。
+press.effect.pre_critical_own,你的球星在养伤时读到这番话，非常不满；董事会希望少些争议。
+press.effect.assistant,剩下的问题由你的助理教练用套话应付过去。没什么能上头条，俱乐部里也没人往心里去。
+ui.press.assistant,让助理教练代为回答
+ui.press.assistant_tip,助理教练将回答剩余问题：士气、信任度和声望都不受影响，发布会随即结束。
+press.effect.pre_critical_team,对手看了很恼火；董事会希望少些争议。
+match.kickoff.v2,比赛开始！鬼飞球被抛向空中，{team} 抢到了球。
+match.kickoff.v3,游走球被放出，金色飞贼一闪就不见了，{team} 拿下了鬼飞球。
+match.kickoff.v4,十四把扫帚升空，哨声一响，{team} 带着鬼飞球冲了出去！
+match.pass.v4,{player} 甩开防守，把鬼飞球交给 {other}。
+match.pass.v5,{player} 从扫帚下面把球传出，{other} 在飞行中接住。
+match.pass.v6,{player} 和 {other} 像训练时那样来回倒球。
+match.advance.v5,{player} 把鬼飞球紧抱在胸前，沿边路疾飞。
+match.advance.v6,{player} 伏低身子贴着扫帚，直奔球环。
+match.advance_blocked.v4,{other} 横插过来，{player} 只得减速。
+match.advance_blocked.v5,{player} 想从上方突破，但 {other} 也跟着拉升。
+match.turnover.steal.v2,{player} 一把夺下了鬼飞球！
+match.turnover.steal.v3,{player} 干净利落地抢断，攻守转换。
+match.turnover.steal.v4,{player} 不知从哪儿冒出来，把鬼飞球抢走了。
+match.turnover.steal.v5,鬼飞球易手：现在在 {player} 手里。
+match.turnover.interception.v2,{player} 预判了传球，把球断了下来！
+match.turnover.interception.v3,传球力量过大，被 {player} 截了下来。
+match.turnover.interception.v4,{player} 在两名追球手之间伸手，把传球截断。
+match.turnover.interception.v5,传球被截。{player} 已经看向另一边了。
+match.turnover.quaffle_dropped.v2,鬼飞球从指间滑落，{team} 立刻扑上去拿下。
+match.turnover.quaffle_dropped.v3,鬼飞球无人控制，飞速下坠……{team} 接住了。
+match.turnover.quaffle_dropped.v4,手太滑了！鬼飞球掉落，被 {team} 捡走。
+match.turnover.carrier_injured.v2,持球者挨了一下没能控住，鬼飞球归 {team}。
+match.goal.shot.v6,{player} 假装传球，突然起手射门——进了！{score}
+match.goal.shot.v7,十分：{player} 找到了空着的球环。{score}
+match.goal.long_shot.v3,超远距离！{player} 打了守门员一个措手不及。{score}
+match.goal.long_shot.v4,{player} 远距离尝试……鬼飞球钻进了中间的球环！{score}
+match.goal.long_shot.v5,{player} 这一投太漂亮了！飞越半个球场，进了。{score}
+match.save.v6,{other} 大力射门，但 {player} 用扫帚柄把球挡了出去。
+match.save.v7,{player} 完全看穿了 {other} 的意图，轻松扑救。
+match.miss.v4,{player} 仓促出手，鬼飞球离球环差得远。
+match.miss.v5,{player} 射门……打在球环边缘弹了出去！
+match.miss.v6,{player} 想打得太刁，结果球从球环上方飞过。
+match.foul.stooging.v2,夹杀犯规！第二名追球手也进入了得分区：进球不算。
+match.foul.haversacking.v2,握球入环犯规！鬼飞球穿环时手还抓着：进球无效。
+match.penalty_goal.v2,{player} 罚球骗过了守门员。{score}
+match.penalty_goal.v3,罚球，命中：{player} 毫不手软。{score}
+match.penalty_goal.v4,{player} 深吸一口气，盯准球环，稳稳罚进。{score}
+match.penalty_goal.v5,{player} 冷静地罚进了这个球。{score}
+match.penalty_saved.v2,{player} 判断正确，扑出了 {other} 的罚球！
+match.penalty_saved.v3,{other} 主罚……{player} 扑出来了！
+match.penalty_saved.v4,{player} 坚持到最后一刻才出手，扑出了 {other} 的罚球。
+match.penalty_saved.v5,{other} 罚失了：{player} 把鬼飞球抱在怀里。
+match.foul.blagging.v2,{player} 拽住 {other} 的扫帚尾往后拉！罚球。
+match.foul.blagging.v3,{player} 抓住 {other} 的扫帚拖慢对手：犯规，罚球。
+match.foul.blagging.v4,裁判看到了：{player} 对 {other} 拽扫帚尾。罚球。
+match.foul.blatching.v2,{player} 故意朝 {other} 撞了过去！罚球。
+match.foul.blatching.v3,{player} 有意与 {other} 相撞：冲撞犯规，罚球。
+match.foul.blatching.v4,{player} 狠狠撞上 {other}！冲撞犯规，罚球。
+match.foul.cobbing.v2,肘击犯规！{player} 对 {other} 亮出了肘子。罚球。
+match.foul.cobbing.v3,{player} 一肘顶在 {other} 的肋骨上：肘击犯规，罚球。
+match.foul.cobbing.v4,裁判可不会放过 {player} 的肘子：对 {other} 肘击犯规，罚球。
+match.foul.grabbing.v2,{player} 抓住了 {other} 的胳膊。罚球。
+match.foul.grabbing.v3,放手，{player}！一把揪住 {other} 的袍子：罚球。
+match.foul.grabbing.v4,{player} 用手拉住了 {other}。罚球。
+match.foul.blurting.v2,{player} 用扫帚柄勾住对手的扫帚！罚球。
+match.foul.blurting.v3,{player} 锁住对方扫帚柄，把对手带偏方向：罚球。
+match.foul.blurting.v4,{player} 锁柄犯规，裁判毫不犹豫：罚球。
+match.foul.keeper_attack.v2,{player} 在远离战局的地方把游走球打向守门员！罚球。
+match.foul.keeper_attack.v3,鬼飞球根本不在附近，{player} 还是把游走球打向守门员。罚球。
+match.foul.unseen.blagging.v2,{player} 拽了一下 {other} 的扫帚尾……裁判正看着别处。
+match.foul.unseen.blagging.v3,{player} 偷偷拽了 {other} 的扫帚尾。没有哨声。
+match.foul.unseen.blagging.v4,{other} 抗议扫帚被拽，但裁判什么都没看到，{player} 若无其事地继续飞。
+match.foul.unseen.blatching.v2,{player} 把 {other} 撞翻了，裁判却毫无察觉。
+match.foul.unseen.blatching.v3,{player} 与 {other} 发生难看的碰撞。哨子没有响。
+match.foul.unseen.blatching.v4,{player} 冲撞了 {other}，可裁判大概在看金色飞贼……之类的吧。
+match.foul.unseen.cobbing.v2,{player} 肘子乱挥，却没人吹罚。
+match.foul.unseen.cobbing.v3,{player} 一记肘击，裁判没看见。
+match.foul.unseen.cobbing.v4,{player} 在裁判背后使了一记肘击。
+match.foul.unseen.grabbing.v2,{player} 扯了 {other} 的袍子，却没事。
+match.foul.unseen.grabbing.v3,{player} 拉住了 {other}；裁判径直飞过。
+match.foul.unseen.grabbing.v4,{other} 抗议被 {player} 拉拽，但没有哨声。
+match.foul.unseen.blurting.v2,{player} 勾住了对手的扫帚，却逃过了判罚。
+match.foul.unseen.blurting.v3,{player} 锁柄犯规，裁判没注意到。
+match.foul.unseen.blurting.v4,扫帚柄锁住一瞬，{player} 把对手带偏，哨子却一声不响。
+match.foul.unseen.keeper_attack.v2,{player} 在鬼飞球远离时把游走球打向守门员……裁判正盯着别处的战局。
+match.send_off.v2,罚下！{player} 必须离场，球队少一人。
+match.send_off.v3,裁判忍无可忍：{player} 被罚出场。没有替补。
+match.send_off.v4,裁判命令 {player} 降落到地面：罚下场。
+match.bludger_hit.v5,砰！游走球在半空中击中了 {player}。
+match.bludger_hit.v6,{player} 根本没看见：游走球砸在肩膀上。
+match.bludger_hit.v7,一记精准的游走球让 {player} 在扫帚上摇摇晃晃。
+match.bludger_hit.v8,游走球击中 {player}：这下要留一大块淤青了。
+match.bludger_dodge.v2,{player} 及时一低头，游走球呼啸而过。
+match.bludger_dodge.v3,{player} 猛地一侧扫帚，游走球扑了个空。
+match.bludger_dodge.v4,游走球扑向 {player}，可那里已经没人了。
+match.bludger_dodge.v5,{player} 漂亮地闪开：游走球连边都没碰到。
+match.bludger_deflect.v2,{player} 及时赶到，一棒把游走球打开。
+match.bludger_deflect.v3,{player} 干得漂亮：游走球被打回了对方那边。
+match.bludger_deflect.v4,{player} 挡在前面，护住队友免遭游走球。
+match.bludger_deflect.v5,啪！{player} 结结实实地击中游走球，把它打得远远的。
+match.injury.bludger.v2,一记游走球击倒了 {player}（{severity}）。球队少一人作战。
+match.injury.bludger.v3,挨了游走球的 {player} 在扫帚上蜷成一团，只得降落（{severity}）。
+match.injury.bludger.v4,游走球击中 {player}，无法继续比赛（{severity}）。魁地奇没有换人。
+match.injury.feint.v2,{player} 没能从俯冲中拉起，重重摔在地上（{severity}）。
+match.injury.feint.v3,惨痛的俯冲：{player} 被假动作一路带进了草地（{severity}）。
+match.snitch_sighted.v5,{player} 猛地向上冲去：金色飞贼在那儿！
+match.snitch_sighted.v6,球环附近闪过一抹金色的振翅……{player} 已经冲过去了！
+match.snitch_chase_contest.v2,{player} 也看见了，加入了追逐！
+match.snitch_chase_contest.v3,现在有两名找球手在追金色飞贼了！{player} 紧咬在后。
+match.snitch_chase_contest.v4,{player} 从侧面杀到：争夺金色飞贼的比拼开始了。
+match.snitch_chase_contest.v5,{player} 可不打算拱手相让，并驾齐驱加入了追逐。
+match.snitch_lost.escaped.v2,金色飞贼划出一道不可思议的之字形，消失了。
+match.snitch_lost.escaped.v3,跟丢了：金色飞贼又藏起来了。
+match.snitch_lost.escaped.v4,就差一点：金色飞贼从指缝间溜走了。
+match.snitch_lost.escaped.v5,金色飞贼钻进追球手之间，再也没人看见。
+match.snitch_lost.escaped.v6,金色飞贼突然急停掉头，追逐就此结束。
+match.snitch_lost.hit.v2,一个游走球横穿找球手的路线，金色飞贼不见了。
+match.snitch_lost.hit.v3,击球手打得好！游走球打断了对金色飞贼的追逐。
+match.snitch_lost.hit.v4,找球手不得不躲闪游走球，结果跟丢了金色飞贼。
+match.snitch_lost.injury.v2,找球手受了伤，金色飞贼又自由了。
+match.snitch_lost.send_off.v2,罚下让一切中断，金色飞贼飞走了。
+match.snitch_lost.night.v2,天太黑，看不清金色飞贼了：追逐只能等等再说。
+match.snitch_lost.feint.v2,{player} 被假动作分了神，金色飞贼溜走了。
+match.snitch_lost.feint.v3,盯着假动作看，{player} 丢掉了金色飞贼。
+match.feint.success.v2,{player} 俯冲，{other} 紧随其后……只有 {player} 及时拉起！朗斯基假动作。
+match.feint.success.v3,完美的朗斯基假动作！{player} 骗过了 {other}，后者一头扎进地里。
+match.feint.success.v4,{other} 上钩了：{player} 的假动作让 {other} 栽进了草地。
+match.feint.failed.v2,{player} 假装俯冲，但 {other} 纹丝不动。
+match.feint.failed.v3,{other} 识破了这招：{player} 的朗斯基假动作落了空。
+match.feint.failed.v4,{player} 独自俯冲：{other} 留在高处看着。
+match.snitch_caught.v4,{player} 在最后一刻伸出手——抓住了金色飞贼！{score}
+match.snitch_caught.v5,一百五十分！{player} 抓住金色飞贼，比赛结束。{score}
+match.snitch_caught.v6,比赛结束！金色飞贼在 {player} 的拳头里扑腾着翅膀。{score}
+match.timeout.v2,{team} 叫了暂停：球员们降落到地面。
+match.timeout.v3,{team} 暂停。队长把队员们召集到一起。
+match.tactics_change.v2,{team} 改变了打法：能看出飞行方式不同了。
+match.tactics_change.v3,{team} 做出战术微调。
+match.ai_defence.pincer.v2,{team} 从三个方向包夹持球者：帕金钳形攻势。
+match.ai_defence.mark.v2,{team} 给每名对方追球手都安排了盯防。
+match.end.snitch.v2,终场哨声响起。
+match.end.snitch.v3,比赛结束了。
+match.end.time_cap.v2,时间到：以进球定胜负。
+match.weather.cloudy.v2,天空一片灰蒙：光线还算适合寻找金色飞贼。
+match.weather.cloudy.v3,低云压在球场上空，不过暂时还没下雨。
+match.weather.wind.v2,阵风横扫球场：扫帚们要跳起舞来了。
+match.weather.wind.v3,侧风劲吹：长传和远射都得小心。
+match.weather.rain.v2,雨下个不停：扫帚湿了，手滑了，眼镜也起雾了。
+match.weather.rain.v3,大雨笼罩球场；这种天气想找到一点金光，祝他们好运吧。
+match.weather.storm.v2,球场上空电闪雷鸣，大风把扫帚吹得东倒西歪：这将是一场硬仗。
+match.weather.storm.v3,雷声隆隆，斜雨如注，天色漆黑：找球手们今天只能靠猜了。
+match.weather.fog.v2,大雾弥漫：从看台上几乎看不清球环。
+match.weather.fog.v3,球员们一起飞就被浓雾吞没。能不能找到金色飞贼全凭运气了。
+match.weather.snow.v2,鹅毛大雪，天寒地冻：手指都要冻僵了。
+match.weather.snow.v3,雪落球场：白茫茫的天空里很难看清金色飞贼。
+commentary.lee_jordan.kickoff.v3,大家好，大家好，霍格沃茨！我是李·乔丹，扫帚已经升空。{team} 拿到了鬼飞球。
+commentary.lee_jordan.kickoff.v4,霍琦夫人吹响哨子，十四把扫帚腾空而起……比赛开始！{team} 控制鬼飞球。
+commentary.lee_jordan.goal.v5,进了！{player} 气定神闲地把球送进。{score}。
+commentary.lee_jordan.goal.v6,{player} 进球！{score}。这球连大乌贼都挡不住。
+commentary.lee_jordan.goal.gry.v4,格兰芬多进球！{player}，你太棒了！{score}。
+commentary.lee_jordan.goal.gry.v5,格兰芬多再得十分！{player} 让这一切看起来轻而易举。{score}。
+commentary.lee_jordan.goal.gry.v6,{player} 得分！加油，格兰芬多！听听那片红金色看台的欢呼！{score}。
+commentary.lee_jordan.goal.sly.v3,斯莱特林得分。{player}。{score}。好吧，停了的钟一天也能对两次。
+commentary.lee_jordan.goal.sly.v4,呃。{player} 为斯莱特林得分。{score}。赶紧往下说，免得我说出什么来。
+commentary.lee_jordan.goal.sly.v5,斯莱特林进球，{score}，不，我才不会热情地念出这个名字：{player}。
+commentary.lee_jordan.penalty_goal.v2,罚球命中！{player} 一点都不紧张。{score}。
+commentary.lee_jordan.penalty_goal.v3,这就是打脏球的下场：{player} 罚进了。{score}。
+commentary.lee_jordan.penalty_goal.v4,{player} 与守门员一对一……进了！{score}。
+commentary.lee_jordan.save.v5,不！{player} 说不！{other} 空手而归。
+commentary.lee_jordan.save.v6,{other} 射门，{player} 扑救，我终于能喘口气了。
+commentary.lee_jordan.miss.v4,{player} 射门……鬼飞球差点砸中看台上的一年级新生！
+commentary.lee_jordan.miss.v5,偏了。{player} 今晚做梦都会梦到这一球。
+commentary.lee_jordan.miss.v6,哎哟！{player} 把球扔进了云里。谁去提醒一下猫头鹰们。
+commentary.lee_jordan.foul.v4,裁判！裁判！看见了吗？当然看见了！
+commentary.lee_jordan.foul.v5,规则手册里对这种行为有个专门的叫法，可不怎么好听。
+commentary.lee_jordan.foul.v6,规则里有七百种犯规，偏偏选了这一种！
+commentary.lee_jordan.foul.sly.v3,又是斯莱特林！真让人意外！谁都没料到。好吧，谁都料到了。
+commentary.lee_jordan.foul.sly.v4,看来作弊是斯莱特林的必修课。
+commentary.lee_jordan.foul.sly.v5,斯莱特林这一手该送去阿兹卡班，而不是出现在魁地奇比赛里！
+commentary.lee_jordan.snitch_sighted.v3,大家快看！{player} 像离弦之箭冲了出去……难道是……？没错！金色飞贼！
+commentary.lee_jordan.snitch_sighted.v4,{player} 发现了一抹金色，现在其他什么都不重要了！
+commentary.lee_jordan.snitch_sighted.v5,看 {player}！这才是真正的找球手俯冲！金色飞贼就在下面！
+commentary.lee_jordan.snitch_caught.v2,比赛结束！金色飞贼在 {player} 手里！{score}。多精彩的比赛！
+commentary.lee_jordan.snitch_caught.v3,{player} 抓住了金色飞贼！一百五十分，大家去礼堂吧！{score}。
+commentary.lee_jordan.snitch_caught.gry.v2,抓住了！！{player} 抓住了金色飞贼！格兰芬多得一百五十分！{score}。
+commentary.lee_jordan.snitch_caught.gry.v3,{player}！{player}！金色飞贼归格兰芬多了！对不起，教授，我实在冷静不下来！{score}。
+commentary.lee_jordan.snitch_caught.sly.v2,{player} 抓住了金色飞贼。斯莱特林得一百五十分。{score}。我需要缓一缓。
+commentary.lee_jordan.snitch_caught.sly.v3,好吧。斯莱特林。{player}。金色飞贼。{score}。教授，我能回宿舍了吗？
+commentary.lee_jordan.wronski_feint.v2,各位，这就是朗斯基假动作，千万别在家里模仿！
+commentary.lee_jordan.wronski_feint.v3,我的心都提到嗓子眼了！连教授都抓紧了椅子！
+commentary.lee_jordan.wronski_feint.v4,朗斯基！刚才那是朗斯基假动作！保险起见，谁去把庞弗雷女士叫醒！
+commentary.lee_jordan.bludger_hit.v4,这声音跟敲锣似的！还在天上吗？还在天上。
+commentary.lee_jordan.bludger_hit.v5,又一记游走球命中目标。击球手们今天胃口很好啊。
+commentary.lee_jordan.bludger_hit.v6,哎哟！那个游走球真没礼貌。说实话，它向来都没有。
+commentary.lee_jordan.bludger_hit.gry.v3,格兰芬多的游走球，正中目标！学院就该这么守护！
+commentary.lee_jordan.bludger_hit.gry.v4,格兰芬多击球手这一击漂亮极了！好吧，是对我们来说漂亮。
+commentary.lee_jordan.bludger_hit.gry.v5,接招！格兰芬多的游走球，待会儿有人得去校医院了。
+commentary.lee_jordan.injury.v2,噢，不。看起来不太妙。谁去请庞弗雷女士来。
+commentary.lee_jordan.injury.v3,直接送校医院吧。庞弗雷女士比这更糟的都治好过。
+commentary.lee_jordan.injury.v4,空中传来坏消息。整个看台都安静了下来。
+commentary.lee_jordan.injury.v5,希望只是磕碰了一下。魁地奇很美，但也很疼。
+commentary.lee_jordan.match_end.v2,比赛结束！一如既往，很荣幸。李·乔丹向大家道别……直到教授再让我回来。
+commentary.lee_jordan.match_end.v3,就到这里！我是李·乔丹，一如既往地公正。好吧，差不多一如既往。
+commentary.lee_jordan.mcgonagall.v4,"“乔丹，这是魁地奇比赛，不是你们学院的誓师大会！”
+“对不起，教授。我太激动了。”"
+commentary.lee_jordan.mcgonagall.v5,"“乔丹，再多说一个字，我就没收你的扩音器！”
+“明白，教授。公正。非常公正。”"
+commentary.lee_jordan.mcgonagall.v6,"“乔丹！”
+“那是夸奖，教授！算是吧。”"
+commentary.bagman.kickoff.v3,女士们，先生们，现场气氛太热烈了！卢多·巴格曼为您解说，鬼飞球升空了！{team} 拿到了！
+commentary.bagman.kickoff.v4,开始了！各位先别急着下注，比赛才刚开始！{team} 控制鬼飞球！
+commentary.bagman.penalty_goal.v2,罚球——进了！{player} 毫不手软！{score}！
+commentary.bagman.penalty_goal.v3,{player} 漂亮地惩罚了这次犯规！{score}！
+commentary.bagman.penalty_goal.v4,{player} 稳稳罚进！{score}！多么强大的心理素质，女士们，先生们！
+commentary.bagman.save.v6,{other} 都已经开始庆祝了，但 {player} 另有打算！难以置信！
+commentary.bagman.miss.v4,哎呀，{player}！我差点就押一个加隆赌它会进！还好没押！
+commentary.bagman.miss.v5,毫厘之差偏出！{player} 不敢相信，我也不敢相信！
+commentary.bagman.miss.v6,{player} 射门……不，不，不！从球环上方飞过！
+commentary.bagman.foul.v4,哎呀呀！裁判飞了过去，看起来很不高兴！
+commentary.bagman.foul.v5,这可不在任何公平竞赛手册里，女士们，先生们！
+commentary.bagman.foul.v6,这个罚球本来完全可以避免！
+commentary.bagman.snitch_sighted.v3,快看！{player} 像子弹一样冲了出去！是金色飞贼吗？是金色飞贼！
+commentary.bagman.snitch_sighted.v4,全场观众屏住了呼吸！{player} 正在追金色飞贼！
+commentary.bagman.snitch_sighted.v5,{player} 俯冲而下！比赛随时可能结束！
+commentary.bagman.snitch_caught.v3,{player} 抓住了！！我还以为这场要打很久呢！{score}！
+commentary.bagman.snitch_caught.v4,结束了！{player} 高举握着金色飞贼的拳头！多么激动人心的时刻，女士们，先生们！{score}！
+commentary.bagman.wronski_feint.v2,朗斯基假动作！敢这么做得有钢铁般的神经！
+commentary.bagman.wronski_feint.v3,全速垂直俯冲！这才叫魁地奇！
+commentary.bagman.wronski_feint.v4,这是波兰伟大的找球手约瑟夫·朗斯基的招数！危险又优美！
+commentary.bagman.bludger_hit.v4,砰！那个击球手太精准了！
+commentary.bagman.bludger_hit.v5,好一击！就连我当击球手的时候都没打得这么狠！
+commentary.bagman.bludger_hit.v6,哎哟！看台上有人刚刚捂住了眼睛！
+commentary.bagman.injury.v2,噢，不！治疗师快进场！
+commentary.bagman.injury.v3,这下可不妙，女士们，先生们！希望没什么大碍。
+commentary.bagman.injury.v4,掌声送给这位球员，女士们，先生们！这项运动就是要全身心投入！
+commentary.bagman.match_end.v2,比赛结束！卢多·巴格曼向您道别，这是多么精彩的一场魁地奇！
+commentary.bagman.match_end.v3,感谢各位到场！至于下了注的朋友……嗯，总还有下一次嘛！
+news.derby_preview,"德比周：{home} 对 {away}
+本周 {home} 与 {away} 正面交锋（{competition}）。看台上人们只谈论这一件事。"
+news.derby_preview.v2,"德比将至：{home} 对 {away}
+主办方为本周的对决（{competition}）加强安保：入口处将检查魔杖，想交出假魔杖蒙混过关的球迷恐怕不止一个。"
+news.derby_preview.v3,"旧账未清：{home} 对 {away}
+谁也没忘记上一次交手。本周 {home} 与 {away} 再燃战火（{competition}），治疗师已在场边待命。"
+news.return_to_former,"{manager} 重遇 {former}
+如今执掌 {club} 的 {manager} 本周将对阵老东家 {former}（{competition}）。是否会有掌声，还很难说。"
+news.return_to_former.v2,"{manager} 的重逢周
+{manager} 曾经执教的 {former} 本周挡在 {club} 面前（{competition}）。更衣室里是老朋友，看台上是旧恩怨。"
+news.former_star,"{player} 让老东家 {club} 吃尽苦头
+曾效力于 {club} 的 {player} 偏偏在对阵老东家时成为 {team} 的头号功臣（评分 {rating}）。"
+news.former_star.v2,"原路退回
+{club} 放走了 {player}，而 {player} 刚刚用表现证明那是个错误：代表 {team} 出战，评分 {rating}。"
+msg.rival_objective.subject,与宿敌的排名
+msg.rival_objective.body.met,我们排名第 {position}，{rival} 排名第 {rival_position}。董事会为力压宿敌而欢欣：次要目标已完成。
+msg.rival_objective.body.missed,我们排名第 {position}，{rival} 排名第 {rival_position}。排在宿敌之后让董事会很不痛快，他们会记住这一点。
+ui.board.rival_objective,次要目标：排名高于 {rival}
+ui.board.rival_status,{rival} 当前排名：{rival_pos}
+msg.tryouts.subject,{house}球队选拔
+msg.tryouts.body,魁地奇球场已为{house}的选拔预留。空缺位置：{n}；报名人数：{cands}。看看他们的飞行，决定谁能入队；如果你不管，队长会在选拔当天自行挑选。
+msg.tryouts.outcome_manager,你选定了新队员：{players}。
+msg.tryouts.outcome_captain,队长主持了选拔，选中了：{players}。
+ui.tryouts.hold,主持选拔
+ui.tryouts.leave_to_captain,交给队长决定
+ui.tryouts.title,{house}选拔
+ui.tryouts.confirm,确认队伍
+ui.tryouts.later,稍后决定
+ui.tryouts.intro,空缺位置：{n}。勾选你想要的队员；队长的人选已预先勾选。截止日期：{date}。
+ui.tryouts.group,{pos} · 从{total}人中选{n}人
+ui.tryouts.hint,未勾选的位置由队长补上。如果稍后决定，这封猫头鹰信会保留到截止日期。
+ui.school.tryouts_pending,{season}学年选拔待进行：{n}个空缺，{cands}名候选人。截止日期：{date}。
+ui.school.tryouts_line,{season}学年选拔，新入队：{players}。
+ui.school.tryouts_by_manager,（由你选定）
+ui.school.tryouts_by_captain,（由队长选定）
+msg.house_roster.tryouts_pending,将在九月的选拔中确定
+ui.new_game.filter_all,全部
+ui.new_game.filter_clubs,俱乐部
+ui.new_game.filter_schools,学校
+ui.new_game.legend_clubs,俱乐部联赛
+ui.new_game.legend_schools,学校（学院）
+ui.col.opponent,对手
+ui.profile.matches,比赛
+ui.profile.by_season,按赛季
+ui.away_short,客场
+ui.list_sep,、
+msg.offer.outcome_expired,报价已过期：未能及时答复。
+news.match.caught_and_lost_neutral,"抓到飞贼却输了比赛：{home} {sh} – {sa} {away}
+{catcher} 在{venue}终结了比赛：抓到了飞贼，却没能赢球。"
+msg.contracts_due.body.one,该球员的合同将于6月30日到期，若不续约将自由离队（括号内为周薪）：{players}。打开球员资料以提出续约。
+msg.contracts_spring.body.one,距离6月30日还有四个月，以下球员仍未续约（括号内为周薪）：{players}。如果我们不提出报价，该球员将自由离队，而其他俱乐部现在就可以与其签预签合同。如想留下，请打开阵容名单续约。
+ui.months_short,"1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月"
+ui.label_value,%s：%s
+ui.market.embargo_free,转会禁令：在俱乐部财务恢复之前，董事会不允许签下任何球员，自由球员也不例外。
+ui.market.signed_toast,%s 已签约。
+ui.market.renewed_toast,已与 %s 续约。
+ui.market.shortlisted,已将 %s 加入关注名单。
+ui.market.unshortlisted,已将 %s 移出关注名单。
+ui.market.unlisted,已撤下挂牌。
+ui.market.loan_unlisted,已撤回外租。
+ui.market.loan_returned_toast,%s 已返回原俱乐部。
+ui.market.loan_recalled,已将 %s 从租借中召回。
+ui.action.loan_recall,提前召回
+ui.action.compare_unmark,取消对比标记
+ui.squad.loaned_out,外租球员
+msg.pre_contract_lost.body_decided,{player} 与 {club} 预签了合同：6 月 30 日免费离队，与你决定不续约时的安排一致。
+ui.saves.bad_name,请换一个存档名称：此名称为空或已被保留。
+ui.saves.load_ask,读取其他存档？
+ui.saves.load_discard,不保存并读取
+ui.saves.unsaved_body,自上次保存以来有未保存的更改。如果不保存就继续，这些更改将会丢失。
+msg.house_term.body_no_tryouts,{season} 学年开始：一年级新生入学，魁地奇杯将从十一月开赛。球队没有空缺位置，因此暂时不举行选拔。
+press.q.narrow_loss_one,“以{score}惜败{rival}，只差一个进球。缺了什么？”
+press.q.player_best,“{player}是你们今天表现最好的球员。和其他人比，好在哪里？”
+press.a.player_best.humble,一如既往地全力以赴。其他人要以此为榜样。
+press.a.player_best.confident,在这个位置上是联赛最好的球员之一，今天大家都看到了。
+press.a.player_best.critical,表现不错。但一个人赢不了比赛：其他人得拿出更多。
+press.a.player_best.evasive,我不谈论个别球员。
+ui.match.bludgers_more.one,（自上次以来又有 %d 次游走球击中）
+ui.clock_ms,{m}分{s}秒
+ui.clock_hms,{h}小时{m}分{s}秒
+ui.match.timeout_wait,队长需再过 {m} 分钟比赛时间才能再次叫暂停。
+ui.match.timeout_tip,队长叫停比赛：全队喘口气，待生效的战术调整随即执行，你也可以对球队讲话。每{m}分钟比赛时间限一次。
+ui.news.quiet_lead,魁地奇世界风平浪静
+school.school_hogwarts.name,霍格沃茨魔法学校
+school.school_hogwarts.short,霍格沃茨
+school.school_beauxbatons.name,布斯巴顿魔法学校
+school.school_beauxbatons.short,布斯巴顿
+school.school_durmstrang.name,德姆斯特朗专科学校
+school.school_durmstrang.short,德姆斯特朗
+school.school_ilvermorny.name,伊法魔尼魔法学校
+school.school_ilvermorny.short,伊法魔尼
+school.school_mahoutokoro.name,魔法所
+school.school_mahoutokoro.short,魔法所
+school.school_castelobruxo.name,卡斯特罗布舍
+school.school_castelobruxo.short,卡斯特罗布舍
+school.school_uagadou.name,瓦加杜魔法学校
+school.school_uagadou.short,瓦加杜
+school.school_koldovstoretz.name,科多维斯托雷兹
+school.school_koldovstoretz.short,科多维斯托雷兹
+school.school_wollemi.name,瓦勒迈魔法学院
+school.school_wollemi.short,瓦勒迈
+school.school_kapadokya.name,卡帕多奇亚魔法学院
+school.school_kapadokya.short,卡帕多奇亚
+school.school_nilgiri.name,尼尔吉里魔法学校
+school.school_nilgiri.short,尼尔吉里
+sponsor.nimbus,光轮竞赛扫帚公司
+sponsor.cleansweep,横扫扫帚公司
+sponsor.comet,彗星贸易公司
+sponsor.butterbeer,黄油啤酒
+sponsor.gringotts,古灵阁
+sponsor.gladrags,风雅牌巫师服装店
+sponsor.mrs_skower,斯科尔夫人牌万能神奇去污剂
+sponsor.bluebottle,蓝瓶
+sponsor.quality_quidditch,魁地奇精品店
+sponsor.honeydukes,蜂蜜公爵
+web.landing.saves_title,你的存档
+web.landing.saves_where,存档保存在这台电脑的浏览器里。我们的服务器不保存任何存档。
+web.landing.saves_lost,如果清除浏览器数据、在无痕窗口中游玩，或换用其他浏览器或电脑，这些存档就不会出现。
+web.landing.saves_export,为防丢失，请在“保存/读取”中点击“导出为文件”，把存档保存到你想放的地方。用“导入文件”即可在任何浏览器中继续游戏。
+web.nav.ranking,排行榜
+web.ranking.title,主教练排行榜
+web.ranking.intro,网页版每位玩家的最佳生涯，按最近一个完成赛季结束时主教练的声望排名。
+web.ranking.country,国家
+web.ranking.all_countries,所有国家
+web.ranking.show,查看
+web.ranking.col_manager,主教练
+web.ranking.col_country,国家
+web.ranking.col_reputation,声望
+web.ranking.col_titles,冠军
+web.ranking.col_seasons,赛季
+web.ranking.empty,这个排行榜还没有生涯记录。在网页版完成一个赛季，你就会出现在这里。
+web.ranking.note,成绩由游戏从你的浏览器发送。未通过我们合理性检查的生涯不会显示。
+web.ranking.view_list,列表
+web.ranking.view_map,地图
+web.ranking.map_hint,每个印章代表一个国家，大小和数字表示该国有多少位主教练上榜。点击即可查看该国的列表。
+web.ranking.pin_one,{country}：1位主教练 · {user}（{rep}）
+web.ranking.pin_many,{country}：{n}位主教练 · 最佳：{user}（{rep}）
+web.ranking.col_managers,主教练
+web.ranking.col_best,最佳
+web.ranking.col_average,平均
+ui.about.source,GitHub 上的源代码
+ui.saves.other_career,该名称属于另一段生涯。请换一个。
+ui.menu.players,球员
+ui.menu.national_teams,国家队
+ui.help.players,按姓名、位置和地区搜索任何国家的球员；“更多筛选”可按年龄、身价、周薪、合同、国籍、状态、星级或属性细化。对于远方的球员，你只能看到球探所掌握的信息：星级和属性只筛选他们了解的球员。
+ui.help.national_teams,所有国家队的排名，按其最佳七人的实力排序，并显示各队赢得的世界杯次数。点击一支球队可打开其页面：阵容、下一场比赛和历史记录。
+ui.market.found,%d 名球员（显示 %d 名）
+msg.embargo_blocks.subject,禁令：无法签下{player}
+msg.embargo_blocks.body,由于俱乐部负债，董事会冻结了转会。与{player}所属俱乐部的协议依然有效；只要未过期，禁令解除后即可完成签约。
+ui.on_duty,被%s征召：%d 天
+ui.squad.on_duty_n,%d 人在国家队
+msg.duty_call.subject,国家队征召：{player}
+msg.duty_call.body,{team}已征召{player}参加{competition}。俱乐部在比赛次日之前无法使用他。
+web.footer.feedback,反馈
+web.landing.feedback,发现了错误或有好主意？告诉我们。
+web.feedback.title,错误与建议
+web.feedback.intro,遇到了问题，或者有让游戏变得更好的想法？在这里告诉我们。无需账户。
+web.feedback.kind_label,反馈类型
+web.feedback.kind_bug,错误（某些功能无法使用）
+web.feedback.kind_idea,想法或建议
+web.feedback.message_label,内容
+web.feedback.message_help,如果是错误，请告诉我们你做了什么、期望发生什么以及实际发生了什么。{min} 到 {max} 个字符。
+web.feedback.email_label,你的电子邮箱（可选）
+web.feedback.email_help,仅用于回复你。绝不会向任何人显示。
+web.feedback.context_label,版本和平台（可选）
+web.feedback.context_help,例如“v0.11.0，浏览器”或“v0.11.0，Windows”。
+web.feedback.submit,发送
+web.feedback.error.message_short,内容至少需要 {min} 个字符。
+web.feedback.error.message_long,内容最多 {max} 个字符。
+web.feedback.sent_title,谢谢！
+web.feedback.sent_body,我们已收到你的消息。我们会阅读收到的每一条反馈，但不一定能一一回复。
+web.feedback.sent_again,再发送一条
+ui.about.feedback,反馈错误与建议
+ui.list.name_detail,{name} ({detail})
+ui.match.finish_first,请先结束比赛，再更换工作。
+news.award_no_club,{award}，{league}：{player}

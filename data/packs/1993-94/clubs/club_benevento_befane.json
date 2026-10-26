@@ -1,0 +1,49 @@
+{
+  "id": "club_benevento_befane",
+  "name": "Benevento Befane",
+  "short_name": "Befane",
+  "city": "Benevento, Italia",
+  "country_id": "ita",
+  "region_id": "italy",
+  "founded": 1866,
+  "colors": {
+    "primary": "#4A148C",
+    "secondary": "#FFB300"
+  },
+  "emblem_key": "stick",
+  "emblem_desc": "the Befana, an old witch flying on her broomstick under the stars",
+  "identity": {
+    "style_tags": [
+      "clever"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_napoli_nottole"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_italy_league",
+  "level": 2,
+  "reputation": 5040,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 7,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Napoli Nottole [FILLER]: invented for the game (the Campania derby)."
+}

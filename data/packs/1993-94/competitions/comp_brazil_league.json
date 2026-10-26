@@ -1,0 +1,57 @@
+{
+  "id": "comp_brazil_league",
+  "name": "Liga Brasileña",
+  "name_en": "Brazilian League",
+  "type": "league",
+  "region_id": "brazil",
+  "country_ids": [
+    "bra"
+  ],
+  "level": 1,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_rio_redemoinhos",
+    "club_sao_paulo_sacis",
+    "club_salvador_sabias",
+    "club_belo_horizonte_boitatas",
+    "club_porto_alegre_pampeiros",
+    "club_manaus_mapinguaris",
+    "club_recife_raposas",
+    "club_fortaleza_fogueteiros",
+    "club_curitiba_curupiras"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.pantanal",
+    "venue.chapada_diamantina",
+    "venue.lencois_maranhenses",
+    "venue.serra_da_mantiqueira",
+    "venue.goias_cerrado"
+  ],
+  "prizes": {
+    "galleons_champion": 5000,
+    "galleons_per_position_step": 250,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "Brazil 5 World Cups according to Bagman, finalist in 1982 and 2014 [PM-2014]; clubs [FILLER]. Format copied from the British league [FILLER]; venues [FILLER]; prizes [filler]."
+}

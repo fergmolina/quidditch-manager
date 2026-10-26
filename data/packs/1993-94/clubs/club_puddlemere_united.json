@@ -1,0 +1,55 @@
+{
+  "id": "club_puddlemere_united",
+  "name": "Puddlemere United",
+  "short_name": "Puddlemere",
+  "city": "Puddlemere (río Piddle), Dorset, Inglaterra",
+  "country_id": "eng",
+  "region_id": "british_isles",
+  "founded": 1163,
+  "colors": {
+    "primary": "#1B2A4A",
+    "secondary": "#C9A227"
+  },
+  "emblem_key": "crossed_bulrushes",
+  "identity": {
+    "style_tags": [
+      "balanced",
+      "reserve_team"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_holyhead_harpies"
+    ],
+    "rivalries_source": "canon",
+    "fan_traits": [
+      "anthem_beat_back_those_bludgers"
+    ],
+    "mascot": ""
+  },
+  "league_id": "comp_british_irish_league",
+  "level": 1,
+  "reputation": 9100,
+  "finances": {
+    "balance": 15000,
+    "wage_budget_weekly": 450,
+    "transfer_budget": 4000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 4,
+    "broom_workshop": 4
+  },
+  "constraints": {},
+  "manager_name": "Philbert Deverill",
+  "history": {
+    "league_titles": 22,
+    "european_cups": 2,
+    "notes_keys": [
+      "club.puddlemere.oldest",
+      "club.puddlemere.anthem",
+      "club.puddlemere.reserve_team"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "Navy blue colors and golden bulrushes [QTTA c7]; the change from 'mud brown' recounted in DP (1998) is ignored for 1993-94 and the current crest is used. Hex [inferred]. Finances [filler]. Rivalry with Holyhead Harpies: attested in the Daily Prophet newsletters (the Ilkley Moor match, with wands confiscated at the entrance and a riot, and Wilda Griffiths's move to Puddlemere) [DP]; the game takes the feud as already alive in 1993-94 [inferred], while Griffiths is still a Harpy that season."
+}

@@ -1,0 +1,49 @@
+{
+  "id": "club_oaxaca_ocelotes",
+  "name": "Oaxaca Ocelotes",
+  "short_name": "Ocelotes",
+  "city": "Oaxaca, México",
+  "country_id": "mex",
+  "region_id": "mexico_caribbean",
+  "founded": 1919,
+  "colors": {
+    "primary": "#F9A825",
+    "secondary": "#3E2723"
+  },
+  "emblem_key": "",
+  "emblem_desc": "an ocelot",
+  "identity": {
+    "style_tags": [
+      "speed"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_veracruz_viboras"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_mexico_caribbean_league",
+  "level": 3,
+  "reputation": 2560,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 3,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Veracruz Víboras [FILLER]: invented for the game (neighbours on the Gulf and in the southern mountains)."
+}

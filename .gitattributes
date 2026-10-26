@@ -1,0 +1,19 @@
+# Line endings: text files normalised to LF in the repository; shell scripts must stay LF (they run on Linux
+# servers), Windows checkouts may use CRLF for the rest.
+* text=auto
+*.sh text eol=lf
+*.gd text
+*.csv text
+*.json text
+*.md text
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.ico binary
+*.wav binary
+*.ttf binary
+*.otf binary
+*.pck binary
+*.dmg binary
+*.zip binary

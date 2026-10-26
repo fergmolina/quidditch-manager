@@ -1,0 +1,46 @@
+{
+  "id": "club_jaipur_jugnus",
+  "name": "Jaipur Jugnus",
+  "short_name": "Jugnus",
+  "city": "Jaipur, India",
+  "country_id": "ind",
+  "region_id": "south_asia",
+  "founded": 1924,
+  "colors": {
+    "primary": "#E91E63",
+    "secondary": "#FFEB3B"
+  },
+  "emblem_key": "star",
+  "emblem_desc": "a swarm of fireflies",
+  "identity": {
+    "style_tags": [
+      "showmanship"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_india_league",
+  "level": 3,
+  "reputation": 2320,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 1,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

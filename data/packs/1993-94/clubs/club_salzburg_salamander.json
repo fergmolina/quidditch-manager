@@ -1,0 +1,49 @@
+{
+  "id": "club_salzburg_salamander",
+  "name": "Salzburg Salamander",
+  "short_name": "Salamander",
+  "city": "Salzburgo, Austria",
+  "country_id": "aut",
+  "region_id": "germany",
+  "founded": 1909,
+  "colors": {
+    "primary": "#F9A825",
+    "secondary": "#212121"
+  },
+  "emblem_key": "charm",
+  "emblem_desc": "a salamander in flames",
+  "identity": {
+    "style_tags": [
+      "aggressive"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_wien_windhunde"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_germany_league",
+  "level": 3,
+  "reputation": 2440,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Wien Windhunde [FILLER]: invented for the game (the Austrian derby)."
+}

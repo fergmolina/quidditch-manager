@@ -1,0 +1,49 @@
+{
+  "id": "club_brugge_beren",
+  "name": "Brugge Beren",
+  "short_name": "Beren",
+  "city": "Brujas, Flandes",
+  "country_id": "fla",
+  "region_id": "low_countries",
+  "founded": 1890,
+  "colors": {
+    "primary": "#4E342E",
+    "secondary": "#FFD54F"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a brown bear rearing",
+  "identity": {
+    "style_tags": [
+      "aggressive"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_gent_gnomen"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_low_countries_league",
+  "level": 3,
+  "reputation": 2680,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 4,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Gent Gnomen [FILLER]: invented for the game (the Flemish derby)."
+}

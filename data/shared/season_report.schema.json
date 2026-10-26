@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Season report",
+  "description": "The body GameSession.season_report sends to POST /api/career/season once per finished season. The server builds its validator from this file (server/src/career/report.ts) and tests/run_tests.gd checks the game's output against it. season.minimum is career_rules.json first_season.",
+  "type": "object",
+  "required": ["career_id", "season", "reported_on", "reputation"],
+  "properties": {
+    "career_id": {"type": "string", "pattern": "^[0-9a-f]{16}$"},
+    "season": {"type": "integer", "minimum": 1993, "maximum": 2299},
+    "reported_on": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "reputation": {"type": "integer", "minimum": 0, "maximum": 100000},
+    "mode": {"type": "string", "enum": ["club", "school"], "default": "club"},
+    "club_id": {"type": ["string", "null"], "minLength": 1, "maxLength": 80, "pattern": "^[a-z0-9_]+$"},
+    "club_name": {"type": ["string", "null"], "minLength": 1, "maxLength": 120},
+    "titles": {"type": "integer", "minimum": 0, "maximum": 10000, "default": 0},
+    "seasons": {"type": "integer", "minimum": 0, "maximum": 1000, "default": 0},
+    "game_version": {"type": ["string", "null"], "minLength": 1, "maxLength": 40}
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {"id": "blagging", "who": "any", "sanction": "penalty", "source": "canon_qtta", "example": "PoA 15"},
+  {"id": "blatching", "who": "any", "sanction": "penalty_or_send_off", "source": "canon_qtta", "example": "GoF 8, PM-2014"},
+  {"id": "blurting", "who": "any", "sanction": "penalty", "source": "canon_qtta", "note": "sanction inferred"},
+  {"id": "bumphing", "who": "beater", "sanction": "stop_play_penalty", "source": "canon_qtta", "note": "penalty is FILLER; QTTA only says play is stopped"},
+  {"id": "cobbing", "who": "any", "sanction": "penalty", "source": "canon_qtta", "example": "GoF 8"},
+  {"id": "flacking", "who": "keeper", "sanction": "goal_stands", "source": "canon_qtta", "note": "sanction inferred"},
+  {"id": "haversacking", "who": "chaser", "sanction": "goal_annulled", "source": "canon_qtta", "note": "sanction inferred"},
+  {"id": "quaffle_pocking", "who": "chaser", "sanction": "penalty", "source": "canon_qtta", "note": "penalty is FILLER"},
+  {"id": "snitchnip", "who": "non_seeker", "sanction": "forfeit", "source": "canon_pottermore", "example": "Haiti 2014"},
+  {"id": "stooging", "who": "chaser", "sanction": "goal_annulled", "source": "canon_qtta", "example": "1884"},
+  {"id": "grabbing", "who": "any", "sanction": "penalty", "source": "canon_qtta", "example": "rule 4; PoA 15 Montague"},
+  {"id": "bat_strike", "who": "beater", "sanction": "penalty_if_intentional", "source": "canon_book", "example": "PoA 15 Bole; PM-2014 Santos"},
+  {"id": "keeper_attack", "who": "beater", "sanction": "penalty", "source": "canon_book", "example": "PoA 15; PM-2014 Rice"},
+  {"id": "blocking_seeker", "who": "any", "sanction": "penalty", "source": "canon_book", "example": "PS 11 Flint"}
+]

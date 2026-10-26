@@ -1,0 +1,55 @@
+{
+  "id": "club_wimbourne_wasps",
+  "name": "Wimbourne Wasps",
+  "short_name": "Wasps",
+  "city": "Wimbourne, Dorset (West Country), Inglaterra",
+  "country_id": "eng",
+  "region_id": "british_isles",
+  "founded": 1312,
+  "colors": {
+    "primary": "#F2C200",
+    "secondary": "#1B1B1B"
+  },
+  "emblem_key": "horizontal_stripes_wasp",
+  "identity": {
+    "style_tags": [
+      "physical",
+      "declining"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_appleby_arrows"
+    ],
+    "rivalries_source": "canon",
+    "fan_traits": [
+      "stingers_buzz_on_penalties"
+    ],
+    "mascot": ""
+  },
+  "league_id": "comp_british_irish_league",
+  "level": 2,
+  "reputation": 6800,
+  "finances": {
+    "balance": 7000,
+    "wage_budget_weekly": 260,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 18,
+    "european_cups": 0,
+    "european_cup_semifinals": 2,
+    "notes_keys": [
+      "club.wasps.bagman_three_titles",
+      "club.wasps.wasp_nest_origin"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "Hex [inferred]. Manager to be generated. Finances [filler]. Rivalry with Appleby Arrows: traditional and fierce; the Wasps' emblem dates from a match in which a Wimbourne Beater batted a wasps' nest at the Appleby Seeker [QTTA c7]."
+}

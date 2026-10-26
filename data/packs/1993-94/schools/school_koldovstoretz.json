@@ -1,0 +1,47 @@
+{
+ "_comment": "Koldovstoretz: invented houses [FILLER] (regional folklore); filler students.",
+ "school_id": "school_koldovstoretz",
+ "source": "filler",
+ "house_colors": {
+  "Zhar Ptitsa": {
+   "primary": "#FF8F00",
+   "secondary": "#B71C1C"
+  },
+  "Leshy": {
+   "primary": "#1B5E20",
+   "secondary": "#FFD54F"
+  },
+  "Rusalka": {
+   "primary": "#0277BD",
+   "secondary": "#ECEFF1"
+  },
+  "Zmey": {
+   "primary": "#4A148C",
+   "secondary": "#FFC107"
+  }
+ },
+ "house_info": {
+  "Zhar Ptitsa": {
+   "emblem_desc": "a firebird with a long flaming tail",
+   "inspiration": "Zhar-ptitsa: the firebird of Russian fairy tales.",
+   "source": "filler"
+  },
+  "Leshy": {
+   "emblem_desc": "a horned forest spirit with a beard of moss",
+   "inspiration": "Leshy: Slavic forest guardian.",
+   "source": "filler"
+  },
+  "Rusalka": {
+   "emblem_desc": "a river maiden with long hair rising from the waves",
+   "inspiration": "Rusalka: Slavic river spirit.",
+   "source": "filler"
+  },
+  "Zmey": {
+   "emblem_desc": "a three-headed dragon",
+   "inspiration": "Zmey Gorynych: three-headed dragon of the Russian byliny.",
+   "source": "filler"
+  }
+ },
+ "venue": "Campo de Quidditch de Koldovstoretz",
+ "students": []
+}

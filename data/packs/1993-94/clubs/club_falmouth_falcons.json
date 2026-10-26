@@ -1,0 +1,48 @@
+{
+  "id": "club_falmouth_falcons",
+  "name": "Falmouth Falcons",
+  "short_name": "Falcons",
+  "city": "Falmouth, Cornualles, Inglaterra",
+  "country_id": "eng",
+  "region_id": "british_isles",
+  "founded": 1897,
+  "colors": {
+    "primary": "#4A4F55",
+    "secondary": "#F4F4F0"
+  },
+  "emblem_key": "falcon_head",
+  "identity": {
+    "style_tags": [
+      "violent"
+    ],
+    "motto": "Let us win, but if we cannot win, let us break a few heads",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_british_irish_league",
+  "level": 3,
+  "reputation": 5000,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 500
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": [
+      "club.falcons.broadmoor_brothers",
+      "club.falcons.comet_founders"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "Founding year and titles unknown [inferred]. Hex [inferred]. Manager to be generated. Finances [filler]. Founding year 1897 [FILLER]: not given in the books (respects the limits deduced from canon)."
+}

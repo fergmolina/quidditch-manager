@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 148" width="128" height="148">
+<defs><clipPath id="c"><path d="M64 14 A62 62 0 1 1 63.9 14 Z" fill="#000"/></clipPath><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.25"/><stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.28"/></linearGradient></defs>
+<path d="M64 14 A62 62 0 1 1 63.9 14 Z" fill="#000" transform="translate(3 4)" opacity="0.25"/>
+<path d="M64 14 A62 62 0 1 1 63.9 14 Z" fill="#4B1F6F"/>
+<g clip-path="url(#c)"><circle cx="64" cy="76" r="56" fill="none" stroke="#D9B64B" stroke-width="4"/><polygon points="64.0,36.0 74.6,63.4 103.9,65.0 81.2,83.6 88.7,112.0 64.0,96.1 39.3,112.0 46.8,83.6 24.1,65.0 53.4,63.4" fill="#E3B505" stroke="#E3B505" stroke-width="2" stroke-linejoin="round"/><rect x="0" y="0" width="128" height="148" fill="url(#g)"/></g>
+<path d="M64 14 A62 62 0 1 1 63.9 14 Z" fill="none" stroke="#D9B64B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64 14 A62 62 0 1 1 63.9 14 Z" fill="none" stroke="#D9B64B" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(64 76) scale(0.94) translate(-64 -76)" opacity="0.85"/>
+</svg>

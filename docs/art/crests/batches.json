@@ -1,0 +1,406 @@
+{
+ "comp_africa_league_1": [
+  "club_patonga_proudsticks",
+  "club_tchamba_charmers",
+  "club_gimbi_giant_slayers",
+  "club_sumbawanga_sunrays"
+ ],
+ "comp_africa_league_2": [
+  "club_lagos_lightningbolts",
+  "club_kano_kingfishers",
+  "club_dakar_dune_dancers",
+  "club_cairo_crocodiles"
+ ],
+ "comp_africa_league_3": [
+  "club_blantyre_baobabs",
+  "club_ouagadougou_owls",
+  "club_abidjan_antelopes",
+  "club_n_djamena_nightjars"
+ ],
+ "comp_andes_league_1": [
+  "club_tarapoto_tree_skimmers",
+  "club_cusco_condores",
+  "club_santiago_saetas",
+  "club_valparaiso_vientos"
+ ],
+ "comp_andes_league_2": [
+  "club_la_paz_llamas",
+  "club_quito_quetzales",
+  "club_guayaquil_guacamayos",
+  "club_bogota_brujas"
+ ],
+ "comp_andes_league_3": [
+  "club_medellin_mariposas"
+ ],
+ "comp_argentina_league_1": [
+  "club_buenos_aires_buhos",
+  "club_rosario_relampagos",
+  "club_cordoba_cometas",
+  "club_mendoza_montaneses"
+ ],
+ "comp_argentina_league_2": [
+  "club_la_plata_lobizones",
+  "club_bahia_blanca_ballenas",
+  "club_tucuman_tucanes",
+  "club_mar_del_plata_mareas"
+ ],
+ "comp_argentina_league_3": [
+  "club_posadas_pomberos"
+ ],
+ "comp_brazil_league_1": [
+  "club_rio_redemoinhos",
+  "club_sao_paulo_sacis",
+  "club_salvador_sabias",
+  "club_belo_horizonte_boitatas"
+ ],
+ "comp_brazil_league_2": [
+  "club_porto_alegre_pampeiros",
+  "club_manaus_mapinguaris",
+  "club_recife_raposas",
+  "club_fortaleza_fogueteiros"
+ ],
+ "comp_brazil_league_3": [
+  "club_curitiba_curupiras"
+ ],
+ "comp_canada_league_1": [
+  "club_moose_jaw_meteorites",
+  "club_haileybury_hammers",
+  "club_stonewall_stormers",
+  "club_trois_rivieres_tonnerres"
+ ],
+ "comp_canada_league_2": [
+  "club_vancouver_voyageurs",
+  "club_halifax_hurricanes",
+  "club_calgary_coyotes",
+  "club_yellowknife_yetis"
+ ],
+ "comp_eastern_europe_league_1": [
+  "club_vratsa_vultures",
+  "club_grodzisk_goblins",
+  "club_gorodok_gargoyles",
+  "club_sofia_samodivi"
+ ],
+ "comp_eastern_europe_league_2": [
+  "club_krakow_kruki",
+  "club_wrocaw_wilki",
+  "club_vilnius_vytis",
+  "club_kaunas_kometos"
+ ],
+ "comp_eastern_europe_league_3": [
+  "club_brasov_balauri",
+  "club_bucuresti_bufnite",
+  "club_chisinau_cocostarci"
+ ],
+ "comp_france_league_1": [
+  "club_quiberon_quafflepunchers",
+  "club_paris_phenix",
+  "club_marseille_mistrals",
+  "club_lyon_lutins"
+ ],
+ "comp_france_league_2": [
+  "club_bordeaux_busards",
+  "club_toulouse_tarasques",
+  "club_lille_licornes",
+  "club_nantes_narvals"
+ ],
+ "comp_france_league_3": [
+  "club_strasbourg_sylphes"
+ ],
+ "comp_germany_league_1": [
+  "club_heidelberg_harriers",
+  "club_berlin_blitze",
+  "club_munchen_mondkalber",
+  "club_hamburg_hippogreife"
+ ],
+ "comp_germany_league_2": [
+  "club_koln_kobolde",
+  "club_wien_windhunde",
+  "club_salzburg_salamander",
+  "club_zurich_zentauren"
+ ],
+ "comp_germany_league_3": [
+  "club_vaduz_vipern"
+ ],
+ "comp_iberia_lux_league_1": [
+  "club_braga_broomfleet",
+  "club_bigonville_bombers",
+  "club_madrid_manticoras",
+  "club_barcelona_basiliscos"
+ ],
+ "comp_iberia_lux_league_2": [
+  "club_sevilla_sirenas",
+  "club_valencia_vencejos",
+  "club_bilbao_basajaunak",
+  "club_lisboa_lobisomens"
+ ],
+ "comp_iberia_lux_league_3": [
+  "club_porto_pegasos"
+ ],
+ "comp_india_league_1": [
+  "club_bombay_bulbuls",
+  "club_delhi_dholes",
+  "club_calcutta_cobras",
+  "club_madras_mongooses"
+ ],
+ "comp_india_league_2": [
+  "club_bangalore_banyans",
+  "club_hyderabad_hornbills",
+  "club_jaipur_jugnus",
+  "club_pune_peacocks"
+ ],
+ "comp_japan_league_1": [
+  "club_toyohashi_tengu",
+  "club_tokio_tatsu",
+  "club_osaka_oni",
+  "club_kioto_kitsune"
+ ],
+ "comp_japan_league_2": [
+  "club_nagoya_namazu",
+  "club_sapporo_sagi",
+  "club_kobe_kappa",
+  "club_hiroshima_hoo"
+ ],
+ "comp_japan_league_3": [
+  "club_fukuoka_fujin"
+ ],
+ "comp_mexico_caribbean_league_1": [
+  "club_monterrey_monarcas",
+  "club_toluca_tlaloques",
+  "club_oaxaca_ocelotes",
+  "club_veracruz_viboras"
+ ],
+ "comp_mexico_caribbean_league_2": [
+  "club_cap_haitien_caimans",
+  "club_kingston_krakens",
+  "club_la_habana_huracanes"
+ ],
+ "comp_nordic_league_1": [
+  "club_karasjok_kites",
+  "club_oslo_ormer",
+  "club_bergen_bjrner",
+  "club_stockholm_stormar"
+ ],
+ "comp_nordic_league_2": [
+  "club_goteborg_gripar",
+  "club_kbenhavn_krager",
+  "club_helsinki_haukat",
+  "club_tampere_tontut"
+ ],
+ "comp_nordic_league_3": [
+  "club_reykjavik_risar"
+ ],
+ "comp_oceania_league_1": [
+  "club_thundelarra_thunderers",
+  "club_wollongong_warriors",
+  "club_moutohora_macaws",
+  "club_sydney_sundowners"
+ ],
+ "comp_oceania_league_2": [
+  "club_perth_platypuses",
+  "club_brisbane_bunyips",
+  "club_melbourne_mopokes",
+  "club_auckland_albatrosses"
+ ],
+ "comp_oceania_league_3": [
+  "club_suva_sharks"
+ ],
+ "hs_ilvermorny_1": [
+  "hs_ilvermorny_horned_serpent",
+  "hs_ilvermorny_wampus",
+  "hs_ilvermorny_thunderbird",
+  "hs_ilvermorny_pukwudgie"
+ ],
+ "comp_usa_league_1": [
+  "club_fitchburg_finches",
+  "club_sweetwater_all_stars",
+  "club_boston_banshees",
+  "club_chicago_cyclones"
+ ],
+ "comp_usa_league_2": [
+  "club_new_orleans_nightshades",
+  "club_salem_seekers",
+  "club_denver_dustdevils",
+  "club_seattle_sasquatches"
+ ],
+ "comp_usa_league_3": [
+  "club_philadelphia_phantoms",
+  "club_savannah_swamp_skimmers",
+  "club_new_york_nifflers",
+  "club_los_angeles_luminaries"
+ ],
+ "comp_usa_league_4": [
+  "club_san_francisco_sea_serpents",
+  "club_miami_manatees"
+ ],
+ "orig_club_appleby_arrows": [
+  "club_appleby_arrows"
+ ],
+ "orig_club_ballycastle_bats": [
+  "club_ballycastle_bats"
+ ],
+ "orig_club_caerphilly_catapults": [
+  "club_caerphilly_catapults"
+ ],
+ "orig_club_chudley_cannons": [
+  "club_chudley_cannons"
+ ],
+ "orig_club_falmouth_falcons": [
+  "club_falmouth_falcons"
+ ],
+ "orig_club_holyhead_harpies": [
+  "club_holyhead_harpies"
+ ],
+ "orig_club_kenmare_kestrels": [
+  "club_kenmare_kestrels"
+ ],
+ "orig_club_montrose_magpies": [
+  "club_montrose_magpies"
+ ],
+ "orig_club_pride_of_portree": [
+  "club_pride_of_portree"
+ ],
+ "orig_club_puddlemere_united": [
+  "club_puddlemere_united"
+ ],
+ "orig_club_tutshill_tornados": [
+  "club_tutshill_tornados"
+ ],
+ "orig_club_wigtown_wanderers": [
+  "club_wigtown_wanderers"
+ ],
+ "orig_club_wimbourne_wasps": [
+  "club_wimbourne_wasps"
+ ],
+ "orig_hs_hogwarts_gryffindor": [
+  "hs_hogwarts_gryffindor"
+ ],
+ "orig_hs_hogwarts_hufflepuff": [
+  "hs_hogwarts_hufflepuff"
+ ],
+ "orig_hs_hogwarts_ravenclaw": [
+  "hs_hogwarts_ravenclaw"
+ ],
+ "orig_hs_hogwarts_slytherin": [
+  "hs_hogwarts_slytherin"
+ ],
+ "comp_east_asia_league_1": [
+  "club_beijing_baihu",
+  "club_shanghai_shenlong",
+  "club_chengdu_chang_e",
+  "club_xi_an_xiezhi"
+ ],
+ "comp_east_asia_league_2": [
+  "club_nanjing_nuwa",
+  "club_seoul_samjogo",
+  "club_busan_bulgasari",
+  "club_daegu_dokkaebi"
+ ],
+ "comp_east_asia_league_3": [
+  "club_incheon_imugi"
+ ],
+ "comp_eastern_europe_league_4": [
+  "club_moskva_medvedi",
+  "club_sankt_peterburg_sirini",
+  "club_barnaul_baby_yagi"
+ ],
+ "comp_italy_league_1": [
+  "club_roma_ruggenti",
+  "club_milano_mangiafuoco",
+  "club_napoli_nottole",
+  "club_benevento_befane"
+ ],
+ "comp_italy_league_2": [
+  "club_torino_tori",
+  "club_venezia_viverne",
+  "club_firenze_falchi",
+  "club_messina_morgane"
+ ],
+ "comp_low_countries_league_1": [
+  "club_amsterdam_aalscholvers",
+  "club_rotterdam_reigers",
+  "club_den_haag_heksen",
+  "club_utrecht_uilen"
+ ],
+ "comp_low_countries_league_2": [
+  "club_groningen_griffioenen",
+  "club_antwerpen_arenden",
+  "club_gent_gnomen",
+  "club_brugge_beren"
+ ],
+ "comp_low_countries_league_3": [
+  "club_leuven_leeuwen"
+ ],
+ "comp_central_europe_league_1": [
+  "club_praha_golemove",
+  "club_brno_draci",
+  "club_plzen_plivnici",
+  "club_olomouc_orli"
+ ],
+ "comp_central_europe_league_2": [
+  "club_bratislava_bludicky",
+  "club_kosice_kuvici",
+  "club_budapest_boszorkanyok",
+  "club_debrecen_delibabok"
+ ],
+ "comp_central_europe_league_3": [
+  "club_szeged_sarkanyok"
+ ],
+ "comp_east_asia_league_4": [
+  "club_bangkok_garudas",
+  "club_chiang_mai_chang_phueak"
+ ],
+ "hs_beauxbatons_1": [
+  "hs_beauxbatons_abraxan",
+  "hs_beauxbatons_vouivre",
+  "hs_beauxbatons_melusine",
+  "hs_beauxbatons_tarasque"
+ ],
+ "hs_castelobruxo_1": [
+  "hs_castelobruxo_caipora",
+  "hs_castelobruxo_iara",
+  "hs_castelobruxo_uirapuru",
+  "hs_castelobruxo_boto"
+ ],
+ "hs_durmstrang_1": [
+  "hs_durmstrang_lindworm",
+  "hs_durmstrang_huldra",
+  "hs_durmstrang_jotunn",
+  "hs_durmstrang_sleipnir"
+ ],
+ "hs_kapadokya_1": [
+  "hs_kapadokya_zumruduanka",
+  "hs_kapadokya_sahmeran",
+  "hs_kapadokya_tepegoz",
+  "hs_kapadokya_ejder"
+ ],
+ "hs_koldovstoretz_1": [
+  "hs_koldovstoretz_zhar_ptitsa",
+  "hs_koldovstoretz_leshy",
+  "hs_koldovstoretz_rusalka",
+  "hs_koldovstoretz_zmey"
+ ],
+ "hs_mahoutokoro_1": [
+  "hs_mahoutokoro_kirin",
+  "hs_mahoutokoro_tengu",
+  "hs_mahoutokoro_kitsune",
+  "hs_mahoutokoro_ryu"
+ ],
+ "hs_nilgiri_1": [
+  "hs_nilgiri_yali",
+  "hs_nilgiri_makara",
+  "hs_nilgiri_airavata",
+  "hs_nilgiri_naga"
+ ],
+ "hs_uagadou_1": [
+  "hs_uagadou_impundulu",
+  "hs_uagadou_ninki_nanka",
+  "hs_uagadou_anansi",
+  "hs_uagadou_kongamato"
+ ],
+ "hs_wollemi_1": [
+  "hs_wollemi_yowie",
+  "hs_wollemi_min_min",
+  "hs_wollemi_thylacine",
+  "hs_wollemi_lyrebird"
+ ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "club_buenos_aires_buhos",
+  "name": "Buenos Aires Búhos",
+  "short_name": "Búhos",
+  "city": "Buenos Aires, Argentina",
+  "country_id": "arg",
+  "region_id": "argentina",
+  "founded": 1872,
+  "colors": {
+    "primary": "#0D47A1",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "harrier_hawk",
+  "emblem_desc": "a barn owl",
+  "identity": {
+    "style_tags": [
+      "clever"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_rosario_relampagos"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_argentina_league",
+  "level": 2,
+  "reputation": 5640,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 12,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Rosario Relámpagos [FILLER]: invented for the game (the league's two most successful clubs)."
+}

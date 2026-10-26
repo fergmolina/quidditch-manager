@@ -1,0 +1,49 @@
+{
+  "id": "club_veracruz_viboras",
+  "name": "Veracruz Víboras",
+  "short_name": "Víboras",
+  "city": "Veracruz, México",
+  "country_id": "mex",
+  "region_id": "mexico_caribbean",
+  "founded": 1924,
+  "colors": {
+    "primary": "#1B5E20",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a viper",
+  "identity": {
+    "style_tags": [
+      "aggressive"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_oaxaca_ocelotes"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_mexico_caribbean_league",
+  "level": 3,
+  "reputation": 2440,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Oaxaca Ocelotes [FILLER]: invented for the game (neighbours on the Gulf and in the southern mountains)."
+}

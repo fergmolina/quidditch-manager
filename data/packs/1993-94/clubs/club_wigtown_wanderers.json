@@ -1,0 +1,49 @@
+{
+  "id": "club_wigtown_wanderers",
+  "name": "Wigtown Wanderers",
+  "short_name": "Wanderers",
+  "city": "Wigtown, Galloway, Escocia",
+  "country_id": "sco",
+  "region_id": "british_isles",
+  "founded": 1422,
+  "colors": {
+    "primary": "#7A0A0A",
+    "secondary": "#BFC5CB"
+  },
+  "emblem_key": "meat_cleaver",
+  "identity": {
+    "style_tags": [
+      "physical",
+      "family_club"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_british_irish_league",
+  "level": 3,
+  "reputation": 5200,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 500
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": [
+      "club.wanderers.parkin_family",
+      "club.wanderers.whisp_fan"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "There must be a Parkin in the squad (generated) [FILLER guided by canon]. Hex [inferred]. Manager to be generated. Finances [filler]."
+}

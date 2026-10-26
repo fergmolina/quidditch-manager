@@ -1,0 +1,51 @@
+{
+  "id": "club_chudley_cannons",
+  "name": "Chudley Cannons",
+  "short_name": "Cannons",
+  "city": "Chudley, Inglaterra",
+  "country_id": "eng",
+  "region_id": "british_isles",
+  "founded": 0,
+  "colors": {
+    "primary": "#F07F13",
+    "secondary": "#1B1B1B"
+  },
+  "emblem_key": "cannonball_double_c",
+  "identity": {
+    "style_tags": [
+      "hapless"
+    ],
+    "motto": "Let's all just keep our fingers crossed and hope for the best",
+    "rivalries": [],
+    "fan_traits": [
+      "loyal_sufferers"
+    ],
+    "mascot": ""
+  },
+  "league_id": "comp_british_irish_league",
+  "level": 3,
+  "reputation": 4800,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 500
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "Ragmar Dorkins",
+  "history": {
+    "league_titles": 21,
+    "european_cups": 0,
+    "last_league_title": 1892,
+    "notes_keys": [
+      "club.cannons.motto_1972",
+      "club.cannons.ron_weasley_fan"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "Founding member of the league (1674); the film's 'Est. 1753' is not used. Hex [inferred]. Finances [filler]. Founding year not given in the books: the club is older than the League (1674), which it joined as one of the 13 teams [QTTA c7]; left blank (0) so no invented year is shown."
+}

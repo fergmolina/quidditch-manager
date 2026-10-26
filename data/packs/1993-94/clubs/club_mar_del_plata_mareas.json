@@ -1,0 +1,49 @@
+{
+  "id": "club_mar_del_plata_mareas",
+  "name": "Mar del Plata Mareas",
+  "short_name": "Mareas",
+  "city": "Mar del Plata, Argentina",
+  "country_id": "arg",
+  "region_id": "argentina",
+  "founded": 1888,
+  "colors": {
+    "primary": "#0277BD",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "storm",
+  "emblem_desc": "rolling Atlantic tides with a sea lion",
+  "identity": {
+    "style_tags": [
+      "balanced"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_bahia_blanca_ballenas"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_argentina_league",
+  "level": 2,
+  "reputation": 4920,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 6,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Bahía Blanca Ballenas [FILLER]: invented for the game (the Atlantic coast derby)."
+}

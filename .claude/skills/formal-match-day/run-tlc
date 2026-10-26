@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+# run-tlc: model-checks the match-day stepper model (MatchDay.tla through MC.tla) with TLC.
+# Usage: run-tlc [config]      config = default (the code as it is) | no-job-change-on-open-day | bug-drop-half-day |
+#                                       bug-no-resume | bug-no-second-human-fixture | bug-keep-foreign-pending (see cfgs/*.cfg)
+# Needs Java 17+; downloads tla2tools.jar 1.8.0 once (SHA-256 pinned) into .verify/tla/. TLC's state files and
+# the log go to .verify/tla/runs/. Exit code: 0 when every invariant holds, non-zero otherwise (TLC's own code).
+set -euo pipefail
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd "$HERE/../../.." && pwd)"
+# No argument: the two configs that describe the code as it is, with their expected outcomes.
+if [ $# -eq 0 ]; then
+	rc=0
+	echo "== no-job-change-on-open-day (expected PASS)"; "$0" no-job-change-on-open-day || rc=$?
+	echo "== default (expected PASS)"; "$0" default || rc=$?
+	exit "$rc"
+fi
+CFG="$1"
+CFG_FILE="$HERE/cfgs/$CFG.cfg"
+[ -f "$CFG_FILE" ] || { echo "run-tlc: no config '$CFG' (have: $(ls "$HERE/cfgs" | sed 's/\.cfg$//' | tr '\n' ' '))" >&2; exit 2; }
+
+TLA_DIR="$ROOT/.verify/tla"
+JAR="$TLA_DIR/tla2tools-1.8.0.jar"
+JAR_URL="https://github.com/tlaplus/tlaplus/releases/download/v1.8.0/tla2tools.jar"
+JAR_SHA256="d15655eeaff4b3f7b3d65c46b838bc0f35d131b2ef4b1e473689b62c98d4726f"
+mkdir -p "$TLA_DIR/runs"
+
+# Java: $JAVA, then macOS java_home, then the Homebrew openjdk kegs, then PATH.
+find_java() {
+	if [ -n "${JAVA:-}" ]; then echo "$JAVA"; return; fi
+	local jh
+	if jh="$(/usr/libexec/java_home 2>/dev/null)" && [ -x "$jh/bin/java" ]; then echo "$jh/bin/java"; return; fi
+	local k
+	for k in /opt/homebrew/opt/openjdk /opt/homebrew/opt/openjdk@21 /opt/homebrew/opt/openjdk@17 /usr/local/opt/openjdk /usr/local/opt/openjdk@17; do
+		[ -x "$k/bin/java" ] && { echo "$k/bin/java"; return; }
+	done
+	if command -v java >/dev/null 2>&1 && java -version >/dev/null 2>&1; then command -v java; return; fi
+	echo ""
+}
+JAVA_BIN="$(find_java)"
+[ -n "$JAVA_BIN" ] || { echo "run-tlc: no Java runtime found. Install one (brew install openjdk@17) or set JAVA=/path/to/java" >&2; exit 2; }
+
+sha256() { shasum -a 256 "$1" 2>/dev/null | cut -d' ' -f1 || sha256sum "$1" | cut -d' ' -f1; }
+if [ ! -f "$JAR" ] || [ "$(sha256 "$JAR")" != "$JAR_SHA256" ]; then
+	echo "run-tlc: downloading tla2tools.jar 1.8.0"
+	curl -fsSL -o "$JAR.tmp" "$JAR_URL"
+	[ "$(sha256 "$JAR.tmp")" = "$JAR_SHA256" ] || { rm -f "$JAR.tmp"; echo "run-tlc: checksum mismatch for tla2tools.jar; not using it" >&2; exit 2; }
+	mv "$JAR.tmp" "$JAR"
+fi
+
+STAMP="$(date +%Y%m%d-%H%M%S)"
+LOG="$TLA_DIR/runs/$STAMP-$CFG.log"
+echo "run-tlc: config $CFG, java $("$JAVA_BIN" -version 2>&1 | head -1), log $LOG"
+# TLC writes trace-exploration files next to the spec: run on a copy in .verify/tla/work so the skill folder stays clean.
+WORK="$TLA_DIR/work"
+mkdir -p "$WORK"
+cp "$HERE/MatchDay.tla" "$HERE/MC.tla" "$WORK/"
+rc=0
+(cd "$WORK" && "$JAVA_BIN" -XX:+UseParallelGC -cp "$JAR" tlc2.TLC -workers auto -config "$CFG_FILE" \
+	-metadir "$TLA_DIR/runs/$STAMP-$CFG.states" -cleanup MC.tla) >"$LOG" 2>&1 || rc=$?
+rm -rf "$TLA_DIR/runs/$STAMP-$CFG.states"
+if grep -q "Model checking completed. No error has been found." "$LOG"; then
+	echo "PASS  every invariant holds in every reachable state: $(grep -m1 'distinct states found' "$LOG")"
+elif grep -q "Invariant .* is violated" "$LOG"; then
+	echo "FAIL  $(grep -m1 'Invariant .* is violated' "$LOG")"
+	echo "      counterexample (shortest path) in $LOG; read it with the pstack statechart skill"
+else
+	echo "ERROR TLC did not finish (exit $rc); see $LOG"; tail -20 "$LOG"
+fi
+exit "$rc"

@@ -1,0 +1,49 @@
+{
+  "id": "club_nagoya_namazu",
+  "name": "Nagoya Namazu",
+  "short_name": "Namazu",
+  "city": "Nagoya, Japón",
+  "country_id": "jpn",
+  "region_id": "japan",
+  "founded": 1908,
+  "colors": {
+    "primary": "#37474F",
+    "secondary": "#4FC3F7"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a giant catfish",
+  "identity": {
+    "style_tags": [
+      "physical"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_toyohashi_tengu"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_japan_league",
+  "level": 3,
+  "reputation": 2440,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Toyohashi Tengu [FILLER]: invented for the game (the Aichi derby)."
+}

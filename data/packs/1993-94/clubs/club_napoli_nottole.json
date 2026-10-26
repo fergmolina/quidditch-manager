@@ -1,0 +1,49 @@
+{
+  "id": "club_napoli_nottole",
+  "name": "Napoli Nottole",
+  "short_name": "Nottole",
+  "city": "Nápoles, Italia",
+  "country_id": "ita",
+  "region_id": "italy",
+  "founded": 1890,
+  "colors": {
+    "primary": "#1E88E5",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a noctule bat over a smoking volcano",
+  "identity": {
+    "style_tags": [
+      "flair"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_benevento_befane"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_italy_league",
+  "level": 2,
+  "reputation": 4920,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 6,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Benevento Befane [FILLER]: invented for the game (the Campania derby)."
+}

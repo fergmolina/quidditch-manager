@@ -1,0 +1,51 @@
+{
+  "id": "club_montrose_magpies",
+  "name": "Montrose Magpies",
+  "short_name": "Magpies",
+  "city": "Montrose, Angus, Escocia",
+  "country_id": "sco",
+  "region_id": "british_isles",
+  "founded": 1283,
+  "colors": {
+    "primary": "#F4F4F0",
+    "secondary": "#1B1B1B"
+  },
+  "emblem_key": "magpie",
+  "identity": {
+    "style_tags": [
+      "balanced",
+      "experienced"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [
+      "worldwide_following"
+    ],
+    "mascot": ""
+  },
+  "league_id": "comp_british_irish_league",
+  "level": 1,
+  "reputation": 9400,
+  "finances": {
+    "balance": 15000,
+    "wage_budget_weekly": 450,
+    "transfer_budget": 4000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 4,
+    "broom_workshop": 4
+  },
+  "constraints": {},
+  "manager_name": "Cormack McLeod",
+  "history": {
+    "league_titles": 32,
+    "european_cups": 2,
+    "notes_keys": [
+      "club.magpies.most_successful",
+      "club.magpies.mcgonagall_fan"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "Founding year unknown in canon. Color hex [inferred]. Finances and facilities [filler]. Founding year 1283 [FILLER]: not given in the books (respects the limits deduced from canon)."
+}

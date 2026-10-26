@@ -1,0 +1,49 @@
+{
+  "id": "club_boston_banshees",
+  "name": "Boston Banshees",
+  "short_name": "Banshees",
+  "city": "Boston, Estados Unidos",
+  "country_id": "usa",
+  "region_id": "usa",
+  "founded": 1875,
+  "colors": {
+    "primary": "#2E7D32",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "charm",
+  "emblem_desc": "a wailing banshee",
+  "identity": {
+    "style_tags": [
+      "fierce"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_new_york_nifflers"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_usa_league",
+  "level": 2,
+  "reputation": 5040,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 7,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with New York Nifflers [FILLER]: invented for the game (the East Coast derby)."
+}

@@ -1,0 +1,49 @@
+{
+  "id": "club_bangalore_banyans",
+  "name": "Bangalore Banyans",
+  "short_name": "Banyans",
+  "city": "Bangalore, India",
+  "country_id": "ind",
+  "region_id": "south_asia",
+  "founded": 1912,
+  "colors": {
+    "primary": "#33691E",
+    "secondary": "#FFB300"
+  },
+  "emblem_key": "tree",
+  "emblem_desc": "a banyan tree",
+  "identity": {
+    "style_tags": [
+      "resilient"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_madras_mongooses"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_india_league",
+  "level": 3,
+  "reputation": 2440,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Madras Mongooses [FILLER]: invented for the game (the southern derby)."
+}

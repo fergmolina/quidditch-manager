@@ -1,0 +1,47 @@
+{
+ "_comment": "Mahoutokoro: invented houses [FILLER] (regional folklore); filler students.",
+ "school_id": "school_mahoutokoro",
+ "source": "filler",
+ "house_colors": {
+  "Kirin": {
+   "primary": "#FFD54F",
+   "secondary": "#8E1B1B"
+  },
+  "Tengu": {
+   "primary": "#C62828",
+   "secondary": "#212121"
+  },
+  "Kitsune": {
+   "primary": "#F5F5F5",
+   "secondary": "#FF8F00"
+  },
+  "Ryu": {
+   "primary": "#00695C",
+   "secondary": "#FFD54F"
+  }
+ },
+ "house_info": {
+  "Kirin": {
+   "emblem_desc": "a kirin, a scaly hoofed beast with a single horn and flames at its legs",
+   "inspiration": "Kirin: benevolent beast of Japanese folklore.",
+   "source": "filler"
+  },
+  "Tengu": {
+   "emblem_desc": "a long-nosed tengu mask with feathers",
+   "inspiration": "Tengu: mountain spirit, master of martial arts.",
+   "source": "filler"
+  },
+  "Kitsune": {
+   "emblem_desc": "a white fox with nine tails",
+   "inspiration": "Kitsune: nine-tailed magical fox.",
+   "source": "filler"
+  },
+  "Ryu": {
+   "emblem_desc": "an eastern dragon coiled around a pearl",
+   "inspiration": "Ryū: Japanese water dragon (jade, like the Mahoutokoro palace [PM]).",
+   "source": "filler"
+  }
+ },
+ "venue": "Campo de Quidditch de Mahoutokoro",
+ "students": []
+}

@@ -1,0 +1,413 @@
+{
+  "_comment": "Events from the books (docs/design/07 §canon events; switch settings.book_events). Each entry has source and notes; scores not explicit in the books are marked [inferred]. Kinds: fixture_result, wc_final, broom, graduate_to, no_school_cup, ban, retire, captain, cup_champion, position (a player's main position changes; the old one keeps its familiarity). graduate_to may carry a position too. If the human manager runs one of the event's teams, that match is actually played and not written. Optional news_key: a news.book.* text (headline, line break, body; {player} and {house}) published in the Prophet and sent as an owl when the event touches the manager's house.",
+  "events": [
+    {
+      "date": "1993-11-06",
+      "kind": "fixture_result",
+      "competition_prefix": "comp_school_hogwarts_1993",
+      "home": "hs_hogwarts_gryffindor",
+      "away": "hs_hogwarts_hufflepuff",
+      "score_home": 50,
+      "score_away": 150,
+      "snitch_team": "hs_hogwarts_hufflepuff",
+      "catcher": "student_cedric_diggory",
+      "duration_min": 25,
+      "source": "PoA 9",
+      "notes": "Harry falls because of the dementors; Diggory catches the snitch; Hufflepuff wins by 100 points [PoA 9]. Exact score [inferred]."
+    },
+    {
+      "date": "1993-11-07",
+      "kind": "broom",
+      "player_id": "student_harry_potter",
+      "model_id": "broom_shooting_star",
+      "source": "PoA 9",
+      "notes": "The Nimbus 2000 is smashed by the Whomping Willow; Harry trains on a school broom. The news text fits any result of the 6 November match, which the manager may have played instead of the written one.",
+      "news_key": "news.book.nimbus_smashed"
+    },
+    {
+      "date": "1994-02-01",
+      "kind": "broom",
+      "player_id": "student_harry_potter",
+      "model_id": "broom_firebolt",
+      "source": "PoA 11, 13",
+      "notes": "Firebolt (Sirius's Christmas present), returned by McGonagall before the match against Ravenclaw. Date [inferred].",
+      "news_key": "news.book.firebolt"
+    },
+    {
+      "date": "1994-02-12",
+      "kind": "fixture_result",
+      "competition_prefix": "comp_school_hogwarts_1993",
+      "home": "hs_hogwarts_gryffindor",
+      "away": "hs_hogwarts_ravenclaw",
+      "score_home": 230,
+      "score_away": 30,
+      "snitch_team": "hs_hogwarts_gryffindor",
+      "catcher": "student_harry_potter",
+      "duration_min": 40,
+      "source": "PoA 13",
+      "notes": "Harry catches the snitch on the Firebolt after the fake dementors. Score [inferred]; date [inferred: February 1994]."
+    },
+    {
+      "date": "1994-05-21",
+      "kind": "fixture_result",
+      "competition_prefix": "comp_school_hogwarts_1993",
+      "home": "hs_hogwarts_gryffindor",
+      "away": "hs_hogwarts_slytherin",
+      "score_home": 230,
+      "score_away": 20,
+      "snitch_team": "hs_hogwarts_gryffindor",
+      "catcher": "student_harry_potter",
+      "duration_min": 45,
+      "source": "PoA 15",
+      "notes": "Final: Gryffindor 230–20 Slytherin, Harry catches the snitch; Gryffindor wins the cup after seven years [PoA 15]. Date [inferred]."
+    },
+    {
+      "date": "1994-07-01",
+      "kind": "graduate_to",
+      "season": 1993,
+      "player_id": "student_oliver_wood",
+      "club_id": "club_puddlemere_united",
+      "squad": "reserve",
+      "source": "GoF 7",
+      "notes": "Wood signs for the Puddlemere United reserve team."
+    },
+    {
+      "date": "1994-07-01",
+      "kind": "cup_champion",
+      "season": 1993,
+      "school_id": "school_hogwarts",
+      "champion": "hs_hogwarts_gryffindor",
+      "source": "PoA 15",
+      "notes": "Gryffindor wins the 1993-94 Quidditch Cup. If the simulated table does not match, the champion is set anyway [game]."
+    },
+    {
+      "date": "1994-08-22",
+      "kind": "wc_final",
+      "competition_id": "comp_world_cup_1994_final",
+      "home": "nt_irl",
+      "away": "nt_bul",
+      "score_home": 170,
+      "score_away": 160,
+      "snitch_team": "nt_bul",
+      "catcher_last_name": "Krum",
+      "duration_min": 35,
+      "source": "GoF 8",
+      "notes": "1994 World Cup final: Ireland 170–160 Bulgaria; Krum catches the snitch while losing [GoF 8]. Duration [inferred]. If the earlier stage did not bring Ireland and Bulgaria to the final, they are forced [game]."
+    },
+    {
+      "date": "1994-09-01",
+      "kind": "no_school_cup",
+      "season": 1994,
+      "school_id": "school_hogwarts",
+      "source": "GoF 12",
+      "notes": "No Quidditch Cup in 1994-95 because of the Triwizard Tournament."
+    },
+    {
+      "date": "1995-06-24",
+      "kind": "retire",
+      "player_ids": [
+        "student_cedric_diggory"
+      ],
+      "news_key": "news.book.cedric",
+      "source": "GoF 31-35",
+      "notes": "Cedric Diggory is killed at the end of the Triwizard Tournament (24 June 1995)."
+    },
+    {
+      "date": "1995-09-01",
+      "kind": "captain",
+      "player_id": "student_angelina_johnson",
+      "source": "OotP 12",
+      "notes": "Angelina Johnson, Gryffindor captain.",
+      "news_key": "news.book.captain"
+    },
+    {
+      "date": "1995-08-31",
+      "kind": "broom",
+      "player_id": "student_ron_weasley",
+      "model_id": "broom_cleansweep_eleven",
+      "source": "OotP 9",
+      "notes": "Ron's first broom of his own, a present from his parents for being made prefect [OotP 9]. Date [inferred: last days of August 1995]."
+    },
+    {
+      "date": "1995-09-01",
+      "kind": "captain",
+      "player_id": "student_graham_montague",
+      "source": "OotP 19",
+      "notes": "Graham Montague, Slytherin captain in 1995-96 (shakes hands with Angelina before the match) [OotP 19].",
+      "news_key": "news.book.captain"
+    },
+    {
+      "date": "1995-11-04",
+      "kind": "fixture_result",
+      "competition_prefix": "comp_school_hogwarts_1995",
+      "home": "hs_hogwarts_gryffindor",
+      "away": "hs_hogwarts_slytherin",
+      "score_home": 160,
+      "score_away": 40,
+      "snitch_team": "hs_hogwarts_gryffindor",
+      "catcher": "student_harry_potter",
+      "duration_min": 30,
+      "source": "OotP 19",
+      "notes": "Harry catches the snitch (Weasley Is Our King). Score [inferred]; date [inferred]."
+    },
+    {
+      "date": "1995-11-05",
+      "kind": "ban",
+      "player_ids": [
+        "student_harry_potter",
+        "student_fred_weasley",
+        "student_george_weasley"
+      ],
+      "until": "1996-06-30",
+      "source": "OotP 19, 30",
+      "notes": "Umbridge bans Harry, Fred and George for life after the first match of the season, Gryffindor–Slytherin, in November 1995 [OotP 19]; lifted when Umbridge leaves Hogwarts. Exact date [inferred].",
+      "news_key": "news.book.umbridge_ban"
+    },
+    {
+      "date": "1996-02-24",
+      "kind": "fixture_result",
+      "competition_prefix": "comp_school_hogwarts_1995",
+      "home": "hs_hogwarts_gryffindor",
+      "away": "hs_hogwarts_hufflepuff",
+      "score_home": 230,
+      "score_away": 240,
+      "snitch_team": "hs_hogwarts_gryffindor",
+      "catcher": "student_ginny_weasley",
+      "duration_min": 50,
+      "source": "OotP 26",
+      "notes": "Ginny catches the snitch but Gryffindor loses by ten points [OotP 26]. Score and date [inferred]."
+    },
+    {
+      "date": "1996-04-20",
+      "kind": "retire",
+      "player_ids": [
+        "student_fred_weasley",
+        "student_george_weasley"
+      ],
+      "source": "OotP 29",
+      "notes": "Fred and George leave Hogwarts (Weasleys' Wizard Wheezes).",
+      "news_key": "news.book.weasleys_leave"
+    },
+    {
+      "date": "1996-05-25",
+      "kind": "fixture_result",
+      "competition_prefix": "comp_school_hogwarts_1995",
+      "home": "hs_hogwarts_gryffindor",
+      "away": "hs_hogwarts_ravenclaw",
+      "score_home": 250,
+      "score_away": 60,
+      "snitch_team": "hs_hogwarts_gryffindor",
+      "catcher": "student_ginny_weasley",
+      "duration_min": 40,
+      "source": "OotP 30",
+      "notes": "Gryffindor wins the cup with Ginny as Seeker and Ron as Keeper. Score and date [inferred]."
+    },
+    {
+      "date": "1996-07-01",
+      "kind": "cup_champion",
+      "season": 1995,
+      "school_id": "school_hogwarts",
+      "champion": "hs_hogwarts_gryffindor",
+      "source": "OotP 30",
+      "notes": "Gryffindor wins the 1995-96 cup."
+    },
+    {
+      "date": "1996-09-01",
+      "kind": "captain",
+      "player_id": "student_harry_potter",
+      "source": "HBP 6",
+      "notes": "Harry Potter, Gryffindor captain: the captain's badge comes with his Hogwarts letter [HBP 6].",
+      "news_key": "news.book.captain"
+    },
+    {
+      "date": "1996-08-31",
+      "kind": "position",
+      "player_id": "student_ginny_weasley",
+      "position": "C",
+      "source": "HBP 11",
+      "notes": "Ginny moves to Chaser in 1996-97 with Harry back as Seeker [HBP 11]; she stays a Chaser at the Holyhead Harpies [JKR]. Keeps her Seeker familiarity. Date [inferred: the eve of term, so the 1 September tryouts count her as a Chaser]."
+    },
+    {
+      "date": "1996-09-01",
+      "kind": "captain",
+      "player_id": "student_urquhart",
+      "source": "HBP 14",
+      "notes": "Urquhart, Slytherin captain in 1996-97 [HBP 14]. No news item: canon gives no first name."
+    },
+    {
+      "date": "1996-11-14",
+      "kind": "ban",
+      "player_ids": [
+        "student_draco_malfoy"
+      ],
+      "until": "1996-11-16",
+      "source": "HBP 14",
+      "notes": "Malfoy misses the Gryffindor-Slytherin match of November 1996, claiming to be ill, and the substitute Harper plays Seeker [HBP 14]. Modelled as a short absence (no news); a house without another Seeker holds tryouts for the place. Dates [inferred]."
+    },
+    {
+      "date": "1996-11-16",
+      "kind": "fixture_result",
+      "competition_prefix": "comp_school_hogwarts_1996",
+      "home": "hs_hogwarts_gryffindor",
+      "away": "hs_hogwarts_slytherin",
+      "score_home": 250,
+      "score_away": 0,
+      "snitch_team": "hs_hogwarts_gryffindor",
+      "catcher": "student_harry_potter",
+      "duration_min": 30,
+      "source": "HBP 14",
+      "notes": "Gryffindor 250–0 Slytherin, with Ron inspired by the fake Felix Felicis [HBP 14]. Date and duration [inferred]."
+    },
+    {
+      "date": "1997-03-08",
+      "kind": "fixture_result",
+      "competition_prefix": "comp_school_hogwarts_1996",
+      "home": "hs_hogwarts_gryffindor",
+      "away": "hs_hogwarts_hufflepuff",
+      "score_home": 60,
+      "score_away": 320,
+      "snitch_team": "hs_hogwarts_hufflepuff",
+      "catcher": "",
+      "duration_min": 60,
+      "source": "HBP 19",
+      "notes": "Hufflepuff 320–60: Harry is knocked out by McLaggen's bludger [HBP 19]. Date [inferred]."
+    },
+    {
+      "date": "1997-05-24",
+      "kind": "fixture_result",
+      "competition_prefix": "comp_school_hogwarts_1996",
+      "home": "hs_hogwarts_gryffindor",
+      "away": "hs_hogwarts_ravenclaw",
+      "score_home": 450,
+      "score_away": 140,
+      "snitch_team": "hs_hogwarts_gryffindor",
+      "catcher": "student_ginny_weasley",
+      "duration_min": 90,
+      "source": "HBP 24",
+      "notes": "Gryffindor 450–140 Ravenclaw: wins the cup without Harry (in detention); Ginny catches the snitch [HBP 24]. Date and duration [inferred]."
+    },
+    {
+      "date": "1997-07-01",
+      "kind": "cup_champion",
+      "season": 1996,
+      "school_id": "school_hogwarts",
+      "champion": "hs_hogwarts_gryffindor",
+      "source": "HBP 24",
+      "notes": "Gryffindor wins the 1996-97 cup [HBP 24]."
+    },
+    {
+      "date": "1997-09-01",
+      "kind": "retire",
+      "player_ids": [
+        "student_harry_potter",
+        "student_ron_weasley"
+      ],
+      "source": "DH",
+      "notes": "Harry and Ron do not return to Hogwarts in 1997-98; Harry will become an Auror [Pottermore].",
+      "news_key": "news.book.harry_ron_leave"
+    },
+    {
+      "date": "1997-09-01",
+      "kind": "no_school_cup",
+      "season": 1997,
+      "school_id": "school_hogwarts",
+      "source": "DH",
+      "notes": "Hogwarts under Death Eater control in 1997-98: the books mention no Quidditch that year and it ends with the Battle of Hogwarts [inferred: no Cup]."
+    },
+    {
+      "date": "1998-05-02",
+      "kind": "retire",
+      "player_ids": [
+        "student_vincent_crabbe"
+      ],
+      "source": "DH 31",
+      "notes": "Vincent Crabbe dies in the Fiendfyre he cast in the Room of Requirement during the Battle of Hogwarts, 2 May 1998 [DH 31]. No news item (the game's Prophet does not cover the battle)."
+    },
+    {
+      "date": "1998-08-22",
+      "kind": "wc_final",
+      "competition_id": "comp_world_cup_1998_final",
+      "home": "nt_mwi",
+      "away": "nt_sen",
+      "score_home": 260,
+      "score_away": 180,
+      "snitch_team": "nt_mwi",
+      "catcher": "",
+      "catcher_last_name": "",
+      "duration_min": 40,
+      "source": "Pottermore",
+      "notes": "1998 World Cup final, Malawi 260–180 Senegal [PM-WC]. Snitch catcher team, date and duration [inferred]."
+    },
+    {
+      "date": "1999-07-01",
+      "kind": "graduate_to",
+      "season": 1998,
+      "player_id": "student_ginny_weasley",
+      "club_id": "club_holyhead_harpies",
+      "squad": "first",
+      "position": "C",
+      "source": "Pottermore",
+      "notes": "Ginny Weasley plays for the Holyhead Harpies after Hogwarts, as a Chaser [JKR; docs/research/02-quidditch.md, Holyhead Harpies]."
+    },
+    {
+      "date": "2002-08-22",
+      "kind": "wc_final",
+      "competition_id": "comp_world_cup_2002_final",
+      "home": "nt_egy",
+      "away": "nt_bul",
+      "score_home": 450,
+      "score_away": 300,
+      "snitch_team": "nt_egy",
+      "catcher": "",
+      "catcher_last_name": "Zaghloul",
+      "duration_min": 40,
+      "source": "Pottermore",
+      "notes": "2002 World Cup final, Egypt 450–300 Bulgaria; Zaghloul catches the snitch [PM-WC]. Date and duration [inferred]."
+    },
+    {
+      "date": "2006-08-22",
+      "kind": "wc_final",
+      "competition_id": "comp_world_cup_2006_final",
+      "home": "nt_bfa",
+      "away": "nt_fra",
+      "score_home": 300,
+      "score_away": 220,
+      "snitch_team": "nt_bfa",
+      "catcher": "",
+      "catcher_last_name": "",
+      "duration_min": 40,
+      "source": "Pottermore",
+      "notes": "2006 World Cup final, Burkina Faso 300–220 France [PM-WC]. Snitch catcher team, date and duration [inferred]."
+    },
+    {
+      "date": "2010-08-22",
+      "kind": "wc_final",
+      "competition_id": "comp_world_cup_2010_final",
+      "home": "nt_mda",
+      "away": "nt_chn",
+      "score_home": 750,
+      "score_away": 640,
+      "snitch_team": "nt_mda",
+      "catcher": "",
+      "catcher_last_name": "",
+      "duration_min": 4320,
+      "source": "Pottermore",
+      "notes": "2010 World Cup final, Moldova 750–640 China, a three-day match [PM-WC]. Snitch catcher team and date [inferred]."
+    },
+    {
+      "date": "2014-08-22",
+      "kind": "wc_final",
+      "competition_id": "comp_world_cup_2014_final",
+      "home": "nt_bul",
+      "away": "nt_bra",
+      "score_home": 170,
+      "score_away": 60,
+      "snitch_team": "nt_bul",
+      "catcher": "",
+      "catcher_last_name": "Krum",
+      "duration_min": 165,
+      "source": "Pottermore",
+      "notes": "2014 World Cup final, Bulgaria 170–60 Brazil in 2 h 45 min; Krum catches the snitch [PM-2014]. Date [inferred]."
+    }
+  ]
+}

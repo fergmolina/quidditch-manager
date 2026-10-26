@@ -1,0 +1,46 @@
+{
+  "id": "club_hyderabad_hornbills",
+  "name": "Hyderabad Hornbills",
+  "short_name": "Hornbills",
+  "city": "Hyderabad, India",
+  "country_id": "ind",
+  "region_id": "south_asia",
+  "founded": 1909,
+  "colors": {
+    "primary": "#212121",
+    "secondary": "#FF6F00"
+  },
+  "emblem_key": "macaw",
+  "emblem_desc": "a great hornbill",
+  "identity": {
+    "style_tags": [
+      "balanced"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_india_league",
+  "level": 3,
+  "reputation": 2680,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 4,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

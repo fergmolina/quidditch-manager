@@ -1,0 +1,49 @@
+{
+  "id": "club_marseille_mistrals",
+  "name": "Marseille Mistrals",
+  "short_name": "Mistrals",
+  "city": "Marsella, Francia",
+  "country_id": "fra",
+  "region_id": "france",
+  "founded": 1879,
+  "colors": {
+    "primary": "#00ACC1",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "storm",
+  "emblem_desc": "the Mistral wind blowing over waves",
+  "identity": {
+    "style_tags": [
+      "attacking"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_paris_phenix"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_france_league",
+  "level": 2,
+  "reputation": 5160,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 8,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Paris Phénix [FILLER]: invented for the game (the capital against the Mediterranean, the two most successful clubs after Quiberon)."
+}

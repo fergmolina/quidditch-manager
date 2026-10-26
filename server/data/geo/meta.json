@@ -1,0 +1,29 @@
+{
+  "source": "GeoNames (https://www.geonames.org)",
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+  "files": {
+    "admin1": {
+      "url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+      "lastModified": "Wed, 21 Oct 2026 01:48:15 GMT"
+    },
+    "cities": {
+      "url": "https://download.geonames.org/export/dump/cities5000.zip",
+      "lastModified": "Wed, 21 Oct 2026 01:48:15 GMT"
+    }
+  },
+  "counts": {
+    "countriesWithRegions": 228,
+    "regions": 3865,
+    "countriesWithCities": 245,
+    "cities": 69905
+  },
+  "cityRow": [
+    "geonameid",
+    "name",
+    "admin1",
+    "lat",
+    "lon",
+    "population",
+    "asciiname (only when it differs from the folded name)"
+  ]
+}

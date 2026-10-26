@@ -1,0 +1,49 @@
+{
+  "id": "club_moose_jaw_meteorites",
+  "name": "Moose Jaw Meteorites",
+  "short_name": "Meteorites",
+  "city": "Moose Jaw, Saskatchewan, Canadá",
+  "country_id": "can",
+  "region_id": "canada",
+  "founded": 1912,
+  "colors": {
+    "primary": "#B71C1C",
+    "secondary": "#FFD54F"
+  },
+  "emblem_key": "meteor",
+  "identity": {
+    "style_tags": [
+      "showmanship",
+      "celebrations"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_stonewall_stormers"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_canada_league",
+  "level": 1,
+  "reputation": 8500,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 4,
+    "broom_workshop": 3
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "canon_qtta",
+  "notes": "Nearly disbanded in the 70s for their spark-shooting celebratory flights over towns; now a tourist attraction [QTTA c8]. Color hex, level, reputation, finances and facilities [inferred/filler]. Founding year 1912 [FILLER]: not given in the books (respects the limits deduced from canon). Rivalry with Stonewall Stormers [FILLER]: invented for the game (the prairie derby, Saskatchewan against Manitoba)."
+}

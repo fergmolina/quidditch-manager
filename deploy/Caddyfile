@@ -1,0 +1,149 @@
+# =====================================================================================================================
+# Caddy for Quidditch Manager (deploy/compose.yml, service `caddy`). Plain HTTP on :8080: TLS ends at Cloudflare and
+# the only way in is the tunnel (cloudflared → http://caddy:8080) or 127.0.0.1 on the host.
+#
+#   /play/, /play/index.html   the game's HTML entry page. Gated: forward_auth asks the api (/api/gate) and passes
+#                              its 302 (to /login or /register) through to the browser; on 200 the page is served
+#                              from /srv/web/current/index.html with Cache-Control: private, no-store.
+#   /play/r/<version>/*        the release's engine and data (index.js, .wasm, .pck, worklets, icons), straight
+#                              from /srv/web/releases/<version>/. A version's files never change, so they are
+#                              cached for a year as immutable. update.sh writes <base href="/play/r/<version>/">
+#                              into the HTML, so every relative URL the Godot loader uses lands here.
+#   /play/<file>               unversioned fallback (an HTML page without the <base>): served from the current
+#                              release with no-cache, revalidated by ETag. Not gated: the export archives are public
+#                              on GitHub Releases anyway (soft gate, design §0).
+#   everything else            reverse_proxy to the api: /, /login, /register, /account*, /auth/*, /api/*,
+#                              /privacy, /terms, /static/*, /healthz, and the api's own localized 404 page. The api
+#                              sets its own security headers, CSP and cache headers; nothing here overrides them.
+#
+# Validate: docker run --rm -v "$PWD/deploy:/etc/qm-deploy:ro" caddy:2.11.7-alpine \
+#             caddy validate --config /etc/qm-deploy/Caddyfile --adapter caddyfile
+# Reload after a change: ./deploy/update.sh --target caddy
+# =====================================================================================================================
+{
+	admin localhost:2019
+	auto_https off
+	persist_config off
+	servers {
+		timeouts {
+			read_header 10s
+			idle 2m
+		}
+	}
+}
+
+# Security headers for the /play/ pages and files (the api sets its own on everything it serves).
+#
+# Content-Security-Policy for /play/ — a deliberate, temporary compromise:
+#   - Godot 4.7's default HTML shell starts the engine from an INLINE <script> and has an inline <style>, and the
+#     game calls JavaScriptBridge.eval() (Platform.pick_file), which is a JS eval(). A strict policy
+#     (script-src 'self') would stop the game from starting.
+#   - So the ENFORCED policy below allows 'unsafe-inline' and 'unsafe-eval', but only on /play/*: the account pages,
+#     the login and every form keep the api's strict CSP (no inline, no eval). The game page shows no user-supplied
+#     content and loads nothing from other origins, which keeps the XSS surface that 'unsafe-inline' opens small.
+#   - The strict TARGET policy is sent at the same time as Content-Security-Policy-Report-Only, so the browser
+#     console lists exactly what still violates it (there is no report endpoint: nothing is collected).
+#   - TODO(WP4, Godot step): ship the custom shell web_shell/qm_shell.html (engine start in an external shell.js,
+#     no inline style) and replace JavaScriptBridge.eval with JavaScriptBridge.get_interface(...). Once the
+#     Report-Only policy shows no violations in Chrome, Firefox and Safari, make it the enforced one and drop
+#     'unsafe-inline'/'unsafe-eval'.
+#   - base-uri is 'self' (not 'none' as on the api pages) because update.sh injects <base href="/play/r/<v>/">.
+#   - No COOP/COEP-for-isolation: the export is single-threaded and needs no SharedArrayBuffer (design §10.5).
+(play_headers) {
+	header {
+		-Server
+		Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; media-src 'self' data: blob:; connect-src 'self'; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+		Content-Security-Policy-Report-Only "default-src 'none'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; media-src 'self' blob:; connect-src 'self'; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Referrer-Policy strict-origin-when-cross-origin
+		Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+		Cross-Origin-Opener-Policy same-origin
+		Cross-Origin-Resource-Policy same-origin
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Robots-Tag "noindex, nofollow"
+	}
+}
+
+:8080 {
+	header -Server
+	encode zstd gzip
+
+	redir /play /play/ 308
+
+	# The four /play/ matchers are disjoint, so the order of the handle blocks below does not matter.
+	@playHtml path /play/ /play/index.html
+	@playReleaseHtml path_regexp ^/play/r/[^/]+/(index\.html)?$
+	@playRelease {
+		path /play/r/*
+		not path_regexp ^/play/r/[^/]+/(index\.html)?$
+	}
+	@playOther {
+		path /play/*
+		not path /play/ /play/index.html /play/r/*
+	}
+
+	# 1. The HTML entry page, behind the account gate.
+	handle @playHtml {
+		forward_auth api:8080 {
+			uri /api/gate
+		}
+		import play_headers
+		# Deferred (>) so it replaces, not duplicates, the Cache-Control of the gate's own redirect.
+		header >Cache-Control "private, no-store"
+		header Vary Cookie
+		root * /srv/web/current
+		@noRelease not file /index.html
+		handle @noRelease {
+			# Only before the first deploy (update.sh has not installed a release yet). No body: no strings to
+			# translate; the operator sees it in the smoke test.
+			header Retry-After 300
+			respond 503
+		}
+		rewrite * /index.html
+		file_server {
+			precompressed br gzip
+		}
+	}
+
+	# 2. A release's own HTML would skip the gate: send it to the gated entry page instead.
+	handle @playReleaseHtml {
+		redir * /play/ 302
+	}
+
+	# 3. Versioned release files: immutable for a year (Cloudflare caches them too; see the README cache rules).
+	handle @playRelease {
+		import play_headers
+		header Cache-Control "public, max-age=31536000, immutable"
+		@pck path *.pck
+		header @pck Content-Type application/octet-stream
+		uri strip_prefix /play/r
+		root * /srv/web/releases
+		file_server {
+			hide .*
+			precompressed br gzip
+		}
+	}
+
+	# 4. Unversioned fallback from the current release: revalidated on every load (ETag / Last-Modified).
+	handle @playOther {
+		import play_headers
+		header Cache-Control "public, no-cache"
+		@pckOther path *.pck
+		header @pckOther Content-Type application/octet-stream
+		uri strip_prefix /play
+		root * /srv/web/current
+		file_server {
+			hide .*
+			precompressed br gzip
+		}
+	}
+
+	# 5. Everything else is the accounts api (it renders the localized 404 page for unknown paths too).
+	handle {
+		request_body {
+			max_size 64KB
+		}
+		reverse_proxy api:8080
+	}
+}

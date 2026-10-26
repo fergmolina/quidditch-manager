@@ -1,0 +1,69 @@
+{
+  "id": "comp_british_irish_league",
+  "name": "British and Irish Quidditch League",
+  "type": "league",
+  "region_id": "british_isles",
+  "country_ids": [
+    "eng",
+    "sco",
+    "wal",
+    "nir",
+    "irl"
+  ],
+  "level": 1,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 8,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_montrose_magpies",
+    "club_ballycastle_bats",
+    "club_puddlemere_united",
+    "club_tutshill_tornados",
+    "club_caerphilly_catapults",
+    "club_wimbourne_wasps",
+    "club_holyhead_harpies",
+    "club_kenmare_kestrels",
+    "club_pride_of_portree",
+    "club_appleby_arrows",
+    "club_wigtown_wanderers",
+    "club_falmouth_falcons",
+    "club_chudley_cannons"
+  ],
+  "venues": [
+    "venue.bodmin_moor",
+    "venue.exmoor",
+    "venue.ilkley_moor",
+    "venue.yorkshire_moors",
+    "venue.ellis_moor"
+  ],
+  "prizes": {
+    "galleons_champion": 5000,
+    "galleons_per_position_step": 250,
+    "awards": [
+      "award_dangerous_dai_medal",
+      "award_josef_wronski"
+    ]
+  },
+  "founded": 1674,
+  "trophy": "League Cup",
+  "source": "canon_qtta",
+  "notes": "13 fixed clubs since 1674, annual League Cup, table by points scored [QTTA c7, DP]. Double round-robin, August-June calendar and match days [FILLER-inference]. Tiebreakers [FILLER]. Prizes in galleons [filler]. Josef Wronski Award [Prop].",
+  "filler_clubs": 0
+}

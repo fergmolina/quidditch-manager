@@ -1,0 +1,199 @@
+[
+  {
+    "key": "news.filler.witch_weekly.1",
+    "from": 1993,
+    "to": 1994,
+    "source": "canon+filler",
+    "notes": "Lockhart: five-time winner of Witch Weekly's Most-Charming-Smile Award [CS]; in St Mungo's from June 1993 [CS, OotP]. Shortlist framing [FILLER]."
+  },
+  {
+    "key": "news.filler.witch_weekly.2",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Reader poll joke."
+  },
+  {
+    "key": "news.filler.witch_weekly.3",
+    "from": 1993,
+    "to": 1994,
+    "source": "filler",
+    "notes": "[FILLER] Rita Skeeter column; gated to her canon working period before June 1995 (GoF). No later fact about her is stated."
+  },
+  {
+    "key": "news.filler.witch_weekly.4",
+    "from": 1993,
+    "to": 1994,
+    "source": "filler",
+    "notes": "[FILLER] Rita Skeeter gossip; canon period only."
+  },
+  {
+    "key": "news.filler.witch_weekly.5",
+    "from": 1994,
+    "to": 1994,
+    "months": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "canon+filler",
+    "notes": "Rita covered the 1994 World Cup [GoF]; the Top Box is canon [GoF 8]. The piece itself is [FILLER]."
+  },
+  {
+    "key": "news.filler.witch_weekly.6",
+    "from": 1995,
+    "to": 1995,
+    "months": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "canon+filler",
+    "notes": "Rita Skeeter's Witch Weekly piece 'Harry Potter's Secret Heartache', March 1995, says Krum is smitten with a Hogwarts girl [GoF 27]; this Krum-centred headline is a [FILLER] rewording. Shown before her June 1995 exposure; the Animagus matter is never mentioned."
+  },
+  {
+    "key": "news.filler.witch_weekly.7",
+    "from": 1994,
+    "to": 1999,
+    "source": "canon+filler",
+    "notes": "Krum: Bulgaria's Seeker; graceful in the air, duck-footed and round-shouldered on the ground [GoF 8, 16]. Poll [FILLER]."
+  },
+  {
+    "key": "news.filler.witch_weekly.8",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Annual reader poll."
+  },
+  {
+    "key": "news.filler.witch_weekly.9",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Celestina Warbeck is canon (singer; recorded Puddlemere's anthem [QTTA/WW]); this concert is invented."
+  },
+  {
+    "key": "news.filler.witch_weekly.10",
+    "from": 1995,
+    "to": 1995,
+    "months": [
+      1,
+      2,
+      3
+    ],
+    "source": "canon+filler",
+    "notes": "The Weird Sisters played the Yule Ball, 25 Dec 1994 [GoF 23]; their Quidditch wish is [FILLER]."
+  },
+  {
+    "key": "news.filler.witch_weekly.11",
+    "from": 1995,
+    "source": "filler",
+    "notes": "[FILLER] The band has a bagpiper (Gideon Crumb) [WW]; the confession is invented."
+  },
+  {
+    "key": "news.filler.witch_weekly.12",
+    "from": 1994,
+    "to": 1998,
+    "source": "canon",
+    "notes": "Lockhart in St Mungo's, still signing photographs for visitors [OotP 23]."
+  },
+  {
+    "key": "news.filler.witch_weekly.13",
+    "from": 1994,
+    "to": 1996,
+    "source": "filler",
+    "notes": "[FILLER] Lockhart-free era joke."
+  },
+  {
+    "key": "news.filler.witch_weekly.14",
+    "from": 1994,
+    "source": "filler",
+    "notes": "[FILLER] 150 mph = the Firebolt's canon top acceleration [PoA 4]."
+  },
+  {
+    "key": "news.filler.witch_weekly.15",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Magazine quiz."
+  },
+  {
+    "key": "news.filler.witch_weekly.16",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Recipe item; the Harpies are canon (witches only)."
+  },
+  {
+    "key": "news.filler.witch_weekly.17",
+    "from": 1996,
+    "to": 1999,
+    "source": "canon+filler",
+    "notes": "Gwenog Jones captains the Holyhead Harpies in 1996 [HBP 4]; the photo shoot is [FILLER]."
+  },
+  {
+    "key": "news.filler.witch_weekly.18",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Magazine list item."
+  },
+  {
+    "key": "news.filler.witch_weekly.19",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Society item."
+  },
+  {
+    "key": "news.filler.witch_weekly.20",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Fashion poll; Cannons' orange robes are canon [QTTA 7]."
+  },
+  {
+    "key": "news.filler.witch_weekly.21",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Gossip joke."
+  },
+  {
+    "key": "news.filler.witch_weekly.22",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Beauty tips."
+  },
+  {
+    "key": "news.filler.witch_weekly.23",
+    "from": 2014,
+    "to": 2014,
+    "months": [
+      7,
+      8
+    ],
+    "source": "canon+filler",
+    "notes": "2014 World Cup in the Patagonian Desert [PM-2014]; the fashion report is [FILLER]."
+  },
+  {
+    "key": "news.filler.witch_weekly.24",
+    "from": 1995,
+    "source": "filler",
+    "notes": "[FILLER] Award shortlist; no winner is named."
+  },
+  {
+    "key": "news.filler.witch_weekly.25",
+    "from": 1994,
+    "to": 1994,
+    "months": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "canon+filler",
+    "notes": "Lynch hit the ground after Krum's Wronski Feint in the 1994 final [GoF 8]; the flowers are [FILLER]."
+  },
+  {
+    "key": "news.filler.witch_weekly.26",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Readers' question."
+  }
+]

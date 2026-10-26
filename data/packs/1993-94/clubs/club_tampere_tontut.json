@@ -1,0 +1,49 @@
+{
+  "id": "club_tampere_tontut",
+  "name": "Tampere Tontut",
+  "short_name": "Tontut",
+  "city": "Tampere, Finlandia",
+  "country_id": "fin",
+  "region_id": "nordic",
+  "founded": 1923,
+  "colors": {
+    "primary": "#C62828",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "goblin",
+  "emblem_desc": "a tonttu gnome with a red cap",
+  "identity": {
+    "style_tags": [
+      "flair"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_helsinki_haukat"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_nordic_league",
+  "level": 3,
+  "reputation": 2320,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 1,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Helsinki Haukat [FILLER]: invented for the game (the Finnish derby)."
+}

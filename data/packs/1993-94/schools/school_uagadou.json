@@ -1,0 +1,47 @@
+{
+ "_comment": "Uagadou: invented houses [FILLER] (regional folklore); filler students.",
+ "school_id": "school_uagadou",
+ "source": "filler",
+ "house_colors": {
+  "Impundulu": {
+   "primary": "#1565C0",
+   "secondary": "#FFEB3B"
+  },
+  "Ninki Nanka": {
+   "primary": "#1B5E20",
+   "secondary": "#FFC107"
+  },
+  "Anansi": {
+   "primary": "#3E2723",
+   "secondary": "#F4B400"
+  },
+  "Kongamato": {
+   "primary": "#B71C1C",
+   "secondary": "#F5F5F5"
+  }
+ },
+ "house_info": {
+  "Impundulu": {
+   "emblem_desc": "a bird whose wings are lightning bolts",
+   "inspiration": "Impundulu: lightning bird of Zulu and Xhosa folklore.",
+   "source": "filler"
+  },
+  "Ninki Nanka": {
+   "emblem_desc": "a horned swamp dragon",
+   "inspiration": "Ninki Nanka: swamp dragon of West Africa.",
+   "source": "filler"
+  },
+  "Anansi": {
+   "emblem_desc": "a spider sitting in its web",
+   "inspiration": "Anansi: the cunning spider of Ashanti tales.",
+   "source": "filler"
+  },
+  "Kongamato": {
+   "emblem_desc": "a leathery-winged flying beast with a long toothed beak",
+   "inspiration": "Kongamato: 'boat-breaker', flying creature of Zambian tales.",
+   "source": "filler"
+  }
+ },
+ "venue": "Campo de Quidditch de Uagadou",
+ "students": []
+}

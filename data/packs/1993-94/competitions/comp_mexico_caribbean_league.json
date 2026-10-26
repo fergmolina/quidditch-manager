@@ -1,0 +1,58 @@
+{
+  "id": "comp_mexico_caribbean_league",
+  "name": "Liga de México y el Caribe",
+  "name_en": "Mexico and Caribbean League",
+  "type": "league",
+  "region_id": "mexico_caribbean",
+  "country_ids": [
+    "mex",
+    "hti",
+    "jam",
+    "cub"
+  ],
+  "level": 3,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_monterrey_monarcas",
+    "club_toluca_tlaloques",
+    "club_oaxaca_ocelotes",
+    "club_veracruz_viboras",
+    "club_cap_haitien_caimans",
+    "club_kingston_krakens",
+    "club_la_habana_huracanes"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.sonoran_desert",
+    "venue.sierra_tarahumara",
+    "venue.massif_de_la_selle",
+    "venue.cockpit_country",
+    "venue.zapata_swamp"
+  ],
+  "prizes": {
+    "galleons_champion": 2200,
+    "galleons_per_position_step": 110,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "New Spain finalist in 1809 [PM-WC]; Haiti and Jamaica in the round of 16 in 2014 [PM-2014]; clubs [FILLER]. Format copied from the British league [FILLER]; venues [FILLER]; prizes [filler]."
+}

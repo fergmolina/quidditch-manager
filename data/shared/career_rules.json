@@ -1,0 +1,8 @@
+{
+  "_comment": "Career numbers the game (src/game/career.gd) and the accounts server (server/src/career/report.ts) both enforce. first_season: the first season a career can report. reputation: the manager's reputation range. start_reputation: the range a new manager starts in (0.18 x club reputation, clamped). max_gain_per_season and max_titles_per_season bound a plausible season report on the server (a season gives about +2,100 at most: title, objective, every cup, a World Cup, monthly awards).",
+  "first_season": 1993,
+  "reputation": {"min": 200, "max": 5000},
+  "start_reputation": {"min": 350, "max": 1700},
+  "max_gain_per_season": 2500,
+  "max_titles_per_season": 6
+}

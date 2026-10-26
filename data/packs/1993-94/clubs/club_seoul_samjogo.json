@@ -1,0 +1,49 @@
+{
+  "id": "club_seoul_samjogo",
+  "name": "Seoul Samjogo",
+  "short_name": "Samjogo",
+  "city": "Seúl, Corea del Sur",
+  "country_id": "kor",
+  "region_id": "east_asia",
+  "founded": 1904,
+  "colors": {
+    "primary": "#212121",
+    "secondary": "#E53935"
+  },
+  "emblem_key": "sunray",
+  "emblem_desc": "a three-legged crow inside a red sun",
+  "identity": {
+    "style_tags": [
+      "speed"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_busan_bulgasari"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_east_asia_league",
+  "level": 2,
+  "reputation": 4920,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 6,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Busan Bulgasari [FILLER]: invented for the game (the Korean derby)."
+}

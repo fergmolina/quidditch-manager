@@ -1,0 +1,49 @@
+{
+  "id": "club_valparaiso_vientos",
+  "name": "Valparaíso Vientos",
+  "short_name": "Vientos",
+  "city": "Valparaíso, Chile",
+  "country_id": "chl",
+  "region_id": "andes",
+  "founded": 1907,
+  "colors": {
+    "primary": "#00838F",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "storm",
+  "emblem_desc": "curling sea winds",
+  "identity": {
+    "style_tags": [
+      "flair"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_santiago_saetas"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_andes_league",
+  "level": 2,
+  "reputation": 4560,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 3,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Santiago Saetas [FILLER]: invented for the game (the Chilean derby: the capital against the port)."
+}

@@ -1,0 +1,1062 @@
+{
+  "teams": [
+    {
+      "id": "nt_bul",
+      "country_id": "bul",
+      "name": "Bulgaria",
+      "name_en": "Bulgaria",
+      "tier": "elite",
+      "mascot": "veelas",
+      "colors": {
+        "primary": "#C8102E",
+        "secondary": "#F5F5F5"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [
+        {
+          "first_name": "",
+          "last_name": "Dimitrov",
+          "position": "C",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": "Canon does not give the first name. Date [inferred].",
+          "look": {
+            "skin": "medium",
+            "hair": "black",
+            "hair_style": "curly",
+            "eyes": "dark",
+            "look_source": "[FILLER] features not described in the books"
+          }
+        },
+        {
+          "first_name": "",
+          "last_name": "Ivanova",
+          "gender": "f",
+          "position": "C",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": "Canon does not give the first name. Gender [inferred] from the feminine form of the surname (Ivanova, not Ivanov). Date [inferred].",
+          "look": {
+            "skin": "light",
+            "hair": "dark_brown",
+            "hair_style": "long",
+            "eyes": "brown",
+            "look_source": "[FILLER] features not described in the books"
+          }
+        },
+        {
+          "first_name": "",
+          "last_name": "Levski",
+          "position": "C",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": "Canon does not give the first name. Date [inferred].",
+          "look": {
+            "skin": "medium",
+            "hair": "black",
+            "hair_style": "side",
+            "eyes": "dark",
+            "brows": "thick",
+            "look_source": "[FILLER] features not described in the books"
+          }
+        },
+        {
+          "first_name": "",
+          "last_name": "Volkov",
+          "position": "B",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": "Canon does not give the first name. Date [inferred].",
+          "look": {
+            "skin": "medium",
+            "hair": "black",
+            "hair_style": "buzz",
+            "eyes": "dark",
+            "beard": true,
+            "look_source": "[FILLER] features not described in the books"
+          }
+        },
+        {
+          "first_name": "",
+          "last_name": "Vulchanov",
+          "position": "B",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": "Canon does not give the first name. Date [inferred]."
+        },
+        {
+          "first_name": "",
+          "last_name": "Zograf",
+          "position": "K",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": "Canon does not give the first name. Date [inferred].",
+          "look": {
+            "skin": "light",
+            "hair": "dark_brown",
+            "hair_style": "short",
+            "eyes": "brown",
+            "look_source": "[FILLER] features not described in the books"
+          }
+        },
+        {
+          "first_name": "Viktor",
+          "last_name": "Krum",
+          "position": "S",
+          "birth_date": "1976-04-01",
+          "birth_date_estimated": true,
+          "notes": "Born in 1976 [GoF 7: 18 years old in 1994]",
+          "look": {
+            "skin": "medium",
+            "hair": "black",
+            "hair_style": "buzz",
+            "eyes": "dark",
+            "brows": "thick",
+            "glasses": false,
+            "beard": false,
+            "freckles": false
+          }
+        }
+      ],
+      "canon_seven_until": "1994-08-22",
+      "qualified_1994": true,
+      "source": "canon_book",
+      "notes": "1994 finalist [GoF 8]; veelas; 12 Eastern championships in a row [Film Wizardry]. Krum b. 1976. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]. canon_seven_until: the canon_roster_1994 players are the seven that plays until the 1994 final [GoF 8]."
+    },
+    {
+      "id": "nt_irl",
+      "country_id": "irl",
+      "name": "Irlanda",
+      "name_en": "Ireland",
+      "tier": "elite",
+      "mascot": "leprechauns",
+      "colors": {
+        "primary": "#169B62",
+        "secondary": "#C0C0C0"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [
+        {
+          "first_name": "",
+          "last_name": "Troy",
+          "position": "C",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": "Canon does not give the first name. Date [inferred].",
+          "look": {
+            "skin": "light",
+            "hair": "auburn",
+            "hair_style": "wavy",
+            "eyes": "green",
+            "look_source": "[FILLER] features not described in the books"
+          }
+        },
+        {
+          "first_name": "",
+          "last_name": "Mullet",
+          "position": "C",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": "Canon does not give the first name. Date [inferred].",
+          "look": {
+            "skin": "light",
+            "hair": "blond",
+            "hair_style": "back",
+            "eyes": "grey",
+            "look_source": "[FILLER] features not described in the books"
+          }
+        },
+        {
+          "first_name": "",
+          "last_name": "Moran",
+          "position": "C",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": "Canon does not give the first name. Date [inferred].",
+          "look": {
+            "skin": "light",
+            "hair": "light_brown",
+            "hair_style": "long",
+            "eyes": "blue",
+            "look_source": "[FILLER] features not described in the books"
+          }
+        },
+        {
+          "first_name": "",
+          "last_name": "Connolly",
+          "position": "B",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": "Canon does not give the first name. Date [inferred].",
+          "look": {
+            "skin": "light",
+            "hair": "black",
+            "hair_style": "short",
+            "eyes": "blue",
+            "look_source": "[FILLER] features not described in the books"
+          }
+        },
+        {
+          "first_name": "",
+          "last_name": "Quigley",
+          "position": "B",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": "Canon does not give the first name. Date [inferred]."
+        },
+        {
+          "first_name": "Barry",
+          "last_name": "Ryan",
+          "position": "K",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": " Date [inferred].",
+          "look": {
+            "skin": "light",
+            "hair": "dark_brown",
+            "hair_style": "side",
+            "eyes": "blue",
+            "look_source": "[FILLER] features not described in the books"
+          }
+        },
+        {
+          "first_name": "Aidan",
+          "last_name": "Lynch",
+          "position": "S",
+          "birth_date": "1968-06-15",
+          "birth_date_estimated": true,
+          "notes": " Date [inferred].",
+          "look": {
+            "skin": "light",
+            "hair": "red",
+            "hair_style": "short",
+            "eyes": "blue",
+            "freckles": true,
+            "look_source": "[FILLER] features not described in the books"
+          }
+        }
+      ],
+      "canon_seven_until": "1994-08-22",
+      "qualified_1994": true,
+      "source": "canon_book",
+      "notes": "1994 champions in canon (170-160) [GoF 8]; Firebolts; leprechauns. Barry Ryan is the Keeper [GoF 8]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]. canon_seven_until: the canon_roster_1994 players are the seven that plays until the 1994 final [GoF 8]."
+    },
+    {
+      "id": "nt_bra",
+      "country_id": "bra",
+      "name": "Brasil",
+      "name_en": "Brazil",
+      "tier": "elite",
+      "mascot": "curupiras",
+      "colors": {
+        "primary": "#009C3B",
+        "secondary": "#FFDF00"
+      },
+      "world_cup_titles": 5,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "5 World Cups according to Bagman [PM-2014]; world_cup_titles is kept at 5 even though the editions are not in canon. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_per",
+      "country_id": "per",
+      "name": "Perú",
+      "name_en": "Peru",
+      "tier": "elite",
+      "mascot": "",
+      "colors": {
+        "primary": "#D91023",
+        "secondary": "#FFFFFF"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": true,
+      "source": "canon_book",
+      "notes": "'The most skilled nation in South America' [QTTA c8]; 1994 semi-finalist [GoF 5]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_tra",
+      "country_id": "tra",
+      "name": "Transilvania",
+      "name_en": "Transylvania",
+      "tier": "elite",
+      "mascot": "",
+      "colors": {
+        "primary": "#2B1B3D",
+        "secondary": "#B0A080"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": true,
+      "source": "canon_book",
+      "notes": "1473 final [QTTA c8]; 390-10 against England in 1994 [GoF 5]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_can",
+      "country_id": "can",
+      "name": "Canadá",
+      "name_en": "Canada",
+      "tier": "strong",
+      "mascot": "",
+      "colors": {
+        "primary": "#FF0000",
+        "secondary": "#FFFFFF"
+      },
+      "world_cup_titles": 1,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "1990 champions (270-240 over Scotland) [PM-WC]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_aus",
+      "country_id": "aus",
+      "name": "Australia",
+      "name_en": "Australia",
+      "tier": "strong",
+      "mascot": "",
+      "colors": {
+        "primary": "#00843D",
+        "secondary": "#FFCD00"
+      },
+      "world_cup_titles": 1,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "1966 champions [PM-WC]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_mda",
+      "country_id": "mda",
+      "name": "Moldavia",
+      "name_en": "Moldova",
+      "tier": "strong",
+      "mascot": "",
+      "colors": {
+        "primary": "#0046AE",
+        "secondary": "#FFD200"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "2010 champions (later) [PM-WC]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_egy",
+      "country_id": "egy",
+      "name": "Egipto",
+      "name_en": "Egypt",
+      "tier": "strong",
+      "mascot": "",
+      "colors": {
+        "primary": "#CE1126",
+        "secondary": "#000000"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "2002 champions (later) [PM-WC]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_nga",
+      "country_id": "nga",
+      "name": "Nigeria",
+      "name_en": "Nigeria",
+      "tier": "strong",
+      "mascot": "sasabonsams",
+      "colors": {
+        "primary": "#008751",
+        "secondary": "#FFFFFF"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_nor",
+      "country_id": "nor",
+      "name": "Noruega",
+      "name_en": "Norway",
+      "tier": "strong",
+      "mascot": "troles",
+      "colors": {
+        "primary": "#BA0C2F",
+        "secondary": "#00205B"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_jpn",
+      "country_id": "jpn",
+      "name": "Japón",
+      "name_en": "Japan",
+      "tier": "strong",
+      "mascot": "",
+      "colors": {
+        "primary": "#FFFFFF",
+        "secondary": "#BC002D"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_uga",
+      "country_id": "uga",
+      "name": "Uganda",
+      "name_en": "Uganda",
+      "tier": "strong",
+      "mascot": "",
+      "colors": {
+        "primary": "#FCDC04",
+        "secondary": "#000000"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": true,
+      "source": "canon_book",
+      "notes": "Beat Wales in 1994 [GoF 5]; Patonga provides 6 players [QTTA c8]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_lux",
+      "country_id": "lux",
+      "name": "Luxemburgo",
+      "name_en": "Luxembourg",
+      "tier": "strong",
+      "mascot": "",
+      "colors": {
+        "primary": "#00A1DE",
+        "secondary": "#ED2939"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": true,
+      "source": "canon_book",
+      "notes": "'Massacred' Scotland in 1994 [GoF 5]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_sco",
+      "country_id": "sco",
+      "name": "Escocia",
+      "name_en": "Scotland",
+      "tier": "strong",
+      "mascot": "",
+      "colors": {
+        "primary": "#0065BF",
+        "secondary": "#FFFFFF"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": true,
+      "source": "canon_book",
+      "notes": "1990 finalist [PM-WC]; 'massacred' by Luxembourg in 1994 [GoF 5]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_mwi",
+      "country_id": "mwi",
+      "name": "Malaui",
+      "name_en": "Malawi",
+      "tier": "strong",
+      "mascot": "",
+      "colors": {
+        "primary": "#CE1126",
+        "secondary": "#000000"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "1998 champions (later) [PM-WC]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_wal",
+      "country_id": "wal",
+      "name": "Gales",
+      "name_en": "Wales",
+      "tier": "mid",
+      "mascot": "",
+      "colors": {
+        "primary": "#C8102E",
+        "secondary": "#FFFFFF"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": true,
+      "source": "canon_book",
+      "notes": "Lost to Uganda in 1994 [GoF 5]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_usa",
+      "country_id": "usa",
+      "name": "Estados Unidos",
+      "name_en": "United States",
+      "tier": "mid",
+      "mascot": "",
+      "colors": {
+        "primary": "#3C3B6E",
+        "secondary": "#B22234"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_fra",
+      "country_id": "fra",
+      "name": "Francia",
+      "name_en": "France",
+      "tier": "mid",
+      "mascot": "",
+      "colors": {
+        "primary": "#0055A4",
+        "secondary": "#EF4135"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_deu",
+      "country_id": "deu",
+      "name": "Alemania",
+      "name_en": "Germany",
+      "tier": "mid",
+      "mascot": "",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#DD0000"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_syr",
+      "country_id": "syr",
+      "name": "Siria",
+      "name_en": "Syria",
+      "tier": "mid",
+      "mascot": "",
+      "colors": {
+        "primary": "#CE1126",
+        "secondary": "#007A3D"
+      },
+      "world_cup_titles": 1,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "1974 champions vs Madagascar [PM-WC]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_sen",
+      "country_id": "sen",
+      "name": "Senegal",
+      "name_en": "Senegal",
+      "tier": "mid",
+      "mascot": "yumboes",
+      "colors": {
+        "primary": "#00853F",
+        "secondary": "#FDEF42"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_bfa",
+      "country_id": "bfa",
+      "name": "Burkina Faso",
+      "name_en": "Burkina Faso",
+      "tier": "mid",
+      "mascot": "",
+      "colors": {
+        "primary": "#EF2B2D",
+        "secondary": "#009E49"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "2006 champions (later) [PM-WC]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_chn",
+      "country_id": "chn",
+      "name": "China",
+      "name_en": "China",
+      "tier": "mid",
+      "mascot": "",
+      "colors": {
+        "primary": "#DE2910",
+        "secondary": "#FFDE00"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_pol",
+      "country_id": "pol",
+      "name": "Polonia",
+      "name_en": "Poland",
+      "tier": "mid",
+      "mascot": "",
+      "colors": {
+        "primary": "#DC143C",
+        "secondary": "#FFFFFF"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_nzl",
+      "country_id": "nzl",
+      "name": "Nueva Zelanda",
+      "name_en": "New Zealand",
+      "tier": "mid",
+      "mascot": "",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#C0C0C0"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_fji",
+      "country_id": "fji",
+      "name": "Fiyi",
+      "name_en": "Fiji",
+      "tier": "mid",
+      "mascot": "dukuwaqa",
+      "colors": {
+        "primary": "#68BFE5",
+        "secondary": "#FFFFFF"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_lie",
+      "country_id": "lie",
+      "name": "Liechtenstein",
+      "name_en": "Liechtenstein",
+      "tier": "mid",
+      "mascot": "Hans el augurey",
+      "colors": {
+        "primary": "#002B7F",
+        "secondary": "#CE1126"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "2014 surprise (after the pack) [PM-2014]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_arg",
+      "country_id": "arg",
+      "name": "Argentina",
+      "name_en": "Argentina",
+      "tier": "mid",
+      "mascot": "",
+      "colors": {
+        "primary": "#74ACDF",
+        "secondary": "#FFFFFF"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_mdg",
+      "country_id": "mdg",
+      "name": "Madagascar",
+      "name_en": "Madagascar",
+      "tier": "mid",
+      "mascot": "",
+      "colors": {
+        "primary": "#FC3D32",
+        "secondary": "#007E3A"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "1974 finalist [PM-WC]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_eng",
+      "country_id": "eng",
+      "name": "Inglaterra",
+      "name_en": "England",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#FFFFFF",
+        "secondary": "#CF081F"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": true,
+      "source": "canon_book",
+      "notes": "Lost 390-10 to Transylvania in 1994 [GoF 5]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_tcd",
+      "country_id": "tcd",
+      "name": "Chad",
+      "name_en": "Chad",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#002664",
+        "secondary": "#FECB00"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_hti",
+      "country_id": "hti",
+      "name": "Haití",
+      "name_en": "Haiti",
+      "tier": "weak",
+      "mascot": "inferi",
+      "colors": {
+        "primary": "#00209F",
+        "secondary": "#D21034"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_civ",
+      "country_id": "civ",
+      "name": "Costa de Marfil",
+      "name_en": "Ivory Coast",
+      "tier": "weak",
+      "mascot": "genios de río",
+      "colors": {
+        "primary": "#F77F00",
+        "secondary": "#009E60"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_jam",
+      "country_id": "jam",
+      "name": "Jamaica",
+      "name_en": "Jamaica",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#009B3A",
+        "secondary": "#FED100"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_ita",
+      "country_id": "ita",
+      "name": "Italia",
+      "name_en": "Italy",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#0066B3",
+        "secondary": "#FFFFFF"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_tur",
+      "country_id": "tur",
+      "name": "Turquía",
+      "name_en": "Turkey",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#E30A17",
+        "secondary": "#FFFFFF"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_prt",
+      "country_id": "prt",
+      "name": "Portugal",
+      "name_en": "Portugal",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#FF0000",
+        "secondary": "#006600"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_ind",
+      "country_id": "ind",
+      "name": "India",
+      "name_en": "India",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#FF9933",
+        "secondary": "#138808"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_mar",
+      "country_id": "mar",
+      "name": "Marruecos",
+      "name_en": "Morocco",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#C1272D",
+        "secondary": "#006233"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "Minor participation or mention [PM-WC], [GoF 5, 30]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_fla",
+      "country_id": "fla",
+      "name": "Flandes",
+      "name_en": "Flanders",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#FAE042",
+        "secondary": "#000000"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "1473 final [QTTA c8]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_rou",
+      "country_id": "rou",
+      "name": "Rumania",
+      "name_en": "Romania",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#002B7F",
+        "secondary": "#FCD116"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "1809 final (Niko Nenad) [PM-WC]. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_mex",
+      "country_id": "mex",
+      "name": "Nueva España (México)",
+      "name_en": "New Spain (Mexico)",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#006847",
+        "secondary": "#CE1126"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "canon_pottermore",
+      "notes": "New Spain finalist in 1809 [PM-WC]; modelled as Mexico. Tier per docs/design/07 §5.3 [inferred]; colors [inferred]."
+    },
+    {
+      "id": "nt_kor",
+      "country_id": "kor",
+      "name": "Corea del Sur",
+      "name_en": "South Korea",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#C60C30",
+        "secondary": "#003478"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "filler_authored",
+      "notes": "[FILLER] National team added for the game; tier and colors inferred."
+    },
+    {
+      "id": "nt_nld",
+      "country_id": "nld",
+      "name": "Países Bajos",
+      "name_en": "Netherlands",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#F36C21",
+        "secondary": "#FFFFFF"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "filler_authored",
+      "notes": "[FILLER] National team added for the game; tier and colors inferred."
+    },
+    {
+      "id": "nt_rus",
+      "country_id": "rus",
+      "name": "Rusia",
+      "name_en": "Russia",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#FFFFFF",
+        "secondary": "#D52B1E"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "filler_authored",
+      "notes": "[FILLER] National team added for the game; tier and colors inferred."
+    },
+    {
+      "id": "nt_cze",
+      "country_id": "cze",
+      "name": "Chequia",
+      "name_en": "Czech Republic",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#11457E",
+        "secondary": "#D7141A"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "filler_authored",
+      "notes": "[FILLER] National team added for the game; tier and colors inferred."
+    },
+    {
+      "id": "nt_svk",
+      "country_id": "svk",
+      "name": "Eslovaquia",
+      "name_en": "Slovakia",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#0B4EA2",
+        "secondary": "#EE1C25"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "filler_authored",
+      "notes": "[FILLER] National team added for the game; tier and colors inferred."
+    },
+    {
+      "id": "nt_hun",
+      "country_id": "hun",
+      "name": "Hungría",
+      "name_en": "Hungary",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#477050",
+        "secondary": "#CE2939"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "filler_authored",
+      "notes": "[FILLER] National team added for the game; tier and colors inferred."
+    },
+    {
+      "id": "nt_tha",
+      "country_id": "tha",
+      "name": "Tailandia",
+      "name_en": "Thailand",
+      "tier": "weak",
+      "mascot": "",
+      "colors": {
+        "primary": "#2D2A4A",
+        "secondary": "#A51931"
+      },
+      "world_cup_titles": 0,
+      "canon_roster_1994": [],
+      "qualified_1994": false,
+      "source": "filler_authored",
+      "notes": "[FILLER] National team added for the game; tier and colors inferred."
+    }
+  ],
+  "notes": "43 national teams from 07 §5.3. The canon players of the 2014 World Cup are not included (born later). Canon mascots from 02 §11.4."
+}

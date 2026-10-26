@@ -1,0 +1,49 @@
+{
+  "id": "club_santiago_saetas",
+  "name": "Santiago Saetas",
+  "short_name": "Saetas",
+  "city": "Santiago, Chile",
+  "country_id": "chl",
+  "region_id": "andes",
+  "founded": 1898,
+  "colors": {
+    "primary": "#0D47A1",
+    "secondary": "#E53935"
+  },
+  "emblem_key": "star",
+  "emblem_desc": "two crossed arrows over a star",
+  "identity": {
+    "style_tags": [
+      "speed"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_valparaiso_vientos"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_andes_league",
+  "level": 1,
+  "reputation": 7540,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 7,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Valparaíso Vientos [FILLER]: invented for the game (the Chilean derby: the capital against the port)."
+}

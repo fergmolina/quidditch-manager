@@ -1,0 +1,49 @@
+{
+  "id": "club_helsinki_haukat",
+  "name": "Helsinki Haukat",
+  "short_name": "Haukat",
+  "city": "Helsinki, Finlandia",
+  "country_id": "fin",
+  "region_id": "nordic",
+  "founded": 1906,
+  "colors": {
+    "primary": "#FFFFFF",
+    "secondary": "#0D47A1"
+  },
+  "emblem_key": "harrier_hawk",
+  "emblem_desc": "a hawk",
+  "identity": {
+    "style_tags": [
+      "speed"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_tampere_tontut"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_nordic_league",
+  "level": 3,
+  "reputation": 2560,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 3,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Tampere Tontut [FILLER]: invented for the game (the Finnish derby)."
+}

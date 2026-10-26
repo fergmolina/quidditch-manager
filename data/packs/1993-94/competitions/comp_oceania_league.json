@@ -1,0 +1,59 @@
+{
+  "id": "comp_oceania_league",
+  "name": "Liga de Oceanía",
+  "name_en": "Oceania League",
+  "type": "league",
+  "region_id": "oceania",
+  "country_ids": [
+    "aus",
+    "nzl",
+    "fji"
+  ],
+  "level": 1,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_thundelarra_thunderers",
+    "club_wollongong_warriors",
+    "club_moutohora_macaws",
+    "club_sydney_sundowners",
+    "club_perth_platypuses",
+    "club_brisbane_bunyips",
+    "club_melbourne_mopokes",
+    "club_auckland_albatrosses",
+    "club_suva_sharks"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.pilbara_outback",
+    "venue.nullarbor",
+    "venue.moutohora_island",
+    "venue.fiordland_fjords",
+    "venue.viti_levu_highlands"
+  ],
+  "prizes": {
+    "galleons_champion": 5000,
+    "galleons_per_position_step": 250,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "Canon 'Australian league' dominated by the Thunderers and the Warriors [QTTA c8]; Australia champions in 1966 [PM-WC]. Format copied from the British league [FILLER]; venues [FILLER]; prizes [filler]."
+}

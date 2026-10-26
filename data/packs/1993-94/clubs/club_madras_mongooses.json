@@ -1,0 +1,49 @@
+{
+  "id": "club_madras_mongooses",
+  "name": "Madras Mongooses",
+  "short_name": "Mongooses",
+  "city": "Madrás, India",
+  "country_id": "ind",
+  "region_id": "south_asia",
+  "founded": 1906,
+  "colors": {
+    "primary": "#795548",
+    "secondary": "#FFE082"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a mongoose",
+  "identity": {
+    "style_tags": [
+      "speed"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_bangalore_banyans"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_india_league",
+  "level": 3,
+  "reputation": 2560,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 3,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Bangalore Banyans [FILLER]: invented for the game (the southern derby)."
+}

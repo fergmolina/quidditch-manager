@@ -1,0 +1,179 @@
+{
+ "maps": {
+  "world": {
+   "lon0": -170.0,
+   "lon1": 190.0,
+   "lat0": -58.0,
+   "lat1": 80.0,
+   "w": 1600,
+   "scale": 1.0,
+   "h": 613.3
+  },
+  "europe": {
+   "lon0": -12.0,
+   "lon1": 34.0,
+   "lat0": 35.0,
+   "lat1": 66.0,
+   "w": 820,
+   "scale": 0.6427876096865394,
+   "h": 859.7
+  }
+ },
+ "pins": {
+  "comp_british_irish_league": {
+   "map": "europe",
+   "x": 0.2,
+   "y": 0.3806
+  },
+  "comp_france_league": {
+   "map": "europe",
+   "x": 0.313,
+   "y": 0.6258
+  },
+  "comp_germany_league": {
+   "map": "europe",
+   "x": 0.4826,
+   "y": 0.529
+  },
+  "comp_iberia_lux_league": {
+   "map": "europe",
+   "x": 0.1739,
+   "y": 0.8323
+  },
+  "comp_nordic_league": {
+   "map": "europe",
+   "x": 0.5761,
+   "y": 0.1452
+  },
+  "comp_italy_league": {
+   "map": "europe",
+   "x": 0.5348,
+   "y": 0.7548
+  },
+  "comp_low_countries_league": {
+   "map": "europe",
+   "x": 0.3652,
+   "y": 0.4548
+  },
+  "comp_central_europe_league": {
+   "map": "europe",
+   "x": 0.6565,
+   "y": 0.5516
+  },
+  "comp_eastern_europe_league": {
+   "map": "europe",
+   "x": 0.8152,
+   "y": 0.6065
+  },
+  "comp_usa_league": {
+   "map": "world",
+   "x": 0.2028,
+   "y": 0.2971
+  },
+  "comp_canada_league": {
+   "map": "world",
+   "x": 0.1889,
+   "y": 0.1775
+  },
+  "comp_mexico_caribbean_league": {
+   "map": "world",
+   "x": 0.2083,
+   "y": 0.4276
+  },
+  "comp_andes_league": {
+   "map": "world",
+   "x": 0.2611,
+   "y": 0.645
+  },
+  "comp_brazil_league": {
+   "map": "world",
+   "x": 0.3333,
+   "y": 0.6595
+  },
+  "comp_argentina_league": {
+   "map": "world",
+   "x": 0.2958,
+   "y": 0.837
+  },
+  "comp_africa_league": {
+   "map": "world",
+   "x": 0.5278,
+   "y": 0.5508
+  },
+  "comp_india_league": {
+   "map": "world",
+   "x": 0.6917,
+   "y": 0.4203
+  },
+  "comp_east_asia_league": {
+   "map": "world",
+   "x": 0.7861,
+   "y": 0.3551
+  },
+  "comp_japan_league": {
+   "map": "world",
+   "x": 0.8569,
+   "y": 0.3152
+  },
+  "comp_oceania_league": {
+   "map": "world",
+   "x": 0.8556,
+   "y": 0.7682
+  },
+  "school_hogwarts": {
+   "map": "europe",
+   "x": 0.1609,
+   "y": 0.2903
+  },
+  "school_ilvermorny": {
+   "map": "world",
+   "x": 0.2689,
+   "y": 0.271
+  },
+  "school_beauxbatons": {
+   "map": "europe",
+   "x": 0.2739,
+   "y": 0.7484
+  },
+  "school_durmstrang": {
+   "map": "europe",
+   "x": 0.8087,
+   "y": 0.7548
+  },
+  "school_koldovstoretz": {
+   "map": "world",
+   "x": 0.5833,
+   "y": 0.1667
+  },
+  "school_mahoutokoro": {
+   "map": "world",
+   "x": 0.8653,
+   "y": 0.4044
+  },
+  "school_castelobruxo": {
+   "map": "world",
+   "x": 0.3,
+   "y": 0.6051
+  },
+  "school_uagadou": {
+   "map": "world",
+   "x": 0.5553,
+   "y": 0.5768
+  },
+  "school_wollemi": {
+   "map": "world",
+   "x": 0.89,
+   "y": 0.8189
+  },
+  "school_kapadokya": {
+   "map": "world",
+   "x": 0.5689,
+   "y": 0.3
+  },
+  "school_nilgiri": {
+   "map": "world",
+   "x": 0.6853,
+   "y": 0.4971
+  }
+ }
+}

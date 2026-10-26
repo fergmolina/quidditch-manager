@@ -1,0 +1,49 @@
+{
+  "id": "club_rosario_relampagos",
+  "name": "Rosario Relámpagos",
+  "short_name": "Relámpagos",
+  "city": "Rosario, Argentina",
+  "country_id": "arg",
+  "region_id": "argentina",
+  "founded": 1889,
+  "colors": {
+    "primary": "#B71C1C",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "thunder",
+  "emblem_desc": "a red lightning bolt",
+  "identity": {
+    "style_tags": [
+      "attacking"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_buenos_aires_buhos"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_argentina_league",
+  "level": 2,
+  "reputation": 5040,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 7,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Buenos Aires Búhos [FILLER]: invented for the game (the league's two most successful clubs)."
+}

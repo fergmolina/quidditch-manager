@@ -1,0 +1,70 @@
+{
+  "id": "comp_africa_league",
+  "name": "All-Africa League",
+  "name_en": "All-Africa League",
+  "type": "league",
+  "region_id": "africa",
+  "country_ids": [
+    "uga",
+    "tgo",
+    "eth",
+    "tza",
+    "nga",
+    "mwi",
+    "sen",
+    "egy",
+    "bfa",
+    "civ",
+    "tcd"
+  ],
+  "level": 1,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_patonga_proudsticks",
+    "club_tchamba_charmers",
+    "club_gimbi_giant_slayers",
+    "club_sumbawanga_sunrays",
+    "club_lagos_lightningbolts",
+    "club_kano_kingfishers",
+    "club_dakar_dune_dancers",
+    "club_cairo_crocodiles",
+    "club_blantyre_baobabs",
+    "club_ouagadougou_owls",
+    "club_abidjan_antelopes",
+    "club_n_djamena_nightjars"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.mountains_of_the_moon",
+    "venue.serengeti_savanna",
+    "venue.jos_plateau",
+    "venue.western_desert",
+    "venue.niger_delta"
+  ],
+  "prizes": {
+    "galleons_champion": 5000,
+    "galleons_per_position_step": 250,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "The canon All-Africa Cup [QTTA c8] is modelled as this league; three African World Cups in a row 1998-2006 [PM-WC]. Format copied from the British league [FILLER]; venues [FILLER]; prizes [filler]."
+}

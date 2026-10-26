@@ -1,0 +1,49 @@
+{
+  "id": "club_lisboa_lobisomens",
+  "name": "Lisboa Lobisomens",
+  "short_name": "Lobisomens",
+  "city": "Lisboa, Portugal",
+  "country_id": "prt",
+  "region_id": "iberia_lux",
+  "founded": 1871,
+  "colors": {
+    "primary": "#1B5E20",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a werewolf howling at the moon",
+  "identity": {
+    "style_tags": [
+      "fierce"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_porto_pegasos"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_iberia_lux_league",
+  "level": 2,
+  "reputation": 5040,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 7,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Porto Pégasos [FILLER]: invented for the game (the Portuguese derby, Lisbon against the north)."
+}

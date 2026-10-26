@@ -1,0 +1,49 @@
+{
+  "id": "club_abidjan_antelopes",
+  "name": "Abidjan Antelopes",
+  "short_name": "Antelopes",
+  "city": "Abiyán, Costa de Marfil",
+  "country_id": "civ",
+  "region_id": "africa",
+  "founded": 1919,
+  "colors": {
+    "primary": "#F57C00",
+    "secondary": "#2E7D32"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a leaping antelope",
+  "identity": {
+    "style_tags": [
+      "speed"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_dakar_dune_dancers"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_africa_league",
+  "level": 2,
+  "reputation": 4680,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 4,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Dakar Dune-Dancers [FILLER]: invented for the game (the two French-speaking clubs of the West African coast)."
+}

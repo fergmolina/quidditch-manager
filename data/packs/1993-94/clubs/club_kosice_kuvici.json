@@ -1,0 +1,49 @@
+{
+  "id": "club_kosice_kuvici",
+  "name": "Košice Kuvici",
+  "short_name": "Kuvici",
+  "city": "Košice, Eslovaquia",
+  "country_id": "svk",
+  "region_id": "central_europe",
+  "founded": 1911,
+  "colors": {
+    "primary": "#2E7D32",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "harrier_hawk",
+  "emblem_desc": "a little owl",
+  "identity": {
+    "style_tags": [
+      "defensive"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_bratislava_bludicky"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_central_europe_league",
+  "level": 3,
+  "reputation": 2320,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 1,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Bratislava Bludičky [FILLER]: invented for the game (the Slovak derby)."
+}

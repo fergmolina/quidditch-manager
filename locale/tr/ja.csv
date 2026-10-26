@@ -1,0 +1,3059 @@
+keys,ja
+ui.app_title,クィディッチ・マネージャー
+ui.app_subtitle,原作に忠実なクィディッチ監督ゲーム
+ui.continue,続ける ▶
+ui.go_to_match,試合へ ▶
+ui.answer_messages,メッセージに返信
+ui.save,セーブ
+ui.saved,ゲームをセーブしました。
+ui.save_failed,セーブできませんでした。
+ui.back,戻る
+ui.next_match,次の試合：vs %s · %s · %s
+ui.months,"1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月"
+ui.weekdays,"日,月,火,水,木,金,土"
+ui.week,週
+ui.month,月
+ui.until,まで
+ui.founded,創設
+ui.league_titles,リーグ優勝
+ui.european_cups,欧州カップ
+ui.level,レベル
+ui.manager,監督
+ui.rivalries,ライバル関係
+ui.women_only,ハーピーズは魔女しか採用しない。
+ui.free_agent,フリー
+ui.captain,キャプテン
+ui.age_word,歳
+ui.no_catch,捕獲なし
+ui.menu.inbox,受信箱
+ui.menu.squad,選手一覧
+ui.menu.lineup,布陣と戦術
+ui.menu.training,トレーニング
+ui.menu.table,順位表
+ui.menu.calendar,日程
+ui.menu.market,移籍
+ui.menu.finances,財務
+ui.menu.board,理事会
+ui.menu.news,日刊予言者新聞
+ui.menu.club,クラブ
+ui.menu.history,歴史
+ui.menu.saves,セーブ／ロード
+ui.new_game.title,ニューゲーム
+ui.new_game.choose_club,クラブか寮を選ぶ（1993-94）
+ui.new_game.manager,あなたのプロフィール
+ui.new_game.name,監督名
+ui.new_game.seed,シード（試合・移籍市場・若手）
+ui.new_game.start,契約にサインする
+ui.new_game.load,ゲームをロード
+ui.new_game.load_btn,ロード
+ui.new_game.no_canon,有名選手なし：選手は開始時に明らかになる。
+ui.inbox.date,日付
+ui.inbox.from,差出人
+ui.inbox.subject,件名
+ui.inbox.empty,ふくろう便はありません。
+ui.inbox.go_to,%s へ ▸
+ui.squad.count,選手%d人
+ui.squad.view,表示
+ui.squad.filter,絞り込み
+ui.squad.auto_lineup,アシスタントに選手を選ばせる
+ui.squad.first,一軍
+ui.squad.reserve,控え
+ui.squad.youth,ユース
+ui.squad.free,フリー
+ui.filter.all,全員
+ui.filter.first,一軍
+ui.filter.reserve,控え
+ui.filter.youth,ユース
+ui.view.general,総合
+ui.attr_group.flying,飛行
+ui.attr_group.technical,技術
+ui.attr_group.mental,メンタル
+ui.attr_group.physical,フィジカル
+ui.col.name,名前
+ui.col.pos,Pos
+ui.col.age,年齢
+ui.col.squad,所属
+ui.col.cond,体調
+ui.col.morale,士気
+ui.col.form,調子
+ui.col.broom,箒
+ui.col.wage,週給
+ui.col.value,評価額
+ui.col.club,クラブ
+ui.col.points,得点
+ui.col.against,失点
+ui.col.catches,スニッチ
+ui.col.date,日付
+ui.col.round,節
+ui.col.home,ホーム
+ui.col.away,アウェー
+ui.col.result,結果
+ui.col.venue,会場
+ui.col.duration,時間
+ui.col.snitch,スニッチ捕獲
+ui.morale.superb,最高
+ui.morale.good,良好
+ui.morale.ok,普通
+ui.morale.low,低い
+ui.morale.poor,悪い
+ui.morale.awful,最悪
+ui.status,状態
+ui.sharpness,試合勘
+ui.injured_days,負傷：%d日
+ui.suspended,出場停止：%d試合
+ui.contract,契約
+ui.contract_until,期限
+ui.season_stats,今シーズン
+ui.stats_line,出場%d · ゴール%d · 捕獲%d · セーブ%d · 評価%.1f
+ui.ca_stars,能力
+ui.pa_stars,潜在能力
+ui.broom_condition,箒の状態
+ui.action.transfer_list_on,移籍リストに載せる
+ui.action.transfer_list_off,リストから外す
+ui.action.renew,契約更新
+ui.action.make_captain,キャプテンに任命
+ui.action.release,契約解除
+ui.action.sign_free,フリー選手と契約（週%d G）
+ui.asking_price,希望額：%s
+ui.action.offer,%s で提示
+ui.action.offer_low,%s で提示（値切り）
+ui.action.sign,契約
+ui.action.withdraw,撤回
+ui.action.accept_sale,売却を承諾
+ui.action.reject,拒否
+ui.asking,希望額
+personality.model_professional,模範的プロ
+personality.controversial,問題児
+personality.temperamental,気分屋
+personality.ambitious,野心家
+personality.loyal,忠実
+personality.casual,のんき
+personality.balanced,バランス型
+ui.lineup.starters,先発の7人
+ui.lineup.valid,布陣OK
+ui.lineup.invalid,布陣が不完全か、出場できない選手がいる。直すまで試合はできない。
+ui.tactics.team,チーム指示
+ui.assistant,アシスタント
+ui.assistant.formation,フォーメーション %s：チームの適性は %d/20。
+ui.assistant.seeker_always,150点以上負けていても、シーカーはできるだけ早くスニッチを捕る。
+ui.assistant.seeker_if_wins,シーカーは捕れば勝てる時だけ捕り、それまでは時間を稼ぐ。
+ui.assistant.seeker_ahead,指示どおり、シーカーは最低 +%d 点リードするまで待つ。
+ui.assistant.hard_play,ラフプレー：反則が増え、相手のペナルティも増え、相手選手が負傷する。
+ui.assistant.tiring,ハイテンポで高い位置からのプレス：二時間目に入る前にチームが疲れる。
+tactic.mentality,メンタリティ
+tactic.mentality.low,守備的
+tactic.mentality.high,攻撃的
+tactic.tempo,テンポ
+tactic.tempo.low,遅い
+tactic.tempo.high,速い
+tactic.pass_style,パス
+tactic.pass_style.low,短い
+tactic.pass_style.high,長い
+tactic.long_shots,シュート
+tactic.long_shots.low,近くからのみ
+tactic.long_shots.high,遠くから
+tactic.pressing,プレス
+tactic.pressing.low,まれに
+tactic.pressing.high,頻繁に
+tactic.hard_play,ラフプレー
+tactic.hard_play.low,ソフト
+tactic.hard_play.high,ハード
+tactic.time_wasting,時間稼ぎ
+tactic.time_wasting.low,少ない
+tactic.time_wasting.high,多い
+tactic.chaser_formation,攻撃
+tactic.beater_instruction,ビーター
+tactic.seeker_catch,シーカー：捕獲
+tactic.seeker_ahead_by,最低点差
+tactic.seeker_search,シーカー：捜索
+tactic.seeker_feint,ウロンスキー・フェイント
+tactic.keeper_position,キーパー
+formation.free,自由
+beaters.nearest,最寄りの相手
+beaters.hunt_seeker,相手シーカーを狙う
+beaters.protect_seeker,味方シーカーを守る
+beaters.protect_chasers,チェイサーを守る
+beaters.punish_carrier,ボール保持者を狙う
+beaters.mark_beaters,ビーター・マーク（ブラガ）
+seeker.always,常に捕る
+seeker.if_wins,捕って勝てる時だけ
+seeker.ahead_by,最低点差がある時だけ
+seeker.search_free,自由に探す
+seeker.search_mark,相手シーカーをマーク
+feint.never,しない
+feint.if_chance,機会があれば
+feint.seek,狙って仕掛ける
+keeper.stay,ゴールエリアに留まる
+keeper.rush,飛び出す
+pos.K,キーパー
+pos.C,チェイサー
+pos.B,ビーター
+pos.S,シーカー
+attr.speed,スピード
+attr.short.speed,速度
+attr.acceleration,加速
+attr.short.acceleration,加速
+attr.agility,敏捷性
+attr.short.agility,敏捷
+attr.broom_control,箒さばき
+attr.short.broom_control,操縦
+attr.balance,バランス
+attr.short.balance,平衡
+attr.altitude,高度
+attr.short.altitude,高度
+attr.dive,急降下
+attr.short.dive,降下
+attr.passing,パス
+attr.short.passing,パス
+attr.catching,キャッチ
+attr.short.catching,捕球
+attr.shooting,シュート
+attr.short.shooting,射撃
+attr.dodging,回避
+attr.short.dodging,回避
+attr.stealing,奪取
+attr.short.stealing,奪取
+attr.interception,インターセプト
+attr.short.interception,阻止
+attr.keeping,ゴールキープ
+attr.short.keeping,守備
+attr.beating,打撃
+attr.short.beating,打撃
+attr.beat_accuracy,打撃精度
+attr.short.beat_accuracy,精度
+attr.snitch_catching,スニッチ捕獲
+attr.short.snitch_catching,捕獲
+attr.aggression,攻撃性
+attr.short.aggression,攻撃
+attr.anticipation,予測
+attr.short.anticipation,予測
+attr.bravery,勇気
+attr.short.bravery,勇気
+attr.composure,冷静さ
+attr.short.composure,冷静
+attr.concentration,集中力
+attr.short.concentration,集中
+attr.creativity,創造性
+attr.short.creativity,創造
+attr.decisions,判断力
+attr.short.decisions,判断
+attr.determination,決断力
+attr.short.determination,意志
+attr.flair,センス
+attr.short.flair,才気
+attr.influence,統率力
+attr.short.influence,統率
+attr.off_ball,オフ・ザ・ボール
+attr.short.off_ball,OTB
+attr.positioning,ポジショニング
+attr.short.positioning,位置
+attr.teamwork,チームワーク
+attr.short.teamwork,連携
+attr.work_rate,運動量
+attr.short.work_rate,運動
+attr.stamina,スタミナ
+attr.short.stamina,持久
+attr.strength,筋力
+attr.short.strength,筋力
+attr.natural_fitness,基礎体力
+attr.short.natural_fitness,体力
+attr.reflexes,反射神経
+attr.short.reflexes,反射
+attr.eyesight,視力
+attr.short.eyesight,視力
+broom.speed,スピード
+broom.acceleration,加速
+broom.turning,旋回
+broom.braking,制動
+broom.altitude,高度
+broom.stability,安定性
+facility.training,練習場
+facility.medical,医務室
+facility.broom_workshop,箒工房
+nat.eng,イングランド
+nat.sco,スコットランド
+nat.wal,ウェールズ
+nat.irl,アイルランド
+nat.nir,北アイルランド
+nat.bul,ブルガリア
+objective.title,リーグ優勝
+objective.top_half,上位半分に入る
+objective.avoid_last,最下位を避ける
+objective.mid_table,中位
+training.physical,フィジカル
+training.flying,飛行
+training.quaffle,クアッフル
+training.beating,打撃
+training.keeper,キーパー
+training.seeking,シーカー
+training.tactics,戦術
+ui.match.none,予定の試合はありません。
+ui.match.snitch_free,スニッチ：未発見
+ui.match.snitch_sighted,スニッチ：発見
+ui.match.snitch_chase,スニッチ発見！ %s が追う
+ui.match.play,再生
+ui.match.pause,一時停止
+ui.match.next_event,次の場面
+ui.match.speed,速度
+ui.match.detail,詳細度
+ui.match.step,1手ずつ
+ui.match.slow,遅い
+ui.match.normal,普通
+ui.match.fast,速い
+ui.match.instant,最後まで
+ui.match.detail_key,ハイライト
+ui.match.detail_extended,拡張
+ui.match.detail_full,すべて
+ui.match.timeout,タイムアウトを取る
+ui.match.finish,終了してオフィスに戻る
+ui.match.my_team,自チーム（体調）
+ui.match.live_tactics,試合中の戦術
+ui.match.tactics_note,変更は次の中断（ゴール、反則、負傷、タイムアウト）で反映される。
+ui.match.queued,戦術変更を予約：%s
+ui.match.over,試合終了：%s %d – %d %s
+ui.match.stats,スタッツ（自 / 相手）
+ui.stat.shots,シュート
+ui.stat.saves,セーブ
+ui.stat.bludger_hits,ブラッジャー命中
+ui.stat.fouls,反則
+ui.stat.sightings,発見
+ui.table.note,日刊予言者新聞の順位表と同じく、リーグは[b]総得点[/b]で順位が決まる。負けた試合のゴールも加算される。同点の場合は失点の少なさ、次にスニッチ捕獲数で決める。
+ui.training.delegate,アシスタントに任せる
+ui.training.focus,週の重点
+ui.training.load,負荷
+ui.training.light,軽い
+ui.training.medium,中程度
+ui.training.intense,激しい
+ui.training.note,キーパー、ビーター、シーカーは専門練習とチームの重点練習を交互に行う。激しい負荷＝負傷が増える。
+ui.training.recent,最近の変化（前回の月次評価以降）
+ui.training.improved,向上
+ui.training.declined,低下
+ui.market.free_agents,フリー選手
+ui.market.listed,移籍リスト
+ui.market.all_players,全選手
+ui.market.pending_offers,保留中のオファー
+ui.market.no_offers,なし。
+ui.market.no_funds,ガリオンが足りない。
+ui.market.harpies_only_witches,ハーピーズは魔女しか採用しない。
+ui.market.offer_sent,ふくろうでオファーを送った。数日中にクラブから返事が来る。
+ui.market.not_free,フリー選手ではない。
+ui.market.player_refuses,選手が契約を拒否した。
+ui.market.signed,契約成立。
+ui.market.wants_more,もっとガリオンを望んでいる。
+ui.market.renewed,契約を更新した。
+ui.finances.summary,概要
+ui.finances.balance,残高
+ui.finances.wages,給与
+ui.finances.budget,予算
+ui.finances.transfer_budget,移籍予算
+ui.finances.sponsor,スポンサー
+ui.finances.gate_note,ホームの入場料収入は観客次第：収容人数、サポーターの気分、相手。
+ui.finances.facilities,施設
+ui.finances.upgrade,改良（%s）
+ui.finances.brooms,箒を買う
+ui.finances.brooms_note,箒を買うとき、誰に渡すかを選べる。
+ui.board.objective,シーズン目標
+ui.board.current_pos,現在の順位
+ui.board.confidence,理事会の信頼
+ui.board.manager,監督：%s · 評判 %d
+ui.board.requests,要望
+ui.board.ask_budget,移籍予算の増額を求める
+ui.news.none,まだ発行されていない。
+ui.news.price,5クヌート
+ui.history.champions,優勝チーム
+ui.history.none,まだ終了したシーズンはない。
+ui.history.canon,クラブの栄誉
+ui.history.transfers,最近の移籍
+ui.saves.name,セーブ名
+ui.saves.existing,セーブデータ
+ui.saves.main_menu,メインメニュー
+from.board,理事会
+from.club_secretary,クラブ事務局長
+from.mediwizard,クラブ専属魔法医
+from.player,ある選手
+msg.welcome.subject,{club} へようこそ
+msg.welcome.body,"{manager} 殿：理事会はあなたを歓迎します。今シーズンの目標は「{objective}」です。残高は {balance}。先発を選び、トレーニングを確認してください。競技場でお会いしましょう。
+
+[i]事務局長からのヒント：「続ける」ボタン（またはスペース）で日程が進みます。バーの ⓘ ボタン（またはF1）で各画面の説明が見られます。[/i]"
+msg.recovered.subject,{player} が回復
+msg.recovered.body,{player} は再び飛べる状態になった。
+msg.injury.subject,負傷：{player}
+msg.injury.body,{player} は試合中に負傷し、{days}日間離脱する。1750年の規則第5条により、交代はできなかった。
+msg.training_injury.subject,練習中の負傷：{player}
+msg.training_injury.body,{player} が練習中に負傷した。{days}日間離脱。
+msg.board_monthly.subject,月次評価
+msg.board_monthly.body,理事会の信頼：{confidence}/100。残高：{balance}。リーグ順位：{position}位。
+msg.contract_expired.subject,契約満了：{player}
+msg.new_captain.subject,新キャプテン
+msg.new_captain.body,前キャプテンの退団を受け、ロッカールームは {player} を新キャプテンに選んだ。選手のページから変更できる。
+from.head_of_house,寮監
+objective.house_cup,学校のクィディッチ杯を勝ち取る
+msg.house_welcome.subject,{house} チームへようこそ
+msg.house_welcome.body,{manager}：{house} のクィディッチ・チームはあなたに託された。先発7人に控えが数人、年に3試合、そして寮全体が棚に飾りたがっている優勝杯。先発を選び、鍛え、選手たちは18歳で卒業することを忘れずに。
+msg.house_term.subject,{season} 年度の新学期
+msg.house_term.body,{season} 年度が始まる：新入生、チームの選抜テスト、そして11月からクィディッチ杯。
+msg.house_no_cup.subject,今年はクィディッチ杯なし
+msg.house_no_cup.body,校長が発表：{season} 年度のクィディッチ杯は中止。チームは練習を続ける。来年に備えなければ。
+msg.house_season_end.subject,年度末の総括
+msg.house_season_end.body.met,優勝杯はわれわれのものだ！ {house} が優勝。寮全体がお祝いし、プロのクラブまであなたに関心を寄せている。
+msg.house_season_end.body.ok,結果は{position}位。優勝杯は {champion} が手にした。悪くはないが、寮はもっと上を望んでいる。
+msg.house_season_end.body.missed,結果は{position}位で、優勝杯は {champion} のものに。寮監はもっと良い一年を期待している。
+msg.house_roster.subject,チームの出入り
+msg.house_roster.body,"卒業：{gone}。
+選抜テストで加入：{fresh}。"
+from.matron,校医
+msg.new_year_house.subject,学年末
+msg.new_year_house.body,学年が終わった。7年生は卒業し、空いた枠は9月の選抜テストで埋める。チームは夏の間休み、9月にまた会おう。
+msg.new_season.body_none,{season} シーズン開幕。
+ui.post.house_up,寮監はチームに満足している。
+ui.post.house_flat,寮監はもっと期待していた。
+ui.post.house_down,寮監は不満だ。
+ui.settings.tutorial,ゲーム開始時に受信箱へ初心者向けのヒントを送る
+msg.tutorial.lineup.subject,ヒント{n}：先発メンバー
+msg.tutorial.lineup.body,最初の試合の前に「布陣と戦術」を開こう：7人（キーパー1人、チェイサー3人、ビーター2人、シーカー1人）を選び、好みでピッチ上をドラッグし、メンタリティとシーカーへの指示を設定する。何も触らなければ、アシスタントが出場可能な最強チームを組む。試合中も戦術をリアルタイムで変更でき、タイムアウトも取れる。
+msg.tutorial.squad.subject,ヒント{n}：選手一覧
+msg.tutorial.squad.body,「選手一覧」では全員の能力値（1-20。◆はそのポジションの重要能力）、体調、士気、調子が見られる。選手をクリックするとページが開く：契約、成長、アクション（更新、売却、レンタル、面談）、アシスタントの報告。緑と赤の矢印は誰が伸び、誰が衰えているかを示す。
+msg.tutorial.training.subject,ヒント{n}：トレーニング
+msg.tutorial.training.body,「トレーニング」ではチームの重点と週の負荷、さらに個人の重点と若手のメンターを選ぶ。任せたいならアシスタントが担当する（同じ画面の「アシスタントに任せる」欄）。若手は出場時間と良い施設で伸び、ベテランは31歳から衰える。
+msg.tutorial.calendar.subject,ヒント{n}：シーズン
+msg.tutorial.calendar.body,「日程」には全試合が、「順位表」には順位が表示される（リーグは総得点で順位が決まる）。右上のボタンで次の試合かふくろう便まで進む。毎週、日刊予言者新聞とアシスタントの報告が届き、毎月、理事会がシーズン目標に照らしてあなたの仕事を評価する。
+msg.tutorial.market.subject,ヒント{n}：移籍市場
+msg.tutorial.market.body,「移籍」では選手（フリー、リスト掲載、レンタル、注目リスト）を探してオファーを出す。「スカウト」ではスカウトを他地域に派遣して情報を集める。遠方の選手はスカウトが知っていることしか見えないからだ。残高に注意：「財務」には給与、スタッフ、施設がある。健闘を祈る、監督！
+msg.tutorial.schools.subject,ヒント{n}：学校
+msg.tutorial.schools.body,「学校」では4つの寮、その生徒たち、優勝杯の順位表が見られる。チームは自然に入れ替わる：毎年の選抜テストで新しい生徒が入り、18歳で卒業する。優秀な者はクラブのアカデミーへ進む。補強も給与もない：すべては先発、トレーニング、年3試合にかかっている。優勝杯を勝ち取れば、プロのクラブがあなたに注目する。
+msg.tutorial.squad.school.body,「選手一覧」では寮の生徒たちの能力値（1-20。◆はそのポジションの重要能力）、学年、体調、士気、調子が見られる。生徒をクリックするとページが開く：成長、経歴、アシスタントの報告。「アクション」から面談したりキャプテンに任命したりできる。
+msg.tutorial.calendar.school.body,「日程」には優勝杯の試合（秋に1試合、春に2試合）が、「順位表」には順位が表示される：最も多く得点した寮が優勝。右上のボタンで次の試合かふくろう便まで進む。年度末には寮監がシーズンを総括する。
+msg.emergency_signing.subject,緊急補強
+msg.emergency_signing.body,契約満了でチームが組めなくなったため、{players} と控えめな条件で契約しました。選手一覧を確認してください。
+msg.contract_expired.body,{player} の契約は6月30日で満了し、フリーになった。
+msg.retirement.subject,{player} が引退
+msg.retirement.body,{player} が {age} 歳で箒を置く。
+msg.new_season.subject,新シーズン {season}
+msg.new_season.body,{season} シーズン開幕。引退：{retired}。
+msg.offer_accepted.subject,{club} が {player} へのオファーを受諾
+msg.offer_accepted.body,{club} は {player} の移籍金 {fee} を受け入れた。選手は週給 {wage}、3シーズンの契約にサインする意思がある。契約するか？
+msg.offer_rejected.subject,{club} が {player} へのオファーを拒否
+msg.offer_rejected.body,{club} は {player} への {fee} のオファーを拒否。{ask} 前後を望んでいる。
+msg.player_refuses.subject,{player} は移籍を望まない
+msg.player_refuses.body,{club} は受諾したが、{player} が契約を拒否した。
+msg.incoming_offer.subject,{club} から {player} へのオファー
+msg.incoming_offer.body,{club} が {player} に {fee} を提示。受けるか？
+msg.signed.subject,契約：{player}
+msg.signed.body,{player} が週給 {wage}、{years} シーズンの契約にサインした。
+msg.no_funds.subject,{player} の資金不足
+msg.no_funds.body,{player} の移籍金を払うガリオンがない。
+msg.broom_bought.subject,新しい箒
+msg.broom_bought.body,{player} のために {broom} を購入した。
+msg.budget_granted.subject,予算増額
+msg.budget_granted.body,理事会は移籍予算に {amount} を追加する。
+msg.budget_denied.subject,要望却下
+msg.budget_denied.body,理事会は今のところ予算の増額を認めない。
+msg.season_end.subject,シーズン終了
+msg.season_end.body.met,{pts} 点で {position} 位に終わった。優勝：{champion}。理事会は満足している：目標（{objective}）達成。
+msg.season_end.body.missed,{pts} 点で {position} 位に終わった。優勝：{champion}。目標（{objective}）は未達成。理事会はもっと期待している。
+msg.season_end.body.sacked,{pts} 点で {position} 位に終わった。優勝：{champion}。理事会は目標（{objective}）にほど遠かったと感じている。あなたの職は危うい。
+news.match.result,"{home} {sh} – {sa} {away}
+{venue} にて、{duration} の試合の末、{catcher}（{snitch_club}）がスニッチを捕った。"
+news.match.lightning,"{venue} で電撃決着！ {home} {sh} – {sa} {away}
+スニッチは {duration} で捕まった：{catcher} は観客が座る暇も与えなかった。"
+news.match.marathon,"{venue} でマラソン試合：{home} {sh} – {sa} {away}
+{duration} が経ち、選手たちが疲れ果てる中、{catcher} が試合に終止符を打った。"
+news.match.mutual_end,"両キャプテン合意で終了：{home} {sh} – {sa} {away}
+{venue} で {duration} スニッチが捕まらず、両キャプテンが試合を終えた（規則第7条）。"
+news.match.caught_and_lost,"スニッチを捕るも敗戦：{home} {sh} – {sa} {away}
+{catcher} は1994年のクラムのように {venue} で試合を終わらせた：捕獲はしたが、勝利はなし。"
+news.injury,"{club} に負傷者
+{player} は {days} 日間飛べない。"
+news.table,"{league} 第{round}節終了時の順位表
+首位：{top}。最下位：{last}。"
+news.transfer,"移籍：{player} が {to} へ
+{to} が {fee} で {player} を獲得。"
+news.quibbler.1,ザ・クィブラー：トルネードーズの箒の穂は、しわしわ角スノーカックの毛でできている
+news.quibbler.2,ザ・クィブラー：1884年ボドミン・ムーアのスニッチを目撃、いまだ逃亡中
+news.quibbler.3,週刊魔女：ライバル同士のシーカー2人に熱愛？
+news.quibbler.4,ザ・クィブラー：アップルビーのファンが断言「ブラッジャーは労働組合を作っている」
+news.quibbler.5,賢い箒の選び方：ファイアボルトはいまだ価格未定「お問い合わせください」
+match.kickoff,ホイッスル！ {team} がクアッフルを持って試合開始。
+match.pass,{player} から {other} へパス。
+match.advance,{player} がクアッフルを持って前進。
+match.advance_blocked,{other} が {player} を阻む。
+match.turnover.steal,{player} がクアッフルを奪った！
+match.turnover.interception,{player} がパスをカット。
+match.turnover.quaffle_dropped,クアッフルがこぼれた！ {team} が拾う。
+match.turnover.carrier_injured,ボール保持者が負傷で落下、クアッフルは {team} のものに。
+match.turnover.no_chasers,チェイサーがいない：クアッフルは {team} へ。
+match.goal.shot,{player} のゴール！ {score}
+match.goal.long_shot,{player} のロングシュートが決まった！ {score}
+match.save,{player} が {other} のシュートを止めた！
+match.miss,{player} のシュートは外れた。
+match.goal_annulled,{player} のゴールは取り消し。
+match.foul.stooging,スツージング！ ゴールエリアにチェイサーが2人以上：ゴール取り消し。
+match.foul.haversacking,ハバーサッキング！ クアッフルを手に持ったまま輪をくぐった：ゴール取り消し。
+match.penalty_goal,{player} がペナルティを決めた！ {score}
+match.penalty_saved,{player} が {other} のペナルティを止めた。
+match.foul.blagging,{player} が {other} にブラッギング：ペナルティ。
+match.foul.blatching,{player} が {other} にブラッチング：ペナルティ。
+match.foul.cobbing,コビング：{player} が {other} に肘打ち。ペナルティ。
+match.foul.grabbing,{player} が {other} をつかんだ：ペナルティ。
+match.foul.blurting,{player} のブラーティング：ペナルティ。
+match.foul.keeper_attack,クアッフルがないのに {player} がキーパーにブラッジャーを打ち込んだ！ ペナルティ。
+match.foul.unseen.blagging,{player} が {other} の箒の尾をつかむが、審判は見逃した。
+match.foul.unseen.blatching,{player} が {other} に体当たり。審判は見逃した。
+match.foul.unseen.cobbing,{player} の肘打ちはお咎めなし。
+match.foul.unseen.grabbing,{player} が {other} をつかむが、お咎めなし。
+match.foul.unseen.blurting,{player} のブラーティングはお咎めなし。
+match.send_off,{player} が退場！ チームは1人少ないまま戦う。
+match.bludger_hit,ブラッジャーが {player} に命中！
+match.bludger_dodge,{player} がブラッジャーをかわす。
+match.bludger_deflect,{player} がブラッジャーを打ち返す。
+match.injury.bludger,{player} がブラッジャーを受けて負傷（{severity}）。交代はなし。
+match.injury.feint,{player} がウロンスキー・フェイントの後に墜落（{severity}）。
+match.snitch_sighted,{player} がスニッチを見つけた！
+match.snitch_chase_contest,{player} も追跡に加わる。
+match.snitch_lost.escaped,スニッチが逃げた。
+match.snitch_lost.hit,ブラッジャーが追跡を阻んだ。
+match.snitch_lost.injury,負傷で追跡は終わった。
+match.snitch_lost.send_off,退場：追跡は終わった。
+match.snitch_lost.night,夜になり、スニッチを見失った。
+match.snitch_lost.feint,フェイントのせいで {player} はスニッチを逃した。
+match.feint.success,{player} のウロンスキー・フェイント！ {other} が墜落！
+match.feint.failed,{player} がウロンスキー・フェイントを仕掛けるも、{other} は引っかからない。
+match.snitch_caught,{player} がスニッチを捕った！！ {score}
+match.timeout,{team} がタイムアウト。
+match.tactics_change,{team} が戦術を修正。
+match.night_pause,夜間休止：選手たちは眠る。
+match.long_match_regime,試合開始から12時間：長期戦モードに入る。
+match.end.snitch,試合終了。
+match.end.mutual_end,両キャプテンの合意で試合終了。
+match.end.time_cap,制限時間到達：ゴール数で決着。
+match.end.hard_cap,試合は打ち切りとなった。
+match.match_end,試合終了。
+ui.language,言語
+ui.new_game.start_note,開始日は1993年8月1日。ウッドのホグワーツ最後のシーズンで、ファイアボルトの年。
+severity.match,試合中は復帰不可
+severity.long,長期の負傷
+match.foul_unseen,{player} の反則を審判が見逃した。
+match.foul.unseen.keeper_attack,クアッフルがないのに {player} がキーパーを攻撃、審判は見逃した。
+ui.menu.competitions,大会
+ui.menu.scouting,スカウト
+ui.menu.schools,学校
+ui.unemployed,無職
+ui.unemployed_note,仕事のオファーを待っている。受信箱を確認しよう。
+ui.new_game.unemployed,クラブなしで始める（キャリア）
+ui.new_game.unemployed_note,Promanager風に無職でスタート：小さなクラブからふくろう便でオファーが届く。目標を達成すれば、もっと良いクラブが声をかけてくる。
+ui.action.accept_job,仕事を引き受ける
+ui.col.team,チーム
+ui.wc.group,グループ
+ui.wc.groups_note,4チーム×16グループで2年間。制限時間4時間。勝利で2点、さらに50/100/150点差以上の勝利で1/3/5点を追加。同点の場合は捕獲数。
+ui.wc.recent,最新の結果
+ui.cup.champion,優勝
+ui.cup.third,3位
+stage.r16,ベスト16
+stage.qf,準々決勝
+stage.sf,準決勝
+stage.third,3位決定戦
+stage.final,決勝
+stage.r8,準々決勝
+stage.r4,準決勝
+ui.scout.knowledge,地域別の情報量
+ui.scout.staff,スカウト
+ui.scout.quality,質
+ui.scout.dismiss,解雇
+ui.scout.hire,スカウトを雇う
+ui.scout.note,スカウトは毎月、担当地域の情報を増やす。40未満ではその地域の能力値は見えず、40〜80では範囲で、80を超えると正確な値が見える。
+ui.scout.unknown_region,調査の少ない地域：データは不確か。
+ui.filter.all_regions,全地域
+ui.school.houses,寮
+ui.school.note,地域のクラブで練習する17〜19歳の生徒。シーズン終了時に移籍市場に出る。
+msg.call_up.subject,代表招集：{player}
+msg.call_up.body,{player} は {team}（{competition}）でプレーし、遠征で疲れて戻ってくる。
+msg.world_cup_over.subject,{year}年ワールドカップ：{team} が優勝
+msg.world_cup_over.body,{team} が {year}年ワールドカップを制した。
+msg.european_cup_won.subject,欧州王者だ！
+msg.european_cup_won.body,クラブが {year}年欧州カップを制した。理事会は大喜びだ。
+msg.european_cup_qualified.subject,{year}年欧州カップ出場決定
+msg.european_cup_qualified.body,リーグの順位により、クラブは {year}年欧州カップに出場する（2月〜5月の一発勝負のトーナメント）。
+msg.sacked.subject,{club} から解任
+msg.sacked.body,{club} の理事会はあなたを解任することを決めた。あなたは無職になった。他のクラブから仕事のオファーが来るかもしれない。
+msg.job_offer.subject,仕事のオファー：{club}
+msg.job_offer.body,{club}（{league}）が監督の座をオファーしている。目標：{objective}。残高：{balance}。引き受けるか？
+msg.start_unemployed.subject,ようこそ、{manager}
+msg.start_unemployed.body,あなたのキャリアはクラブなしで始まる。オファーはふくろう便で届く。
+news.world_cup_champion,"{team} が {year}年ワールドカップ優勝！
+クィディッチ・ワールドカップは {team} の手に。"
+news.european_cup_champion,"{team} が {year}年欧州カップ優勝
+大陸のトロフィーは {team} のもとへ。"
+news.european_cup_draw,"{year}年欧州カップ組み合わせ抽選
+出場チーム：{teams}。"
+news.world_cup_draw,"{year}年ワールドカップ決勝トーナメントは {venue} で
+16のグループ首位チーム：{teams}。"
+news.match.time_cap,"{home} {sh} – {sa} {away}（4時間制限）
+{venue} で捕獲なし：グループステージの規則どおりゴール数で決着。"
+ui.menu.group.office,オフィス
+ui.menu.group.team,チーム
+ui.menu.group.competition,大会
+ui.menu.group.market,移籍市場
+ui.menu.group.club,クラブ
+ui.continue_hint,Space：続ける · Ctrl+S：セーブ · Alt+←/→：戻る/進む
+ui.next_match_label,次の試合
+ui.match_in_progress,試合中
+ui.no_match,予定の試合なし
+ui.answer_messages_n,ふくろう便%d通に返信
+ui.continue_to_match,vs %s をプレー ▸
+ui.match.finish_short,試合を終える
+ui.squad.injured_n,負傷者%d人
+ui.squad.preview,プレビュー
+ui.key_attributes,重要能力
+ui.view_profile,プロフィールを見る
+ui.col.cond_tip,体調（0-100）
+ui.lineup.on_pitch,ピッチ上
+ui.match.diff,差
+ui.match.log_all,全て
+ui.match.log_key,重要
+ui.match.stats_us,自
+ui.match.stats_them,相手
+ui.new_game.load_tab,ゲームをロード
+ui.new_game.new_tab,ニューゲーム
+ui.new_game.advanced,詳細設定
+ui.new_game.sign_with,%s と契約
+ui.new_game.start_unemployed,無職で始める
+ui.new_game.expectation,期待
+ui.new_game.known_players,クラブの主力
+ui.new_game.balance,残高
+ui.new_game.school,学校
+ui.new_game.school_note,寮のクィディッチ・チームを指導する：7人の生徒の先発、戦術、トレーニング。年に3試合、目標は学校の優勝杯。18歳になると優秀な者はクラブのアカデミーへ巣立つ。移籍市場も給与もない：チームは毎年の選抜テストで自然に補充される。優勝杯を勝ち取ればプロのクラブへの扉が開く。
+ui.attr.key_marker,◆ ポジションの重要能力
+ui.profile.tabs,"プロフィール,成長,経歴,契約,報告"
+ui.actions,アクション
+ui.profile.progress_note,前回の月次評価からの変化（▲上昇、▼低下）。
+ui.profile.no_history,過去のシーズンはない。
+ui.stat.goals,ゴール
+ui.stat.rating,評価
+ui.col.season,シーズン
+ui.contract_role,役割
+ui.confirm_release,%s を放出しますか？ クラブを去り、違約金を支払う必要があります。
+role.key,主力
+role.first,レギュラー
+role.rotation,ローテーション
+role.backup,控え
+role.youth,ユース
+report.consistent,試合ごとに安定した活躍を見せる
+report.inconsistent,素晴らしい試合とひどい試合を繰り返す
+report.big_matches,大舞台で力を発揮する
+report.injury_prone,ケガをしやすい
+report.dirty,汚いプレーをしがち
+report.versatile,複数のポジションをこなせる
+ui.market.no_results,条件に合う選手はいない。「全選手」を試すか、契約が満了するシーズン終了を待とう。
+ui.finances.max_level,最大レベル
+ui.news.editions,バックナンバー
+ui.help.title,ヘルプ · %s
+ui.help.button,この画面のヘルプ
+ui.help.generic,左のメニューで移動する。「続ける」（またはSpace）で次の出来事まで日程が進む：試合、返信が必要なふくろう便、または週の終わり。Ctrl+S（MacではCmd+S）でクイックセーブ、Alt+← と Alt+→ で戻る・進む。
+ui.help.inbox,ふくろう便はここに届く：理事会、スカウト、選手へのオファー、契約の提案、仕事のオファー。ボタン付きのものはあなたの返事を待っており、返信するまで日程は止まる。
+ui.help.squad,Football Managerと同じく能力値（1-20）付きの選手一覧：濃い緑16-20、薄い緑11-15、赤1-5。表示を切り替えて飛行・技術・メンタル・フィジカルを見る。見出しをクリックで並べ替え、選手をダブルクリックでプロフィールを開く。先発は太字、★はキャプテン。
+ui.help.player,◆はそのポジションの重要能力。矢印は前回の月次評価以降に能力が上がったか下がったかを示す。他地域の選手は、スカウトが詳しく知るまで範囲で表示される。「アクション」から契約更新、売却リスト掲載、キャプテン任命、オファー、契約ができる。
+ui.help.lineup,7人を選ぶ：キーパー1人、チェイサー3人、ビーター2人、シーカー1人。（原作どおり）試合中の交代はない：誰かが負傷や退場になれば6人で戦い続ける。チーム指示とシーカーへの命令（いつスニッチを捕るか）が主な武器だ。
+ui.help.match,試合は出来事ごとに実況される。表示：「実況」（テキスト）、「2D＋実況」（駒の動くピッチ、時計の進みは遅め）、「スコアのみ」（最後まで一気に）。観戦、一時停止、次の場面へのスキップ、速度変更ができる。試合中の戦術は次の中断で反映される。「タイムアウトを取る」でプレーを止め、もう一度声をかけられる。シーカーがスニッチを捕る（150点）と試合終了。
+ui.help.table,日刊予言者新聞の順位表と同じく、リーグは総得点で順位が決まる：負けた試合でもゴールはすべて加算される。同点の場合は失点の少なさ、次にスニッチ捕獲数。ダブルクリックでクラブを開く。
+ui.help.calendar,今シーズンの全試合を日付、競技場、結果とともに表示。カップ戦とワールドカップの試合は抽選後に表示される。
+ui.help.training,トレーニングは2週間ごとに能力値を少しずつ変える。チームの重点（戦術、飛行、フィジカルなど）はその能力を伸ばしやすく、激しい負荷は伸びが速いが負傷も増える。始めのうちはアシスタントに任せるのが無難だ。
+ui.help.market,フリー選手、リスト掲載選手、そして全世界。オファーはふくろう便で数日中に決着する。スカウトが知らない地域の選手は能力値が範囲で表示される。
+ui.help.finances,残高、予算に対する給与、スポンサー、入場料（荒れ地での収益は魔法ゲーム・スポーツ部が分配）。施設の改良や箒の購入ができる。新しい箒は最も箒の悪い先発選手に渡る。
+ui.help.board,シーズン目標と理事会の信頼。目標から大きく外れ、信頼も低いとシーズン終了時に解任される。
+ui.help.scouting,スカウトはそれぞれ1地域を担当し、クラブのその地域に関する情報量を高める。地域をよく知るほど、移籍市場でその地域の選手が正確に見える。
+ui.help.competitions,世界中のリーグ、欧州カップ（3年ごと）、ワールドカップ（4年ごと）：グループ、トーナメント表、結果。
+ui.help.schools,学校は運営できない。寮のある学校（ホグワーツ、イルヴァーモーニー）は毎シーズン同じエンジンでクィディッチ杯を戦う。生徒は18歳で卒業し、地域のクラブのユースに入る。「原作の出来事」をオンにすると、原作に登場するホグワーツの試合は原作どおりに終わる。
+ui.help.saves,いつでもセーブできる。ゲームごとに専用フォルダがある。Ctrl+Sで現在の名前にクイックセーブ。
+ui.ok,了解
+ui.market.not_loanable,その選手はレンタルできない。
+ui.market.squad_full,選手枠がいっぱいだ（17人）。
+ui.market.loan_refused,クラブはレンタルに応じない：先発の一人と考えている。
+ui.market.loan_done,6月30日までのレンタルが成立。
+ui.market.on_loan_no_action,レンタル中：復帰するまで契約更新も売却もできない。
+ui.market.loans,レンタル可能
+ui.action.loan_request,レンタルを申し込む
+ui.action.loan_list_on,レンタルに出す
+ui.action.loan_list_off,レンタル募集を取り下げる
+ui.action.loan_end,元のクラブに戻す
+ui.on_loan_from,%s からレンタル中
+ui.on_loan_at,%s へレンタル中
+ui.loan_badge,レンタル
+ui.market.loan_listed,レンタル募集中
+msg.loan_in.subject,{player} がレンタルで加入
+msg.loan_in.body,{club} は {player} を6月30日までレンタルすることに同意。在籍中の給与（週 {wage}）はこちらが払う。
+msg.loan_out.subject,{player} がレンタル移籍
+msg.loan_out.body,{club} が {player} を6月30日までレンタルで獲得。給与は先方が払い、シーズン終了時に戻ってくる。
+msg.loan_ended.subject,{player} のレンタル終了
+msg.loan_ended.body,{player} は {club} に戻った：シーズン終了でレンタルが満了した。
+msg.loan_returned.subject,{player} がレンタルから復帰
+msg.loan_returned.body,{player} がクラブに戻り、監督の起用が可能になった。
+news.loan,{to} が {from} から {player} をレンタルで獲得
+ui.saves.none,セーブデータはない。
+ui.menu.settings,設定
+ui.settings.display,表示
+ui.settings.text_size,文字サイズ
+ui.settings.density,密度
+ui.settings.density_compact,コンパクト（行が多い）
+ui.settings.density_comfortable,ゆったり（余白が多い）
+ui.settings.note,文字サイズと密度は独立している：行数を減らさずに大きく読むことも、その逆もできる。ウィンドウもサイズに合わせて拡大縮小する。
+ui.settings.shortcuts,ショートカット
+ui.settings.about,情報
+ui.settings.about_text,原作に忠実な非営利ファンプロジェクト。ハリー・ポッターとクィディッチはJ.K.ローリング／ワーナー・ブラザースの財産です。ライセンスはATTRIBUTION.mdを参照。
+ui.help.settings,言語、文字サイズ、表の密度。次回のために保存される。
+ui.talk.title_pre,試合前の声かけ
+ui.talk.title_timeout,タイムアウトの声かけ
+ui.talk.note,選手はそれぞれの性格に応じて反応する。ハーフタイムはない：この後はタイムアウト中にしか話せない。
+ui.talk.skip,話さない
+ui.talk.reaction,ロッカールームの反応
+ui.talk.good,好反応：%s。
+ui.talk.bad,気持ちが切れた：%s。
+talk.tone.calm,落ち着け
+talk.tone.calm.tip,プレッシャーを和らげる。重圧を感じている選手に効く。
+talk.tone.encourage,お前たちを信じている
+talk.tone.encourage.tip,励まし。負けている時や士気が低い時に最適。
+talk.tone.demand,もっとやれるはずだ
+talk.tone.demand.tip,厳しい要求。プロ意識の高い選手には効くが、気分屋は沈む。
+talk.tone.angry,こんなのは許されない
+talk.tone.angry.tip,怒り。負けている時だけ意味がある。それ以外では逆効果。
+talk.result.great,ロッカールームは燃え上がって飛び出していく。
+talk.result.good,大半の選手が応える。
+talk.result.mixed,反応はまちまち。
+talk.result.bad,タイミングが悪い：何人かは気持ちが切れた。
+msg.reserves.subject,控え：{home} {sh}–{sa} {away}
+msg.reserves.body,控えチームが {away} の控えと毎週の親善試合を行った：{home} {sh} – {sa} {away}。{best} が目立った。控え選手たちは試合勘を保っている。
+from.assistant,アシスタント
+ui.match.view,表示
+ui.match.view_text,実況
+ui.match.view_2d,2D＋実況
+ui.match.view_score,スコアのみ
+ui.match.replay,リプレイ
+ui.match.replay_skip,スキップ
+ui.match.replay_tip,最後のゴールかスニッチ捕獲をもう一度見せる（2Dビューア）。
+match.caption.replay_catch,リプレイ · %s の捕獲
+match.caption.goal,%s のゴール！
+match.caption.save,%s のセーブ
+match.caption.bludger,ブラッジャーが %s に命中！
+match.caption.sighted,%s がスニッチを発見
+match.caption.caught,%s がスニッチを捕った！
+match.caption.foul,%s の反則
+match.caption.injury,%s が負傷
+match.caption.send_off,%s が退場
+match.caption.timeout,タイムアウト：%s
+match.caption.feint,%s のウロンスキー・フェイント！
+match.caption.end,試合終了
+ui.menu.encyclopedia,事典
+ui.enc.tabs,"ルール,反則,箒,クラブ,ワールドカップ"
+ui.enc.rules_intro,ルールは原作と『クィディッチ今昔』に基づく。
+ui.enc.rules_text,"• 1チーム7人：キーパー1人、チェイサー3人、ビーター2人、シーカー1人。
+• 3つの輪のどれかにクアッフルを通すとゴール：10点。金のスニッチを捕ると150点で試合終了。
+• 交代なし：負傷や退場の選手は補充されず、チームは6人（またはそれ以下）で戦い続ける。
+• 試合はスニッチが捕まるまで続く：数分のことも数日のこともある。
+• 数日にわたる試合には夜間休止と交代での睡眠がある。誰もスニッチを捕らなければ、キャプテン同士の合意で終了できる。
+• タイムアウト：キャプテンが取れる。試合が12時間を超えると最大2時間、通常の試合では5分。
+• ゴールの後は、失点した側のキーパーがプレーを再開する。
+• スニッチに触れてよいのはシーカーだけ（スニッチニップ）：違反したチームは没収負け。観客が選手に呪いをかけた場合も没収試合。
+• ゴールエリアに入れるチェイサーは1人だけ（スツージング、1884年）：2人以上入ればゴールは取り消し。
+• リーグはホグワーツの寮杯のように総得点で順位が決まる。カップ戦は引き分けなら再試合。ワールドカップのグループステージは4時間制限。"
+foul.blagging,ブラッギング
+foul.blagging.desc,相手の箒の尾をつかんで減速させたり妨害したりする。ペナルティ。
+foul.blatching,ブラッチング
+foul.blatching.desc,衝突する意図で飛ぶ。ペナルティ。悪質なら退場。
+foul.blurting,ブラーティング
+foul.blurting.desc,相手の箒の柄に自分の柄を引っかけてコースから外す。ペナルティ（処分は推定）。
+foul.bumphing,バンフィング
+foul.bumphing.desc,ブラッジャーを観客席に打ち込んでプレーを止めさせる。プレーは止まり、ペナルティが与えられる。
+foul.cobbing,コビング
+foul.cobbing.desc,相手に対して肘を過度に使う。ペナルティ。
+foul.flacking,フラッキング
+foul.flacking.desc,キーパーが体の一部を輪の向こうに出してクアッフルを叩き出す。ゴールは認められる。
+foul.haversacking,ハバーサッキング
+foul.haversacking.desc,チェイサーがクアッフルに手を触れたまま輪をくぐる（投げなければならない）。ゴール取り消し。
+foul.quaffle_pocking,クアッフル-ポッキング
+foul.quaffle_pocking.desc,クアッフルに細工する（穴を開けるなど）。ペナルティ。
+foul.snitchnip,スニッチニップ
+foul.snitchnip.desc,シーカー以外の選手がスニッチに触れる。そのチームは没収負け。
+foul.stooging,スツージング
+foul.stooging.desc,ゴールエリアに2人以上のチェイサーが入る。ゴール取り消しとペナルティ（1884年の規則）。
+foul.grabbing,つかみ
+foul.grabbing.desc,相手をつかむ（規則第4条：他の選手をつかんではならない）。1994年、モンタギューがケイティ・ベルに。ペナルティ。
+foul.bat_strike,棍棒打ち
+foul.bat_strike.desc,相手を棍棒で殴る。ボールがアリシア・スピネットに（1994年）。故意ならペナルティ。
+foul.keeper_attack,キーパーへの攻撃
+foul.keeper_attack.desc,クアッフルがない時にビーターがキーパーに襲いかかる。ペナルティ。
+foul.blocking_seeker,シーカーへの妨害
+foul.blocking_seeker.desc,相手シーカーを故意に妨害する。フリントがハリー・ポッターに（1991年）。ペナルティ。
+ui.enc.foul_who.any,誰でも
+ui.enc.foul_who.beater,ビーター
+ui.enc.foul_who.keeper,キーパー
+ui.enc.foul_who.chaser,チェイサー
+ui.enc.foul_who.non_seeker,シーカー以外
+ui.enc.brooms_note,1993-94年に入手できる箒とその性能（1-20）、価格。
+ui.enc.col.manufacturer,製造元
+ui.enc.col.year,年
+ui.enc.clubs_note,世界のクラブの歴史と特徴。
+club.puddlemere.oldest,1163年創設、リーグ最古のクラブ。濃紺のローブに交差した2本の金のガマの穂。リーグ優勝22回、欧州カップ2回。
+club.puddlemere.anthem,クラブ歌「ブラッジャーを打ち返せ、クアッフルをこっちへ投げろ」は、聖マンゴ病院を支援するためセレスティナ・ワーベックが録音した。
+club.puddlemere.reserve_team,グリフィンドールのキャプテン、オリバー・ウッドは1994年にホグワーツを卒業すると控えチームと契約した。
+club.bats.butterbeer_ads,北アイルランドのクラブ。黒いローブに緋色のコウモリ。リーグ優勝27回。マスコットのフルーツコウモリ、バーニーはバタービールの広告でおなじみ。
+club.cannons.ron_weasley_fan,オレンジのローブに黒い砲弾と二重のC。リーグ優勝21回、最後は1892年。最も有名なファンはロン・ウィーズリー。
+club.catapults.dangerous_dai,1402年創設。緑と緋色の縦縞。リーグ優勝18回。ミコノス島での休暇中にキメラに食われた「危険な」ダイ・ルウェリンの名は、最も無謀な選手に毎年贈られるメダルに残っている。
+club.falcons.broadmoor_brothers,濃い灰色と白のローブにハヤブサの頭。伝統的にラフプレー：ケビンとカールのブロードムーア兄弟（1958-1969）は14回も出場停止になった。モットーは「勝とう、だが勝てないなら、何人かの頭をかち割ろう」。
+club.falcons.comet_founders,ファルコンズの選手ランドルフ・キーチとバジル・ホートンが1929年にコメット商会を創業した。
+club.harpies.only_witches,ウェールズのクラブ、1203年創設。深緑のローブに金の鉤爪。魔女だけのチーム。1953年、グウェンドリン・モーガンはクリーンスイープ5号でルドルフ・ブラントを殴り倒した。
+club.kestrels.darren_ohare,アイルランドのクラブ、1291年創設。エメラルドのローブに黄色いKが2つ。マスコットはレプラコーン、サポーターはハープを奏でる。アイルランドのキーパー兼キャプテン、ダレン・オヘアはホークスヘッド攻撃フォーメーションを考案した。
+club.kestrels.seamus_finnigan,ホグワーツにもファンがいる：ハリーのグリフィンドールの同級生、シェーマス・フィネガン。
+club.magpies.most_successful,スコットランドのクラブ。黒と白のローブ。リーグ最多の成功を収めたクラブ：優勝32回、欧州カップ2回。ユーニス・マレー（1942年）は「簡単すぎる」としてもっと速いスニッチを請願した。1957-1968年のキャプテン、ハミッシュ・マクファーランはのちに魔法ゲーム・スポーツ部を率いた。
+club.magpies.mcgonagall_fan,ミネルバ・マクゴナガルは公言するマグパイズのサポーター。
+club.portree.catriona_mccormack,スカイ島のクラブ、1292年創設。濃い紫のローブに金の星。カトリオーナ・マコーマックは1960年代にキャプテンとしてリーグ優勝2回に導き、スコットランド代表で36試合に出場した。娘のミーガンはキーパー、息子のカーリーは妖女シスターズのメンバー。
+club.tornados.five_in_a_row,グロスターシャーのクラブ。空色のローブに二重のT。20世紀初頭にリーグ5連覇の記録。
+club.tornados.plumpton,シーカーのロデリック・プランプトンは1921年、ケアフィリー・カタパルツ戦で3.5秒でスニッチを捕った：リーグ記録（「プランプトン・パス」）。
+club.wanderers.parkin_family,スコットランドのクラブ、1422年に肉屋ウォルター・パーキンの7人の子どもたちが創設。血のように赤いローブに銀の肉切り包丁。パーキンズ・ピンサーの考案者。
+club.wanderers.whisp_fan,『クィディッチ今昔』の著者ケニルワーシー・ウィスプがサポーター。
+club.wasps.wasp_nest_origin,ドーセットのクラブ、1312年創設。黄色と黒の縞のローブにスズメバチ。名前の由来は17世紀のある試合で、ビーターがアローズのシーカーめがけてスズメバチの巣を打ち込んだこと。サポーターはブンブン唸って相手を威圧する。
+club.wasps.bagman_three_titles,リーグ優勝18回、欧州カップ準決勝進出2回。のちに魔法ゲーム・スポーツ部の部長となるルード・バグマンは、1980年代にビーターとして活躍した。
+club.vratsa.long_goal,欧州カップ7回優勝。ロングシュートで有名。
+club.quiberon.pink_robes,ショッキングピンクのローブ。ブルターニュ発の派手なプレー。
+club.gimbi.all_africa,エチオピアのクラブ。全アフリカ・カップ2回優勝。
+club.fitchburg.brankovitch,米国リーグ優勝7回。シーカーのマキシマス・ブランコビッチ3世は直近2回のワールドカップでアメリカ代表のキャプテンを務めた。
+ui.help.encyclopedia,ルール、反則、当時の箒、クラブとワールドカップの歴史。
+ui.finances.price,価格
+club.arrows.vratsa_1932,1612年創設。淡い青のローブに銀の矢。1932年、当時の欧州王者ヴラッツァ・ヴァルチャーズを、濃い霧の中で16日間に及んだ試合の末に破った。1894年まで、サポーターはゴールのたびに杖から矢を放っていた。
+club.catapults.european_cup_1956,ノルウェーのカラショーク・カイツを破った1956年の欧州カップが最大のタイトル。
+club.cannons.motto_1972,1972年以来のモットーは「みんなで指を交差させて、うまくいくよう祈ろう」。
+club.harpies.heidelberg_1953,1953年、ハイデルベルク・ハリアーズとの7日間に及ぶ試合はハーピーズの勝利に終わった。
+club.vratsa.appleby_1932,当時の欧州王者だったが、1932年、霧の中で16日間に及んだ試合の末にアップルビー・アローズに敗れた。
+club.generic.style.balanced,特徴のないバランス型チーム：秩序と経験で勝つ。
+club.generic.style.attacking,攻撃的なスタイル：チェイサーは広がった布陣で、1試合に多くのシュートを放つ。
+club.generic.style.defensive,守備の伝統：厳しいマークと、相手チェイサーに張りつくビーター。
+club.generic.style.hard,激しくフィジカルなプレー。ビーターはリーグ中で有名。
+club.generic.style.showmanship,フェイントと危険なプレーで観客を沸かせる派手なクラブ。
+club.generic.titles,リーグ優勝の歴史は{n}回。
+club.generic.no_titles,初のリーグ優勝をまだ目指している。
+club.generic.one_title,リーグ優勝の歴史は1回。
+ui.enc.sources_line,出典：『クィディッチ今昔』（第6章）、『ハリー・ポッターと賢者の石』（第10-11章）、『アズカバンの囚人』（第15章）、『炎のゴブレット』（第8章）、Pottermore 2014。
+ui.enc.src.books,原作
+ui.enc.col.who,誰が？
+msg.graduate.subject,{school} の卒業生：{player}
+msg.graduate.body,{player}（{pos}）が {school} を卒業し、わがユースに加わった。スカウトは控えの試合で見ておくよう勧めている。
+ui.squad.school,生徒
+ui.school.cup,クィディッチ杯
+ui.school.fixtures,試合
+ui.school.roster,寮チーム
+ui.school.graduates,今年の卒業生
+ui.school.cups,優勝杯
+ui.school.no_cup,今シーズンは学校のクィディッチ杯はない。
+ui.school.students_of,チーム所属の生徒
+ui.school.alumni,ユース育成：クラブにいる卒業生（21歳まで）
+ui.school.house,寮
+ui.school.year,%d年生
+ui.school.student,生徒
+ui.school.graduates_at,17〜18歳で卒業
+award.wronski,ヨーゼフ・ウロンスキー優秀ピッチ技能賞
+award.top_scorer,得点王
+award.top_catcher,スニッチ最多捕獲
+award.best_keeper,シーズン最優秀キーパー
+award.dangerous_dai,「危険な」ダイ記念メダル
+award.team_of_season,シーズンのベストチーム
+news.award,{award}、{league}：{player}（{club}）
+msg.award.subject,{player} が {award} を受賞
+msg.award.body,リーグは {player} に {award} を贈った。ロッカールームは祝福ムードだ。
+ui.history.awards,受賞
+ui.profile.awards,受賞
+ui.market.offer_pending,その選手にはすでに交渉中のオファーがある。
+from.agent,選手の代理人
+msg.offer_countered.subject,{club} が {player} について逆提案
+msg.offer_countered.body,{club} は {player} に {fee} では応じないが、{counter} なら売るという。受け入れるか、間を取るか、手を引くかだ。
+ui.action.accept_counter,言い値を払う
+ui.action.counter_again,間を取る
+msg.agent_terms.subject,{player} の代理人が条件を提示
+msg.agent_terms.body,{club} は {fee} を受諾。{player} の代理人は週給 {wage} で3シーズン、さらに契約金 {bonus}（代理人手数料）を求めている。契約する、値切る（週給85 %、契約金半額。決裂の恐れあり）、撤回する、のいずれかだ。
+ui.action.contract_counter,値切る
+msg.agent_walks.subject,{player} が交渉を打ち切り
+msg.agent_walks.body,{player} の代理人はこちらの条件を拒否し、交渉を打ち切った。
+ui.action.counter_incoming,25 % 上乗せを求める
+msg.incoming_counter_ok.body,{club} は {player} に {fee} を払うことに同意。売却を成立させるか？
+msg.incoming_counter_no.subject,{club} が {player} から撤退
+msg.incoming_counter_no.body,{club} は {player} に {fee} までは出せず、撤退した。
+ui.action.swap,トレードを提案
+ui.swap.title,%s とのトレード
+ui.swap.player,差し出す選手
+ui.swap.cash,追加の現金（G）
+ui.swap.send,提案を送る
+ui.help.market_negotiation,オファーは何回かのやり取りで交渉される：クラブは逆提案することがあり、選手の代理人が週給と契約金を決める。
+ui.menu.national,代表チーム
+from.federation,連盟
+msg.nt_offer.subject,{team} が代表監督の職をオファー
+msg.nt_offer.body,連盟はワールドカップ・サイクルの間、クラブと兼任で {team} を率いてほしいと望んでいる。その国籍の選手から7人を選び、戦術を決め、代表戦も自ら指揮する。
+ui.action.accept_nt,仕事を引き受ける
+msg.nt_welcome.subject,{team} へようこそ
+msg.nt_welcome.body,あなたは {team} の監督になった。「代表チーム」画面で7人と戦術を設定する。試合はワールドカップの日程に表示される。
+msg.nt_champion.subject,{team}、{year}年世界王者！
+msg.nt_champion.body,連盟はあなたへの信頼を新たにし、あなたの評判は急上昇した。
+msg.nt_kept.subject,連盟があなたを続投させる
+msg.nt_kept.body,{team} は {year}年ワールドカップの決勝ステージに進んだ。あなたは次のサイクルも続投する。
+msg.nt_sacked.subject,連盟があなたを解任
+msg.nt_sacked.body,{team} は {year}年ワールドカップのグループを突破できなかった。代表監督としての任期は終わりだ。
+ui.help.national,その国籍の全選手（シミュレート対象外のリーグの選手を含む）から7人と戦術を選ぶ。代表戦はクラブの試合と同じように行われる。
+match.caption.replay,リプレイ · %s のゴール
+from.press,日刊予言者新聞（記者）
+press.subject,記者会見
+press.q.win,「監督、{rival} 相手に {score}。どうご覧になりましたか？」
+press.q.big_win,「{rival} を {score} で圧倒。このチームは優勝候補ですか？」
+press.q.loss,「{rival} に {score} で敗戦。何がいけなかったのでしょう？」
+press.q.draw,「{rival} と {score} の引き分け。勝ち点2を落とした感覚ですか？」
+press.q.caught_lost,「シーカーがスニッチを捕ったのに {score} で敗れました。あなたの判断ですか？」
+press.q.long,「数時間に及ぶ試合で {score}。疲労はどう管理しましたか？」
+press.a.win.humble,選手たちのおかげです。一試合ずつ戦っていくだけです。
+press.a.win.confident,われわれは非常に強いチームだし、これからもそれを証明していく。
+press.a.win.critical,勝ちはしたが、内容はお粗末だった。もっと期待している。
+press.a.big_win.humble,良い一日でした。それで何かが変わるわけではありません。
+press.a.big_win.confident,ええ、リーグ優勝を狙います。
+press.a.big_win.critical,今日でさえ、私が許せないミスがあった。
+press.a.loss.humble,相手のほうが上でした。ここから学びます。
+press.a.loss.confident,一時のつまずきです。チームは問題ありません。
+press.a.loss.critical,力を出し切れなかった選手がいた。
+press.a.draw.humble,妥当な結果です。
+press.a.draw.confident,勝つに値する内容だった。
+press.a.draw.critical,意欲が足りなかった。
+press.a.caught_lost.humble,シーカーは正しいことをした。問題は点差だった。
+press.a.caught_lost.confident,私の判断だ。出血を止めたのだ。
+press.a.caught_lost.critical,いいえ。彼とは話をするつもりだ。
+press.a.long.humble,選手たちは英雄的だった。
+press.a.long.confident,練習でこれに備えていた。
+press.a.long.critical,もっと早く決着をつけるべきだった。
+press.effect.humble,ロッカールームはそれを評価している。
+press.effect.confident,選手たちは手応えを感じ、理事会も注目している。
+press.effect.critical,何人かの選手は傷ついたが、理事会は厳しさを評価している。
+ui.action.talk,選手と話す
+ui.talk.player_title,%s と面談
+ui.close,閉じる
+talk.player.praise,調子を褒める
+talk.player.praise.tip,士気を上げる。すでに有頂天なら空々しく聞こえる。
+talk.player.demand,もっと求める
+talk.player.demand.tip,プロ意識の高い選手は応えるが、気分屋はふてくされる。
+talk.player.promise,先発を約束する
+talk.player.promise.tip,60日以内に3試合先発させないとふてくされる（移籍を願い出ることも）。
+talk.player.praise_ok,笑顔になった：士気が上がる。
+talk.player.praise_empty,すでに有頂天だ。空々しく聞こえる。
+talk.player.demand_ok,うなずいた：もっと頑張るだろう。
+talk.player.demand_bad,気を悪くした。
+talk.player.promise_ok,約束した：60日以内に3試合。
+talk.player.promise_exists,すでに果たされていない約束がある。
+msg.promise_kept.subject,{player} が信頼に感謝
+msg.promise_kept.body,{player} への先発の約束を守った：士気が上がる。
+msg.promise_broken.subject,{player} が傷ついている
+msg.promise_broken.body,{player} への先発の約束を破った。怒っており、野心家なら移籍を願い出るだろう。
+ui.help.press,試合後、日刊予言者新聞が質問をする：謙虚（落ち着かせる）、自信（勝った時は士気が上がる）、批判的（選手は傷つくが、理事会は喜ぶ）。
+ui.settings.game,ゲーム
+ui.settings.press,毎試合後に記者会見
+ui.settings.replays,2Dビューアでゴールと捕獲を自動リプレイ
+ui.settings.book_events,原作の出来事（ホグワーツ、1994年ワールドカップ…）
+match.goal.shot.v2,{player} が輪の真ん中を射抜いた！ {score}
+match.goal.shot.v3,ゴール！ {player} がキーパーを破る。{score}
+match.goal.shot.v4,見事な連係から {player} が決めた！ {score}
+match.goal.long_shot.v2,{player} が中盤から叩き込んだ！ {score}
+match.save.v2,{player} が手を伸ばして {other} のシュートを弾き出す。
+match.save.v3,{player} の何という反射神経！ {other} は信じられない様子。
+match.save.v4,{player} が {other} の前で輪をしっかり守る。
+match.bludger_hit.v2,{player} の背中にブラッジャーが直撃！
+match.bludger_hit.v3,ブラッジャーが {player} を捉え、一瞬バランスを失う。
+match.bludger_hit.v4,{player} に強烈なブラッジャー！
+match.pass.v2,{player} がロングパスで {other} を見つけた。
+match.pass.v3,{player} から {other} へショートパス。
+match.advance.v2,{player} がクアッフルを小脇に抱えて上昇。
+match.advance.v3,{player} が低空飛行でラインを突破。
+match.advance_blocked.v2,{other} が {player} の行く手をふさぐ。
+match.advance_blocked.v3,{player} は隙間を見つけられない：{other} が止めた。
+match.snitch_caught.v2,捕ったぁ！！ {player} の拳がスニッチを握りしめた！ {score}
+match.snitch_caught.v3,{player} が急降下し、スニッチを捕った！ {score}
+news.match.result.v2,"{home} {sh} – {sa} {away}
+{venue} にて {duration} の試合。{catcher} が {snitch_club} のためにスニッチを捕った。"
+news.match.result.v3,"{home} {sh} – {sa} {away}
+{venue} での {duration} の試合。スニッチは {catcher}（{snitch_club}）の手に。"
+news.injury.v2,"{club} に負傷者
+魔法医の見立てでは、{player} は {days} 日間の離脱。"
+match.miss.v2,{player} のシュートは輪をそれた。
+match.miss.v3,{player} は上の輪を狙うも外れ。
+match.snitch_sighted.v2,金色のきらめき！ {player} が最初に見つけた。
+match.snitch_sighted.v3,{player} が急に進路を変えた：スニッチだ！
+ui.settings.audio,サウンド
+ui.settings.sfx,効果音と観客
+ui.settings.music,音楽
+ui.settings.audio_note,すべての音はゲーム自身が合成している（ホイッスル、ゴール、ブラッジャー、スニッチ、観客、オリジナルテーマ曲）：第三者の素材は使っていない。
+ui.squad.abroad,シミュレート対象外のリーグに所属
+ui.post.title,試合レポート
+ui.post.won,勝利
+ui.post.lost,敗戦
+ui.post.drew,引き分け
+ui.post.no_snitch,捕獲なし
+ui.post.ratings,自チームの評価
+ui.post.best,マン・オブ・ザ・マッチ：%s（%.1f）
+ui.post.key_moments,重要な場面
+ui.stat.possessions,ポゼッション
+ui.post.board_up,理事会は結果に満足している。
+ui.post.board_flat,理事会はもっと期待していた。
+ui.post.board_down,理事会は不満だ。
+ui.post.continue,オフィスに戻る
+ui.help.post_match,スコア、重要な場面、選手の評価（ダブルクリックでプロフィール）、スタッツ、理事会の反応。
+msg.friendlies.subject,プレシーズン：親善試合2試合
+msg.friendlies.body,8月に親善試合を2試合組みました：{a} 戦（ホーム、12日）と {b} 戦（アウェー、22日）。結果は関係ありません。布陣を試し、試合勘を養うのに使ってください。
+ui.col.competition,大会
+ui.col.year,年
+ui.col.played,試
+ui.col.ability,能力
+ui.table.no_competition,今年は大会がない：クィディッチ杯は中止。チームは練習を続ける。
+ui.col.won,勝
+ui.col.drawn,分
+ui.col.lost,敗
+ui.col.champion,優勝
+ui.history.school_cup,%s クィディッチ杯
+ui.history.world_cup,クィディッチ・ワールドカップ
+ui.history.european_cup,欧州カップ
+ui.nt.pool,選考対象の選手
+ui.menu.next_match,次の試合
+msg.assistant.subject,アシスタントの週報
+msg.assistant.body,{lines}
+msg.assistant.expiring,• 4か月以内に契約満了：%s。
+msg.assistant.unhappy,• 士気がどん底：%s。声をかける価値あり。
+msg.assistant.injured,• 長期負傷（日数）：%s。
+msg.assistant.hot,• 好調：%s。
+msg.assistant.cold,• 最近不調：%s。
+ui.stats.leaders,シーズンのトップ選手
+ui.stats.records,リーグ記録
+ui.stats.longest,最長試合：%s — %d時間%02d分
+ui.stats.most_points,1試合最多得点：%s — %d
+ui.stats.biggest,最大点差：%s — %d点
+ui.staff.title,スタッフ
+ui.staff.note,レベルごとに担当分野が向上する。各役職の候補を探そう：優秀な人材は名門クラブを望む。
+ui.staff.upgrade,より優秀な人を雇う（%s）
+ui.staff.max,すでに国内最高の人材がいる。
+ui.staff.hired,雇用した。
+staff.assistant,アシスタントマネージャー
+staff.assistant.tip,トレーニングを指導：成長が速くなる。
+staff.mediwizard,魔法医
+staff.mediwizard.tip,回復が速くなる。
+staff.head_scout,チーフスカウト
+staff.head_scout.tip,地域の情報が速く増える。
+staff.broom_master,箒職人
+staff.broom_master.tip,箒の消耗が遅くなる。
+ui.training.focus_ind,個人の重点
+ui.training.focus_team,チームの重点
+ui.training.mentor,メンター
+ui.training.focus_tip,表で選手を選ぶと、個人プランで個人の重点を設定できる（アシスタントに任せていない時のみ）。
+ui.training.mentor_tip,プロ意識の高いベテラン（28歳以上）が若手（23歳まで）を指導：士気とメンタル能力が上がる。
+ui.training.prof,プロ
+msg.board_request.subject,理事会からの要望
+msg.board_request.facility,理事会は3か月以内に「{facility}」施設の改良を望んでいる。
+msg.board_request.sell,理事会は {pos} の選手が多すぎると考えている：3か月以内に1人売却か放出を。
+msg.board_request.wages,給与総額（{wages}）が予算（{budget}）を超えている。理事会は3か月以内の削減を望んでいる。
+msg.board_request_done.subject,理事会が感謝
+msg.board_request_done.body,理事会の要望を満たした。信頼が上がる。
+msg.board_request_failed.subject,理事会が不満
+msg.board_request_failed.body,理事会の要望は期限切れで未達成。信頼が下がる。
+ui.board.pending,未解決の要望
+ui.board.req.facility,改良：%s
+ui.board.req.sell_surplus,余剰の %s を売却
+ui.board.req.wages,給与総額を %s G に削減
+ui.board.negotiate,目標を交渉する
+ui.board.propose,提案
+ui.board.negotiate_note,高い目標＝移籍予算が増え、プレッシャーも増す。控えめな目標＝予算が減り、プレッシャーも減る。8月のみ。
+msg.objective_up.subject,より野心的な目標
+msg.objective_up.body,理事会は「{objective}」を受け入れ、移籍予算に {amount} を追加する。
+msg.objective_down.subject,より控えめな目標
+msg.objective_down.body,理事会は「{objective}」を受け入れるが、移籍予算を削る。
+ui.board.hall,殿堂
+ui.board.last_title,最後のタイトル
+ui.board.legends,レジェンドと受賞
+ui.board.top_scorer_hist,%s — クラブ通算%dゴール
+ui.board.seasons,シーズン数
+from.scout,チーフスカウト
+msg.scout_recs.subject,スカウトの推薦
+msg.scout_recs.body,{pos} が手薄です。予算内の候補を3人：\n• {picks}
+msg.shortlist.subject,注目リストの最新情報
+msg.shortlist.listed,{player}（{club}）が移籍リストに載った。
+msg.shortlist.expiring,{player}（{club}）の契約が4か月以内に満了する。
+news.rumours,移籍のうわさ\n本紙の取材によると、次の選手がオファーに耳を傾けている：{names}。
+ui.action.shortlist_on,注目リストに追加
+ui.action.shortlist_off,注目リストから外す
+ui.market.shortlist,注目リスト
+weather.clear,快晴
+weather.cloudy,曇り
+weather.wind,強風
+weather.rain,雨
+weather.storm,嵐
+weather.fog,霧
+match.weather.cloudy,荒れ地の上空は曇っている。
+match.weather.wind,強風が吹いている：ロングパスは苦しむだろう。
+match.weather.rain,土砂降りだ。スニッチは見つけにくく、クアッフルは滑りやすい。
+match.weather.storm,ピッチに嵐！ 雷鳴、強風、視界はほとんどない。
+match.weather.fog,濃い霧が荒れ地を覆う：シーカーたちは手探りで飛んでいる。
+match.goal.shot.v5,{player} が放ったクアッフルが下の輪を通り抜ける。{score}
+match.save.v5,{player} が輪から輪へ飛んで {other} のシュートを阻止！
+match.snitch_sighted.v4,観客が立ち上がる：{player} が金色の閃光を見た！
+match.advance.v4,{player} が相手ビーターの間を縫って進む。
+match.ai_defence.pincer,{team} はボール保持者を囲むためパーキンズ・ピンサーに切り替える。
+match.ai_defence.mark,{team} はパスを断つためマンマークに切り替える。
+defence.zone,ゾーン
+defence.pincer,パーキンズ・ピンサー
+defence.mark,マンマーク
+ui.tactic.chaser_defence,チェイサーの守備
+ui.assistant.counter,相手は %s で攻めてくる：%s で止められる。
+ui.assistant.counter_ok,良い判断：%s は %s に対する正しい守備だ。
+ui.assistant.defence_rule,パーキンズ・ピンサーはドリブル（ホークスヘッド、シミー）を止めるがパスに弱い。マンマークはパス（ポルスコフ、リバースパス、ルーピング）を断つがドリブルに弱い。
+ui.assistant.attack_vs_pincer,%s はパーキンズ・ピンサーで守る：パス攻撃（ポルスコフ、リバースパス、ルーピング）で崩せる。
+ui.assistant.attack_vs_mark,%s はマンマーク：ドリブル（ホークスヘッド、シミー）で崩せる。
+ui.enc.wc_note,歴代クィディッチ・ワールドカップの優勝国と決勝。
+ui.enc.champion,優勝
+ui.enc.runner_up,準優勝
+msg.european_cup_draw.subject,{year}年欧州カップ組み合わせ抽選
+msg.european_cup_draw.body,{year}年欧州カップの抽選が {n} クラブで行われた。われわれは出場できない：リーグでもっと上位に入ろう。
+venue.neutral_moor,中立の荒れ地
+venue.desert,サハラ砂漠
+venue.desert_island,無人島
+venue.steppe,草原
+venue.remote_coast,人里離れた海岸
+venue.bodmin,ボドミン・ムーア
+venue.vratsa,ヴラッツァの荒れ地
+venue.quiberon,キブロンの荒野
+venue.heidelberg,ハイデルベルクの空き地
+venue.braga,ブラガ高原
+venue.karasjok,カラショークのツンドラ
+venue.dartmoor,ダートムーア
+venue.patagonia,パタゴニアの砂漠
+venue.kazakh,カザフの荒れ地
+venue.mongolia,モンゴルの草原
+venue.pacific,太平洋の無人島
+venue.tanzania,タンザニアのサバンナ
+venue.altiplano,アンデスの高原
+news.quibbler.signature,— ザ・クィブラー
+commentary.lee_jordan.kickoff,マダム・フーチがクアッフルを放ちました！ 実況はリー・ジョーダン、今日は公平を約束します……まあ、だいたいね。クアッフルは {team}。
+commentary.lee_jordan.kickoff.v2,試合へようこそ！ メガホンを握るのはリー・ジョーダン、さあ始まりました：クアッフルは {team}。
+commentary.lee_jordan.goal,{player} のゴール！ {score}。いいプレーだ、それは認めよう。
+commentary.lee_jordan.goal.v2,入った！ {player} で {score}。
+commentary.lee_jordan.goal.v3,さらに10点！ {player} のゴール、{score}。
+commentary.lee_jordan.goal.gry,やったぁぁ！ {player} がグリフィンドールに得点！ {score}。なんて選手だ！ なんてゴールだ！
+commentary.lee_jordan.goal.gry.v2,グリフィンドール得点！ {player}、{score}。なんて飛びっぷりだ！
+commentary.lee_jordan.goal.gry.v3,{player} が左の輪に決めた！ グリフィンドールに10点！ {score}。
+commentary.lee_jordan.goal.sly,スリザリン得点。{player}。{score}。はい次。
+commentary.lee_jordan.goal.sly.v2,えー、{player} がスリザリンに得点、{score}。思ったことは言いません、すぐ隣に先生がいるので。
+commentary.lee_jordan.penalty_goal,{player} がペナルティを決めた！ {score}。正義だ。
+commentary.lee_jordan.save,{player} のなんというセーブ！ {other} は信じられない様子。
+commentary.lee_jordan.save.v2,{player} が端から端へ飛んで止めた！ {other} には何もなし。
+commentary.lee_jordan.miss,{player} がシュート……外れ！ ああ、惜しい。
+commentary.lee_jordan.miss.v2,{player} のシュートは外れ。ちょっと狙いの練習が必要かな。
+commentary.lee_jordan.foul,反則だ、恥知らずだ！
+commentary.lee_jordan.foul.v2,審判、頼むよ！ 天文台塔からでも見えたぞ！
+commentary.lee_jordan.foul.sly,スリザリンらしいよ！ 汚い、卑怯な……！
+commentary.lee_jordan.foul.sly.v2,スリザリンがまたやった！ あんなプレーは許されない！
+commentary.lee_jordan.snitch_sighted,待って、待って！ {player} が何か見つけた！ スニッチか？ スニッチだ！
+commentary.lee_jordan.snitch_sighted.v2,{player} が急降下！ スニッチを見つけたに違いない！
+commentary.lee_jordan.snitch_caught,{player} がスニッチを捕った！！ 試合終了！ {score}。
+commentary.lee_jordan.snitch_caught.gry,{player} がスニッチを捕った！！ グリフィンドールの勝ち！ グリフィンドールの勝ちだ！ {score}。
+commentary.lee_jordan.snitch_caught.sly,{player} がスリザリンのためにスニッチを捕りました。{score}。どんよりした日ですね？ 空まで喪に服しています。
+commentary.lee_jordan.wronski_feint,ウロンスキー・フェイントだ！ 見たか？ ものすごく危険だ！
+commentary.lee_jordan.bludger_hit,痛っ！ ここまで響いたよ。
+commentary.lee_jordan.bludger_hit.gry,グリフィンドールのビーターから見事なブラッジャー！ ああやるんだよ。
+commentary.lee_jordan.injury,マダム・ポンフリーが骨生え薬を用意してるといいけど。
+commentary.lee_jordan.match_end,試合終了！ リー・ジョーダンでした。また次回！
+commentary.lee_jordan.mcgonagall,"「ジョーダン！」
+「すみません、先生。続けます」"
+commentary.lee_jordan.mcgonagall.v2,"「ジョーダン、公平な実況をしてもらえませんか？」
+「やってますよ、先生、やってますって」"
+commentary.lee_jordan.mcgonagall.v3,"「ジョーダン！ ちゃんと実況しないなら……」
+「わかりました、わかりましたよ、先生」"
+commentary.bagman.kickoff,紳士淑女の皆さん、ようこそ！ ルード・バグマンです。なんという試合が待っていることでしょう！ クアッフルは {team}！
+commentary.bagman.kickoff.v2,ソノーラス！ 皆さん、ようこそ！ 試合開始、早くも {team} がクアッフルを持っています！
+commentary.bagman.goal,{player} のゴール！ {score}！ なんという動きでしょう、皆さん！
+commentary.bagman.goal.v2,入った！ {player}！ {score}！ 信じられない！
+commentary.bagman.goal.v3,ゴール！ {player} がキーパーを置き去りに！ {score}！
+commentary.bagman.goal.v4,10点！ {player}、やっぱり {player} だ！ {score}！
+commentary.bagman.penalty_goal,{player} がペナルティを決めた！ {score}！
+commentary.bagman.save,{player} の信じられないセーブ！ {other} は信じられない様子！
+commentary.bagman.save.v2,{player} が許さない！ なんというキーパー！
+commentary.bagman.miss,{player} がシュート……不死鳥の羽一本分外れた！
+commentary.bagman.miss.v2,おっと！ {player} のシュートは外れ！
+commentary.bagman.foul,おやおや、おやおや！ 審判はこれをまったく気に入らないでしょう！
+commentary.bagman.foul.v2,汚いプレーです、皆さん！ 汚いプレー！
+commentary.bagman.snitch_sighted,見てください！ {player} が急降下！ スニッチが見つかったのか？
+commentary.bagman.snitch_sighted.v2,{player} がスニッチを見つけた！ スタジアム中が総立ちだ！
+commentary.bagman.snitch_caught,{player} がスニッチを捕った！！ 試合終了です、皆さん！ {score}！
+commentary.bagman.snitch_caught.v2,スニッチだ！！ {player} が捕った！ なんという幕切れ！ {score}！
+commentary.bagman.wronski_feint,ウロンスキー・フェイント！ 非常に危険なシーカーの技です！
+commentary.bagman.bludger_hit,痛っ！ あれは痛いぞ！
+commentary.bagman.bludger_hit.v2,なんというブラッジャー！ スタンドまで音が聞こえました！
+commentary.bagman.injury,魔法医を呼べ！ 魔法医を呼べ！
+commentary.bagman.match_end,これで終わりです！ ルード・バグマンがお送りしました。なんという試合！
+commentary.name.lee_jordan,リー・ジョーダン
+commentary.name.bagman,ルード・バグマン
+ui.match.commentator,実況：%s
+ui.match.stakes,試合の行方
+ui.match.stakes_now,現状：順位表 %s（%s）。
+ui.match.stakes_catch,今スニッチを捕ると：%s（%s）。
+ui.match.stakes_need,首位に立つには、スニッチを捕る前にあと %d 点必要。
+ui.match.stakes_catch_top,今捕れば首位に立つ！
+ui.match.stakes_leader,首位
+ui.match.stakes_gap,首位まで %d 点
+ui.match.stakes_margin,現在の点差 %s：グループ勝ち点 %d。
+ui.match.stakes_margin_catch,今スニッチを捕ると点差 %s：グループ勝ち点 %d。
+ui.match.stakes_bonus_rule,グループ：勝利で2点、さらに50/100/150点差以上の勝利で1/3/5点。
+commentary.lee_jordan.bludger_hit.v2,うわっ！ あのブラッジャーは本気だった。
+commentary.lee_jordan.bludger_hit.v3,ブラッジャーがあばらに直撃。明日は痛むぞ。
+commentary.lee_jordan.bludger_hit.gry.v2,ウィーズリーの双子は容赦しない！ まあ、今上にいるグリフィンドールのビーターが誰であれね。
+commentary.bagman.bludger_hit.v3,腹にまともに！ なんというビーターでしょう、皆さん！
+commentary.lee_jordan.foul.v3,それで？ あれが反則じゃないって？ 反則だろ！
+commentary.bagman.foul.v3,ホイッスル！ 当然の判定です！
+commentary.bagman.save.v3,{player} の大きな手！ クアッフルが弾き飛ばされる！
+commentary.bagman.save.v4,{player} が猫のように体を伸ばして防いだ！ なんという反射神経！
+commentary.bagman.save.v5,{player} がいる限り、あの輪は何も通さない！
+commentary.bagman.miss.v3,{player} が狙って……クアッフルはスタンドへ！ 20列目の誰かにお土産だ！
+commentary.bagman.goal.v5,{player} の見事なフィニッシュ！ {score}！ スタンドは熱狂の渦！
+commentary.bagman.goal.v6,{player} が3人のディフェンダーをかわして……ゴール！ {score}！
+commentary.lee_jordan.save.v3,{player} のビッグセーブ！ 見たか？ {other} はまだボールを探してるよ！
+commentary.lee_jordan.save.v4,{player} が箒の先で止めた。おしゃれだね。
+commentary.lee_jordan.miss.v3,{player} のシュートは輪の枠に当たった。ガーン！
+commentary.lee_jordan.goal.v4,{player} がキーパーを欺いてゴール！ {score}。
+tactic.chaser_defence,守備
+ui.owls_waiting,受信箱で %d 通のふくろう便が返事を待っている
+ui.title.new,ニューゲーム
+ui.title.load,ゲームをロード
+ui.title.about,情報
+ui.title.footer,非営利のファンプロジェクト · ハリー・ポッターとクィディッチはJ.K.ローリングとワーナー・ブラザースに帰属します。
+match.caption.big_goal,ゴール！
+match.caption.big_catch,スニッチだ！
+ui.menu.explorer,エクスプローラー
+ui.explorer.leagues,リーグ
+ui.explorer.players,選手
+ui.explorer.national,代表チーム
+ui.explorer.search,名前で検索…
+ui.explorer.search_btn,検索
+ui.explorer.all_positions,全ポジション
+ui.explorer.all_regions,全地域
+ui.explorer.found,選手%d人（上位200人を表示）
+ui.explorer.wc_titles,W杯優勝
+ui.col.potential,潜在能力
+ui.help.explorer,世界の他の地域を見る：全リーグの順位表、全ての国の選手検索、代表チームのランキング。遠方の選手はスカウトが知っていることしか見えない。
+ui.settings.music_track,テーマ曲
+music.despacho,オフィス（穏やかなワルツ）
+music.partido,試合の日（マーチ）
+music.sala_comun,談話室（民謡風ジグ）
+music.clasico,クラシック（オリジナル曲）
+ui.match.locked,試合中だ：終わるまで離れられない。
+ui.match.in_progress,試合中
+region.british_isles,イギリス諸島
+country.eng,イングランド
+country.sco,スコットランド
+country.wal,ウェールズ
+country.nir,北アイルランド
+country.irl,アイルランド
+region.eastern_europe,東ヨーロッパ
+country.bul,ブルガリア
+country.pol,ポーランド
+country.ltu,リトアニア
+country.rou,ルーマニア
+country.mda,モルドバ
+country.tra,トランシルバニア
+country.rus,ロシア
+region.france,フランス
+country.fra,フランス
+region.germany,ドイツとアルプス
+country.deu,ドイツ
+country.aut,オーストリア
+country.che,スイス
+country.lie,リヒテンシュタイン
+region.iberia_lux,イベリアとルクセンブルク
+country.prt,ポルトガル
+country.esp,スペイン
+country.lux,ルクセンブルク
+region.nordic,北欧
+country.nor,ノルウェー
+country.swe,スウェーデン
+country.dnk,デンマーク
+country.fin,フィンランド
+country.isl,アイスランド
+region.usa,アメリカ合衆国
+country.usa,アメリカ合衆国
+region.canada,カナダ
+country.can,カナダ
+region.argentina,アルゼンチンとラプラタ地域
+country.arg,アルゼンチン
+country.ury,ウルグアイ
+country.pry,パラグアイ
+region.brazil,ブラジル
+country.bra,ブラジル
+region.andes,アンデス地域
+country.per,ペルー
+country.chl,チリ
+country.bol,ボリビア
+country.ecu,エクアドル
+country.col,コロンビア
+region.mexico_caribbean,メキシコとカリブ
+country.mex,メキシコ
+country.hti,ハイチ
+country.jam,ジャマイカ
+country.cub,キューバ
+region.africa,アフリカ
+country.uga,ウガンダ
+country.tgo,トーゴ
+country.eth,エチオピア
+country.tza,タンザニア
+country.nga,ナイジェリア
+country.mwi,マラウイ
+country.sen,セネガル
+country.egy,エジプト
+country.bfa,ブルキナファソ
+country.civ,コートジボワール
+country.tcd,チャド
+region.japan,日本
+country.jpn,日本
+region.oceania,オセアニア
+country.aus,オーストラリア
+country.nzl,ニュージーランド
+country.fji,フィジー
+region.middle_east,中東
+country.syr,シリア
+country.tur,トルコ
+region.south_asia,南アジア
+country.ind,インド
+region.east_asia,東アジア
+country.chn,中国
+country.kor,韓国
+region.italy,イタリア
+country.ita,イタリア
+region.low_countries,低地諸国
+country.fla,フランドル
+country.nld,オランダ
+region.maghreb,マグレブ
+country.mar,モロッコ
+region.indian_ocean,インド洋
+country.mdg,マダガスカル
+comp.comp_africa_league,全アフリカ・リーグ
+comp.comp_andes_league,アンデス・リーグ
+comp.comp_argentina_league,アルゼンチン・リーグ
+comp.comp_brazil_league,ブラジル・リーグ
+comp.comp_british_irish_league,イギリス・アイルランド・クィディッチリーグ
+comp.comp_canada_league,カナダ・リーグ
+comp.comp_east_asia_league,東・東南アジアリーグ
+comp.comp_eastern_europe_league,東ヨーロッパ・リーグ
+comp.comp_france_league,フランス・リーグ
+comp.comp_germany_league,ドイツ・アルプス・リーグ
+comp.comp_iberia_lux_league,イベリア・ルクセンブルク・リーグ
+comp.comp_india_league,インド・リーグ
+comp.comp_italy_league,イタリア・リーグ
+comp.comp_japan_league,日本リーグ
+comp.comp_low_countries_league,低地諸国リーグ
+comp.comp_mexico_caribbean_league,メキシコ・カリブ・リーグ
+comp.comp_nordic_league,北欧リーグ
+comp.comp_oceania_league,オセアニア・リーグ
+comp.comp_usa_league,アメリカ・クィディッチリーグ
+comp.european_cup,欧州カップ {year}
+comp.world_cup_groups,クィディッチ・ワールドカップ {year} — グループステージ
+comp.world_cup_final,クィディッチ・ワールドカップ {year} — 決勝ステージ
+comp.friendlies,プレシーズン親善試合
+comp.school_cup,{school} クィディッチ杯
+house.Gryffindor,グリフィンドール
+house.Hufflepuff,ハッフルパフ
+house.Ravenclaw,レイブンクロー
+house.Slytherin,スリザリン
+house.Horned Serpent,ホーンド・サーペント
+house.Wampus,ワンプス
+house.Thunderbird,サンダーバード
+house.Pukwudgie,パクワジ
+ui.date_format,{y}年{m}月{d}日({wd})
+ui.date_month_year,{y}年{m}月
+comp.national_cup,{league}カップ
+ui.national_cups,国内カップ
+news.national_cup_champion,{team}が{cup}を制覇
+msg.national_cup_won.subject,カップ優勝！
+msg.national_cup_won.body,クラブが{cup}を制した。理事会もファンも大喜びだ。
+msg.national_cup_draw.subject,カップ戦の組み合わせ
+msg.national_cup_draw.body,{cup}の組み合わせが決まった。一発勝負のノックアウト方式（引き分けは再試合）で、10月から4月の木曜日に行われる。上位シードは1回戦が免除される場合がある。
+ui.calendar.list,リスト
+ui.calendar.month,月
+ui.calendar.today,今日
+ui.calendar.home_short,(H)
+ui.calendar.away_short,(A)
+comp.cont.bowman_wright,ボウマン・ライト杯 {year}
+comp.cont.castelobruxo,カステロブルーシュー杯 {year}
+comp.cont.thunderbird,サンダーバード杯 {year}
+comp.cont.mahoutokoro,マホウトコロ杯 {year}
+comp.stage.groups,{cup} グループステージ
+comp.stage.final,{cup} 決勝トーナメント
+ui.continental_cups,大陸カップ
+ui.cont.groups_note,4チームによるホーム・アンド・アウェーのグループ。リーグと同じく獲得得点の合計で順位を決める。各組上位2チームが決勝トーナメント（3月から）に進む。
+news.continental_champion,{team}が{cup}を制覇
+msg.continental_qualified.subject,大陸カップへ
+msg.continental_qualified.body,クラブは{cup}に出場する。試合は水曜日。理事会はグループ突破を期待している。
+msg.continental_ko.body,クラブは{cup}のグループを突破した。ここからはノックアウト方式だ。
+msg.continental_won.subject,大陸王者だ！
+msg.continental_won.body,クラブが{cup}を制した。理事会もファンも歓喜に沸いている。
+country.cze,チェコ
+country.svk,スロバキア
+country.hun,ハンガリー
+country.tha,タイ
+region.central_europe,中央ヨーロッパ
+comp.comp_central_europe_league,中央ヨーロッパリーグ
+ui.match.sim_to_end,最後までシミュレート
+ui.match.sim_to_end_tip,残りの試合をアニメーションなしで一気に進め、最終結果を表示する。
+ui.new_game.map,地図
+ui.new_game.list,リスト
+ui.new_game.map_hint,地図でリーグを選ぼう
+ui.career.title,あなたの経歴
+ui.career.reputation,評判
+ui.career.rank,格
+ui.career.seasons,シーズン
+ui.career.titles,タイトル
+ui.career.rank0,無名
+ui.career.rank1,期待の星
+ui.career.rank2,一目置かれる
+ui.career.rank3,名将
+ui.career.rank4,伝説
+ui.career.note,クラブは評判に応じて監督職を打診する。名門ほど求める評判は高い。代表チームは高い評判と2〜3シーズン以上の経験を求める。評判は期待以上の順位、タイトル獲得、目標達成で上がる。
+ui.career.next,「{rank}」まであと{n}ポイント。
+msg.career.subject,あなたの評判
+msg.career.body,クラブは{pos}位（格からの予想は{expected}位）。評判は{delta}変動し{rep}に：{rank}。
+ui.loading.advancing,進行中…
+ui.loading.new_game,世界を準備中…
+ui.loading.load,ゲームを読み込み中…
+ui.loading.finishing,節を締めくくり中…
+ui.continue_days,続ける · %d日 ▶
+ui.fix_lineup,布陣を見直す ▸
+ui.lineup_blocked_toast,布陣に負傷者か空きがある。試合前に直そう。
+ui.action.fix_lineup,布陣へ
+msg.lineup_blocked.subject,布陣が整っていません
+msg.lineup_blocked.body,今日は{rival}戦だが、布陣に負傷者か出場停止、あるいは空きがある。このままの7人では出せない。交代選手を自分で選んでほしい。
+ui.lineup.squad,選手一覧
+ui.lineup.col_slot,枠
+ui.lineup.hint,選手をクリックしてからピッチの枠をクリック · ダブルクリックで出し入れ · 駒をドラッグで入れ替え
+ui.lineup.hint_player,次にピッチの枠をクリック
+ui.lineup.hint_slot,次にリストから選手を選択
+ui.press.go,記者会見 ▸
+ui.press.from,日刊予言者新聞
+ui.press.question_n,質問 %d / %d
+ui.press.reporter,日刊予言者新聞の記者が答えを待っている。
+ui.press.done_title,記者会見終了
+ui.press.done_body,記者たちは羽根ペンをしまった。あなたの言葉はロッカールームと理事会に届く。士気と信頼を見ておこう。
+press.tone.humble,謙虚：選手は喜ぶが、理事会はほとんど気づかない。
+press.tone.confident,自信：勝てば士気が上がる。負けた後は言い訳に聞こえ、理事会が記録する。
+press.tone.critical,批判的：理事会は厳しさを評価するが、選手（特に名指しされた者）は冷める。
+press.tone.evasive,はぐらかす：何も変わらないが、記者は覚えている。
+press.effect.evasive,記者たちは顔を見合わせた。何も引き出せなかった。クラブの誰も気に留めない。
+press.effect.humble_player,選手は明日それを読み、練習に表れる。チームも喜ぶ。
+press.effect.confident_player,選手は公の称賛に舞い上がる。理事会はその口調を記録した。
+press.effect.critical_player,選手は新聞で知り、気を悪くする。理事会は厳しさを評価した。
+press.a.win.evasive,今は冷静に分析できない。
+press.a.big_win.evasive,ただの1試合だ。次の質問を。
+press.a.loss.evasive,ロッカールームで話す。ここではない。
+press.a.draw.evasive,結果は結果だ。次に行こう。
+press.a.caught_lost.evasive,指示は内輪の話だ。
+press.a.long.evasive,その質問に答えるには疲れすぎている。
+press.q.big_loss,「{rival}に{score}の大敗。危機ですか？」
+press.a.big_loss.humble,ひどい一日だった。ファンに謝りたい。
+press.a.big_loss.confident,危機ではない。次の試合でまた勝つ。
+press.a.big_loss.critical,戦わなかった選手がいた。相応の措置を取る。
+press.a.big_loss.evasive,見出しを作る気はない。
+press.q.player_star,「{player}が最高の出来でした。他の選手にないものは？」
+press.a.player_star.humble,誰よりも努力している。当然の結果だ。
+press.a.player_star.confident,リーグで最高のポジション選手だ。本人もわかっている。
+press.a.player_star.critical,今日はね。消える日もある。続けてもらいたい。
+press.a.player_star.evasive,個々の選手の話はしない。
+press.q.player_scorer,「{player}が{goals}ゴール。チームの中心選手ですか？」
+press.a.player_scorer.humble,ゴールはチームのものだ。パスなしに得点はない。
+press.a.player_scorer.confident,そうだ。まだまだ決めてくれる。
+press.a.player_scorer.critical,中心選手なら守備もする。今日はしなかった。
+press.a.player_scorer.evasive,本人に聞いてくれ。
+press.q.player_injured,「{player}が負傷退場しました。復帰までどれくらい？」
+press.a.player_injured.humble,治療師によると{days}日ほど。大事なのはしっかり治すことだ。
+press.a.player_injured.confident,言われるより早く戻る。鉄の体だ。
+press.a.player_injured.critical,自分の不注意で負ったケガだ。学んでほしい。
+press.a.player_injured.evasive,診断結果はクラブから発表する。
+press.q.player_poor,「{player}は忘れたい試合でした。先発は続けますか？」
+press.a.player_poor.humble,誰にでも悪い日はある。全面的に信頼している。
+press.a.player_poor.confident,来週はピッチで一番になる。見ていてくれ。
+press.a.player_poor.critical,いや。あの出来ではこのクラブでは出せない。
+press.a.player_poor.evasive,先発は試合当日にわかる。
+press.q.streak_win,「{n}連勝。このチームはどこまで行けますか？」
+press.a.streak_win.humble,次の試合まで。その先は見ていない。
+press.a.streak_win.confident,タイトルまで。この集団に限界はない。
+press.a.streak_win.critical,勝ってはいるが内容が悪い。改善しなければ途切れる。
+press.a.streak_win.evasive,連勝数は数えていない。
+press.q.streak_loss,「{n}連敗。進退が心配では？」
+press.a.streak_loss.humble,心配なのはチームで、自分ではない。一緒に抜け出す。
+press.a.streak_loss.confident,全く。次の試合で止める。
+press.a.streak_loss.critical,恐れるべきは結果を出せない選手の方だ。
+press.a.streak_loss.evasive,それは理事会に聞いてくれ。
+press.q.board_pressure,「理事会が後任を探しているとの噂です。支持はありますか？」
+press.a.board_pressure.humble,毎週話している。結果が物語るだろう。
+press.a.board_pressure.confident,全面的な支持がある。違うと言う者は嘘つきだ。
+press.a.board_pressure.critical,探せばいい。私は戦える選手を探している。
+press.a.board_pressure.evasive,噂にはコメントしない。
+press.q.table_top,「リーグ首位。今年こそですか？」
+press.a.table_top.humble,シーズンはまだ長い。地に足をつける。
+press.a.table_top.confident,そうだ。誰にも首位は譲らない。
+press.a.table_top.critical,このままの内容なら無理だ。足りないものが多い。
+press.a.table_top.evasive,順位表は6月に見る。
+press.q.table_bottom,「順位は{pos}位。落ち着いていられますか？」
+press.a.table_bottom.humble,落ち着きではなく努力だ。立場はわかっている。
+press.a.table_bottom.confident,順位表は嘘をつく。このチームはもっと上だ。
+press.a.table_bottom.critical,ない。自分を過大評価している選手がいる。
+press.a.table_bottom.evasive,次の質問を。
+press.q.cup_tie,「一発勝負のカップ戦。どう準備しますか？」
+press.a.cup_tie.humble,敬意を持って。カップ戦では誰にでも負けうる。
+press.a.cup_tie.confident,いつも通り、勝つために。カップを獲りに行く。
+press.a.cup_tie.critical,今日の何人かより、もっと真剣に。
+press.a.cup_tie.evasive,他の試合と同じだ。
+press.q.next_rival,「次は{next}戦です。どんな試合を期待しますか？」
+press.a.next_rival.humble,難しい試合だ、どの試合もそうだが。相手を尊重する。
+press.a.next_rival.confident,勝つ。それ以外の可能性は見えない。
+press.a.next_rival.critical,何人かがいい加減目を覚ますことを。
+press.a.next_rival.evasive,明日考える。
+ui.lineup.show_tactics,指示 ▸
+ui.lineup.hide_tactics,◂ 指示を隠す
+ui.action.mutual,合意による契約解除
+ui.confirm_release_paid,%s の契約を解除しますか？ 退団し、残りの契約金 %s を支払う必要があります。
+ui.mutual.offer,%s は %s で合意退団に応じます（契約残り %s）。解除に署名しますか？
+ui.mutual.refused,%s は退団を望んでいません：レギュラーでクラブに満足しています。
+ui.mutual.no_money,%s を支払う資金が足りません。
+ui.past_managers,歴代監督
+news.manager_sacked,{club}が監督を解任\n{club}の理事会は不振を受けて{old}を解任した。{new}がチームを率いる。
+ui.cancel,キャンセル
+role.star,スター
+role.first_team,レギュラー
+role.reserve,控え
+ui.contract.title,契約：%s
+ui.contract.demand,週給 %s、%d 年、役割「%s」、契約金 %s を要求。
+ui.contract.fee_line,クラブと合意した移籍金：%s。
+ui.contract.wage,週給
+ui.contract.years,年数
+ui.contract.role,役割
+ui.contract.signing_fee,契約金
+ui.contract.bonus_goal,ゴール給
+ui.contract.bonus_catch,スニッチ給
+ui.contract.bonus_title,優勝ボーナス
+ui.contract.yearly_rise,年次昇給 %
+ui.contract.release_clause,契約解除金
+ui.contract.clause_hint,0 = 解除金なし。低い解除金は野心的な選手の給与を下げるが、それを払ったクラブは交渉なしで引き抜ける。ボーナスはゴール、スニッチ捕獲、優勝ごとに支払われる。
+ui.contract.propose,提示する
+ui.contract.counter,逆提案：週給 %s、役割「%s」なら受け入れる。残り提示回数 %d。
+ui.contract.accepted,合意！
+ui.contract.walked,%s は席を立った：1か月は交渉しない。
+ui.contract.blocked,まだ交渉したくない：前回の交渉が決裂したばかり。
+ui.contract.pre_not_allowed,不可：仮契約は1〜6月、契約満了間近の選手のみ。
+ui.contract.pre_signed,仮契約締結：来季フリーで加入
+ui.action.negotiate,契約交渉
+ui.action.pre_contract,仮契約を提示
+msg.pre_contract.subject,仮契約締結
+msg.pre_contract.body,{player} が仮契約にサイン：{season} シーズンにフリーで加入。
+msg.pre_contract_lost.subject,選手が他クラブと仮契約
+msg.pre_contract_lost.body,{player} が {club} と仮契約：6月30日の契約満了でフリー移籍する。早めに延長していれば防げた。
+msg.pre_contract_gone.subject,仮契約で退団
+msg.pre_contract_gone.body,{player} は {club} へフリー移籍した。6月30日で契約が満了し、すでに仮契約を結んでいた。
+msg.pre_contract_arrived.subject,新加入選手が到着
+msg.pre_contract_arrived.body,{player} が仮契約によりフリーで加入した。
+msg.release_clause.subject,解除金が支払われた
+msg.release_clause.body,{club} が {player} の解除金（{fee}）を支払い、引き抜いた。交渉の余地はない。
+msg.complaint.subject,選手が話をしたがっている
+msg.complaint.body.minutes,{player} が監督室に来た：契約ではレギュラーなのにほとんど出られない。出場機会か移籍を望んでいる。
+msg.complaint.body.contract,{player} は不安：契約は残り数か月なのに延長の話がない。このままならオファーを聞く。
+msg.complaint.body.listed,{player} は移籍リスト入りに納得していない：望んでいないのに、クラブに不要とされていると感じている。
+ui.action.complaint_promise,出場を約束する
+ui.action.complaint_renew,延長の話をする
+ui.action.complaint_list,移籍リストに載せる
+ui.action.complaint_ignore,無視する
+ui.complaint.listed,{player} は希望どおり移籍リスト入り。
+ui.complaint.ignored,{player} は怒って部屋を出た。
+ui.complaint.wants_out,{player} が移籍を要求：リスト入りし、日刊予言者新聞にも知られた。
+ui.happiness.content,満足している。
+ui.happiness.worried,不満：%s。
+ui.happiness.minutes,出場時間
+ui.happiness.contract,契約
+ui.happiness.listed,移籍リスト入り
+news.wants_out,{player}、{club}退団を希望\n日刊予言者新聞によると、{player} は{club}での扱いに不満を述べ、移籍を要求した。
+ui.tactics.saved,戦術
+ui.tactics.set.main,メイン
+ui.tactics.set.attack,攻撃的
+ui.tactics.set.defend,守備的
+ui.tactics.familiarity,フォーメーション習熟度：%d %%
+ui.tactics.familiarity_tip,このチェイサー陣形をどれだけ練習したか。使う週ごとに上がり（戦術練習なら2倍）、使わないと下がる。100未満ではチェイサーのパスと判断がわずかに落ちる（最大8%）。
+ui.finances.ledger,会計帳簿
+ui.finances.ledger_empty,まだ記録はない。
+ui.finances.concept,項目
+ui.finances.net,月間収支
+ledger.gate,入場料
+ledger.sponsor,スポンサー
+ledger.merch,グッズ
+ledger.prizes,賞金
+ledger.transfers_in,売却
+ledger.wages,給与
+ledger.staff,スタッフ
+ledger.scouts,スカウト
+ledger.transfers_out,獲得
+ledger.signing_fees,契約金
+ledger.bonuses,ボーナス
+ledger.severance,契約解除金
+ledger.facilities,施設
+ledger.brooms,箒
+ui.fans.title,サポーター
+ui.fans.euphoric,熱狂
+ui.fans.happy,満足
+ui.fans.calm,平静
+ui.fans.restless,不満
+ui.fans.angry,激怒
+msg.sponsor_offers.subject,スポンサーのオファー
+msg.sponsor_offers.body,{club} のスポンサー契約が終了した。これらの会社がローブに名前を載せたがっている。1社選ぼう。契約するまでスポンサー収入はない。
+ui.action.accept_sponsor,{name}：月 {monthly}（{until} まで）
+ui.board.area.results,成績
+ui.board.area.finances,財務
+ui.board.area.fans,サポーター
+ui.board.ultimatum_active,最後通告：理事会は次のリーグ5試合で3勝を要求している。
+ui.board.ask_wages,給与予算の増額を求める
+ui.board.ask_facility,施設の資金を求める
+msg.ultimatum.subject,理事会の最後通告
+msg.ultimatum.body,{club} の理事会は我慢の限界だ：次のリーグ5試合で3勝できなければ、他のクラブを探すことになる。
+msg.ultimatum_met.subject,理事会は安堵
+msg.ultimatum_met.body,最後通告をクリアした。理事会はひとまず信頼を回復した。
+msg.wages_granted.subject,給与予算増額
+msg.wages_granted.body,理事会は給与予算を週 {amount} 増やした。
+msg.facility_granted.subject,理事会が改修費を負担
+msg.facility_granted.body,理事会は {facility} の改修を承認し、費用を負担した。
+news.takeover,{club}に新オーナー\n投資家が{club}を買収して負債を清算、{amount} を投じて上位進出を約束した。
+msg.takeover.subject,クラブに新オーナー
+msg.takeover.body,投資家が {club} を買収：{amount} が入り、一部は補強資金に。結果を期待している。
+ui.col.month,月
+ui.stats.monthly_awards,月間賞
+award.player_month,月間MVP
+award.young_month,月間最優秀若手
+award.manager_month,月間最優秀監督
+news.monthly_award,{award}：{player}\n{player}（{club}）が平均評価 {value} で {league} の{award}に選ばれた。
+msg.monthly_award.subject,月間賞
+msg.monthly_award.body,{player} が{award}を受賞し、喜んでいる。
+msg.manager_month.subject,月間最優秀監督
+msg.manager_month.body,{league} の月間最優秀監督に選ばれた。評判が上がった。
+ui.menu.manager,キャリア
+ui.career.unemployed,無所属
+ui.manager.current,%s を指揮中
+ui.manager.history,経歴
+ui.manager.from,開始
+ui.manager.to,終了
+ui.manager.reason,退任理由
+ui.manager.reason.current,在任
+ui.manager.reason.left,他クラブへ
+ui.manager.reason.sacked,解任
+ui.manager.reason.resigned,辞任
+ui.manager.best_pos,最高順位
+ui.manager.vacancies,空きポスト
+ui.manager.no_vacancies,この2か月、監督を解任したクラブはない。
+ui.manager.requires,必要評判
+ui.manager.apply,応募する
+ui.manager.applied,応募済み
+ui.manager.resign,辞任する
+ui.manager.resign_confirm,%s を辞任しますか？ 評判が5%%下がり、無所属になる。
+msg.resigned.subject,辞任受理
+msg.resigned.body,{club} の理事会は辞任を受理した。幸運を。
+msg.application_rejected.subject,応募不採用
+msg.application_rejected.body,{club} は関心に感謝しつつ、別の候補者を選んだ。
+ui.stat.apps,出場
+ui.explorer.more_filters,詳細フィルター ▾
+ui.explorer.less_filters,フィルターを閉じる ▴
+ui.explorer.age_min,最低年齢
+ui.explorer.age_max,最高年齢
+ui.explorer.value_max,最高市場価値（0=制限なし）
+ui.explorer.wage_max,最高週給（0=制限なし）
+ui.explorer.contract_until,契約満了（年、0=すべて）
+ui.explorer.stars_min,最低★
+ui.explorer.nationality,国籍
+ui.explorer.status,状況
+ui.explorer.attr,能力
+ui.explorer.attr_min,最低値
+ui.explorer.any,すべて
+ui.explorer.reset,フィルターをクリア
+ui.explorer.adv_note,★と能力の条件は、スカウトが把握している選手にのみ適用される。
+ui.explorer.show_more,さらに表示（残り %d）
+ui.market.listed_short,移籍リスト
+ui.market.loan_short,レンタル可
+ui.action.compare_mark,比較用にマーク
+ui.action.compare_marked,%s をマーク：別の選手を開いて「…と比較」を選ぶ。
+ui.action.compare_with,%s と比較
+ui.compare.title,選手比較
+ui.compare.missing,選手が見つからない。
+ui.compare.note,± = 2人目−1人目。「?」= スカウトが未把握。
+ui.match.rival_team,相手
+ui.post.talk,試合後のミーティング
+ui.post.talk_hint,ロッカールームでの口調を選ぶ：結果と各選手の性格に応じて士気が変わる。
+facility.academy,ユースアカデミー
+youth.verdict.star,スターになれる素質
+youth.verdict.good,有望：出場機会があればレギュラー
+youth.verdict.squad,控え要員
+youth.verdict.weak,大成は難しい
+msg.youth_intake.subject,新入団ユース
+msg.youth_intake.body,今季ユースに加わった若手たち：\n{players}
+from.head_scout,チーフスカウト
+ui.action.scout_report,スカウトに報告を依頼
+ui.scout.no_scouts,スカウトがいない。
+ui.scout.already,この選手の報告は依頼済み。
+ui.scout.requested,報告を依頼した：数日で届く。
+ui.scout.verdict.sign,獲得すべき
+ui.scout.verdict.watch,要観察
+ui.scout.verdict.skip,見送り
+ui.scout.verdict,判定
+ui.scout.report_title,スカウト報告（%s）
+ui.scout.value,推定市場価値 %s
+ui.scout.pending,報告依頼中：%s に届く。
+ui.scout.assignments,任務
+ui.scout.opponent_toggle,リーグ戦ごとに次の対戦相手の報告
+ui.scout.pending_list,作成中の報告：%s
+ui.scout.assign_note,選手の報告は、選手画面で「スカウトに報告を依頼」を選ぶ。優秀なスカウトほど速く正確。
+msg.scout_report.subject,スカウト報告
+msg.scout_report.body,{player}（{club}）。能力 {ca}、潜在能力 {pa}。判定：{verdict}。推定価値：{value}。
+msg.opponent_report.subject,次の対戦相手の報告
+msg.opponent_report.body,{club}（{pos} 位）。予想布陣：{lineup}。要注意選手：{star}。守備：{style}。
+ui.staff.vacant,空席
+ui.staff.search,候補を探す
+ui.staff.close_search,検索を閉じる
+ui.staff.fire,解雇（%s）
+ui.staff.level,レベル
+ui.staff.hire_fee,契約金 %s
+ui.staff.hire_hint,候補をダブルクリックで雇用：週給10週分の契約金、前任者には残りの契約金を支払う。
+ui.staff.refuses,断られた：より名門のクラブを望んでいる。
+ui.staff.fired,解雇した。
+ui.settings.autosave,毎月1日と自分の試合の後に自動セーブ
+ui.profile.injuries,負傷歴
+ui.profile.days_out,%d 日離脱
+injury.match,試合中
+injury.training,練習中
+ui.contract.pre_with,%s と仮契約済み
+ui.inbox.all,すべて
+ui.inbox.unread,未読
+ui.inbox.pending,要返答
+ui.inbox.mark_read,すべて既読にする
+ui.inbox.delete_read,既読を削除
+ui.records.title,記録
+ui.records.record,記録
+ui.records.value,記録値
+ui.records.holder,記録保持者
+ui.records.fastest_catch,最速スニッチ捕獲
+ui.records.longest_match,最長試合
+ui.records.highest_score,1チーム最多得点
+ui.records.biggest_margin,最大得点差
+ui.records.season_goals,シーズン最多ゴール
+ui.records.days,%d 日
+from.prophet,日刊予言者新聞
+msg.pre_press.subject,試合前会見
+msg.pre_press.body,明日は {rival} 戦。日刊予言者新聞が試合前のコメントを求めている。
+ui.press.go_pre,会見へ
+press.q.pre_favourite,「{rival} 戦は本命視されています。重圧は？」
+press.q.pre_underdog,「{rival} 相手に勝機はないと言われています。どう答えますか？」
+press.q.pre_even,「{rival} 戦は接戦の予想です。どう見ますか？」
+press.q.pre_rival_star,「{player} をどう止めますか？」
+press.a.pre_favourite.humble,楽な試合はない。{rival} には敬意を払う
+press.a.pre_favourite.confident,我々の方が上だ。それを証明する
+press.a.pre_favourite.critical,{rival} はラフプレー頼み。審判がしっかり見てくれれば
+press.a.pre_favourite.evasive,一戦一戦です
+press.a.pre_underdog.humble,相手が上だが、全力を出す
+press.a.pre_underdog.confident,甘く見ていればいい。勝つのは我々だ
+press.a.pre_underdog.critical,{rival} の投資額なら、負けて恥をかくのは向こうだ
+press.a.pre_underdog.evasive,大事なのは空の上で起きることだ
+press.a.pre_even.humble,厳しい試合になる。大いに敬意を払う
+press.a.pre_even.confident,調子はこちらが上。結果に出る
+press.a.pre_even.critical,{rival} は消極的。我々は勝ちに行く
+press.a.pre_even.evasive,試合が始まればわかる
+press.a.pre_rival_star.humble,{player} は怪物。細心の注意が必要だ
+press.a.pre_rival_star.confident,{player} 対策はある。クアッフルに触らせない
+press.a.pre_rival_star.critical,{player}？ 過大評価だ。新聞が持ち上げただけ
+press.a.pre_rival_star.evasive,相手より自分たちのプレーが大事だ
+press.effect.pre_humble,チームは落ち着き、相手も動じない。
+press.effect.pre_confident,選手は奮い立ち、相手にもメッセージは届いた。
+press.effect.pre_critical,相手のエースは記事を読んで苛立ち、理事会は騒ぎを好まない。
+press.effect.pre_evasive,明日の見出しになる言葉はない。
+ui.holiday.title,休暇
+ui.holiday.note,不在の間はアシスタントがチームを率い、布陣を組んで試合をこなす。緊急事態があれば早めに戻る。
+ui.holiday.week,1週間
+ui.holiday.two_weeks,2週間
+ui.holiday.month,1か月
+ui.holiday.season,シーズン終了まで
+ui.holiday.away,休暇中…
+ui.holiday.back,休暇から復帰：%d勝 %d分 %d敗。
+ui.holiday.back_early,早めに呼び戻された：受信箱に緊急の件がある。
+ui.view.contracts,契約
+ui.col.mood,気分
+ui.training.plan,カテゴリー別練習計画
+ui.training.none,なし
+ui.training.shares,週の配分：%s。
+ui.action.offer_installments,%s を3回払いで提示
+msg.installment.subject,移籍金の分割払い
+msg.installment.body,{player} の移籍金 {amount} を支払った。残り {left} 回。
+ui.post.other_results,他会場の結果
+ui.action.accept_sale_sell_on,{fee} で売却（転売時20%）
+msg.sell_on_paid.subject,転売益を受領
+msg.sell_on_paid.body,{player} が {club} へ売却された。転売条項で {amount} を受け取った。
+ui.market.option_too_low,希望額を下回る買い取りオプションは受け入れられない。
+ui.action.loan_request_option,買い取りオプション付きレンタル（%s）
+ui.action.loan_list_option,買い取りオプション付きでレンタルに出す（%s）
+ui.market.loan_listed_option,買い取りオプション付きでレンタル候補に。
+msg.loan_option.subject,買い取りオプション
+msg.loan_option.body,{player} のレンタルは6月30日まで。合意どおり {fee} で {club} から買い取れる。
+ui.action.exercise_option,オプションを行使
+ui.action.decline_option,返却する
+ui.market.option_done,オプション行使：正式に加入した。
+msg.option_exercised.subject,買い取りオプション行使
+msg.option_exercised.body,{club} が {player} の買い取りオプションを行使：{fee} を支払い、保有する。
+msg.nt_friendlies.subject,国際親善試合
+msg.nt_friendlies.body,今季はW杯の日程がないため、協会は {team} の親善試合を組んだ：{rivals}。
+weather.snow,雪
+match.weather.snow,雪が降っている。フィールドは真っ白で、クアッフルは滑り、金のスニッチは雪に紛れる。
+ground.kind.moor,%sの荒野
+ground.kind.heath,%sのヒース
+ground.kind.downs,%sの丘陵
+ground.kind.fells,%sの高原
+ground.kind.clearing,%sの森の広場
+ground.kind.plateau,%s台地
+ground.kind.highland,%s高地
+ground.kind.meadow,%sの牧草地
+ground.kind.hills,%sの丘
+ground.kind.fields,%sの野原
+ground.kind.steppe,%sの草原
+ground.kind.plain,%s平原
+ground.kind.tundra,%sのツンドラ
+ground.kind.prairie,%sの大草原
+ground.kind.canyon,%s渓谷
+ground.kind.island,%s島
+ground.kind.savannah,%sのサバンナ
+ground.kind.dunes,%sの砂丘
+ground.kind.altiplano,%sの高原
+ground.kind.salt_flat,%s塩原
+ground.kind.valley,%s渓谷
+ground.kind.pampa,%sのパンパ
+ground.kind.sierra,%s山地
+ui.ground,本拠地
+ui.capacity,収容 %s
+ui.attendance,観客 %s 人
+ui.action.negotiate_menu,交渉…
+ui.negotiate.head,%s（%s）。クラブの要求額は %s。どう獲得しますか？
+ui.match.next_event_tip,次の重要な場面まで進む
+ui.settings.match_detail,実況の詳しさ
+ui.finances.pick_player,%s（%s）は誰に？ リストから選手を選ぶ。
+ui.finances.buy_for,%s に購入
+ui.finances.suggested,おすすめ
+ui.finances.broom_state,状態
+ui.finances.broom_target_note,新しい箒の速度：%s。レギュラーは太字。アシスタントは最も箒が悪いレギュラーを提案。
+house.Abraxan,アブラクサン
+house.Vouivre,ヴイーヴル
+house.Melusine,メリュジーヌ
+house.Tarasque,タラスク
+house.Lindworm,リンドヴルム
+house.Huldra,フルドラ
+house.Jotunn,ヨトゥン
+house.Sleipnir,スレイプニル
+house.Zhar Ptitsa,火の鳥
+house.Leshy,レーシー
+house.Rusalka,ルサールカ
+house.Zmey,ズメイ
+house.Kirin,麒麟
+house.Tengu,天狗
+house.Kitsune,狐
+house.Ryu,龍
+house.Caipora,カイポーラ
+house.Iara,イアラ
+house.Uirapuru,ウイラプル
+house.Boto,ボト
+house.Impundulu,インプンドゥル
+house.Ninki Nanka,ニンキナンカ
+house.Anansi,アナンシ
+house.Kongamato,コンガマトー
+house.Yowie,ヨーウィー
+house.Min Min,ミンミン
+house.Thylacine,フクロオオカミ
+house.Lyrebird,コトドリ
+house.Zumruduanka,ズュムリュデュアンカ
+house.Sahmeran,シャーメラン
+house.Tepegoz,テペギョズ
+house.Ejder,エジデル
+house.Yali,ヤーリ
+house.Makara,マカラ
+house.Airavata,アイラーヴァタ
+house.Naga,ナーガ
+comp.house_world,世界寮対抗杯 {year}
+ui.school.world_cups,世界
+news.house_world_draw,"{school}で世界寮対抗杯 {year} 開催
+各校の王者：{teams}。"
+news.house_world_champion,"{school}の{team}が世界寮対抗杯 {year} を制覇
+学校王者の杯は{school}へ。"
+msg.house_world_qualified.subject,世界寮対抗杯へ出場だ！
+msg.house_world_qualified.body,校内王者として、{school}で開かれる世界寮対抗杯 {year} に出場する。他校の王者とのノックアウト方式だ。休暇はまだお預けだ。
+msg.house_world_won.subject,世界一だ！
+msg.house_world_won.body,{team}が世界寮対抗杯を制した。{school}ではその話で持ちきりだ。チームの肖像画は談話室に飾られる。
+msg.house_world_over.subject,世界寮対抗杯が終わった
+msg.house_world_over.body,優勝は{team}（{school}）。敗退は悔しいが、出場しただけでも寮の誇りだ。
+venue.school,{school}のクィディッチ競技場
+ui.new_game.default_name,名無しの監督
+formation.hawkshead,ホークスヘッド攻撃フォーメーション
+formation.porskoff,ポルスコフの計略
+formation.shimmy,ウーロンゴン・シミー
+formation.reverse_pass,リバースパス
+formation.looping,ルーピング・フォーメーション
+broom.notes.broom_oakshaft_79,太いオークの柄。風に強いが旋回が遅く、クィディッチには重すぎる。今では骨董品。
+broom.notes.broom_moontrimmer,どの箒よりも高く飛べるが、手作りのため生産が需要に追いつかなかった。
+broom.notes.broom_silver_arrow,追い風で時速70マイル。レース用箒の先駆け。
+broom.notes.broom_cleansweep_one,初の量産型レース用箒。コーナリング性能は比類なし。
+broom.notes.broom_comet_140,ホートン・キーチ式ブレーキ呪文を初搭載した箒。
+broom.notes.broom_tinderblast,非常に頑丈だが、クリーンスイープやコメットより遅い。
+broom.notes.broom_cleansweep_five,グウェンドリン・モーガン、そしてフレッドとジョージ・ウィーズリーが愛用。
+broom.notes.broom_swiftstick,ティンダーブラストより速いが上昇時に力が落ちる。プロには使われなかった。
+broom.notes.broom_shooting_star,当時最も安価な箒。古くなると速度と高度が落ちる。工場は1978年に閉鎖されたが、中古品は数多く出回っている。
+broom.notes.broom_nimbus_1000,最高時速100マイル、その場で360度旋回が可能。ヨーロッパのプロ選手に愛用された。
+broom.notes.broom_cleansweep_six,『ザ・クィブラー』で紹介された。
+broom.notes.broom_comet_260,見栄えはするがニンバス2000には及ばない。ドラコ・マルフォイとチョウ・チャンが使用。
+broom.notes.broom_cleansweep_seven,1993〜94年、レイブンクロー・チームの大半が使用。
+broom.notes.broom_twigger_90,高速で歪む。警告ホイッスルと自動矯正ブラシ付き。「分別よりガリオン金貨の多い魔法使い向け」。
+broom.notes.broom_nimbus_2000,1991年最速の箒。マホガニー製で、細工防止の保護呪文付き。
+broom.notes.broom_nimbus_2001,2000より速い。世界中のほとんどのチームが採用。
+broom.notes.broom_firebolt,10秒で時速0から150マイルに加速。トネリコの柄、小鬼製の金具、壊れないブレーキ。小鬼のストライキで生産は限定的。
+broom.notes.broom_cleansweep_eleven,10秒で時速0から70マイルに加速。スペイン産オーク、呪い除けニス、振動制御。1995年発売。
+broom.notes.broom_comet_290,追い風がよければ時速0から60マイルに加速。
+broom.notes.broom_bluebottle,安全で信頼できる家族向けの箒。盗難防止ブザー内蔵。1994年のワールドカップで宣伝された。プロ向けではない。
+venue.mountains_of_the_moon,月の山脈
+venue.serengeti_savanna,セレンゲティのサバンナ
+venue.jos_plateau,ジョス高原
+venue.western_desert,西方砂漠
+venue.niger_delta,ニジェール・デルタ
+venue.titicaca_altiplano,チチカカ湖のアルティプラーノ
+venue.atacama_desert,アタカマ砂漠
+venue.sumapaz_paramo,スマパス・パラモ
+venue.salar_de_uyuni,ウユニ塩湖
+venue.cajas_paramo,カハス・パラモ
+venue.patagonian_plateau,パタゴニア台地
+venue.ibera_wetlands,イベラ湿地
+venue.humid_pampas,湿潤パンパ
+venue.puna_de_atacama,プナ・デ・アタカマ
+venue.calchaqui_valleys,カルチャキ渓谷
+venue.pantanal,パンタナール
+venue.chapada_diamantina,シャパーダ・ジアマンチーナ
+venue.lencois_maranhenses,レンソイス・マラニャンセス
+venue.serra_da_mantiqueira,マンチケイラ山脈
+venue.goias_cerrado,ゴイアスのセラード
+venue.bodmin_moor,ボドミン・ムーア
+venue.exmoor,エクスムーア
+venue.ilkley_moor,イルクリー・ムーア
+venue.yorkshire_moors,ヨークシャー・ムーア
+venue.ellis_moor,エリス・ムーア
+venue.saskatchewan_prairies,サスカチュワンの大草原
+venue.canadian_shield,カナダ楯状地
+venue.hudson_bay_lowlands,ハドソン湾の泥炭地
+venue.laurentian_mountains,ローレンシャン山地
+venue.alberta_grasslands,アルバータの草原
+venue.bohemian_forest,ボヘミアの森（シュマヴァ）
+venue.high_tatras,高タトラ山脈
+venue.hortobagy_puszta,ホルトバージのプスタ
+venue.giant_mountains,巨人山地（クルコノシェ）
+venue.lake_balaton_shores,バラトン湖畔
+venue.yellow_mountains,黄山
+venue.gobi_desert,ゴビ砂漠
+venue.kunlun_mountains,崑崙山脈
+venue.mount_seorak,雪岳山
+venue.jeju_island,済州島
+venue.doi_inthanon,ドーイ・インタノン山
+venue.balkan_mountains,バルカン山脈
+venue.biebrza_marshes,ビェブジャ湿原
+venue.samogitian_hills,ジェマイティヤ丘陵
+venue.hoia_forest,ホイア森林
+venue.budjak_steppe,ブジャク草原
+venue.lanvaux_moors,ランヴォーの荒野
+venue.causse_du_larzac,ラルザック高原
+venue.vercors,ヴェルコール
+venue.marais_poitevin,ポワトゥー湿地
+venue.broceliande_forest,ブロセリアンドの森
+venue.luneburg_heath,リューネブルガー・ハイデ
+venue.black_forest,シュヴァルツヴァルト
+venue.rhon_high_moor,レーンの高層湿原
+venue.allgau_alps,アルゴイ・アルプス
+venue.ruggell_riet,ルッゲル湿原
+venue.serra_da_estrela,エストレーラ山脈
+venue.extremadura_dehesa,エストレマドゥーラのデエサ
+venue.monegros,モネグロス
+venue.bardenas_reales,バルデナス・レアレス
+venue.oesling_forests,エスリングの森
+venue.gangetic_plain,ガンジス平原
+venue.thar_desert,タール砂漠
+venue.western_ghats,西ガーツ山脈
+venue.kashmir_valley,カシミール渓谷
+venue.kerala_coast,ケーララ海岸
+venue.sibillini_mountains,シビッリーニ山地
+venue.sila_plateau,シーラ高原
+venue.brenta_dolomites,ブレンタ・ドロミテ
+venue.maremma,マレンマ
+venue.aosta_valley,アオスタ渓谷
+venue.mikawa_coast,三河海岸
+venue.shiga_highlands,志賀高原
+venue.kushiro_marshes,釧路湿原
+venue.mount_aso,阿蘇山
+venue.yakushima_forests,屋久島の森
+venue.veluwe,フェルウェ
+venue.wadden,ワッデン海
+venue.drenthe_heaths,ドレンテのヒース
+venue.sonian_forest,ソワーニュの森
+venue.high_fens,オート・ファーニュ
+venue.sonoran_desert,ソノラ砂漠
+venue.sierra_tarahumara,タラウマラ山地
+venue.massif_de_la_selle,セル山塊
+venue.cockpit_country,コックピット・カントリー
+venue.zapata_swamp,サパタ湿地
+venue.finnmarksvidda_plateau,フィンマルクスヴィッダ高原
+venue.norrland_forests,ノールランドの森
+venue.jutland_heath,ユトランドの荒野
+venue.inari_lapland,イナリのラップランド
+venue.reykjanes_lava_fields,レイキャネスの溶岩原
+venue.pilbara_outback,ピルバラのアウトバック
+venue.nullarbor,ナラボー平原
+venue.moutohora_island,モウトホラ島
+venue.fiordland_fjords,フィヨルドランドのフィヨルド
+venue.viti_levu_highlands,ビティレブ島高地
+venue.berkshires,バークシャー丘陵
+venue.llano_estacado,リャノ・エスタカード
+venue.everglades,エバーグレーズ
+venue.dakota_badlands,ダコタのバッドランズ
+venue.mojave_desert,モハーヴェ砂漠
+broom.notes.broom_cleansweep_two,オラトン兄弟の会社の2番目のモデル（1934年）。最速の箒をめぐるコメット社との競争のさなかに登場した。
+broom.notes.broom_cleansweep_three,1937年発売。コメット社との競争で後れを取らないために作られた。
+broom.notes.broom_comet_180,1938年発売。クリーンスイープ社の新モデルに対するコメット社の回答。
+broom.notes.broom_comet_220,コメット180と260の間の後期モデル。信頼性は高いが、すでにニンバスには及ばない。
+broom.notes.broom_nimbus_1001,ニンバス1000の最初の後継機。ニンバス社をプロのクィディッチの頂点にとどめた。
+broom.notes.broom_nimbus_1500,ニンバス・シリーズの次の一歩。1001と1700の間のモデル。
+broom.notes.broom_nimbus_1700,1991年のニンバス2000が出る前の最後のニンバス。
+ui.saves.export,ファイルに書き出す
+ui.saves.import,ファイルを読み込む
+ui.saves.imported,ゲームを読み込みました: %s
+ui.saves.import_failed,このファイルは有効なセーブデータではありません。
+ui.saves.web_note,ブラウザ版では、セーブはこのブラウザの中だけに保存されます。なくさないようにファイルに書き出してください。
+ui.new_game.name_required,始めるには監督の名前を入力してください。
+ui.saves.autosave_slot,オートセーブ %d
+msg.contracts_due.subject,6月30日に満了する契約
+msg.contracts_due.body,これらの選手は6月30日に契約が満了し、更新しなければ移籍金なしで退団します（括弧内は週給）：{players}。選手ページから契約更新を提示してください。
+msg.contracts_auto.subject,契約更新（6月30日満了分）
+msg.contracts_auto.body,休暇中だったので、6月30日に満了する契約を処理しました。更新：{renewed}。退団：{leaving}。
+ui.action.review_contracts,選手一覧へ
+ui.contract.has_pre_contract,すでに他クラブと仮契約を結んでおり、シーズン終了時に退団します。
+msg.book_event.subject,学校からの知らせ
+news.book.nimbus_smashed,"暴れ柳が{player}のニンバス2000を粉砕
+土曜日の試合のあと、{player}の箒は暴れ柳の枝の中に落ち、粉々に打ち砕かれた。当面は学校の箒で飛ぶことになる。"
+news.book.firebolt,"{player}がファイアボルトで飛ぶ
+匿名のクリスマスプレゼントだった箒は入念に調べられ、{house}の次の試合に間に合うよう{player}に返された。"
+news.book.umbridge_ban,"アンブリッジが{player}のクィディッチを禁止
+高等尋問官は試合後の乱闘を受けて永久追放を言い渡した。{house}は空いた枠の選抜を行わなければならない。"
+news.book.weasleys_leave,"{player}が華々しくホグワーツを去る
+双子は携帯沼地の上を飛び去り、いたずら専門店を開いた。{house}はビーターを失った。"
+news.book.harry_ron_leave,"{player}がホグワーツに戻らず
+9月1日のホグワーツ特急に{player}の姿はなかった。{house}はチームを立て直さなければならない。"
+news.book.captain,"{player}が{house}の新キャプテンに
+寮監が今シーズンのキャプテンバッジを手渡した。"
+news.book.cedric,"三大魔法学校対抗試合の最後に{player}が死去
+学校は喪に服している。{house}はキャプテンでありシーカーを失った。"
+ui.news.masthead,日刊予言者新聞
+ui.press.missed,この記者会見は終了しました。試合が行われたか、すでに質問に答えています。
+trait.brilliant_but_dangerous,優秀だが危険
+trait.quaffle_drops_record,1シーズンのクアッフル落球記録
+trait.snitch_bounced_off_nose,スニッチが2度も鼻に当たって跳ね返った
+trait.muggle_football_fan,マグルのサッカー好き
+trait.narcolepsy,ナルコレプシー：試合中に眠ってしまう
+ui.answer_messages_n.one,ふくろう便%d通に返信
+ui.owls_waiting.one,受信箱で %d 通のふくろう便が返事を待っている
+ui.market.over_budget,入札額が理事会から与えられた移籍予算を超えている。
+msg.in_debt.subject,クラブが赤字に転落
+msg.in_debt.body,残高が {balance} まで落ち込んだ。理事会は年俸・補強・施設への支出削減を求めている。赤字の間は移籍予算はない。
+ui.finances.upgrade_confirm,%sを%sで強化しますか？
+web.nav.play,プレイ
+web.nav.account,マイアカウント
+web.nav.sign_in,ログイン
+web.nav.sign_out,ログアウト
+web.lang.switch,言語
+web.footer.privacy,プライバシー
+web.footer.terms,利用規約
+web.footer.fan_project,無料の非営利ファンプロジェクトです。ハリー・ポッターとクィディッチはJ.K.ローリング／ワーナー・ブラザースの財産であり、同社等による承認や提携はありません。
+web.landing.pitch,原作の世界でクィディッチクラブを率いよう。選手を獲得し、戦術を決め、チームを鍛え、シーズンごとにリーグとカップを目指す。無料で、ブラウザですぐに遊べます。
+web.landing.play,ブラウザでプレイ
+web.landing.account_note,オンラインで遊ぶには無料アカウントが必要です。必須なのはユーザー名と国だけです。セーブデータはお使いのブラウザに保存されます。
+web.landing.desktop,オフラインで遊びたい場合は、Windows版またはmacOS版をダウンロードしてください。
+web.login.title,ログイン
+web.login.intro,ログインしてブラウザでプレイしましょう。パスワードは不要です。
+web.login.google,Googleで続ける
+web.login.or,または
+web.login.email_label,メールアドレス
+web.login.email_submit,ログイン用リンクを送信
+web.login.email_note,メールアドレスはログインにのみ使用し、誰にも表示されません。
+web.login.signed_in_as,{name} としてログインしています。
+web.login.signed_in_no_profile,ログイン済みです。プレイするにはプロフィールを完成させてください。
+web.login.continue,続ける
+web.login.error.link,このログインリンクは無効か、期限切れか、すでに使用されています。新しいリンクをリクエストしてください。
+web.login.error.blocked,このアカウントはブロックされています。
+web.login.error.google_unverified,Googleアカウントのメールアドレスが確認されていません。メールのリンクでログインしてください。
+web.login.error.google_failed,Googleでのログインに失敗しました。もう一度お試しください。
+web.login.error.rate_limited,ログインリンクのリクエストが多すぎます。数分待ってからもう一度お試しください。
+web.login.error.mail_failed,メールを送信できませんでした。後でもう一度お試しください。
+web.login.error.mail_cap,本日の送信メール数が上限に達しました。Googleでログインするか、明日もう一度お試しください。
+web.login.error.email_invalid,有効なメールアドレスを入力してください。
+web.login.error.session,セッションの有効期限が切れました。もう一度ログインしてください。
+web.login.error.origin,セキュリティ上の理由でリクエストを拒否しました。ページを再読み込みしてもう一度お試しください。
+web.check.title,受信トレイを確認してください
+web.check.body,{email} にログイン用リンクを送信しました。リンクは1回だけ使え、{minutes}分で期限切れになります。
+web.check.spam,見つからない場合は、迷惑メールフォルダを確認するか、戻ってもう一度お試しください。
+web.check.back,ログイン画面に戻る
+web.magic.title,ログインを完了
+web.magic.body,ボタンを押すと、この端末でクィディッチ・マネージャーにログインします。
+web.magic.button,ログイン
+web.mail.magic_subject,{app} のログイン用リンク
+web.mail.magic_body_text,このリンクからクィディッチ・マネージャーにログインしてください（{minutes}分で期限切れになり、1回だけ使えます）：
+web.mail.magic_body_html_intro,ボタンを押すと、このメールアドレスでログインします。パスワードは不要です。
+web.mail.magic_button,クィディッチ・マネージャーにログイン
+web.mail.expires,リンクは{minutes}分で期限切れになり、1回だけ使えます。
+web.mail.ignore_if_not_you,このメールに心当たりがない場合は無視してください。このリンクがなければ誰もあなたのアカウントにログインできません。
+web.error.title,問題が発生しました
+web.error.generic,サーバー側で問題が発生しました。後でもう一度お試しください。
+web.error.429,リクエストが多すぎます。少し待ってからもう一度お試しください。
+web.error.404,ページが見つかりません
+web.error.home,ホームに戻る
+ledger.investment,出資
+ui.market.deal_off,取引は流れた：選手はもう、オファーを受け入れたクラブにいない。
+msg.deal_off.subject,{player} の取引は白紙に
+msg.deal_off.body,{player} の取引はもう成立させられない。返事を待つ間に移籍したか、放出されたか、レンタルに出たか、相手クラブが支払えなくなった。
+msg.over_budget.subject,予算超過：{player}
+msg.over_budget.body,理事会は {player} に {fee} を払うことを認めない。残りの移籍予算は {budget} だ。
+talk.player.too_soon,今週はもう話をした。もう一度話しても重みはない。
+ui.market.loan_ended,レンタルはすでに終了した：買い取りオプションはもう行使できない。
+msg.house_no_cup.body.triwizard,校長が発表：三大魔法学校対抗試合のため、{season} 年度のクィディッチ杯は中止。チームは練習を続ける。来年に備えなければ。
+ui.web.other_tab,Quidditch Manager はすでに別のタブで開いています。遊ぶのは1つのタブだけにしてください。このタブを閉じるか、もう一方を閉じてからこのページを再読み込みしてください。
+ui.pts_n,%d点
+beaters.dopplebeater,ダブルビーター・ディフェンス
+beaters.backbeat,ブラッジャー・バックビート
+keeper.starfish,スターフィッシュ・アンド・スティック
+keeper.double_eight,ダブル・エイト・ループ
+ui.lineup.hint_dnd,選手をピッチの枠へ、またはリストの先発選手の上へドラッグ（または選手→枠の順にクリック） · ダブルクリックで出し入れ · 駒をドラッグで入れ替え
+ui.swap.none,トレードに出せる選手がいない。
+ui.profile.transfers,移籍歴
+ui.nt.finals,W杯決勝
+ui.nt.record,W杯の戦績
+ui.nt.no_finals,W杯決勝の経験はまだない。
+ui.nt.tier,格付け
+ui.nt.tier.elite,世界的強豪
+ui.nt.tier.strong,強豪
+ui.nt.tier.mid,中堅
+ui.nt.tier.weak,格下
+ui.months_standalone,"1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月"
+ui.round_short,第{n}節
+ui.news.edition_n,第{n}号
+ui.duration_hm,{h}時間{m}分
+ui.duration_m,{m}分
+ui.staff.fire_confirm,{name}（{role}）を解雇しますか？ 違約金 {cost} は即時に支払われる。
+ui.complaint.stale,{name} はもうクラブにいない。この不満はもう関係ない。
+ui.scout.fee_note,スカウトの雇用には3か月分の給与を前払いで、解雇には1か月分がかかる。
+ui.new_game.nationality,国籍
+ui.history.col.award,賞
+ui.history.col.from,移籍元
+ui.history.col.to,移籍先
+ui.history.col.fee,移籍金
+ui.quit.title,ゲームを終了しますか？
+ui.quit.body,前回のセーブ以降に変更があります。セーブせずに終了すると失われます。
+ui.quit.body_match,試合中です。試合が終わるまでセーブできません。今終了すると、前回のセーブ以降の進行はすべて失われます。
+ui.quit.save_quit,セーブして終了
+ui.quit.discard,セーブせずに終了
+web.legal.version,{date} 版
+web.legal.read_original,英語の原文を読む
+web.legal.fallback,このページはまだあなたの言語に翻訳されていないため、英語で表示しています。
+web.profile.username_label,ユーザー名
+web.profile.username_help,半角の英字（A–Z）、数字、アンダースコア（_）で3〜20文字。先頭は英字にしてください。ほかのプレイヤーに表示されます。
+web.profile.username_available,このユーザー名は使えます。
+web.profile.names_legend,お名前（任意）
+web.profile.names_help,ほかのプレイヤーには表示されません。このページで、あなただけが見られます。
+web.profile.first_name_label,名
+web.profile.last_name_label,姓
+web.profile.location_legend,お住まいの地域
+web.profile.country_label,国
+web.profile.country_choose,国を選んでください
+web.profile.country_help,必須です。今後のランキングでユーザー名の横に表示されます。
+web.profile.region_label,都道府県・州・地域（任意）
+web.profile.region_none,— 指定しない —
+web.profile.city_label,市区町村（任意）
+web.profile.city_none,— 指定しない —
+web.profile.city_other,その他・リストにない
+web.profile.city_pick_region,都市の数が多いため、先に地域を選んでから「リストを更新」を押してください。
+web.profile.refresh_lists,リストを更新
+web.profile.city_search_placeholder,入力して検索
+web.profile.city_no_results,見つかりません。お住まいの都市がない場合は「その他・リストにない」を選んでください。
+web.profile.location_help,地域と市区町村は任意です。将来、プレイヤーの出身地マップに使うことがあります。住所をお尋ねすることはありません。
+web.profile.geo_credit,地名：{source}
+web.profile.terms_check,私は{age}歳以上で、{terms}と{privacy}に同意します。
+web.profile.terms_link,利用規約
+web.profile.privacy_link,プライバシーポリシー
+web.profile.errors_intro,修正が必要な項目があります。下のメッセージをご確認ください。
+web.profile.error.username_required,ユーザー名を入力してください。
+web.profile.error.username_format,半角の英字（A–Z）、数字、アンダースコアで3〜20文字にし、先頭は英字にしてください。
+web.profile.error.username_reserved,このユーザー名は予約されています。別の名前を選んでください。
+web.profile.error.username_blocked,このユーザー名は使用できません。別の名前を選んでください。
+web.profile.error.username_taken,このユーザー名はすでに使われています。別の名前を選んでください。
+web.profile.error.username_same,現在とは別のユーザー名を選んでください。
+web.profile.error.username_cooldown,ユーザー名の変更は30日に1回までです。
+web.profile.error.name_invalid,文字、スペース、ハイフン、アポストロフィ、ピリオドのみ使えます。
+web.profile.error.name_too_long,50文字以内にしてください。
+web.profile.error.country_required,国を選んでください。
+web.profile.error.country_invalid,リストから国を選んでください。
+web.profile.error.region_invalid,この国のリストから地域を選んでください。
+web.profile.error.city_invalid,この国のリストから市区町村を選んでください。
+web.profile.error.terms_required,続けるには、年齢を確認し、規約に同意してください。
+web.profile.error.confirm_mismatch,一致しません。何も削除されていません。
+web.profile.error.conflict,その間にアカウントが変更されました。もう一度お試しください。
+web.register.title,プロフィールを作成
+web.register.intro,プレイ前の最後のステップです。公開されるのはユーザー名と国だけで、それ以外は非公開です。
+web.register.submit,保存してプレイ
+web.register.signed_in_email,{email} でログイン中です。
+web.register.delete_link,このアカウントを削除
+web.register.rename_title,新しいユーザー名を選んでください
+web.register.rename_body,ユーザー名 {name} は変更が必要です。プレイを続けるには新しい名前を選んでください。セーブデータには影響しません。
+web.register.rename_submit,新しいユーザー名を保存
+web.register.terms_title,規約を更新しました
+web.register.terms_body,プレイを続けるには、新しい利用規約とプライバシーポリシーを読んで同意してください。
+web.register.terms_submit,同意して続ける
+web.account.title,マイアカウント
+web.account.saved.profile,プロフィールを保存しました。
+web.account.saved.username,ユーザー名を変更しました。
+web.account.saved.session,そのセッションからログアウトしました。
+web.account.email_line,ログイン用メールアドレス：{email}（誰にも表示されません）
+web.account.member_since,{date}から利用しています
+web.account.username_title,ユーザー名
+web.account.username_current,現在のユーザー名は {name} です。
+web.account.username_new,新しいユーザー名
+web.account.username_help,{days}日に1回変更できます。以前の名前はすぐにほかのプレイヤーが使えるようになります。
+web.account.username_cooldown,次にユーザー名を変更できるのは{date}です。
+web.account.username_submit,ユーザー名を変更
+web.account.profile_title,プロフィール
+web.account.profile_submit,変更を保存
+web.account.sessions_title,ログイン中の場所
+web.account.sessions_intro,ログインに使ったブラウザや端末の一覧です。心当たりのないものはログアウトしてください。
+web.account.session_unknown_device,不明なブラウザ
+web.account.session_current,このブラウザ
+web.account.session_dates,ログイン：{created}・最終利用：{seen}
+web.account.session_revoke,ログアウト
+web.account.logout_all,すべての場所からログアウト
+web.account.data_title,あなたのデータ
+web.account.data_intro,保存しているあなたの情報をすべてダウンロードしたり、アカウントを削除したりできます。セーブデータはサーバーではなく、お使いのブラウザにあります。
+web.account.export,データをダウンロード（JSON）
+web.account.delete,アカウントを削除
+web.account.delete_title,アカウントの削除
+web.account.delete_body,アカウント、プロフィール、すべてのセッションがすぐに削除され、元に戻せません。このブラウザのセーブデータには影響しません。バックアップ内のコピーは{days}日以内に消えます。
+web.account.delete_confirm_label,確認のため、ユーザー名を入力してください：{name}
+web.account.delete_confirm_check,元に戻せないことを理解しました。
+web.account.delete_submit,アカウントを完全に削除
+web.account.cancel,キャンセル
+web.account.deleted_title,アカウントを削除しました
+web.account.deleted_body,アカウントとそのデータを削除しました。プレイしていただきありがとうございました。新しいアカウントはいつでも作成できます。
+comp.nt_friendlies,国際親善試合 {season}
+ui.account.title,アカウント
+ui.account.checking,アカウントを確認中…
+ui.account.signed_in,%s としてプレイ中。セーブデータはこのブラウザに保存され、アカウントにはプロフィールだけが保存されます。
+ui.account.manage,アカウントを管理
+ui.account.offline,アカウントサービスに接続できません。
+ui.action.graduate_offer,卒業後の契約を提示
+ui.contract.graduate_signed,契約成立：卒業後に加入
+ui.contract.graduate_not_allowed,最終学年の生徒のみ、1月から6月まで、他クラブと未契約の場合に限ります。
+msg.graduate_signed.subject,卒業後の契約：{player}
+msg.graduate_signed.body,{player}がオファーを受け入れた。7月1日に卒業すると、合意した条件でクラブに加入する。
+ui.save_after_match,試合が終わってからセーブできます。
+news.transfer_free,"移籍：{player} が {to} へ
+{to} が {player} をフリーで獲得。"
+msg.award.body.wronski,リーグは {player} に {award} を贈った。今季の平均評価は {value}。ロッカールームは祝福ムードだ。
+msg.award.body.top_scorer,リーグは {player} に {award} を贈った。今季 {value} ゴール。ロッカールームは祝福ムードだ。
+msg.award.body.top_catcher,リーグは {player} に {award} を贈った。今季スニッチ捕獲 {value} 回。ロッカールームは祝福ムードだ。
+msg.award.body.best_keeper,リーグは {player} に {award} を贈った。今季の平均評価は {value}。ロッカールームは祝福ムードだ。
+msg.contract_expired.body_loan,{player} は6月30日にレンタルから戻ったが、同日に契約が満了しフリーになった。
+msg.contracts_spring.subject,契約満了間近：最終確認
+msg.contracts_spring.body,6月30日まであと4か月ですが、次の選手はまだ契約を更新していません（括弧内は週給）：{players}。何も提示しなければ移籍金なしで退団し、他クラブはすでに仮契約を持ちかけられます。残したい選手は選手一覧から更新してください。
+ui.action.let_them_go,放出する
+msg.contracts.outcome_let_go,更新しないことにした。6月30日にフリーで退団する。
+msg.contracts.outcome_settled,解決済み：このリストに更新待ちの選手はもういない。
+msg.contracts_auto.body_budget,休暇中だったので、6月30日に満了する契約を処理しました。ポジションが手薄になる場合を除き、理事会の給与予算内に収めています。更新（新しい週給）：{renewed}。退団：{leaving}。給与総額：週 {bill}（予算 {budget}）。
+msg.assistant.lab.expiring,• 4か月以内に契約満了：
+msg.assistant.lab.unhappy,• 士気がどん底（声をかける価値あり）：
+msg.assistant.lab.injured,• 長期負傷（日数）：
+msg.assistant.lab.hot,• 好調：
+msg.assistant.lab.cold,• 最近不調：
+msg.assistant.body.1,{lab1}{names1}。
+msg.assistant.body.2,"{lab1}{names1}。
+{lab2}{names2}。"
+msg.assistant.body.3,"{lab1}{names1}。
+{lab2}{names2}。
+{lab3}{names3}。"
+msg.assistant.body.4,"{lab1}{names1}。
+{lab2}{names2}。
+{lab3}{names3}。
+{lab4}{names4}。"
+msg.assistant.body.5,"{lab1}{names1}。
+{lab2}{names2}。
+{lab3}{names3}。
+{lab4}{names4}。
+{lab5}{names5}。"
+msg.scout_recs.body.1,"{pos} が手薄です。予算内の候補を1人（クラブ、年齢、価格）：
+• {n1} ({c1}、{a1}、{g1})"
+msg.scout_recs.body.2,"{pos} が手薄です。予算内の候補を2人（クラブ、年齢、価格）：
+• {n1} ({c1}、{a1}、{g1})
+• {n2} ({c2}、{a2}、{g2})"
+msg.scout_recs.body.3,"{pos} が手薄です。予算内の候補を3人（クラブ、年齢、価格）：
+• {n1} ({c1}、{a1}、{g1})
+• {n2} ({c2}、{a2}、{g2})
+• {n3} ({c3}、{a3}、{g3})"
+msg.youth_intake.body.1,"今季ユースに加わった若手たち：
+{n1}（{p1}）：{v1}"
+msg.youth_intake.body.2,"今季ユースに加わった若手たち：
+{n1}（{p1}）：{v1}
+{n2}（{p2}）：{v2}"
+msg.youth_intake.body.3,"今季ユースに加わった若手たち：
+{n1}（{p1}）：{v1}
+{n2}（{p2}）：{v2}
+{n3}（{p3}）：{v3}"
+msg.house_roster.body_split,"卒業してクラブへ：{gone}。
+卒業（所属先なし）：{gone_free}。
+選抜テストで加入：{fresh}。"
+msg.debt_warning.subject,理事会が負債に危機感
+msg.debt_warning.body,{club} の残高は {balance}。週給 {weeks} 週分を超える赤字だ（上限は {limit}）。理事会は選手の売却か給与削減、またはその両方を求めている。2か月以内に改善しなければ補強禁止となる。
+msg.debt_embargo.subject,負債により補強禁止
+msg.debt_embargo.body,{club} の負債は減っていない（{balance}）。{limit} を上回るまで、理事会は新規獲得もレンタル加入も認めない。売却は可能で、むしろそれが求められている。
+msg.debt_ultimatum.subject,負債をめぐる最後通告
+msg.debt_ultimatum.body,{club} の理事会は負債（{balance}）に我慢の限界だ。最初の警告から1年たっても残高が {limit} を下回っていれば、別のクラブを探すことになる。
+msg.debt_sacked.subject,負債により解任
+msg.debt_sacked.body,最初の警告から1年が過ぎても、{club} の残高は {balance} で {limit} を下回ったままだ。理事会は最後通告を実行した。
+msg.debt_cleared.subject,負債は落ち着いた
+msg.debt_cleared.body,{club} の残高は許容範囲に戻った。理事会は警告と、あれば補強の制限も解除した。
+msg.trophy.subject,優勝：{cup}！
+msg.trophy.body,{team} が {cup}（{season}）を制した。おめでとう！トロフィーはクラブの棚に、そして監督としての経歴に加わった。
+msg.job_offer.outcome_accepted,オファーを受諾した。
+msg.job_offer.outcome_rejected,オファーを断った。このクラブから1年間は声がかからない。
+msg.job_offer.outcome_closed,オファー終了：{club} と契約した。
+news.league_champion,"{team}、{league} {season} 優勝！
+{team} が勝ち点 {pts} で首位に立ち、2位は {runner}。スタンドのファンは歓喜に沸いている。"
+news.masthead.quibbler,ザ・クィブラー
+news.masthead.witch_weekly,週刊魔女
+news.masthead.which_broomstick,賢い箒の選び方
+msg.season_review.subject,{season} シーズン総括
+msg.season_review.body,"{club} の {season} シーズン：{league} で {position} 位だった。
+理事会の目標（{objective}）：{verdict}
+獲得タイトル：{t1}{ts2}{t2}{ts3}{t3}{ts4}{t4}
+個人賞：{awards}
+退団：{departures}
+加入：{arrivals}
+{next_season} の理事会の要求：{next_objective}。給与予算は週 {budget}。"
+msg.season_review.body_left,"{club} の {season} シーズン：{league} で {position} 位だった。
+理事会の目標（{objective}）：{verdict}
+獲得タイトル：{t1}{ts2}{t2}{ts3}{t3}{ts4}{t4}
+個人賞：{awards}
+理事会はあなたとの契約を打ち切ることを決めた。"
+msg.season_review.body_new,"{club} の {season} シーズン。
+獲得タイトル：{t1}{ts2}{t2}{ts3}{t3}{ts4}{t4}
+個人賞：{awards}
+退団：{departures}
+加入：{arrivals}
+{next_season} の理事会の要求：{next_objective}。給与予算は週 {budget}。"
+msg.season_review.verdict.met,達成。
+msg.season_review.verdict.missed,未達成。
+msg.season_review.verdict.sacked,大きく未達。理事会はあなたを解任した。
+ui.market.embargo,補強禁止：クラブの財政が立ち直るまで、理事会がオファー、トレード、レンタルをすべて凍結した。
+ui.market.budgets,移籍予算：%s · 給与：週 %s / %s
+ui.contract.budgets,残りの移籍予算：%s · この提示での給与：週 %s / %s
+ui.school.after_school,卒業後
+ui.school.after_school_tip,最終学年の生徒：卒業後に加入するクラブ（契約済み、または原作どおり）。
+msg.graduate_void.subject,卒業後の契約が無効に：{player}
+msg.graduate_void.body,{player}は卒業したが、うちには来ず{club}へ行った。卒業後に向けて結んだ契約は無効となり、契約金は支払っていない。
+ui.saving,セーブ中…
+ui.save_unconfirmed,ブラウザがまだセーブデータを書き終えていない。タブを閉じずに、数秒後にもう一度セーブしよう。
+ui.saves.ago_now,たった今セーブ
+ui.saves.ago_min,%d分前にセーブ
+ui.saves.ago_hours,%d時間前にセーブ
+ui.saves.ago_days,%d日前にセーブ
+ui.saves.ago_days.one,%d日前にセーブ
+ui.saves.load_failed,ゲームをロードできなかった。
+ui.saves.main_menu_ask,メインメニューに戻りますか？
+ui.title.continue,つづきから
+ui.holiday.urgent_first,出かける前に、この急ぎのふくろう便に返事をしよう。
+ui.holiday.next_match,次の試合の前日まで（%s）
+ui.holiday.note_unemployed,数日休む。仕事のオファーなど急ぎの知らせが届けば、早めに戻る。
+ui.inbox.outcome.lineup_ready,布陣が整った。試合ができる。
+ui.inbox.outcome,あなたの返答：{answer}
+ui.inbox.confirm_job,{club} の監督就任を受けますか？
+ui.inbox.confirm_job_leave,{club} を去ることになる。
+ui.manager.out_of_reach,評判がこのクラブの求める水準に遠く及ばない。
+ui.comp_group.domestic,国内
+ui.comp_group.continental,大陸
+ui.comp_group.international,国際
+ui.club.honours,獲得タイトル
+pos.short.K,キ
+pos.short.C,チ
+pos.short.B,ビ
+pos.short.S,シ
+ui.match.autopause,スニッチ発見時に一時停止
+ui.match.autopause_tip,シーカーがスニッチを見つけると試合が止まる。自チームのシーカーに捕らせるかどうかを決める時だ（「試合の行方」を参照）。
+ui.match.autopaused,試合を一時停止：スニッチが現れた。シーカーへの指示を調整して「再生」を押そう。
+ui.match.snitch_caught_by,スニッチ：%s が捕獲
+ui.match.snitch_not_caught,スニッチ：捕獲なし
+ui.match.bludgers_more,（前回から、さらにブラッジャー命中 %d 回）
+match.end.mutual_end.depleted,チェイサーもシーカーも飛べなくなり、{team} のキャプテンが敗北を認めた。両キャプテンの合意で試合終了。
+ui.training.individual,個人プラン
+ui.training.pick_hint,下の表で選手を選ぶと、個人の重点やメンターを設定できる。
+ui.training.clear,重点とメンターを解除
+ui.training.more,ほか%d件
+ui.training.at_potential,潜在能力の上限に達した：個人の重点ではこれ以上伸びない。
+ui.training.delegated,練習をアシスタントに任せている間、個人の重点は無視される（メンターは有効）。使うには「アシスタントに任せる」のチェックを外す。
+news.filler.prophet.1,700の反則、いまだ非公開\n魔法ゲーム・スポーツ部は、すべて1473年のワールドカップ決勝で犯された反則の全リストを、今回も公表しないと発表した。魔法使いや魔女が「妙な気を起こす」のを恐れているという。
+news.filler.prophet.2,トランシルヴァニア・タックルはいまだ合法\n1473年のワールドカップで初登場した、鼻を狙う見せかけのパンチは、当たらない限り反則ではない。審判団によれば、びくっとする選手が目に見えて増えている。
+news.filler.prophet.3,プランプトンの3.5秒、いまだ破られず\n1921年、カーフィリー・カタパルツ戦でロデリック・プランプトンが見せたキャッチを超えたシーカーは英国にはいない。批評家たちは今も、スニッチが勝手に袖に飛び込んだだけだと主張している。
+news.filler.prophet.4,聖マンゴ病院「ウロンスキー・フェイントはもっと高い所で」\n癒者たちは、アマチュアのシーカーに裏庭でヨーゼフ・ウロンスキーの急降下を真似しないよう呼びかけている。今月だけで鎖骨を11本治したという。
+news.filler.prophet.5,ゴールの輪、記念日\n1883年2月、規格の決まった輪が昔のかごに取って代わった。バーントンのチームが相手には小さなかごを、自分たちには「柳細工の洞窟」をあてがったのがきっかけだった。一部のパブでは今も「かごを返せ！」の声が聞こえる。
+news.filler.prophet.6,1884年からスツージング禁止\n1884年6月22日、ゴールエリアに入れるチェイサーは1人だけと定められた。年配のファンの中には、キーパーがぺちゃんこにされる光景を今も懐かしむ者がいる。
+news.filler.prophet.7,審判試験がさらに厳しく\n受験者は飛行試験、ルールの筆記試験、そしてプレッシャーの下でも選手に呪いをかけないことを証明する試験を受ける。魔法ゲーム・スポーツ部によれば、今年の合格率は「まずまず」だった。
+news.filler.prophet.8,審判たち、シプリアン・ユードルを偲ぶ\n試合中に亡くなった唯一の審判（1357年）が、魔法ゲーム・スポーツ部恒例の審判晩餐会で追悼された。観客席にいた犯人は結局見つかっていない。
+news.filler.prophet.9,行方不明の審判、サハラで発見\n審判の箒を移動キーに変えるのは重大な違反だと、魔法ゲーム・スポーツ部はファンに改めて警告した。審判は数か月後、すっかり日焼けして戻ってきた。
+news.filler.prophet.10,アップルビー：矢はご遠慮を\nアローズはサポーターに対し、ゴールのたびに杖から矢を放つ行為は1894年から禁止されていると改めて呼びかけた。その年、矢の一本が審判ニュージェント・ポッツの鼻を貫いたのだ。
+news.filler.prophet.11,毎試合前に箒を検査\n魔法ゲーム・スポーツ部は各クラブに厳しい安全基準を改めて通知した。穂に未登録の呪文をかけるのも、柄に呪いをかけるのも禁止。前回の検査では3本の箒が没収された。
+news.filler.prophet.12,マグルの目の届かない所で\n魔法ゲーム・スポーツ部はアマチュアクラブに1419年の布告を改めて通知した。「マグルが見ているかもしれない可能性がわずかでもある場所の近く」でクィディッチをしてはならない。デヴォンの村のチームがすでに罰金を科された。
+news.filler.prophet.13,会場は未定\nエリス・ムーアでキャンプするマグルのせいで、またしても試合の会場変更を余儀なくされた。魔法ゲーム・スポーツ部は「テントがなくなり次第」新しい会場を用意すると約束している。
+news.filler.prophet.14,ワールドカップ：マグル避け呪文の準備完了\n魔法ゲーム・スポーツ部は決勝会場周辺に呪文をかけ終え、キャンプ場ではマグルらしい服装をするよう観客に求めている。花柄のネグリジェはマグルの服に含まれないとのこと。
+news.filler.prophet.15,バグマン「ここ数年で最高の運営のワールドカップに」\n魔法ゲーム・スポーツ部のルード・バグマン部長は、1994年の英国での決勝は忘れられないものになると約束した。結果にもう賭けたかどうかについては明言を避けた。
+news.filler.prophet.16,魔法ゲーム・スポーツ部、新部長を募集\n三大魔法学校対抗試合の終了以来、ルード・バグマンは机に姿を見せていない。数人の小鬼も彼の行方を尋ねている。
+news.filler.prophet.17,アイルランド、ファイアボルト7本を注文\nアイルランド代表チームはワールドカップに向けてファイアボルトを7本注文した。ブルガリアはコメントを控えた。
+news.filler.prophet.18,ホグワーツ、今年は寮対抗クィディッチ杯なし\nホグワーツは1994-95年度の寮対抗杯を中止した。代わりに「ある行事」を開催するためだという。詳細は明かされていない。
+news.filler.prophet.19,国際委員会、マスコット規制案を否決\nワールドカップのマスコットを「草食で、牛より小さく、火を吐かないもの」に限る提案は否決された。いくつかの代表団がヴィーラに代わって反対したという。
+news.filler.prophet.20,キャノンズ、今も指を交差させて\nチャドリー・キャノンズは1972年に採用したモットー「みんなで指を交差させて、うまくいくよう祈ろう」を守り続けている。ファンクラブいわく「おかげでうまくいっている」。
+news.filler.prophet.21,ワスプスの「ブンブン」に苦情\nあるチェイサーが、ウィンボーンの「スティンガーズ」がペナルティ前に選手の気を散らそうとブンブン唸ると魔法ゲーム・スポーツ部に苦情を申し立てた。部の回答は「唸り声は厳密には呪文ではない」。
+news.filler.prophet.22,霧の中の16日間\n1932年、アップルビー・アローズは当時の欧州王者ヴラッツァ・ヴァルチャーズを破った。濃い霧の中、試合は16日間続いた。魔法ゲーム・スポーツ部は審判に対し、試合が12時間を超えた場合のタイムアウトは2時間まで、1分たりとも延ばせないと改めて通知した。
+news.filler.prophet.23,ファルコンズに注意\n魔法ゲーム・スポーツ部はファルマス・ファルコンズに対し、モットー「勝とう、だが勝てないなら、何人かの頭をかち割ろう」は戦術ではないと釘を刺した。ブロードムーア兄弟の14回の出場停止（1958-1969）は今も語り草だ。
+news.filler.prophet.24,「危険な」ダイ記念メダルは誰の手に？\n魔法ゲーム・スポーツ部は、今シーズン最もスリリングで無謀な賭けに出たリーグの選手にこのメダルを贈る。聖マンゴ病院は静かな一年を願っている。
+news.filler.prophet.25,魔法大臣がリーグ杯を授与へ\nコーネリウス・ファッジ大臣が今季最終節に姿を見せ、トロフィーを授与する予定だ。大臣室によれば、大臣はクィディッチを「大いに楽しんでいる」という。
+news.filler.prophet.26,リーグは予定どおり開催\n「名前を言ってはいけないあの人」の復活に関する魔法省の発表を受け、魔法ゲーム・スポーツ部は、ムーアの警備を強化したうえで予定どおりシーズンを行うと発表した。
+news.filler.prophet.27,ムーアで入場検査\n新任のルーファス・スクリムジョール大臣の要請で、魔法ゲーム・スポーツ部は各クラブに観客全員の入場検査を求めた。闇の品物を試合会場に持ち込まないよう呼びかけている。
+news.filler.prophet.28,観客に新たな規則\n魔法ゲーム・スポーツ部は、観客は毎試合、身分証明書を提示しなければならないと発表した。魔法省は「単なる形式的な手続き」だと強調している。
+news.filler.prophet.29,再確認：スニッチはシーカー専用\nシーカー以外の選手がスニッチを捕まえると、そのチームの負けとなる。「最も古いルールのひとつ」だと魔法ゲーム・スポーツ部は念を押した。あるビーターが「ちょっと近くで見たかっただけ」だったという。
+news.filler.quibbler.1,スウェーデンでしわしわ角スノーカックを目撃\n本誌編集長はすでに探検の荷造りを始めている。魔法省はいつものとおり、すべてを否定している。
+news.filler.quibbler.2,ワールドカップにスノーカック？\nある読者は、決勝戦の最中にしわしわ角スノーカックがスタジアムに忍び込むのを見たと断言する。魔法省はレプラコーンのせいにしている。
+news.filler.quibbler.3,ブリバリング・ハムディンガー、ゴールの輪に巣\n北部のムーアのグラウンド係が、ゴールの輪にブリバリング・ハムディンガーがいるのを発見した。これでシュートが外れてばかりいる理由も説明がつく。
+news.filler.quibbler.4,ロットファング陰謀、クィディッチにも\n本誌の情報筋によれば、一部の審判は、闇の魔術と歯茎の病気で魔法省を内部から転覆させようとするロットファング陰謀の一員だという。審判の歯をよく見てほしい。
+news.filler.quibbler.5,ファッジはグリンゴッツ乗っ取りのためにどこまでやるのか？\n確かな筋によれば、大臣は小鬼をパイにして焼かせたという。グリンゴッツはコメントを拒否した。
+news.filler.quibbler.6,ファッジの秘密の軍隊\n大臣は、大地を駆け回り行く手のすべてを焼き尽くす火の精ヘリオパスの軍隊を抱えているのか？　焦げ跡を見つけた読者はご一報を。
+news.filler.quibbler.7,シリウス・ブラック：噂ほど黒いのか？\nリトル・ノートンの読者によれば、脱獄囚の正体はホブゴブリンズのボーカル、スタビィ・ボードマンだという。彼はコンサート中に耳にカブをぶつけられて引退した人物だ。その夜、二人は一緒に夕食をとっていたと彼女は言う。
+news.filler.quibbler.8,ヤドリギにご用心\nヤドリギにはよくナーグルがはびこっている。本誌編集長のおすすめは、バタービールのコルクで作ったネックレスだ。
+news.filler.quibbler.9,スニッチを逃すのはラックスパートのせい\n目に見えないラックスパートが耳から入り込み、頭をぼんやりさせる。多くのシーカーがスニッチを取り逃がすのは、スニッチではなくこれが原因だ。
+news.filler.quibbler.10,今月号の付録：メラメラメガネ\n切り取ってかければ、頭の周りに群がるラックスパートが見えるはず。
+news.filler.quibbler.11,1884年のスニッチ、今もボドミン・ムーアに\nハイキング中の人がヒースの茂みで羽音を聞いた。本誌の情報筋によれば、1884年に6か月間逃げ続け、二度と戻らなかったあのスニッチだという。
+news.filler.quibbler.12,クリーンスイープ6号で月へ\nある魔法使いが、月まで飛んでいき、証拠に月のカエルを袋いっぱい持ち帰った話を語ってくれた。
+news.filler.quibbler.13,古代ルーン文字の秘密を公開\nこのページを逆さにすれば、敵の耳をキンカンに変える呪文が見つかる。
+news.filler.quibbler.14,リーグの腐敗：トルネードーズはいかにして支配を固めたか\nタッツヒル・トルネードーズに関する本誌の調査で、拷問、恐喝、違法な箒の改造が浮かび上がった。クラブ側は「まったくのデタラメ」としている。
+news.filler.quibbler.15,ブラッジャーは考える？\n引退したビーターによれば、ブラッジャーは自分を打った選手を一人残らず覚えているという。「しかも根に持つんだ」と彼は付け加えた。
+news.filler.quibbler.16,キーパーに飛行梅を\nゴールの輪ごとに飛行梅を一つずつ吊るせば「非凡なことを受け入れる力が高まる」と本誌編集長。効果には個人差がある。
+news.filler.quibbler.17,庭小人に噛まれてビーターの腕に？\n庭小人に噛まれたある読者が、バットの扱いに驚くべき才能を発揮し始めた。本誌編集長が長年主張しているとおり、Gernumbli gardensiの唾液は非常に体に良いのだ。
+news.filler.quibbler.18,増刷決定！\n3月号は売り切れた。読者はしわしわ角スノーカックよりもこちらに関心があるらしい。第2刷を準備中だ。
+news.filler.quibbler.19,ハリー・ポッターに力を\n本誌編集長は毎号の一面で訴えている。「例のあの人」に反対する魔法使いは、ハリー・ポッターを助けることを最優先にすべきだと。今号にはスノーカックは一頭も登場しない。
+news.filler.quibbler.20,新大臣は半分ライオン？\nルーファス・スクリムジョールの黄褐色のたてがみ、黄色っぽい目、しなやかな足取りに、読者は気づいている。大臣が吠えるかどうか、魔法省は明らかにしなかった。
+news.filler.quibbler.21,4つ目のボール\n匿名の情報提供者によれば、魔法省は1473年以来危険すぎて使えない4つ目のボールを地下室に隠しているという。
+news.filler.quibbler.22,スノーカックが一度も捕まらない理由\n本誌編集長によれば、スノーカックはひどく臆病で、100ヤード先で網を編む音まで聞きつけるのだという。
+news.filler.quibbler.23,かごを返せ！\nゴールの輪を1883年に禁止されたかごに戻そうと訴える協会が、今月も会合を開いた。会員2名がそろって出席した。
+news.filler.quibbler.24,スニッチにも心がある\nある読者が、シーカーにスニッチをあまり強く握りしめないよう訴えている。何個かのスニッチからも賛同の手紙が届いた。
+news.filler.quibbler.25,本誌、復活\n困難な一年を経て、編集長は再び机に向かい、しわしわ角スノーカックも再び一面に戻ってきた。
+news.filler.witch_weekly.1,チャーミング・スマイル賞：5度の受賞者ギルデロイ・ロックハートが不在の今年、クィディッチ選手たちは鏡の前で練習中
+news.filler.witch_weekly.2,読者投票：ビーターは「歯科的理由により」チャーミング・スマイル投票の対象外に
+news.filler.witch_weekly.3,リータ・スキーターのコラム：シーカーたちが母親に言えないこと
+news.filler.witch_weekly.4,リータ・スキーター独占：箒を枕の下に入れて眠るリーグのキャプテン
+news.filler.witch_weekly.5,リータ・スキーターの貴賓席レポート：ワールドカップ決勝で誰が誰の隣に座ったか
+news.filler.witch_weekly.6,リータ・スキーター：ブルガリアのシーカー、ホグワーツで心を奪われる。奪ったのは対抗試合ではない
+news.filler.witch_weekly.7,読者投票：世界一かっこいいシーカーはビクトール・クラム――ただし箒に乗っている間に限る
+news.filler.witch_weekly.8,読者が選ぶ今季いちばんハンサムなシーカー発表。キーパーたちは再集計を要求
+news.filler.witch_weekly.9,セレスティナ・ワーベックがリーグ戦の試合前に歌う。チケットは1時間で完売
+news.filler.witch_weekly.10,ホグワーツのクリスマス・ダンスパーティーで演奏した妖女シスターズ、次はクィディッチの決勝で演奏したいと意欲
+news.filler.witch_weekly.11,妖女シスターズのバグパイプ奏者、いまだにブラッジャーとクアッフルの区別がつかないと告白
+news.filler.witch_weekly.12,聖マンゴ病院のギルデロイ・ロックハート、今も頼んだ人にも頼んでいない人にもサイン入り写真を配る
+news.filler.witch_weekly.13,今年はロックハートの新刊なし。書店は彼の棚をクィディッチ選手の回想録で埋める
+news.filler.witch_weekly.14,時速150マイルの急降下にも崩れない髪型7選
+news.filler.witch_weekly.15,診断テスト：あなたの性格に合うクィディッチのポジションは？（Bが多かった人：叩くために生まれてきたタイプ）
+news.filler.witch_weekly.16,勝利の糖蜜パイ：ハーピーズのチェイサーが太鼓判を押すレシピ
+news.filler.witch_weekly.17,ハーピーズのキャプテン、グウェノグ・ジョーンズが美容グラビアの撮影を断る。「シーズン中はお断り」
+news.filler.witch_weekly.18,チェイサーの夫が絶対に言わない10のこと
+news.filler.witch_weekly.19,クィディッチ式の結婚式：招待客はスタンド席、花嫁は箒で登場――向かい風で3分遅刻
+news.filler.witch_weekly.20,チームカラーのドレスローブ：読者の答えはイエス。ただしチャドリー・キャノンズのオレンジは除く
+news.filler.witch_weekly.21,リーグのあるロッカールームで愛の妙薬が禁止に。キーパーが自分のゴールの輪に恋をしたため
+news.filler.witch_weekly.22,癒者の美容アドバイス：試合後の記念撮影までにブラッジャーのあざを消す方法
+news.filler.witch_weekly.23,ワールドカップ現地リポート：パタゴニア砂漠でいちばんおしゃれなサポーターたち
+news.filler.witch_weekly.24,チャーミング・スマイル賞：今年の最終候補にクィディッチ選手が3人
+news.filler.witch_weekly.25,ワールドカップ決勝で地面と対面したエイダン・リンチにお見舞いの花束を
+news.filler.witch_weekly.26,読者の質問：シーカーがひげを生やすのはあり？　アンケートの結論は「風しだい」
+news.filler.which_broomstick.1,ファイアボルトを試乗：10秒で時速150マイル、壊れないブレーキ呪文。価格はお問い合わせください
+news.filler.which_broomstick.2,アイルランド代表がファイアボルトを7本発注。ワールドカップの優勝候補だ
+news.filler.which_broomstick.3,ファイアボルトはトネリコの柄に一本ずつ手作業で登録番号が入っている。テスターが2度確かめた
+news.filler.which_broomstick.4,小鬼のストライキでファイアボルトは品薄。世界のほとんどのチームはいまもニンバス2001に乗る
+news.filler.which_broomstick.5,中古のニンバス2000がお買い得。今は誰もがファイアボルトを欲しがるから
+news.filler.which_broomstick.6,クリーンスイープ11号を試乗：スペイン産オークの柄、呪い除けニス、振動制御内蔵
+news.filler.which_broomstick.7,コメット290：時速0から60マイル――ただし追い風がよければ
+news.filler.which_broomstick.8,コメット260：見栄えはするが、ニンバスとは格が違う
+news.filler.which_broomstick.9,名機列伝：シルバー・アロー。追い風で時速70マイル。マダム・フーチもこの箒で飛び方を覚えた
+news.filler.which_broomstick.10,ブルーボトル、家族みんなの箒。盗難防止ブザーはちゃんと鳴る――試してみた
+news.filler.which_broomstick.11,ティンダーブラスト：エラビー・アンド・スパッドモア社が勝つためでなく長持ちさせるために作った箒
+news.filler.which_broomstick.12,スウィフトスティック：水平飛行は速いが、上昇では息切れ
+news.filler.which_broomstick.13,オークシャフト79：1935年、ジョカンダ・サイクスがこの箒で大西洋を横断。クィディッチには今も重すぎる
+news.filler.which_broomstick.14,コレクターズ・コーナー：グラディス・ブースビー手作りのムーントリマーが競売で一財産に
+news.filler.which_broomstick.15,中古のシューティング・スター：安いのには理由がある。古くなるほど速度も高度も落ちる
+news.filler.which_broomstick.16,トゥイガー90：いちばん信頼できる部品は警告ホイッスル
+news.filler.which_broomstick.17,メンテナンス入門：柄を磨き、尾の小枝を切りそろえ、長距離飛行の前には羅針盤を確認しよう
+news.filler.which_broomstick.18,保管のコツ：殴り返してくる木の届くところに箒を置かないこと
+news.filler.which_broomstick.19,あなたの箒の柄はブラッジャーに耐えられる？　格安モデルで試したら、勝ったのはブラッジャーだった
+news.filler.which_broomstick.20,クリーンスイープ対コメット：ホートン・キーチ式ブレーキ呪文を生んだライバル関係
+news.filler.which_broomstick.21,クリーンスイープ7号：学校チームにとって賢い選択
+news.filler.which_broomstick.22,ワールドカップの箒：ファイアボルト・シュプリーム対サンダーボルトVII、ヴァラピドス、スタースイーパーXXI
+news.filler.which_broomstick.23,サンダーボルトVII：ワールドカップでブラッジャーに尾を吹き飛ばされ、調査は続く
+news.filler.which_broomstick.24,試乗：ワールドカップで日本代表とともにデビューした箒「ヤジルシ」
+news.filler.which_broomstick.25,ファイアボルトは今も世界最速の箒か？　ストップウォッチの答えはイエス
+news.filler.which_broomstick.26,ニンバス50周年：その場で旋回できた1000から2001まで
+news.filler.which_broomstick.27,読者のお便り：「祖父のクリーンスイープ5号はまだ飛びます。ゆっくり、しかも左にしか曲がりませんが」
+press.q.narrow_win,「{rival}戦は{score}の辛勝。苦しみましたか？」
+press.a.narrow_win.humble,ええ、苦しみました。{rival}も強かった。
+press.a.narrow_win.confident,まったく。最初から最後まで主導権を握っていた。
+press.a.narrow_win.critical,苦しみすぎた。もっと早く決めるべきだった。
+press.a.narrow_win.evasive,勝った。それがすべてだ。
+press.q.narrow_loss,「{rival}に{score}、数ゴール差の惜敗。何が足りませんでしたか？」
+press.a.narrow_loss.humble,少しの運だ。今回は{rival}にあった。
+press.a.narrow_loss.confident,内容ではこちらが上だった。スコアに表れていないだけだ。
+press.a.narrow_loss.critical,ゴール前での冷静さが足りなかった。
+press.a.narrow_loss.evasive,細かいことはロッカールームで話す。
+press.q.win_away,「敵地で{rival}に{score}で勝利。アウェーは得意ですか？」
+press.a.win_away.humble,相手のサポーターの声援はすごい。だから価値は倍だ。
+press.a.win_away.confident,このチームはどこでも勝てる。
+press.a.win_away.critical,勝ったが、相手にチャンスを与えすぎた。
+press.a.win_away.evasive,どこの競技場でも同じだ。
+press.q.loss_home,「ホームで{rival}に{score}で敗戦。サポーターに何を伝えますか？」
+press.a.loss_home.humble,申し訳ない、必ず巻き返すと。
+press.a.loss_home.confident,次のホームゲームは必ず勝つ。約束する。
+press.a.loss_home.critical,あんな試合を見せて申し訳ない。説明すべき選手がいる。
+press.a.loss_home.evasive,これからも足を運んでほしい。
+press.q.derby_win,「{rival}とのダービーに{score}で勝利。サポーターにとっての意味は？」
+press.a.derby_win.humble,この勝利は彼らのものだ。誰よりも熱く応援してくれる。
+press.a.derby_win.confident,このライバル関係で主導権を握っているのは我々だということだ。
+press.a.derby_win.critical,ダービーは勝ってこそだが、今日の内容は悪かった。もっと求める。
+press.a.derby_win.evasive,ほかの試合と同じ価値だ。
+press.q.derby_loss,「{rival}とのダービーに{score}で敗戦。サポーターにどう説明しますか？」
+press.a.derby_loss.humble,申し訳ない。この試合の重みはわかっている。
+press.a.derby_loss.confident,次の対戦がある。そこで必ず勝つ。
+press.a.derby_loss.critical,何が懸かっているのか分かっていない選手がいた。
+press.a.derby_loss.evasive,試合直後に説明することはない。
+press.q.former_club,「古巣{rival}との対戦は{score}。特別な試合でしたか？」
+press.a.former_club.humble,あのクラブには良い思い出がある。だが今日は自分のチームのことだけ考えた。
+press.a.former_club.confident,あのクラブは知り尽くしている。それが作戦に表れた。
+press.a.former_club.critical,親善試合のようにプレーした選手がいた。
+press.a.former_club.evasive,過去は関係ない。次の質問を。
+press.q.former_player,「かつてあなたのクラブにいた{player}が大活躍しました。放出を後悔していますか？」
+press.a.former_player.humble,{player}の活躍を願っている。今日は見事だった。
+press.a.former_player.confident,まったく。今のチームのほうが強い。
+press.a.former_player.critical,{player}にはよかったな。うちではあんなプレーは一度もなかった。
+press.a.former_player.evasive,いる選手の話をする。去った選手の話はしない。
+press.q.snitch_catch,「{player}がスニッチを捕って{score}で勝利。この結末を想像していましたか？」
+press.a.snitch_catch.humble,点差を離されなかったチーム全員の手柄だ。
+press.a.snitch_catch.confident,リーグで{player}ほどスニッチを読める者はいない。
+press.a.snitch_catch.critical,スニッチはもっと早く捕れたはずだ。試合はもっと早く決めないと。
+press.a.snitch_catch.evasive,素晴らしい瞬間だった。次の質問を。
+press.q.cup_through,「{rival}を破り、次のラウンドへ（{competition}）。どこまで勝ち進みたいですか？」
+press.a.cup_through.humble,一戦一戦だ。カップ戦は甘くない。
+press.a.cup_through.confident,決勝まで。そして優勝だ。
+press.a.cup_through.critical,勝ち上がったが、この内容では次は勝てない。
+press.a.cup_through.evasive,次の相手を見てからだ。
+press.q.cup_out,「{rival}に{score}で敗れ敗退（{competition}）。悔しいですか？」
+press.a.cup_out.humble,とても。皆の夢だった。
+press.a.cup_out.confident,これからは全力をリーグ戦に注ぐ。
+press.a.cup_out.critical,真剣に向き合わない選手がいると、カップ戦はこうなる。
+press.a.cup_out.evasive,次に進もう。
+press.q.top_clash,「{rival}との上位対決は{score}。優勝争いへの影響は？」
+press.a.top_clash.humble,まだ先は長い。両チームとも最後まで争うだろう。
+press.a.top_clash.confident,優勝の行方は我々次第だ。
+press.a.top_clash.critical,この内容では優勝には届かない。
+press.a.top_clash.evasive,数えるのはシーズンの最後だ。
+press.q.first_weeks,「就任後間もない中、{rival}戦は{score}。あなたの色は出てきましたか？」
+press.a.first_weeks.humble,選手たちの手柄だ。私は来たばかりだ。
+press.a.first_weeks.confident,もう出ている。これからもっと出る。
+press.a.first_weeks.critical,まだまだだ。直すべき悪い癖がある。
+press.a.first_weeks.evasive,判断するのは数か月待ってほしい。
+press.q.weather,「試合中ずっと{weather}でした。天候は結果にどれほど影響しましたか？」
+press.a.weather.humble,天候は両チーム同じだった。
+press.a.weather.confident,すべて準備していた。ゴーグルにインパービアスまでかけてね。
+press.a.weather.critical,天候を言い訳にした選手がいた。
+press.a.weather.evasive,天気のことは予報士に聞いてくれ。
+press.q.pre_derby,「{rival}とのダービーが迫っています。いつも通りの一戦ですか？」
+press.a.pre_derby.humble,サポーターにとっては違う。最大限の敬意を払う
+press.a.pre_derby.confident,このライバル関係で誰が上か、{rival}はわかっている
+press.a.pre_derby.critical,{rival}は空中より観客席のほうが騒がしい
+press.a.pre_derby.evasive,ほかの試合と変わらない
+press.q.pre_former_club,「古巣{rival}との対戦です。どんな気持ちですか？」
+press.a.pre_former_club.humble,愛着はあるが、この試合ではこのクラブの色のために戦う
+press.a.pre_former_club.confident,彼らの手の内はすべて知っている。それが我々の武器だ
+press.a.pre_former_club.critical,あそこでは仕事をさせてもらえなかった。今度は思い知るだろう
+press.a.pre_former_club.evasive,この試合に過去は関係ない
+press.q.pre_top_clash,「上位対決。あなたのチームと{rival}が上位を争っています。この試合で何かが決まりますか？」
+press.a.pre_top_clash.humble,一試合では何も決まらない。リーグはまだ長い
+press.a.pre_top_clash.confident,本当の優勝候補がどちらか、この試合でわかる
+press.a.pre_top_clash.critical,{rival}が上にいるのは日程に恵まれたからだ
+press.a.pre_top_clash.evasive,順位表ではなく自分たちのことを考える
+press.q.pre_cup_tie,「{rival}とのカップ戦（{competition}）。リーグ戦も続く中、主力を休ませますか？」
+press.a.pre_cup_tie.humble,カップ戦を尊重する。最強の布陣で臨む
+press.a.pre_cup_tie.confident,この陣容なら両方戦える
+press.a.pre_cup_tie.critical,{rival}にとってはシーズンを懸けた試合だろうが、我々は違う
+press.a.pre_cup_tie.evasive,先発は試合前にわかる
+press.q.pre_injured_star,「{player}は負傷で欠場が続いています。エース抜きで{rival}にどう挑みますか？」
+press.a.pre_injured_star.humble,{player}の代わりはいない。全員で穴を埋める
+press.a.pre_injured_star.confident,層は厚い。{player}は勝っているチームに戻ってくる
+press.a.pre_injured_star.critical,{player}のけがは不注意によるものだ。教訓にしてほしい
+press.a.pre_injured_star.evasive,診断については、クラブが発表する
+press.q.pre_former_player,「かつてあなたのクラブにいた{player}が、今度は{rival}の一員として立ちはだかります。気になりますか？」
+press.a.pre_former_player.humble,{player}の活躍を願っている……この試合以外はね
+press.a.pre_former_player.confident,{player}の手の内はすべてわかっている
+press.a.pre_former_player.critical,{player}は裏口から出ていった。この試合でそれを思い知る
+press.a.pre_former_player.evasive,気にするのは自分たちのプレーだ。一人の選手ではない
+press.q.pre_streak_win,「{n}連勝中です。{rival}に止められる可能性は？」
+press.a.pre_streak_win.humble,もちろんだ。だから決勝のつもりで準備している
+press.a.pre_streak_win.confident,いや。連勝はこの試合も続く
+press.a.pre_streak_win.critical,{rival}は負けないための戦い方だ。それでは連勝は止められない
+press.a.pre_streak_win.evasive,連勝なんて新聞が数えるものだ
+press.q.pre_streak_loss,「{n}連敗で迎える{rival}戦。生きるか死ぬかの一戦ですか？」
+press.a.pre_streak_loss.humble,大事な試合だ。謙虚に臨む
+press.a.pre_streak_loss.confident,悪い流れはこの試合で終わる
+press.a.pre_streak_loss.critical,{rival}はクアッフルが投げ上げられる前から浮かれている。好都合だ
+press.a.pre_streak_loss.evasive,試合はそれぞれ違う
+press.q.pre_heavy_defeat,「前節は{last}に{score}の大敗でした。チームはどう立ち直りますか？」
+press.a.pre_heavy_defeat.humble,黙って努力するだけだ。謝罪はした。前に進む
+press.a.pre_heavy_defeat.confident,あれは事故だ。見ていてくれ
+press.a.pre_heavy_defeat.critical,{rival}は我々が終わったと思っている。驚くことになる
+press.a.pre_heavy_defeat.evasive,もう済んだことだ。{rival}戦に集中している
+press.q.pre_board_pressure,「この試合の結果次第で解任とも言われています。そう感じていますか？」
+press.a.pre_board_pressure.humble,懸かっているのは毎週と同じ、選手たちの信頼だ
+press.a.pre_board_pressure.confident,私の立場はかつてないほど盤石だ
+press.a.pre_board_pressure.critical,その噂は{rival}に好都合だ。よりによって今日出てくるとはね
+press.a.pre_board_pressure.evasive,その話はしない
+press.q.pre_new_manager,「就任したばかりですが、{rival}戦では何が変わりますか？」
+press.a.pre_new_manager.humble,いつも通り、全力だ。まだ選手を知り始めたところだ
+press.a.pre_new_manager.confident,どこでも勝ちにいくチームだ
+press.a.pre_new_manager.critical,{rival}の戦い方はもうわかっている。騒がしいだけで中身がない
+press.a.pre_new_manager.evasive,ピッチを見ればわかる
+press.q.pre_rival_new_manager,「{rival}は監督が{manager}に交代しました。何か変わりますか？」
+press.a.pre_rival_new_manager.humble,新監督は必ず選手を奮い立たせる。十分に警戒しないと
+press.a.pre_rival_new_manager.confident,好都合だ。まだ互いをよく知らないはずだ
+press.a.pre_rival_new_manager.critical,{rival}は箒を替えるように監督を替える。それでは何も築けない
+press.a.pre_rival_new_manager.evasive,我々は自分たちのことに集中する
+press.q.pre_world_cup,「ワールドカップイヤー（{year}年）です。代表選考を意識して力をセーブする選手が出る心配は？」
+press.a.pre_world_cup.humble,ワールドカップを夢見るのは当然だ。今は{rival}戦のことだけ考える
+press.a.pre_world_cup.confident,ここで手を抜く者はいない。ワールドカップに行きたいならこの試合でアピールしろ
+press.a.pre_world_cup.critical,{rival}の頭がワールドカップではなく試合に向いているといいがね
+press.a.pre_world_cup.evasive,ワールドカップはまだ先の話だ
+press.q.pre_weather,「試合当日の予報は{weather}。作戦に変更は？」
+press.a.pre_weather.humble,条件は両チーム同じだ。適応するしかない
+press.a.pre_weather.confident,どんな天候でも練習している。我々に有利だ
+press.a.pre_weather.critical,{rival}があとで言い訳にしないといいがね
+press.a.pre_weather.evasive,天気は私の担当じゃない
+press.q.pre_table_bottom,「{pos}位で{rival}戦を迎えます。負けられない一戦ですか？」
+press.a.pre_table_bottom.humble,我々にとって毎試合が決勝だ。わかっている
+press.a.pre_table_bottom.confident,この試合から順位を上げていく
+press.a.pre_table_bottom.critical,{rival}は飢えたチームと対戦することになる。向こうは安心しきっている
+press.a.pre_table_bottom.evasive,順位表は6月に見る
+press.effect.pre_humble_own,負傷中のエースは記事を読んで感謝し、チームも落ち着いて試合に臨む。
+press.effect.pre_confident_own,負傷中のエースは心強く感じ、選手も奮い立つ。相手にもメッセージは届いた。
+press.effect.pre_critical_own,負傷中のエースは記事を読んで気分を害し、理事会は騒ぎを好まない。
+press.effect.assistant,残りの質問はアシスタントマネージャーが決まり文句で答えた。見出しになる話はなく、クラブ内で気にする者もいない。
+ui.press.assistant,アシスタントマネージャーに任せる
+ui.press.assistant_tip,残りの質問にアシスタントマネージャーが答える。士気・信頼・評判は変わらず、会見は終了する。
+press.effect.pre_critical_team,相手チームは記事を読んで苛立ち、理事会は騒ぎを好まない。
+match.kickoff.v2,試合開始！ クアッフルが投げ上げられ、{team} が奪った。
+match.kickoff.v3,ブラッジャーが放たれ、スニッチは一瞬で姿を消し、クアッフルは {team} が取った。
+match.kickoff.v4,14本の箒が宙に舞い、ホイッスル！ {team} がクアッフルを持って飛び出した！
+match.pass.v4,{player} がマークを振り切り、{other} にクアッフルを渡す。
+match.pass.v5,{player} が箒の下からパス。{other} が飛びながら受ける。
+match.pass.v6,{player} と {other} が練習のようにパスを交わす。
+match.advance.v5,{player} がクアッフルを胸に抱えてサイドを駆け上がる。
+match.advance.v6,{player} が箒に身を伏せ、ゴールの輪へ向かう。
+match.advance_blocked.v4,{other} が進路に割り込み、{player} は減速を強いられる。
+match.advance_blocked.v5,{player} は上から抜けようとするが、{other} も一緒に上昇する。
+match.turnover.steal.v2,{player} がクアッフルをもぎ取った！
+match.turnover.steal.v3,{player} の鮮やかなスティール、攻守が入れ替わる。
+match.turnover.steal.v4,{player} がどこからともなく現れ、クアッフルを奪う。
+match.turnover.steal.v5,クアッフルの持ち主が変わる：今度は {player} だ。
+match.turnover.interception.v2,{player} がパスを読んでカット！
+match.turnover.interception.v3,パスが長すぎた：{player} がさらう。
+match.turnover.interception.v4,{player} が2人のチェイサーの間に手を伸ばしてパスをカット。
+match.turnover.interception.v5,パスカット。{player} はもう逆方向を見ている。
+match.turnover.quaffle_dropped.v2,クアッフルが指の間をすり抜け、{team} がすかさず拾う。
+match.turnover.quaffle_dropped.v3,こぼれたクアッフルが落ちていく……拾ったのは {team}。
+match.turnover.quaffle_dropped.v4,なんて不器用な！ クアッフルが落ち、{team} が拾い上げる。
+match.turnover.carrier_injured.v2,保持者は衝撃に耐えられず、クアッフルは {team} のものに。
+match.goal.shot.v6,{player} がパスと見せかけてシュート、決まった！ {score}
+match.goal.shot.v7,10点：{player} が空いた輪を見逃さない。{score}
+match.goal.long_shot.v3,超ロングレンジ！ {player} がキーパーの不意を突いた。{score}
+match.goal.long_shot.v4,{player} が遠目から……クアッフルが真ん中の輪に吸い込まれた！ {score}
+match.goal.long_shot.v5,{player} のなんという一投！ フィールドの半分を越えてゴール。{score}
+match.save.v6,{other} の強烈なシュート、しかし {player} が箒の柄で弾き出す。
+match.save.v7,{player} は {other} の狙いを読み切り、難なくセーブ。
+match.miss.v4,{player} が慌ててシュート、クアッフルは輪から大きく外れる。
+match.miss.v5,{player} のシュート……輪の縁に当たって外れた！
+match.miss.v6,{player} は狙いすぎて、輪の上を越えてしまった。
+match.foul.stooging.v2,スツージング！ 2人目のチェイサーがゴールエリアに入っていた：ゴールは認められない。
+match.foul.haversacking.v2,ハバーサッキング！ 輪を通るときクアッフルに手がかかっていた：ゴールなし。
+match.penalty_goal.v2,{player} がペナルティでキーパーの逆を突いた。{score}
+match.penalty_goal.v3,ペナルティ、決まった：{player} はミスをしない。{score}
+match.penalty_goal.v4,{player} が一呼吸置き、輪を見据えて叩き込む。{score}
+match.penalty_goal.v5,{player} が冷静にペナルティを沈めた。{score}
+match.penalty_saved.v2,{player} が読み勝ち、{other} のペナルティを止めた！
+match.penalty_saved.v3,{other} のペナルティ……{player} が止めた！
+match.penalty_saved.v4,{player} は最後の瞬間まで動かず、{other} のペナルティをセーブ。
+match.penalty_saved.v5,{other} がペナルティを外す：{player} がクアッフルを確保。
+match.foul.blagging.v2,ブラッギング！ {player} が {other} の箒の尾を引っ張った。ペナルティ。
+match.foul.blagging.v3,{player} が {other} の箒をつかんで減速させる：ブラッギングでペナルティ。
+match.foul.blagging.v4,審判は見ていた：{player} が {other} にブラッギング。ペナルティ。
+match.foul.blatching.v2,ブラッチング！ {player} がわざと {other} にぶつかった。ペナルティ。
+match.foul.blatching.v3,{player} が {other} との衝突を狙った：ブラッチングでペナルティ。
+match.foul.blatching.v4,{player} が {other} に激しく体当たり！ ブラッチング、ペナルティ。
+match.foul.cobbing.v2,コビング！ {player} が {other} に肘を突き出した。ペナルティ。
+match.foul.cobbing.v3,{player} が {other} のあばらに肘打ち：コビングでペナルティ。
+match.foul.cobbing.v4,審判は {player} の肘を見逃さない：{other} へのコビングでペナルティ。
+match.foul.grabbing.v2,{player} が {other} の腕をつかんだ。ペナルティ。
+match.foul.grabbing.v3,手を離せ、{player}！ {other} のローブをつかんだ：ペナルティ。
+match.foul.grabbing.v4,{player} が手で {other} を引き止めた。ペナルティ。
+match.foul.blurting.v2,ブラーティング！ {player} が箒の柄を相手の柄に引っかけた。ペナルティ。
+match.foul.blurting.v3,{player} が柄を絡めて相手のコースをそらす：ブラーティングでペナルティ。
+match.foul.blurting.v4,{player} のブラーティングに、審判は迷わずペナルティ。
+match.foul.keeper_attack.v2,{player} がプレーから離れたキーパーにブラッジャーを狙った！ ペナルティ。
+match.foul.keeper_attack.v3,クアッフルは近くにないのに、{player} がキーパーにブラッジャーを打ち込む。ペナルティ。
+match.foul.unseen.blagging.v2,{player} が {other} の箒の尾を引っ張る……審判はよそを見ている。
+match.foul.unseen.blagging.v3,{player} が {other} にこっそりブラッギング。笛は鳴らない。
+match.foul.unseen.blagging.v4,{other} が箒をつかまれたと抗議するが、審判は何も見ておらず、{player} は涼しい顔で飛び続ける。
+match.foul.unseen.blatching.v2,{player} が {other} をなぎ倒すが、審判は気づかない。
+match.foul.unseen.blatching.v3,{player} が {other} に醜い体当たり。笛は鳴らない。
+match.foul.unseen.blatching.v4,{player} が {other} にブラッチング。だが審判はスニッチを見ていた……のかもしれない。
+match.foul.unseen.cobbing.v2,{player} が肘を振り回すが、誰もとがめない。
+match.foul.unseen.cobbing.v3,{player} の肘打ち、審判は見逃した。
+match.foul.unseen.cobbing.v4,審判の背後で {player} のコビング。
+match.foul.unseen.grabbing.v2,{player} が {other} のローブを引っ張るが、おとがめなし。
+match.foul.unseen.grabbing.v3,{player} が {other} をつかむが、審判はそのまま通り過ぎる。
+match.foul.unseen.grabbing.v4,{other} は {player} につかまれたと訴えるが、笛は鳴らない。
+match.foul.unseen.blurting.v2,{player} が相手の箒を引っかけるが、おとがめなし。
+match.foul.unseen.blurting.v3,{player} のブラーティング、審判の目を逃れる。
+match.foul.unseen.blurting.v4,一瞬柄が絡み、{player} が相手を外へ押しやる。笛は鳴らない。
+match.foul.unseen.keeper_attack.v2,クアッフルから遠いキーパーに {player} がブラッジャー……審判はプレーを追っていた。
+match.send_off.v2,退場！ {player} はピッチを去り、チームは1人少なくなる。
+match.send_off.v3,審判はもう十分見た：{player} に退場処分。代わりはいない。
+match.send_off.v4,{player} は審判に地上へ降りるよう命じられた：退場。
+match.bludger_hit.v5,ゴン！ ブラッジャーが飛行中の {player} を直撃。
+match.bludger_hit.v6,{player} は気づかなかった：ブラッジャーが肩に。
+match.bludger_hit.v7,狙いすましたブラッジャーに {player} が揺れ、箒の上でぐらつく。
+match.bludger_hit.v8,{player} にブラッジャー：これはひどいあざになるぞ。
+match.bludger_dodge.v2,{player} がぎりぎりで身をかがめ、ブラッジャーがうなりを上げて通過。
+match.bludger_dodge.v3,{player} が箒を鋭く回転させ、ブラッジャーは空を切る。
+match.bludger_dodge.v4,ブラッジャーが {player} を狙うが、もうそこにはいない。
+match.bludger_dodge.v5,{player} の華麗な回避：ブラッジャーは近づきもしない。
+match.bludger_deflect.v2,{player} が間に合い、ブラッジャーを打ち返す。
+match.bludger_deflect.v3,{player} の好プレー：ブラッジャーは相手側へ跳ね返される。
+match.bludger_deflect.v4,{player} が割って入り、仲間をブラッジャーから守る。
+match.bludger_deflect.v5,カーン！ {player} がブラッジャーを芯でとらえ、遠くへ飛ばす。
+match.injury.bludger.v2,ブラッジャーが {player} を叩き落とす（{severity}）。チームは1人少なく戦う。
+match.injury.bludger.v3,ブラッジャーを受けた {player} は箒の上でうずくまり、降りるしかない（{severity}）。
+match.injury.bludger.v4,ブラッジャーが {player} を直撃、続行不可能（{severity}）。クィディッチに交代はない。
+match.injury.feint.v2,{player} は急降下から立て直せず、地面に激突（{severity}）。
+match.injury.feint.v3,痛恨の急降下：{player} はフェイントにつられて芝生まで突っ込んだ（{severity}）。
+match.snitch_sighted.v5,{player} が急上昇：スニッチだ！
+match.snitch_sighted.v6,輪の近くで金色の羽ばたき……{player} がもう向かっている！
+match.snitch_chase_contest.v2,{player} も見つけて追跡に加わる！
+match.snitch_chase_contest.v3,スニッチを追うシーカーが2人に！ {player} が後ろにぴたりとつく。
+match.snitch_chase_contest.v4,{player} が横から飛び込む：スニッチ争奪戦の始まりだ。
+match.snitch_chase_contest.v5,{player} も譲る気はなく、並んで追跡に加わる。
+match.snitch_lost.escaped.v2,スニッチがありえないジグザグを描いて消えた。
+match.snitch_lost.escaped.v3,見失った：スニッチはまた姿を隠した。
+match.snitch_lost.escaped.v4,あと少しだった：スニッチが指の間をすり抜ける。
+match.snitch_lost.escaped.v5,スニッチはチェイサーたちの間に飛び込み、誰の目にも見えなくなった。
+match.snitch_lost.escaped.v6,スニッチが急停止して引き返し、追跡は終わった。
+match.snitch_lost.hit.v2,ブラッジャーがシーカーの進路を横切り、スニッチは消えた。
+match.snitch_lost.hit.v3,ビーターの好プレー！ ブラッジャーがスニッチへの追跡を断ち切った。
+match.snitch_lost.hit.v4,シーカーはブラッジャーをよけねばならず、スニッチを見失った。
+match.snitch_lost.injury.v2,シーカーが負傷し、スニッチは再び自由になった。
+match.snitch_lost.send_off.v2,退場ですべてが止まり、スニッチは去っていった。
+match.snitch_lost.night.v2,スニッチを追う明かりはもうない：追跡はお預けだ。
+match.snitch_lost.feint.v2,{player} がフェイントに気を取られ、スニッチは逃げた。
+match.snitch_lost.feint.v3,フェイントに目を奪われ、{player} はスニッチを見失う。
+match.feint.success.v2,{player} が急降下、{other} が続く……間に合ったのは {player} だけ！ ウロンスキー・フェイント。
+match.feint.success.v3,完璧なウロンスキー・フェイント！ {player} にだまされた {other} が地面に突っ込む。
+match.feint.success.v4,{other} はまんまと引っかかった：{player} のフェイントで {other} は芝生の上。
+match.feint.failed.v2,{player} が急降下を装うが、{other} は動かない。
+match.feint.failed.v3,{other} はその手を知っている：{player} のウロンスキー・フェイントは空振り。
+match.feint.failed.v4,{player} だけが急降下：{other} は上空で見ているだけ。
+match.snitch_caught.v4,{player} が最後の瞬間に手を伸ばし、スニッチをつかんだ！ {score}
+match.snitch_caught.v5,150点！ {player} がスニッチを捕り、試合終了。{score}
+match.snitch_caught.v6,試合終了！ スニッチが {player} の拳の中で羽ばたいている。{score}
+match.timeout.v2,{team} がタイムアウト：選手たちが地上に降りる。
+match.timeout.v3,{team} のタイムアウト。キャプテンがチームを集める。
+match.tactics_change.v2,{team} が作戦を変更：飛び方が変わったのがわかる。
+match.tactics_change.v3,{team} が戦術を微調整。
+match.ai_defence.pincer.v2,{team} が保持者を三方から囲む：パーキンズ・ピンサーだ。
+match.ai_defence.mark.v2,{team} は相手チェイサー一人ひとりにマークをつける。
+match.end.snitch.v2,試合終了のホイッスル。
+match.end.snitch.v3,試合が終わった。
+match.end.time_cap.v2,時間切れ：ゴール数で決まる。
+match.weather.cloudy.v2,一面の灰色の空：スニッチ探しには悪くない明るさだ。
+match.weather.cloudy.v3,ピッチの上に低い雲、だが今のところ雨粒ひとつない。
+match.weather.wind.v2,ピッチを横切る突風：箒が踊ることになりそうだ。
+match.weather.wind.v3,横風が吹いている：ロングパスと遠目のシュートには要注意。
+match.weather.rain.v2,降り続く雨：濡れた箒、滑る手、曇る眼鏡。
+match.weather.rain.v3,ピッチに激しい雨。この天気で金色のきらめきを探すのは至難の業だ。
+match.weather.storm.v2,ピッチ上空に稲妻、箒を押し流す風：厳しい試合になりそうだ。
+match.weather.storm.v3,雷鳴、横殴りの雨、真っ黒な空：今日のシーカーは勘が頼りだ。
+match.weather.fog.v2,濃霧：スタンドからはゴールの輪もろくに見えない。
+match.weather.fog.v3,離陸した途端、選手たちは霧にのみ込まれる。スニッチ探しは運次第だ。
+match.weather.snow.v2,大粒の雪と本格的な寒さ：指がかじかみそうだ。
+match.weather.snow.v3,ピッチに雪：白い空を背にした金のスニッチは見つけにくい。
+commentary.lee_jordan.kickoff.v3,やあやあ、ホグワーツ！ リー・ジョーダンがお届けします。箒はもう空中、クアッフルは {team}。
+commentary.lee_jordan.kickoff.v4,マダム・フーチがホイッスルを吹き、14本の箒が舞い上がる……さあ始まった！ クアッフルは {team}。
+commentary.lee_jordan.goal.v5,決まった！ {player} が涼しい顔で決めた。{score}。
+commentary.lee_jordan.goal.v6,{player} のゴール！ {score}。あれは大イカでも止められなかったね。
+commentary.lee_jordan.goal.gry.v4,グリフィンドール得点！ {player}、最高だ！ {score}。
+commentary.lee_jordan.goal.gry.v5,グリフィンドールにさらに10点！ {player} にかかれば簡単そうに見える。{score}。
+commentary.lee_jordan.goal.gry.v6,{player} のゴール！ 行け、グリフィンドール！ 真紅と金のスタンドの声を聞け！ {score}。
+commentary.lee_jordan.goal.sly.v3,スリザリン得点。{player}。{score}。まあ、止まった時計も一日に二度は正しい時刻を指すからね。
+commentary.lee_jordan.goal.sly.v4,うえっ。{player} がスリザリンに得点。{score}。余計なことを言う前に次へ行こう。
+commentary.lee_jordan.goal.sly.v5,スリザリンのゴール、{score}。いや、名前を熱く叫んだりしませんよ：{player}。
+commentary.lee_jordan.penalty_goal.v2,ペナルティ成功！ {player} は落ち着いていた。{score}。
+commentary.lee_jordan.penalty_goal.v3,汚いプレーの報いだ：{player} がペナルティを決める。{score}。
+commentary.lee_jordan.penalty_goal.v4,{player} とキーパーの一騎打ち……決まった！ {score}。
+commentary.lee_jordan.save.v5,ノー！ {player} が止めた！ {other} は手ぶらで引き返す。
+commentary.lee_jordan.save.v6,{other} がシュート、{player} がセーブ、やっと息ができる。
+commentary.lee_jordan.miss.v4,{player} のシュート……クアッフルがスタンドの1年生に当たりそうになった！
+commentary.lee_jordan.miss.v5,外れ。{player} は今夜あのシュートの悪夢を見るだろうね。
+commentary.lee_jordan.miss.v6,うわぁ！ {player} が雲の中へ放り込んだ。誰かフクロウたちに知らせてやれ。
+commentary.lee_jordan.foul.v4,審判！ 審判！ 見ました？ もちろん見ましたよね！
+commentary.lee_jordan.foul.v5,ルールブックにはあれの名前がちゃんとあって、いい名前じゃない。
+commentary.lee_jordan.foul.v6,反則は700通りもあるのに、よりによってそれか！
+commentary.lee_jordan.foul.sly.v3,またスリザリン！ なんて意外な！ 誰も予想してなかった。いや、みんな予想してた。
+commentary.lee_jordan.foul.sly.v4,どうやらスリザリンではズルが必修科目らしい。
+commentary.lee_jordan.foul.sly.v5,スリザリンのあのプレーはクィディッチじゃなくてアズカバン送りものだ！
+commentary.lee_jordan.snitch_sighted.v3,みんな見て！ {player} が弾丸のように飛び出した……まさか……？ そうだ！ スニッチだ！
+commentary.lee_jordan.snitch_sighted.v4,{player} が金色の何かを見つけた。もう他のことはどうでもいい！
+commentary.lee_jordan.snitch_sighted.v5,{player} を見ろ！ あれこそ本物のシーカーの急降下だ！ スニッチは下にいる！
+commentary.lee_jordan.snitch_caught.v2,試合終了！ {player} の手にスニッチ！ {score}。なんて試合だ！
+commentary.lee_jordan.snitch_caught.v3,{player} がスニッチを捕った！ 150点、さあ大広間へ！ {score}。
+commentary.lee_jordan.snitch_caught.gry.v2,やった！！ {player} がスニッチを捕った！ グリフィンドールに150点！ {score}。
+commentary.lee_jordan.snitch_caught.gry.v3,{player}！ {player}！ スニッチはグリフィンドールのものだ！ 先生、すみません、落ち着けません！ {score}。
+commentary.lee_jordan.snitch_caught.sly.v2,{player} がスニッチを捕る。スリザリンに150点。{score}。ちょっと時間をください。
+commentary.lee_jordan.snitch_caught.sly.v3,はい。スリザリン。{player}。スニッチ。{score}。先生、寮に帰ってもいいですか？
+commentary.lee_jordan.wronski_feint.v2,皆さん、あれがウロンスキー・フェイントです。家で真似しないように！
+commentary.lee_jordan.wronski_feint.v3,心臓が口から飛び出そう！ 先生まで椅子にしがみついたぞ！
+commentary.lee_jordan.wronski_feint.v4,ウロンスキー！ 今のはウロンスキーだ！ 念のため誰かマダム・ポンフリーを起こしてきて！
+commentary.lee_jordan.bludger_hit.v4,ゴングみたいな音がした！ まだ飛んでる？ まだ飛んでる。
+commentary.lee_jordan.bludger_hit.v5,またブラッジャーが命中。今日のビーターは飢えてるね。
+commentary.lee_jordan.bludger_hit.v6,痛っ！ あのブラッジャーには礼儀ってものがない。まあ、昔からないけど。
+commentary.lee_jordan.bludger_hit.gry.v3,グリフィンドールのブラッジャー、ど真ん中！ 寮はこうやって守るんだ！
+commentary.lee_jordan.bludger_hit.gry.v4,グリフィンドールのビーター、見事な一打！ まあ、僕らにとってはね。
+commentary.lee_jordan.bludger_hit.gry.v5,くらえ！ グリフィンドールのブラッジャー、誰かさんは後で医務室行きだ。
+commentary.lee_jordan.injury.v2,ああ、まずい。よくなさそうだ。誰かマダム・ポンフリーを呼んで。
+commentary.lee_jordan.injury.v3,医務室に直行だ。マダム・ポンフリーはもっとひどいのも治してきた。
+commentary.lee_jordan.injury.v4,上空から悪い知らせだ。スタンド全体が静まり返る。
+commentary.lee_jordan.injury.v5,ただの打撲だといいけど。クィディッチは美しいけど、痛いんだ。
+commentary.lee_jordan.match_end.v2,試合終了！ いつもながら楽しかった。リー・ジョーダンでした……先生がまたメガホンを貸してくれるまで。
+commentary.lee_jordan.match_end.v3,以上！ いつも公平なリー・ジョーダンでした。まあ、だいたいいつもね。
+commentary.lee_jordan.mcgonagall.v4,"「ジョーダン、これはクィディッチの試合です。寮の決起集会ではありません！」
+「すみません、先生。つい熱くなって」"
+commentary.lee_jordan.mcgonagall.v5,"「ジョーダン、あと一言でもしゃべったらメガホンを取り上げますよ！」
+「わかりました、先生。公平に。超公平に」"
+commentary.lee_jordan.mcgonagall.v6,"「ジョーダン！」
+「褒めたんですよ、先生！ まあ、一応」"
+commentary.bagman.kickoff.v3,紳士淑女の皆さん、なんという熱気！ ルード・バグマンがお送りします、クアッフルが宙に！ 取ったのは {team}！
+commentary.bagman.kickoff.v4,さあ始まりました！ 賭けはまだお待ちを、始まったばかりですよ！ クアッフルは {team}！
+commentary.bagman.penalty_goal.v2,ペナルティ、ゴール！ {player} は動じない！ {score}！
+commentary.bagman.penalty_goal.v3,{player} が反則をきっちり罰した！ {score}！
+commentary.bagman.penalty_goal.v4,{player} がペナルティを叩き込んだ！ {score}！ なんという度胸でしょう、皆さん！
+commentary.bagman.save.v6,{other} はもう喜んでいたが、{player} がそうはさせなかった！ 信じられない！
+commentary.bagman.miss.v4,ああ、{player}！ 入るほうに1ガリオン賭けるところでした！ 賭けなくてよかった！
+commentary.bagman.miss.v5,ほんのわずかに外れた！ {player} も信じられない様子、私もです！
+commentary.bagman.miss.v6,{player} がシュート……いや、いや、いや！ 輪の上だ！
+commentary.bagman.foul.v4,おやおや！ 審判が飛んでいきますが、まったくご機嫌ななめです！
+commentary.bagman.foul.v5,フェアプレーの教本のどこにも載っていませんよ、皆さん！
+commentary.bagman.foul.v6,防げたはずのペナルティです！
+commentary.bagman.snitch_sighted.v3,ご覧ください！ {player} が弾丸のように飛び出した！ スニッチか？ スニッチだ！
+commentary.bagman.snitch_sighted.v4,観客全員が息をのむ！ {player} がスニッチを追う！
+commentary.bagman.snitch_sighted.v5,{player} が急降下！ いつ決着がついてもおかしくない！
+commentary.bagman.snitch_caught.v3,{player} が捕った！！ 長引くと思っていたのに！ {score}！
+commentary.bagman.snitch_caught.v4,終わった！ {player} がスニッチを握った拳を突き上げる！ なんという瞬間でしょう、皆さん！ {score}！
+commentary.bagman.wronski_feint.v2,ウロンスキー・フェイント！ あれを試すには鋼の神経が要ります！
+commentary.bagman.wronski_feint.v3,全速力で垂直降下！ これぞクィディッチ！
+commentary.bagman.wronski_feint.v4,ポーランドの名シーカー、ヨーゼフ・ウロンスキーの技です！ 危険で美しい！
+commentary.bagman.bludger_hit.v4,バン！ なんという正確さのビーター！
+commentary.bagman.bludger_hit.v5,なんという一撃！ 私の現役ビーター時代だって、あんなには打てませんでしたよ！
+commentary.bagman.bludger_hit.v6,痛っ！ スタンドで誰かが目を覆いましたよ！
+commentary.bagman.injury.v2,ああ、なんと！ 魔法医はピッチへ、急いで！
+commentary.bagman.injury.v3,これはひどい、皆さん！ 大したことでなければいいのですが。
+commentary.bagman.injury.v4,拍手を、皆さん！ このスポーツはこうやって体を張ってやるものです！
+commentary.bagman.match_end.v2,以上です！ ルード・バグマンがお別れします、なんというクィディッチだったことでしょう！
+commentary.bagman.match_end.v3,ご来場ありがとうございました！ 賭けをした皆さん……まあ、次がありますよ！
+news.derby_preview,"ダービーウィーク：{home} 対 {away}
+今週、{home} と {away} が激突する（{competition}）。スタンドはその話題でもちきりだ。"
+news.derby_preview.v2,"ダービー迫る：{home} 対 {away}
+主催者は今週の一戦（{competition}）に向けて警備を強化。入場口では杖の検査が行われるが、偽物を差し出そうとするファンも一人や二人ではないだろう。"
+news.derby_preview.v3,"積年の因縁：{home} 対 {away}
+前回の対戦を忘れた者はいない。{home} と {away} が今週ふたたび火花を散らす（{competition}）。ピッチ脇には魔法医が待機している。"
+news.return_to_former,"{manager}、古巣 {former} と対戦
+現在 {club} を率いる {manager} が、今週かつて指揮した {former} と対戦する（{competition}）。温かく迎えられるとは限らない。"
+news.return_to_former.v2,"{manager}、因縁の再会
+かつて {manager} が率いた {former} が、今週 {club} の前に立ちはだかる（{competition}）。ロッカールームには旧友、スタンドには古い恨み。"
+news.former_star,"{player}、古巣 {club} に恩返し
+かつて {club} に在籍した {player} が、よりによって古巣相手に {team} で大活躍した（評価 {rating}）。"
+news.former_star.v2,"差出人に返送
+{club} が手放した {player} が、それが誤りだったことを思い知らせた。{team} で大活躍、評価 {rating}。"
+msg.rival_objective.subject,宿敵との順位
+msg.rival_objective.body.met,我々は {position} 位、{rival} は {rival_position} 位で終えた。宿敵より上で終えたことに理事会は大喜びだ：サブ目標達成。
+msg.rival_objective.body.missed,我々は {position} 位、{rival} は {rival_position} 位で終えた。宿敵の後塵を拝したことを理事会は快く思っておらず、忘れはしないだろう。
+ui.board.rival_objective,サブ目標：{rival} より上で終える
+ui.board.rival_status,{rival} の現在の順位：{rival_pos}
+msg.tryouts.subject,{house}チームの選抜テスト
+msg.tryouts.body,{house}の選抜テストのためにクィディッチ競技場を押さえました。空いている枠：{n}、応募者：{cands}人。飛ぶ姿を見て、誰をチームに入れるか決めてください。決めなければ、当日キャプテンが選びます。
+msg.tryouts.outcome_manager,新しい選手を選びました：{players}。
+msg.tryouts.outcome_captain,キャプテンが選抜テストを行い、選んだのは：{players}。
+ui.tryouts.hold,選抜テストを行う
+ui.tryouts.leave_to_captain,キャプテンに任せる
+ui.tryouts.title,{house}の選抜テスト
+ui.tryouts.confirm,チームを確定する
+ui.tryouts.later,後で決める
+ui.tryouts.intro,空いている枠：{n}。チームに入れたい選手にチェックを入れてください。キャプテンの候補はすでにチェック済みです。期限：{date}。
+ui.tryouts.group,{pos} · {total}人中{n}人を選ぶ
+ui.tryouts.hint,チェックのない枠はキャプテンが埋めます。後で決める場合、ふくろうは期限まで開いたままです。
+ui.school.tryouts_pending,{season}年度の選抜テストは未実施：空き枠{n}、応募者{cands}人。期限：{date}。
+ui.school.tryouts_line,{season}年度の選抜テスト、新加入：{players}。
+ui.school.tryouts_by_manager,（あなたが選んだ選手）
+ui.school.tryouts_by_captain,（キャプテンが選んだ選手）
+msg.house_roster.tryouts_pending,9月の選抜テストで決まる
+ui.new_game.filter_all,すべて
+ui.new_game.filter_clubs,クラブ
+ui.new_game.filter_schools,学校
+ui.new_game.legend_clubs,クラブのリーグ
+ui.new_game.legend_schools,学校（寮）
+ui.col.opponent,対戦相手
+ui.profile.matches,試合
+ui.profile.by_season,シーズン別
+ui.away_short,アウェー
+ui.list_sep,、
+msg.offer.outcome_expired,期限切れ：期限内に返答がなかった。
+news.match.caught_and_lost_neutral,"スニッチを捕るも敗戦：{home} {sh} – {sa} {away}
+{catcher} は {venue} で試合を終わらせた：捕獲はしたが、勝利はなし。"
+msg.contracts_due.body.one,この選手は6月30日に契約が満了し、更新しなければ移籍金なしで退団します（括弧内は週給）：{players}。選手ページから契約更新を提示してください。
+msg.contracts_spring.body.one,6月30日まであと4か月ですが、次の選手はまだ契約を更新していません（括弧内は週給）：{players}。何も提示しなければ移籍金なしで退団し、他クラブはすでに仮契約を持ちかけられます。残したい場合は選手一覧から更新してください。
+ui.months_short,"1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月"
+ui.label_value,%s：%s
+ui.market.embargo_free,補強禁止：クラブの財政が立ち直るまで、理事会はフリーの選手も含めて一切の獲得を認めない。
+ui.market.signed_toast,%s と契約した。
+ui.market.renewed_toast,%s と契約を更新した。
+ui.market.shortlisted,%s を注目リストに追加した。
+ui.market.unshortlisted,%s を注目リストから外した。
+ui.market.unlisted,移籍リストから外した。
+ui.market.loan_unlisted,レンタル募集を取り下げた。
+ui.market.loan_returned_toast,%s は元のクラブに戻った。
+ui.market.loan_recalled,%s をレンタル先から呼び戻した。
+ui.action.loan_recall,レンタルから呼び戻す
+ui.action.compare_unmark,比較用マークを外す
+ui.squad.loaned_out,レンタル放出中
+msg.pre_contract_lost.body_decided,{player} が {club} と仮契約：6月30日にフリーで退団する。延長しないと決めたとおりだ。
+ui.saves.bad_name,別のセーブ名を選んでください。この名前は空か予約済みです。
+ui.saves.load_ask,別のセーブデータをロードしますか？
+ui.saves.load_discard,セーブせずにロード
+ui.saves.unsaved_body,前回のセーブ以降に変更があります。セーブせずに続けると失われます。
+msg.house_term.body_no_tryouts,{season} 年度が始まる：新入生、そして11月からクィディッチ杯。チームに空き枠はないので、今のところ選抜テストはない。
+press.q.narrow_loss_one,「{rival}に{score}、わずか1ゴール差の惜敗。何が足りませんでしたか？」
+press.q.player_best,「今日のチームのベストは{player}でした。他の選手と何が違いましたか？」
+press.a.player_best.humble,いつも通り全力を尽くした。他の選手も見習うべきだ。
+press.a.player_best.confident,このポジションではリーグ屈指の選手だ。今日はそれがよくわかった。
+press.a.player_best.critical,確かに良かった。だが一人では勝てない。他の選手がもっとやらないと。
+press.a.player_best.evasive,個々の選手の話はしない。
+ui.match.bludgers_more.one,（前回から、さらにブラッジャー命中 %d 回）
+ui.clock_ms,{m}分{s}秒
+ui.clock_hms,{h}時間{m}分{s}秒
+ui.match.timeout_wait,次のタイムアウトは試合時間であと{m}分後に取れる。
+ui.match.timeout_tip,キャプテンが試合を止める。全員が一息つき、予約した戦術変更が反映され、チームに声をかけられる。試合時間{m}分に1回まで。
+ui.news.quiet_lead,クィディッチ界は静かな日々
+school.school_hogwarts.name,ホグワーツ魔法魔術学校
+school.school_hogwarts.short,ホグワーツ
+school.school_beauxbatons.name,ボーバトン魔法アカデミー
+school.school_beauxbatons.short,ボーバトン
+school.school_durmstrang.name,ダームストラング専門学校
+school.school_durmstrang.short,ダームストラング
+school.school_ilvermorny.name,イルヴァーモーニー魔法魔術学校
+school.school_ilvermorny.short,イルヴァーモーニー
+school.school_mahoutokoro.name,マホウトコロ魔法学校
+school.school_mahoutokoro.short,マホウトコロ
+school.school_castelobruxo.name,カステロブルーシュー
+school.school_castelobruxo.short,カステロブルーシュー
+school.school_uagadou.name,ワガドゥー魔法学校
+school.school_uagadou.short,ワガドゥー
+school.school_koldovstoretz.name,コルドフストレッツ
+school.school_koldovstoretz.short,コルドフストレッツ
+school.school_wollemi.name,ウォレマイ魔法アカデミー
+school.school_wollemi.short,ウォレマイ
+school.school_kapadokya.name,カパドキヤ魔法学院
+school.school_kapadokya.short,カパドキヤ
+school.school_nilgiri.name,ニルギリ魔法学校
+school.school_nilgiri.short,ニルギリ
+sponsor.nimbus,ニンバス競技用箒会社
+sponsor.cleansweep,クリーンスイープ箒会社
+sponsor.comet,コメット商会
+sponsor.butterbeer,バタービール
+sponsor.gringotts,グリンゴッツ
+sponsor.gladrags,グラドラグス魔法ファッション店
+sponsor.mrs_skower,ミセス・スコワーの万能魔法汚れ落とし
+sponsor.bluebottle,ブルーボトル
+sponsor.quality_quidditch,高級クィディッチ用具店
+sponsor.honeydukes,ハニーデュークス
+web.landing.saves_title,セーブデータについて
+web.landing.saves_where,セーブデータはこのパソコンのブラウザの中に保存されます。サーバーにはセーブデータを保存しません。
+web.landing.saves_lost,ブラウザのデータを消したり、プライベートウィンドウで遊んだり、別のブラウザやパソコンを使ったりすると、そのセーブデータは表示されません。
+web.landing.saves_export,なくさないように、「セーブ／ロード」の「ファイルに書き出す」でセーブデータをファイルに保存しておきましょう。「ファイルを読み込む」で、どのブラウザでも続きから遊べます。
+web.nav.ranking,ランキング
+web.ranking.title,監督ランキング
+web.ranking.intro,ブラウザ版の各プレイヤーのベストキャリアを、最後に終えたシーズン終了時の監督の評判で並べています。
+web.ranking.country,国
+web.ranking.all_countries,すべての国
+web.ranking.show,表示
+web.ranking.col_manager,監督
+web.ranking.col_country,国
+web.ranking.col_reputation,評判
+web.ranking.col_titles,タイトル
+web.ranking.col_seasons,シーズン
+web.ranking.empty,このランキングにはまだキャリアがありません。ブラウザ版でシーズンを終えると、ここに表示されます。
+web.ranking.note,結果はブラウザからゲームが送信しています。妥当性チェックを通らなかったキャリアは表示されません。
+web.ranking.view_list,リスト
+web.ranking.view_map,地図
+web.ranking.map_hint,印はそれぞれ国を表し、大きさと数字はランキングに入っている監督の数です。クリックするとその国のリストが見られます。
+web.ranking.pin_one,{country}：監督1人 · {user}（{rep}）
+web.ranking.pin_many,{country}：監督{n}人 · トップ：{user}（{rep}）
+web.ranking.col_managers,監督数
+web.ranking.col_best,トップ
+web.ranking.col_average,平均
+ui.about.source,GitHub のソースコード
+ui.saves.other_career,その名前は別のキャリアのものです。別の名前を選んでください。
+ui.menu.players,選手
+ui.menu.national_teams,代表チーム
+ui.help.players,名前・ポジション・地域で全ての国の選手を検索できる。「詳細フィルター」で年齢、市場価値、週給、契約、国籍、状況、星、能力値で絞り込める。遠方の選手はスカウトが知っていることしか見えない：星と能力値はスカウトが知る選手だけを絞り込む。
+ui.help.national_teams,全ての代表チームのランキング。ベストセブンの強さで並び、各チームのW杯優勝回数も表示される。クリックするとそのチームのページ（選手団、次の試合、記録）が開く。
+ui.market.found,選手%d人（%d人を表示）
+msg.embargo_blocks.subject,禁止令：{player}と契約できません
+msg.embargo_blocks.body,クラブの負債のため、理事会が移籍を凍結しました。{player}の所属クラブとの合意は有効なままです。期限が切れる前に禁止令が解除されれば、契約を締結できます。
+ui.on_duty,%sに招集中：%d日
+ui.squad.on_duty_n,代表招集中%d人
+msg.duty_call.subject,代表招集：{player}
+msg.duty_call.body,{team}が{competition}に向けて{player}を招集しました。試合翌日までクラブでは起用できません。
+web.footer.feedback,ご意見
+web.landing.feedback,バグを見つけた、またはアイデアがある？ぜひ教えてください。
+web.feedback.title,バグとアイデア
+web.feedback.intro,うまく動かないところがあった、またはゲームをもっと良くするアイデアがある？ここで教えてください。アカウントは不要です。
+web.feedback.kind_label,内容の種類
+web.feedback.kind_bug,バグ（動作しない箇所がある）
+web.feedback.kind_idea,アイデアや提案
+web.feedback.message_label,メッセージ
+web.feedback.message_help,バグの場合は、何をしたか、何を期待したか、何が起きたかを書いてください。{min}〜{max}文字。
+web.feedback.email_label,メールアドレス（任意）
+web.feedback.email_help,返信にのみ使用します。誰にも表示されません。
+web.feedback.context_label,バージョンとプラットフォーム（任意）
+web.feedback.context_help,例：「v0.11.0、ブラウザ」または「v0.11.0、Windows」。
+web.feedback.submit,送信
+web.feedback.error.message_short,メッセージは{min}文字以上で入力してください。
+web.feedback.error.message_long,メッセージは{max}文字以内で入力してください。
+web.feedback.sent_title,ありがとうございます！
+web.feedback.sent_body,メッセージを受け取りました。届いたものはすべて読んでいますが、必ず返信できるとは限りません。
+web.feedback.sent_again,別のメッセージを送る
+ui.about.feedback,バグやアイデアを送る
+ui.list.name_detail,{name} ({detail})
+ui.match.finish_first,仕事を変える前に試合を終えよう。
+news.award_no_club,{award}、{league}：{player}

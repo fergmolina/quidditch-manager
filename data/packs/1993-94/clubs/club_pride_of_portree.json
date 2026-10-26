@@ -1,0 +1,49 @@
+{
+  "id": "club_pride_of_portree",
+  "name": "Pride of Portree",
+  "short_name": "Portree",
+  "city": "Portree, Isla de Skye, Escocia",
+  "country_id": "sco",
+  "region_id": "british_isles",
+  "founded": 1292,
+  "colors": {
+    "primary": "#4B1F6F",
+    "secondary": "#E3B505"
+  },
+  "emblem_key": "golden_star",
+  "identity": {
+    "style_tags": [
+      "balanced"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [
+      "the_prides"
+    ],
+    "mascot": ""
+  },
+  "league_id": "comp_british_irish_league",
+  "level": 2,
+  "reputation": 6700,
+  "finances": {
+    "balance": 7000,
+    "wage_budget_weekly": 260,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": [
+      "club.portree.catriona_mccormack"
+    ]
+  },
+  "source": "canon_qtta",
+  "notes": "2 league titles in the 60s with Catriona McCormack [QTTA c7]; the total could be higher [inferred]. Hex [inferred]. Manager to be generated. Finances [filler]."
+}

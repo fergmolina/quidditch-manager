@@ -1,0 +1,91 @@
+{
+  "id": "player_gordon_horton",
+  "first_name": "Gordon",
+  "last_name": "Horton",
+  "gender": "m",
+  "nationality_ids": [
+    "eng"
+  ],
+  "birth_date": "1967-02-01",
+  "birth_date_estimated": true,
+  "main_position": "K",
+  "positions": {
+    "K": 20,
+    "C": 6,
+    "B": 5,
+    "S": 4
+  },
+  "attributes": {
+    "flying": {
+      "speed": 10,
+      "acceleration": 10,
+      "agility": 9,
+      "broom_control": 10,
+      "balance": 10,
+      "altitude": 10,
+      "dive": 10
+    },
+    "technical": {
+      "passing": 8,
+      "catching": 11,
+      "shooting": 6,
+      "dodging": 6,
+      "stealing": 6,
+      "interception": 10,
+      "keeping": 11,
+      "beating": 6,
+      "beat_accuracy": 6,
+      "snitch_catching": 6
+    },
+    "mental": {
+      "aggression": 10,
+      "anticipation": 11,
+      "bravery": 10,
+      "composure": 10,
+      "concentration": 10,
+      "creativity": 10,
+      "decisions": 10,
+      "determination": 10,
+      "flair": 10,
+      "influence": 11,
+      "off_ball": 10,
+      "positioning": 11,
+      "teamwork": 10,
+      "work_rate": 10
+    },
+    "physical": {
+      "stamina": 11,
+      "strength": 12,
+      "natural_fitness": 11,
+      "reflexes": 12,
+      "eyesight": 11
+    }
+  },
+  "hidden": {
+    "consistency": 8,
+    "big_matches": 10,
+    "injury_proneness": 10,
+    "dirtiness": 10,
+    "versatility": 10,
+    "adaptability": 10,
+    "ambition": 10,
+    "controversy": 10,
+    "loyalty": 14,
+    "pressure": 10,
+    "professionalism": 10,
+    "sportsmanship": 10,
+    "temperament": 10
+  },
+  "ca": 103,
+  "pa": 106,
+  "club_id": "club_chudley_cannons",
+  "squad": "first",
+  "is_captain": false,
+  "broom": {
+    "model_id": "broom_cleansweep_five",
+    "condition": 100
+  },
+  "traits_text_keys": [],
+  "source": "inferred",
+  "notes": "Cannons Keeper according to the Harry Potter Wiki, no primary source located [Wiki]. Included with a doubt flag. Estimated birth date. Attributes, CA/PA and broom [inferred]."
+}

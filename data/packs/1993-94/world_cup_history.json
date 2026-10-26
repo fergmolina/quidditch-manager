@@ -1,0 +1,83 @@
+{
+  "_comment": "World Cups before and after 1993-94 according to Pottermore (History of the Quidditch World Cup) and GoF. The earlier ones are preloaded into the history (only editions with a known champion; national_teams.json keeps the canon title totals); the later ones come in as book events if the switch is on.",
+  "past": [
+    {
+      "year": 1473,
+      "champion": "tra",
+      "runner_up": "fla",
+      "note": "First World Cup; Europe only; 700 fouls [QTTA c8]"
+    },
+    {
+      "year": 1966,
+      "champion": "aus",
+      "runner_up": "",
+      "note": "Australia champions [Pottermore]"
+    },
+    {
+      "year": 1974,
+      "champion": "syr",
+      "runner_up": "mdg",
+      "note": "Syria–Madagascar final; the Dissimulators [Pottermore]"
+    },
+    {
+      "year": 1982,
+      "champion": "",
+      "runner_up": "",
+      "finalists": ["bra"],
+      "note": "Brazil reaches the final; the champion is not known (\"their first final since 1982\") [PM-2014]. No champion, so it is not written into the history or the titles."
+    },
+    {
+      "year": 1990,
+      "champion": "can",
+      "runner_up": "sco",
+      "score": "270–240",
+      "note": "Canada 270–240 Scotland [Pottermore]"
+    }
+  ],
+  "future": [
+    {
+      "year": 1994,
+      "champion": "irl",
+      "runner_up": "bul",
+      "score": "170–160",
+      "source": "GoF 8"
+    },
+    {
+      "year": 1998,
+      "champion": "mwi",
+      "runner_up": "sen",
+      "score": "260–180",
+      "source": "Pottermore"
+    },
+    {
+      "year": 2002,
+      "champion": "egy",
+      "runner_up": "bul",
+      "score": "450–300",
+      "source": "Pottermore",
+      "catcher_last_name": "Zaghloul"
+    },
+    {
+      "year": 2006,
+      "champion": "bfa",
+      "runner_up": "fra",
+      "score": "300–220",
+      "source": "Pottermore"
+    },
+    {
+      "year": 2010,
+      "champion": "mda",
+      "runner_up": "chn",
+      "score": "750–640",
+      "source": "Pottermore"
+    },
+    {
+      "year": 2014,
+      "champion": "bul",
+      "runner_up": "bra",
+      "score": "170–60",
+      "source": "Pottermore",
+      "catcher_last_name": "Krum"
+    }
+  ]
+}

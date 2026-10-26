@@ -1,0 +1,49 @@
+{
+  "id": "club_paris_phenix",
+  "name": "Paris Phénix",
+  "short_name": "Phénix",
+  "city": "París, Francia",
+  "country_id": "fra",
+  "region_id": "france",
+  "founded": 1861,
+  "colors": {
+    "primary": "#0D47A1",
+    "secondary": "#E53935"
+  },
+  "emblem_key": "meteor",
+  "emblem_desc": "a phoenix rising from flames",
+  "identity": {
+    "style_tags": [
+      "flamboyant"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_marseille_mistrals"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_france_league",
+  "level": 2,
+  "reputation": 5640,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 12,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Marseille Mistrals [FILLER]: invented for the game (the capital against the Mediterranean, the two most successful clubs after Quiberon)."
+}

@@ -1,0 +1,24 @@
+{
+  "_comment": "Ilvermorny: only the house colors (Pottermore) for the crests; filler students.",
+  "school_id": "school_ilvermorny",
+  "house_colors": {
+    "Horned Serpent": {
+      "primary": "#1B5E20",
+      "secondary": "#D9B64B"
+    },
+    "Wampus": {
+      "primary": "#4E342E",
+      "secondary": "#D9B64B"
+    },
+    "Thunderbird": {
+      "primary": "#0D47A1",
+      "secondary": "#FFC107"
+    },
+    "Pukwudgie": {
+      "primary": "#B71C1C",
+      "secondary": "#9E9E9E"
+    }
+  },
+  "venue": "Campo de Quidditch de Ilvermorny",
+  "students": []
+}

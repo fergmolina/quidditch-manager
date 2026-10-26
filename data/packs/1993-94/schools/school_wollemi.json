@@ -1,0 +1,47 @@
+{
+ "_comment": "Wollemi: invented houses [FILLER] (regional folklore); filler students.",
+ "school_id": "school_wollemi",
+ "source": "filler",
+ "house_colors": {
+  "Yowie": {
+   "primary": "#795548",
+   "secondary": "#FFD54F"
+  },
+  "Min Min": {
+   "primary": "#1A237E",
+   "secondary": "#FFEB3B"
+  },
+  "Thylacine": {
+   "primary": "#FF8F00",
+   "secondary": "#212121"
+  },
+  "Lyrebird": {
+   "primary": "#00838F",
+   "secondary": "#ECEFF1"
+  }
+ },
+ "house_info": {
+  "Yowie": {
+   "emblem_desc": "a big hairy ape-like creature striding through the bush",
+   "inspiration": "Yowie: hairy creature of Australian bush tales.",
+   "source": "filler"
+  },
+  "Min Min": {
+   "emblem_desc": "a glowing floating light over the desert at night",
+   "inspiration": "Min Min lights: floating lights of the Queensland outback.",
+   "source": "filler"
+  },
+  "Thylacine": {
+   "emblem_desc": "a striped thylacine (Tasmanian tiger)",
+   "inspiration": "Thylacine: the Tasmanian tiger (in the magical world, perhaps it never went extinct).",
+   "source": "filler"
+  },
+  "Lyrebird": {
+   "emblem_desc": "a lyrebird with its tail fanned out like a lyre",
+   "inspiration": "Lyrebird: imitates any sound; a bird of the New South Wales forests.",
+   "source": "filler"
+  }
+ },
+ "venue": "Campo de Quidditch de Wollemi",
+ "students": []
+}

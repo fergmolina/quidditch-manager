@@ -1,0 +1,317 @@
+[
+  {
+    "key": "news.filler.prophet.1",
+    "from": 1900,
+    "source": "canon",
+    "notes": "QTTA c6: 700 fouls, all at the 1473 final; list kept secret so wizards don't 'get ideas'."
+  },
+  {
+    "key": "news.filler.prophet.2",
+    "from": 1900,
+    "source": "filler",
+    "notes": "Transylvanian Tackle legal without contact, first used 1473 (QTTA c10); the referees' report is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.3",
+    "from": 1900,
+    "source": "canon",
+    "notes": "QTTA c7/c10: Plumpton, 3.5 s vs Caerphilly Catapults (1921); critics say the Snitch flew up his sleeve by accident. QTTA calls it the British record, hence 'in Britain'."
+  },
+  {
+    "key": "news.filler.prophet.4",
+    "from": 1900,
+    "source": "filler",
+    "notes": "Wronski Feint (QTTA c10); St Mungo's appeal and the collarbones are [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.5",
+    "from": 1900,
+    "months": [
+      2
+    ],
+    "source": "canon",
+    "notes": "QTTA c6: fixed-size hoops from 12 Feb 1883 after the Barnton baskets; 'Bring Back Our Baskets!' riots. Pubs line [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.6",
+    "from": 1900,
+    "months": [
+      6
+    ],
+    "source": "canon",
+    "notes": "QTTA c6: Stooging penalty of 22 June 1884 and the supporter who liked 'watching them Keepers flattened'."
+  },
+  {
+    "key": "news.filler.prophet.7",
+    "from": 1900,
+    "source": "filler",
+    "notes": "Referee requirements: flying tests, written exam, not cursing under pressure (QTTA c6); the pass rate is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.8",
+    "from": 1900,
+    "source": "filler",
+    "notes": "Cyprian Youdle, the only referee to die during a match (1357), culprit never found (QTTA c6); the dinner is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.9",
+    "from": 1900,
+    "source": "filler",
+    "notes": "Referees' brooms turned into Portkeys, found months later in the Sahara (QTTA c6). The news framing is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.10",
+    "from": 1900,
+    "source": "canon",
+    "notes": "QTTA c7: Appleby supporters banned in 1894 from firing arrows after goals (referee Nugent Potts's nose)."
+  },
+  {
+    "key": "news.filler.prophet.11",
+    "from": 1900,
+    "source": "filler",
+    "notes": "The Department has 'strict safety guidelines' for players' brooms (QTTA c6); the inspection is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.12",
+    "from": 1900,
+    "source": "filler",
+    "notes": "1419 decree quoted from QTTA c5; the Devon fine is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.13",
+    "from": 1993,
+    "source": "canon",
+    "notes": "Daily Prophet newsletters (JKR, 1998-99): 'venue to be confirmed (Muggles camping on Ellis Moor)'."
+  },
+  {
+    "key": "news.filler.prophet.14",
+    "from": 1994,
+    "to": 1994,
+    "months": [
+      6,
+      7,
+      8
+    ],
+    "source": "canon",
+    "notes": "GoF 7: Muggle-Repelling Charms and Muggle clothes at the 1994 final campsite (Archie's nightdress). Summer 1994 only."
+  },
+  {
+    "key": "news.filler.prophet.15",
+    "from": 1993,
+    "to": 1993,
+    "months": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "filler",
+    "notes": "Bagman heads the Department and Britain hosts the 1994 final (GoF 5-7); the quote and the betting hint are [FILLER]. Until the final (Aug 1994)."
+  },
+  {
+    "key": "news.filler.prophet.15",
+    "from": 1994,
+    "to": 1994,
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "filler",
+    "notes": "Bagman heads the Department and Britain hosts the 1994 final (GoF 5-7); the quote and the betting hint are [FILLER]. Until the final (Aug 1994)."
+  },
+  {
+    "key": "news.filler.prophet.16",
+    "from": 1995,
+    "to": 1995,
+    "months": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "canon",
+    "notes": "GoF 37: Bagman flees the goblins after the Triwizard Tournament (June 1995). Second half of 1995 only."
+  },
+  {
+    "key": "news.filler.prophet.17",
+    "from": 1993,
+    "to": 1993,
+    "months": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "canon",
+    "notes": "PoA 4: 'Ireland's International Side have just put in an order for seven of these beauties' (Firebolt, Aug 1993). Until the 1994 final. 'Bulgaria declined to comment' is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.17",
+    "from": 1994,
+    "to": 1994,
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "canon",
+    "notes": "PoA 4: 'Ireland's International Side have just put in an order for seven of these beauties' (Firebolt, Aug 1993). Until the 1994 final. 'Bulgaria declined to comment' is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.18",
+    "from": 1994,
+    "to": 1994,
+    "months": [
+      9,
+      10
+    ],
+    "source": "canon",
+    "notes": "GoF 12: no inter-house Quidditch Cup in 1994-95 (the Triwizard Tournament). Sep-Oct 1994 only. The school's wording is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.19",
+    "from": 1995,
+    "to": 1995,
+    "source": "canon",
+    "notes": "Pottermore (World Cup history): 1995 ICWQC motion to limit mascots to 'herbivores, smaller than a cow and nothing that breathes fire' rejected. Veela line [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.20",
+    "from": 1900,
+    "source": "filler",
+    "notes": "Cannons motto since 1972 (QTTA c7, wording as in club.cannons.motto_1972); the fan club's comment is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.21",
+    "from": 1900,
+    "source": "filler",
+    "notes": "Wimbourne 'Stingers' buzz to distract Chasers taking penalties (QTTA c7); the complaint is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.22",
+    "from": 1900,
+    "source": "canon",
+    "notes": "QTTA c7: Appleby beat the European champions Vratsa Vultures in 1932 after sixteen days in dense fog; QTTA c6 rule 2 (two-hour time-out after twelve hours). The Department reminder is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.23",
+    "from": 1900,
+    "source": "filler",
+    "notes": "Falcons motto and the Broadmoor brothers' fourteen suspensions 1958-69 (QTTA c7, wording as in club.falcons.broadmoor_brothers); the Department's warning is [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.24",
+    "from": 1900,
+    "months": [
+      4,
+      5
+    ],
+    "source": "canon",
+    "notes": "QTTA c7: the Dangerous Dai Commemorative Medal (Dai Llewellyn) to the league player who took the most exciting and reckless risks of the season. St Mungo's line [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.25",
+    "from": 1993,
+    "to": 1995,
+    "months": [
+      5
+    ],
+    "source": "filler",
+    "notes": "Fudge is Minister for Magic 1990-June 1996 and attends the 1994 final (GoF 8); presenting the League Cup is [FILLER]. May only, while he is Minister."
+  },
+  {
+    "key": "news.filler.prophet.25",
+    "from": 1996,
+    "to": 1996,
+    "months": [
+      5
+    ],
+    "source": "filler",
+    "notes": "Fudge is Minister for Magic 1990-June 1996 and attends the 1994 final (GoF 8); presenting the League Cup is [FILLER]. May only, while he is Minister."
+  },
+  {
+    "key": "news.filler.prophet.26",
+    "from": 1996,
+    "to": 1996,
+    "months": [
+      7,
+      8
+    ],
+    "source": "filler",
+    "notes": "After the Ministry admits Voldemort's return (late June 1996, OotP 38 / HBP 1); the Department's statement is [FILLER]. July-August 1996 only."
+  },
+  {
+    "key": "news.filler.prophet.27",
+    "from": 1996,
+    "to": 1996,
+    "months": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "filler",
+    "notes": "Rufus Scrimgeour is Minister for Magic July 1996 - 1 Aug 1997 (HBP 1, DH 8); the security measures at the moors are [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.27",
+    "from": 1997,
+    "to": 1997,
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "filler",
+    "notes": "Rufus Scrimgeour is Minister for Magic July 1996 - 1 Aug 1997 (HBP 1, DH 8); the security measures at the moors are [FILLER]."
+  },
+  {
+    "key": "news.filler.prophet.28",
+    "from": 1997,
+    "to": 1997,
+    "months": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "filler",
+    "notes": "The Ministry under Voldemort's control, Aug 1997 - May 1998 (DH); the Prophet prints the Ministry line. Papers at fixtures are [FILLER]. Sep 1997 - Apr 1998."
+  },
+  {
+    "key": "news.filler.prophet.28",
+    "from": 1998,
+    "to": 1998,
+    "months": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "filler",
+    "notes": "The Ministry under Voldemort's control, Aug 1997 - May 1998 (DH); the Prophet prints the Ministry line. Papers at fixtures are [FILLER]. Sep 1997 - Apr 1998."
+  },
+  {
+    "key": "news.filler.prophet.29",
+    "from": 1900,
+    "source": "filler",
+    "notes": "Snitchnip forfeits the match, 'one of the oldest rules' (QTTA c6, Pottermore 2014); the Beater anecdote is [FILLER]."
+  }
+]

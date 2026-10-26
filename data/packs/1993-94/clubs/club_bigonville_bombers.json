@@ -1,0 +1,46 @@
+{
+  "id": "club_bigonville_bombers",
+  "name": "Bigonville Bombers",
+  "short_name": "Bombers",
+  "city": "Bigonville, Luxemburgo",
+  "country_id": "lux",
+  "region_id": "iberia_lux",
+  "founded": 1901,
+  "colors": {
+    "primary": "#00A3E0",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "bomb",
+  "identity": {
+    "style_tags": [
+      "attacking",
+      "top_scorers"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_iberia_lux_league",
+  "level": 2,
+  "reputation": 6000,
+  "finances": {
+    "balance": 7000,
+    "wage_budget_weekly": 260,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "canon_qtta",
+  "notes": "Attacking strategies, always among the top scorers [QTTA c8]. Color hex, level, reputation, finances and facilities [inferred/filler]. Founding year 1901 [FILLER]: not given in the books (respects the limits deduced from canon)."
+}

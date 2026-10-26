@@ -1,0 +1,243 @@
+/*
+ * Quidditch Manager account pages: the game's parchment-and-wood look (colours from src/ui/theme/theme_builder.gd).
+ * No inline styles anywhere (CSP style-src 'self'). Fonts: Alegreya Sans and IM FELL English SC (SIL OFL 1.1,
+ * licences next to the font files).
+ */
+@font-face { font-family: "Alegreya Sans"; src: url("fonts/AlegreyaSans-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Alegreya Sans"; src: url("fonts/AlegreyaSans-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "IM Fell English SC"; src: url("fonts/IMFellEnglishSC-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+
+:root {
+  --wood: #2B1D14;
+  --wood-mid: #3D2A1E;
+  --wood-sel: #4A3424;
+  --desk: #E2D3AE;
+  --card: #F7F1E1;
+  --zebra: #EDE3CA;
+  --hover: #E6D7B2;
+  --input: #FFFBF0;
+  --border: #CBB88C;
+  --border-control: #8A6428;
+  --ink: #2A1E14;
+  --ink-soft: #5C4A36;
+  --ink-faded: #7C6A52;
+  --bronze: #7A5A26;
+  --blue: #2E4A6B;
+  --green: #2F5A2A;
+  --wax: #8E1F1C;
+  --brass: #C9A14A;
+  --brass-button: #E2C25A;
+  --brass-hover: #EBCD6A;
+  --menu-text: #E9DDBF;
+  --menu-faded: #9C8B72;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--desk);
+  color: var(--ink);
+  font: 17px/1.5 "Alegreya Sans", "Segoe UI", system-ui, -apple-system, "Hiragino Sans", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+}
+
+a { color: var(--blue); }
+a:hover { color: var(--wood-sel); }
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 16px;
+  background: var(--wood);
+  color: var(--menu-text);
+  border-bottom: 3px solid var(--brass);
+}
+.bar a { color: var(--menu-text); text-decoration: none; }
+.bar a:hover { color: #FFFFFF; }
+.brand { font-family: "IM Fell English SC", Georgia, serif; font-size: 22px; letter-spacing: 0.02em; }
+.bar nav { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; font-size: 15px; }
+.bar form { margin: 0; }
+.linklike {
+  appearance: none; background: none; border: 0; padding: 0; margin: 0;
+  color: var(--menu-text); font: inherit; cursor: pointer; text-decoration: none;
+}
+.linklike:hover { color: #FFFFFF; }
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 640px;
+  margin: 28px auto;
+  padding: 0 16px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 24px;
+  box-shadow: 0 2px 0 rgba(43, 29, 20, 0.15);
+}
+.card + .card { margin-top: 16px; }
+
+h1, h2 { font-family: "IM Fell English SC", Georgia, "Times New Roman", serif; font-weight: 400; color: var(--wood); line-height: 1.2; }
+h1 { font-size: 30px; margin: 0 0 12px; }
+h2 { font-size: 22px; margin: 24px 0 8px; }
+p { margin: 0 0 14px; }
+.lead { font-size: 19px; color: var(--ink-soft); }
+.muted { color: var(--ink-faded); font-size: 15px; }
+.center { text-align: center; }
+
+.logo { display: block; width: 100%; max-width: 420px; height: auto; margin: 0 auto 8px; }
+
+.actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 18px 0 6px; }
+.actions.center { justify-content: center; }
+
+.btn {
+  display: inline-block;
+  appearance: none;
+  border: 1px solid var(--border-control);
+  border-radius: 4px;
+  padding: 10px 18px;
+  font: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background: var(--input);
+  color: var(--ink);
+}
+.btn:hover { background: var(--hover); color: var(--ink); }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, .linklike:focus-visible { outline: 3px solid var(--brass); outline-offset: 2px; }
+.btn-primary { background: var(--brass-button); border: 0; border-bottom: 2px solid var(--border-control); }
+.btn-primary:hover { background: var(--brass-hover); }
+.btn-danger { background: var(--wax); border-color: #5E1210; color: var(--card); }
+.btn-danger:hover { background: #A52622; color: var(--card); }
+.btn-block { display: block; width: 100%; }
+.btn-google { display: flex; align-items: center; justify-content: center; gap: 10px; }
+.g-mark { display: inline-block; width: 20px; height: 20px; }
+
+.or { display: flex; align-items: center; gap: 12px; margin: 20px 0; color: var(--ink-faded); font-size: 15px; }
+.or::before, .or::after { content: ""; flex: 1; border-top: 1px solid var(--border); }
+
+form.stack { display: flex; flex-direction: column; gap: 10px; }
+label { font-weight: 700; color: var(--ink-soft); }
+input[type="email"], input[type="text"], select, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  font: inherit;
+  color: var(--ink);
+  background: var(--input);
+  border: 1px solid var(--border-control);
+  border-radius: 3px;
+}
+textarea { resize: vertical; min-height: 120px; }
+.check { display: flex; gap: 10px; align-items: flex-start; font-weight: 400; color: var(--ink); }
+.check input { margin-top: 5px; }
+
+.notice { border-left: 4px solid var(--blue); background: var(--zebra); padding: 10px 14px; margin: 0 0 16px; }
+.notice.error { border-left-color: var(--wax); }
+.notice.ok { border-left-color: var(--green); }
+
+footer {
+  padding: 16px;
+  background: var(--wood-mid);
+  color: var(--menu-faded);
+  font-size: 14px;
+  text-align: center;
+}
+footer a { color: var(--menu-text); }
+footer p { margin: 6px 0; }
+.langs { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 12px; margin: 0; padding: 0; list-style: none; }
+.langs a[aria-current="true"] { color: var(--brass); text-decoration: none; font-weight: 700; }
+
+/* /privacy and /terms (server/legal/*.md rendered by src/pages/legal.ts) */
+.legal h2 { font-size: 21px; }
+.legal h3 { font-size: 18px; margin: 18px 0 6px; color: var(--wood); }
+.legal ul { margin: 0 0 14px; padding-left: 22px; }
+.legal li { margin: 0 0 6px; }
+.legal code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9em; background: var(--zebra); padding: 0 3px; border-radius: 2px; overflow-wrap: anywhere; }
+.legal a { overflow-wrap: anywhere; }
+
+@media (max-width: 480px) {
+  body { font-size: 16px; }
+  main { margin: 16px auto; }
+  .card { padding: 18px 16px; }
+  h1 { font-size: 26px; }
+  .brand { font-size: 19px; }
+}
+
+/* /register and /account (src/pages/profile-form.ts, register.ts, account.ts; static/register.js) */
+[hidden] { display: none !important; }
+fieldset { border: 1px solid var(--border); border-radius: 4px; margin: 6px 0; padding: 12px 14px 4px; min-width: 0; }
+legend { font-weight: 700; color: var(--wood); padding: 0 6px; }
+.field { display: flex; flex-direction: column; gap: 4px; margin: 0 0 12px; position: relative; }
+.help { margin: 0; font-size: 15px; color: var(--ink-faded); }
+.help:empty { display: none; }
+.help.ok { color: var(--green); }
+.help.bad { color: var(--wax); }
+.credit { font-size: 13px; margin: 4px 0 8px; }
+.field-error { margin: 0; color: var(--wax); font-weight: 700; font-size: 15px; }
+input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: var(--wax); border-width: 2px; }
+.btn-small { padding: 6px 12px; font-size: 15px; }
+.aside { margin-top: 20px; padding-top: 12px; border-top: 1px solid var(--border); }
+.aside .actions { margin: 8px 0 0; }
+.aside form, .actions form { margin: 0; }
+.badge { display: inline-block; padding: 0 8px; border-radius: 10px; background: var(--brass-button); color: var(--ink); font-size: 13px; font-weight: 700; }
+.sessions { list-style: none; margin: 0 0 8px; padding: 0; }
+.sessions li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.sessions li:last-child { border-bottom: 0; }
+.sessions li.current { font-weight: 400; }
+/* City search box (built by register.js) */
+.combo-list { position: absolute; z-index: 5; left: 0; right: 0; top: 100%; margin: 2px 0 0; padding: 0; list-style: none; max-height: 280px; overflow-y: auto; background: var(--input); border: 1px solid var(--border-control); border-radius: 3px; box-shadow: 0 4px 10px rgba(43, 29, 20, 0.2); }
+.combo-list li { padding: 8px 12px; cursor: pointer; }
+.combo-list li[aria-selected="true"], .combo-list li:hover { background: var(--hover); }
+.combo-list li.muted { cursor: default; }
+.combo-list .sub { color: var(--ink-faded); font-size: 14px; }
+.default-submit { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* /feedback: the honeypot field (src/pages/feedback.ts) sits off-screen; people never see it, bots fill it. */
+.hp { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+
+/* Landing: how saving works */
+.saves h2 { margin-top: 0; }
+.saves ul { margin: 0; padding-left: 20px; }
+.saves li + li { margin-top: 6px; }
+
+/* Ranking */
+.ranking table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+.ranking th { text-align: left; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-faded); border-bottom: 2px solid var(--border); padding: 6px 6px; }
+.ranking td { border-bottom: 1px solid var(--border); padding: 7px 6px; vertical-align: top; }
+.ranking .num { text-align: right; font-variant-numeric: tabular-nums; }
+.ranking tr.you td { background: var(--hover); }
+.ranking .muted { font-size: 13px; }
+.ranking-filter { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.ranking-filter label { margin: 0; }
+.ranking-filter select { width: auto; flex: 1 1 200px; }
+@media (max-width: 480px) { .ranking th:nth-child(6), .ranking td:nth-child(6) { display: none; } }
+
+/* Ranking: list / map tabs and the world map */
+.rank-tabs { display: flex; gap: 4px; margin: 4px 0 10px; border-bottom: 1px solid var(--border); }
+.rank-tabs a { padding: 6px 14px; text-decoration: none; color: var(--ink-faded); border: 1px solid transparent; border-bottom: none; border-radius: 4px 4px 0 0; }
+.rank-tabs a[aria-current="page"] { color: var(--ink); background: var(--hover); border-color: var(--border); font-weight: 600; }
+.ranking-wide { max-width: 980px; }
+main:has(.ranking-wide) { max-width: 1012px; }
+.rank-maps { display: grid; grid-template-columns: 2.61fr 0.954fr; gap: 8px; margin: 8px 0 12px; }
+.rank-map { display: block; width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px; background: var(--desk); }
+@media (max-width: 700px) { .rank-maps { grid-template-columns: 1fr; } .rank-map-europe { max-width: 360px; margin: 0 auto; } }
+.rank-pin circle { fill: var(--wax); fill-opacity: .88; stroke: var(--brass); stroke-width: 3; }
+.rank-pin text { fill: #fff8e7; font-family: "Alegreya Sans", Georgia, sans-serif; font-weight: 700; text-anchor: middle; pointer-events: none; }
+.rank-pin:hover circle, .rank-pin:focus circle { fill-opacity: 1; stroke: var(--wood); stroke-width: 4; }
+
+/* Landing: the logo is drawn for a dark background (the game's title screen), so it sits on a wood band. */
+.hero { background: radial-gradient(ellipse at 50% 40%, var(--wood-sel) 0%, var(--wood-mid) 45%, var(--wood) 100%); border-radius: 6px; padding: 18px 16px 10px; margin: -6px -6px 16px; box-shadow: inset 0 0 0 1px rgba(201, 161, 74, .35); }
+.hero .logo { margin-bottom: 0; }

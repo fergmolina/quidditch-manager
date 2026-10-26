@@ -1,0 +1,49 @@
+{
+  "id": "club_kingston_krakens",
+  "name": "Kingston Krakens",
+  "short_name": "Krakens",
+  "city": "Kingston, Jamaica",
+  "country_id": "jam",
+  "region_id": "mexico_caribbean",
+  "founded": 1915,
+  "colors": {
+    "primary": "#2E7D32",
+    "secondary": "#FDD835"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a kraken rising from the sea",
+  "identity": {
+    "style_tags": [
+      "fierce"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_la_habana_huracanes"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_mexico_caribbean_league",
+  "level": 3,
+  "reputation": 2560,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 3,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with La Habana Huracanes [FILLER]: invented for the game (the Caribbean derby)."
+}

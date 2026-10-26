@@ -1,0 +1,49 @@
+{
+  "id": "club_porto_alegre_pampeiros",
+  "name": "Porto Alegre Pampeiros",
+  "short_name": "Pampeiros",
+  "city": "Porto Alegre, Brasil",
+  "country_id": "bra",
+  "region_id": "brazil",
+  "founded": 1906,
+  "colors": {
+    "primary": "#0D47A1",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "storm",
+  "emblem_desc": "a galloping horse in the pampas wind",
+  "identity": {
+    "style_tags": [
+      "resilient"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_curitiba_curupiras"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_brazil_league",
+  "level": 2,
+  "reputation": 4560,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 3,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Curitiba Curupiras [FILLER]: invented for the game (the southern derby)."
+}

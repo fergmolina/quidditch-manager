@@ -1,0 +1,62 @@
+{
+  "id": "comp_east_asia_league",
+  "name": "Liga de Asia Oriental y del Sudeste",
+  "name_en": "East and Southeast Asian League",
+  "type": "league",
+  "region_id": "east_asia",
+  "country_ids": [
+    "chn",
+    "kor",
+    "tha"
+  ],
+  "level": 2,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_beijing_baihu",
+    "club_shanghai_shenlong",
+    "club_chengdu_chang_e",
+    "club_xi_an_xiezhi",
+    "club_nanjing_nuwa",
+    "club_seoul_samjogo",
+    "club_busan_bulgasari",
+    "club_daegu_dokkaebi",
+    "club_incheon_imugi",
+    "club_bangkok_garudas",
+    "club_chiang_mai_chang_phueak"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.yellow_mountains",
+    "venue.gobi_desert",
+    "venue.kunlun_mountains",
+    "venue.mount_seorak",
+    "venue.jeju_island",
+    "venue.doi_inthanon"
+  ],
+  "prizes": {
+    "galleons_champion": 3500,
+    "galleons_per_position_step": 175,
+    "awards": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] League added for the game: the books do not name it."
+}

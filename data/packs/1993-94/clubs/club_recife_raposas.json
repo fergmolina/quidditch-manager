@@ -1,0 +1,49 @@
+{
+  "id": "club_recife_raposas",
+  "name": "Recife Raposas",
+  "short_name": "Raposas",
+  "city": "Recife, Brasil",
+  "country_id": "bra",
+  "region_id": "brazil",
+  "founded": 1918,
+  "colors": {
+    "primary": "#FF7043",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a running fox",
+  "identity": {
+    "style_tags": [
+      "clever"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_salvador_sabias"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_brazil_league",
+  "level": 2,
+  "reputation": 4320,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 1,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Salvador Sabiás [FILLER]: invented for the game (the north-east derby)."
+}

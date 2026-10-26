@@ -1,0 +1,46 @@
+{
+  "id": "club_cusco_condores",
+  "name": "Cusco Cóndores",
+  "short_name": "Cóndores",
+  "city": "Cusco, Perú",
+  "country_id": "per",
+  "region_id": "andes",
+  "founded": 1884,
+  "colors": {
+    "primary": "#8D1B1B",
+    "secondary": "#F4D03F"
+  },
+  "emblem_key": "vulture",
+  "emblem_desc": "a soaring Andean condor",
+  "identity": {
+    "style_tags": [
+      "dominant"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_andes_league",
+  "level": 1,
+  "reputation": 7900,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 10,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

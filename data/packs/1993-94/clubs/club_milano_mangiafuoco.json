@@ -1,0 +1,49 @@
+{
+  "id": "club_milano_mangiafuoco",
+  "name": "Milano Mangiafuoco",
+  "short_name": "Mangiafuoco",
+  "city": "Milán, Italia",
+  "country_id": "ita",
+  "region_id": "italy",
+  "founded": 1883,
+  "colors": {
+    "primary": "#212121",
+    "secondary": "#E53935"
+  },
+  "emblem_key": "meteor",
+  "emblem_desc": "a fire-breather blowing a great plume of flame",
+  "identity": {
+    "style_tags": [
+      "showmanship"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_roma_ruggenti"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_italy_league",
+  "level": 2,
+  "reputation": 5160,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 8,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Roma Ruggenti [FILLER]: invented for the game (the league's two most successful clubs)."
+}

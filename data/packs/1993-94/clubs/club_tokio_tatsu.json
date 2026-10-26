@@ -1,0 +1,49 @@
+{
+  "id": "club_tokio_tatsu",
+  "name": "Tokyo Tatsu",
+  "short_name": "Tatsu",
+  "city": "Tokio, Japón",
+  "country_id": "jpn",
+  "region_id": "japan",
+  "founded": 1882,
+  "colors": {
+    "primary": "#B71C1C",
+    "secondary": "#FFD700"
+  },
+  "emblem_key": "charm",
+  "emblem_desc": "a coiled red dragon",
+  "identity": {
+    "style_tags": [
+      "dominant"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_osaka_oni"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_japan_league",
+  "level": 2,
+  "reputation": 5160,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 8,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Osaka Oni [FILLER]: invented for the game (east against west, the two great cities)."
+}

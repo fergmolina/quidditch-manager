@@ -1,0 +1,91 @@
+{
+  "id": "player_brevis_birch",
+  "first_name": "Brevis",
+  "last_name": "Birch",
+  "gender": "m",
+  "nationality_ids": [
+    "eng"
+  ],
+  "birth_date": "1963-03-01",
+  "birth_date_estimated": true,
+  "main_position": "C",
+  "positions": {
+    "K": 4,
+    "C": 20,
+    "B": 5,
+    "S": 4
+  },
+  "attributes": {
+    "flying": {
+      "speed": 12,
+      "acceleration": 14,
+      "agility": 14,
+      "broom_control": 10,
+      "balance": 10,
+      "altitude": 10,
+      "dive": 10
+    },
+    "technical": {
+      "passing": 15,
+      "catching": 14,
+      "shooting": 13,
+      "dodging": 14,
+      "stealing": 13,
+      "interception": 10,
+      "keeping": 6,
+      "beating": 6,
+      "beat_accuracy": 6,
+      "snitch_catching": 6
+    },
+    "mental": {
+      "aggression": 10,
+      "anticipation": 10,
+      "bravery": 10,
+      "composure": 10,
+      "concentration": 10,
+      "creativity": 13,
+      "decisions": 15,
+      "determination": 16,
+      "flair": 10,
+      "influence": 17,
+      "off_ball": 15,
+      "positioning": 10,
+      "teamwork": 15,
+      "work_rate": 10
+    },
+    "physical": {
+      "stamina": 12,
+      "strength": 11,
+      "natural_fitness": 13,
+      "reflexes": 11,
+      "eyesight": 11
+    }
+  },
+  "hidden": {
+    "consistency": 15,
+    "big_matches": 15,
+    "injury_proneness": 10,
+    "dirtiness": 10,
+    "versatility": 10,
+    "adaptability": 10,
+    "ambition": 10,
+    "controversy": 12,
+    "loyalty": 10,
+    "pressure": 10,
+    "professionalism": 16,
+    "sportsmanship": 10,
+    "temperament": 13
+  },
+  "ca": 132,
+  "pa": 133,
+  "club_id": "club_tutshill_tornados",
+  "squad": "first",
+  "is_captain": true,
+  "broom": {
+    "model_id": "broom_nimbus_1700",
+    "condition": 100
+  },
+  "traits_text_keys": [],
+  "source": "canon_dp",
+  "notes": "Tornados captain; blamed a defeat on Fenwick's narcolepsy [DP]. Position not stated in canon: Chaser [inferred]. Veteran (~30). Estimated birth date. Attributes, CA/PA and broom [inferred]."
+}

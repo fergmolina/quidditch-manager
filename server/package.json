@@ -1,0 +1,34 @@
+{
+  "name": "quidditch-manager-accounts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Accounts service for the browser build of Quidditch Manager (login, sessions, profile gate).",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/index.js",
+    "dev": "tsx watch --env-file-if-exists=.env.local src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "test:integration": "tsx --test --test-concurrency=1 test/integration/*.test.ts",
+    "gen:i18n": "tsx scripts/gen-i18n.ts",
+    "migrate": "tsx --env-file-if-exists=.env.local scripts/migrate.ts",
+    "build:geo": "tsx scripts/build-geo.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "2.1.5",
+    "hono": "4.13.13",
+    "jose": "6.2.13",
+    "postgres": "3.4.9",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}

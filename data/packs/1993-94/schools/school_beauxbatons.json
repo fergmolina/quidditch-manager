@@ -1,0 +1,47 @@
+{
+ "_comment": "Beauxbatons: invented houses [FILLER] (regional folklore); filler students.",
+ "school_id": "school_beauxbatons",
+ "source": "filler",
+ "house_colors": {
+  "Abraxan": {
+   "primary": "#4FC3F7",
+   "secondary": "#D4AF37"
+  },
+  "Vouivre": {
+   "primary": "#00695C",
+   "secondary": "#E53935"
+  },
+  "Melusine": {
+   "primary": "#283593",
+   "secondary": "#B3E5FC"
+  },
+  "Tarasque": {
+   "primary": "#8E1B1B",
+   "secondary": "#FFD54F"
+  }
+ },
+ "house_info": {
+  "Abraxan": {
+   "emblem_desc": "a winged palomino horse rearing",
+   "inspiration": "Madame Maxime's winged horses [GoF 15] — the only canon nod.",
+   "source": "filler"
+  },
+  "Vouivre": {
+   "emblem_desc": "a winged serpent with a red gem on its forehead",
+   "inspiration": "Vouivre: winged serpent with a ruby on its forehead, folklore of Franche-Comté and Burgundy.",
+   "source": "filler"
+  },
+  "Melusine": {
+   "emblem_desc": "a water fairy whose lower body is a coiled serpent tail",
+   "inspiration": "Melusine: fountain fairy with a serpent's tail, medieval French legend.",
+   "source": "filler"
+  },
+  "Tarasque": {
+   "emblem_desc": "the Tarasque, a six-legged dragon with a turtle shell",
+   "inspiration": "The Tarasque of Tarascon (Provence): six-legged dragon with a shell.",
+   "source": "filler"
+  }
+ },
+ "venue": "Campo de Quidditch de Beauxbatons",
+ "students": []
+}

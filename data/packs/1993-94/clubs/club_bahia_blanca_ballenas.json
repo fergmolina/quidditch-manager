@@ -1,0 +1,49 @@
+{
+  "id": "club_bahia_blanca_ballenas",
+  "name": "Bahía Blanca Ballenas",
+  "short_name": "Ballenas",
+  "city": "Bahía Blanca, Argentina",
+  "country_id": "arg",
+  "region_id": "argentina",
+  "founded": 1920,
+  "colors": {
+    "primary": "#01579B",
+    "secondary": "#E0E0E0"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a breaching whale",
+  "identity": {
+    "style_tags": [
+      "resilient"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_mar_del_plata_mareas"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_argentina_league",
+  "level": 3,
+  "reputation": 2320,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 1,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Mar del Plata Mareas [FILLER]: invented for the game (the Atlantic coast derby)."
+}

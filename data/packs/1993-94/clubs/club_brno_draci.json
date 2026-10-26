@@ -1,0 +1,49 @@
+{
+  "id": "club_brno_draci",
+  "name": "Brno Draci",
+  "short_name": "Draci",
+  "city": "Brno, Chequia",
+  "country_id": "cze",
+  "region_id": "central_europe",
+  "founded": 1879,
+  "colors": {
+    "primary": "#C62828",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "charm",
+  "emblem_desc": "the Brno dragon, a crocodile hanging from a town-hall arch",
+  "identity": {
+    "style_tags": [
+      "aggressive"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_praha_golemove"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_central_europe_league",
+  "level": 2,
+  "reputation": 4800,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 5,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Praha Golemové [FILLER]: invented for the game (the Czech derby, Bohemia against Moravia)."
+}

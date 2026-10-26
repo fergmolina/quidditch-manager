@@ -1,0 +1,213 @@
+{
+  "schools": [
+    {
+      "id": "school_hogwarts",
+      "name": "Hogwarts School of Witchcraft and Wizardry",
+      "short_name": "Hogwarts",
+      "country_id": "sco",
+      "region_ids": [
+        "british_isles"
+      ],
+      "houses": [
+        "Gryffindor",
+        "Hufflepuff",
+        "Ravenclaw",
+        "Slytherin"
+      ],
+      "source": "canon_book",
+      "notes": "Inter-house Quidditch Cup [PS-HBP]."
+    },
+    {
+      "id": "school_beauxbatons",
+      "name": "Beauxbatons Academy of Magic",
+      "short_name": "Beauxbatons",
+      "country_id": "fra",
+      "region_ids": [
+        "france",
+        "iberia_lux",
+        "italy",
+        "low_countries"
+      ],
+      "houses": [
+        "Abraxan",
+        "Vouivre",
+        "Melusine",
+        "Tarasque"
+      ],
+      "source": "canon_book",
+      "notes": "Has a team [GoF]; no canon houses. Houses [FILLER]: invented from the region's folklore (see docs/design/07 §6).",
+      "houses_source": "filler"
+    },
+    {
+      "id": "school_durmstrang",
+      "name": "Durmstrang Institute",
+      "short_name": "Durmstrang",
+      "country_id": "bul",
+      "region_ids": [
+        "eastern_europe",
+        "germany",
+        "nordic"
+      ],
+      "houses": [
+        "Lindworm",
+        "Huldra",
+        "Jotunn",
+        "Sleipnir"
+      ],
+      "source": "canon_book",
+      "notes": "Krum is a student and the Bulgarian Seeker [GoF 7]. Exact location unknown; assigned to Bulgaria [inferred]. Houses [FILLER]: invented from the region's folklore (see docs/design/07 §6).",
+      "houses_source": "filler"
+    },
+    {
+      "id": "school_ilvermorny",
+      "name": "Ilvermorny School of Witchcraft and Wizardry",
+      "short_name": "Ilvermorny",
+      "country_id": "usa",
+      "region_ids": [
+        "usa",
+        "canada"
+      ],
+      "houses": [
+        "Horned Serpent",
+        "Wampus",
+        "Thunderbird",
+        "Pukwudgie"
+      ],
+      "source": "canon_pottermore",
+      "notes": "Inter-house Quidditch Cup: Pukwudgie 1926 [FB/Prop]."
+    },
+    {
+      "id": "school_mahoutokoro",
+      "name": "Mahoutokoro School of Magic",
+      "short_name": "Mahoutokoro",
+      "country_id": "jpn",
+      "region_ids": [
+        "japan",
+        "east_asia"
+      ],
+      "houses": [
+        "Kirin",
+        "Tengu",
+        "Kitsune",
+        "Ryu"
+      ],
+      "source": "canon_pottermore",
+      "notes": "They train over the sea in storms [PM-Mahoutokoro]. Houses [FILLER]: invented from the region's folklore (see docs/design/07 §6).",
+      "houses_source": "filler"
+    },
+    {
+      "id": "school_castelobruxo",
+      "name": "Castelobruxo",
+      "short_name": "Castelobruxo",
+      "country_id": "bra",
+      "region_ids": [
+        "brazil",
+        "argentina",
+        "andes",
+        "mexico_caribbean"
+      ],
+      "houses": [
+        "Caipora",
+        "Iara",
+        "Uirapuru",
+        "Boto"
+      ],
+      "source": "canon_pottermore",
+      "notes": "Former students on the Tarapoto Tree-Skimmers [PM]. Houses [FILLER]: invented from the region's folklore (see docs/design/07 §6).",
+      "houses_source": "filler"
+    },
+    {
+      "id": "school_uagadou",
+      "name": "Uagadou School of Magic",
+      "short_name": "Uagadou",
+      "country_id": "uga",
+      "region_ids": [
+        "africa",
+        "maghreb",
+        "indian_ocean"
+      ],
+      "houses": [
+        "Impundulu",
+        "Ninki Nanka",
+        "Anansi",
+        "Kongamato"
+      ],
+      "source": "canon_pottermore",
+      "notes": "No information about Quidditch: team [FILLER]. Country: Mountains of the Moon (Uganda) [PM]. Houses [FILLER]: invented from the region's folklore (see docs/design/07 §6).",
+      "houses_source": "filler"
+    },
+    {
+      "id": "school_koldovstoretz",
+      "name": "Koldovstoretz",
+      "short_name": "Koldovstoretz",
+      "country_id": "rus",
+      "region_ids": [
+        "eastern_europe"
+      ],
+      "houses": [
+        "Zhar Ptitsa",
+        "Leshy",
+        "Rusalka",
+        "Zmey"
+      ],
+      "source": "canon_pottermore",
+      "notes": "In Russia [PM-Wizarding Schools]: youth players for Russian clubs come from here (the rest of Eastern Europe, from Durmstrang). They play on uprooted trees [PM-Wizarding Schools]. Houses [FILLER]: invented from the region's folklore (see docs/design/07 §6).",
+      "houses_source": "filler"
+    },
+    {
+      "id": "school_wollemi",
+      "name": "Wollemi Academy of Magic",
+      "short_name": "Wollemi",
+      "country_id": "aus",
+      "region_ids": [
+        "oceania"
+      ],
+      "source": "filler",
+      "notes": "[FILLER] JKR says there are eleven major schools [PM-Wizarding Schools] but names eight: this is one of the three unnamed ones. Hidden on Mount Wollemi (Blue Mountains, New South Wales). Houses [FILLER]: invented from the region's folklore (see docs/design/07 §6).",
+      "houses": [
+        "Yowie",
+        "Min Min",
+        "Thylacine",
+        "Lyrebird"
+      ],
+      "houses_source": "filler"
+    },
+    {
+      "id": "school_kapadokya",
+      "name": "Kapadokya Institute of Magic",
+      "short_name": "Kapadokya",
+      "country_id": "tur",
+      "region_ids": [
+        "middle_east",
+        "eastern_europe"
+      ],
+      "source": "filler",
+      "notes": "[FILLER] One of the three schools with no canon name. Carved into the fairy chimneys of Cappadocia (Turkey). No league in the Middle East: graduates also go to Eastern Europe. Houses [FILLER]: invented from the region's folklore (see docs/design/07 §6).",
+      "houses": [
+        "Zumruduanka",
+        "Sahmeran",
+        "Tepegoz",
+        "Ejder"
+      ],
+      "houses_source": "filler"
+    },
+    {
+      "id": "school_nilgiri",
+      "name": "Nilgiri School of Magic",
+      "short_name": "Nilgiri",
+      "country_id": "ind",
+      "region_ids": [
+        "south_asia"
+      ],
+      "source": "filler",
+      "notes": "[FILLER] One of the three schools with no canon name. In the Nilgiri hills (southern India), among the mist. Houses [FILLER]: invented from the region's folklore (see docs/design/07 §6).",
+      "houses": [
+        "Yali",
+        "Makara",
+        "Airavata",
+        "Naga"
+      ],
+      "houses_source": "filler"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+#!/usr/bin/env bash
+# qm-verify: drives Quidditch Manager (Godot 4.7, desktop) for verification runs.
+# Every run gets its own user data directory (HOME is redirected, which moves Godot's user:// on macOS and
+# Linux), so a run never reads or writes the developer's real saves and settings.
+# Evidence (screenshots, logs, verdicts, tour reports) lands in .verify/runs/<run>/<feature>/ and survives cleanup.
+# Usage: see `qm-verify help` or the SKILL.md next to this file.
+set -euo pipefail
+
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd "$HERE/../../.." && pwd)"
+GODOT="${QM_GODOT:-godot}"
+VERIFY_DIR="$ROOT/.verify"
+RUNS_DIR="$VERIFY_DIR/runs"
+RES="${QM_RESOLUTION:-1366x820}"
+TIMEOUT="${QM_TIMEOUT:-300}"
+MIN_PNG_BYTES=50000
+
+die() { echo "qm-verify: $*" >&2; exit 2; }
+
+usage() {
+	cat <<'USAGE'
+qm-verify <command> [args]
+
+  start                       new run: makes .verify/runs/<id>/ with an empty isolated HOME, prints <id>
+  doctor                      read-only health check of godot, the project import and the current run
+  drive <feature> <label> -- <game args...>
+                              launch the game with the given user args (after --), with --shot added when
+                              missing; evidence: <feature>/<label>.png, .log and .result (PASS/FAIL)
+  tour <feature> [game args]  run the UI tour (--tour) into <feature>/tour/; verdict from "tour finished"
+  saves [feature]             list the saves written in the run's isolated HOME; with <feature>, copy each
+                              meta.json into the evidence folder as a read-only second view
+  cleanup                     kill the run's own leftover godot processes and delete its HOME; keep evidence
+  runs                        list runs
+  help
+
+Environment: QM_RUN (run id; default .verify/current), QM_GODOT (binary; default godot on PATH),
+             QM_TIMEOUT (seconds per launch; default 300), QM_RESOLUTION (default 1366x820).
+USAGE
+}
+
+run_id() {
+	local id="${QM_RUN:-}"
+	if [ -z "$id" ] && [ -f "$VERIFY_DIR/current" ]; then id="$(cat "$VERIFY_DIR/current")"; fi
+	[ -n "$id" ] || die "no run selected: run 'qm-verify start' first (or export QM_RUN=<id>)"
+	echo "$id"
+}
+
+run_dir() { echo "$RUNS_DIR/$(run_id)"; }
+
+# Godot's user:// for the app under the run's HOME (macOS and Linux layouts).
+userdata_dir() {
+	local home="$1"
+	case "$(uname -s)" in
+		Darwin) echo "$home/Library/Application Support/Godot/app_userdata/Quidditch Manager" ;;
+		*) echo "$home/.local/share/godot/app_userdata/Quidditch Manager" ;;
+	esac
+}
+
+file_size() { stat -f%z "$1" 2>/dev/null || stat -c%s "$1" 2>/dev/null || echo 0; }
+
+# Runs godot with the run's HOME and a hard timeout that kills only this launch (perl alarm + exec).
+launch() {
+	local run="$1" log="$2"; shift 2
+	local rc=0
+	# Subshell: bash's own "Abort trap" line for a crashing launch stays out of the output; the launch's stdout
+	# and stderr go to the log.
+	(
+		HOME="$run/home" perl -e 'alarm shift @ARGV; exec @ARGV' "$TIMEOUT" \
+			"$GODOT" --path "$ROOT" --windowed --resolution "$RES" --audio-driver Dummy -- "$@" >"$log" 2>&1 &
+		echo "$!" >>"$run/pids"
+		wait "$!"
+	) 2>/dev/null || rc=$?
+	return "$rc"
+}
+
+cmd_start() {
+	local id; id="$(date +%Y%m%d-%H%M%S)-$$"
+	mkdir -p "$RUNS_DIR/$id/home"
+	echo "$id" >"$VERIFY_DIR/current"
+	echo "$id"
+}
+
+cmd_doctor() {
+	local fail=0
+	ok() { echo "OK    $*"; }
+	bad() { echo "FAIL  $*"; fail=1; }
+	if command -v "$GODOT" >/dev/null 2>&1; then
+		local v; v="$("$GODOT" --version 2>/dev/null | tail -1)"
+		case "$v" in 4.7.*) ok "godot $v ($(command -v "$GODOT"))" ;; *) bad "godot version '$v' is not 4.7.x (project.godot requires 4.7)" ;; esac
+	else
+		bad "godot binary '$GODOT' not found (install Godot 4.7 or set QM_GODOT)"
+	fi
+	[ -f "$ROOT/project.godot" ] && ok "project.godot at $ROOT" || bad "no project.godot at $ROOT"
+	if [ -d "$ROOT/.godot/imported" ] && [ -f "$ROOT/locale/strings.en.translation" ]; then
+		ok "project imported (.godot/imported and compiled translations present)"
+	else
+		bad "project not imported: run  $GODOT --headless --path \"$ROOT\" --import"
+	fi
+	case "$(uname -s)" in
+		Darwin) pgrep -xq WindowServer && ok "display: macOS WindowServer running" || bad "display: no WindowServer (screenshots need a logged-in desktop session)" ;;
+		*) [ -n "${DISPLAY:-}" ] && ok "display: DISPLAY=$DISPLAY" || bad "display: DISPLAY unset (screenshots are blank without a display; use Xvfb)" ;;
+	esac
+	local id=""; id="${QM_RUN:-}"; [ -z "$id" ] && [ -f "$VERIFY_DIR/current" ] && id="$(cat "$VERIFY_DIR/current")"
+	if [ -n "$id" ]; then
+		local run="$RUNS_DIR/$id"
+		if [ -d "$run/home" ]; then
+			ok "run $id: isolated HOME at $run/home"
+			ok "run $id: user:// is $(userdata_dir "$run/home")"
+		else
+			echo "NOTE  run $id was cleaned up (no HOME): 'qm-verify start' begins a new run; its evidence is still in $run"
+		fi
+		local alive=0
+		if [ -f "$run/pids" ]; then while read -r p; do kill -0 "$p" 2>/dev/null && alive=$((alive + 1)); done <"$run/pids"; fi
+		[ "$alive" = 0 ] && ok "run $id: no godot process of this run still alive" || bad "run $id: $alive godot process(es) of this run still alive (qm-verify cleanup)"
+	else
+		ok "no run selected yet (qm-verify start)"
+	fi
+	[ "$fail" = 0 ]
+}
+
+cmd_drive() {
+	[ $# -ge 3 ] || die "usage: drive <feature> <label> -- <game args...>"
+	local feature="$1" label="$2"; shift 2
+	[ "${1:-}" = "--" ] && shift
+	local run; run="$(run_dir)"
+	[ -d "$run/home" ] || die "run $(run_id) has no HOME (already cleaned up?): qm-verify start"
+	local ev="$run/$feature"; mkdir -p "$ev"
+	local args=("$@") shot="$ev/$label.png" has_shot=0 i
+	for ((i = 0; i < ${#args[@]}; i++)); do
+		if [ "${args[$i]}" = "--shot" ]; then
+			[ $((i + 1)) -lt ${#args[@]} ] || die "--shot needs a path"
+			has_shot=1; shot="${args[$((i + 1))]}"
+		fi
+	done
+	[ "$has_shot" = 1 ] || args+=(--shot "$shot")
+	local log="$ev/$label.log" rc=0
+	echo "launching: HOME=<run>/home $GODOT --path . --windowed --resolution $RES --audio-driver Dummy -- ${args[*]}"
+	launch "$run" "$log" "${args[@]}" || rc=$?
+	local saved="" size=0 errors=0 verdict="FAIL"
+	saved="$(grep -m1 "screenshot saved to" "$log" || true)"
+	size="$(file_size "$shot")"
+	errors="$(grep -c "SCRIPT ERROR" "$log" || true)"
+	[ -n "$saved" ] && [ "$size" -gt "$MIN_PNG_BYTES" ] && [ "$errors" = 0 ] && [ "$rc" = 0 ] && verdict="PASS"
+	[ "$rc" = 142 ] && verdict="TIMEOUT"
+	{
+		echo "verdict: $verdict"
+		echo "feature: $feature"
+		echo "label: $label"
+		echo "args: ${args[*]}"
+		echo "exit_code: $rc"
+		echo "png: $shot ($size bytes)"
+		echo "script_errors: $errors"
+		echo "log: $log"
+		echo "run: $(run_id)"
+	} >"$ev/$label.result"
+	cat "$ev/$label.result"
+	[ "$verdict" = "PASS" ]
+}
+
+cmd_tour() {
+	[ $# -ge 1 ] || die "usage: tour <feature> [game args...]"
+	local feature="$1"; shift
+	local run; run="$(run_dir)"
+	[ -d "$run/home" ] || die "run $(run_id) has no HOME (already cleaned up?): qm-verify start"
+	local ev="$run/$feature"; mkdir -p "$ev"
+	local log="$ev/tour.log" rc=0
+	echo "launching: HOME=<run>/home $GODOT --path . --windowed --resolution $RES --audio-driver Dummy -- --tour $ev/tour $*"
+	launch "$run" "$log" --tour "$ev/tour" "$@" || rc=$?
+	local verdict="FAIL" finished=""
+	local errors=0
+	finished="$(grep -m1 "tour finished" "$log" || true)"
+	errors="$(grep -c "SCRIPT ERROR" "$log" || true)"
+	[ -n "$finished" ] && [ -f "$ev/tour/report.txt" ] && [ "$errors" = 0 ] && [ "$rc" = 0 ] && verdict="PASS"
+	[ "$rc" = 142 ] && verdict="TIMEOUT"
+	{
+		echo "verdict: $verdict"
+		echo "feature: $feature"
+		echo "args: --tour $ev/tour $*"
+		echo "exit_code: $rc"
+		echo "finished: ${finished:-<no 'tour finished' line>}"
+		echo "report: $ev/tour/report.txt"
+		echo "screenshots: $(ls "$ev/tour"/*.png 2>/dev/null | wc -l | tr -d ' ')"
+		echo "script_errors: $errors"
+		echo "log: $log"
+	} >"$ev/tour.result"
+	cat "$ev/tour.result"
+	[ "$verdict" = "PASS" ]
+}
+
+cmd_saves() {
+	local run; run="$(run_dir)"
+	local saves; saves="$(userdata_dir "$run/home")/saves"
+	if [ ! -d "$saves" ]; then echo "no saves directory in the run's HOME ($saves)"; return 1; fi
+	local n=0 d
+	for d in "$saves"/*/; do
+		[ -d "$d" ] || continue
+		n=$((n + 1))
+		echo "save: $(basename "$d")"
+		[ -f "$d/world.json.gz" ] && echo "  world.json.gz: $(file_size "$d/world.json.gz") bytes" || echo "  world.json.gz: MISSING"
+		[ -f "$d/meta.json" ] && echo "  meta.json: $(cat "$d/meta.json")" || echo "  meta.json: MISSING"
+		if [ -n "${1:-}" ]; then
+			mkdir -p "$run/$1"
+			cp "$d/meta.json" "$run/$1/save-$(basename "$d").meta.json" 2>/dev/null || true
+		fi
+	done
+	[ "$n" -gt 0 ] || { echo "no saves in $saves"; return 1; }
+}
+
+cmd_cleanup() {
+	local run; run="$(run_dir)"
+	if [ -f "$run/pids" ]; then
+		while read -r p; do
+			if kill -0 "$p" 2>/dev/null; then echo "killing godot pid $p (started by this run)"; kill "$p" 2>/dev/null || true; fi
+		done <"$run/pids"
+		rm -f "$run/pids"
+	fi
+	rm -rf "$run/home"
+	echo "run $(run_id): HOME removed; evidence kept:"
+	find "$run" -type f | sort
+}
+
+cmd_runs() { ls -1 "$RUNS_DIR" 2>/dev/null || echo "no runs"; }
+
+case "${1:-help}" in
+	start) shift; cmd_start "$@" ;;
+	doctor) shift; cmd_doctor "$@" ;;
+	drive) shift; cmd_drive "$@" ;;
+	tour) shift; cmd_tour "$@" ;;
+	saves) shift; cmd_saves "$@" ;;
+	cleanup) shift; cmd_cleanup "$@" ;;
+	runs) shift; cmd_runs "$@" ;;
+	help | -h | --help) usage ;;
+	*) usage; exit 2 ;;
+esac

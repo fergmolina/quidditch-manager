@@ -1,0 +1,49 @@
+{
+  "id": "club_cairo_crocodiles",
+  "name": "Cairo Crocodiles",
+  "short_name": "Crocodiles",
+  "city": "El Cairo, Egipto",
+  "country_id": "egy",
+  "region_id": "africa",
+  "founded": 1878,
+  "colors": {
+    "primary": "#33691E",
+    "secondary": "#D4AF37"
+  },
+  "emblem_key": "charm",
+  "emblem_desc": "a crocodile wearing a golden crown",
+  "identity": {
+    "style_tags": [
+      "clever"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_gimbi_giant_slayers"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_africa_league",
+  "level": 1,
+  "reputation": 8020,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 11,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Gimbi Giant-Slayers [FILLER]: invented for the game (the Nile derby: the league's most-titled club against the two-time All-Africa Cup winners from the Blue Nile highlands)."
+}

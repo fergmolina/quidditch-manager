@@ -1,0 +1,46 @@
+{
+  "id": "club_hiroshima_hoo",
+  "name": "Hiroshima Hōō",
+  "short_name": "Hōō",
+  "city": "Hiroshima, Japón",
+  "country_id": "jpn",
+  "region_id": "japan",
+  "founded": 1922,
+  "colors": {
+    "primary": "#FFC107",
+    "secondary": "#B71C1C"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a Japanese phoenix",
+  "identity": {
+    "style_tags": [
+      "flair"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_japan_league",
+  "level": 3,
+  "reputation": 2320,
+  "finances": {
+    "balance": 2500,
+    "wage_budget_weekly": 150,
+    "transfer_budget": 600
+  },
+  "facilities": {
+    "training": 2,
+    "medical": 1,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 1,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

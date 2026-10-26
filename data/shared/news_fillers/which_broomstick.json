@@ -1,0 +1,196 @@
+[
+  {
+    "key": "news.filler.which_broomstick.1",
+    "from": 1993,
+    "to": 1995,
+    "source": "canon",
+    "notes": "Firebolt advert: 150 mph in ten seconds, unbreakable Braking Charm, 'Price on request' [PoA 4]. No price after 1995."
+  },
+  {
+    "key": "news.filler.which_broomstick.2",
+    "from": 1993,
+    "to": 1993,
+    "source": "canon",
+    "notes": "Quality Quidditch Supplies, Aug 1993: the Irish International Side has ordered seven Firebolts and are World Cup favourites [PoA 4]."
+  },
+  {
+    "key": "news.filler.which_broomstick.3",
+    "from": 1993,
+    "source": "canon",
+    "notes": "Ash handle hand-numbered with its own registration number [PoA 4]."
+  },
+  {
+    "key": "news.filler.which_broomstick.4",
+    "from": 1993,
+    "to": 1996,
+    "source": "canon",
+    "notes": "Goblin strikes limit Firebolt output; the Nimbus 2001 is flown by most of the world's teams [PM-Firebolt]."
+  },
+  {
+    "key": "news.filler.which_broomstick.5",
+    "from": 1994,
+    "to": 1997,
+    "source": "filler",
+    "notes": "[FILLER] Second-hand market note."
+  },
+  {
+    "key": "news.filler.which_broomstick.6",
+    "from": 1995,
+    "to": 1999,
+    "source": "canon",
+    "notes": "Cleansweep Eleven: Spanish oak handle, anti-jinx varnish, in-built vibration control [OotP 9]."
+  },
+  {
+    "key": "news.filler.which_broomstick.7",
+    "from": 1995,
+    "to": 1999,
+    "source": "canon",
+    "notes": "Which Broomstick? on the Comet 290: 0 to 60 with a decent tailwind [OotP 9]."
+  },
+  {
+    "key": "news.filler.which_broomstick.8",
+    "from": 1993,
+    "to": 1997,
+    "source": "canon",
+    "notes": "'Comets look flashy, but they're not in the same league as the Nimbus' [PS 10]."
+  },
+  {
+    "key": "news.filler.which_broomstick.9",
+    "from": 1993,
+    "source": "canon",
+    "notes": "Silver Arrow: up to 70 mph with a tailwind [QTTA 9]; Madam Hooch learned to fly on one [PoA 13]. Model name as in the broom catalogue."
+  },
+  {
+    "key": "news.filler.which_broomstick.10",
+    "from": 1994,
+    "source": "canon",
+    "notes": "Bluebottle advert at the 1994 World Cup: a broom for all the family, safe, reliable, built-in anti-burglar buzzer [GoF 8]."
+  },
+  {
+    "key": "news.filler.which_broomstick.11",
+    "from": 1993,
+    "source": "canon",
+    "notes": "Tinderblast (Ellerby and Spudmore, 1940): highly resilient, never very fast [QTTA 9]."
+  },
+  {
+    "key": "news.filler.which_broomstick.12",
+    "from": 1993,
+    "source": "canon",
+    "notes": "Swiftstick (1952): faster than the Tinderblast but loses power when climbing [QTTA 9]."
+  },
+  {
+    "key": "news.filler.which_broomstick.13",
+    "from": 1993,
+    "source": "canon",
+    "notes": "Oakshaft 79: too heavy for Quidditch; Jocunda Sykes crossed the Atlantic on one in 1935 [QTTA 9]."
+  },
+  {
+    "key": "news.filler.which_broomstick.14",
+    "from": 1993,
+    "source": "canon+filler",
+    "notes": "Moontrimmer (Gladys Boothby, 1901), hand-made, demand outstripped supply [QTTA 9]; the auction is [FILLER]."
+  },
+  {
+    "key": "news.filler.which_broomstick.15",
+    "from": 1993,
+    "source": "canon",
+    "notes": "Shooting Star: cheapest broom of its day, loses speed and lift as it ages [QTTA 9]."
+  },
+  {
+    "key": "news.filler.which_broomstick.16",
+    "from": 1993,
+    "to": 1999,
+    "source": "canon",
+    "notes": "Twigger 90 (Flyte and Barker, 1990): warps at high speed, warning whistle, self-straightening brush [QTTA 9]."
+  },
+  {
+    "key": "news.filler.which_broomstick.17",
+    "from": 1993,
+    "source": "canon",
+    "notes": "Broomstick Servicing Kit: handle polish, tail-twig clippers, brass compass for long journeys [PoA 1]."
+  },
+  {
+    "key": "news.filler.which_broomstick.18",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Storage tip."
+  },
+  {
+    "key": "news.filler.which_broomstick.19",
+    "from": 1993,
+    "source": "filler",
+    "notes": "[FILLER] Budget-broom test; professional brooms must withstand Bludgers [PM-2014], so only cheap models fail."
+  },
+  {
+    "key": "news.filler.which_broomstick.20",
+    "from": 1993,
+    "source": "canon",
+    "notes": "Cleansweep-Comet rivalry; Comet 140 (1929) introduced the Horton-Keitch Braking Charm [QTTA 9]."
+  },
+  {
+    "key": "news.filler.which_broomstick.21",
+    "from": 1993,
+    "to": 1997,
+    "source": "canon+filler",
+    "notes": "Cleansweep Seven flown by most of Ravenclaw in 1993-94 [PoA]; the verdict is [FILLER]."
+  },
+  {
+    "key": "news.filler.which_broomstick.22",
+    "from": 2014,
+    "to": 2014,
+    "months": [
+      6,
+      7
+    ],
+    "source": "canon",
+    "notes": "2014 World Cup brooms: Firebolt Supreme, Thunderbolt VII, Varápidos, Starsweeper XXI [PM-2014]."
+  },
+  {
+    "key": "news.filler.which_broomstick.23",
+    "from": 2014,
+    "to": 2014,
+    "months": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "canon",
+    "notes": "Thunderbolt VII 'sacrificed safety for speed': a Bludger tore off its tail; official investigation [PM-2014]."
+  },
+  {
+    "key": "news.filler.which_broomstick.24",
+    "from": 2014,
+    "to": 2014,
+    "months": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "canon+filler",
+    "notes": "The Yajirushi debuted with Japan at the 2014 World Cup [PM-2014]; the test is [FILLER]."
+  },
+  {
+    "key": "news.filler.which_broomstick.25",
+    "from": 1996,
+    "to": 2005,
+    "source": "canon+filler",
+    "notes": "Firebolt the fastest broom in the world in the 1990s [PoA, GoF]; the stopwatch test is [FILLER]. Ends before the Firebolt Supreme era."
+  },
+  {
+    "key": "news.filler.which_broomstick.26",
+    "from": 2017,
+    "to": 2017,
+    "source": "canon+filler",
+    "notes": "Nimbus Racing Broom Company founded 1967; the Nimbus 1000 turned on the spot [QTTA 9]. Anniversary piece [FILLER]."
+  },
+  {
+    "key": "news.filler.which_broomstick.27",
+    "from": 1993,
+    "source": "canon+filler",
+    "notes": "Cleansweep Five is canon (Gwendolyn Morgan 1953; the Weasley twins) [QTTA, CS]; the reader's letter is [FILLER]."
+  }
+]

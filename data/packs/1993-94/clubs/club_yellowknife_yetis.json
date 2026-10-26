@@ -1,0 +1,46 @@
+{
+  "id": "club_yellowknife_yetis",
+  "name": "Yellowknife Yetis",
+  "short_name": "Yetis",
+  "city": "Yellowknife, Canadá",
+  "country_id": "can",
+  "region_id": "canada",
+  "founded": 1938,
+  "colors": {
+    "primary": "#ECEFF1",
+    "secondary": "#1565C0"
+  },
+  "emblem_key": "giant",
+  "emblem_desc": "a white yeti in the snow",
+  "identity": {
+    "style_tags": [
+      "resilient"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_canada_league",
+  "level": 2,
+  "reputation": 4200,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

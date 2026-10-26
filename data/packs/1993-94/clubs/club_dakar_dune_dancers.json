@@ -1,0 +1,49 @@
+{
+  "id": "club_dakar_dune_dancers",
+  "name": "Dakar Dune-Dancers",
+  "short_name": "Dune-Dancers",
+  "city": "Dakar, Senegal",
+  "country_id": "sen",
+  "region_id": "africa",
+  "founded": 1912,
+  "colors": {
+    "primary": "#E65100",
+    "secondary": "#FFF3E0"
+  },
+  "emblem_key": "sunray",
+  "emblem_desc": "a dancer swirling over sand dunes under the sun",
+  "identity": {
+    "style_tags": [
+      "flamboyant"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_abidjan_antelopes"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_africa_league",
+  "level": 1,
+  "reputation": 7420,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 6,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Abidjan Antelopes [FILLER]: invented for the game (the two French-speaking clubs of the West African coast)."
+}

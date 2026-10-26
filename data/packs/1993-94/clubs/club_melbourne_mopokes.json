@@ -1,0 +1,49 @@
+{
+  "id": "club_melbourne_mopokes",
+  "name": "Melbourne Mopokes",
+  "short_name": "Mopokes",
+  "city": "Melbourne, Australia",
+  "country_id": "aus",
+  "region_id": "oceania",
+  "founded": 1884,
+  "colors": {
+    "primary": "#212121",
+    "secondary": "#FFD54F"
+  },
+  "emblem_key": "harrier_hawk",
+  "emblem_desc": "a boobook owl",
+  "identity": {
+    "style_tags": [
+      "defensive"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_sydney_sundowners"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_oceania_league",
+  "level": 2,
+  "reputation": 4800,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 5,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Sydney Sundowners [FILLER]: invented for the game (the two great Australian cities)."
+}

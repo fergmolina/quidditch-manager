@@ -1,0 +1,18 @@
+# Quidditch Manager host crontab for the deploy user (installed by deploy/bootstrap.sh, which rewrites the two paths
+# below if APP_DIR / the log directory differ). The box runs on UTC. Logs in /var/log/quidditch-manager (logrotate).
+# Database housekeeping (expired sessions, old login tokens, rate-limit events) runs inside Postgres (pg_cron,
+# 04:45 and 04:50 UTC), not here.
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+MAILTO=""
+
+# Health probe through Caddy on 127.0.0.1: /healthz and the /play/ gate; Telegram after 2 failures in a row.
+*/5 * * * *  /srv/quidditch-manager/deploy/healthcheck.sh >> /var/log/quidditch-manager/healthcheck.log 2>&1
+
+# Nightly backup: pg_dump → QM_DATA_DIR/backups (7 daily + 4 weekly) → rclone sync to Backblaze B2.
+# 05:15 UTC: after the 04:50 prune, before the 05:30 unattended-upgrade reboot window.
+15 5 * * *   /srv/quidditch-manager/deploy/compose.sh run --rm -T backup >> /var/log/quidditch-manager/backup.log 2>&1
+
+# Weekly: dangling images and stopped containers; cap BuildKit's cache (Sunday 06:00 UTC). Tagged images
+# (qm-api:current / qm-api:previous) are never removed by this.
+0 6 * * 0    docker system prune -f >> /var/log/quidditch-manager/prune.log 2>&1 && docker builder prune -f --keep-storage 2g >> /var/log/quidditch-manager/prune.log 2>&1

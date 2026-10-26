@@ -1,0 +1,57 @@
+{
+  "id": "comp_japan_league",
+  "name": "Liga de Japón",
+  "name_en": "Japanese League",
+  "type": "league",
+  "region_id": "japan",
+  "country_ids": [
+    "jpn"
+  ],
+  "level": 2,
+  "format": {
+    "rounds": 2,
+    "table": "points_scored",
+    "tiebreak": [
+      "points_conceded_asc",
+      "snitch_catches_desc"
+    ],
+    "time_cap_minutes": null,
+    "knockout": null
+  },
+  "calendar": {
+    "start_month": 9,
+    "end_month": 6,
+    "match_weekday_pool": [
+      "fri",
+      "sat",
+      "mon"
+    ],
+    "period_years": 1
+  },
+  "club_ids": [
+    "club_toyohashi_tengu",
+    "club_tokio_tatsu",
+    "club_osaka_oni",
+    "club_kioto_kitsune",
+    "club_nagoya_namazu",
+    "club_sapporo_sagi",
+    "club_kobe_kappa",
+    "club_hiroshima_hoo",
+    "club_fukuoka_fujin"
+  ],
+  "filler_clubs": 0,
+  "venues": [
+    "venue.mikawa_coast",
+    "venue.shiga_highlands",
+    "venue.kushiro_marshes",
+    "venue.mount_aso",
+    "venue.yakushima_forests"
+  ],
+  "prizes": {
+    "galleons_champion": 3500,
+    "galleons_per_position_step": 175,
+    "awards": []
+  },
+  "source": "filler",
+  "notes": "Japan 3rd in 2014; Toyohashi the most successful club [QTTA c8], [PM-2014]. Format copied from the British league [FILLER]; venues [FILLER]; prizes [filler]."
+}

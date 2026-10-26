@@ -1,0 +1,49 @@
+{
+  "id": "club_calgary_coyotes",
+  "name": "Calgary Coyotes",
+  "short_name": "Coyotes",
+  "city": "Calgary, Canadá",
+  "country_id": "can",
+  "region_id": "canada",
+  "founded": 1923,
+  "colors": {
+    "primary": "#C62828",
+    "secondary": "#FFCA28"
+  },
+  "emblem_key": "",
+  "emblem_desc": "a howling coyote",
+  "identity": {
+    "style_tags": [
+      "aggressive"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_vancouver_voyageurs"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_canada_league",
+  "level": 2,
+  "reputation": 4320,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 1,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Vancouver Voyageurs [FILLER]: invented for the game (the western derby across the Rockies)."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "club_ouagadougou_owls",
+  "name": "Ouagadougou Owls",
+  "short_name": "Owls",
+  "city": "Uagadugú, Burkina Faso",
+  "country_id": "bfa",
+  "region_id": "africa",
+  "founded": 1926,
+  "colors": {
+    "primary": "#6D4C41",
+    "secondary": "#FFCC80"
+  },
+  "emblem_key": "harrier_hawk",
+  "emblem_desc": "a horned owl",
+  "identity": {
+    "style_tags": [
+      "defensive"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_africa_league",
+  "level": 2,
+  "reputation": 4440,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

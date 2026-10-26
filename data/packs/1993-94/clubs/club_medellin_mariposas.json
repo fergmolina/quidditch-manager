@@ -1,0 +1,49 @@
+{
+  "id": "club_medellin_mariposas",
+  "name": "Medellín Mariposas",
+  "short_name": "Mariposas",
+  "city": "Medellín, Colombia",
+  "country_id": "col",
+  "region_id": "andes",
+  "founded": 1936,
+  "colors": {
+    "primary": "#E91E63",
+    "secondary": "#212121"
+  },
+  "emblem_key": "finch",
+  "emblem_desc": "a giant swallowtail butterfly",
+  "identity": {
+    "style_tags": [
+      "flamboyant"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_bogota_brujas"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_andes_league",
+  "level": 2,
+  "reputation": 4200,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 0,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Bogotá Brujas [FILLER]: invented for the game (the Colombian derby)."
+}

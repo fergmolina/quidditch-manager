@@ -1,0 +1,46 @@
+{
+  "id": "club_halifax_hurricanes",
+  "name": "Halifax Hurricanes",
+  "short_name": "Hurricanes",
+  "city": "Halifax, Canadá",
+  "country_id": "can",
+  "region_id": "canada",
+  "founded": 1905,
+  "colors": {
+    "primary": "#37474F",
+    "secondary": "#4FC3F7"
+  },
+  "emblem_key": "storm",
+  "emblem_desc": "a spiralling hurricane",
+  "identity": {
+    "style_tags": [
+      "physical"
+    ],
+    "motto": "",
+    "rivalries": [],
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_canada_league",
+  "level": 2,
+  "reputation": 4440,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 2,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style."
+}

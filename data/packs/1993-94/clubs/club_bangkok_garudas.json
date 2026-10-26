@@ -1,0 +1,49 @@
+{
+  "id": "club_bangkok_garudas",
+  "name": "Bangkok Garudas",
+  "short_name": "Garudas",
+  "city": "Bangkok, Tailandia",
+  "country_id": "tha",
+  "region_id": "east_asia",
+  "founded": 1910,
+  "colors": {
+    "primary": "#B71C1C",
+    "secondary": "#FFD700"
+  },
+  "emblem_key": "harrier_hawk",
+  "emblem_desc": "Garuda, a golden bird-man with spread wings",
+  "identity": {
+    "style_tags": [
+      "flair"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_chiang_mai_chang_phueak"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_east_asia_league",
+  "level": 2,
+  "reputation": 4680,
+  "finances": {
+    "balance": 6000,
+    "wage_budget_weekly": 250,
+    "transfer_budget": 1500
+  },
+  "facilities": {
+    "training": 3,
+    "medical": 2,
+    "broom_workshop": 1
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 4,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Chiang Mai Chang Phueak [FILLER]: invented for the game (the Thai derby)."
+}

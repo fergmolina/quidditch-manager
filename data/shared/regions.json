@@ -1,0 +1,718 @@
+{
+  "regions": [
+    {
+      "id": "british_isles",
+      "name_es": "Islas Británicas",
+      "name_en": "British Isles",
+      "school_id": "school_hogwarts",
+      "names_file": "british_isles",
+      "league_id": "comp_british_irish_league",
+      "countries": [
+        {
+          "id": "eng",
+          "name_es": "Inglaterra",
+          "name_en": "England",
+          "demonym_es": "inglés",
+          "demonym_en": "English"
+        },
+        {
+          "id": "sco",
+          "name_es": "Escocia",
+          "name_en": "Scotland",
+          "demonym_es": "escocés",
+          "demonym_en": "Scottish"
+        },
+        {
+          "id": "wal",
+          "name_es": "Gales",
+          "name_en": "Wales",
+          "demonym_es": "galés",
+          "demonym_en": "Welsh"
+        },
+        {
+          "id": "nir",
+          "name_es": "Irlanda del Norte",
+          "name_en": "Northern Ireland",
+          "demonym_es": "norirlandés",
+          "demonym_en": "Northern Irish"
+        },
+        {
+          "id": "irl",
+          "name_es": "Irlanda",
+          "name_en": "Ireland",
+          "demonym_es": "irlandés",
+          "demonym_en": "Irish"
+        }
+      ]
+    },
+    {
+      "id": "eastern_europe",
+      "name_es": "Europa del Este",
+      "name_en": "Eastern Europe",
+      "school_id": "school_durmstrang",
+      "names_file": "eastern_europe",
+      "league_id": "comp_eastern_europe_league",
+      "countries": [
+        {
+          "id": "bul",
+          "name_es": "Bulgaria",
+          "name_en": "Bulgaria",
+          "demonym_es": "búlgaro",
+          "demonym_en": "Bulgarian"
+        },
+        {
+          "id": "pol",
+          "name_es": "Polonia",
+          "name_en": "Poland",
+          "demonym_es": "polaco",
+          "demonym_en": "Polish"
+        },
+        {
+          "id": "ltu",
+          "name_es": "Lituania",
+          "name_en": "Lithuania",
+          "demonym_es": "lituano",
+          "demonym_en": "Lithuanian"
+        },
+        {
+          "id": "rou",
+          "name_es": "Rumania",
+          "name_en": "Romania",
+          "demonym_es": "rumano",
+          "demonym_en": "Romanian"
+        },
+        {
+          "id": "mda",
+          "name_es": "Moldavia",
+          "name_en": "Moldova",
+          "demonym_es": "moldavo",
+          "demonym_en": "Moldovan"
+        },
+        {
+          "id": "tra",
+          "name_es": "Transilvania",
+          "name_en": "Transylvania",
+          "demonym_es": "transilvano",
+          "demonym_en": "Transylvanian"
+        },
+        {
+          "id": "rus",
+          "name_es": "Rusia",
+          "name_en": "Russia",
+          "demonym_es": "ruso",
+          "demonym_en": "Russian"
+        }
+      ]
+    },
+    {
+      "id": "france",
+      "name_es": "Francia",
+      "name_en": "France",
+      "school_id": "school_beauxbatons",
+      "names_file": "france",
+      "league_id": "comp_france_league",
+      "countries": [
+        {
+          "id": "fra",
+          "name_es": "Francia",
+          "name_en": "France",
+          "demonym_es": "francés",
+          "demonym_en": "French"
+        }
+      ]
+    },
+    {
+      "id": "germany",
+      "name_es": "Alemania y los Alpes",
+      "name_en": "Germany and the Alps",
+      "school_id": "school_durmstrang",
+      "names_file": "germany",
+      "league_id": "comp_germany_league",
+      "countries": [
+        {
+          "id": "deu",
+          "name_es": "Alemania",
+          "name_en": "Germany",
+          "demonym_es": "alemán",
+          "demonym_en": "German"
+        },
+        {
+          "id": "aut",
+          "name_es": "Austria",
+          "name_en": "Austria",
+          "demonym_es": "austríaco",
+          "demonym_en": "Austrian"
+        },
+        {
+          "id": "che",
+          "name_es": "Suiza",
+          "name_en": "Switzerland",
+          "demonym_es": "suizo",
+          "demonym_en": "Swiss"
+        },
+        {
+          "id": "lie",
+          "name_es": "Liechtenstein",
+          "name_en": "Liechtenstein",
+          "demonym_es": "liechtensteiniano",
+          "demonym_en": "Liechtensteiner"
+        }
+      ]
+    },
+    {
+      "id": "iberia_lux",
+      "name_es": "Iberia y Luxemburgo",
+      "name_en": "Iberia and Luxembourg",
+      "school_id": "school_beauxbatons",
+      "names_file": "iberia_lux",
+      "league_id": "comp_iberia_lux_league",
+      "countries": [
+        {
+          "id": "prt",
+          "name_es": "Portugal",
+          "name_en": "Portugal",
+          "demonym_es": "portugués",
+          "demonym_en": "Portuguese"
+        },
+        {
+          "id": "esp",
+          "name_es": "España",
+          "name_en": "Spain",
+          "demonym_es": "español",
+          "demonym_en": "Spanish"
+        },
+        {
+          "id": "lux",
+          "name_es": "Luxemburgo",
+          "name_en": "Luxembourg",
+          "demonym_es": "luxemburgués",
+          "demonym_en": "Luxembourgish"
+        }
+      ]
+    },
+    {
+      "id": "nordic",
+      "name_es": "Países Nórdicos",
+      "name_en": "Nordic Countries",
+      "school_id": "school_durmstrang",
+      "names_file": "nordic",
+      "league_id": "comp_nordic_league",
+      "countries": [
+        {
+          "id": "nor",
+          "name_es": "Noruega",
+          "name_en": "Norway",
+          "demonym_es": "noruego",
+          "demonym_en": "Norwegian"
+        },
+        {
+          "id": "swe",
+          "name_es": "Suecia",
+          "name_en": "Sweden",
+          "demonym_es": "sueco",
+          "demonym_en": "Swedish"
+        },
+        {
+          "id": "dnk",
+          "name_es": "Dinamarca",
+          "name_en": "Denmark",
+          "demonym_es": "danés",
+          "demonym_en": "Danish"
+        },
+        {
+          "id": "fin",
+          "name_es": "Finlandia",
+          "name_en": "Finland",
+          "demonym_es": "finlandés",
+          "demonym_en": "Finnish"
+        },
+        {
+          "id": "isl",
+          "name_es": "Islandia",
+          "name_en": "Iceland",
+          "demonym_es": "islandés",
+          "demonym_en": "Icelandic"
+        }
+      ]
+    },
+    {
+      "id": "usa",
+      "name_es": "Estados Unidos",
+      "name_en": "United States",
+      "school_id": "school_ilvermorny",
+      "names_file": "usa",
+      "league_id": "comp_usa_league",
+      "countries": [
+        {
+          "id": "usa",
+          "name_es": "Estados Unidos",
+          "name_en": "United States",
+          "demonym_es": "estadounidense",
+          "demonym_en": "American"
+        }
+      ]
+    },
+    {
+      "id": "canada",
+      "name_es": "Canadá",
+      "name_en": "Canada",
+      "school_id": "school_ilvermorny",
+      "names_file": "canada",
+      "league_id": "comp_canada_league",
+      "countries": [
+        {
+          "id": "can",
+          "name_es": "Canadá",
+          "name_en": "Canada",
+          "demonym_es": "canadiense",
+          "demonym_en": "Canadian"
+        }
+      ]
+    },
+    {
+      "id": "argentina",
+      "name_es": "Argentina y el Río de la Plata",
+      "name_en": "Argentina and the River Plate",
+      "school_id": "school_castelobruxo",
+      "names_file": "argentina",
+      "league_id": "comp_argentina_league",
+      "countries": [
+        {
+          "id": "arg",
+          "name_es": "Argentina",
+          "name_en": "Argentina",
+          "demonym_es": "argentino",
+          "demonym_en": "Argentine"
+        },
+        {
+          "id": "ury",
+          "name_es": "Uruguay",
+          "name_en": "Uruguay",
+          "demonym_es": "uruguayo",
+          "demonym_en": "Uruguayan"
+        },
+        {
+          "id": "pry",
+          "name_es": "Paraguay",
+          "name_en": "Paraguay",
+          "demonym_es": "paraguayo",
+          "demonym_en": "Paraguayan"
+        }
+      ]
+    },
+    {
+      "id": "brazil",
+      "name_es": "Brasil",
+      "name_en": "Brazil",
+      "school_id": "school_castelobruxo",
+      "names_file": "brazil",
+      "league_id": "comp_brazil_league",
+      "countries": [
+        {
+          "id": "bra",
+          "name_es": "Brasil",
+          "name_en": "Brazil",
+          "demonym_es": "brasileño",
+          "demonym_en": "Brazilian"
+        }
+      ]
+    },
+    {
+      "id": "andes",
+      "name_es": "Región Andina",
+      "name_en": "Andean Region",
+      "school_id": "school_castelobruxo",
+      "names_file": "andes",
+      "league_id": "comp_andes_league",
+      "countries": [
+        {
+          "id": "per",
+          "name_es": "Perú",
+          "name_en": "Peru",
+          "demonym_es": "peruano",
+          "demonym_en": "Peruvian"
+        },
+        {
+          "id": "chl",
+          "name_es": "Chile",
+          "name_en": "Chile",
+          "demonym_es": "chileno",
+          "demonym_en": "Chilean"
+        },
+        {
+          "id": "bol",
+          "name_es": "Bolivia",
+          "name_en": "Bolivia",
+          "demonym_es": "boliviano",
+          "demonym_en": "Bolivian"
+        },
+        {
+          "id": "ecu",
+          "name_es": "Ecuador",
+          "name_en": "Ecuador",
+          "demonym_es": "ecuatoriano",
+          "demonym_en": "Ecuadorian"
+        },
+        {
+          "id": "col",
+          "name_es": "Colombia",
+          "name_en": "Colombia",
+          "demonym_es": "colombiano",
+          "demonym_en": "Colombian"
+        }
+      ]
+    },
+    {
+      "id": "mexico_caribbean",
+      "name_es": "México y el Caribe",
+      "name_en": "Mexico and the Caribbean",
+      "school_id": "school_castelobruxo",
+      "names_file": "mexico_caribbean",
+      "league_id": "comp_mexico_caribbean_league",
+      "countries": [
+        {
+          "id": "mex",
+          "name_es": "México",
+          "name_en": "Mexico",
+          "demonym_es": "mexicano",
+          "demonym_en": "Mexican"
+        },
+        {
+          "id": "hti",
+          "name_es": "Haití",
+          "name_en": "Haiti",
+          "demonym_es": "haitiano",
+          "demonym_en": "Haitian"
+        },
+        {
+          "id": "jam",
+          "name_es": "Jamaica",
+          "name_en": "Jamaica",
+          "demonym_es": "jamaiquino",
+          "demonym_en": "Jamaican"
+        },
+        {
+          "id": "cub",
+          "name_es": "Cuba",
+          "name_en": "Cuba",
+          "demonym_es": "cubano",
+          "demonym_en": "Cuban"
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "name_es": "África",
+      "name_en": "Africa",
+      "school_id": "school_uagadou",
+      "names_file": "africa",
+      "league_id": "comp_africa_league",
+      "countries": [
+        {
+          "id": "uga",
+          "name_es": "Uganda",
+          "name_en": "Uganda",
+          "demonym_es": "ugandés",
+          "demonym_en": "Ugandan"
+        },
+        {
+          "id": "tgo",
+          "name_es": "Togo",
+          "name_en": "Togo",
+          "demonym_es": "togolés",
+          "demonym_en": "Togolese"
+        },
+        {
+          "id": "eth",
+          "name_es": "Etiopía",
+          "name_en": "Ethiopia",
+          "demonym_es": "etíope",
+          "demonym_en": "Ethiopian"
+        },
+        {
+          "id": "tza",
+          "name_es": "Tanzania",
+          "name_en": "Tanzania",
+          "demonym_es": "tanzano",
+          "demonym_en": "Tanzanian"
+        },
+        {
+          "id": "nga",
+          "name_es": "Nigeria",
+          "name_en": "Nigeria",
+          "demonym_es": "nigeriano",
+          "demonym_en": "Nigerian"
+        },
+        {
+          "id": "mwi",
+          "name_es": "Malaui",
+          "name_en": "Malawi",
+          "demonym_es": "malauí",
+          "demonym_en": "Malawian"
+        },
+        {
+          "id": "sen",
+          "name_es": "Senegal",
+          "name_en": "Senegal",
+          "demonym_es": "senegalés",
+          "demonym_en": "Senegalese"
+        },
+        {
+          "id": "egy",
+          "name_es": "Egipto",
+          "name_en": "Egypt",
+          "demonym_es": "egipcio",
+          "demonym_en": "Egyptian"
+        },
+        {
+          "id": "bfa",
+          "name_es": "Burkina Faso",
+          "name_en": "Burkina Faso",
+          "demonym_es": "burkinés",
+          "demonym_en": "Burkinabé"
+        },
+        {
+          "id": "civ",
+          "name_es": "Costa de Marfil",
+          "name_en": "Ivory Coast",
+          "demonym_es": "marfileño",
+          "demonym_en": "Ivorian"
+        },
+        {
+          "id": "tcd",
+          "name_es": "Chad",
+          "name_en": "Chad",
+          "demonym_es": "chadiano",
+          "demonym_en": "Chadian"
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "name_es": "Japón",
+      "name_en": "Japan",
+      "school_id": "school_mahoutokoro",
+      "names_file": "japan",
+      "league_id": "comp_japan_league",
+      "countries": [
+        {
+          "id": "jpn",
+          "name_es": "Japón",
+          "name_en": "Japan",
+          "demonym_es": "japonés",
+          "demonym_en": "Japanese"
+        }
+      ]
+    },
+    {
+      "id": "oceania",
+      "name_es": "Oceanía",
+      "name_en": "Oceania",
+      "school_id": "school_wollemi",
+      "names_file": "oceania",
+      "league_id": "comp_oceania_league",
+      "countries": [
+        {
+          "id": "aus",
+          "name_es": "Australia",
+          "name_en": "Australia",
+          "demonym_es": "australiano",
+          "demonym_en": "Australian"
+        },
+        {
+          "id": "nzl",
+          "name_es": "Nueva Zelanda",
+          "name_en": "New Zealand",
+          "demonym_es": "neozelandés",
+          "demonym_en": "New Zealander"
+        },
+        {
+          "id": "fji",
+          "name_es": "Fiyi",
+          "name_en": "Fiji",
+          "demonym_es": "fiyiano",
+          "demonym_en": "Fijian"
+        }
+      ]
+    },
+    {
+      "id": "middle_east",
+      "name_es": "Oriente Medio",
+      "name_en": "Middle East",
+      "school_id": "school_kapadokya",
+      "names_file": "middle_east",
+      "league_id": null,
+      "countries": [
+        {
+          "id": "syr",
+          "name_es": "Siria",
+          "name_en": "Syria",
+          "demonym_es": "sirio",
+          "demonym_en": "Syrian"
+        },
+        {
+          "id": "tur",
+          "name_es": "Turquía",
+          "name_en": "Turkey",
+          "demonym_es": "turco",
+          "demonym_en": "Turkish"
+        }
+      ]
+    },
+    {
+      "id": "south_asia",
+      "name_es": "Asia del Sur",
+      "name_en": "South Asia",
+      "school_id": "school_nilgiri",
+      "names_file": "south_asia",
+      "league_id": "comp_india_league",
+      "countries": [
+        {
+          "id": "ind",
+          "name_es": "India",
+          "name_en": "India",
+          "demonym_es": "indio",
+          "demonym_en": "Indian"
+        }
+      ]
+    },
+    {
+      "id": "east_asia",
+      "name_es": "Asia Oriental",
+      "name_en": "East Asia",
+      "school_id": "school_mahoutokoro",
+      "names_file": "east_asia",
+      "league_id": "comp_east_asia_league",
+      "countries": [
+        {
+          "id": "chn",
+          "name_es": "China",
+          "name_en": "China",
+          "demonym_es": "chino",
+          "demonym_en": "Chinese"
+        },
+        {
+          "id": "kor",
+          "name_es": "Corea del Sur",
+          "name_en": "South Korea",
+          "demonym_es": "surcoreano",
+          "demonym_en": "South Korean"
+        },
+        {
+          "id": "tha",
+          "name_es": "Tailandia",
+          "name_en": "Thailand",
+          "demonym_es": "tailandés",
+          "demonym_en": "Thai"
+        }
+      ]
+    },
+    {
+      "id": "italy",
+      "name_es": "Italia",
+      "name_en": "Italy",
+      "school_id": "school_beauxbatons",
+      "names_file": "italy",
+      "league_id": "comp_italy_league",
+      "countries": [
+        {
+          "id": "ita",
+          "name_es": "Italia",
+          "name_en": "Italy",
+          "demonym_es": "italiano",
+          "demonym_en": "Italian"
+        }
+      ]
+    },
+    {
+      "id": "low_countries",
+      "name_es": "Países Bajos y Flandes",
+      "name_en": "Low Countries",
+      "school_id": "school_beauxbatons",
+      "names_file": "low_countries",
+      "league_id": "comp_low_countries_league",
+      "countries": [
+        {
+          "id": "fla",
+          "name_es": "Flandes",
+          "name_en": "Flanders",
+          "demonym_es": "flamenco",
+          "demonym_en": "Flemish"
+        },
+        {
+          "id": "nld",
+          "name_es": "Países Bajos",
+          "name_en": "Netherlands",
+          "demonym_es": "neerlandés",
+          "demonym_en": "Dutch"
+        }
+      ]
+    },
+    {
+      "id": "maghreb",
+      "name_es": "Magreb",
+      "name_en": "Maghreb",
+      "school_id": "school_uagadou",
+      "names_file": "maghreb",
+      "league_id": null,
+      "countries": [
+        {
+          "id": "mar",
+          "name_es": "Marruecos",
+          "name_en": "Morocco",
+          "demonym_es": "marroquí",
+          "demonym_en": "Moroccan"
+        }
+      ]
+    },
+    {
+      "id": "indian_ocean",
+      "name_es": "Océano Índico",
+      "name_en": "Indian Ocean",
+      "school_id": "school_uagadou",
+      "names_file": "indian_ocean",
+      "league_id": null,
+      "countries": [
+        {
+          "id": "mdg",
+          "name_es": "Madagascar",
+          "name_en": "Madagascar",
+          "demonym_es": "malgache",
+          "demonym_en": "Malagasy"
+        }
+      ]
+    },
+    {
+      "id": "central_europe",
+      "name_es": "Europa Central",
+      "name_en": "Central Europe",
+      "school_id": "school_durmstrang",
+      "names_file": "central_europe",
+      "league_id": "comp_central_europe_league",
+      "countries": [
+        {
+          "id": "cze",
+          "name_es": "Chequia",
+          "name_en": "Czech Republic",
+          "demonym_es": "checo",
+          "demonym_en": "Czech"
+        },
+        {
+          "id": "svk",
+          "name_es": "Eslovaquia",
+          "name_en": "Slovakia",
+          "demonym_es": "eslovaco",
+          "demonym_en": "Slovak"
+        },
+        {
+          "id": "hun",
+          "name_es": "Hungría",
+          "name_en": "Hungary",
+          "demonym_es": "húngaro",
+          "demonym_en": "Hungarian"
+        }
+      ]
+    }
+  ],
+  "notes": "Regions = leagues from docs/design/07 §5.2 plus regions without a league so that every canon national team has a country [FILLER]. Transylvania, Flanders and New Spain are treated as countries in their own right because canon presents them as national teams. school_id: Hogwarts (British Isles), Beauxbatons (France, Iberia, Italy, Flanders [inferred]), Durmstrang (Eastern Europe, Germany, Nordics [inferred: GoF suggests a northern/eastern school]), Ilvermorny (USA, Canada), Castelobruxo (all of Latin America [inferred]), Uagadou (Africa, Maghreb, Madagascar [inferred]), Mahoutokoro (Japan, China [inferred]); Oceania, Middle East and South Asia have no known canon school: null. Koldovstoretz is not used (there is no Russian region in v1)."
+}

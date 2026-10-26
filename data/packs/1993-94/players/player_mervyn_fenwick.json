@@ -1,0 +1,93 @@
+{
+  "id": "player_mervyn_fenwick",
+  "first_name": "Mervyn",
+  "last_name": "Fenwick",
+  "gender": "m",
+  "nationality_ids": [
+    "eng"
+  ],
+  "birth_date": "1965-06-01",
+  "birth_date_estimated": true,
+  "main_position": "K",
+  "positions": {
+    "K": 20,
+    "C": 6,
+    "B": 5,
+    "S": 4
+  },
+  "attributes": {
+    "flying": {
+      "speed": 10,
+      "acceleration": 10,
+      "agility": 13,
+      "broom_control": 10,
+      "balance": 10,
+      "altitude": 14,
+      "dive": 10
+    },
+    "technical": {
+      "passing": 12,
+      "catching": 11,
+      "shooting": 6,
+      "dodging": 6,
+      "stealing": 6,
+      "interception": 10,
+      "keeping": 16,
+      "beating": 6,
+      "beat_accuracy": 6,
+      "snitch_catching": 6
+    },
+    "mental": {
+      "aggression": 10,
+      "anticipation": 15,
+      "bravery": 14,
+      "composure": 10,
+      "concentration": 5,
+      "creativity": 10,
+      "decisions": 10,
+      "determination": 10,
+      "flair": 10,
+      "influence": 11,
+      "off_ball": 10,
+      "positioning": 15,
+      "teamwork": 10,
+      "work_rate": 10
+    },
+    "physical": {
+      "stamina": 11,
+      "strength": 12,
+      "natural_fitness": 11,
+      "reflexes": 17,
+      "eyesight": 11
+    }
+  },
+  "hidden": {
+    "consistency": 6,
+    "big_matches": 10,
+    "injury_proneness": 11,
+    "dirtiness": 10,
+    "versatility": 10,
+    "adaptability": 10,
+    "ambition": 10,
+    "controversy": 10,
+    "loyalty": 10,
+    "pressure": 12,
+    "professionalism": 12,
+    "sportsmanship": 10,
+    "temperament": 10
+  },
+  "ca": 132,
+  "pa": 135,
+  "club_id": "club_tutshill_tornados",
+  "squad": "first",
+  "is_captain": false,
+  "broom": {
+    "model_id": "broom_nimbus_1500",
+    "condition": 100
+  },
+  "traits_text_keys": [
+    "trait.narcolepsy"
+  ],
+  "source": "canon_dp",
+  "notes": "Tornados Keeper with narcolepsy: falls asleep during matches (very low concentration, high reflexes) [DP]. Estimated birth date. Attributes, CA/PA and broom [inferred]."
+}

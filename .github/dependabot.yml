@@ -1,0 +1,33 @@
+# Dependency updates (web accounts design §9.6). Weekly, grouped so a week's minor/patch bumps arrive as one PR
+# per ecosystem. Actions are pinned by commit SHA with a `# vX.Y.Z` comment; Dependabot updates both.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /server
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      server-minor-and-patch:
+        update-types: [minor, patch]
+    ignore:
+      # The server targets Node 24 (engines, Dockerfile); move @types/node to a new major by hand with the runtime.
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]
+
+  # Base image of server/Dockerfile (node:24-bookworm-slim). Majors are a deliberate runtime change.
+  - package-ecosystem: docker
+    directory: /server
+    schedule:
+      interval: weekly
+    ignore:
+      - dependency-name: node
+        update-types: ["version-update:semver-major"]

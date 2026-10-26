@@ -1,0 +1,49 @@
+{
+  "id": "club_sankt_peterburg_sirini",
+  "name": "Sankt-Peterburg Sirini",
+  "short_name": "Sirini",
+  "city": "San Petersburgo, Rusia",
+  "country_id": "rus",
+  "region_id": "eastern_europe",
+  "founded": 1881,
+  "colors": {
+    "primary": "#0D47A1",
+    "secondary": "#FFFFFF"
+  },
+  "emblem_key": "harrier_hawk",
+  "emblem_desc": "Sirin, a mythical bird with a woman's head",
+  "identity": {
+    "style_tags": [
+      "flair"
+    ],
+    "motto": "",
+    "rivalries": [
+      "club_moskva_medvedi"
+    ],
+    "rivalries_source": "filler",
+    "fan_traits": [],
+    "mascot": ""
+  },
+  "league_id": "comp_eastern_europe_league",
+  "level": 1,
+  "reputation": 7180,
+  "finances": {
+    "balance": 12000,
+    "wage_budget_weekly": 400,
+    "transfer_budget": 3000
+  },
+  "facilities": {
+    "training": 4,
+    "medical": 3,
+    "broom_workshop": 2
+  },
+  "constraints": {},
+  "manager_name": "",
+  "history": {
+    "league_titles": 4,
+    "european_cups": 0,
+    "notes_keys": []
+  },
+  "source": "filler_authored",
+  "notes": "[FILLER] Club designed for the game (the books do not name it): name, city, colors, figure, founding year, titles and style. Rivalry with Moskva Medvedi [FILLER]: invented for the game (the Russian derby, the two old capitals)."
+}

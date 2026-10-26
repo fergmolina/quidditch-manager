@@ -1,0 +1,93 @@
+{
+  "id": "player_dragomir_gorgovitch",
+  "first_name": "Dragomir",
+  "last_name": "Gorgovitch",
+  "gender": "m",
+  "nationality_ids": [
+    "eng"
+  ],
+  "birth_date": "1973-11-01",
+  "birth_date_estimated": true,
+  "main_position": "C",
+  "positions": {
+    "K": 4,
+    "C": 20,
+    "B": 5,
+    "S": 4
+  },
+  "attributes": {
+    "flying": {
+      "speed": 12,
+      "acceleration": 10,
+      "agility": 10,
+      "broom_control": 10,
+      "balance": 10,
+      "altitude": 10,
+      "dive": 10
+    },
+    "technical": {
+      "passing": 10,
+      "catching": 4,
+      "shooting": 11,
+      "dodging": 11,
+      "stealing": 9,
+      "interception": 10,
+      "keeping": 6,
+      "beating": 6,
+      "beat_accuracy": 6,
+      "snitch_catching": 6
+    },
+    "mental": {
+      "aggression": 10,
+      "anticipation": 10,
+      "bravery": 10,
+      "composure": 6,
+      "concentration": 10,
+      "creativity": 9,
+      "decisions": 10,
+      "determination": 10,
+      "flair": 10,
+      "influence": 10,
+      "off_ball": 11,
+      "positioning": 10,
+      "teamwork": 10,
+      "work_rate": 10
+    },
+    "physical": {
+      "stamina": 12,
+      "strength": 11,
+      "natural_fitness": 11,
+      "reflexes": 11,
+      "eyesight": 11
+    }
+  },
+  "hidden": {
+    "consistency": 5,
+    "big_matches": 10,
+    "injury_proneness": 10,
+    "dirtiness": 10,
+    "versatility": 10,
+    "adaptability": 10,
+    "ambition": 10,
+    "controversy": 10,
+    "loyalty": 12,
+    "pressure": 5,
+    "professionalism": 10,
+    "sportsmanship": 10,
+    "temperament": 10
+  },
+  "ca": 96,
+  "pa": 108,
+  "club_id": "club_chudley_cannons",
+  "squad": "reserve",
+  "is_captain": false,
+  "broom": {
+    "model_id": "broom_shooting_star",
+    "condition": 100
+  },
+  "traits_text_keys": [
+    "trait.quaffle_drops_record"
+  ],
+  "source": "canon_book",
+  "notes": "Record for 'quaffle drops' in a season (Ron, DH 7, around 1997). In 1993-94, a youth reserve player whose butterfingers already show. Nationality inferred. Estimated birth date. Attributes, CA/PA and broom [inferred]."
+}

@@ -1,0 +1,47 @@
+{
+ "_comment": "Kapadokya: invented houses [FILLER] (regional folklore); filler students.",
+ "school_id": "school_kapadokya",
+ "source": "filler",
+ "house_colors": {
+  "Zumruduanka": {
+   "primary": "#00695C",
+   "secondary": "#FFD54F"
+  },
+  "Sahmeran": {
+   "primary": "#F4B400",
+   "secondary": "#3E2723"
+  },
+  "Tepegoz": {
+   "primary": "#455A64",
+   "secondary": "#E53935"
+  },
+  "Ejder": {
+   "primary": "#8E1B1B",
+   "secondary": "#ECEFF1"
+  }
+ },
+ "house_info": {
+  "Zumruduanka": {
+   "emblem_desc": "a giant emerald bird with a long sweeping tail",
+   "inspiration": "Zümrüdüanka: giant emerald bird of Turkish tales (the Persian Simurgh).",
+   "source": "filler"
+  },
+  "Sahmeran": {
+   "emblem_desc": "a crowned serpent queen, half woman and half snake",
+   "inspiration": "Şahmeran: queen of the serpents, Anatolian legend.",
+   "source": "filler"
+  },
+  "Tepegoz": {
+   "emblem_desc": "a one-eyed giant's head",
+   "inspiration": "Tepegöz: the one-eyed giant of the Book of Dede Korkut.",
+   "source": "filler"
+  },
+  "Ejder": {
+   "emblem_desc": "a winged dragon breathing fire over rock chimneys",
+   "inspiration": "Ejder: dragon of Turkish tales; the fairy chimneys of Cappadocia.",
+   "source": "filler"
+  }
+ },
+ "venue": "Campo de Quidditch de Kapadokya",
+ "students": []
+}
