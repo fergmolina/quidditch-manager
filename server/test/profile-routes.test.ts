@@ -3,7 +3,7 @@ import { test } from "node:test";
 import { createApp } from "../src/app.js";
 import { sha256Hex } from "../src/auth/tokens.js";
 import { PAGE_CSP } from "../src/http/security.js";
-import { fakeDb, SAME_ORIGIN, testDeps, type Statement } from "./helpers.js";
+import { captureNotifier, fakeDb, SAME_ORIGIN, testDeps, type Statement } from "./helpers.js";
 
 const FORM = { "Content-Type": "application/x-www-form-urlencoded" };
 const form = (o: Record<string, string>) => new URLSearchParams(o).toString();
@@ -36,13 +36,15 @@ function userRow(over: Record<string, unknown> = {}): Record<string, unknown> {
     must_rename: false,
     is_admin: false,
     blocked_at: null,
+    approved_at: new Date("2026-01-02T00:00:00Z"),
+    approved_by: null,
     created_at: new Date("2026-01-02T00:00:00Z"),
     last_login_at: new Date(now),
     ...over,
   };
 }
 
-const INCOMPLETE = { username: null, first_name: null, last_name: null, country_code: null, region_code: null, city_geonameid: null, city_name: null, city_lat: null, city_lon: null, terms_version: null, terms_accepted_at: null };
+const INCOMPLETE = { username: null, first_name: null, last_name: null, country_code: null, region_code: null, city_geonameid: null, city_name: null, city_lat: null, city_lon: null, terms_version: null, terms_accepted_at: null, approved_at: null };
 
 interface Scenario {
   user?: Record<string, unknown>;
@@ -179,7 +181,8 @@ test("POST /register: every field error re-renders the form (400) with the value
 
 test("POST /register: success stores the profile with city data from GeoNames (not the form) and redirects to next", async () => {
   const db = profileDb({ user: INCOMPLETE });
-  const app = createApp(testDeps({ db }));
+  const notifier = captureNotifier();
+  const app = createApp(testDeps({ db, notifier }));
   const res = await post(app, "/register", { next: "/play/?x=1", username: "NewPlayer", first_name: " José  María ", last_name: "", country: "ar", region: "01", city: "3435910", terms: "yes", city_name: "Hacked", city_lat: "0" });
   assert.equal(res.status, 303, await res.clone().text());
   assert.equal(res.headers.get("location"), "/play/?x=1");
@@ -189,7 +192,56 @@ test("POST /register: success stores the profile with city data from GeoNames (n
   const v = upd.values;
   assert.deepEqual(v.slice(0, 10), [USER_ID, "José María", null, "AR", "07", 3435910, "Buenos Aires", -34.6131, -58.3772, TERMS]);
   assert.equal(v[11], "NewPlayer");
+  assert.match(String(v[12]), /^\d{4}-\d{2}-\d{2}T/, "open access: approved on the spot");
   assert.ok(db.log.some((s) => s.text.startsWith("insert into public.auth_rate_events") && s.values[0] === "profile_write" && s.values[1] === `user:${USER_ID}`));
+  assert.deepEqual(notifier.sent, ["New sign-up: @NewPlayer (AR) — approved (open access)"]);
+  assert.ok(!notifier.sent[0]!.includes("José") && !notifier.sent[0]!.includes("owner@") && !notifier.sent[0]!.includes("Buenos"), "only username and country");
+});
+
+test("ACCESS_MODE=approval: registration leaves approved_at null, alerts the operator, lands on /pending; /pending and /account behave", async () => {
+  const db = profileDb({ user: INCOMPLETE });
+  const notifier = captureNotifier();
+  const app = createApp(testDeps({ db, notifier, config: { accessMode: "approval" } }));
+  const res = await post(app, "/register", { next: "/play/", username: "NewPlayer", country: "FR", terms: "yes" });
+  assert.equal(res.status, 303, await res.clone().text());
+  assert.equal(res.headers.get("location"), "/pending");
+  assert.equal(userUpdates(db)[0]!.values[12], null, "approval mode: nothing approved yet");
+  assert.deepEqual(notifier.sent, ["New sign-up: @NewPlayer (FR) — pending approval: http://localhost:8080/admin/users?view=pending"]);
+
+  const pendingDb = profileDb({ user: { approved_at: null } });
+  const pending = createApp(testDeps({ db: pendingDb, notifier, config: { accessMode: "approval" } }));
+  const pg = await pending.request("/pending", { headers: COOKIE });
+  assert.equal(pg.status, 200);
+  const body = await pg.text();
+  assert.match(body, /web\.pending\.title|waiting for approval/);
+  assert.match(body, /<form method="post" action="\/auth\/logout">/);
+  assert.match(body, /href="\/account"/);
+  assert.doesNotMatch(body, /<script/i);
+  assert.equal((await pending.request("/register", { headers: COOKIE })).headers.get("location"), "/pending", "nothing left to register");
+  assert.equal((await post(pending, "/register", { username: "X" })).headers.get("location"), "/pending");
+  assert.equal(userUpdates(pendingDb).length, 0);
+  const account = await pending.request("/account", { headers: COOKIE });
+  assert.equal(account.status, 200, "a waiting player can still see and edit the account");
+  assert.match(await account.text(), /data-pending/);
+  assert.equal((await post(pending, "/account/profile", { first_name: "", last_name: "", country: "FR" })).status, 303);
+  const login = await (await pending.request("/login", { headers: COOKIE })).text();
+  assert.match(login, /href="\/pending"/);
+  assert.equal(notifier.sent.length, 1, "no alert outside the first registration");
+
+  const approved = createApp(testDeps({ db: profileDb(), config: { accessMode: "approval" } }));
+  assert.equal((await approved.request("/pending", { headers: COOKIE })).headers.get("location"), "/play/");
+  assert.doesNotMatch(await (await approved.request("/account", { headers: COOKIE })).text(), /data-pending/);
+  const open = createApp(testDeps({ db: profileDb({ user: { approved_at: null } }) }));
+  assert.equal((await open.request("/pending", { headers: COOKIE })).headers.get("location"), "/play/", "open access: nothing to wait for");
+  const incomplete = createApp(testDeps({ db: profileDb({ user: INCOMPLETE }), config: { accessMode: "approval" } }));
+  assert.equal((await incomplete.request("/pending", { headers: COOKIE })).headers.get("location"), "/register?next=%2Fplay%2F");
+  const anon = createApp(testDeps({ db: profileDb() }));
+  assert.equal((await anon.request("/pending")).headers.get("location"), "/login?next=%2Fpending");
+
+  const renamed = profileDb({ user: { must_rename: true, approved_at: new Date() } });
+  const renameApp = createApp(testDeps({ db: renamed, notifier, config: { accessMode: "approval" } }));
+  assert.equal((await post(renameApp, "/register", { username: "CleanName", next: "/play/" })).headers.get("location"), "/play/");
+  assert.equal(notifier.sent.length, 1, "a forced rename is not a sign-up");
 });
 
 test("POST /register: the unique index decides (23505 → username_taken, 409); the pre-check catches the common case", async () => {
@@ -338,9 +390,10 @@ test("GET /account/export: a private JSON download with the account, sessions an
   assert.match(res.headers.get("content-disposition") ?? "", /^attachment; filename="quidditch-manager-account-\d{4}-\d{2}-\d{2}\.json"$/);
   assert.equal(res.headers.get("cache-control"), "private, no-store");
   const data = (await res.json()) as any;
-  for (const col of ["id", "email", "username", "first_name", "last_name", "country_code", "region_code", "city_geonameid", "city_name", "city_lat", "city_lon", "terms_version", "terms_accepted_at", "created_at", "last_login_at", "must_rename", "blocked_at"]) {
+  for (const col of ["id", "email", "username", "first_name", "last_name", "country_code", "region_code", "city_geonameid", "city_name", "city_lat", "city_lon", "terms_version", "terms_accepted_at", "created_at", "last_login_at", "must_rename", "blocked_at", "approved_at"]) {
     assert.ok(col in data.account, col);
   }
+  assert.ok(!("approved_by" in data.account), "the approving admin's id is not the player's data");
   assert.equal(data.sessions.length, 1);
   assert.equal(data.sign_in_links.length, 1);
   assert.deepEqual(data.careers, []);

@@ -18,11 +18,11 @@ test("isSafeNextPath: same-site paths only", () => {
 });
 
 test("isAllowedNext / safeNext: prefix allowlist on top of the safe-path rule", () => {
-  for (const p of ["/", "/?lang=es", "/play/", "/play/index.html", "/account", "/account/", "/account?x=1", "/register?next=%2Fplay%2F", "/login?error=link", "/feedback?sent=1"]) {
+  for (const p of ["/", "/?lang=es", "/play/", "/play/index.html", "/account", "/account/", "/account?x=1", "/register?next=%2Fplay%2F", "/login?error=link", "/feedback?sent=1", "/pending"]) {
     assert.equal(isAllowedNext(p), true, p);
     assert.equal(safeNext(p), p);
   }
-  for (const p of ["/play", "/accountx", "/api/me", "/auth/logout", "/static/site.css", "/registerx", "//play/", "/admin"]) {
+  for (const p of ["/play", "/accountx", "/api/me", "/auth/logout", "/static/site.css", "/registerx", "//play/", "/admin", "/admin/users", "/pendingx"]) {
     assert.equal(isAllowedNext(p), false, p);
     assert.equal(safeNext(p), "/play/", p);
   }

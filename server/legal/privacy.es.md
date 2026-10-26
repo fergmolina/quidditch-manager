@@ -20,7 +20,7 @@ Para jugar en el navegador necesitás una cuenta gratuita. Guardamos:
 - **Tu país** y, solo si querés, **tu provincia o región y tu ciudad**, elegidas de una lista pública de lugares. De la ciudad guardamos su nombre, su ID de GeoNames y las coordenadas de la ciudad, nunca tu dirección.
 - **La versión de estos documentos que aceptaste**, y cuándo.
 - **Fechas de la cuenta**: cuándo la creaste y cuándo iniciaste sesión por última vez.
-- **Marcas de moderación**, solo si hace falta: si la cuenta está bloqueada o tiene que elegir un nuevo nombre de usuario.
+- **Marcas de moderación**, solo si hace falta: si la cuenta está bloqueada o tiene que elegir un nuevo nombre de usuario; y si la cuenta fue aprobada para la prueba y cuándo.
 - **Tus sesiones**, una por cada dispositivo donde tenés la sesión iniciada: cuándo empezó, cuándo se usó por última vez, cuándo vence y una descripción aproximada del navegador, como "Firefox · Windows". Las sesiones no guardan tu dirección IP.
 - **Enlaces de inicio de sesión**: tu correo, una huella del enlace (no el enlace en sí), el idioma de la página, la página a la que volver y un hash con clave de tu dirección de red (tu dirección IPv4, o la primera mitad de una dirección IPv6).
 - **Contadores antiabuso**: IDs de cuenta o hashes con clave de direcciones de red, para limitar cuántas solicitudes se pueden hacer.
@@ -55,6 +55,7 @@ Estas empresas tratan datos por cuenta nuestra, solo para hacer funcionar el ser
 - **Resend** (EE. UU.): envía los correos de inicio de sesión. Recibe tu dirección de correo y el mensaje.
 - **Google**: solo si elegís continuar con Google. Tu cuenta de Google se rige por la política de privacidad de Google.
 - **Backblaze, Inc.**: guarda las copias de seguridad de la base de datos en su región europea (Países Bajos).
+- **Telegram Messenger Inc.**: cuando te registrás, el operador recibe un aviso por Telegram con tu nombre de usuario y tu país, y nada más; los dos son públicos en el sitio de todas formas. Los servidores de Telegram pueden estar fuera de la UE.
 
 Cuando los datos van a EE. UU., están protegidos por el Marco de Privacidad de Datos UE-EE. UU. o por las cláusulas contractuales tipo de la Comisión Europea.
 

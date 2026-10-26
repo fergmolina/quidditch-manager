@@ -56,6 +56,8 @@ function feedbackDb(s: Scenario = {}) {
           must_rename: false,
           is_admin: false,
           blocked_at: null,
+          approved_at: new Date("2026-01-02T00:00:00Z"),
+          approved_by: null,
           created_at: new Date("2026-01-02T00:00:00Z"),
           last_login_at: new Date(now),
         },

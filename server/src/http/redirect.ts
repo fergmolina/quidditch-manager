@@ -7,7 +7,7 @@ export function isSafeNextPath(path: unknown): path is string {
   return !/[\\\u0000-\u001f\u007f]/.test(path);
 }
 
-export const NEXT_PREFIXES = ["/play/", "/account", "/register", "/login", "/feedback"] as const;
+export const NEXT_PREFIXES = ["/play/", "/account", "/register", "/login", "/feedback", "/pending"] as const;
 
 function underPrefix(path: string, prefix: string): boolean {
   if (prefix.endsWith("/")) return path.startsWith(prefix);

@@ -160,17 +160,29 @@ function profileParams(userId: string, p: ProfileInput): unknown[] {
   return [userId, p.firstName, p.lastName, p.location.country, p.location.region, city?.id ?? null, city?.name ?? null, city?.lat ?? null, city?.lon ?? null];
 }
 
+/**
+ * `approve`: with open access the completed profile is approved on the spot (approved_at = now), so a later switch to
+ * ACCESS_MODE=approval never locks out people who signed up while access was open. With approval mode the column
+ * stays null and the operator fills it from /admin/users. An approval already granted is kept either way.
+ */
+export interface RegistrationInput extends ProfileInput {
+  termsVersion: string;
+  approve: boolean;
+}
+
 /** First registration: the account has no username yet and gets one together with the profile. */
-export async function registerProfile(db: Db, userId: string, input: ProfileInput & { username: string; termsVersion: string }, nowMs: number): Promise<User> {
+export async function registerProfile(db: Db, userId: string, input: RegistrationInput & { username: string }, nowMs: number): Promise<User> {
+  const now = new Date(nowMs).toISOString();
   const rows = await guarded(() =>
     db.query<UserRow>(
       `update public.users
           set first_name = $2, last_name = $3, country_code = $4, region_code = $5,
               city_geonameid = $6, city_name = $7, city_lat = $8, city_lon = $9,
-              terms_version = $10, terms_accepted_at = $11::timestamptz, username = $12
+              terms_version = $10, terms_accepted_at = $11::timestamptz, username = $12,
+              approved_at = coalesce(approved_at, $13::timestamptz)
         where id = $1::uuid and username is null and blocked_at is null
         returning *`,
-      [...profileParams(userId, input), input.termsVersion, new Date(nowMs).toISOString(), input.username],
+      [...profileParams(userId, input), input.termsVersion, now, input.username, input.approve ? now : null],
     ),
   );
   if (!rows[0]) throw new ProfileWriteError("conflict");
@@ -178,15 +190,17 @@ export async function registerProfile(db: Db, userId: string, input: ProfileInpu
 }
 
 /** An account that has a username but still lacks the rest of the profile fills it in and accepts the terms. */
-export async function completeProfile(db: Db, userId: string, input: ProfileInput & { termsVersion: string }, nowMs: number): Promise<User> {
+export async function completeProfile(db: Db, userId: string, input: RegistrationInput, nowMs: number): Promise<User> {
+  const now = new Date(nowMs).toISOString();
   const rows = await db.query<UserRow>(
     `update public.users
         set first_name = $2, last_name = $3, country_code = $4, region_code = $5,
             city_geonameid = $6, city_name = $7, city_lat = $8, city_lon = $9,
-            terms_version = $10, terms_accepted_at = $11::timestamptz
+            terms_version = $10, terms_accepted_at = $11::timestamptz,
+            approved_at = coalesce(approved_at, $12::timestamptz)
       where id = $1::uuid and username is not null and blocked_at is null
       returning *`,
-    [...profileParams(userId, input), input.termsVersion, new Date(nowMs).toISOString()],
+    [...profileParams(userId, input), input.termsVersion, now, input.approve ? now : null],
   );
   if (!rows[0]) throw new ProfileWriteError("conflict");
   return rowToUser(rows[0]);
@@ -250,6 +264,8 @@ export async function exportUserData(db: Db, userId: string, nowMs: number): Pro
   if (!u) return null;
   const account: Record<string, unknown> = {};
   for (const [k, v] of Object.entries(u)) account[k] = v instanceof Date ? v.toISOString() : v;
+  // The approving admin's account id is another person's data: the export keeps approved_at, not who set it.
+  delete account.approved_by;
   const sessions = await db.query<Record<string, unknown>>(
     `select public_id, created_at, last_seen_at, expires_at, absolute_expires_at, rotated_at, user_agent_family
        from public.sessions where user_id = $1::uuid order by created_at`,

@@ -117,10 +117,12 @@ The gate also sends a player to `/register` when the operator forced a rename or
 | `/account/profile`, `/account/username`, `/account/sessions/revoke` | POST | Edit the profile, change the username (30-day cooldown), revoke one session. |
 | `/account/export` | GET | Everything stored about the user, as JSON (GDPR access and portability). |
 | `/account/delete` | GET, POST | Confirmation page; the POST deletes the user at once (cascade) and that email's sign-in links. |
-| `/api/me` | GET | `{logged_in, username, country, locale, profile_complete}` or 401. Never the email, names, region or city. Renews and rotates the session. |
+| `/api/me` | GET | `{logged_in, username, country, locale, profile_complete, pending}` or 401. Never the email, names, region or city. Renews and rotates the session. `pending` is true for a complete profile that still waits for approval (`ACCESS_MODE=approval`); `profile_complete` is then false, so the game treats it like an unfinished profile. |
+| `/pending` | GET | `ACCESS_MODE=approval` only: "your account is waiting for approval", with sign-out and a link to `/account`. Approved, or open access: 303 to `/play/`. |
+| `/admin/users`, `/admin/users/<approve\|revoke\|block\|unblock>`, `/admin/feedback` | GET, POST | The operator's pages (`is_admin`, set by `deploy/db/make-admin.sh`; anyone else gets the ordinary 404). English only, hardcoded. The list of accounts (waiting or all) with approve/revoke/block/unblock buttons (block also ends the sessions; 60 writes per admin per 15 min), and the last 50 feedback rows. |
 | `/ranking` | GET | The managers' ranking, overall or `?country=XX`; `?view=map` for the countries on the world map (public). |
 | `/api/career/season` | POST | A finished season of a career (JSON, ≤ 4 KB, signed-in and complete profile; same-origin). `{ok, flagged}`, `{ok, duplicate}`, 400, 401, 409 or 429. |
-| `/api/gate` | GET, HEAD | For Caddy `forward_auth`: 200, or 302 to `/login` / `/register`. Never sets cookies. |
+| `/api/gate` | GET, HEAD | For Caddy `forward_auth`: 200, or 302 to `/login` / `/register` / `/pending`. Never sets cookies. |
 | `/api/geo/regions`, `/api/geo/cities`, `/api/username-available` | GET | Helpers for the register form (it also works without them). |
 | `/privacy`, `/terms` | GET | Legal pages in the page language; `?original=1` shows the English text. |
 | `/feedback` | GET, POST | Bug reports and ideas, with or without an account (`?kind=bug\|idea` and `?context=` prefill the form). The POST stores the row, mails a copy to `FEEDBACK_TO` and answers 303 to `/feedback?sent=1`; 400 with the form on invalid input, 429 over 5 per address per hour or 60 in all per day. |
@@ -196,7 +198,8 @@ links and rate-limit rows every night.
 | First and last name | Optional, never public. |
 | Country; region and city | Country required; region and city optional (city name, GeoNames id and the city's coordinates). |
 | Terms version and acceptance time | Bumping `TERMS_VERSION` asks everyone to accept again. |
-| Created, last sign-in, moderation flags | `must_rename`, `blocked_at`, `is_admin` (SQL only). |
+| Created, last sign-in, moderation flags | `must_rename`, `blocked_at`, `is_admin` (SQL only, `deploy/db/make-admin.sh`). |
+| Approval | `approved_at`, `approved_by` (`0006_approval.sql`). Null while a closed trial (`ACCESS_MODE=approval`) keeps the account on `/pending`; set by an admin on `/admin/users`, or at registration when access is open. Accounts older than the column were approved by the migration's one-shot backfill. |
 | Sessions | No IP, no raw User-Agent. |
 
 **Feedback** (`0005_feedback.sql`, table `feedback`): bug reports and ideas from `/feedback`, from anyone. One row
@@ -328,11 +331,12 @@ Values live only in `/srv/quidditch-manager/.env` (mode 600). **Bold** = secret.
 | `TRUSTED_PROXY_HEADER` | Optional, default `cf-connecting-ip`: the header the api trusts for the visitor's IP. Change only with another edge in front. |
 | `BACKUP_RETENTION_DAYS` | Optional, default 45: the deletion page's promise; must cover the backup service's `BACKUP_KEEP_*`. |
 | `FEEDBACK_TO` | Optional. The address that receives a copy of each `/feedback` submission (needs email on). |
+| `ACCESS_MODE` | `open` (default) or `approval`: a closed trial where each new account waits on `/pending` until an admin approves it. |
 | **`CLOUDFLARE_TUNNEL_TOKEN`** | The tunnel. |
 | `RELEASE_REPO`, `WEB_ASSET`, `API_IMAGE`, `KEEP_RELEASES` | What `update.sh` downloads (public: no credentials). |
 | `QM_DATA_DIR`, `QM_UID`, `QM_GID`, `QM_HTTP_PORT`, `QM_INIT_SCHEMA` | Host layout; written by `bootstrap.sh`. |
 | **`B2_KEY_ID`**, **`B2_APP_KEY`**, `B2_BUCKET`, **`BACKUP_CRYPT_PASSWORD`** | Offsite backups (key limited to the bucket, EU region). |
-| **`TELEGRAM_BOT_TOKEN`**, `TELEGRAM_CHAT_ID` | Optional health and backup alerts. |
+| **`TELEGRAM_BOT_TOKEN`**, `TELEGRAM_CHAT_ID` | Optional health and backup alerts (host scripts), and the api's alerts: one message per completed registration (username and country only) and per feedback submission (kind and username only). Both or neither. |
 
 ## Deploy
 

@@ -30,7 +30,7 @@ To play in the browser you need a free account. We keep:
 - **Your country**, and only if you choose, **your region and your city**, picked from a public list of places. For the city we keep its name, its GeoNames ID and the coordinates of the city, never your address.
 - **The version of these documents you accepted**, and when.
 - **Account dates**: when you created the account and when you last signed in.
-- **Moderation flags**, only if needed: whether the account is blocked, or must choose a new username.
+- **Moderation flags**, only if needed: whether the account is blocked, or must choose a new username; and whether and when the account was approved for the trial.
 - **Your sessions**, one per device you are signed in on: when it started, when it was last used, when it expires, and a rough browser description such as "Firefox · Windows". Sessions do not keep your IP address.
 - **Sign-in links**: your email address, a fingerprint of the link (not the link itself), the page language, the page to return to, and a keyed hash of your network address (your IPv4 address, or the first half of an IPv6 address).
 - **Abuse counters**: account IDs or keyed hashes of network addresses, used to limit how many requests can be made.
@@ -65,6 +65,7 @@ These companies process data for us, only to run the service:
 - **Resend** (USA): sends the sign-in emails. It receives your email address and the email.
 - **Google**: only if you choose to continue with Google. Your Google account is governed by Google's own privacy policy.
 - **Backblaze, Inc.**: stores the database backups in its European region (the Netherlands).
+- **Telegram Messenger Inc.**: when you sign up, the operator receives a notification through Telegram with your username and your country, and nothing else; both are public on the site anyway. Telegram's servers may be outside the EU.
 
 When data goes to the USA, it is protected by the EU-US Data Privacy Framework or by the European Commission's standard contractual clauses.
 

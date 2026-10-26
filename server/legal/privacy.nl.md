@@ -20,7 +20,7 @@ Om in de browser te spelen heb je een gratis account nodig. We bewaren:
 - **Je land** en, alleen als je wilt, **je regio en je stad**, gekozen uit een openbare lijst van plaatsen. Van de stad bewaren we de naam, de GeoNames-ID en de coördinaten van de stad, nooit je adres.
 - **De versie van deze documenten die je hebt geaccepteerd**, en wanneer.
 - **Accountdata**: wanneer je het account hebt aangemaakt en wanneer je voor het laatst bent ingelogd.
-- **Moderatiemarkeringen**, alleen als dat nodig is: of het account geblokkeerd is of een nieuwe gebruikersnaam moet kiezen.
+- **Moderatiemarkeringen**, alleen als dat nodig is: of het account geblokkeerd is of een nieuwe gebruikersnaam moet kiezen; en of en wanneer het account is goedgekeurd voor de proefperiode.
 - **Je sessies**, één per apparaat waarop je bent ingelogd: wanneer de sessie begon, wanneer ze voor het laatst is gebruikt, wanneer ze verloopt en een globale omschrijving van de browser, zoals "Firefox · Windows". Sessies bewaren je IP-adres niet.
 - **Inloglinks**: je e-mailadres, een vingerafdruk van de link (niet de link zelf), de taal van de pagina, de pagina om naar terug te keren en een met een geheime sleutel berekende hash van je netwerkadres (je IPv4-adres, of de eerste helft van een IPv6-adres).
 - **Misbruiktellers**: account-ID's of met een geheime sleutel berekende hashes van netwerkadressen, om te beperken hoeveel verzoeken er gedaan kunnen worden.
@@ -55,6 +55,7 @@ Deze bedrijven verwerken gegevens in onze opdracht, alleen om de dienst te laten
 - **Resend** (VS): verstuurt de inlogmails. Het ontvangt je e-mailadres en de e-mail.
 - **Google**: alleen als je ervoor kiest om met Google verder te gaan. Voor je Google-account geldt het privacybeleid van Google.
 - **Backblaze, Inc.**: bewaart de back-ups van de database in zijn Europese regio (Nederland).
+- **Telegram Messenger Inc.**: wanneer je je registreert, krijgt de beheerder via Telegram een melding met je gebruikersnaam en je land, en niets anders; beide zijn op de site toch al openbaar. De servers van Telegram kunnen buiten de EU staan.
 
 Als gegevens naar de VS gaan, worden ze beschermd door het EU-VS Data Privacy Framework of door de modelcontractbepalingen van de Europese Commissie.
 

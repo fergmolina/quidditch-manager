@@ -124,7 +124,7 @@ test("deleteSession matches current or replaced token; revokeSession is scoped t
 });
 
 test("profileStatus: complete needs username, country and the current terms; names and city never matter", () => {
-  const base = { username: "HarryFan", countryCode: "AR", termsVersion: "v1", termsAcceptedAt: iso(NOW), mustRename: false, blockedAt: null };
+  const base = { username: "HarryFan", countryCode: "AR", termsVersion: "v1", termsAcceptedAt: iso(NOW), mustRename: false, blockedAt: null, approvedAt: null };
   assert.equal(profileStatus(base, "v1"), "complete");
   assert.equal(profileStatus({ ...base, username: null }, "v1"), "register");
   assert.equal(profileStatus({ ...base, countryCode: null }, "v1"), "register");
@@ -132,4 +132,15 @@ test("profileStatus: complete needs username, country and the current terms; nam
   assert.equal(profileStatus({ ...base, mustRename: true }, "v1"), "rename");
   assert.equal(profileStatus(base, "v2"), "terms");
   assert.equal(profileStatus({ ...base, blockedAt: iso(NOW) }, "v1"), "blocked");
+});
+
+test("profileStatus with ACCESS_MODE=approval: pending comes after every profile step and before complete", () => {
+  const base = { username: "HarryFan", countryCode: "AR", termsVersion: "v1", termsAcceptedAt: iso(NOW), mustRename: false, blockedAt: null, approvedAt: null };
+  assert.equal(profileStatus(base, "v1", "approval"), "pending");
+  assert.equal(profileStatus({ ...base, approvedAt: iso(NOW) }, "v1", "approval"), "complete");
+  assert.equal(profileStatus(base, "v1", "open"), "complete", "open access ignores approved_at");
+  assert.equal(profileStatus({ ...base, username: null }, "v1", "approval"), "register", "the profile comes first");
+  assert.equal(profileStatus({ ...base, mustRename: true }, "v1", "approval"), "rename");
+  assert.equal(profileStatus(base, "v2", "approval"), "terms");
+  assert.equal(profileStatus({ ...base, blockedAt: iso(NOW), approvedAt: iso(NOW) }, "v1", "approval"), "blocked", "blocked beats approved");
 });

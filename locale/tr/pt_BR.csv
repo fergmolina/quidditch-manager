@@ -3057,3 +3057,7 @@ ui.about.feedback,Enviar erros e ideias
 ui.list.name_detail,{name} ({detail})
 ui.match.finish_first,Termine a partida antes de mudar de emprego.
 news.award_no_club,"{award}, {league}: {player}"
+web.pending.title,Sua conta está aguardando aprovação
+web.pending.intro,Por alguns dias estamos liberando a entrada manualmente. Você vai poder jogar assim que sua conta for aprovada.
+web.pending.later,Volte mais tarde ou confira a página da sua conta.
+web.pending.status,Sua conta ainda está aguardando aprovação: você vai poder jogar assim que ela for aprovada.

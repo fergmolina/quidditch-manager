@@ -2,6 +2,7 @@ import { createLocalJWKSet, type JSONWebKeySet } from "jose";
 import { testConfig, type Config } from "../src/config.js";
 import type { Db, TxDb } from "../src/db.js";
 import type { Mailer, MailMessage } from "../src/mail/send.js";
+import type { Notifier } from "../src/notify/telegram.js";
 import type { AppDeps, Logger } from "../src/types.js";
 
 export interface Statement {
@@ -50,12 +51,25 @@ export function captureMailer(): Mailer & { sent: MailMessage[]; fail: boolean }
   return m;
 }
 
+/** Records every alert. The push happens before any await, so a test can assert right after `app.request`. */
+export function captureNotifier(): Notifier & { sent: string[] } {
+  const n = {
+    enabled: true,
+    sent: [] as string[],
+    async send(text: string) {
+      n.sent.push(text);
+    },
+  };
+  return n;
+}
+
 export function testDeps(over: Partial<Omit<AppDeps, "config">> & { config?: Partial<Config> } = {}): AppDeps {
   const { config, ...rest } = over;
   return {
     config: testConfig(config),
     db: fakeDb(() => undefined),
     mailer: captureMailer(),
+    notifier: captureNotifier(),
     fetch: (async () => new Response("{}", { status: 500 })) as typeof fetch,
     googleKeys: createLocalJWKSet({ keys: [] } as JSONWebKeySet),
     now: Date.now,

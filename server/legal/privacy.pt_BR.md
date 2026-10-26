@@ -20,7 +20,7 @@ Para jogar no navegador, você precisa de uma conta gratuita. Guardamos:
 - **Seu país** e, só se você quiser, **seu estado ou região e sua cidade**, escolhidos de uma lista pública de lugares. Da cidade guardamos o nome, o ID GeoNames e as coordenadas da cidade, nunca o seu endereço.
 - **A versão destes documentos que você aceitou**, e quando.
 - **Datas da conta**: quando você a criou e quando entrou pela última vez.
-- **Marcas de moderação**, só se necessário: se a conta está bloqueada ou precisa escolher um novo nome de usuário.
+- **Marcas de moderação**, só se necessário: se a conta está bloqueada ou precisa escolher um novo nome de usuário; e se e quando a conta foi aprovada para o período de teste.
 - **Suas sessões**, uma por dispositivo em que você está conectado: quando começou, quando foi usada pela última vez, quando expira e uma descrição aproximada do navegador, como "Firefox · Windows". As sessões não guardam seu endereço IP.
 - **Links de acesso**: seu e-mail, uma impressão digital do link (não o link em si), o idioma da página, a página de retorno e um hash com chave do seu endereço de rede (seu endereço IPv4, ou a primeira metade de um endereço IPv6).
 - **Contadores antiabuso**: IDs de conta ou hashes com chave de endereços de rede, para limitar quantas solicitações podem ser feitas.
@@ -55,6 +55,7 @@ Estas empresas tratam dados em nosso nome, só para fazer o serviço funcionar:
 - **Resend** (EUA): envia os e-mails de acesso. Recebe seu endereço de e-mail e a mensagem.
 - **Google**: só se você escolher continuar com o Google. Sua conta Google é regida pela política de privacidade do Google.
 - **Backblaze, Inc.**: guarda as cópias de segurança do banco de dados na sua região europeia (Países Baixos).
+- **Telegram Messenger Inc.**: quando você se cadastra, o operador recebe uma notificação pelo Telegram com seu nome de usuário e seu país, e nada mais; os dois já são públicos no site. Os servidores do Telegram podem ficar fora da UE.
 
 Quando dados vão para os EUA, eles são protegidos pelo Data Privacy Framework UE-EUA ou pelas cláusulas contratuais padrão da Comissão Europeia.
 

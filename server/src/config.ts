@@ -4,6 +4,10 @@ import { z } from "zod";
 export const DEFAULT_TERMS_VERSION = "2026-11-01";
 export const MIN_AGE = 13;
 
+/** `open`: a completed profile can play. `approval`: the operator approves each new account first (closed trial). */
+export const ACCESS_MODES = ["open", "approval"] as const;
+export type AccessMode = (typeof ACCESS_MODES)[number];
+
 const bool = z
   .string()
   .trim()
@@ -60,6 +64,9 @@ const envSchema = z.object({
   FEEDBACK_TO: optionalText,
   LEGAL_CONTROLLER: optionalText,
   LEGAL_CONTACT_EMAIL: optionalText,
+  ACCESS_MODE: z.enum(ACCESS_MODES).default("open"),
+  TELEGRAM_BOT_TOKEN: optionalText,
+  TELEGRAM_CHAT_ID: optionalText,
 });
 
 const LEGAL_EMAIL_RE = /^[^\s@<>()[\]"'`]{1,64}@[A-Za-z0-9.-]{1,190}\.[A-Za-z]{2,24}$/;
@@ -93,6 +100,9 @@ export interface Config {
   downloadsUrl: string | null;
   feedbackTo: string | null;
   legal: { controller: string | null; contactEmail: string | null };
+  accessMode: AccessMode;
+  /** Sign-up alerts to the operator; null turns them off. The token is a secret: never log it or a URL built from it. */
+  telegram: { botToken: string; chatId: string } | null;
 }
 
 export class ConfigError extends Error {
@@ -168,6 +178,12 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env, randomKey: () =
   const feedbackTo = e.FEEDBACK_TO ?? null;
   if (feedbackTo && !z.email().max(254).safeParse(feedbackTo).success) problems.push("FEEDBACK_TO is not an email address");
 
+  let telegram: Config["telegram"] = null;
+  if (e.TELEGRAM_BOT_TOKEN || e.TELEGRAM_CHAT_ID) {
+    if (!e.TELEGRAM_BOT_TOKEN || !e.TELEGRAM_CHAT_ID) problems.push("TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID go together");
+    else telegram = { botToken: e.TELEGRAM_BOT_TOKEN, chatId: e.TELEGRAM_CHAT_ID };
+  }
+
   if (problems.length) throw new ConfigError(problems.join("; "));
 
   return {
@@ -201,6 +217,8 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env, randomKey: () =
       controller: e.LEGAL_CONTROLLER?.replace(/\s+/g, " ").slice(0, 200) ?? null,
       contactEmail: e.LEGAL_CONTACT_EMAIL && LEGAL_EMAIL_RE.test(e.LEGAL_CONTACT_EMAIL) ? e.LEGAL_CONTACT_EMAIL : null,
     },
+    accessMode: e.ACCESS_MODE,
+    telegram,
   };
 }
 

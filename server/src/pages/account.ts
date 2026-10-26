@@ -16,6 +16,8 @@ export interface AccountState {
   username: string;
   countryCode: string | null;
   createdAt: string;
+  /** Waiting for the operator's approval (ACCESS_MODE=approval): one line says so. */
+  pending: boolean;
   usernameLockedUntilMs: number | null;
   profile: ProfileFormValues;
   profileErrors: FieldErrors;
@@ -53,6 +55,7 @@ ${usernameField(t, { id: "new_username", value: s.usernameValue, ...(s.usernameE
 ${saved}
 <p class="lead">@${s.username}${s.countryCode ? ` · ${countryName(s.countryCode, s.lang)}` : ""}</p>
 <p class="muted">${t("web.account.email_line", { email: s.email })}<br>${t("web.account.member_since", { date: formatDate(s.lang, s.createdAt) })}</p>
+${s.pending ? html`<p class="notice" role="status" data-pending>${t("web.pending.status")}</p>` : ""}
 </section>
 
 <section class="card" id="username-section">

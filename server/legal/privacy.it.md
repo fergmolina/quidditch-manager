@@ -20,7 +20,7 @@ Per giocare nel browser serve un account gratuito. Conserviamo:
 - **Il tuo paese** e, solo se vuoi, **la tua regione e la tua città**, scelte da un elenco pubblico di luoghi. Della città conserviamo il nome, l'ID GeoNames e le coordinate della città, mai il tuo indirizzo.
 - **La versione di questi documenti che hai accettato**, e quando.
 - **Date dell'account**: quando l'hai creato e quando hai effettuato l'ultimo accesso.
-- **Indicatori di moderazione**, solo se necessario: se l'account è bloccato o deve scegliere un nuovo nome utente.
+- **Indicatori di moderazione**, solo se necessario: se l'account è bloccato o deve scegliere un nuovo nome utente; e se e quando l'account è stato approvato per il periodo di prova.
 - **Le tue sessioni**, una per ogni dispositivo su cui hai effettuato l'accesso: quando è iniziata, quando è stata usata l'ultima volta, quando scade e una descrizione approssimativa del browser, come "Firefox · Windows". Le sessioni non conservano il tuo indirizzo IP.
 - **Link di accesso**: il tuo indirizzo email, un'impronta del link (non il link stesso), la lingua della pagina, la pagina a cui tornare e un hash con chiave del tuo indirizzo di rete (il tuo indirizzo IPv4, o la prima metà di un indirizzo IPv6).
 - **Contatori anti-abuso**: ID di account o hash con chiave di indirizzi di rete, per limitare quante richieste si possono fare.
@@ -55,6 +55,7 @@ Queste aziende trattano dati per nostro conto, solo per far funzionare il serviz
 - **Resend** (USA): invia le email di accesso. Riceve il tuo indirizzo email e il messaggio.
 - **Google**: solo se scegli di continuare con Google. Il tuo account Google è regolato dall'informativa sulla privacy di Google.
 - **Backblaze, Inc.**: conserva i backup del database nella sua regione europea (Paesi Bassi).
+- **Telegram Messenger Inc.**: quando ti registri, l'operatore riceve una notifica tramite Telegram con il tuo nome utente e il tuo paese, e nient'altro; entrambi sono comunque pubblici sul sito. I server di Telegram possono trovarsi fuori dall'UE.
 
 Quando i dati vanno negli USA, sono protetti dal Data Privacy Framework UE-USA o dalle clausole contrattuali tipo della Commissione europea.
 

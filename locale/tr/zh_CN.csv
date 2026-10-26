@@ -3057,3 +3057,7 @@ ui.about.feedback,反馈错误与建议
 ui.list.name_detail,{name} ({detail})
 ui.match.finish_first,请先结束比赛，再更换工作。
 news.award_no_club,{award}，{league}：{player}
+web.pending.title,你的账户正在等待审核
+web.pending.intro,这几天我们采用人工审核的方式放行。账户通过审核后你就可以开始游戏了。
+web.pending.later,请稍后再来，或查看你的账户页面。
+web.pending.status,你的账户仍在等待审核：通过审核后你就可以开始游戏了。

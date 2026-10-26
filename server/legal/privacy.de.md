@@ -20,7 +20,7 @@ Um im Browser zu spielen, brauchst du ein kostenloses Konto. Wir speichern:
 - **Dein Land** und, nur wenn du willst, **deine Region und deine Stadt**, ausgewählt aus einer öffentlichen Ortsliste. Von der Stadt speichern wir ihren Namen, ihre GeoNames-ID und die Koordinaten der Stadt, niemals deine Adresse.
 - **Die Fassung dieser Dokumente, die du akzeptiert hast**, und wann.
 - **Kontodaten**: wann du das Konto erstellt und wann du dich zuletzt angemeldet hast.
-- **Moderationsvermerke**, nur falls nötig: ob das Konto gesperrt ist oder einen neuen Benutzernamen wählen muss.
+- **Moderationsvermerke**, nur falls nötig: ob das Konto gesperrt ist oder einen neuen Benutzernamen wählen muss; und ob und wann das Konto für die Testphase freigegeben wurde.
 - **Deine Sitzungen**, eine pro Gerät, auf dem du angemeldet bist: wann sie begann, wann sie zuletzt genutzt wurde, wann sie abläuft und eine grobe Browserbeschreibung wie "Firefox · Windows". Sitzungen speichern deine IP-Adresse nicht.
 - **Anmeldelinks**: deine E-Mail-Adresse, einen Fingerabdruck des Links (nicht den Link selbst), die Sprache der Seite, die Seite, zu der du zurückkehrst, und einen mit geheimem Schlüssel berechneten Hash deiner Netzwerkadresse (deine IPv4-Adresse oder die erste Hälfte einer IPv6-Adresse).
 - **Missbrauchszähler**: Konto-IDs oder mit geheimem Schlüssel berechnete Hashes von Netzwerkadressen, um die Zahl möglicher Anfragen zu begrenzen.
@@ -55,6 +55,7 @@ Diese Unternehmen verarbeiten Daten in unserem Auftrag, nur um den Dienst zu bet
 - **Resend** (USA): versendet die Anmelde-E-Mails und erhält dafür deine E-Mail-Adresse und die Nachricht.
 - **Google**: nur wenn du dich für die Anmeldung mit Google entscheidest. Für dein Google-Konto gilt die Datenschutzerklärung von Google.
 - **Backblaze, Inc.**: speichert die Sicherungskopien der Datenbank in seiner europäischen Region (Niederlande).
+- **Telegram Messenger Inc.**: Wenn du dich registrierst, erhält der Betreiber über Telegram eine Benachrichtigung mit deinem Benutzernamen und deinem Land, sonst nichts; beides ist auf der Website ohnehin öffentlich. Die Server von Telegram können außerhalb der EU stehen.
 
 Werden Daten in die USA übermittelt, sind sie durch das EU-US Data Privacy Framework oder durch die Standardvertragsklauseln der Europäischen Kommission geschützt.
 

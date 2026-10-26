@@ -10,7 +10,7 @@ boot_splash/fullsize=false
 boot_splash/use_filter=true
 
 config/name="Quidditch Manager"
-config/version="0.12.0"
+config/version="0.12.1"
 config/repository_url="https://github.com/fergmolina/quidditch-manager"
 config/site_url=""
 config/features=PackedStringArray("4.7")

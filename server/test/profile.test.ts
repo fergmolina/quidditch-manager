@@ -197,7 +197,7 @@ test("23505 on users_username_key becomes username_taken; any other error, even 
     throw unique;
   });
   const loc = { country: normalizeCountry("AR")!, region: null, city: null };
-  const profile = { firstName: null, lastName: null, location: loc, termsVersion: "v" };
+  const profile = { firstName: null, lastName: null, location: loc, termsVersion: "v", approve: true };
   await assert.rejects(registerProfile(db, userId, { ...profile, username: "Taken" }, Date.now()), (e: unknown) => e instanceof ProfileWriteError && e.code === "username_taken");
   const other = fakeDb(() => {
     throw Object.assign(new Error("boom"), { code: "57014" });

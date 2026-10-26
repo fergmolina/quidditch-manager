@@ -63,7 +63,7 @@ async function finishLogin(c: C, user: User, next: string): Promise<Response> {
   await preventSessionFixation(c);
   const session = await createSession(db, user.id, { userAgentFamily: userAgentFamily(c.req.header("user-agent")) }, now());
   setSessionCookie(c, session.token, session.expiresAt);
-  return redirect303(c, pathForStatus(profileStatus(user, config.termsVersion), next), "/play/");
+  return redirect303(c, pathForStatus(profileStatus(user, config.termsVersion, config.accessMode), next), "/play/");
 }
 
 export function registerAuthRoutes(app: Hono<AppEnv>): void {
@@ -82,7 +82,7 @@ export function registerAuthRoutes(app: Hono<AppEnv>): void {
           error: null,
           googleEnabled: false,
           emailEnabled: false,
-          signedIn: { username: status === "complete" ? v.user.username : null, continueHref: pathForStatus(status, next) },
+          signedIn: { username: status === "complete" || status === "pending" ? v.user.username : null, continueHref: pathForStatus(status, next) },
         }),
       });
     }

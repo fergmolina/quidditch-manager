@@ -3057,3 +3057,7 @@ ui.about.feedback,Fehler und Ideen melden
 ui.list.name_detail,{name} ({detail})
 ui.match.finish_first,"Beende das Spiel, bevor du den Job wechselst."
 news.award_no_club,"{award}, {league}: {player}"
+web.pending.title,Dein Konto wartet auf die Freigabe
+web.pending.intro,"Für ein paar Tage lassen wir die Leute von Hand hinein. Du kannst spielen, sobald dein Konto freigegeben ist."
+web.pending.later,Komm später wieder oder sieh auf deiner Kontoseite nach.
+web.pending.status,"Dein Konto wartet noch auf die Freigabe: Du kannst spielen, sobald es freigegeben ist."

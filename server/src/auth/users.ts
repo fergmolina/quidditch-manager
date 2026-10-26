@@ -1,3 +1,4 @@
+import type { AccessMode } from "../config.js";
 import type { Db, TxDb } from "../db.js";
 import { rowToUser, type User, type UserRow } from "./sessions.js";
 
@@ -56,16 +57,22 @@ export async function deleteUserAccount(db: Db, userId: string): Promise<boolean
   });
 }
 
-export type ProfileStatus = "complete" | "register" | "rename" | "terms" | "blocked";
+/** `pending`: the profile is done but the operator has not approved the account yet (ACCESS_MODE=approval only). */
+export type ProfileStatus = "complete" | "register" | "rename" | "terms" | "pending" | "blocked";
 
-export function profileStatus(user: Pick<User, "username" | "countryCode" | "termsVersion" | "termsAcceptedAt" | "mustRename" | "blockedAt">, termsVersion: string): ProfileStatus {
+export function profileStatus(
+  user: Pick<User, "username" | "countryCode" | "termsVersion" | "termsAcceptedAt" | "mustRename" | "blockedAt" | "approvedAt">,
+  termsVersion: string,
+  accessMode: AccessMode = "open",
+): ProfileStatus {
   if (user.blockedAt) return "blocked";
   if (!user.username || !user.countryCode || !user.termsAcceptedAt) return "register";
   if (user.mustRename) return "rename";
   if (user.termsVersion !== termsVersion) return "terms";
+  if (accessMode === "approval" && !user.approvedAt) return "pending";
   return "complete";
 }
 
-export function isProfileComplete(user: Parameters<typeof profileStatus>[0], termsVersion: string): boolean {
-  return profileStatus(user, termsVersion) === "complete";
+export function isProfileComplete(user: Parameters<typeof profileStatus>[0], termsVersion: string, accessMode: AccessMode = "open"): boolean {
+  return profileStatus(user, termsVersion, accessMode) === "complete";
 }

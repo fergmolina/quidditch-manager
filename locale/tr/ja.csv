@@ -3057,3 +3057,7 @@ ui.about.feedback,バグやアイデアを送る
 ui.list.name_detail,{name} ({detail})
 ui.match.finish_first,仕事を変える前に試合を終えよう。
 news.award_no_club,{award}、{league}：{player}
+web.pending.title,アカウントは承認待ちです
+web.pending.intro,数日間は手動でアカウントを承認しています。承認され次第、プレイできるようになります。
+web.pending.later,後でもう一度お試しいただくか、アカウントページをご確認ください。
+web.pending.status,アカウントはまだ承認待ちです。承認され次第、プレイできるようになります。

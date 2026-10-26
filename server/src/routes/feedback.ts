@@ -4,6 +4,7 @@ import { CONTEXT_MAX, formValues, insertFeedback, markFeedbackMailed, parseFeedb
 import { redirect303 } from "../http/redirect.js";
 import { getViewer, page, tOf } from "../http/viewer.js";
 import { feedbackEmail } from "../mail/templates.js";
+import { feedbackAlert } from "../notify/telegram.js";
 import { feedbackBody, feedbackSentBody, HONEYPOT_FIELD } from "../pages/feedback.js";
 import type { AppEnv } from "../types.js";
 import { ipSubject, tooMany } from "./auth.js";
@@ -38,7 +39,7 @@ export function registerFeedbackRoutes(app: Hono<AppEnv>): void {
   });
 
   app.post("/feedback", async (c) => {
-    const { db, config, mailer, now, log } = c.get("deps");
+    const { db, config, mailer, now, log, notifier } = c.get("deps");
     const form = await formOf(c);
     if ((form[HONEYPOT_FIELD] ?? "") !== "") return redirect303(c, FEEDBACK_SENT_PATH, "/");
     const values = formValues(form);
@@ -50,6 +51,7 @@ export function registerFeedbackRoutes(app: Hono<AppEnv>): void {
     if (!(await hitRateLimit(db, FEEDBACK_ALL_LIMIT, now()))) return tooMany(c);
 
     const id = await insertFeedback(db, feedback, now());
+    void notifier.send(feedbackAlert(config, feedback.kind, v?.user.username ?? null));
     if (config.feedbackTo !== null && mailer.canSend) {
       try {
         await mailer.send({ to: config.feedbackTo!, ...feedbackEmail({ ...feedback, signedIn: feedback.userId !== null }) });

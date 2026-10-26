@@ -93,6 +93,8 @@ Names only. The values live in the server's `.env` (see `deploy/env.example`). P
 | `BACKUP_RETENTION_DAYS` | | Default 45, at least 1. The number of days the account deletion page promises deleted data can still sit in a backup. Must cover the backup service's `BACKUP_KEEP_*` and match the privacy policy's prose. |
 | `DOWNLOADS_URL` | | Optional https link to the desktop downloads. |
 | `FEEDBACK_TO` | | Optional. Address that receives a copy of each `/feedback` submission; rows are stored regardless. Needs email on (Resend). |
+| `ACCESS_MODE` | | `open` (default) or `approval`. With `approval` a completed profile still waits (`/pending`, gate 302, `/api/me` `pending: true`) until an admin approves it on `/admin/users`. Accounts that exist when migration `0006` runs, and every registration made while access is open, are approved on the spot. |
+| `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` | | Optional, both or neither. The token is secret. A Telegram message per completed registration (username and country only) and per feedback submission (kind and username only). Off, with one log line, when unset. |
 | `DEV_PLAY_DIR` | dev only | Serves a Godot web export at `/play/`. |
 
 ## Routes
@@ -107,8 +109,12 @@ Names only. The values live in the server's `.env` (see `deploy/env.example`). P
 | `/auth/google` | GET | Signed `__Host-qm_oauth` state cookie with PKCE and nonce, then 302 to Google. |
 | `/auth/google/callback` | GET | Exchanges the code, verifies the id_token against Google's JWKS, links accounts by verified email. |
 | `/auth/logout`, `/auth/logout-all` | POST | 303 to `/`. |
-| `/api/me` | GET | `{logged_in, username, country, locale, profile_complete}`, with 401 when logged out. Renews and rotates the session. `private, no-store`. |
-| `/api/gate` | GET/HEAD | For Caddy `forward_auth` on `/play/`: 200 when the profile is complete, otherwise 302 to `/login?next=` or `/register?next=`. A forwarded non-GET method gets 401. |
+| `/api/me` | GET | `{logged_in, username, country, locale, profile_complete, pending}`, with 401 when logged out. Renews and rotates the session. `private, no-store`. |
+| `/api/gate` | GET/HEAD | For Caddy `forward_auth` on `/play/`: 200 when the profile is complete (and approved, with `ACCESS_MODE=approval`), otherwise 302 to `/login?next=`, `/register?next=` or `/pending`. A forwarded non-GET method gets 401. |
+| `/pending` | GET | `ACCESS_MODE=approval`: the waiting room of a complete but unapproved account (sign-out button, link to `/account`). Approved or open access: 303 to `/play/`. |
+| `/admin/users?view=pending\|all` | GET | Admins only (`is_admin`; anyone else gets the ordinary 404). Accounts with username, country, email, created, state, and per-row forms. |
+| `/admin/users/approve\|revoke\|block\|unblock` | POST (form `id`, `view`) | The moderation writes; Block also ends the user's sessions. An admin cannot block or revoke their own account. 60 per admin per 15 min (`admin_write`). 303 back to the list. |
+| `/admin/feedback` | GET | Admins only. The last 50 feedback rows (kind, when, language, context, message, reply address). |
 | `/privacy`, `/terms` | GET | Privacy policy and terms of use from `legal/<doc>.<lang>.md` (English authoritative; missing translations fall back to English). `?original=1` shows the English text. |
 | `/register` | GET/POST | Profile step after the first login: username, optional first and last name, country (required), optional region and city, and the age (13+) and terms checkbox. The same page handles a forced rename (`must_rename`) and re-accepting a new `TERMS_VERSION`. Works without JS; `static/register.js` adds the region reload, city search and username check. |
 | `/account` | GET | Profile, email (owner only), username change (once every 30 days), sessions with revoke, data export, account deletion, sign-out. |
@@ -134,7 +140,8 @@ Every non-GET request must pass the same-origin check (Origin plus Fetch Metadat
   - `privateJson` in `src/http/respond.ts`;
   - `hitRateLimit` in `src/auth/rate-limit.ts`;
   - `listSessions`, `revokeSession` and `deleteUserSessions` in `src/auth/sessions.ts`;
-  - `deleteUserAccount` and `profileStatus` in `src/auth/users.ts`;
+  - `deleteUserAccount` and `profileStatus` in `src/auth/users.ts` (statuses: `blocked`, `register`, `rename`, `terms`, `pending`, `complete`);
+  - `notifier.send(text)` from the deps for an operator alert through Telegram (`src/notify/telegram.ts`); fire-and-forget with `void`, username and country at most;
   - `pgError` in `src/db.ts`, to map `23505` on `users_username_key`.
 - Page scripts go in `static/*.js` and are loaded with `<script src="/static/…" defer>` through the `head` option of `page()`. Never use inline scripts or `style=""`.
 

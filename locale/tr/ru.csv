@@ -3057,3 +3057,7 @@ ui.about.feedback,Сообщить об ошибках и идеях
 ui.list.name_detail,{name} ({detail})
 ui.match.finish_first,"Заверши матч, прежде чем менять работу."
 news.award_no_club,"{award}, {league}: {player}"
+web.pending.title,Ваш аккаунт ожидает одобрения
+web.pending.intro,"Несколько дней мы пускаем людей вручную. Вы сможете играть, как только ваш аккаунт будет одобрен."
+web.pending.later,Зайдите позже или проверьте страницу аккаунта.
+web.pending.status,"Ваш аккаунт ещё ожидает одобрения: вы сможете играть, как только он будет одобрен."

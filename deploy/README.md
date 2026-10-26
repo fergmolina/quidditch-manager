@@ -194,7 +194,8 @@ Variables to fill:
   - and/or Google: `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`
 - Legal pages: `LEGAL_CONTROLLER` and `LEGAL_CONTACT_EMAIL`.
 - Recommended: `API_IMAGE` (when the release publishes the API image to GHCR) and the `B2_*` keys.
-- Optional: `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` for failure alerts.
+- Optional: `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` for failure alerts and the api's sign-up and feedback alerts.
+- Optional: `ACCESS_MODE=approval` for a closed trial (every new account waits for your approval; see §11).
 - **Already set by bootstrap.** Do not change them after the first start:
   - `POSTGRES_PASSWORD`
   - `DB_API_PASSWORD`
@@ -361,12 +362,23 @@ curl -sI https://<domain>/play/ | grep -iE '^(HTTP|location|cf-cache-status)' # 
 ## 11. Operations
 
 - Logs: `./deploy/compose.sh logs --tail 200 api` (also `db` and `caddy`). Host jobs log to `/var/log/quidditch-manager/`.
-- SQL: `./deploy/compose.sh exec db sh -c 'exec psql -U postgres "$POSTGRES_DB"'`. Moderation is done by SQL only:
-  - Block a user: `update users set blocked_at = now() where lower(username) = lower('<name>');`
+- SQL: `./deploy/compose.sh exec db sh -c 'exec psql -U postgres "$POSTGRES_DB"'`. Moderation by SQL:
+  - Block a user: `update users set blocked_at = now() where lower(username) = lower('<name>');` (or the Block
+    button on `/admin/users`, which also ends the user's sessions)
   - Force a rename on the next visit: `update users set must_rename = true where …;`
-  - Make someone an admin: `update users set is_admin = true where …;`
+  - Make someone an admin: `./deploy/db/make-admin.sh <email>` (the account must have signed in once; the address
+    goes through an environment variable, never a psql argument). Admins see `/admin/users` and `/admin/feedback`;
+    everyone else gets the ordinary 404 there. `is_admin` is never set from the app.
   - Delete an account (cascades): `delete from users where …;`, then `delete from login_tokens where email = '<email>';`
-- **New terms.** Bump `TERMS_VERSION` in `.env`, then `./deploy/compose.sh up -d --no-deps api`. Everyone is asked to accept again on their next visit.
+- **Closed trial (manual approval).** Set `ACCESS_MODE=approval` in `.env` and restart the api
+  (`./deploy/compose.sh up -d --no-deps api`). From then on a new account that completes `/register` lands on
+  `/pending` (and `/api/gate` keeps it out of `/play/`) until you press Approve on `/admin/users?view=pending`;
+  accounts that existed before the switch keep playing (migration `0006_approval.sql` approved them, and open
+  access approves each registration as it happens). With `TELEGRAM_*` set, the api sends a Telegram message per
+  completed registration (username and country only) with a link to that page, and one per feedback submission.
+  Revoke undoes an approval, Block also ends the user's sessions. Back to `ACCESS_MODE=open` and a restart ends
+  the trial: nobody waits any more, and `approved_at` stays as history.
+- **New terms.** Bump `TERMS_VERSION` in `.env`, then `./deploy/compose.sh up -d --no-deps api`. Everyone is asked to accept again on their next visit. The privacy policy now also names Telegram (sign-up alerts) and the approval date: bump it when that matters to your users.
 - Rotating secrets:
   - `DB_API_PASSWORD`: edit `.env`, run `./deploy/update.sh --target migrate` (which sets the role password), then `./deploy/compose.sh up -d --no-deps api`.
   - `AUTH_SECRET`: edit `.env` and recreate the API. Only Google logins in progress at that moment break.

@@ -3149,3 +3149,7 @@ ui.about.feedback,Enviar errores e ideas,Send bugs and ideas
 ui.list.name_detail,{name} ({detail}),{name} ({detail})
 ui.match.finish_first,Terminá el partido antes de cambiar de trabajo.,Finish the match before changing jobs.
 news.award_no_club,{award} de la {league}: {player},"{award}, {league}: {player}"
+web.pending.title,Tu cuenta está esperando aprobación,Your account is waiting for approval
+web.pending.intro,Durante unos días estamos dejando entrar a la gente a mano. Vas a poder jugar en cuanto aprobemos tu cuenta.,For a few days we are letting people in by hand. You will be able to play as soon as your account is approved.
+web.pending.later,Volvé más tarde o fijate en tu página de cuenta.,"Come back later, or check your account page."
+web.pending.status,Tu cuenta todavía está esperando aprobación: vas a poder jugar en cuanto la aprobemos.,Your account is still waiting for approval: you will be able to play as soon as it is approved.

@@ -241,3 +241,15 @@ main:has(.ranking-wide) { max-width: 1012px; }
 /* Landing: the logo is drawn for a dark background (the game's title screen), so it sits on a wood band. */
 .hero { background: radial-gradient(ellipse at 50% 40%, var(--wood-sel) 0%, var(--wood-mid) 45%, var(--wood) 100%); border-radius: 6px; padding: 18px 16px 10px; margin: -6px -6px 16px; box-shadow: inset 0 0 0 1px rgba(201, 161, 74, .35); }
 .hero .logo { margin-bottom: 0; }
+
+/* /admin/users and /admin/feedback (src/pages/admin.ts): the operator's tables, on the ranking's wide card. */
+.admin table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+.admin th { text-align: left; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-faded); border-bottom: 2px solid var(--border); padding: 6px 6px; }
+.admin td { border-bottom: 1px solid var(--border); padding: 7px 6px; vertical-align: top; }
+.admin .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.admin .email, .admin .message { overflow-wrap: anywhere; }
+.admin .message { white-space: pre-wrap; }
+.admin .row-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.admin .row-actions form { margin: 0; }
+.admin tr.state-pending td:first-child { font-weight: 700; }
+.admin tr.state-blocked td { color: var(--ink-faded); }

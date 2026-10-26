@@ -20,6 +20,8 @@ export interface MeResponse {
   /** the negotiated page language (game code: es, en, …, pt_BR, zh_CN) */
   locale: string;
   profile_complete: boolean;
+  /** the profile is done but the account waits for the operator (ACCESS_MODE=approval); profile_complete is then false */
+  pending: boolean;
 }
 
 export function gateNext(forwardedUri: string | null | undefined): string {
@@ -52,19 +54,20 @@ export function registerApiRoutes(app: Hono<AppEnv>, burst: BurstLimiter | null)
     const v = await getViewer(c);
     if (!v) {
       if (readSessionToken(c)) clearSessionCookie(c);
-      const body: MeResponse = { logged_in: false, username: null, country: null, locale: c.get("lang"), profile_complete: false };
+      const body: MeResponse = { logged_in: false, username: null, country: null, locale: c.get("lang"), profile_complete: false, pending: false };
       return privateJson(c, body, 401);
     }
     const rotated = await rotateSessionIfDue(db, v.session, now()).catch(() => null);
     if (rotated) setSessionCookie(c, rotated.token, rotated.expiresAt);
     else await touchSession(db, v.session, now()).catch(() => undefined);
-    const complete = viewerStatus(c, v) === "complete";
+    const status = viewerStatus(c, v);
     const body: MeResponse = {
       logged_in: true,
       username: v.user.username,
       country: v.user.countryCode,
       locale: c.get("lang"),
-      profile_complete: complete,
+      profile_complete: status === "complete",
+      pending: status === "pending",
     };
     return privateJson(c, body);
   });

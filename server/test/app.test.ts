@@ -38,6 +38,8 @@ function sessionRow(user: Record<string, unknown> = {}) {
     must_rename: false,
     is_admin: false,
     blocked_at: null,
+    approved_at: new Date(now),
+    approved_by: null,
     created_at: new Date(now),
     last_login_at: new Date(now),
     ...user,
@@ -177,7 +179,7 @@ test("GET /api/me logged out: 401 JSON, private no-store, Vary: Cookie; stale co
   assert.equal(res.status, 401);
   assert.equal(res.headers.get("cache-control"), "private, no-store");
   assert.equal(res.headers.get("vary"), "Cookie");
-  assert.deepEqual(await res.json(), { logged_in: false, username: null, country: null, locale: "en", profile_complete: false });
+  assert.deepEqual(await res.json(), { logged_in: false, username: null, country: null, locale: "en", profile_complete: false, pending: false });
   assert.ok(res.headers.getSetCookie().some((c) => c.startsWith("qm_session=;")));
 });
 
@@ -186,8 +188,27 @@ test("GET /api/me logged in: username, country, locale, profile_complete; never 
   const res = await app.request("/api/me?lang=ru", { headers: { Cookie: `qm_session=${TOKEN}` } });
   assert.equal(res.status, 200);
   const text = await res.text();
-  assert.deepEqual(JSON.parse(text), { logged_in: true, username: "HarryFan", country: "AR", locale: "ru", profile_complete: true });
+  assert.deepEqual(JSON.parse(text), { logged_in: true, username: "HarryFan", country: "AR", locale: "ru", profile_complete: true, pending: false });
   for (const secret of ["secret@example.com", "\"Harry\"", "\"Fan\"", "Buenos", "3435910", "-34.61", "07"]) assert.ok(!text.includes(secret), secret);
+});
+
+test("ACCESS_MODE=approval: an unapproved account is pending on /api/me, sent to /pending by the gate, refused by the season report", async () => {
+  const pending = createApp(testDeps({ db: sessionDb({ approved_at: null }), config: { accessMode: "approval" } }));
+  const me = (await (await pending.request("/api/me", { headers: { Cookie: `qm_session=${TOKEN}` } })).json()) as Record<string, unknown>;
+  assert.deepEqual(me, { logged_in: true, username: "HarryFan", country: "AR", locale: "en", profile_complete: false, pending: true });
+  const gate = await pending.request("/api/gate", { headers: { Cookie: `qm_session=${TOKEN}`, "X-Forwarded-Uri": "/play/" } });
+  assert.equal(gate.status, 302);
+  assert.equal(gate.headers.get("location"), "/pending");
+  assert.equal((await pending.request("/api/gate", { headers: { Cookie: `qm_session=${TOKEN}`, "X-Forwarded-Method": "POST" } })).status, 401);
+  const report = await pending.request("/api/career/season", { method: "POST", headers: { ...SAME_ORIGIN, Cookie: `qm_session=${TOKEN}`, "Content-Type": "application/json" }, body: "{}" });
+  assert.equal(report.status, 401);
+
+  const approved = createApp(testDeps({ db: sessionDb(), config: { accessMode: "approval" } }));
+  assert.equal((await approved.request("/api/gate", { headers: { Cookie: `qm_session=${TOKEN}` } })).status, 200);
+  const open = createApp(testDeps({ db: sessionDb({ approved_at: null }) }));
+  assert.equal((await open.request("/api/gate", { headers: { Cookie: `qm_session=${TOKEN}` } })).status, 200, "open access ignores approved_at");
+  const blocked = createApp(testDeps({ db: sessionDb({ approved_at: null, blocked_at: new Date() }), config: { accessMode: "approval" } }));
+  assert.equal((await blocked.request("/api/gate", { headers: { Cookie: `qm_session=${TOKEN}` } })).headers.get("location"), "/login?error=blocked");
 });
 
 test("GET /api/gate: 302 to /login without session, /register when incomplete, 200 when complete; never sets cookies", async () => {

@@ -39,3 +39,13 @@ test("trusted client-IP headers: Cloudflare's by default, XFF only outside produ
   assert.deepEqual(loadConfig({ ...PROD, TRUSTED_PROXY_HEADER: "X-Real-IP" }).trustedClientIpHeaders, ["x-real-ip"]);
   assert.throws(() => loadConfig({ ...DEV, TRUSTED_PROXY_HEADER: "not a header" }), ConfigError);
 });
+
+test("ACCESS_MODE: open by default, approval accepted, anything else refused; TELEGRAM_* go together", () => {
+  assert.equal(loadConfig(DEV).accessMode, "open");
+  assert.equal(loadConfig(DEV).telegram, null);
+  assert.equal(loadConfig({ ...DEV, ACCESS_MODE: "approval" }).accessMode, "approval");
+  assert.throws(() => loadConfig({ ...DEV, ACCESS_MODE: "bogus" }), ConfigError);
+  assert.throws(() => loadConfig({ ...PROD, TELEGRAM_BOT_TOKEN: "123:abc" }), /go together/);
+  assert.throws(() => loadConfig({ ...PROD, TELEGRAM_CHAT_ID: "-100" }), /go together/);
+  assert.deepEqual(loadConfig({ ...PROD, TELEGRAM_BOT_TOKEN: "123:abc", TELEGRAM_CHAT_ID: "-100" }).telegram, { botToken: "123:abc", chatId: "-100" });
+});

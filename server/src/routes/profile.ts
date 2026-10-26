@@ -6,9 +6,11 @@ import { clearSessionCookie, readSessionToken } from "../http/cookies.js";
 import { loginErrorPath, redirect303, safeNext } from "../http/redirect.js";
 import { noStore, privateJson } from "../http/respond.js";
 import { getViewer, page, pathForStatus, tOf, viewerStatus } from "../http/viewer.js";
+import { signupAlert } from "../notify/telegram.js";
 import { tooMany } from "./auth.js";
 import { accountBody, ACCOUNT_SAVED, deleteBody, deletedBody, type AccountSaved, type AccountState } from "../pages/account.js";
 import { staticUrl } from "../pages/layout.js";
+import { pendingBody } from "../pages/pending.js";
 import { profileScript } from "../pages/profile-form.js";
 import { registerBody, type RegisterMode, type RegisterState } from "../pages/register.js";
 import { countryFromHeader, normalizeCountry } from "../profile/countries.js";
@@ -92,7 +94,7 @@ function errorStatus(errors: FieldErrors): 400 | 409 {
 }
 
 async function postRegister(c: C, v: SessionUser, mode: RegisterMode): Promise<Response> {
-  const { db, config, now } = c.get("deps");
+  const { db, config, now, notifier } = c.get("deps");
   const form = await formOf(c);
   const next = registerNext(form.next);
   const values = formValues(form);
@@ -102,7 +104,7 @@ async function postRegister(c: C, v: SessionUser, mode: RegisterMode): Promise<R
   if (!(await writeAllowed(c, v))) return tooMany(c);
 
   const errors: FieldErrors = {};
-  const done = (user: SessionUser["user"]) => redirect303(c, pathForStatus(profileStatus(user, config.termsVersion), next), "/play/");
+  const done = (user: SessionUser["user"]) => redirect303(c, pathForStatus(profileStatus(user, config.termsVersion, config.accessMode), next), "/play/");
   const fail = (e: unknown) => {
     if (!(e instanceof ProfileWriteError)) throw e;
     if (e.code === "username_taken" || e.code === "username_same") errors.username = e.code;
@@ -144,8 +146,10 @@ async function postRegister(c: C, v: SessionUser, mode: RegisterMode): Promise<R
   if (username?.ok && !(await usernameAvailable(db, username.value, v.user.id))) errors.username = "username_taken";
   if (!names.ok || !location.ok || username?.ok === false || Object.keys(errors).length) return renderRegister(c, state(errors), errorStatus(errors));
   try {
-    const profile = { ...names.value, location: location.value, termsVersion: config.termsVersion };
+    const profile = { ...names.value, location: location.value, termsVersion: config.termsVersion, approve: config.accessMode === "open" };
     const user = await (username ? registerProfile(db, v.user.id, { ...profile, username: username.value }, now()) : completeProfile(db, v.user.id, profile, now()));
+    // The profile just became complete for the first time: tell the operator. Never awaited, never a failure here.
+    void notifier.send(signupAlert(config, user));
     return done(user);
   } catch (e) {
     return fail(e);
@@ -166,6 +170,7 @@ async function renderAccount(
     username: u.username ?? "",
     countryCode: u.countryCode,
     createdAt: u.createdAt,
+    pending: viewerStatus(c, v) === "pending",
     usernameLockedUntilMs: usernameCooldownUntilMs(u.usernameChangedAt, now()),
     profile: o.profile ?? valuesFromUser(u),
     profileErrors: o.profileErrors ?? {},
@@ -177,11 +182,12 @@ async function renderAccount(
   return page(c, { title: t("web.account.title"), status: o.status ?? 200, body: accountBody(t, state), head: script() });
 }
 
+/** The account pages: a complete profile, approved or still waiting (a pending player may edit and sign out). */
 async function completeViewer(c: C, here: string): Promise<SessionUser | Response> {
   const v = await getViewer(c);
   if (!v) return toLogin(c, here);
   const status = viewerStatus(c, v);
-  if (status !== "complete") return redirect303(c, pathForStatus(status, here), "/");
+  if (status !== "complete" && status !== "pending") return redirect303(c, pathForStatus(status, here), "/");
   return v;
 }
 
@@ -201,7 +207,7 @@ export function registerProfileRoutes(app: Hono<AppEnv>): void {
     if (!v) return toLogin(c, next);
     const status = viewerStatus(c, v);
     if (status === "complete") return redirect303(c, next, "/play/");
-    if (status === "blocked") return redirect303(c, loginErrorPath("blocked"));
+    if (status === "pending" || status === "blocked") return redirect303(c, pathForStatus(status, next), "/");
     const values = valuesFromUser(v.user);
     if (status === "rename") values.username = "";
     if (!values.country) values.country = countryFromHeader(c.req.header("cf-ipcountry")) ?? "";
@@ -212,12 +218,23 @@ export function registerProfileRoutes(app: Hono<AppEnv>): void {
     const v = await getViewer(c);
     if (!v) return toLogin(c, "/play/");
     const status = viewerStatus(c, v);
-    if (status === "blocked") return redirect303(c, loginErrorPath("blocked"));
+    if (status === "pending" || status === "blocked") return redirect303(c, pathForStatus(status, "/play/"), "/");
     if (status === "complete") {
       const form = await formOf(c);
       return redirect303(c, registerNext(form.next), "/play/");
     }
     return postRegister(c, v, status);
+  });
+
+  // The waiting room of a closed trial (ACCESS_MODE=approval): the gate sends a complete-but-unapproved account here.
+  app.get("/pending", async (c) => {
+    const v = await getViewer(c);
+    if (!v) return toLogin(c, "/pending");
+    const status = viewerStatus(c, v);
+    if (status === "complete") return redirect303(c, "/play/");
+    if (status !== "pending") return redirect303(c, pathForStatus(status, "/play/"), "/");
+    const t = tOf(c);
+    return page(c, { title: t("web.pending.title"), body: pendingBody(t) });
   });
 
   app.get("/account", async (c) => {

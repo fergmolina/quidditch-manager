@@ -9,7 +9,7 @@ on a top-down 2D pitch.
 > Bloomsbury or Wizarding World Digital. Harry Potter and all related names belong to their owners.
 > See [ATTRIBUTION.md](ATTRIBUTION.md).
 
-Version 0.12.0, pre-release. Desktop builds (Windows and macOS) and the browser version come from the
+Version 0.12.1, pre-release. Desktop builds (Windows and macOS) and the browser version come from the
 [Releases](https://github.com/fergmolina/quidditch-manager/releases) page once the first one is tagged. The hosted
 web version is not public yet.
 
@@ -80,6 +80,8 @@ What the server keeps, and nothing else:
   them out.
 - What you send through the feedback form at `/feedback` (bug or idea, your message, an optional reply address),
   kept for 12 months. The form needs no account. The game's About box links to it.
+- Whether and when your account was approved, during a closed trial where the operator lets players in by hand;
+  the operator is then told about each sign-up through Telegram, with your username and country only.
 
 Your saves stay in your browser and in the files you download. They are never uploaded. There is no analytics,
 advertising or tracking, and only the cookies needed to stay signed in and remember your language. On your account

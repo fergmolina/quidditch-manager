@@ -3057,3 +3057,7 @@ ui.about.feedback,Signaler des bugs et des idées
 ui.list.name_detail,{name} ({detail})
 ui.match.finish_first,Termine le match avant de changer de poste.
 news.award_no_club,"{award}, {league} : {player}"
+web.pending.title,Ton compte est en attente d'approbation
+web.pending.intro,"Pendant quelques jours, nous laissons entrer les gens à la main. Tu pourras jouer dès que ton compte sera approuvé."
+web.pending.later,"Reviens plus tard, ou consulte la page de ton compte."
+web.pending.status,Ton compte est encore en attente d'approbation : tu pourras jouer dès qu'il sera approuvé.

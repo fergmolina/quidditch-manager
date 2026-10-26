@@ -26,13 +26,16 @@ export function tOf(c: C): T {
 }
 
 export function viewerStatus(c: C, v: SessionUser): ProfileStatus {
-  return profileStatus(v.user, c.get("deps").config.termsVersion);
+  const { config } = c.get("deps");
+  return profileStatus(v.user, config.termsVersion, config.accessMode);
 }
 
 export function pathForStatus(status: ProfileStatus, next: string): string {
   switch (status) {
     case "complete":
       return next;
+    case "pending":
+      return "/pending";
     case "blocked":
       return "/login?error=blocked";
     default:

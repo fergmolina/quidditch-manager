@@ -6,6 +6,7 @@ import { ConfigError, loadConfig } from "./config.js";
 import { createPool } from "./db.js";
 import { GENERATED_STRINGS_PATH } from "./i18n/i18n.js";
 import { createMailer } from "./mail/send.js";
+import { createNotifier } from "./notify/telegram.js";
 import type { Logger } from "./types.js";
 
 const log: Logger = {
@@ -31,12 +32,14 @@ function main(): void {
   }
   if (!config.authSecretFromEnv) log.warn("[config] AUTH_SECRET is not set: using a random per-process key");
   if (config.feedbackTo && config.isProd && !config.mail.resendApiKey) log.warn("[config] FEEDBACK_TO is set but email is off: feedback is stored, not mailed");
+  if (config.accessMode === "approval") log.info("[config] ACCESS_MODE=approval: new accounts wait for approval at /admin/users");
 
   const pool = createPool(config.databaseUrl, config.dbPoolMax);
   const app = createApp({
     config,
     db: pool.db,
     mailer: createMailer(config, log),
+    notifier: createNotifier(config, log, globalThis.fetch),
     fetch: globalThis.fetch,
     googleKeys: googleRemoteKeys(),
     now: Date.now,

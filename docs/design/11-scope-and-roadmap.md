@@ -76,6 +76,23 @@ Markers used below: **[FILLER]** = invented content not found in the books; **[g
 
 Newest first.
 
+### 2026-10-26: v0.12.1: closed trial with manual approval, Telegram sign-up alerts, goal sound
+
+- **Goal sound.** The three-note fanfare is now the stands erupting: a crowd swell with twelve synthesized
+  "voices" (resonant band-passed noise whose pitch sags like a shouted "yeaah") over a low rumble, 2.6 s, fading
+  into the cheer (`tools/make_sounds.gd` `_goal`; still no third-party audio).
+- **First deployment** of the browser version on the owner's VPS (v0.12.0; `deploy/README.md`): the API image is
+  built on the box because the GHCR push from the release workflow is refused while the package is not linked to
+  the repository (`API_IMAGE` empty).
+- **Closed trial and sign-up alerts** (server). `ACCESS_MODE=approval` makes every new account wait on `/pending`
+  (new profile status between `terms` and `complete`; the gate, `/api/me` and the season report treat it as
+  incomplete) until the operator approves it on `/admin/users` (admins only, `is_admin` via
+  `deploy/db/make-admin.sh`; approve, revoke, block with session revocation, unblock; `/admin/feedback` lists the
+  last 50 reports). Migration `0006_approval.sql` adds `approved_at`/`approved_by` and approves existing accounts
+  once; open access approves each registration as it happens, so flipping the switch never locks anyone out. A
+  Telegram message (username and country only) goes to the operator per completed registration and per feedback
+  submission (`src/notify/telegram.ts`). Privacy policy updated in 10 languages (approval date, Telegram).
+
 ### 2026-10-26: v0.12.0: quality pass, owls rebuilt, two engine bugs fixed, no crash on quit
 
 A whole-repo quality pass (comment cleanup, simplification, bug review) and the follow-up program that resolved its

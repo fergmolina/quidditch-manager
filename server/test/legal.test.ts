@@ -122,7 +122,7 @@ test("the privacy policy names every processor, both legal bases and the retenti
   const sources = loadLegalSources();
   for (const lang of LANGS) {
     const src = sources.privacy[lang] ?? "";
-    for (const name of ["Hetzner", "Cloudflare", "Resend", "Google", "Backblaze", "GeoNames"]) {
+    for (const name of ["Hetzner", "Cloudflare", "Resend", "Google", "Backblaze", "Telegram", "GeoNames"]) {
       assert.ok(src.includes(name), `privacy.${lang} does not mention ${name}`);
     }
     assert.ok(src.includes("6(1)(b)") && src.includes("6(1)(f)"), `privacy.${lang}: legal bases`);

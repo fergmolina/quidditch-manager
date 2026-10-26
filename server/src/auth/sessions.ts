@@ -1,4 +1,4 @@
-import { toIso, toMs, type Db } from "../db.js";
+import { toIso, toMs, type Db, type TxDb } from "../db.js";
 import { randomToken, sha256Hex, TOKEN_RE } from "./tokens.js";
 
 const DAY_MS = 86_400_000;
@@ -28,6 +28,8 @@ export interface UserRow {
   must_rename: boolean;
   is_admin: boolean;
   blocked_at: string | Date | null;
+  approved_at: string | Date | null;
+  approved_by: string | null;
   created_at: string | Date;
   last_login_at: string | Date | null;
 }
@@ -48,6 +50,8 @@ export interface User {
   mustRename: boolean;
   isAdmin: boolean;
   blockedAt: string | null;
+  /** Null while the account waits for the operator (ACCESS_MODE=approval). */
+  approvedAt: string | null;
   createdAt: string;
   lastLoginAt: string | null;
 }
@@ -72,6 +76,7 @@ export function rowToUser(r: UserRow): User {
     mustRename: !!r.must_rename,
     isAdmin: !!r.is_admin,
     blockedAt: toIso(r.blocked_at),
+    approvedAt: toIso(r.approved_at),
     createdAt: toIso(r.created_at) ?? new Date(0).toISOString(),
     lastLoginAt: toIso(r.last_login_at),
   };
@@ -199,7 +204,7 @@ export async function deleteSession(db: Db, token: string | null | undefined): P
   await db.query("delete from public.sessions where id = $1 or prev_id = $1", [hash]);
 }
 
-export async function deleteUserSessions(db: Db, userId: string): Promise<number> {
+export async function deleteUserSessions(db: TxDb, userId: string): Promise<number> {
   const rows = await db.query<{ id: string }>("delete from public.sessions where user_id = $1::uuid returning id", [userId]);
   return rows.length;
 }

@@ -142,7 +142,7 @@ describe("accounts against a real Postgres", { skip: !ADMIN_URL && "TEST_DATABAS
     assert.equal(srow!.id, sha256Hex(sessionCookie));
 
     const me1 = await app.request("/api/me", { headers: { Cookie: b.cookie() } });
-    assert.deepEqual(await me1.json(), { logged_in: true, username: null, country: null, locale: "en", profile_complete: false });
+    assert.deepEqual(await me1.json(), { logged_in: true, username: null, country: null, locale: "en", profile_complete: false, pending: false });
     const g1 = await app.request("/api/gate", { headers: { Cookie: b.cookie(), "X-Forwarded-Uri": "/play/" } });
     assert.equal(g1.status, 302);
     assert.equal(g1.headers.get("location"), "/register?next=%2Fplay%2F");
@@ -151,7 +151,7 @@ describe("accounts against a real Postgres", { skip: !ADMIN_URL && "TEST_DATABAS
     const g2 = await app.request("/api/gate", { headers: { Cookie: b.cookie(), "X-Forwarded-Uri": "/play/" } });
     assert.equal(g2.status, 200);
     const me2 = await app.request("/api/me", { headers: { Cookie: `${b.cookie()}; qm_lang=fr` } });
-    assert.deepEqual(await me2.json(), { logged_in: true, username: "FlowUser", country: "FR", locale: "fr", profile_complete: true });
+    assert.deepEqual(await me2.json(), { logged_in: true, username: "FlowUser", country: "FR", locale: "fr", profile_complete: true, pending: false });
 
     await sql`update users set must_rename = true where id = ${user.id}`;
     assert.equal((await app.request("/api/gate", { headers: { Cookie: b.cookie() } })).headers.get("location"), "/register?next=%2Fplay%2F");

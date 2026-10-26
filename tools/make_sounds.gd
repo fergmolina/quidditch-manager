@@ -57,24 +57,54 @@ func _whistle() -> PackedFloat32Array:
 	return out
 
 
+## A goal: the stands erupt. A fast swell of crowd noise with a dozen "voices" (resonant band-passed noise whose
+## pitch sags like a shouted "yeaah"), a low rumble underneath, and a slow fade as the shout turns into cheering.
 func _goal() -> PackedFloat32Array:
-	var total := 1.4
+	var total := 2.6
 	var out := PackedFloat32Array()
 	var n := int(total * RATE)
 	out.resize(n)
-	var notes := [392.0, 523.25, 659.25]
 	var rng := RandomNumberGenerator.new()
 	rng.seed = 2
+	const VOICES := 12
+	var centre: Array[float] = []   # Hz, the shout's formant per voice
+	var onset: Array[float] = []    # s, nobody shouts at exactly the same time
+	var vib: Array[float] = []      # Hz, slight wobble
+	var s1 := PackedFloat32Array()  # state-variable filter memory (band-pass) per voice
+	var s2 := PackedFloat32Array()
+	s1.resize(VOICES)
+	s2.resize(VOICES)
+	for v in VOICES:
+		centre.append(rng.randf_range(260.0, 820.0))
+		onset.append(rng.randf_range(0.0, 0.16))
+		vib.append(rng.randf_range(4.0, 7.0))
+	var lp := 0.0
+	var lp2 := 0.0
+	var rumble := 0.0
 	for i in n:
 		var t := float(i) / RATE
-		var k := mini(int(t / 0.22), 2)
-		var f: float = notes[k]
-		var tone := 0.0
-		for h in [1.0, 2.0, 3.0]:
-			tone += sin(t * TAU * f * h) / h
-		var e := _env(t, 0.02, 0.5, total) * (1.0 if t < 0.66 else 0.6)
-		var noise := rng.randf_range(-1, 1) * 0.18 * clampf((t - 0.3) * 2.0, 0.0, 1.0) * _env(t, 0.3, 0.4, total)
-		out[i] = 0.45 * e * tone * (0.3 if t > 0.75 else 1.0) + noise
+		var white := rng.randf_range(-1, 1)
+		# Bed: the same low murmur as the crowd loop, swelling hard at the goal.
+		lp += (white - lp) * 0.08
+		lp2 += (lp - lp2) * 0.05
+		rumble += (white - rumble) * 0.015
+		var swell := _env(t, 0.06, 1.2, total)
+		var bed := (lp2 * 3.2 + rumble * 2.0) * swell
+		# Voices: each one a resonant band-pass on fresh noise; the centre glides down over the shout.
+		var voices := 0.0
+		for v in VOICES:
+			var tv := t - onset[v]
+			if tv < 0.0:
+				continue
+			var env := _env(tv, 0.05, 0.9, total - onset[v]) * (1.0 if tv < 0.7 else 0.55)
+			var f: float = centre[v] * (1.0 - 0.18 * clampf(tv / 1.1, 0.0, 1.0)) * (1.0 + 0.02 * sin(tv * TAU * vib[v]))
+			var fc := 2.0 * sin(PI * f / RATE)
+			var q := 0.12
+			var hp := rng.randf_range(-1, 1) - s2[v] - q * s1[v]
+			s1[v] += fc * hp
+			s2[v] += fc * s1[v]
+			voices += s1[v] * env
+		out[i] = clampf(0.55 * bed + 0.16 * voices, -1.0, 1.0)
 	return out
 
 

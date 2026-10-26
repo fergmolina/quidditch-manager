@@ -77,7 +77,7 @@ describe("registration and account against a real Postgres", { skip: !ADMIN_URL 
       { username: "FirstOne", first_name: "Ana", last_name: null, country_code: "AR", region_code: "07", city_geonameid: 3435910, city_name: "Buenos Aires", city_lat: -34.6131, city_lon: -58.3772, terms_version: "2026-11-01", terms_accepted_at: true, username_changed_at: null },
     );
     assert.equal((await app.request("/api/gate", { headers: { Cookie: cookie, "X-Forwarded-Uri": "/play/" } })).status, 200);
-    assert.deepEqual(await (await app.request("/api/me", { headers: { Cookie: cookie } })).json(), { logged_in: true, username: "FirstOne", country: "AR", locale: "en", profile_complete: true });
+    assert.deepEqual(await (await app.request("/api/me", { headers: { Cookie: cookie } })).json(), { logged_in: true, username: "FirstOne", country: "AR", locale: "en", profile_complete: true, pending: false });
     const again = await post(app, cookie, "/register", { next: "/play/", username: "Sneaky", country: "AR", terms: "yes" });
     assert.equal(again.status, 303);
     assert.equal((await sql`select username from users where email = 'first@example.com'`)[0]!.username, "FirstOne");
@@ -170,7 +170,9 @@ describe("registration and account against a real Postgres", { skip: !ADMIN_URL 
     assert.equal(exp.status, 200);
     const data = (await exp.json()) as any;
     const cols = (await sql`select column_name from information_schema.columns where table_schema = 'public' and table_name = 'users'`).map((r) => r.column_name as string);
-    assert.deepEqual(Object.keys(data.account).sort(), [...cols].sort(), "every column of users");
+    // approved_by is the approving admin's id, another person's data: the one column the export leaves out.
+    assert.deepEqual(Object.keys(data.account).sort(), cols.filter((c) => c !== "approved_by").sort(), "every column of users but approved_by");
+    assert.ok(cols.includes("approved_by") && "approved_at" in data.account);
     assert.equal(data.account.email, "owner@example.com");
     assert.equal(data.sessions.length, 1);
     assert.ok(data.sign_in_links.length >= 2);

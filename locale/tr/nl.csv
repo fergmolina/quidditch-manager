@@ -3057,3 +3057,7 @@ ui.about.feedback,Fouten en ideeën melden
 ui.list.name_detail,{name} ({detail})
 ui.match.finish_first,Rond de wedstrijd af voordat je van baan wisselt.
 news.award_no_club,"{award}, {league}: {player}"
+web.pending.title,Je account wacht op goedkeuring
+web.pending.intro,Een paar dagen lang laten we mensen handmatig binnen. Je kunt spelen zodra je account is goedgekeurd.
+web.pending.later,Kom later terug of kijk op je accountpagina.
+web.pending.status,Je account wacht nog op goedkeuring: je kunt spelen zodra het is goedgekeurd.

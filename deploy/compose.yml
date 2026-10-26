@@ -90,6 +90,11 @@ services:
       FEEDBACK_TO: ${FEEDBACK_TO:-}
       # Promised on the account deletion page; keep it at or above the backup service's keep window (7 daily + 4 weekly).
       BACKUP_RETENTION_DAYS: ${BACKUP_RETENTION_DAYS:-45}
+      # open | approval (closed trial: new accounts wait for approval at /admin/users).
+      ACCESS_MODE: ${ACCESS_MODE:-open}
+      # Sign-up and feedback alerts to the operator (same bot as the backup and health alerts).
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:-}
+      TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID:-}
       TZ: UTC
     networks: [back, data]
     read_only: true
