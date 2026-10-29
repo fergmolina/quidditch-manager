@@ -202,8 +202,7 @@ export function registerLegalRoutes(app: Hono<AppEnv>): void {
         termsVersion: config.termsVersion,
         original: c.req.query("original") === "1",
       });
-      c.header("X-Robots-Tag", "index, follow");
-      return page(c, { title: r.title, body: r.body, noindex: false });
+      return page(c, { title: r.title, body: r.body, seo: { path: `/${doc}` } });
     });
   }
 }

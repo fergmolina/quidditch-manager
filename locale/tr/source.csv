@@ -3153,3 +3153,45 @@ web.pending.title,Tu cuenta está esperando aprobación,Your account is waiting 
 web.pending.intro,Durante unos días estamos dejando entrar a la gente a mano. Vas a poder jugar en cuanto aprobemos tu cuenta.,For a few days we are letting people in by hand. You will be able to play as soon as your account is approved.
 web.pending.later,Volvé más tarde o fijate en tu página de cuenta.,"Come back later, or check your account page."
 web.pending.status,Tu cuenta todavía está esperando aprobación: vas a poder jugar en cuanto la aprobemos.,Your account is still waiting for approval: you will be able to play as soon as it is approved.
+web.seo.home_title,Quidditch Manager: juego de mánager de Quidditch gratis,Quidditch Manager: a free Quidditch management game
+web.seo.home_description,"Mánager de Quidditch gratis, fiel a los libros de Harry Potter: 194 clubes, casas de Hogwarts, táctica, fichajes, partidos 2D. En el navegador, Windows o macOS.","A free Quidditch manager true to the Harry Potter books: 194 clubs, Hogwarts houses, tactics, transfers, 2D matches. Play in your browser, on Windows or macOS."
+web.seo.faq_description,"Qué es Quidditch Manager, cuánto cuesta (nada), cómo se juega en el navegador o en la PC, dónde quedan las partidas y en qué se parece a Football Manager.","What Quidditch Manager is, what it costs (nothing), how to play in your browser or on a computer, where your saves are and how it compares to Football Manager."
+web.seo.ranking_description,"Los mejores mánagers de Quidditch Manager por reputación, títulos y temporadas, en todo el mundo y por país.","The best Quidditch Manager players by reputation, titles and seasons managed, worldwide and by country."
+web.nav.faq,Preguntas frecuentes,FAQ
+web.landing.features_title,Qué podés hacer,What you can do
+web.landing.f_world_title,Todo el mundo mágico,A whole wizarding world
+web.landing.f_world_text,"194 clubes en 20 ligas de todos los continentes, copas nacionales, la Copa de Europa y un Mundial de Quidditch cada cuatro años con selecciones.","194 clubs in 20 leagues on every continent, national cups, the European Cup and a Quidditch World Cup with national teams every four years."
+web.landing.f_schools_title,Hogwarts y los colegios de magia,Hogwarts and the wizarding schools
+web.landing.f_schools_text,"Once colegios de magia, de Hogwarts a Beauxbatons, Durmstrang e Ilvermorny, con cuatro casas cada uno y su propia Copa de Quidditch. Dirigí una casa en vez de un club, o fichá a sus mejores alumnos.","Eleven wizarding schools, from Hogwarts to Beauxbatons, Durmstrang and Ilvermorny, each with four houses and their own Quidditch Cup. Manage a house instead of a club, or sign their best students."
+web.landing.f_players_title,Jugadores que mejoran y envejecen,Players who grow and decline
+web.landing.f_players_text,"Atributos del 1 al 20 al estilo de Football Manager 2007: técnicos, mentales, físicos, de vuelo y propios de cada puesto, con habilidad actual y potencial. Mejoran con el entrenamiento y los minutos, y declinan con la edad.","Attributes from 1 to 20 in the style of Football Manager 2007: technical, mental, physical, flying and position-specific, with current and potential ability. Players improve with training and match time and decline with age."
+web.landing.f_matches_title,Partidos que podés mirar,Matches you can watch
+web.landing.f_matches_text,"Seguí cada partido con la crónica en texto o en una cancha 2D vista desde arriba, y usá las jugadas de los libros como instrucciones tácticas: el Amago de Wronski, la Formación de ataque Cabeza de Halcón o la Defensa del doble golpeador.","Follow every match as text commentary or on a top-down 2D pitch, and use the moves from the books as tactical instructions: the Wronski Feint, the Hawkshead Attacking Formation or the Dopplebeater Defence."
+web.landing.f_manager_title,Todo el trabajo del mánager,The whole manager's job
+web.landing.f_manager_text,"Fichajes, préstamos y contratos, ojeadores, entrenamiento, cuerpo técnico, finanzas, objetivos de la directiva, ruedas de prensa y El Profeta.","Transfers, loans and contracts, scouting, training, staff, finances, board objectives, press conferences and the Daily Prophet."
+web.landing.f_langs_title,Diez idiomas,Ten languages
+web.landing.f_langs_text,"Español, inglés, alemán, francés, italiano, portugués de Brasil, neerlandés, ruso, japonés y chino simplificado, con los términos de Quidditch de cada edición de los libros.","English, Spanish, German, French, Italian, Brazilian Portuguese, Dutch, Russian, Japanese and Simplified Chinese, with the Quidditch terms of each edition of the books."
+web.landing.shot_squad,La pantalla de la plantilla,The squad screen
+web.landing.shot_match,Un partido en la cancha 2D,A match on the 2D pitch
+web.landing.shot_hogwarts,Hogwarts y sus cuatro casas,Hogwarts and its four houses
+web.landing.faq_link,¿Tenés dudas? Leé las preguntas frecuentes.,Questions? Read the FAQ.
+web.faq.title,Preguntas frecuentes,Frequently asked questions
+web.faq.q_free,¿Quidditch Manager es gratis?,Is Quidditch Manager free?
+web.faq.a_free,"Sí. Es un fan project gratuito y sin fines comerciales: no cuesta nada, no tiene publicidad ni compras dentro del juego.","Yes. It is a free, non-commercial fan project: no price, no advertising and no in-game purchases."
+web.faq.q_official,¿Es un juego oficial de Harry Potter?,Is it an official Harry Potter game?
+web.faq.a_official,"No. Lo hacen fans y no tiene relación con J. K. Rowling, Warner Bros. ni Wizarding World Digital, que tampoco lo respaldan. El mundo, los clubes y los jugadores salen de los libros y de «Quidditch a través de los tiempos»; lo que los libros no cuentan se inventó para completar los huecos.","No. It is made by fans and is not affiliated with or endorsed by J. K. Rowling, Warner Bros. or Wizarding World Digital. The world, clubs and players come from the books and Quidditch Through the Ages; whatever the books leave out was invented to fill the gaps."
+web.faq.q_play,¿Cómo se juega?,How do I play?
+web.faq.a_play,"En el navegador, con una cuenta gratuita: entrás, elegís un nombre de usuario y tu país, y listo. También podés descargarlo para Windows o macOS, sin cuenta.","In your browser, with a free account: sign in, choose a username and your country, and you are in. You can also download it for Windows or macOS, with no account."
+web.faq.q_fm,¿Se parece a Football Manager?,Is it like Football Manager?
+web.faq.a_fm,"Es su inspiración: Football Manager 2007 llevado al Quidditch. Elegís el equipo y la táctica, fichás jugadores, los entrenás y manejás la plata del club; los partidos se simulan y los mirás como crónica o en una cancha 2D.","That is the inspiration: Football Manager 2007 brought to Quidditch. You pick the team and the tactics, sign players, train them and run the club's money; matches are simulated and you watch them as commentary or on a 2D pitch."
+web.faq.q_hogwarts,¿Puedo dirigir una casa de Hogwarts?,Can I manage a Hogwarts house?
+web.faq.a_hogwarts,"Sí. Cada colegio de magia tiene cuatro casas que juegan su propia Copa de Quidditch. Podés hacerte cargo de una casa en vez de un club, y los mejores alumnos llegan después al Quidditch profesional.","Yes. Each wizarding school has four houses that play their own Quidditch Cup. You can take charge of a house instead of a club, and the best students later turn professional."
+web.faq.q_era,¿En qué época transcurre?,When is the game set?
+web.faq.a_era,"Empieza en la temporada 1993-94, con los clubes y jugadores de esa época, y sigue temporada tras temporada.","It starts in the 1993-94 season, with the clubs and players of that time, and carries on season after season."
+web.faq.q_saves,¿Dónde quedan mis partidas?,Where are my saved games?
+web.faq.a_saves,"En tu navegador, en esa computadora: nuestro servidor no guarda partidas. Para no perderlas o seguir en otro navegador, exportalas a un archivo desde «Guardar / Cargar».","In your browser, on that computer: our server keeps no saved games. To keep them safe or carry on in another browser, export them to a file from Save / Load."
+web.faq.q_langs,¿En qué idiomas está?,Which languages does it support?
+web.faq.a_langs,"En diez: español, inglés, alemán, francés, italiano, portugués de Brasil, neerlandés, ruso, japonés y chino simplificado. Se cambia en la configuración del juego.","Ten: English, Spanish, German, French, Italian, Brazilian Portuguese, Dutch, Russian, Japanese and Simplified Chinese. You can switch in the game's settings."
+web.faq.q_code,¿El código es abierto?,Is it open source?
+web.faq.a_code,"Sí, con licencia MIT en GitHub, donde también podés reportar errores y proponer correcciones al canon.","Yes, under the MIT licence on GitHub, where you can also report bugs and suggest canon corrections."
+web.og.image_alt,"Quidditch Manager, un mánager de Quidditch fiel a los libros","Quidditch Manager, a Quidditch manager true to the books"

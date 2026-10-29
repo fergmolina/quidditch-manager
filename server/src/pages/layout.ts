@@ -1,5 +1,6 @@
 import { html, trustedHtml, type HtmlValue, type SafeHtml } from "../http/html.js";
 import { computeAssetVersion } from "../http/static.js";
+import { seoHead, OG_IMAGE, type SeoMeta } from "../http/seo.js";
 import { bcp47, LANG_NATIVE_NAMES, LANGS, type Lang, type T } from "../i18n/i18n.js";
 
 /** Cache-busting hash of the static files; fixed for the life of the process, like the files it covers. */
@@ -23,6 +24,12 @@ export interface LayoutOptions {
   head?: HtmlValue;
   noindex?: boolean;
   bare?: boolean;
+  /** Indexable page: description, canonical, hreflang alternates, Open Graph and JSON-LD. */
+  seo?: SeoMeta;
+  /** Absolute origin for the canonical and Open Graph URLs (config.siteUrl). */
+  siteUrl?: string;
+  /** The title already names the game: no " · Quidditch Manager" suffix. */
+  titleAbsolute?: boolean;
 }
 
 export function withLang(currentUrl: string, lang: Lang): string {
@@ -34,6 +41,10 @@ export function withLang(currentUrl: string, lang: Lang): string {
 export function layout(o: LayoutOptions): SafeHtml {
   const { t, lang } = o;
   const app = t("ui.app_title");
+  const title = o.titleAbsolute || o.title === app ? o.title : `${o.title} · ${app}`;
+  const seo = o.seo
+    ? seoHead({ siteUrl: o.siteUrl ?? "", lang, title, siteName: app, imageUrl: `${o.siteUrl ?? ""}${staticUrl(OG_IMAGE.path)}`, imageAlt: t("web.og.image_alt"), meta: o.seo })
+    : "";
   const nav = o.bare
     ? null
     : o.viewer
@@ -51,10 +62,10 @@ export function layout(o: LayoutOptions): SafeHtml {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-${o.noindex ? trustedHtml('<meta name="robots" content="noindex, nofollow">\n') : ""}<title>${o.title === app ? app : `${o.title} · ${app}`}</title>
+${o.noindex ? trustedHtml('<meta name="robots" content="noindex, nofollow">\n') : ""}<title>${title}</title>
 <link rel="stylesheet" href="${staticUrl("site.css")}">
 <link rel="icon" type="image/png" href="${staticUrl("icon.png")}">
-${o.head ?? ""}
+${seo}${o.head ?? ""}
 </head>
 <body>
 <header class="bar">
@@ -66,7 +77,7 @@ ${o.body}
 </main>
 <footer>
 <nav aria-label="${t("web.lang.switch")}"><ul class="langs">${langs}</ul></nav>
-<p><a href="/privacy">${t("web.footer.privacy")}</a> · <a href="/terms">${t("web.footer.terms")}</a> · <a href="/feedback">${t("web.footer.feedback")}</a></p>
+<p><a href="/faq">${t("web.nav.faq")}</a> · <a href="/privacy">${t("web.footer.privacy")}</a> · <a href="/terms">${t("web.footer.terms")}</a> · <a href="/feedback">${t("web.footer.feedback")}</a></p>
 <p>${t("web.footer.fan_project")}</p>
 </footer>
 </body>

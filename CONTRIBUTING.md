@@ -108,6 +108,7 @@ The capture occasionally produces a blank image on the first frames. Run it agai
 | Maps | `python3 tools/make_map.py` |
 | Paper textures | `godot --headless --path . -s tools/make_paper.gd` |
 | Sounds and music | `godot --headless --path . -s tools/make_sounds.gd`, `tools/make_music.gd` |
+| Website images (captures, link preview) | `bash tools/make_site_images.sh` (cwebp + Godot) |
 | Logo, icon, Daily Prophet badge | `tools/make_logo.gd`, `tools/make_icon.gd`, `tools/make_prophet.gd` |
 | Windows icon (`assets/icon.ico`) | `python3 tools/make_ico.py` (macOS, uses `sips`) |
 | Fallback fonts (symbols, Japanese, Chinese; `assets/fonts/fallback/`) | `python3 tools/make_fallback_fonts.py` (needs `pip install fonttools`); rerun when a translation adds characters the test `test_fonts_cover_translations` reports as missing |

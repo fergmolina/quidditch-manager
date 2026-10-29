@@ -12,7 +12,8 @@
 #   /play/<file>               unversioned fallback (an HTML page without the <base>): served from the current
 #                              release with no-cache, revalidated by ETag. Not gated: the export archives are public
 #                              on GitHub Releases anyway (soft gate, design §0).
-#   everything else            reverse_proxy to the api: /, /login, /register, /account*, /auth/*, /api/*,
+#   http:// via Cloudflare     301 to https (CF-Visitor says the visitor's scheme; TLS ends at Cloudflare).
+#   everything else            reverse_proxy to the api: /, /faq, /robots.txt, /sitemap.xml, /login, /register, /account*, /auth/*, /api/*,
 #                              /privacy, /terms, /static/*, /healthz, and the api's own localized 404 page. The api
 #                              sets its own security headers, CSP and cache headers; nothing here overrides them.
 #
@@ -70,6 +71,11 @@
 	encode zstd gzip
 
 	redir /play /play/ 308
+
+	# A visitor who typed http:// reached Cloudflare over plain HTTP: CF-Visitor carries that scheme. Send them (and
+	# crawlers) to https, so each page has one URL. Requests from the host itself (no CF-Visitor) are left alone.
+	@cfHttp header CF-Visitor `*"scheme":"http"*`
+	redir @cfHttp https://{host}{uri} 301
 
 	# The four /play/ matchers are disjoint, so the order of the handle blocks below does not matter.
 	@playHtml path /play/ /play/index.html

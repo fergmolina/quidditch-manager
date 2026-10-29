@@ -3061,3 +3061,45 @@ web.pending.title,Sua conta está aguardando aprovação
 web.pending.intro,Por alguns dias estamos liberando a entrada manualmente. Você vai poder jogar assim que sua conta for aprovada.
 web.pending.later,Volte mais tarde ou confira a página da sua conta.
 web.pending.status,Sua conta ainda está aguardando aprovação: você vai poder jogar assim que ela for aprovada.
+web.seo.home_title,Quidditch Manager: jogo de gestão de Quadribol grátis
+web.seo.home_description,"Manager de Quadribol grátis, fiel aos livros de Harry Potter: 194 clubes, casas de Hogwarts, tática, transferências, partidas 2D. Navegador, Windows ou macOS."
+web.seo.faq_description,"O que é o Quidditch Manager, quanto custa (nada), como jogar no navegador ou no computador, onde ficam seus jogos salvos e o que ele tem do Football Manager."
+web.seo.ranking_description,"Os melhores técnicos do Quidditch Manager por reputação, títulos e temporadas, no mundo todo e por país."
+web.nav.faq,Perguntas frequentes
+web.landing.features_title,O que você pode fazer
+web.landing.f_world_title,Todo o mundo bruxo
+web.landing.f_world_text,"194 clubes em 20 ligas de todos os continentes, copas nacionais, a Copa Europeia e, a cada quatro anos, uma Copa Mundial de Quadribol com seleções."
+web.landing.f_schools_title,Hogwarts e as escolas de magia
+web.landing.f_schools_text,"Onze escolas de magia, de Hogwarts a Beauxbatons, Durmstrang e Ilvermorny, cada uma com quatro casas e sua própria Taça de Quadribol. Comande uma casa em vez de um clube, ou contrate seus melhores alunos."
+web.landing.f_players_title,Jogadores que evoluem e envelhecem
+web.landing.f_players_text,"Atributos de 1 a 20 no estilo do Football Manager 2007: técnicos, mentais, físicos, de voo e específicos de cada posição, com habilidade atual e potencial. Os jogadores melhoram com o treinamento e os minutos em campo e declinam com a idade."
+web.landing.f_matches_title,Partidas que você pode assistir
+web.landing.f_matches_text,"Acompanhe cada partida pela narração em texto ou num campo 2D visto de cima, e use as jogadas dos livros como instruções táticas: a Finta de Wronski, a Formação de ataque Cabeça de Falcão ou a Defesa do batedor duplo."
+web.landing.f_manager_title,Todo o trabalho do técnico
+web.landing.f_manager_text,"Transferências, empréstimos e contratos, olheiros, treinamento, comissão técnica, finanças, objetivos da diretoria, entrevistas coletivas e O Profeta Diário."
+web.landing.f_langs_title,Dez idiomas
+web.landing.f_langs_text,"Inglês, espanhol, alemão, francês, italiano, português do Brasil, holandês, russo, japonês e chinês simplificado, com os termos de Quadribol de cada edição dos livros."
+web.landing.shot_squad,A tela do elenco
+web.landing.shot_match,Uma partida no campo 2D
+web.landing.shot_hogwarts,Hogwarts e suas quatro casas
+web.landing.faq_link,Dúvidas? Leia as perguntas frequentes.
+web.faq.title,Perguntas frequentes
+web.faq.q_free,O Quidditch Manager é grátis?
+web.faq.a_free,"Sim. É um projeto de fã gratuito e sem fins comerciais: não custa nada, não tem publicidade nem compras dentro do jogo."
+web.faq.q_official,É um jogo oficial de Harry Potter?
+web.faq.a_official,"Não. É feito por fãs e não tem vínculo com J. K. Rowling, Warner Bros. nem Wizarding World Digital, que também não o endossam. O mundo, os clubes e os jogadores vêm dos livros e de “Quadribol Através dos Séculos”; o que os livros não contam foi inventado para preencher as lacunas."
+web.faq.q_play,Como se joga?
+web.faq.a_play,"No navegador, com uma conta gratuita: entre, escolha um nome de usuário e seu país, e pronto. Você também pode baixá-lo para Windows ou macOS, sem conta."
+web.faq.q_fm,É parecido com o Football Manager?
+web.faq.a_fm,"É a inspiração: o Football Manager 2007 levado ao Quadribol. Você escolhe o time e a tática, contrata jogadores, treina o elenco e cuida do dinheiro do clube; as partidas são simuladas e você as assiste pela narração ou num campo 2D."
+web.faq.q_hogwarts,Posso comandar uma casa de Hogwarts?
+web.faq.a_hogwarts,"Sim. Cada escola de magia tem quatro casas que disputam sua própria Taça de Quadribol. Você pode assumir uma casa em vez de um clube, e os melhores alunos depois se tornam profissionais."
+web.faq.q_era,Em que época se passa o jogo?
+web.faq.a_era,"Começa na temporada 1993-94, com os clubes e jogadores daquela época, e segue temporada após temporada."
+web.faq.q_saves,Onde ficam meus jogos salvos?
+web.faq.a_saves,"No seu navegador, naquele computador: nosso servidor não guarda jogos salvos. Para não perdê-los ou continuar em outro navegador, exporte-os para um arquivo em “Salvar / Carregar”."
+web.faq.q_langs,Em quais idiomas está disponível?
+web.faq.a_langs,"Dez: inglês, espanhol, alemão, francês, italiano, português do Brasil, holandês, russo, japonês e chinês simplificado. Você pode trocar nas configurações do jogo."
+web.faq.q_code,É de código aberto?
+web.faq.a_code,"Sim, com licença MIT no GitHub, onde você também pode relatar erros e sugerir correções ao cânone."
+web.og.image_alt,"Quidditch Manager, um manager de Quadribol fiel aos livros"

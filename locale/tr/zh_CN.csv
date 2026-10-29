@@ -3061,3 +3061,45 @@ web.pending.title,你的账户正在等待审核
 web.pending.intro,这几天我们采用人工审核的方式放行。账户通过审核后你就可以开始游戏了。
 web.pending.later,请稍后再来，或查看你的账户页面。
 web.pending.status,你的账户仍在等待审核：通过审核后你就可以开始游戏了。
+web.seo.home_title,Quidditch Manager：免费魁地奇经理游戏
+web.seo.home_description,免费、忠于《哈利·波特》原著的魁地奇经理游戏：194 家俱乐部、霍格沃茨各学院、战术、转会和 2D 比赛。可在浏览器、Windows 或 macOS 上游玩。
+web.seo.faq_description,Quidditch Manager 是什么、价格（免费）、如何在浏览器或电脑上游玩、存档保存在哪里，以及它与 Football Manager 有何异同。
+web.seo.ranking_description,Quidditch Manager 最佳主教练排行，按声望、冠军和执教赛季排列，涵盖全球及各国家或地区。
+web.nav.faq,常见问题
+web.landing.features_title,你可以做什么
+web.landing.f_world_title,整个魔法世界
+web.landing.f_world_text,遍布各大洲 20 个联赛的 194 家俱乐部、国内杯赛、欧洲杯，以及每四年一届、由各国家队参加的魁地奇世界杯。
+web.landing.f_schools_title,霍格沃茨与各魔法学校
+web.landing.f_schools_text,十一所魔法学校，从霍格沃茨到布斯巴顿、德姆斯特朗和伊法魔尼，每所都有四个学院和自己的魁地奇杯。你可以执掌一个学院而不是俱乐部，也可以签下它们最优秀的学生。
+web.landing.f_players_title,会成长也会衰退的球员
+web.landing.f_players_text,仿照 Football Manager 2007 的 1 到 20 属性：技术、精神、身体、飞行以及各位置专属属性，并有当前能力与潜力。球员通过训练和上场时间提高，随年龄增长而衰退。
+web.landing.f_matches_title,可以观看的比赛
+web.landing.f_matches_text,每场比赛都可以通过文字解说或俯视的 2D 球场观看，还能把原著中的招式用作战术指令：朗斯基假动作、鹰头进攻阵型或双击球手防守。
+web.landing.f_manager_title,经理的全部工作
+web.landing.f_manager_text,转会、租借与合同、球探、训练、职员、财务、董事会目标、新闻发布会，还有《预言家日报》。
+web.landing.f_langs_title,十种语言
+web.landing.f_langs_text,英语、西班牙语、德语、法语、意大利语、巴西葡萄牙语、荷兰语、俄语、日语和简体中文，魁地奇术语均采用各语言版本原著的译法。
+web.landing.shot_squad,阵容界面
+web.landing.shot_match,2D 球场上的一场比赛
+web.landing.shot_hogwarts,霍格沃茨及其四个学院
+web.landing.faq_link,有疑问？请阅读常见问题。
+web.faq.title,常见问题
+web.faq.q_free,Quidditch Manager 免费吗？
+web.faq.a_free,是的。这是一个免费的非商业粉丝项目：不收费，没有广告，也没有游戏内购买。
+web.faq.q_official,这是官方的《哈利·波特》游戏吗？
+web.faq.a_official,不是。本作由粉丝制作，与 J. K. 罗琳、华纳兄弟或 Wizarding World Digital 无关联，也未获其认可。世界、俱乐部和球员均取自原著和《神奇的魁地奇球》；原著未提及的部分是为填补空白而创作的。
+web.faq.q_play,怎么玩？
+web.faq.a_play,在浏览器中使用免费账户：登录，选择用户名和你的国家或地区，就可以开始了。你也可以下载 Windows 或 macOS 版，无需账户。
+web.faq.q_fm,它像 Football Manager 吗？
+web.faq.a_fm,那正是它的灵感来源：把 《足球经理》2007（Football Manager 2007） 搬到魁地奇。你挑选球队和战术、签下球员、训练他们并管理俱乐部的资金；比赛由模拟进行，你可以通过解说或 2D 球场观看。
+web.faq.q_hogwarts,可以执掌霍格沃茨的学院吗？
+web.faq.a_hogwarts,可以。每所魔法学校都有四个学院，争夺各自的魁地奇杯。你可以执掌一个学院而不是俱乐部，最优秀的学生日后会成为职业球员。
+web.faq.q_era,游戏设定在什么时期？
+web.faq.a_era,游戏从 1993-94 赛季开始，使用那个时代的俱乐部和球员，并一个赛季接一个赛季地延续下去。
+web.faq.q_saves,我的存档在哪里？
+web.faq.a_saves,保存在那台电脑的浏览器里：我们的服务器不保存任何存档。为防丢失或要在其他浏览器中继续，请在“保存 / 读取”中把存档导出为文件。
+web.faq.q_langs,支持哪些语言？
+web.faq.a_langs,十种：英语、西班牙语、德语、法语、意大利语、巴西葡萄牙语、荷兰语、俄语、日语和简体中文。可以在游戏设置中切换。
+web.faq.q_code,它是开源的吗？
+web.faq.a_code,是的，以 MIT 许可证发布在 GitHub 上，你也可以在那里报告错误、对原著设定提出修正。
+web.og.image_alt,Quidditch Manager，一款忠于原著的魁地奇经理游戏

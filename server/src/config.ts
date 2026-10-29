@@ -8,6 +8,9 @@ export const MIN_AGE = 13;
 export const ACCESS_MODES = ["open", "approval"] as const;
 export type AccessMode = (typeof ACCESS_MODES)[number];
 
+/** IndexNow keys are 8-128 characters of [A-Za-z0-9-]; the site serves the key at /<key>.txt (http/seo.ts). */
+const INDEXNOW_KEY_RE = /^[A-Za-z0-9-]{8,128}$/;
+
 const bool = z
   .string()
   .trim()
@@ -67,6 +70,7 @@ const envSchema = z.object({
   ACCESS_MODE: z.enum(ACCESS_MODES).default("open"),
   TELEGRAM_BOT_TOKEN: optionalText,
   TELEGRAM_CHAT_ID: optionalText,
+  INDEXNOW_KEY: optionalText,
 });
 
 const LEGAL_EMAIL_RE = /^[^\s@<>()[\]"'`]{1,64}@[A-Za-z0-9.-]{1,190}\.[A-Za-z]{2,24}$/;
@@ -103,6 +107,8 @@ export interface Config {
   accessMode: AccessMode;
   /** Sign-up alerts to the operator; null turns them off. The token is a secret: never log it or a URL built from it. */
   telegram: { botToken: string; chatId: string } | null;
+  /** IndexNow key; null = no key file, no submissions. */
+  indexNowKey: string | null;
 }
 
 export class ConfigError extends Error {
@@ -184,6 +190,9 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env, randomKey: () =
     else telegram = { botToken: e.TELEGRAM_BOT_TOKEN, chatId: e.TELEGRAM_CHAT_ID };
   }
 
+  const indexNowKey = e.INDEXNOW_KEY ?? null;
+  if (indexNowKey && !INDEXNOW_KEY_RE.test(indexNowKey)) problems.push("INDEXNOW_KEY must be 8-128 letters, digits or dashes");
+
   if (problems.length) throw new ConfigError(problems.join("; "));
 
   return {
@@ -219,6 +228,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env, randomKey: () =
     },
     accessMode: e.ACCESS_MODE,
     telegram,
+    indexNowKey,
   };
 }
 

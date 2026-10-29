@@ -70,7 +70,7 @@ test("GET /: strict CSP and security headers, no inline script or style, English
   assert.equal(h.get("access-control-allow-origin"), null);
   const body = await res.text();
   assert.match(body, /<html lang="en">/);
-  assert.doesNotMatch(body, /<script/i);
+  assert.doesNotMatch(body, /<script(?! type="application\/ld\+json">)/i, "only JSON-LD data blocks, which never run");
   assert.doesNotMatch(body, /\sstyle=/i);
   assert.match(body, /href="\/login\?next=%2Fplay%2F"/);
 });

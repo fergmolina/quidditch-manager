@@ -162,7 +162,7 @@ The free tier is 10 GB. The dumps are kilobytes to a few MB.
       or starts_with(http.request.uri.path, "/login") or starts_with(http.request.uri.path, "/register")
       or starts_with(http.request.uri.path, "/account") or starts_with(http.request.uri.path, "/auth/")
       or starts_with(http.request.uri.path, "/api/") or starts_with(http.request.uri.path, "/privacy")
-      or starts_with(http.request.uri.path, "/terms")
+      or starts_with(http.request.uri.path, "/terms") or http.request.uri.path in {"/faq" "/ranking" "/feedback"}
       ```
       The routes also answer `private, no-store`. This rule just makes sure a page carrying a session is never cached.
    2. **"game releases"**: `starts_with(http.request.uri.path, "/play/r/")`. Settings:
@@ -177,6 +177,19 @@ The free tier is 10 GB. The dumps are kilobytes to a few MB.
    - Expression: `(http.request.method eq "POST" and starts_with(http.request.uri.path, "/auth/"))`. If the Free editor does not offer the method field, use the path alone.
    - Characteristic: IP. Rate: 20 requests per 10 seconds. Action: Block for 10 seconds.
    - The finer limits live in the API and the database (per address, per IPv6 /64, and a global mail cap).
+7. **robots.txt.** Security → Bots (or Settings → Bots): turn **off** "Instruct AI bot traffic with robots.txt"
+   (managed robots.txt). The API serves its own `/robots.txt` with the sitemap; the managed one is prepended to it.
+
+### 4.5 Search engines
+
+The API serves `/robots.txt`, `/sitemap.xml` (the public pages in all 10 languages, with hreflang alternates), a
+canonical URL, hreflang alternates, Open Graph tags and schema.org JSON-LD on every public page. To get them read:
+
+1. **Google Search Console** → Add property → *Domain* `<domain>` → copy the `google-site-verification=…` TXT
+   record into Cloudflare DNS (name `@`) → Verify → Sitemaps → submit `https://<domain>/sitemap.xml`.
+2. **Bing Webmaster Tools** → Import from Search Console (or verify with its own TXT/CNAME) → submit the same sitemap.
+3. **IndexNow** (Bing, Yandex, Seznam, Naver): set `INDEXNOW_KEY` (§5), deploy, then `./deploy/indexnow.sh`
+   submits every URL of the sitemap. Run it again after a deploy that changes public pages.
 
 ## 5. Fill `.env`
 
@@ -195,6 +208,8 @@ Variables to fill:
 - Legal pages: `LEGAL_CONTROLLER` and `LEGAL_CONTACT_EMAIL`.
 - Recommended: `API_IMAGE` (when the release publishes the API image to GHCR) and the `B2_*` keys.
 - Optional: `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` for failure alerts and the api's sign-up and feedback alerts.
+- Optional: `INDEXNOW_KEY` (`openssl rand -hex 16`) so Bing and the other IndexNow engines hear about page changes
+  (`./deploy/indexnow.sh` after a deploy that changes public pages; see §4.5).
 - Optional: `ACCESS_MODE=approval` for a closed trial (every new account waits for your approval; see §11).
 - **Already set by bootstrap.** Do not change them after the first start:
   - `POSTGRES_PASSWORD`

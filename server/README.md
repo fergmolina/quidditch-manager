@@ -95,13 +95,17 @@ Names only. The values live in the server's `.env` (see `deploy/env.example`). P
 | `FEEDBACK_TO` | | Optional. Address that receives a copy of each `/feedback` submission; rows are stored regardless. Needs email on (Resend). |
 | `ACCESS_MODE` | | `open` (default) or `approval`. With `approval` a completed profile still waits (`/pending`, gate 302, `/api/me` `pending: true`) until an admin approves it on `/admin/users`. Accounts that exist when migration `0006` runs, and every registration made while access is open, are approved on the spot. |
 | `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` | | Optional, both or neither. The token is secret. A Telegram message per completed registration (username and country only) and per feedback submission (kind and username only). Off, with one log line, when unset. |
+| `INDEXNOW_KEY` | | Optional, 8–128 letters, digits or dashes (`openssl rand -hex 16`). Public by design: served at `/<key>.txt` so the IndexNow engines accept `deploy/indexnow.sh` submissions. |
 | `DEV_PLAY_DIR` | dev only | Serves a Godot web export at `/play/`. |
 
 ## Routes
 
 | Route | Method | What |
 |---|---|---|
-| `/` | GET | Landing page. "Play in the browser" leads to `/play/`, `/register?next=/play/` or `/login?next=/play/`. |
+| `/` | GET | Landing page (features, captures, saves). "Play in the browser" leads to `/play/`, `/register?next=/play/` or `/login?next=/play/`. |
+| `/faq` | GET | Frequently asked questions, with FAQPage JSON-LD. |
+| `/robots.txt`, `/sitemap.xml` | GET | For crawlers (`src/http/seo.ts`): the sitemap lists every indexable page (`INDEXABLE_PATHS`) in all 10 languages with hreflang alternates. `public, max-age=3600`. |
+| `/<INDEXNOW_KEY>.txt` | GET | The IndexNow key, when configured; any other root `.txt` is a 404. |
 | `/login` | GET | Google button, email form and `?error=` messages. Shows a notice when already signed in. |
 | `/auth/magic` | POST (form) | Requests a link. Always answers "check your inbox"; answers 429 when limited and 502 when the email fails. |
 | `/auth/magic/verify?token=` | GET | Read-only check of the link. Shows a page with a button and no auto-submit. |
@@ -126,7 +130,12 @@ Names only. The values live in the server's `.env` (see `deploy/env.example`). P
 | `/api/username-available?u=…` | GET | Logged-in only. `{available, error}`: rules first, then the database. 30 per minute per user. |
 | `/feedback` | GET/POST (form) | Bug reports and ideas, signed in or not (`?kind=bug\|idea`, `?context=` prefill; `?sent=1` is the thanks page). Stores the row (`feedback`, 12 months), mails a copy to `FEEDBACK_TO`, 303 to `/feedback?sent=1`. 400 re-renders the form; 429 over 5 per address per hour or 60 in all per day. A hidden honeypot field drops bots silently. |
 | `/healthz` | GET | Runs `select 1`. |
-| `/static/*` | GET | `site.css`, `register.js`, fonts (SIL OFL, licence files next to them), logo and icon. |
+| `/static/*` | GET | `site.css`, `register.js`, fonts (SIL OFL, licence files next to them), logo, icon, the landing captures and the link-preview image (`tools/make_site_images.sh`). |
+
+Indexable pages (`/`, `/faq`, `/ranking`, `/privacy`, `/terms`) pass `seo` to `page()`: `X-Robots-Tag: index, follow`,
+a meta description, a canonical URL for the language the page was rendered in (English at the bare path, the others
+at `?lang=xx`), the 10 hreflang alternates plus x-default, Open Graph and Twitter tags, and optional JSON-LD. Every
+other page is `noindex, nofollow`.
 
 Every non-GET request must pass the same-origin check (Origin plus Fetch Metadata) before any route runs. Every response carries a strict CSP (`script-src 'self'`, no inline scripts or styles).
 

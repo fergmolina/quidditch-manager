@@ -76,6 +76,23 @@ Markers used below: **[FILLER]** = invented content not found in the books; **[g
 
 Newest first.
 
+### 2026-10-29: v0.12.2: search engines and the public site
+
+- **Search engines** (server, `src/http/seo.ts`). `/robots.txt` (accounts, API and the game page kept out, sitemap
+  linked) and `/sitemap.xml` (the five public pages in all 10 languages, each with its hreflang alternates). The
+  public pages (`/`, `/faq`, `/ranking`, `/privacy`, `/terms`) now say `index, follow` (`/ranking` was `noindex` by
+  mistake) and carry a meta description, a canonical URL per language (English at the bare path, the rest at
+  `?lang=xx`), hreflang alternates with x-default, Open Graph and Twitter tags with a 1200x630 preview image
+  (`tools/make_og_image.gd`: the title background and the logo), and schema.org JSON-LD: WebSite and VideoGame on the
+  home page, FAQPage on `/faq`. Optional IndexNow key (`INDEXNOW_KEY`, `deploy/indexnow.sh`).
+- **More to read on the site.** The home page gets a real title, an H1, six feature blocks and three captures
+  (`tools/make_site_images.sh`, WebP), and links to the new `/faq` (nine questions); the footer links it too. All
+  new strings in 10 languages.
+- **Deploy.** Caddy sends visitors who reach Cloudflare over plain HTTP to https (301, from `CF-Visitor`).
+  `deploy/README.md` §4.4–4.5: managed robots.txt off, Search Console, Bing Webmaster and IndexNow.
+- **Links.** The README links the hosted version, and the desktop builds point their feedback link at it
+  (`application/config/site_url`).
+
 ### 2026-10-26: v0.12.1: closed trial with manual approval, Telegram sign-up alerts, goal sound
 
 - **Goal sound.** The three-note fanfare is now the stands erupting: a crowd swell with twelve synthesized

@@ -4,6 +4,7 @@ import { BurstLimiter } from "./auth/rate-limit.js";
 import { setLangCookie, readLangCookie } from "./http/cookies.js";
 import { isOwnOrigin, sameOriginRejection } from "./http/origin.js";
 import { securityHeaders } from "./http/security.js";
+import { registerSeoRoutes } from "./http/seo.js";
 import { page, tOf } from "./http/viewer.js";
 import { negotiateLang } from "./i18n/negotiate.js";
 import { html } from "./http/html.js";
@@ -58,6 +59,7 @@ export function createApp(deps: AppDeps, opts: CreateAppOptions = {}): Hono<AppE
 
   registerHealth(app);
   registerApiRoutes(app, config.sessionRatePerMinute === null ? null : new BurstLimiter({ limit: config.sessionRatePerMinute, now: deps.now }));
+  registerSeoRoutes(app);
   registerPageRoutes(app, { assetVersion: ASSET_VERSION, downloadsUrl: config.downloadsUrl });
   registerAuthRoutes(app);
   for (const m of [...MODULES, ...(opts.modules ?? [])]) m(app);

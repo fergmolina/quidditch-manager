@@ -9,9 +9,9 @@ on a top-down 2D pitch.
 > Bloomsbury or Wizarding World Digital. Harry Potter and all related names belong to their owners.
 > See [ATTRIBUTION.md](ATTRIBUTION.md).
 
-Version 0.12.1, pre-release. Desktop builds (Windows and macOS) and the browser version come from the
-[Releases](https://github.com/fergmolina/quidditch-manager/releases) page once the first one is tagged. The hosted
-web version is not public yet.
+**Play it in your browser at [quidditchmanager.xyz](https://quidditchmanager.xyz)** (free account), or download the
+desktop version for Windows or macOS from [Releases](https://github.com/fergmolina/quidditch-manager/releases).
+Version 0.12.2, pre-release.
 
 ![New game screen](docs/screenshots/new-game.png)
 
@@ -20,7 +20,7 @@ web version is not public yet.
 - **A whole wizarding world.** 194 clubs in 20 leagues across every continent, national cups, the European Cup,
   continental cups and a Quidditch World Cup every four years with national teams.
 - **Eleven wizarding schools** as youth academies. Hogwarts, Ilvermorny, Beauxbatons, Durmstrang, Castelobruxo,
-  Uagadou, Mahoutokoro, Koldovstoretz and three invented ones. Each has four houses that play their own House Cup,
+  Uagadou, Mahoutokoro, Koldovstoretz and three invented ones. Each has four houses that play their own Quidditch Cup,
   and you can manage a house instead of a club.
 - **FM 2007-style player model.** Attributes from 1 to 20 (technical, mental, physical, flying and position-specific),
   current and potential ability, hidden attributes, growth and decline with age, training and match time.
@@ -62,8 +62,9 @@ Saves are stored in `~/Library/Application Support/Godot/app_userdata/Quidditch 
 ## Online play: the free account and what we store
 
 The desktop versions (Windows, macOS) and a copy you run yourself need no account and send nothing anywhere. The
-browser version on the game's website asks you to create a free account first. You sign in with Google or with a link
-sent to your email (there are no passwords), then pick a username and your country.
+browser version at [quidditchmanager.xyz](https://quidditchmanager.xyz) asks you to create a free account first.
+You sign in with Google or with a link sent to your email (there are no passwords), then pick a username and your
+country.
 
 What the server keeps, and nothing else:
 

@@ -6,6 +6,8 @@ import { test } from "node:test";
 import { buildStrings, checkKey, DEFAULT_CSV, parseCsv, tableFromCsv, tableFromJson } from "../scripts/gen-i18n.js";
 import { bcp47, fill, GENERATED_STRINGS_PATH, LANGS, loadStrings, placeholders, setStrings, translate, translator } from "../src/i18n/i18n.js";
 import { fromAcceptLanguage, negotiateLang, normalizeLang } from "../src/i18n/negotiate.js";
+import { FAQ_IDS } from "../src/pages/faq.js";
+import { FEATURES } from "../src/pages/landing.js";
 
 test("normalizeLang maps any tag onto the 10 game languages", () => {
   const cases: Array<[string, string | null]> = [
@@ -84,6 +86,8 @@ function usedKeys(): string[] {
     }
   };
   walk(root);
+  for (const f of FEATURES) out.add(`web.landing.f_${f}_title`).add(`web.landing.f_${f}_text`);
+  for (const id of FAQ_IDS) out.add(`web.faq.q_${id}`).add(`web.faq.a_${id}`);
   for (const e of ["link", "blocked", "google_unverified", "google_failed", "rate_limited", "mail_failed", "mail_cap", "email_invalid", "session"]) out.add(`web.login.error.${e}`);
   return [...out].sort();
 }

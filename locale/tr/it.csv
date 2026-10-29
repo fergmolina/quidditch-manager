@@ -3061,3 +3061,45 @@ web.pending.title,Il tuo account è in attesa di approvazione
 web.pending.intro,Per qualche giorno facciamo entrare le persone a mano. Potrai giocare appena il tuo account sarà approvato.
 web.pending.later,Torna più tardi o controlla la pagina del tuo account.
 web.pending.status,Il tuo account è ancora in attesa di approvazione: potrai giocare appena sarà approvato.
+web.seo.home_title,Quidditch Manager: gioco manageriale di Quidditch gratis
+web.seo.home_description,"Un manageriale di Quidditch gratis e fedele ai libri di Harry Potter: 194 club, Case di Hogwarts, tattica, mercato, partite in 2D. Nel browser, Windows o macOS."
+web.seo.faq_description,"Cos'è Quidditch Manager, quanto costa (niente), come si gioca nel browser o sul computer, dove sono i salvataggi e in cosa somiglia a Football Manager."
+web.seo.ranking_description,"I migliori allenatori di Quidditch Manager per reputazione, titoli e stagioni, nel mondo e per paese."
+web.nav.faq,FAQ
+web.landing.features_title,Cosa puoi fare
+web.landing.f_world_title,Tutto il mondo magico
+web.landing.f_world_text,"194 club in 20 campionati di tutti i continenti, coppe nazionali, la Coppa Europea e ogni quattro anni una Coppa del Mondo di Quidditch tra nazionali."
+web.landing.f_schools_title,Hogwarts e le scuole di magia
+web.landing.f_schools_text,"Undici scuole di magia, da Hogwarts a Beauxbatons, Durmstrang e Ilvermorny, ognuna con quattro Case e la sua Coppa del Quidditch. Gestisci una Casa invece di un club, oppure ingaggia i loro migliori studenti."
+web.landing.f_players_title,Giocatori che crescono e invecchiano
+web.landing.f_players_text,"Attributi da 1 a 20 nello stile di Football Manager 2007: tecnici, mentali, fisici, di volo e specifici del ruolo, con abilità attuale e potenziale. I giocatori migliorano con l'allenamento e i minuti giocati e calano con l'età."
+web.landing.f_matches_title,Partite da guardare
+web.landing.f_matches_text,"Segui ogni partita con la telecronaca testuale o su un campo 2D visto dall'alto, e usa le mosse dei libri come istruzioni tattiche: la Finta Wronski, la Formazione d'attacco a testa di falco o la Difesa del doppio Battitore."
+web.landing.f_manager_title,Tutto il lavoro dell'allenatore
+web.landing.f_manager_text,"Trasferimenti, prestiti e contratti, osservatori, allenamento, staff, finanze, obiettivi della dirigenza, conferenze stampa e La Gazzetta del Profeta."
+web.landing.f_langs_title,Dieci lingue
+web.landing.f_langs_text,"Inglese, spagnolo, tedesco, francese, italiano, portoghese brasiliano, olandese, russo, giapponese e cinese semplificato, con i termini del Quidditch di ogni edizione dei libri."
+web.landing.shot_squad,La schermata della rosa
+web.landing.shot_match,Una partita sul campo 2D
+web.landing.shot_hogwarts,Hogwarts e le sue quattro Case
+web.landing.faq_link,Domande? Leggi le FAQ.
+web.faq.title,Domande frequenti
+web.faq.q_free,Quidditch Manager è gratis?
+web.faq.a_free,"Sì. È un progetto amatoriale gratuito e senza scopo di lucro: non costa nulla, non ha pubblicità né acquisti nel gioco."
+web.faq.q_official,È un gioco ufficiale di Harry Potter?
+web.faq.a_official,"No. È fatto da fan e non è affiliato né approvato da J. K. Rowling, Warner Bros. o Wizarding World Digital. Il mondo, i club e i giocatori vengono dai libri e da “Il Quidditch attraverso i secoli”; ciò che i libri non raccontano è stato inventato per colmare le lacune."
+web.faq.q_play,Come si gioca?
+web.faq.a_play,"Nel browser, con un account gratuito: accedi, scegli un nome utente e il tuo paese, e sei dentro. Puoi anche scaricarlo per Windows o macOS, senza account."
+web.faq.q_fm,Somiglia a Football Manager?
+web.faq.a_fm,"È la sua ispirazione: Football Manager 2007 portato nel Quidditch. Scegli la squadra e la tattica, ingaggi giocatori, li alleni e gestisci i soldi del club; le partite sono simulate e le guardi come telecronaca o su un campo 2D."
+web.faq.q_hogwarts,Posso gestire una Casa di Hogwarts?
+web.faq.a_hogwarts,"Sì. Ogni scuola di magia ha quattro Case che giocano la loro Coppa del Quidditch. Puoi prendere in mano una Casa invece di un club, e i migliori studenti diventano poi professionisti."
+web.faq.q_era,In che epoca è ambientato?
+web.faq.a_era,"Inizia nella stagione 1993-94, con i club e i giocatori di quell'epoca, e prosegue stagione dopo stagione."
+web.faq.q_saves,Dove sono i miei salvataggi?
+web.faq.a_saves,"Nel tuo browser, su quel computer: il nostro server non conserva salvataggi. Per non perderli o continuare in un altro browser, esportali in un file da «Salva / Carica»."
+web.faq.q_langs,In quali lingue è disponibile?
+web.faq.a_langs,"Dieci: inglese, spagnolo, tedesco, francese, italiano, portoghese brasiliano, olandese, russo, giapponese e cinese semplificato. Puoi cambiare lingua nelle impostazioni del gioco."
+web.faq.q_code,È open source?
+web.faq.a_code,"Sì, con licenza MIT su GitHub, dove puoi anche segnalare errori e proporre correzioni al canone."
+web.og.image_alt,"Quidditch Manager, un manageriale di Quidditch fedele ai libri"

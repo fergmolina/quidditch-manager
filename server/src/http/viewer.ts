@@ -8,6 +8,7 @@ import type { AppEnv } from "../types.js";
 import { readSessionToken } from "./cookies.js";
 import type { HtmlValue } from "./html.js";
 import { htmlPage } from "./respond.js";
+import type { SeoMeta } from "./seo.js";
 
 type C = Context<AppEnv>;
 
@@ -55,10 +56,16 @@ export interface PageOptions {
   head?: HtmlValue;
   noindex?: boolean;
   bare?: boolean;
+  /** An indexable page (one of seo.ts INDEXABLE_PATHS): implies noindex false. */
+  seo?: SeoMeta;
+  titleAbsolute?: boolean;
 }
 
 export async function page(c: C, o: PageOptions): Promise<Response> {
   const v = await getViewer(c).catch(() => null);
+  const noindex = o.seo ? false : (o.noindex ?? true);
+  // security.ts marks every other path noindex; an indexable page says so itself.
+  if (!noindex) c.header("X-Robots-Tag", "index, follow");
   const html = layout({
     lang: c.get("lang"),
     t: tOf(c),
@@ -67,8 +74,11 @@ export async function page(c: C, o: PageOptions): Promise<Response> {
     currentUrl: currentUrl(c),
     viewer: v ? { username: v.user.username } : null,
     head: o.head,
-    noindex: o.noindex ?? true,
+    noindex,
     bare: o.bare ?? false,
+    seo: o.seo,
+    siteUrl: c.get("deps").config.siteUrl,
+    titleAbsolute: o.titleAbsolute,
   });
   return htmlPage(c, html, o.status ?? 200);
 }

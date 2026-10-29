@@ -84,3 +84,6 @@ id_ed25519
 /dist/
 *.pck
 *.dmg
+
+# SEO working notes (strategy, keyword data, outreach drafts): local only.
+/seo/

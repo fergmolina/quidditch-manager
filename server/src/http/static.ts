@@ -58,7 +58,7 @@ export async function readStatic(root: string, rel: string): Promise<{ body: Uin
 
 export function computeAssetVersion(root = STATIC_DIR): string {
   const h = createHash("sha256");
-  for (const f of ["site.css", "icon.png", "logo.png", "register.js"]) {
+  for (const f of ["site.css", "icon.png", "logo.png", "register.js", "og.jpg", "shot-squad.webp", "shot-match.webp", "shot-hogwarts.webp"]) {
     try {
       h.update(readFileSync(resolve(root, f)));
     } catch {

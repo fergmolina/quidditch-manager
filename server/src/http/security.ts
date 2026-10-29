@@ -44,6 +44,8 @@ export function securityHeaders(): MiddlewareHandler<AppEnv> {
     set("Cross-Origin-Opener-Policy", "same-origin");
     set("Cross-Origin-Resource-Policy", "same-origin");
     if (c.get("deps").config.isProd) set("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
+    // Indexable pages set "index, follow" themselves (page() with `seo`). robots.txt and the sitemap keep the
+    // noindex: engines still read them, they just never show them as results.
     const path = c.req.path;
     if (path !== "/" && !path.startsWith("/static/")) set("X-Robots-Tag", "noindex, nofollow");
   };

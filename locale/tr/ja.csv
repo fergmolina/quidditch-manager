@@ -3061,3 +3061,45 @@ web.pending.title,アカウントは承認待ちです
 web.pending.intro,数日間は手動でアカウントを承認しています。承認され次第、プレイできるようになります。
 web.pending.later,後でもう一度お試しいただくか、アカウントページをご確認ください。
 web.pending.status,アカウントはまだ承認待ちです。承認され次第、プレイできるようになります。
+web.seo.home_title,Quidditch Manager：無料のクィディッチ監督ゲーム
+web.seo.home_description,ハリー・ポッターの原作に忠実な無料のクィディッチ監督ゲーム。194クラブ、ホグワーツの寮、戦術、移籍、2D試合。ブラウザ、Windows、macOSで遊べます。
+web.seo.faq_description,Quidditch Managerとは何か、料金（無料）、ブラウザやパソコンでの遊び方、セーブデータの保存場所、Football Managerとの違い。
+web.seo.ranking_description,Quidditch Managerの監督ランキング。評判、タイトル、シーズン数で、世界全体と国別に。
+web.nav.faq,よくある質問
+web.landing.features_title,できること
+web.landing.f_world_title,魔法界のすべて
+web.landing.f_world_text,全大陸の20リーグに194クラブ。国内カップ、欧州カップ、そして4年ごとに代表チームが競うクィディッチ・ワールドカップ。
+web.landing.f_schools_title,ホグワーツと魔法学校
+web.landing.f_schools_text,ホグワーツからボーバトン、ダームストラング、イルヴァーモーニーまで、11の魔法学校。それぞれに4つの寮と独自のクィディッチ杯がある。クラブの代わりに寮を率いることも、優秀な生徒を獲得することもできる。
+web.landing.f_players_title,成長し、衰える選手たち
+web.landing.f_players_text,Football Manager 2007風の1〜20の能力値：技術、メンタル、フィジカル、飛行、ポジション固有の能力に、現在能力と潜在能力。選手はトレーニングと出場時間で成長し、年齢とともに衰える。
+web.landing.f_matches_title,観戦できる試合
+web.landing.f_matches_text,すべての試合をテキスト実況か、真上から見た2Dフィールドで観戦。原作の技を戦術指示として使える：ウロンスキー・フェイント、ホークスヘッド攻撃フォーメーション、ダブルビーター・ディフェンス。
+web.landing.f_manager_title,監督の仕事のすべて
+web.landing.f_manager_text,移籍、レンタル、契約、スカウト、トレーニング、スタッフ、財務、理事会の目標、記者会見、そして日刊予言者新聞。
+web.landing.f_langs_title,10の言語
+web.landing.f_langs_text,英語、スペイン語、ドイツ語、フランス語、イタリア語、ブラジル・ポルトガル語、オランダ語、ロシア語、日本語、簡体字中国語。クィディッチ用語はそれぞれの言語版の原作に準拠。
+web.landing.shot_squad,選手一覧画面
+web.landing.shot_match,2Dフィールドでの試合
+web.landing.shot_hogwarts,ホグワーツと4つの寮
+web.landing.faq_link,質問がありますか？よくある質問をご覧ください。
+web.faq.title,よくある質問
+web.faq.q_free,Quidditch Managerは無料ですか？
+web.faq.a_free,はい。無料の非営利ファンプロジェクトです。料金はかからず、広告もゲーム内課金もありません。
+web.faq.q_official,ハリー・ポッターの公式ゲームですか？
+web.faq.a_official,いいえ。ファンが制作しており、J. K. ローリング、ワーナー・ブラザース、Wizarding World Digitalとは提携しておらず、承認も受けていません。世界観、クラブ、選手は原作と『クィディッチ今昔』に基づいており、原作に書かれていない部分は空白を埋めるために創作しています。
+web.faq.q_play,どうやって遊ぶの？
+web.faq.a_play,ブラウザで、無料アカウントを使って遊べます。ログインしてユーザー名と国を選べば準備完了です。アカウントなしでWindows版やmacOS版をダウンロードすることもできます。
+web.faq.q_fm,Football Managerに似ていますか？
+web.faq.a_fm,それがインスピレーションの元です。Football Manager 2007をクィディッチに置き換えたゲームです。チームと戦術を選び、選手を獲得して鍛え、クラブの資金をやりくりします。試合はシミュレーションされ、実況または2Dフィールドで観戦できます。
+web.faq.q_hogwarts,ホグワーツの寮を率いることはできますか？
+web.faq.a_hogwarts,はい。各魔法学校には4つの寮があり、独自のクィディッチ杯を争います。クラブの代わりに寮を率いることができ、優秀な生徒は後にプロになります。
+web.faq.q_era,ゲームの時代設定は？
+web.faq.a_era,1993-94シーズンから、当時のクラブと選手で始まり、シーズンを重ねて続いていきます。
+web.faq.q_saves,セーブデータはどこにありますか？
+web.faq.a_saves,そのパソコンのブラウザの中です。サーバーにはセーブデータを保存しません。なくさないように、または別のブラウザで続きを遊ぶには、「セーブ／ロード」からファイルに書き出してください。
+web.faq.q_langs,対応言語は？
+web.faq.a_langs,10言語です：英語、スペイン語、ドイツ語、フランス語、イタリア語、ブラジル・ポルトガル語、オランダ語、ロシア語、日本語、簡体字中国語。ゲームの設定で切り替えられます。
+web.faq.q_code,オープンソースですか？
+web.faq.a_code,はい。GitHubでMITライセンスのもと公開されており、バグの報告や原作設定の修正の提案もできます。
+web.og.image_alt,Quidditch Manager、原作に忠実なクィディッチ監督ゲーム

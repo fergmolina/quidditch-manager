@@ -3061,3 +3061,45 @@ web.pending.title,Je account wacht op goedkeuring
 web.pending.intro,Een paar dagen lang laten we mensen handmatig binnen. Je kunt spelen zodra je account is goedgekeurd.
 web.pending.later,Kom later terug of kijk op je accountpagina.
 web.pending.status,Je account wacht nog op goedkeuring: je kunt spelen zodra het is goedgekeurd.
+web.seo.home_title,Quidditch Manager: gratis Zwerkbalmanagerspel
+web.seo.home_description,"Gratis Zwerkbalmanager trouw aan de Harry Potter-boeken: 194 clubs, afdelingen van Zweinstein, tactiek, transfers, 2D-wedstrijden. Browser, Windows of macOS."
+web.seo.faq_description,"Wat Quidditch Manager is en kost (niets), hoe je in de browser of op een computer speelt, waar je opgeslagen spellen staan en hoe het lijkt op Football Manager."
+web.seo.ranking_description,"De beste managers van Quidditch Manager op reputatie, titels en seizoenen, wereldwijd en per land."
+web.nav.faq,Veelgestelde vragen
+web.landing.features_title,Wat je kunt doen
+web.landing.f_world_title,Een hele tovenaarswereld
+web.landing.f_world_text,"194 clubs in 20 competities op alle continenten, nationale bekers, de Europacup en om de vier jaar een WK Zwerkbal met nationale teams."
+web.landing.f_schools_title,Zweinstein en de toverscholen
+web.landing.f_schools_text,"Elf toverscholen, van Zweinstein tot Beauxbatons, Klammfels en Ilvermorny, elk met vier afdelingen en een eigen Zwerkbalcup. Leid een afdeling in plaats van een club, of contracteer hun beste leerlingen."
+web.landing.f_players_title,Spelers die groeien en achteruitgaan
+web.landing.f_players_text,"Attributen van 1 tot 20 in de stijl van Football Manager 2007: techniek, mentaal, fysiek, vliegen en positiegebonden, met huidige en potentiële vaardigheid. Spelers worden beter door training en speeltijd en gaan achteruit met de leeftijd."
+web.landing.f_matches_title,Wedstrijden die je kunt volgen
+web.landing.f_matches_text,"Volg elke wedstrijd als tekstverslag of op een 2D-veld van bovenaf, en gebruik de manoeuvres uit de boeken als tactische instructies: de Wronski-schijnbeweging, de Havikskop-aanvalsformatie of de Dubbele-drijververdediging."
+web.landing.f_manager_title,Het hele werk van een manager
+web.landing.f_manager_text,"Transfers, huur en contracten, scouting, training, staf, financiën, doelen van het bestuur, persconferenties en De Ochtendprofeet."
+web.landing.f_langs_title,Tien talen
+web.landing.f_langs_text,"Engels, Spaans, Duits, Frans, Italiaans, Braziliaans Portugees, Nederlands, Russisch, Japans en Vereenvoudigd Chinees, met de Zwerkbaltermen van elke uitgave van de boeken."
+web.landing.shot_squad,Het selectiescherm
+web.landing.shot_match,Een wedstrijd op het 2D-veld
+web.landing.shot_hogwarts,Zweinstein en zijn vier afdelingen
+web.landing.faq_link,Vragen? Lees de veelgestelde vragen.
+web.faq.title,Veelgestelde vragen
+web.faq.q_free,Is Quidditch Manager gratis?
+web.faq.a_free,"Ja. Het is een gratis, niet-commercieel fanproject: het kost niets en heeft geen reclame of aankopen in het spel."
+web.faq.q_official,Is het een officieel Harry Potter-spel?
+web.faq.a_official,"Nee. Het is gemaakt door fans en is niet verbonden aan of gesteund door J. K. Rowling, Warner Bros. of Wizarding World Digital. De wereld, de clubs en de spelers komen uit de boeken en uit ‘Zwerkbal door de eeuwen heen’; wat de boeken openlaten, is verzonnen om de gaten te vullen."
+web.faq.q_play,Hoe speel ik?
+web.faq.a_play,"In je browser, met een gratis account: log in, kies een gebruikersnaam en je land, en je kunt beginnen. Je kunt het ook downloaden voor Windows of macOS, zonder account."
+web.faq.q_fm,Lijkt het op Football Manager?
+web.faq.a_fm,"Dat is de inspiratie: Football Manager 2007, vertaald naar Zwerkbal. Je kiest het team en de tactiek, contracteert spelers, traint ze en beheert het geld van de club; de wedstrijden worden gesimuleerd en je volgt ze als verslag of op een 2D-veld."
+web.faq.q_hogwarts,Kan ik een afdeling van Zweinstein leiden?
+web.faq.a_hogwarts,"Ja. Elke toverschool heeft vier afdelingen die hun eigen Zwerkbalcup spelen. Je kunt een afdeling leiden in plaats van een club, en de beste leerlingen worden later prof."
+web.faq.q_era,In welke tijd speelt het spel zich af?
+web.faq.a_era,"Het begint in het seizoen 1993-94, met de clubs en spelers uit die tijd, en gaat seizoen na seizoen door."
+web.faq.q_saves,Waar staan mijn opgeslagen spellen?
+web.faq.a_saves,"In je browser, op die computer: onze server bewaart geen opgeslagen spellen. Exporteer ze via ‘Opslaan / Laden’ naar een bestand om ze niet kwijt te raken of in een andere browser verder te spelen."
+web.faq.q_langs,In welke talen is het beschikbaar?
+web.faq.a_langs,"Tien: Engels, Spaans, Duits, Frans, Italiaans, Braziliaans Portugees, Nederlands, Russisch, Japans en Vereenvoudigd Chinees. Je kunt wisselen in de instellingen van het spel."
+web.faq.q_code,Is het open source?
+web.faq.a_code,"Ja, onder de MIT-licentie op GitHub, waar je ook fouten kunt melden en correcties op de canon kunt voorstellen."
+web.og.image_alt,"Quidditch Manager, een Zwerkbalmanager trouw aan de boeken"

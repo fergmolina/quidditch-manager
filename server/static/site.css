@@ -253,3 +253,15 @@ main:has(.ranking-wide) { max-width: 1012px; }
 .admin .row-actions form { margin: 0; }
 .admin tr.state-pending td:first-child { font-weight: 700; }
 .admin tr.state-blocked td { color: var(--ink-faded); }
+
+/* Home page: features and captures (seo). */
+h1.lead { font-family: inherit; font-size: 19px; color: var(--ink-soft); margin: 0 0 12px; }
+.features h2, .faq h1 { margin-top: 0; }
+.features h3 { margin: 18px 0 4px; font-size: 17px; color: var(--wood); }
+.features h3 + p { margin-top: 0; }
+.shots figure { margin: 0; }
+.shots figure + figure { margin-top: 18px; }
+.shots img { display: block; width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px; }
+.shots figcaption { margin-top: 6px; font-size: 15px; color: var(--ink-faded); text-align: center; }
+.faq h2 { font-size: 20px; margin: 22px 0 6px; }
+.faq h2 + p { margin-top: 0; }

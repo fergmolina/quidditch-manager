@@ -95,6 +95,8 @@ services:
       # Sign-up and feedback alerts to the operator (same bot as the backup and health alerts).
       TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:-}
       TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID:-}
+      # Search engines: the site serves /<key>.txt for IndexNow (deploy/indexnow.sh submits the sitemap).
+      INDEXNOW_KEY: ${INDEXNOW_KEY:-}
       TZ: UTC
     networks: [back, data]
     read_only: true
