@@ -9,8 +9,7 @@ service (`server/`) that keeps players' email addresses and profiles, so securit
 
 - Preferred: GitHub's private vulnerability reporting. Open the repository's **Security** tab and choose
   **Report a vulnerability**. Only the maintainers see the report.
-- Or email **[security contact on the game's domain]**.
-  <!-- TODO(owner): replace the bracketed text with an address on the game's domain, e.g. security@<domain>. -->
+- Or email **quidditchmanagerxyz@gmail.com**.
 
 Include what you can of:
 
