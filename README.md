@@ -10,7 +10,8 @@ on a top-down 2D pitch.
 > See [ATTRIBUTION.md](ATTRIBUTION.md).
 
 **Play it in your browser at [quidditchmanager.xyz](https://quidditchmanager.xyz)** (free account), or download the
-desktop version for Windows or macOS from [Releases](https://github.com/fergmolina/quidditch-manager/releases).
+desktop version for Windows or macOS from [Releases](https://github.com/fergmolina/quidditch-manager/releases) or
+[itch.io](https://fergmolina.itch.io/quidditch-manager).
 Version 0.12.2, pre-release.
 
 ![New game screen](docs/screenshots/new-game.png)

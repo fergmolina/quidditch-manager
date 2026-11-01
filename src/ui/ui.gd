@@ -526,11 +526,12 @@ static func unavailable_text(p: Player) -> String:
 	return ""
 
 
-## The website's bug/idea form (server /feedback) with the version and platform prefilled: in the browser build the
-## page's own origin, on desktop `application/config/site_url` (https). Empty when neither is known: no link.
+## The website's bug/idea form (server /feedback) with the version and platform prefilled: at
+## `application/config/site_url` (https), or, when that is empty, in the browser build the page's own origin (a
+## browser copy hosted elsewhere, such as itch.io, has no /feedback of its own). Empty when neither is known: no link.
 static func feedback_url() -> String:
 	var base := str(ProjectSettings.get_setting("application/config/site_url", ""))
-	if OS.has_feature("web"):
+	if not base.begins_with("http") and OS.has_feature("web"):
 		var origin = JavaScriptBridge.eval("location.origin")
 		if origin is String and origin.begins_with("http"):
 			base = origin
