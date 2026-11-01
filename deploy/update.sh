@@ -239,8 +239,8 @@ web_rollback() {
 
 image_id() { docker image inspect -f '{{.Id}}' "$1" 2>/dev/null || true; }
 
-# Builds the api image of tag $1 as $2. The Dockerfile's context is the repository root (it reads locale/strings.csv
-# and data/shared/).
+# Builds the api image of tag $1 as $2. The Dockerfile's context is the repository root (it reads locale/strings.csv,
+# data/shared/ and, since v0.12.3, the season pack the world pages show; older tags have the pack too, unused).
 api_build() {
   local v="$1" tag="$2" tmp
   if ! command -v git >/dev/null || ! git -C "$ROOT" rev-parse --git-dir >/dev/null 2>&1; then
@@ -250,7 +250,7 @@ api_build() {
   git -C "$ROOT" rev-parse --verify --quiet "$v^{commit}" >/dev/null || fail "no git tag/commit $v"
   tmp="$(mktemp -d)"
   CLEANUP_PATHS+=("$tmp")
-  git -C "$ROOT" archive "$v" server locale/strings.csv data/shared | tar -x -C "$tmp"
+  git -C "$ROOT" archive "$v" server locale/strings.csv data/shared data/packs/1993-94 | tar -x -C "$tmp"
   docker build --pull -t "$tag" -f "$tmp/server/Dockerfile" "$tmp"
   rm -rf -- "$tmp"
 }
