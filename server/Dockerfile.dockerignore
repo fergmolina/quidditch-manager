@@ -5,6 +5,12 @@
 !data/shared/career_rules.json
 !data/shared/season_report.schema.json
 !data/shared/map.json
+!data/shared/schools.json
+!data/shared/city_names.json
+!data/packs/1993-94/clubs
+!data/packs/1993-94/competitions
+!data/packs/1993-94/players
+!data/packs/1993-94/schools
 !server/package.json
 !server/package-lock.json
 !server/tsconfig.json

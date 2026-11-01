@@ -3103,3 +3103,29 @@ web.faq.a_langs,"Dez: inglês, espanhol, alemão, francês, italiano, português
 web.faq.q_code,É de código aberto?
 web.faq.a_code,"Sim, com licença MIT no GitHub, onde você também pode relatar erros e sugerir correções ao cânone."
 web.og.image_alt,"Quidditch Manager, um manager de Quadribol fiel aos livros"
+web.nav.world,Ligas e clubes
+web.world.title,O mundo do Quadribol
+web.world.intro,"As ligas, os clubes e as escolas de magia do Quidditch Manager na temporada 1993-94. Os que aparecem nos livros estão marcados; os demais foram inventados para o jogo."
+web.world.leagues,Ligas
+web.world.schools,Escolas de magia
+web.world.n_clubs,{n} clubes
+web.world.source_canon,Dos livros
+web.world.source_filler,Inventado para o jogo
+web.world.club_filler_note,"Os livros não citam este clube: nome, cidade, cores, história e estilo foram inventados para o jogo."
+web.world.school_filler_note,Os livros não citam esta escola: ela foi inventada para o jogo.
+web.world.colors,Cores
+web.world.rivals,Rivais
+web.world.manager,Técnico
+web.world.league,Liga
+web.world.countries,Países
+web.world.country,País
+web.world.city,Cidade
+web.world.canon_players,Jogadores dos livros
+web.world.houses,Casas
+web.world.club_cta,Comande {club} no Quidditch Manager: é grátis e dá para jogar no navegador.
+web.world.school_cta,{school}: comande uma das suas casas no Quidditch Manager. É grátis e dá para jogar no navegador.
+web.world.back,"Todas as ligas, clubes e escolas"
+web.seo.world_description,"As {leagues} ligas, os {clubs} clubes e as {schools} escolas de magia do Quidditch Manager, da Liga Britânica e Irlandesa a Hogwarts, Beauxbatons e Durmstrang."
+web.seo.league_description,"{league}: seus {n} clubes, de onde são e quantos títulos têm, no Quidditch Manager, o jogo de gestão de Quadribol grátis."
+web.seo.club_description,"{club} ({city}), clube de Quadribol da {league}: história, cores e jogadores no Quidditch Manager."
+web.seo.school_description,"{school}: suas quatro casas e a Taça de Quadribol no Quidditch Manager, o jogo de gestão de Quadribol grátis."

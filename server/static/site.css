@@ -265,3 +265,23 @@ h1.lead { font-family: inherit; font-size: 19px; color: var(--ink-soft); margin:
 .shots figcaption { margin-top: 6px; font-size: 15px; color: var(--ink-faded); text-align: center; }
 .faq h2 { font-size: 20px; margin: 22px 0 6px; }
 .faq h2 + p { margin-top: 0; }
+
+/* World pages: leagues, clubs, schools (seo). */
+.world h1 { margin-top: 0; }
+.world h3 { margin: 18px 0 6px; font-size: 17px; color: var(--wood); }
+.world-list { padding-left: 20px; }
+.world-list li + li { margin-top: 6px; }
+.world-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.world-table th { text-align: left; color: var(--ink-soft); border-bottom: 1px solid var(--border); padding: 6px 4px; }
+.world-table td { border-bottom: 1px solid var(--zebra); padding: 6px 4px; vertical-align: middle; }
+.world-table .num { text-align: right; white-space: nowrap; }
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 12px 0 16px; }
+.facts dt { font-weight: 700; color: var(--ink-soft); }
+.facts dd { margin: 0; }
+.swatch { vertical-align: -3px; border: 1px solid var(--border); border-radius: 2px; }
+.tag { display: inline-block; font-size: 12px; padding: 1px 7px; border-radius: 10px; background: var(--zebra); color: var(--ink-faded); border: 1px solid var(--border); white-space: nowrap; }
+.tag-canon { background: var(--brass-button); color: var(--ink); border-color: var(--border-control); }
+@media (max-width: 480px) { .world-table th:nth-child(3), .world-table td:nth-child(3) { display: none; } }
+.world-table.players { table-layout: fixed; }
+.world-table.players td:first-child { width: 46%; }
+.world-table.players td:nth-child(2) { width: 27%; }

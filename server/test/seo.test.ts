@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { createApp } from "../src/app.js";
-import { INDEXABLE_PATHS, jsonLdText, robotsTxt, sitemapXml } from "../src/http/seo.js";
+import { jsonLdText, robotsTxt, sitemapPaths, sitemapXml } from "../src/http/seo.js";
+import { world } from "../src/world/world.js";
 import { LANGS } from "../src/i18n/i18n.js";
 import { SITE, testDeps } from "./helpers.js";
 
@@ -26,11 +27,12 @@ test("sitemap.xml: every indexable page in every language, each with all its alt
   assert.equal(res.status, 200);
   assert.match(res.headers.get("content-type") ?? "", /^application\/xml/);
   const body = await res.text();
-  assert.equal(body, sitemapXml(SITE));
-  assert.equal(body.match(/<url>/g)?.length, INDEXABLE_PATHS.length * LANGS.length);
+  const paths = sitemapPaths(world());
+  assert.equal(body, sitemapXml(SITE, paths));
+  assert.equal(body.match(/<url>/g)?.length, paths.length * LANGS.length);
   assert.match(body, new RegExp(`<loc>${SITE}/</loc>`));
   assert.match(body, new RegExp(`<loc>${SITE}/faq\\?lang=pt_BR</loc>`));
-  assert.equal(body.match(/hreflang="x-default"/g)?.length, INDEXABLE_PATHS.length * LANGS.length);
+  assert.equal(body.match(/hreflang="x-default"/g)?.length, paths.length * LANGS.length);
   assert.doesNotMatch(body, /\/play\/|\/account|\/login/);
 });
 

@@ -33,6 +33,12 @@ COPY --chown=root:root server/migrations ./migrations
 # Location picklists (GeoNames, CC BY 4.0), built by scripts/build-geo.ts and committed.
 COPY --chown=root:root server/data ./data
 COPY --chown=root:root data/shared/career_rules.json data/shared/season_report.schema.json data/shared/map.json /data/shared/
+# The game's world for the league, club and school pages (src/world/world.ts reads ../../../data from dist/world).
+COPY --chown=root:root data/shared/schools.json data/shared/city_names.json /data/shared/
+COPY --chown=root:root data/packs/1993-94/clubs /data/packs/1993-94/clubs
+COPY --chown=root:root data/packs/1993-94/competitions /data/packs/1993-94/competitions
+COPY --chown=root:root data/packs/1993-94/players /data/packs/1993-94/players
+COPY --chown=root:root data/packs/1993-94/schools /data/packs/1993-94/schools
 # Runs as the image's unprivileged `node` user; nothing under /app is writable by it, and the app writes no files,
 # so the container can run with a read-only root filesystem (compose: read_only: true, cap_drop: [ALL]).
 USER node

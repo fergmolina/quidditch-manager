@@ -56,7 +56,7 @@ export interface PageOptions {
   head?: HtmlValue;
   noindex?: boolean;
   bare?: boolean;
-  /** An indexable page (one of seo.ts INDEXABLE_PATHS): implies noindex false. */
+  /** A public page with canonical, alternates and Open Graph: indexable unless `seo.noindex` (then noindex, follow). */
   seo?: SeoMeta;
   titleAbsolute?: boolean;
 }
@@ -64,8 +64,8 @@ export interface PageOptions {
 export async function page(c: C, o: PageOptions): Promise<Response> {
   const v = await getViewer(c).catch(() => null);
   const noindex = o.seo ? false : (o.noindex ?? true);
-  // security.ts marks every other path noindex; an indexable page says so itself.
-  if (!noindex) c.header("X-Robots-Tag", "index, follow");
+  // security.ts marks every other path noindex, nofollow; a public page says what it is itself.
+  if (o.seo) c.header("X-Robots-Tag", o.seo.noindex ? "noindex, follow" : "index, follow");
   const html = layout({
     lang: c.get("lang"),
     t: tOf(c),

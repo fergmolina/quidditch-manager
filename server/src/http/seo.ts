@@ -2,6 +2,7 @@ import type { Hono } from "hono";
 import { html, trustedHtml, type SafeHtml } from "./html.js";
 import { bcp47, DEFAULT_LANG, LANGS, type Lang } from "../i18n/i18n.js";
 import type { AppEnv } from "../types.js";
+import { world, type World } from "../world/world.js";
 
 /**
  * Search-engine plumbing for the public pages. One URL per language: the default language (English) lives at the bare
@@ -10,8 +11,23 @@ import type { AppEnv } from "../types.js";
  * with the bare path as x-default.
  */
 
-/** The pages search engines may index, in sitemap order. Everything else sends `noindex` (page() and security.ts). */
+/** The fixed pages search engines may index, in sitemap order. Everything else sends `noindex` (page() and security.ts). */
 export const INDEXABLE_PATHS = ["/", "/faq", "/ranking", "/privacy", "/terms"] as const;
+
+/**
+ * Every path in the sitemap: the fixed pages, then the world pages (the index, every league and school, and the clubs
+ * the books name). Invented clubs have pages too, linked from their league, but `noindex, follow`: 159 near-identical
+ * pages in 10 languages would spend a young domain's crawl budget on thin content.
+ */
+export function sitemapPaths(w: World): string[] {
+  return [
+    ...INDEXABLE_PATHS,
+    "/world",
+    ...w.leagues.map((l) => `/leagues/${l.slug}`),
+    ...w.schools.map((s) => `/schools/${s.slug}`),
+    ...[...w.clubs.values()].filter((c) => c.source === "canon").map((c) => `/clubs/${c.slug}`),
+  ];
+}
 
 /** Paths kept out of crawlers' way; /admin is left out on purpose: listing it would advertise it (it 404s). */
 const ROBOTS_DISALLOW = ["/account", "/api/", "/auth/", "/login", "/register", "/pending", "/play/"];
@@ -37,8 +53,10 @@ export function langUrl(path: string, lang: Lang, siteUrl = ""): string {
 }
 
 export interface SeoMeta {
-  /** One of INDEXABLE_PATHS. */
+  /** The page's path without the query (one of sitemapPaths, or an invented club's page). */
   path: string;
+  /** Rendered with canonical and alternates, but `noindex, follow`: crawlers follow its links, never list it. */
+  noindex?: boolean;
   /** ≤ 160 characters: results pages and link previews cut the rest. None: the engines pick a snippet. */
   description?: string;
   /** schema.org objects, written as JSON-LD. */
@@ -90,11 +108,11 @@ export function robotsTxt(siteUrl: string): string {
 }
 
 /** Every indexable page in every language, each entry listing all its alternates (what Google asks of a sitemap). */
-export function sitemapXml(siteUrl: string): string {
+export function sitemapXml(siteUrl: string, paths: readonly string[]): string {
   const esc = (s: string) => s.replace(/&/g, "&amp;");
   const alternates = (path: string) =>
     [...LANGS.map((l) => `    <xhtml:link rel="alternate" hreflang="${bcp47(l)}" href="${esc(langUrl(path, l, siteUrl))}"/>`), `    <xhtml:link rel="alternate" hreflang="x-default" href="${esc(siteUrl + path)}"/>`].join("\n");
-  const urls = INDEXABLE_PATHS.flatMap((path) => LANGS.map((l) => `  <url>\n    <loc>${esc(langUrl(path, l, siteUrl))}</loc>\n${alternates(path)}\n  </url>`));
+  const urls = paths.flatMap((path) => LANGS.map((l) => `  <url>\n    <loc>${esc(langUrl(path, l, siteUrl))}</loc>\n${alternates(path)}\n  </url>`));
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urls.join("\n")}
@@ -112,7 +130,7 @@ export function registerSeoRoutes(app: Hono<AppEnv>): void {
   app.get("/sitemap.xml", (c) => {
     c.header("Cache-Control", PUBLIC_HOUR);
     c.header("Content-Type", "application/xml; charset=utf-8");
-    return c.body(sitemapXml(c.get("deps").config.siteUrl));
+    return c.body(sitemapXml(c.get("deps").config.siteUrl, sitemapPaths(world())));
   });
   // IndexNow (Bing, Yandex, Seznam, Naver; Bing feeds ChatGPT search, Copilot and DuckDuckGo): the engines check that
   // /<key>.txt holds the key before taking a submission (deploy/indexnow.sh). The key is public by design.

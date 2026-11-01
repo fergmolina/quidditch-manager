@@ -76,6 +76,19 @@ Markers used below: **[FILLER]** = invented content not found in the books; **[g
 
 Newest first.
 
+### 2026-11-01: v0.12.3: league, club and school pages
+
+- **The game's world on the site** (server, `src/world/world.ts`, `src/pages/world.ts`): `/world` lists the 20
+  leagues and 11 wizarding schools; `/leagues/<slug>` the clubs of a league (colours, city in the page language,
+  founding year, league titles); `/clubs/<slug>` a club's facts, rivals, the game's encyclopedia text and the canon
+  players; `/schools/<slug>` the four houses with their colours and canon students. Everything comes from the data
+  pack and the game's own translation keys (`gen:i18n` now keeps `country.*`, `comp.*`, `club.*`, `school.*`,
+  `house.*`, `pos.*`); records from the books and invented ones are labelled. The 159 invented clubs are
+  `noindex, follow` and stay out of the sitemap, which now lists 72 pages in 10 languages. The image copies the pack
+  files it reads.
+- **In-game feedback link** prefers `application/config/site_url` over the page's origin, so a browser copy hosted
+  elsewhere (itch.io) links to the site's form.
+
 ### 2026-10-29: v0.12.2: search engines and the public site
 
 - **Search engines** (server, `src/http/seo.ts`). `/robots.txt` (accounts, API and the game page kept out, sitemap

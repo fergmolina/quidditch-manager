@@ -3103,3 +3103,29 @@ web.faq.a_langs,"Dix : anglais, espagnol, allemand, français, italien, portugai
 web.faq.q_code,Est-il open source ?
 web.faq.a_code,"Oui, sous licence MIT sur GitHub, où vous pouvez aussi signaler des bugs et proposer des corrections du canon."
 web.og.image_alt,"Quidditch Manager, un manager de Quidditch fidèle aux livres"
+web.nav.world,Championnats et clubs
+web.world.title,Le monde du Quidditch
+web.world.intro,"Les championnats, clubs et écoles de sorcellerie de Quidditch Manager lors de la saison 1993-94. Ceux que citent les livres sont signalés ; les autres ont été inventés pour le jeu."
+web.world.leagues,Championnats
+web.world.schools,Écoles de sorcellerie
+web.world.n_clubs,{n} clubs
+web.world.source_canon,Dans les livres
+web.world.source_filler,Inventé pour le jeu
+web.world.club_filler_note,"Les livres ne citent pas ce club : son nom, sa ville, ses couleurs, son histoire et son style ont été inventés pour le jeu."
+web.world.school_filler_note,Les livres ne citent pas cette école : elle a été inventée pour le jeu.
+web.world.colors,Couleurs
+web.world.rivals,Rivaux
+web.world.manager,Manager
+web.world.league,Championnat
+web.world.countries,Pays
+web.world.country,Pays
+web.world.city,Ville
+web.world.canon_players,Joueurs cités dans les livres
+web.world.houses,Maisons
+web.world.club_cta,Dirigez {club} dans Quidditch Manager : c'est gratuit et ça se joue dans votre navigateur.
+web.world.school_cta,{school} : dirigez l'une de ses maisons dans Quidditch Manager. C'est gratuit et ça se joue dans votre navigateur.
+web.world.back,"Tous les championnats, clubs et écoles"
+web.seo.world_description,"Les {leagues} championnats, {clubs} clubs et {schools} écoles de sorcellerie de Quidditch Manager, de la Ligue britannique et irlandaise à Poudlard, Beauxbâtons et Durmstrang."
+web.seo.league_description,"{league} : ses {n} clubs, d'où ils viennent et combien de titres ils ont, dans Quidditch Manager, le jeu de gestion de Quidditch gratuit."
+web.seo.club_description,"{club} ({city}, {league}) : histoire, couleurs et joueurs du club dans Quidditch Manager."
+web.seo.school_description,"{school} : ses quatre maisons et leur Coupe de Quidditch dans Quidditch Manager, le jeu de gestion de Quidditch gratuit."

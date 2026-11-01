@@ -30,7 +30,7 @@ ${s.downloadsUrl ? html`<p class="muted"><a href="${s.downloadsUrl}" rel="noopen
 <section class="card features">
 <h2>${t("web.landing.features_title")}</h2>
 ${FEATURES.map((f) => html`<h3>${t(`web.landing.f_${f}_title`)}</h3>
-<p>${t(`web.landing.f_${f}_text`)}</p>
+<p>${t(`web.landing.f_${f}_text`)}${f === "world" || f === "schools" ? html` <a href="/world">${t("web.nav.world")} →</a>` : ""}</p>
 `)}
 </section>
 <section class="card shots">

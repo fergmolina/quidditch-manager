@@ -7,7 +7,8 @@
  *   npm run gen:i18n -- --extra keys.json    # also merge pending keys ({"key": [es, en, …, zh_CN]}) not yet in the CSV
  *   npm run gen:i18n -- --lenient            # report problems but still write the file (local dev only)
  *
- * Kept: every `web.*` key plus a few shared ones (SHARED_KEYS). The build FAILS when a `web.*` key is empty in one
+ * Kept: every `web.*` key, a few shared ones (SHARED_KEYS) and the game's world names and texts the league, club and
+ * school pages show (WORLD_PREFIXES). The build FAILS when a `web.*` key is empty in one
  * of the 10 languages or its `{placeholders}` differ from the English text. Note: tools/merge_translations.py fills
  * missing translations with English silently, so run tools/check_translation.py for each language before merging.
  */
@@ -16,7 +17,8 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { GENERATED_STRINGS_PATH, LANGS, placeholders, type Lang, type Strings } from "../src/i18n/i18n.js";
 
-export const SHARED_KEYS = ["ui.app_title", "ui.app_subtitle"];
+export const SHARED_KEYS = ["ui.app_title", "ui.app_subtitle", "ui.founded", "ui.league_titles", "ui.european_cups", "ui.col.club"];
+export const WORLD_PREFIXES = ["country.", "region.", "comp.", "club.", "school.", "house.", "pos."];
 const here = dirname(fileURLToPath(import.meta.url));
 export const DEFAULT_CSV = resolve(here, "../../locale/strings.csv");
 
@@ -81,7 +83,7 @@ export function tableFromJson(obj: unknown): KeyTable {
 }
 
 export function wanted(key: string): boolean {
-  return key.startsWith("web.") || SHARED_KEYS.includes(key);
+  return key.startsWith("web.") || SHARED_KEYS.includes(key) || WORLD_PREFIXES.some((p) => key.startsWith(p));
 }
 
 /** Problems with a key's 10 texts: empty columns and placeholder mismatches against English. */

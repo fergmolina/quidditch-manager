@@ -3103,3 +3103,29 @@ web.faq.a_langs,"Tien: Engels, Spaans, Duits, Frans, Italiaans, Braziliaans Port
 web.faq.q_code,Is het open source?
 web.faq.a_code,"Ja, onder de MIT-licentie op GitHub, waar je ook fouten kunt melden en correcties op de canon kunt voorstellen."
 web.og.image_alt,"Quidditch Manager, een Zwerkbalmanager trouw aan de boeken"
+web.nav.world,Competities en clubs
+web.world.title,De wereld van Zwerkbal
+web.world.intro,"De competities, clubs en toverscholen van Quidditch Manager in het seizoen 1993-94. Wat in de boeken voorkomt, is gemarkeerd; de rest is voor het spel bedacht."
+web.world.leagues,Competities
+web.world.schools,Toverscholen
+web.world.n_clubs,{n} clubs
+web.world.source_canon,Uit de boeken
+web.world.source_filler,Voor het spel bedacht
+web.world.club_filler_note,"De boeken noemen deze club niet: naam, stad, kleuren, geschiedenis en speelstijl zijn voor het spel bedacht."
+web.world.school_filler_note,De boeken noemen deze school niet: ze is voor het spel bedacht.
+web.world.colors,Kleuren
+web.world.rivals,Rivalen
+web.world.manager,Manager
+web.world.league,Competitie
+web.world.countries,Landen
+web.world.country,Land
+web.world.city,Stad
+web.world.canon_players,Spelers uit de boeken
+web.world.houses,Afdelingen
+web.world.club_cta,Leid {club} in Quidditch Manager: het is gratis en je speelt het in je browser.
+web.world.school_cta,Leid een afdeling van {school} in Quidditch Manager: het is gratis en je speelt het in je browser.
+web.world.back,"Alle competities, clubs en scholen"
+web.seo.world_description,"De {leagues} competities, {clubs} clubs en {schools} toverscholen van Quidditch Manager, van de Brits-Ierse competitie tot Zweinstein, Beauxbatons en Klammfels."
+web.seo.league_description,"{league}: de {n} clubs, waar ze vandaan komen en hoeveel titels ze hebben, in Quidditch Manager, het gratis Zwerkbalmanagerspel."
+web.seo.club_description,"{club} ({city}), Zwerkbalclub in de {league}: geschiedenis, kleuren en spelers in Quidditch Manager."
+web.seo.school_description,"{school}: de vier afdelingen en hun Zwerkbalcup in Quidditch Manager, het gratis Zwerkbalmanagerspel."

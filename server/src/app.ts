@@ -14,6 +14,7 @@ import { forbidden, registerAuthRoutes } from "./routes/auth.js";
 import { registerApiRoutes, registerHealth } from "./routes/api.js";
 import { registerDevPlay } from "./routes/dev-play.js";
 import { registerPageRoutes } from "./routes/pages.js";
+import { registerWorldRoutes } from "./routes/world.js";
 import type { AppDeps, AppEnv } from "./types.js";
 
 export const MAX_BODY_BYTES = 32 * 1024;
@@ -61,6 +62,7 @@ export function createApp(deps: AppDeps, opts: CreateAppOptions = {}): Hono<AppE
   registerApiRoutes(app, config.sessionRatePerMinute === null ? null : new BurstLimiter({ limit: config.sessionRatePerMinute, now: deps.now }));
   registerSeoRoutes(app);
   registerPageRoutes(app, { assetVersion: ASSET_VERSION, downloadsUrl: config.downloadsUrl });
+  registerWorldRoutes(app);
   registerAuthRoutes(app);
   for (const m of [...MODULES, ...(opts.modules ?? [])]) m(app);
   if (config.devPlayDir) registerDevPlay(app, config.devPlayDir, config.devPlayOpen);

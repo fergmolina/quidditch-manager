@@ -34,6 +34,10 @@ data/
     world_cup_history.json
 ```
 
+The website's league, club and school pages (`server/src/world/world.ts`) read the pack's clubs, competitions, players
+and schools plus `shared/schools.json` and `shared/city_names.json`, so a change there also shows on the site after the
+next deploy.
+
 `SimLoader.load_all(pack)` reads everything under `shared/` plus one pack folder. It loads every `*.json` file in `clubs/`, `players/`, `competitions/`, `schools/` and `shared/names/`, so you add a record by dropping in a new file. Anything the pack doesn't supply (filler clubs, squads, youth players, schools without canon students) is generated deterministically at game start.
 
 ## Conventions

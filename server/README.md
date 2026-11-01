@@ -65,7 +65,7 @@ docker rm -f qm-test-pg
 docker build -f server/Dockerfile -t qm-api .     # from the repository root
 ```
 
-- The build context is the repository root, because the image generates `generated/strings.json` itself from `locale/strings.csv`, which sits next to `server/`, and copies `data/shared/career_rules.json` and `data/shared/season_report.schema.json`, which `src/career/report.ts` shares with the game, and `data/shared/map.json`, the map frames `src/pages/ranking.ts` shares with it. `server/Dockerfile.dockerignore` keeps the context down to the files the Dockerfile copies.
+- The build context is the repository root, because the image generates `generated/strings.json` itself from `locale/strings.csv`, which sits next to `server/`, and copies `data/shared/career_rules.json` and `data/shared/season_report.schema.json`, which `src/career/report.ts` shares with the game, `data/shared/map.json`, the map frames `src/pages/ranking.ts` shares with it, and the clubs, competitions, players and schools of `data/packs/1993-94` plus `data/shared/schools.json` and `city_names.json`, which the world pages read. `server/Dockerfile.dockerignore` keeps the context down to the files the Dockerfile copies.
 - Build with BuildKit, the default builder since Docker 23: the classic builder ignores `server/Dockerfile.dockerignore` and sends the whole repository as the context.
 - The image runs as the unprivileged `node` user and writes no files. Run it with `read_only: true`, a tmpfs on `/tmp`, `cap_drop: [ALL]` and `no-new-privileges`.
 
@@ -104,6 +104,7 @@ Names only. The values live in the server's `.env` (see `deploy/env.example`). P
 |---|---|---|
 | `/` | GET | Landing page (features, captures, saves). "Play in the browser" leads to `/play/`, `/register?next=/play/` or `/login?next=/play/`. |
 | `/faq` | GET | Frequently asked questions, with FAQPage JSON-LD. |
+| `/world`, `/leagues/<slug>`, `/clubs/<slug>`, `/schools/<slug>` | GET | The game's world from the data pack (`src/world/world.ts`): 20 leagues, 194 clubs, 11 schools with their houses, and the canon players and students. Only data and the game's own translation keys (`country.*`, `comp.*`, `club.*`, `house.*`, `pos.*`, kept by `gen:i18n` through `WORLD_PREFIXES`); canon and invented records are labelled. Invented clubs are `noindex, follow` and stay out of the sitemap. |
 | `/robots.txt`, `/sitemap.xml` | GET | For crawlers (`src/http/seo.ts`): the sitemap lists every indexable page (`INDEXABLE_PATHS`) in all 10 languages with hreflang alternates. `public, max-age=3600`. |
 | `/<INDEXNOW_KEY>.txt` | GET | The IndexNow key, when configured; any other root `.txt` is a 404. |
 | `/login` | GET | Google button, email form and `?error=` messages. Shows a notice when already signed in. |
@@ -132,7 +133,7 @@ Names only. The values live in the server's `.env` (see `deploy/env.example`). P
 | `/healthz` | GET | Runs `select 1`. |
 | `/static/*` | GET | `site.css`, `register.js`, fonts (SIL OFL, licence files next to them), logo, icon, the landing captures and the link-preview image (`tools/make_site_images.sh`). |
 
-Indexable pages (`/`, `/faq`, `/ranking`, `/privacy`, `/terms`) pass `seo` to `page()`: `X-Robots-Tag: index, follow`,
+Indexable pages (`/`, `/faq`, `/ranking`, `/privacy`, `/terms` and the world pages) pass `seo` to `page()`: `X-Robots-Tag: index, follow`,
 a meta description, a canonical URL for the language the page was rendered in (English at the bare path, the others
 at `?lang=xx`), the 10 hreflang alternates plus x-default, Open Graph and Twitter tags, and optional JSON-LD. Every
 other page is `noindex, nofollow`.

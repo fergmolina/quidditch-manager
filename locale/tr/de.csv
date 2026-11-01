@@ -3103,3 +3103,29 @@ web.faq.a_langs,"In zehn: Englisch, Spanisch, Deutsch, Französisch, Italienisch
 web.faq.q_code,Ist es Open Source?
 web.faq.a_code,"Ja, unter der MIT-Lizenz auf GitHub, wo du auch Fehler melden und Korrekturen am Kanon vorschlagen kannst."
 web.og.image_alt,"Quidditch Manager, ein Quidditch-Manager, treu nach den Büchern"
+web.nav.world,Ligen und Vereine
+web.world.title,Die Welt des Quidditch
+web.world.intro,"Die Ligen, Vereine und Zauberschulen von Quidditch Manager in der Saison 1993-94. Die in den Büchern genannten sind markiert; der Rest wurde für das Spiel erfunden."
+web.world.leagues,Ligen
+web.world.schools,Zauberschulen
+web.world.n_clubs,{n} Vereine
+web.world.source_canon,Aus den Büchern
+web.world.source_filler,Für das Spiel erfunden
+web.world.club_filler_note,"Die Bücher nennen diesen Verein nicht: Name, Stadt, Farben, Geschichte und Spielstil wurden für das Spiel erfunden."
+web.world.school_filler_note,Die Bücher nennen diese Schule nicht: Sie wurde für das Spiel erfunden.
+web.world.colors,Farben
+web.world.rivals,Rivalen
+web.world.manager,Manager
+web.world.league,Liga
+web.world.countries,Länder
+web.world.country,Land
+web.world.city,Stadt
+web.world.canon_players,Spieler aus den Büchern
+web.world.houses,Häuser
+web.world.club_cta,Übernimm {club} in Quidditch Manager: Es ist kostenlos und läuft in deinem Browser.
+web.world.school_cta,{school}: Leite eines der Häuser in Quidditch Manager. Es ist kostenlos und läuft in deinem Browser.
+web.world.back,"Alle Ligen, Vereine und Schulen"
+web.seo.world_description,"Die {leagues} Ligen, {clubs} Vereine und {schools} Zauberschulen von Quidditch Manager, von der Britischen und Irischen Liga bis Hogwarts, Beauxbatons und Durmstrang."
+web.seo.league_description,"{league}: die {n} Vereine, woher sie kommen und wie viele Titel sie haben, in Quidditch Manager, dem kostenlosen Quidditch-Managerspiel."
+web.seo.club_description,"{club} ({city}, {league}): Geschichte, Farben und Spieler des Vereins in Quidditch Manager."
+web.seo.school_description,"{school}: die vier Häuser und ihr Quidditch-Pokal in Quidditch Manager, dem kostenlosen Quidditch-Managerspiel."

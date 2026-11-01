@@ -3195,3 +3195,29 @@ web.faq.a_langs,"En diez: español, inglés, alemán, francés, italiano, portug
 web.faq.q_code,¿El código es abierto?,Is it open source?
 web.faq.a_code,"Sí, con licencia MIT en GitHub, donde también podés reportar errores y proponer correcciones al canon.","Yes, under the MIT licence on GitHub, where you can also report bugs and suggest canon corrections."
 web.og.image_alt,"Quidditch Manager, un mánager de Quidditch fiel a los libros","Quidditch Manager, a Quidditch manager true to the books"
+web.nav.world,Ligas y clubes,Leagues and clubs
+web.world.title,El mundo del Quidditch,The world of Quidditch
+web.world.intro,"Las ligas, los clubes y los colegios de magia de Quidditch Manager en la temporada 1993-94. Los que nombran los libros están marcados; el resto se inventó para el juego.","The leagues, clubs and wizarding schools of Quidditch Manager in the 1993-94 season. Those the books name are marked; the rest were invented for the game."
+web.world.leagues,Ligas,Leagues
+web.world.schools,Colegios de magia,Wizarding schools
+web.world.n_clubs,{n} clubes,{n} clubs
+web.world.source_canon,De los libros,From the books
+web.world.source_filler,Inventado para el juego,Invented for the game
+web.world.club_filler_note,"Los libros no nombran a este club: su nombre, ciudad, colores, historia y estilo se inventaron para el juego.","The books don't name this club: its name, city, colours, history and style were invented for the game."
+web.world.school_filler_note,Los libros no nombran a este colegio: se inventó para el juego.,The books don't name this school: it was invented for the game.
+web.world.colors,Colores,Colours
+web.world.rivals,Rivales,Rivals
+web.world.manager,Mánager,Manager
+web.world.league,Liga,League
+web.world.countries,Países,Countries
+web.world.country,País,Country
+web.world.city,Ciudad,City
+web.world.canon_players,Jugadores de los libros,Players from the books
+web.world.houses,Casas,Houses
+web.world.club_cta,Dirigí a {club} en Quidditch Manager: es gratis y se juega en el navegador.,Take charge of {club} in Quidditch Manager: it's free and plays in your browser.
+web.world.school_cta,Dirigí una casa de {school} en Quidditch Manager: es gratis y se juega en el navegador.,Manage a house of {school} in Quidditch Manager: it's free and plays in your browser.
+web.world.back,"Todas las ligas, clubes y colegios","All leagues, clubs and schools"
+web.seo.world_description,"Las {leagues} ligas, los {clubs} clubes y los {schools} colegios de magia de Quidditch Manager, de la Liga de Gran Bretaña e Irlanda a Hogwarts, Beauxbatons y Durmstrang.","The {leagues} leagues, {clubs} clubs and {schools} wizarding schools of Quidditch Manager, from the British and Irish League to Hogwarts, Beauxbatons and Durmstrang."
+web.seo.league_description,"{league}: sus {n} clubes, de dónde son y cuántos títulos tienen, en Quidditch Manager, el mánager de Quidditch gratis.","{league}: its {n} clubs, where they come from and how many titles they have, in Quidditch Manager, the free Quidditch management game."
+web.seo.club_description,"{club} ({city}), club de Quidditch de la {league}: historia, colores y jugadores en Quidditch Manager.","{club} ({city}), a Quidditch club in the {league}: history, colours and players in Quidditch Manager."
+web.seo.school_description,"{school}: sus cuatro casas y su Copa de Quidditch en Quidditch Manager, el mánager de Quidditch gratis.","{school}: its four houses and their Quidditch Cup in Quidditch Manager, the free Quidditch management game."

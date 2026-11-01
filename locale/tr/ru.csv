@@ -3103,3 +3103,29 @@ web.faq.a_langs,"На десяти: английском, испанском, н
 web.faq.q_code,У игры открытый исходный код?
 web.faq.a_code,"Да, по лицензии MIT на GitHub, где также можно сообщать об ошибках и предлагать исправления по канону."
 web.og.image_alt,"Quidditch Manager, менеджер по квиддичу, верный книгам"
+web.nav.world,Лиги и клубы
+web.world.title,Мир квиддича
+web.world.intro,"Лиги, клубы и школы волшебства Quidditch Manager в сезоне 1993-94. Упомянутые в книгах отмечены, остальные придуманы для игры."
+web.world.leagues,Лиги
+web.world.schools,Школы волшебства
+web.world.n_clubs,клубов: {n}
+web.world.source_canon,Из книг
+web.world.source_filler,Придумано для игры
+web.world.club_filler_note,"В книгах этот клуб не упоминается: название, город, цвета, история и стиль придуманы для игры."
+web.world.school_filler_note,В книгах эта школа не упоминается: она придумана для игры.
+web.world.colors,Цвета
+web.world.rivals,Соперники
+web.world.manager,Менеджер
+web.world.league,Лига
+web.world.countries,Страны
+web.world.country,Страна
+web.world.city,Город
+web.world.canon_players,Игроки из книг
+web.world.houses,Факультеты
+web.world.club_cta,"Возглавьте клуб {club} в Quidditch Manager: это бесплатно, играть можно прямо в браузере."
+web.world.school_cta,"{school}: возглавьте один из факультетов в Quidditch Manager. Это бесплатно, играть можно прямо в браузере."
+web.world.back,"Все лиги, клубы и школы"
+web.seo.world_description,"Лиги ({leagues}), клубы ({clubs}) и школы волшебства ({schools}) Quidditch Manager — от Британо-ирландской лиги до Хогвартса, Шармбатона и Дурмстранга."
+web.seo.league_description,"{league}: все клубы ({n}), откуда они и сколько у них титулов, в Quidditch Manager, бесплатном менеджере по квиддичу."
+web.seo.club_description,"Клуб {club} ({city}, {league}): история, цвета и игроки в Quidditch Manager."
+web.seo.school_description,"{school}: четыре факультета и их Кубок по квиддичу в Quidditch Manager, бесплатном менеджере по квиддичу."

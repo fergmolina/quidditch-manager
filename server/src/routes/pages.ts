@@ -11,7 +11,7 @@ import { staticUrl } from "../pages/layout.js";
 import type { AppEnv } from "../types.js";
 
 /** Where "Play" leads: the game for a complete profile, else the next step (sign in, register, pending). */
-function playHrefFor(c: Context<AppEnv>, v: SessionUser | null): string {
+export function playHrefFor(c: Context<AppEnv>, v: SessionUser | null): string {
   return v ? pathForStatus(viewerStatus(c, v), "/play/") : "/login?next=%2Fplay%2F";
 }
 

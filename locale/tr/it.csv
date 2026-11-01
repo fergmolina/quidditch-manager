@@ -3103,3 +3103,29 @@ web.faq.a_langs,"Dieci: inglese, spagnolo, tedesco, francese, italiano, portoghe
 web.faq.q_code,È open source?
 web.faq.a_code,"Sì, con licenza MIT su GitHub, dove puoi anche segnalare errori e proporre correzioni al canone."
 web.og.image_alt,"Quidditch Manager, un manageriale di Quidditch fedele ai libri"
+web.nav.world,Campionati e club
+web.world.title,Il mondo del Quidditch
+web.world.intro,"I campionati, i club e le scuole di magia di Quidditch Manager nella stagione 1993-94. Quelli citati nei libri sono segnalati; gli altri sono stati inventati per il gioco."
+web.world.leagues,Campionati
+web.world.schools,Scuole di magia
+web.world.n_clubs,{n} club
+web.world.source_canon,Dai libri
+web.world.source_filler,Inventato per il gioco
+web.world.club_filler_note,"I libri non nominano questo club: nome, città, colori, storia e stile sono stati inventati per il gioco."
+web.world.school_filler_note,I libri non nominano questa scuola: è stata inventata per il gioco.
+web.world.colors,Colori
+web.world.rivals,Rivali
+web.world.manager,Allenatore
+web.world.league,Campionato
+web.world.countries,Paesi
+web.world.country,Paese
+web.world.city,Città
+web.world.canon_players,Giocatori dei libri
+web.world.houses,Case
+web.world.club_cta,Guida {club} in Quidditch Manager: è gratis e si gioca nel browser.
+web.world.school_cta,{school}: guida una delle sue Case in Quidditch Manager. È gratis e si gioca nel browser.
+web.world.back,"Tutti i campionati, i club e le scuole"
+web.seo.world_description,"I {leagues} campionati, i {clubs} club e le {schools} scuole di magia di Quidditch Manager, dalla Lega di Gran Bretagna e Irlanda a Hogwarts, Beauxbatons e Durmstrang."
+web.seo.league_description,"{league}: i suoi {n} club, da dove vengono e quanti titoli hanno, in Quidditch Manager, il gioco manageriale di Quidditch gratis."
+web.seo.club_description,"{club} ({city}, {league}): storia, colori e giocatori del club in Quidditch Manager."
+web.seo.school_description,"{school}: le sue quattro Case e la loro Coppa del Quidditch in Quidditch Manager, il gioco manageriale di Quidditch gratis."

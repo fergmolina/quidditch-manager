@@ -62,7 +62,7 @@ export function layout(o: LayoutOptions): SafeHtml {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-${o.noindex ? trustedHtml('<meta name="robots" content="noindex, nofollow">\n') : ""}<title>${title}</title>
+${o.noindex ? trustedHtml('<meta name="robots" content="noindex, nofollow">\n') : o.seo?.noindex ? trustedHtml('<meta name="robots" content="noindex, follow">\n') : ""}<title>${title}</title>
 <link rel="stylesheet" href="${staticUrl("site.css")}">
 <link rel="icon" type="image/png" href="${staticUrl("icon.png")}">
 ${seo}${o.head ?? ""}
@@ -77,7 +77,7 @@ ${o.body}
 </main>
 <footer>
 <nav aria-label="${t("web.lang.switch")}"><ul class="langs">${langs}</ul></nav>
-<p><a href="/faq">${t("web.nav.faq")}</a> · <a href="/privacy">${t("web.footer.privacy")}</a> · <a href="/terms">${t("web.footer.terms")}</a> · <a href="/feedback">${t("web.footer.feedback")}</a></p>
+<p><a href="/world">${t("web.nav.world")}</a> · <a href="/faq">${t("web.nav.faq")}</a> · <a href="/privacy">${t("web.footer.privacy")}</a> · <a href="/terms">${t("web.footer.terms")}</a> · <a href="/feedback">${t("web.footer.feedback")}</a></p>
 <p>${t("web.footer.fan_project")}</p>
 </footer>
 </body>

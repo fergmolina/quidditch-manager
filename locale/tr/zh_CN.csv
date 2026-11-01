@@ -3103,3 +3103,29 @@ web.faq.a_langs,十种：英语、西班牙语、德语、法语、意大利语�
 web.faq.q_code,它是开源的吗？
 web.faq.a_code,是的，以 MIT 许可证发布在 GitHub 上，你也可以在那里报告错误、对原著设定提出修正。
 web.og.image_alt,Quidditch Manager，一款忠于原著的魁地奇经理游戏
+web.nav.world,联赛与俱乐部
+web.world.title,魁地奇世界
+web.world.intro,Quidditch Manager 中 1993-94 赛季的联赛、俱乐部和魔法学校。原著中出现过的已作标注，其余为游戏原创。
+web.world.leagues,联赛
+web.world.schools,魔法学校
+web.world.n_clubs,{n} 家俱乐部
+web.world.source_canon,出自原著
+web.world.source_filler,游戏原创
+web.world.club_filler_note,原著中没有提到这家俱乐部：它的名称、城市、队色、历史和风格均为游戏原创。
+web.world.school_filler_note,原著中没有提到这所学校：它是游戏原创的。
+web.world.colors,队色
+web.world.rivals,宿敌
+web.world.manager,主教练
+web.world.league,联赛
+web.world.countries,国家
+web.world.country,国家
+web.world.city,城市
+web.world.canon_players,原著中的球员
+web.world.houses,学院
+web.world.club_cta,在 Quidditch Manager 中执掌{club}：免费，直接在浏览器中游玩。
+web.world.school_cta,在 Quidditch Manager 中执掌{school}的一个学院：免费，直接在浏览器中游玩。
+web.world.back,所有联赛、俱乐部和学校
+web.seo.world_description,Quidditch Manager 的 {leagues} 个联赛、{clubs} 家俱乐部和 {schools} 所魔法学校，从英国和爱尔兰联盟到霍格沃茨、布斯巴顿和德姆斯特朗。
+web.seo.league_description,{league}的 {n} 家俱乐部：来自哪里、拿过多少冠军。尽在免费魁地奇经理游戏 Quidditch Manager。
+web.seo.club_description,{club}（{city}，{league}）：历史、队色和球员，尽在 Quidditch Manager。
+web.seo.school_description,{school}的四个学院及其魁地奇杯，尽在免费魁地奇经理游戏 Quidditch Manager。

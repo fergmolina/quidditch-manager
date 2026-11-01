@@ -3103,3 +3103,29 @@ web.faq.a_langs,10言語です：英語、スペイン語、ドイツ語、フ�
 web.faq.q_code,オープンソースですか？
 web.faq.a_code,はい。GitHubでMITライセンスのもと公開されており、バグの報告や原作設定の修正の提案もできます。
 web.og.image_alt,Quidditch Manager、原作に忠実なクィディッチ監督ゲーム
+web.nav.world,リーグとクラブ
+web.world.title,クィディッチの世界
+web.world.intro,Quidditch Managerに登場する1993-94シーズンのリーグ、クラブ、魔法学校です。原作に登場するものには印が付いています。それ以外はゲームのために創作したものです。
+web.world.leagues,リーグ
+web.world.schools,魔法学校
+web.world.n_clubs,{n}クラブ
+web.world.source_canon,原作に登場
+web.world.source_filler,ゲームオリジナル
+web.world.club_filler_note,このクラブは原作には登場しません。名前、本拠地、チームカラー、歴史、スタイルはゲームのために創作したものです。
+web.world.school_filler_note,この学校は原作には登場しません。ゲームのために創作したものです。
+web.world.colors,チームカラー
+web.world.rivals,ライバル
+web.world.manager,監督
+web.world.league,リーグ
+web.world.countries,国
+web.world.country,国
+web.world.city,都市
+web.world.canon_players,原作に登場する選手
+web.world.houses,寮
+web.world.club_cta,Quidditch Managerで{club}を率いよう。無料で、ブラウザで遊べます。
+web.world.school_cta,Quidditch Managerで{school}の寮を率いよう。無料で、ブラウザで遊べます。
+web.world.back,すべてのリーグ、クラブ、学校
+web.seo.world_description,Quidditch Managerの{leagues}リーグ、{clubs}クラブ、{schools}魔法学校。イギリス・アイルランド・リーグからホグワーツ、ボーバトン、ダームストラングまで。
+web.seo.league_description,{league}の{n}クラブの本拠地とタイトル数。無料のクィディッチ監督ゲームQuidditch Managerで。
+web.seo.club_description,{club}（{city}、{league}）の歴史、チームカラー、選手。Quidditch Managerで。
+web.seo.school_description,{school}の4つの寮とクィディッチ杯。無料のクィディッチ監督ゲームQuidditch Managerで。
