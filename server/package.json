@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "@hono/node-server": "2.1.5",
-    "hono": "4.13.13",
-    "jose": "6.2.13",
+    "hono": "4.13.14",
+    "jose": "6.2.14",
     "postgres": "3.4.9",
     "zod": "4.6.7"
   },
