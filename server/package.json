@@ -20,9 +20,9 @@
     "build:geo": "tsx scripts/build-geo.ts"
   },
   "dependencies": {
-    "@hono/node-server": "2.1.5",
-    "hono": "4.13.13",
-    "jose": "6.2.13",
+    "@hono/node-server": "2.1.6",
+    "hono": "4.13.16",
+    "jose": "6.2.15",
     "postgres": "3.4.9",
     "zod": "4.6.7"
   },
