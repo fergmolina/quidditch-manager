@@ -3124,8 +3124,10 @@ web.world.canon_players,Spelers uit de boeken
 web.world.houses,Afdelingen
 web.world.club_cta,Leid {club} in Quidditch Manager: het is gratis en je speelt het in je browser.
 web.world.school_cta,Leid een afdeling van {school} in Quidditch Manager: het is gratis en je speelt het in je browser.
-web.world.back,"Alle competities, clubs en scholen"
 web.seo.world_description,"De {leagues} competities, {clubs} clubs en {schools} toverscholen van Quidditch Manager, van de Brits-Ierse competitie tot Zweinstein, Beauxbatons en Klammfels."
 web.seo.league_description,"{league}: de {n} clubs, waar ze vandaan komen en hoeveel titels ze hebben, in Quidditch Manager, het gratis Zwerkbalmanagerspel."
 web.seo.club_description,"{club} ({city}), Zwerkbalclub in de {league}: geschiedenis, kleuren en spelers in Quidditch Manager."
 web.seo.school_description,"{school}: de vier afdelingen en hun Zwerkbalcup in Quidditch Manager, het gratis Zwerkbalmanagerspel."
+web.landing.h1,"Een gratis Zwerkbalmanagerspel, trouw aan de boeken"
+web.nav.home,Zwerkbalmanagerspel
+web.nav.breadcrumb,Kruimelpad

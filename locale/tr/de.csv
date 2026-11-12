@@ -3124,8 +3124,10 @@ web.world.canon_players,Spieler aus den Büchern
 web.world.houses,Häuser
 web.world.club_cta,Übernimm {club} in Quidditch Manager: Es ist kostenlos und läuft in deinem Browser.
 web.world.school_cta,{school}: Leite eines der Häuser in Quidditch Manager. Es ist kostenlos und läuft in deinem Browser.
-web.world.back,"Alle Ligen, Vereine und Schulen"
 web.seo.world_description,"Die {leagues} Ligen, {clubs} Vereine und {schools} Zauberschulen von Quidditch Manager, von der Britischen und Irischen Liga bis Hogwarts, Beauxbatons und Durmstrang."
 web.seo.league_description,"{league}: die {n} Vereine, woher sie kommen und wie viele Titel sie haben, in Quidditch Manager, dem kostenlosen Quidditch-Managerspiel."
 web.seo.club_description,"{club} ({city}, {league}): Geschichte, Farben und Spieler des Vereins in Quidditch Manager."
 web.seo.school_description,"{school}: die vier Häuser und ihr Quidditch-Pokal in Quidditch Manager, dem kostenlosen Quidditch-Managerspiel."
+web.landing.h1,"Ein kostenloses Quidditch-Managerspiel, treu nach den Büchern"
+web.nav.home,Quidditch-Managerspiel
+web.nav.breadcrumb,Brotkrümelnavigation

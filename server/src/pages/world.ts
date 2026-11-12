@@ -18,7 +18,27 @@ function sourceTag(t: T, s: Source): SafeHtml {
   return s === "canon" ? html`<span class="tag tag-canon">${t("web.world.source_canon")}</span>` : html`<span class="tag">${t("web.world.source_filler")}</span>`;
 }
 
-const back = (t: T, href = "/world", label = t("web.world.back")) => html`<p class="muted"><a href="${href}">← ${label}</a></p>`;
+/** One step of the path from the home page to a world page: shown above the page and sent as a BreadcrumbList. */
+export interface Crumb {
+  label: string;
+  path: string;
+}
+
+/** The trail starts at the home page with the words people search for, not the site's name. */
+export const worldCrumbs = (t: T): Crumb[] => [
+  { label: t("web.nav.home"), path: "/" },
+  { label: t("web.world.title"), path: "/world" },
+];
+export const leagueCrumbs = (t: T, l: WorldLeague): Crumb[] => [...worldCrumbs(t), { label: leagueName(t, l), path: `/leagues/${l.slug}` }];
+export const schoolCrumbs = (t: T, s: WorldSchool): Crumb[] => [...worldCrumbs(t), { label: schoolName(t, s), path: `/schools/${s.slug}` }];
+export function clubCrumbs(t: T, w: World, c: WorldClub): Crumb[] {
+  const league = w.leagues.find((l) => l.id === c.leagueId);
+  return [...(league ? leagueCrumbs(t, league) : worldCrumbs(t)), { label: c.name, path: `/clubs/${c.slug}` }];
+}
+
+function crumbsNav(t: T, crumbs: Crumb[]): SafeHtml {
+  return html`<nav class="crumbs" aria-label="${t("web.nav.breadcrumb")}"><ol>${crumbs.map((c, i) => (i < crumbs.length - 1 ? html`<li><a href="${c.path}">${c.label}</a></li>` : html`<li aria-current="page">${c.label}</li>`))}</ol></nav>`;
+}
 
 function cta(t: T, text: string, playHref: string): SafeHtml {
   return html`<section class="card center">
@@ -38,7 +58,8 @@ ${players.map((p) => html`<tr><td>${p.name}</td><td>${t(`pos.${p.position}`)}</t
 export function worldIndexBody(t: T, w: World): SafeHtml {
   const leagues = [...w.leagues].sort((a, b) => leagueName(t, a).localeCompare(leagueName(t, b)));
   const schools = [...w.schools].sort((a, b) => (a.source === b.source ? 0 : a.source === "canon" ? -1 : 1));
-  return html`<section class="card world">
+  return html`${crumbsNav(t, worldCrumbs(t))}
+<section class="card world">
 <h1>${t("web.world.title")}</h1>
 <p>${t("web.world.intro")}</p>
 <h2>${t("web.world.leagues")}</h2>
@@ -57,7 +78,7 @@ export function leagueBody(t: T, w: World, l: WorldLeague, lang: Lang, playHref:
   clubs.sort((a, b) => b.leagueTitles - a.leagueTitles || a.name.localeCompare(b.name));
   // A league of book clubs gets one label; in a mixed league each book club carries its own.
   const allCanon = clubs.every((c) => c.source === "canon");
-  return html`${back(t)}
+  return html`${crumbsNav(t, leagueCrumbs(t, l))}
 <section class="card world">
 <h1>${leagueName(t, l)}</h1>
 ${allCanon ? html`<p>${sourceTag(t, "canon")}</p>` : ""}
@@ -83,7 +104,7 @@ export function clubBody(t: T, w: World, c: WorldClub, lang: Lang, playHref: str
   facts.push([t("web.world.colors"), swatch(c.colors, t("web.world.colors"))]);
   if (c.manager) facts.push([t("web.world.manager"), c.manager]);
   if (rivals.length) facts.push([t("web.world.rivals"), html`${rivals.map((r, i) => html`${i ? ", " : ""}<a href="/clubs/${r.slug}">${r.name}</a>`)}`]);
-  return html`${back(t, league ? `/leagues/${league.slug}` : "/world", league ? leagueName(t, league) : undefined)}
+  return html`${crumbsNav(t, clubCrumbs(t, w, c))}
 <section class="card world">
 <h1>${swatch(c.colors, t("web.world.colors"))} ${c.name}</h1>
 <p>${sourceTag(t, c.source)}</p>
@@ -99,7 +120,7 @@ ${cta(t, t("web.world.club_cta", { club: c.name }), playHref)}`;
 }
 
 export function schoolBody(t: T, s: WorldSchool, playHref: string): SafeHtml {
-  return html`${back(t)}
+  return html`${crumbsNav(t, schoolCrumbs(t, s))}
 <section class="card world">
 <h1>${schoolName(t, s)}</h1>
 <p class="muted">${t("web.world.country")}: ${country(t, s.countryId)}</p>

@@ -57,6 +57,17 @@ test("/world, league, club and school pages: indexable with canonical; invented 
   assert.match(school, /Harry Potter/);
 });
 
+test("world pages: a trail from the home page, the same steps as BreadcrumbList JSON-LD in the page's language", async () => {
+  const app = createApp(testDeps());
+  const body = await (await app.request("/clubs/chudley-cannons?lang=es")).text();
+  assert.match(body, /<nav class="crumbs"[^>]*><ol><li><a href="\/">Juego de mánager de Quidditch<\/a><\/li><li><a href="\/world">[^<]+<\/a><\/li><li><a href="\/leagues\/british-irish-league">[^<]+<\/a><\/li><li aria-current="page">Chudley Cannons<\/li><\/ol><\/nav>/);
+  const ld = JSON.parse(/<script type="application\/ld\+json">(.*?)<\/script>/.exec(body)![1]!) as { "@type": string; itemListElement: { position: number; name: string; item: string }[] };
+  assert.equal(ld["@type"], "BreadcrumbList");
+  assert.deepEqual(ld.itemListElement.map((e) => e.item), [`${SITE}/?lang=es`, `${SITE}/world?lang=es`, `${SITE}/leagues/british-irish-league?lang=es`, `${SITE}/clubs/chudley-cannons?lang=es`]);
+  assert.deepEqual(ld.itemListElement.map((e) => e.position), [1, 2, 3, 4]);
+  for (const p of ["/world", "/leagues/british-irish-league", "/schools/hogwarts"]) assert.match(await (await app.request(p)).text(), /<li><a href="\/">Quidditch management game<\/a><\/li>/, p);
+});
+
 test("sitemap: world index, every league and school, only the canon clubs", () => {
   const w = world();
   const paths = sitemapPaths(w);

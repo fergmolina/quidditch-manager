@@ -46,9 +46,11 @@ test("home: indexable, canonical and hreflang alternates, Open Graph, VideoGame 
   assert.match(body, new RegExp(`<link rel="alternate" hreflang="zh-CN" href="${SITE}/\\?lang=zh_CN">`));
   assert.match(body, /<meta name="description" content="[^"]+">/);
   assert.match(body, new RegExp(`<meta property="og:image" content="${SITE}/static/og.jpg\\?v=[0-9a-f]{10}">`));
-  assert.match(body, /<h1/);
-  const types = jsonLd(body).flat().map((d) => (d as { "@type": string })["@type"]);
-  assert.deepEqual(types, ["WebSite", "VideoGame"]);
+  // The H1 carries the title's words ("free Quidditch management game"), not only the game's subtitle.
+  assert.match(body, /<h1 class="lead">A free Quidditch management game, true to the books<\/h1>/);
+  const docs = jsonLd(body).flat() as { "@type": string; sameAs?: string[] }[];
+  assert.deepEqual(docs.map((d) => d["@type"]), ["WebSite", "VideoGame"]);
+  assert.ok(docs[1]!.sameAs?.some((u) => u.startsWith("https://github.com/")));
 });
 
 test("canonical follows the language the page was rendered in, not how it was chosen", async () => {

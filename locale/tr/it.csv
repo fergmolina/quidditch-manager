@@ -3124,8 +3124,10 @@ web.world.canon_players,Giocatori dei libri
 web.world.houses,Case
 web.world.club_cta,Guida {club} in Quidditch Manager: è gratis e si gioca nel browser.
 web.world.school_cta,{school}: guida una delle sue Case in Quidditch Manager. È gratis e si gioca nel browser.
-web.world.back,"Tutti i campionati, i club e le scuole"
 web.seo.world_description,"I {leagues} campionati, i {clubs} club e le {schools} scuole di magia di Quidditch Manager, dalla Lega di Gran Bretagna e Irlanda a Hogwarts, Beauxbatons e Durmstrang."
 web.seo.league_description,"{league}: i suoi {n} club, da dove vengono e quanti titoli hanno, in Quidditch Manager, il gioco manageriale di Quidditch gratis."
 web.seo.club_description,"{club} ({city}, {league}): storia, colori e giocatori del club in Quidditch Manager."
 web.seo.school_description,"{school}: le sue quattro Case e la loro Coppa del Quidditch in Quidditch Manager, il gioco manageriale di Quidditch gratis."
+web.landing.h1,"Un gioco manageriale di Quidditch gratis, fedele ai libri"
+web.nav.home,Gioco manageriale di Quidditch
+web.nav.breadcrumb,Percorso di navigazione

@@ -3216,8 +3216,10 @@ web.world.canon_players,Jugadores de los libros,Players from the books
 web.world.houses,Casas,Houses
 web.world.club_cta,Dirigí a {club} en Quidditch Manager: es gratis y se juega en el navegador.,Take charge of {club} in Quidditch Manager: it's free and plays in your browser.
 web.world.school_cta,Dirigí una casa de {school} en Quidditch Manager: es gratis y se juega en el navegador.,Manage a house of {school} in Quidditch Manager: it's free and plays in your browser.
-web.world.back,"Todas las ligas, clubes y colegios","All leagues, clubs and schools"
 web.seo.world_description,"Las {leagues} ligas, los {clubs} clubes y los {schools} colegios de magia de Quidditch Manager, de la Liga de Gran Bretaña e Irlanda a Hogwarts, Beauxbatons y Durmstrang.","The {leagues} leagues, {clubs} clubs and {schools} wizarding schools of Quidditch Manager, from the British and Irish League to Hogwarts, Beauxbatons and Durmstrang."
 web.seo.league_description,"{league}: sus {n} clubes, de dónde son y cuántos títulos tienen, en Quidditch Manager, el mánager de Quidditch gratis.","{league}: its {n} clubs, where they come from and how many titles they have, in Quidditch Manager, the free Quidditch management game."
 web.seo.club_description,"{club} ({city}), club de Quidditch de la {league}: historia, colores y jugadores en Quidditch Manager.","{club} ({city}), a Quidditch club in the {league}: history, colours and players in Quidditch Manager."
 web.seo.school_description,"{school}: sus cuatro casas y su Copa de Quidditch en Quidditch Manager, el mánager de Quidditch gratis.","{school}: its four houses and their Quidditch Cup in Quidditch Manager, the free Quidditch management game."
+web.landing.h1,"Un juego de mánager de Quidditch gratis, fiel a los libros","A free Quidditch management game, true to the books"
+web.nav.home,Juego de mánager de Quidditch,Quidditch management game
+web.nav.breadcrumb,Ruta de navegación,Breadcrumb

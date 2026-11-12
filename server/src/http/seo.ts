@@ -103,6 +103,15 @@ ${twDescription}<meta name="twitter:image" content="${o.imageUrl}">
 ${ld}`;
 }
 
+/** schema.org BreadcrumbList for a trail of `{ label, path }` steps, each URL in the page's language. */
+export function breadcrumbJsonLd(crumbs: readonly { label: string; path: string }[], lang: Lang, siteUrl: string): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: crumbs.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.label, item: langUrl(c.path, lang, siteUrl) })),
+  };
+}
+
 export function robotsTxt(siteUrl: string): string {
   return ["User-agent: *", "Allow: /", ...ROBOTS_DISALLOW.map((p) => `Disallow: ${p}`), "", `Sitemap: ${siteUrl}/sitemap.xml`, ""].join("\n");
 }

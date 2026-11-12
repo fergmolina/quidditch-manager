@@ -3124,8 +3124,10 @@ web.world.canon_players,原著中的球员
 web.world.houses,学院
 web.world.club_cta,在 Quidditch Manager 中执掌{club}：免费，直接在浏览器中游玩。
 web.world.school_cta,在 Quidditch Manager 中执掌{school}的一个学院：免费，直接在浏览器中游玩。
-web.world.back,所有联赛、俱乐部和学校
 web.seo.world_description,Quidditch Manager 的 {leagues} 个联赛、{clubs} 家俱乐部和 {schools} 所魔法学校，从英国和爱尔兰联盟到霍格沃茨、布斯巴顿和德姆斯特朗。
 web.seo.league_description,{league}的 {n} 家俱乐部：来自哪里、拿过多少冠军。尽在免费魁地奇经理游戏 Quidditch Manager。
 web.seo.club_description,{club}（{city}，{league}）：历史、队色和球员，尽在 Quidditch Manager。
 web.seo.school_description,{school}的四个学院及其魁地奇杯，尽在免费魁地奇经理游戏 Quidditch Manager。
+web.landing.h1,一款忠于原著的免费魁地奇经理游戏
+web.nav.home,魁地奇经理游戏
+web.nav.breadcrumb,面包屑导航

@@ -3124,8 +3124,10 @@ web.world.canon_players,Игроки из книг
 web.world.houses,Факультеты
 web.world.club_cta,"Возглавьте клуб {club} в Quidditch Manager: это бесплатно, играть можно прямо в браузере."
 web.world.school_cta,"{school}: возглавьте один из факультетов в Quidditch Manager. Это бесплатно, играть можно прямо в браузере."
-web.world.back,"Все лиги, клубы и школы"
 web.seo.world_description,"Лиги ({leagues}), клубы ({clubs}) и школы волшебства ({schools}) Quidditch Manager — от Британо-ирландской лиги до Хогвартса, Шармбатона и Дурмстранга."
 web.seo.league_description,"{league}: все клубы ({n}), откуда они и сколько у них титулов, в Quidditch Manager, бесплатном менеджере по квиддичу."
 web.seo.club_description,"Клуб {club} ({city}, {league}): история, цвета и игроки в Quidditch Manager."
 web.seo.school_description,"{school}: четыре факультета и их Кубок по квиддичу в Quidditch Manager, бесплатном менеджере по квиддичу."
+web.landing.h1,"Бесплатный менеджер по квиддичу, верный книгам"
+web.nav.home,Менеджер по квиддичу
+web.nav.breadcrumb,Навигационная цепочка

@@ -17,10 +17,13 @@ const SHOTS = [
 ] as const;
 const SHOT_SIZE = { width: 960, height: 576 };
 
+/** The game's other homes, so search engines and assistants take them for the same game (schema.org sameAs). */
+const ELSEWHERE = ["https://github.com/fergmolina/quidditch-manager", "https://fergmolina.itch.io/quidditch-manager"];
+
 export function landingBody(t: T, s: LandingState): SafeHtml {
   return html`<section class="card center">
 <div class="hero"><img class="logo" src="${staticUrl("logo.png")}" alt="${t("ui.app_title")}" width="420" height="210"></div>
-<h1 class="lead">${t("ui.app_subtitle")}</h1>
+<h1 class="lead">${t("web.landing.h1")}</h1>
 <p>${t("web.landing.pitch")}</p>
 <div class="actions center"><a class="btn btn-primary" href="${s.playHref}">${t("web.landing.play")}</a></div>
 <p class="muted">${t("web.landing.account_note")}</p>
@@ -69,6 +72,7 @@ export function landingJsonLd(t: T, o: { siteUrl: string; downloadsUrl: string |
       inLanguage: LANGS.map(bcp47),
       isAccessibleForFree: true,
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      sameAs: ELSEWHERE,
       ...(o.downloadsUrl ? { downloadUrl: o.downloadsUrl } : {}),
     },
   ];

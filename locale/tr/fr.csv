@@ -3124,8 +3124,10 @@ web.world.canon_players,Joueurs cités dans les livres
 web.world.houses,Maisons
 web.world.club_cta,Dirigez {club} dans Quidditch Manager : c'est gratuit et ça se joue dans votre navigateur.
 web.world.school_cta,{school} : dirigez l'une de ses maisons dans Quidditch Manager. C'est gratuit et ça se joue dans votre navigateur.
-web.world.back,"Tous les championnats, clubs et écoles"
 web.seo.world_description,"Les {leagues} championnats, {clubs} clubs et {schools} écoles de sorcellerie de Quidditch Manager, de la Ligue britannique et irlandaise à Poudlard, Beauxbâtons et Durmstrang."
 web.seo.league_description,"{league} : ses {n} clubs, d'où ils viennent et combien de titres ils ont, dans Quidditch Manager, le jeu de gestion de Quidditch gratuit."
 web.seo.club_description,"{club} ({city}, {league}) : histoire, couleurs et joueurs du club dans Quidditch Manager."
 web.seo.school_description,"{school} : ses quatre maisons et leur Coupe de Quidditch dans Quidditch Manager, le jeu de gestion de Quidditch gratuit."
+web.landing.h1,"Un jeu de gestion de Quidditch gratuit, fidèle aux livres"
+web.nav.home,Jeu de gestion de Quidditch
+web.nav.breadcrumb,Fil d'Ariane

@@ -3124,8 +3124,10 @@ web.world.canon_players,Jogadores dos livros
 web.world.houses,Casas
 web.world.club_cta,Comande {club} no Quidditch Manager: é grátis e dá para jogar no navegador.
 web.world.school_cta,{school}: comande uma das suas casas no Quidditch Manager. É grátis e dá para jogar no navegador.
-web.world.back,"Todas as ligas, clubes e escolas"
 web.seo.world_description,"As {leagues} ligas, os {clubs} clubes e as {schools} escolas de magia do Quidditch Manager, da Liga Britânica e Irlandesa a Hogwarts, Beauxbatons e Durmstrang."
 web.seo.league_description,"{league}: seus {n} clubes, de onde são e quantos títulos têm, no Quidditch Manager, o jogo de gestão de Quadribol grátis."
 web.seo.club_description,"{club} ({city}), clube de Quadribol da {league}: história, cores e jogadores no Quidditch Manager."
 web.seo.school_description,"{school}: suas quatro casas e a Taça de Quadribol no Quidditch Manager, o jogo de gestão de Quadribol grátis."
+web.landing.h1,"Um jogo de gestão de Quadribol grátis, fiel aos livros"
+web.nav.home,Jogo de gestão de Quadribol
+web.nav.breadcrumb,Trilha de navegação

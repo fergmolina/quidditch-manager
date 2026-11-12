@@ -3124,8 +3124,10 @@ web.world.canon_players,原作に登場する選手
 web.world.houses,寮
 web.world.club_cta,Quidditch Managerで{club}を率いよう。無料で、ブラウザで遊べます。
 web.world.school_cta,Quidditch Managerで{school}の寮を率いよう。無料で、ブラウザで遊べます。
-web.world.back,すべてのリーグ、クラブ、学校
 web.seo.world_description,Quidditch Managerの{leagues}リーグ、{clubs}クラブ、{schools}魔法学校。イギリス・アイルランド・リーグからホグワーツ、ボーバトン、ダームストラングまで。
 web.seo.league_description,{league}の{n}クラブの本拠地とタイトル数。無料のクィディッチ監督ゲームQuidditch Managerで。
 web.seo.club_description,{club}（{city}、{league}）の歴史、チームカラー、選手。Quidditch Managerで。
 web.seo.school_description,{school}の4つの寮とクィディッチ杯。無料のクィディッチ監督ゲームQuidditch Managerで。
+web.landing.h1,原作に忠実な無料のクィディッチ監督ゲーム
+web.nav.home,クィディッチ監督ゲーム
+web.nav.breadcrumb,パンくずリスト

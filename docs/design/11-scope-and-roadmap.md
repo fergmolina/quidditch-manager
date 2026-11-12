@@ -76,6 +76,15 @@ Markers used below: **[FILLER]** = invented content not found in the books; **[g
 
 Newest first.
 
+### 2026-11-12: v0.12.4: the home page's heading and a trail on the world pages
+
+- **Home page H1** (`web.landing.h1`) carries the title's words, "a free Quidditch management game, true to the
+  books", in the 10 languages; the game keeps its own subtitle (`ui.app_subtitle`).
+- **Trail on the world pages**: game › world › league › club (or school), above each page and as schema.org
+  `BreadcrumbList` with the URLs in the page's language. Its first step links the home page with the words people
+  search for, so the 225 world pages point at it with them.
+- The home page's `VideoGame` names the GitHub repository and the itch.io page as `sameAs`.
+
 ### 2026-11-01: v0.12.3: league, club and school pages
 
 - **The game's world on the site** (server, `src/world/world.ts`, `src/pages/world.ts`): `/world` lists the 20
